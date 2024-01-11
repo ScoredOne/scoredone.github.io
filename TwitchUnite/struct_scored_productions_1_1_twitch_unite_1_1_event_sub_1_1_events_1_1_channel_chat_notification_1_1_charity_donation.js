@@ -1,0 +1,7 @@
+var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_charity_donation =
+[
+    [ "Amount", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio0f9a5d3cd78b214ba978ebf78a9c1f86.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio0f9a5d3cd78b214ba978ebf78a9c1f86" ],
+    [ "CharityDonation", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_charity_donation.html#a45404600d44f026a1e6cf46d1fb0620b", null ],
+    [ "amount", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_charity_donation.html#a417eddba0ff46a53e93891b2bd0622c4", null ],
+    [ "charity_name", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_charity_donation.html#a1e97c8cbbc2d95acc048333e521ef2f0", null ]
+];

@@ -1,0 +1,7 @@
+var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_message =
+[
+    [ "Fragments", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_message_1_1_fragments.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_message_1_1_fragments" ],
+    [ "Message", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_message.html#aa9e044021c1c85e8798b8316a537f791", null ],
+    [ "fragments", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_message.html#a35e74e1500a3cfa928554e0a14f48c07", null ],
+    [ "text", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_message.html#a222e9553103bb2933dd15f44b0e60a9b", null ]
+];

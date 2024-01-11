@@ -1,0 +1,4 @@
+var _get_extension_configuration_segment_8cs =
+[
+    [ "ScoredProductions.TwitchUnite.API.Extensions.GetExtensionConfigurationSegment", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions_1_1_get_extension_configuration_segment.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions_1_1_get_extension_configuration_segment" ]
+];

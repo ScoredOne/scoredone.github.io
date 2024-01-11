@@ -1,0 +1,27 @@
+var struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data =
+[
+    [ "Dump", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#aa85a8033f830e333c4cba339e448cd96", null ],
+    [ "m_appEx", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a96679550adef69771c98293a4a3d14a7", null ],
+    [ "m_bgColorIndex", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a77ff30a60235ec2fe4bb31e8fb12239d", null ],
+    [ "m_colorResolution", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a7a74ce61eb6e6a6a9f707cc3b094279b", null ],
+    [ "m_commentExList", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a71af3bb5392dccd938d2dcecea83663d", null ],
+    [ "m_globalColorTable", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a29b91a1074cb920549775b66faf66804", null ],
+    [ "m_globalColorTableFlag", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a51c43c1775e9faf27b359dd890543e08", null ],
+    [ "m_graphicCtrlExList", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#aab219ad641e840b719d85603773f07ea", null ],
+    [ "m_imageBlockList", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a93db7bae2553352f5b38de561f4532fb", null ],
+    [ "m_logicalScreenHeight", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a9626db505fc1ea19021f3c2ad7949a1e", null ],
+    [ "m_logicalScreenWidth", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a76048d43ef78ab1409b7ec9c3ea39a95", null ],
+    [ "m_pixelAspectRatio", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a1968ba4f8c2d289f2a155329fb96c0a5", null ],
+    [ "m_plainTextExList", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a84b08367b130ec97f535dd5972265c5e", null ],
+    [ "m_sig0", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#aa099f76946f74fafc4c3abdfa517d6ce", null ],
+    [ "m_sig1", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a2e77b9fbe81c1bd4ac6e2d5c459c433e", null ],
+    [ "m_sig2", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a43088480d8f2dfcd13e06987f088bf04", null ],
+    [ "m_sizeOfGlobalColorTable", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a1b77fff405d0d9cba4770653f668eb7a", null ],
+    [ "m_sortFlag", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#ab08524e19b891ee5cb5aecc23ce380a9", null ],
+    [ "m_trailer", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a941f02b01df3618e4d639d468a41fde0", null ],
+    [ "m_ver0", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a197133eafaab10ac5cdd5d6f4a52149b", null ],
+    [ "m_ver1", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#af290ccec5901261d94aeff31eb1de39d", null ],
+    [ "m_ver2", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a2a513244bcec5e1def64f3c862a02c9b", null ],
+    [ "Signature", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a777313a26394cb275d3a6876e0d43d57", null ],
+    [ "Version", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html#a6653bce3adba66d03dd1b9041f2178cc", null ]
+];

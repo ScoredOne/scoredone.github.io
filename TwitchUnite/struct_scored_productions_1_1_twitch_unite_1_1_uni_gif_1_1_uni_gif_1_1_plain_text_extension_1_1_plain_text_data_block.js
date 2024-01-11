@@ -1,0 +1,5 @@
+var struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_plain_text_extension_1_1_plain_text_data_block =
+[
+    [ "m_blockSize", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_plain_text_extension_1_1_plain_text_data_block.html#aee93cdfd5dd6c3173e463d743a3bd044", null ],
+    [ "m_plainTextData", "struct_scored_productions_1_1_twitch_unite_1_1_uni_gif_1_1_uni_gif_1_1_plain_text_extension_1_1_plain_text_data_block.html#a304b12332aefa82fb53f955d27e55769", null ]
+];

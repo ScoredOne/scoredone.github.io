@@ -1,0 +1,4 @@
+var _twitch_badge_manager_8cs =
+[
+    [ "ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchBadgeManager", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager" ]
+];

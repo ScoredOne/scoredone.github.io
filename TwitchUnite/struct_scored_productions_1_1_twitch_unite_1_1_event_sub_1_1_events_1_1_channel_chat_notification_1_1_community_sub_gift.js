@@ -1,0 +1,8 @@
+var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift =
+[
+    [ "CommunitySubGift", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#a80f31445e2b5d2dcb80262dbf0e7dfa7", null ],
+    [ "cumulative_total", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#a2219699022965aed6d4833c77c000d54", null ],
+    [ "id", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#a53475ad46bc1f0a2aa3c470bf0b38335", null ],
+    [ "sub_tier", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#ac0eaaa5771e2306e18892591e9697285", null ],
+    [ "total", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#accb152969cfcd53b4b0188efc08ace3d", null ]
+];

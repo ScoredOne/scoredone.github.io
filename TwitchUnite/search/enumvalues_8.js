@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['implicitgrantflow_0',['ImplicitGrantFlow',['../namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_auth_containers.html#aa1defee59e5f62f3cda40efdc45b0893aa9589b72eaeb497bebafdd5b0ced2fb1',1,'ScoredProductions::TwitchUnite::API::AuthContainers']]],
+  ['incompletemessage_1',['IncompleteMessage',['../class_scored_productions_1_1_twitch_unite_1_1_light_json_1_1_serialization_1_1_json_parse_exception.html#ab4b49e07b08498f482b7449fd1d99ea5a2c0a3080aa90de74c6815d193147b2ea',1,'ScoredProductions::TwitchUnite::LightJson::Serialization::JsonParseException']]],
+  ['internalservererror_2',['InternalServerError',['../namespace_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages.html#af22cdaedaf1bc59b840c0a8aace96aeeaecbf01325f1c744e9d7bb586ac2eb5ed',1,'ScoredProductions::TwitchUnite::EventSub::WebSocketMessages']]],
+  ['invalid_5fuser_3',['invalid_user',['../struct_scored_productions_1_1_twitch_unite_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a16d424d444ee269e41aafae1ed90ac02aef72d53cb598a74d80cc8155a3ddad99',1,'ScoredProductions::TwitchUnite::IRC::Tags::NOTICE']]],
+  ['invalidnumber_4',['InvalidNumber',['../class_scored_productions_1_1_twitch_unite_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#aef6864babafaf63588ece6e54297c3f7a950ecfecf7147cf6cbfb7c2dbf6dc5f8',1,'ScoredProductions::TwitchUnite::LightJson::Serialization::JsonSerializationException']]],
+  ['invalidorunexpectedcharacter_5',['InvalidOrUnexpectedCharacter',['../class_scored_productions_1_1_twitch_unite_1_1_light_json_1_1_serialization_1_1_json_parse_exception.html#ab4b49e07b08498f482b7449fd1d99ea5a88eb6cf57ebc40b8bae178f21cd1b2e0',1,'ScoredProductions::TwitchUnite::LightJson::Serialization::JsonParseException']]],
+  ['invalidreconnect_6',['InvalidReconnect',['../namespace_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages.html#af22cdaedaf1bc59b840c0a8aace96aeeaf6efebe9ff4b921ac878eb88db572548',1,'ScoredProductions::TwitchUnite::EventSub::WebSocketMessages']]],
+  ['invalidvaluetype_7',['InvalidValueType',['../class_scored_productions_1_1_twitch_unite_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#aef6864babafaf63588ece6e54297c3f7a4aff26a4cf7597ae1db7983914d5539d',1,'ScoredProductions::TwitchUnite::LightJson::Serialization::JsonSerializationException']]]
+];
