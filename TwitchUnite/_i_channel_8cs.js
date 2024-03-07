@@ -1,4 +1,10 @@
 var _i_channel_8cs =
 [
-    [ "ScoredProductions.TwitchUnite.EventSub.IChannel", "interface_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel.html", "interface_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel" ]
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel", "interface_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel.html", "interface_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel" ],
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel.Message", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message" ],
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel.Message.Fragments", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments" ],
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel.Message.Fragments.Cheermote", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_cheermote.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_cheermote" ],
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel.Message.Fragments.Mention", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_mention.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_mention" ],
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel.Message.Fragments.Emote", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_emote.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_emote" ],
+    [ "ScoredProductions.TwitchUnite.EventSub.IChannel.Badges", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_badges.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_i_channel_1_1_badges" ]
 ];

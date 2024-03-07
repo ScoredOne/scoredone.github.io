@@ -1,7 +1,7 @@
 var class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager =
 [
     [ "TwitchEmoteManager", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a20e6de7114e255ac0ba5a1566238f654", null ],
-    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#ac42edbaeffdede9cd5adac3fb4d2bce5", null ],
+    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a48ce8a86a36638b536681b70286b8200", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a22d4d21ac92e6dabe92193c6e200b2d9", null ],
     [ "DownloadEmoteFromWeb", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#adcacad06ae9fce59e7130f09866ea87b", null ],
     [ "DownloaderService", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#ae70d7848e9cc4b19f7ab3198ce69e3c6", null ],

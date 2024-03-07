@@ -11,6 +11,7 @@ var namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i =
     [ "Charity", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_charity.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_charity" ],
     [ "Chat", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat" ],
     [ "Clips", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips" ],
+    [ "Conduits", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits" ],
     [ "Entitlements", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_entitlements.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_entitlements" ],
     [ "EventSub", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_event_sub.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_event_sub" ],
     [ "Extensions", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions.html", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions" ],

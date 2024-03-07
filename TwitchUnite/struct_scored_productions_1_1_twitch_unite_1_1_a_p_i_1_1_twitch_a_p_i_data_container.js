@@ -6,6 +6,7 @@ var struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_c
     [ "ErrorToJson", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#ae827270839b1f0ed6d29fb25c7b4b030", null ],
     [ "ErrorBody", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a990079e56f5993caaa4cfcedd247c846", null ],
     [ "ErrorCode", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a11e3966b6f684983676f08dbc7835224", null ],
+    [ "ErrorObjects", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a9a69590542a805ab965f568acb7c66ae", null ],
     [ "ErrorText", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#abe719374d1f875b0ad9a1ff909743fb5", null ],
     [ "ErrorURI", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a90ed0bc6904f642284272f9806aa305e", null ],
     [ "HasErrored", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a541343b9a739c63a11adb22e301d3e08", null ],

@@ -1,7 +1,7 @@
 var class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager =
 [
     [ "AltasConstructor", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a4e270c7d2597a113f5026ce37dc26796", null ],
-    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a1e4a55add873fafc3da725976b800ebf", null ],
+    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a8235f7f3226ca5fe5db626ce440786eb", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a22d4d21ac92e6dabe92193c6e200b2d9", null ],
     [ "EndFunctionality", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a4d8b350c8feea7b5f0e41c7fded9d627", null ],
     [ "EstablishSingleton", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a415608b171b2d1830ed163ced7a7d129", null ],

@@ -11,6 +11,7 @@ var dir_3203018f85f44ad1489afd3d65e3e4f1 =
     [ "IChat.cs", "_i_chat_8cs.html", "_i_chat_8cs" ],
     [ "SendAShoutout.cs", "_send_a_shoutout_8cs.html", "_send_a_shoutout_8cs" ],
     [ "SendChatAnnouncement.cs", "_send_chat_announcement_8cs.html", "_send_chat_announcement_8cs" ],
+    [ "SendChatMessage.cs", "_send_chat_message_8cs.html", "_send_chat_message_8cs" ],
     [ "UpdateChatSettings.cs", "_update_chat_settings_8cs.html", "_update_chat_settings_8cs" ],
     [ "UpdateUserChatColor.cs", "_update_user_chat_color_8cs.html", "_update_user_chat_color_8cs" ]
 ];

@@ -1,7 +1,7 @@
 var class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager =
 [
     [ "TwitchBadgeManager", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#ac755e0897d672049ea41248a6670e0c2", null ],
-    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a8f4800f0ddad039582fa7c7c55fcdc26", null ],
+    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a61e5fc9f69afd2c3c21a203ae9853bae", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a22d4d21ac92e6dabe92193c6e200b2d9", null ],
     [ "DownloadBadgesFromWeb", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a4e1f1fc63cc26c08b513fe5f3480d790", null ],
     [ "DownloaderService", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a60357acacef4e6a25160fc975c79b91e", null ],
@@ -21,7 +21,7 @@ var class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twit
     [ "OnEnable", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a318cadf7309e25795924df68b3e5682c", null ],
     [ "Start", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a6fe61fe1d4704c1974dac745aeb99a00", null ],
     [ "_instance", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a1c139c9ddd253167dde2373bc2df06fb", null ],
-    [ "BadgeSize", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a2093b2b36e7dd1ffc9ab586cb9f6a10a", null ],
+    [ "BadgeSize", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a8bd91c2b7b9eef73178a191787bc7ab4", null ],
     [ "downloaderCoroutines", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a378ed5c0aae2f53c0e5f42a2b271cb6f", null ],
     [ "downloadQueue", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a429a65e05c79e1239dfa093d38bc0cd3", null ],
     [ "downloadsWaiting", "class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a0d6584733b78ac88218edd63e2390b92", null ],

@@ -78,6 +78,7 @@ var annotated_dup =
             [ "IChat", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_i_chat.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_i_chat" ],
             [ "SendAShoutout", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_a_shoutout.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_a_shoutout" ],
             [ "SendChatAnnouncement", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_announcement.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_announcement" ],
+            [ "SendChatMessage", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_message" ],
             [ "UpdateChatSettings", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_chat_settings" ],
             [ "UpdateUserChatColor", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color" ]
           ] ],
@@ -85,6 +86,15 @@ var annotated_dup =
             [ "CreateClip", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips_1_1_create_clip.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips_1_1_create_clip" ],
             [ "GetClips", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips_1_1_get_clips.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips_1_1_get_clips" ],
             [ "IClips", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips_1_1_i_clips.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_clips_1_1_i_clips" ]
+          ] ],
+          [ "Conduits", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits.html", [
+            [ "CreateConduits", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_create_conduits" ],
+            [ "DeleteConduits", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_delete_conduits.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_delete_conduits" ],
+            [ "GetConduits", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_get_conduits.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_get_conduits" ],
+            [ "GetConduitShards", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards" ],
+            [ "IConduits", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits" ],
+            [ "UpdateConduits", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_update_conduits.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_update_conduits" ],
+            [ "UpdateConduitShards", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards" ]
           ] ],
           [ "Entitlements", "namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_entitlements.html", [
             [ "GetDropsEntitlements", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements" ],
@@ -260,6 +270,7 @@ var annotated_dup =
             [ "ChannelBan", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_ban.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_ban" ],
             [ "ChannelChatClear", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_clear.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_clear" ],
             [ "ChannelChatClearUserMessages", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_clear_user_messages.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_clear_user_messages" ],
+            [ "ChannelChatMessage", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message" ],
             [ "ChannelChatMessageDelete", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete" ],
             [ "ChannelChatNotification", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification" ],
             [ "ChannelChatSettingsUpdate", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_settings_update.html", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_settings_update" ],

@@ -10,6 +10,5 @@ var searchData=
   ['twitchclientsecret_7',['TwitchClientSecret',['../namespace_scored_productions_1_1_twitch_unite_1_1_utility.html#a7e822a245891338bf54fedf3cfe6bb47a2d995f5d8a279f9e36d07276869cb9be',1,'ScoredProductions::TwitchUnite::Utility']]],
   ['twitchtarget_8',['TwitchTarget',['../namespace_scored_productions_1_1_twitch_unite_1_1_utility.html#a7e822a245891338bf54fedf3cfe6bb47a8c6fe2334445d072ed8c8723d375e4b3',1,'ScoredProductions::TwitchUnite::Utility']]],
   ['twitchuseraccessauthcontainer_9',['TwitchUserAccessAuthContainer',['../namespace_scored_productions_1_1_twitch_unite_1_1_utility.html#a7e822a245891338bf54fedf3cfe6bb47a121fdedce992646795d36146baa1280e',1,'ScoredProductions::TwitchUnite::Utility']]],
-  ['twitchusername_10',['TwitchUserName',['../namespace_scored_productions_1_1_twitch_unite_1_1_utility.html#a7e822a245891338bf54fedf3cfe6bb47a372c27b190a8a2b5b8e45b2cedb43e54',1,'ScoredProductions::TwitchUnite::Utility']]],
-  ['two_11',['Two',['../class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge.html#a695ef481ce750d9feb44eeb310aae70baaada29daee1d64ed0fe907043855cb7e',1,'ScoredProductions::TwitchUnite::ManagersAndBuilders::TwitchBadge']]]
+  ['two_10',['Two',['../class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge.html#a695ef481ce750d9feb44eeb310aae70baaada29daee1d64ed0fe907043855cb7e',1,'ScoredProductions::TwitchUnite::ManagersAndBuilders::TwitchBadge']]]
 ];

@@ -4,6 +4,7 @@ var class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub
     [ "Channel_Ban", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a8cce5d03d999f5602613978864f5f4b4", null ],
     [ "Channel_Chat_Clear", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a9cb76e9be0419b1c37007c24c3dd2dfc", null ],
     [ "Channel_Chat_Clear_User_Messages", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a6d326f35fd9e49a74321de9ae1930e37", null ],
+    [ "Channel_Chat_Message", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#ae846ef7ec44154b39431825fb993c679", null ],
     [ "Channel_Chat_Message_Delete", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a17cde2afb0d926606eb27b03e9c69b28", null ],
     [ "Channel_Chat_Notification", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a016d058834ba9140563d42a917cff0cc", null ],
     [ "Channel_Chat_Settings_Update", "class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#ab88e0c9dd73940ad7dacc651714ba95f", null ],

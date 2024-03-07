@@ -10,6 +10,7 @@ var dir_421e419d4f2b30101bddc7a9d701b92d =
     [ "Charity", "dir_37ddc9cc82e22b44e36d4d5fbeea663e.html", "dir_37ddc9cc82e22b44e36d4d5fbeea663e" ],
     [ "Chat", "dir_3203018f85f44ad1489afd3d65e3e4f1.html", "dir_3203018f85f44ad1489afd3d65e3e4f1" ],
     [ "Clips", "dir_1692dda1bb6dd7341945aa4a2f4606bc.html", "dir_1692dda1bb6dd7341945aa4a2f4606bc" ],
+    [ "Conduits", "dir_3b5b1f23688b689c39bb4b633e067960.html", "dir_3b5b1f23688b689c39bb4b633e067960" ],
     [ "Entitlements", "dir_5add3e776719f681e4ad9045e4864933.html", "dir_5add3e776719f681e4ad9045e4864933" ],
     [ "EventSub", "dir_c2ef2ac1d50997a974b90289968b275a.html", "dir_c2ef2ac1d50997a974b90289968b275a" ],
     [ "Extensions", "dir_17a99e757038c63a8c0547ed21db0b76.html", "dir_17a99e757038c63a8c0547ed21db0b76" ],

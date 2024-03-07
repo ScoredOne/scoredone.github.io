@@ -1,5 +1,6 @@
 var class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance =
 [
+    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a42967d6ca507402d4d0ec5eed49986a8", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a22d4d21ac92e6dabe92193c6e200b2d9", null ],
     [ "EstablishSingleton", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a415608b171b2d1830ed163ced7a7d129", null ],
     [ "GetInstance", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a38b5b9bdd795e89ebe5ce2f881cb142d", null ],

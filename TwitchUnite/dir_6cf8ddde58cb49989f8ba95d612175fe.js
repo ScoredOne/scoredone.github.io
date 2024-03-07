@@ -8,6 +8,7 @@ var dir_6cf8ddde58cb49989f8ba95d612175fe =
     [ "ChannelBan.cs", "_channel_ban_8cs.html", "_channel_ban_8cs" ],
     [ "ChannelChatClear.cs", "_channel_chat_clear_8cs.html", "_channel_chat_clear_8cs" ],
     [ "ChannelChatClearUserMessages.cs", "_channel_chat_clear_user_messages_8cs.html", "_channel_chat_clear_user_messages_8cs" ],
+    [ "ChannelChatMessage.cs", "_channel_chat_message_8cs.html", "_channel_chat_message_8cs" ],
     [ "ChannelChatMessageDelete.cs", "_channel_chat_message_delete_8cs.html", "_channel_chat_message_delete_8cs" ],
     [ "ChannelChatNotification.cs", "_channel_chat_notification_8cs.html", "_channel_chat_notification_8cs" ],
     [ "ChannelChatSettingsUpdate.cs", "_channel_chat_settings_update_8cs.html", "_channel_chat_settings_update_8cs" ],

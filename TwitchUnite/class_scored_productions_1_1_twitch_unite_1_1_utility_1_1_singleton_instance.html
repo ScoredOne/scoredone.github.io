@@ -135,6 +135,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a415608b171b2d1830ed163ced7a7d129" id="r_a415608b171b2d1830ed163ced7a7d129"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a415608b171b2d1830ed163ced7a7d129">EstablishSingleton</a> ()</td></tr>
 <tr class="memdesc:a415608b171b2d1830ed163ced7a7d129"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Must be called in Awake</b>, Ensures singleton is the only instance.  <br /></td></tr>
 <tr class="separator:a415608b171b2d1830ed163ced7a7d129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42967d6ca507402d4d0ec5eed49986a8" id="r_a42967d6ca507402d4d0ec5eed49986a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42967d6ca507402d4d0ec5eed49986a8">Awake</a> ()</td></tr>
+<tr class="separator:a42967d6ca507402d4d0ec5eed49986a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe61fe1d4704c1974dac745aeb99a00" id="r_a6fe61fe1d4704c1974dac745aeb99a00"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe61fe1d4704c1974dac745aeb99a00">Start</a> ()</td></tr>
 <tr class="separator:a6fe61fe1d4704c1974dac745aeb99a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb7fbe0f369faa250dd9203e0efbe91" id="r_aebb7fbe0f369faa250dd9203e0efbe91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebb7fbe0f369faa250dd9203e0efbe91">OnApplicationQuit</a> ()</td></tr>
@@ -175,6 +177,33 @@ Static Private Attributes</h2></td></tr>
 </dl>
 </div>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a42967d6ca507402d4d0ec5eed49986a8" name="a42967d6ca507402d4d0ec5eed49986a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42967d6ca507402d4d0ec5eed49986a8">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html">ScoredProductions.TwitchUnite.Utility.SingletonInstance</a>&lt; T &gt;.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a61e5fc9f69afd2c3c21a203ae9853bae">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchBadgeManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a48ce8a86a36638b536681b70286b8200">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchEmoteManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a8235f7f3226ca5fe5db626ce440786eb">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchMessageAtlasManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#a508b3fa621666d3edb9f673267e6de5c">ScoredProductions.TwitchUnite.Utility.DebugManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a1010141259d4a72f90775277216207b7">ScoredProductions.TwitchUnite.API.TwitchAPIClient</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_client.html#a4138d44f878941dc61552de71abf1527">ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient</a>, and <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a40e39350eb4e6db10dbc0e363162c087">ScoredProductions.TwitchUnite.IRC.TwitchIRCClient</a>.</p>
+
+</div>
+</div>
 <a id="a22d4d21ac92e6dabe92193c6e200b2d9" name="a22d4d21ac92e6dabe92193c6e200b2d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22d4d21ac92e6dabe92193c6e200b2d9">&#9670;&#160;</a></span>CreateOrGetInstance()</h2>
 
@@ -279,7 +308,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#ac40e860e64187d1e8808b827cda918c3">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchBadgeManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a8ab3da12a6b7ccd3a6ee3bb1aa337cad">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchEmoteManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a3e8f8d581bda2e6e5095e64003c2d734">ScoredProductions.TwitchUnite.API.TwitchAPIClient</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_twitch_event_sub_client.html#abbda3a1a582714f4278b082719d42a76">ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient</a>, and <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a2eb45ecce399c126709e832c5ba343cb">ScoredProductions.TwitchUnite.IRC.TwitchIRCClient</a>.</p>
+<p>Reimplemented in <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_badge_manager.html#ac40e860e64187d1e8808b827cda918c3">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchBadgeManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a8ab3da12a6b7ccd3a6ee3bb1aa337cad">ScoredProductions.TwitchUnite.ManagersAndBuilders.TwitchEmoteManager</a>, <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a3e8f8d581bda2e6e5095e64003c2d734">ScoredProductions.TwitchUnite.API.TwitchAPIClient</a>, and <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a2eb45ecce399c126709e832c5ba343cb">ScoredProductions.TwitchUnite.IRC.TwitchIRCClient</a>.</p>
 
 </div>
 </div>

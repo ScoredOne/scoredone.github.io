@@ -11,6 +11,7 @@ var namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat =
     [ "IChat", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_i_chat.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_i_chat" ],
     [ "SendAShoutout", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_a_shoutout.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_a_shoutout" ],
     [ "SendChatAnnouncement", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_announcement.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_announcement" ],
+    [ "SendChatMessage", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_send_chat_message" ],
     [ "UpdateChatSettings", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_chat_settings" ],
     [ "UpdateUserChatColor", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color" ]
 ];

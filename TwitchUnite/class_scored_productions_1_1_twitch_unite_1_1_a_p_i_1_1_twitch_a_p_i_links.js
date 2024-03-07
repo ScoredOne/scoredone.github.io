@@ -5,6 +5,8 @@ var class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links =
     [ "ChannelStreamScheduleSegment", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a3124e7908e45aaff9b84bdd6f6384fff", null ],
     [ "CheckAutoModStatus", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a87d47f156787c3136fa336b15d22f555", null ],
     [ "CheckUserSubscription", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a1671f310478ff0a5e6b9d0c5039ef091", null ],
+    [ "Conduits", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a94678a35364de91bfb03e143382abd8e", null ],
+    [ "ConduitShards", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a44f74aab3c406425a179a14a687c9116", null ],
     [ "CreateClip", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a715809b7411b019cd4832426d5808eeb", null ],
     [ "CreateCustomRewards", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a1775dc04c202c44b5d8987b52f87b1f7", null ],
     [ "CreateExtensionSecret", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a62a4c34d3dc3b3bc45380961c55ef176", null ],

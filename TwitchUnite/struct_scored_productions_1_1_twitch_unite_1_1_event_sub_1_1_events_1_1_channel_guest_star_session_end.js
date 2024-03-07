@@ -6,6 +6,9 @@ var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_chan
     [ "broadcaster_user_name", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#a133e4bab52fae51610862238ade143e2", null ],
     [ "ended_at", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#adb6dfea2c1f05437bcf6c53a9225877f", null ],
     [ "Enum", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#a9168f2aeab372c0e33498cfe06864a32", null ],
+    [ "host_user_id", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#a9adb8866bcce0ceb5908107b29370435", null ],
+    [ "host_user_login", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#a3ec41c9b78c865e9d4f4b2621b1072a9", null ],
+    [ "host_user_name", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#a858804a4cccb2b36245612ddce512a25", null ],
     [ "session_id", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#a9f273708757694cc3917c7246729b2f4", null ],
     [ "started_at", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html#aeb4bfae8aff1a241d2643c97a4583d61", null ]
 ];

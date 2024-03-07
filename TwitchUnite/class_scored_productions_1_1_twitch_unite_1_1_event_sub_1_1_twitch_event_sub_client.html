@@ -134,6 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8bcae34d60723a122727510904169dfb" id="r_a8bcae34d60723a122727510904169dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bcae34d60723a122727510904169dfb">GetSubscription</a> (string subscriptionId)</td></tr>
 <tr class="memdesc:a8bcae34d60723a122727510904169dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get subscription data by ID.  <br /></td></tr>
 <tr class="separator:a8bcae34d60723a122727510904169dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce305270ed7c9b9c7f3212b7a559daa" id="r_adce305270ed7c9b9c7f3212b7a559daa"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adce305270ed7c9b9c7f3212b7a559daa">BeginConnectionSession</a> ()</td></tr>
+<tr class="memdesc:adce305270ed7c9b9c7f3212b7a559daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up the Event sub.  <br /></td></tr>
+<tr class="separator:adce305270ed7c9b9c7f3212b7a559daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6644a823825ebcaba85a8b2249945d98" id="r_a6644a823825ebcaba85a8b2249945d98"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6644a823825ebcaba85a8b2249945d98">BeginConnectionSession</a> (bool restart=false, bool resubscribe=false)</td></tr>
 <tr class="memdesc:a6644a823825ebcaba85a8b2249945d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up the Event sub.  <br /></td></tr>
 <tr class="separator:a6644a823825ebcaba85a8b2249945d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +146,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a130a9d0b8c14eb12fe44dfbee3a9d920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes and resubscribes current subscriptions / Uses stored subscriptions to resubscribe.  <br /></td></tr>
 <tr class="separator:a130a9d0b8c14eb12fe44dfbee3a9d920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a687a460f1c8024370a84df77e68ad0b0" id="r_a687a460f1c8024370a84df77e68ad0b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687a460f1c8024370a84df77e68ad0b0">UnsubscribeFromEvents</a> (params string[] Ids)</td></tr>
+<tr class="memdesc:a687a460f1c8024370a84df77e68ad0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the EventSub unsubscribe from the registered subscriptions.  <br /></td></tr>
 <tr class="separator:a687a460f1c8024370a84df77e68ad0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -156,8 +160,6 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0082ef7c1c3f97289f8dcdb90effee64" id="r_a0082ef7c1c3f97289f8dcdb90effee64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0082ef7c1c3f97289f8dcdb90effee64">StartOnLoad</a></td></tr>
-<tr class="separator:a0082ef7c1c3f97289f8dcdb90effee64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ac7bca353597967a493e4f5dffea1c" id="r_a45ac7bca353597967a493e4f5dffea1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#a96a119fa7be41fad214301538236052b">DebugManager.DebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45ac7bca353597967a493e4f5dffea1c">LogDebugLevel</a> = DebugManager.DebugLevel.Normal</td></tr>
 <tr class="separator:a45ac7bca353597967a493e4f5dffea1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43ad1b4ee773e9cc3551edf38d09fccf" id="r_a43ad1b4ee773e9cc3551edf38d09fccf"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html">ChannelAdBreakBegin</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43ad1b4ee773e9cc3551edf38d09fccf">OnChannelAdBreakBegin</a></td></tr>
@@ -168,6 +170,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a1a9c2973c0fe6a9df6a6c08142403796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bcf40ccd6fafd46624508e3ecb2967b" id="r_a4bcf40ccd6fafd46624508e3ecb2967b"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_clear_user_messages.html">ChannelChatClearUserMessages</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcf40ccd6fafd46624508e3ecb2967b">OnChannelChatClearUserMessages</a></td></tr>
 <tr class="separator:a4bcf40ccd6fafd46624508e3ecb2967b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74c61b145466cad6af7ad40f7bc059c" id="r_ab74c61b145466cad6af7ad40f7bc059c"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message.html">ChannelChatMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab74c61b145466cad6af7ad40f7bc059c">OnChannelChatMessage</a></td></tr>
+<tr class="separator:ab74c61b145466cad6af7ad40f7bc059c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec7717e47ce2346a335225634cb5a8b1" id="r_aec7717e47ce2346a335225634cb5a8b1"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html">ChannelChatMessageDelete</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec7717e47ce2346a335225634cb5a8b1">OnChannelChatMessageDelete</a></td></tr>
 <tr class="separator:aec7717e47ce2346a335225634cb5a8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80c165fd945740cbb54cf418c1458f0d" id="r_a80c165fd945740cbb54cf418c1458f0d"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html">ChannelChatNotification</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80c165fd945740cbb54cf418c1458f0d">OnChannelChatNotification</a></td></tr>
@@ -264,6 +268,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae7745b6c3a8e9a68fd0a2df6d5410287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad760ee11901b969aeb92c9cf279c587e" id="r_ad760ee11901b969aeb92c9cf279c587e"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad760ee11901b969aeb92c9cf279c587e">OnUserRemovedSubscriptionRevoked</a></td></tr>
 <tr class="separator:ad760ee11901b969aeb92c9cf279c587e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ea609a37ff5bc13f6aad5b1e110048" id="r_ab2ea609a37ff5bc13f6aad5b1e110048"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ea609a37ff5bc13f6aad5b1e110048">OnAuthorizationRemoved</a></td></tr>
+<tr class="separator:ab2ea609a37ff5bc13f6aad5b1e110048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad4facb855c3b06c4716c3d696e18146" id="r_aad4facb855c3b06c4716c3d696e18146"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4facb855c3b06c4716c3d696e18146">OnVersionRemovedSubscriptionRevoked</a></td></tr>
 <tr class="separator:aad4facb855c3b06c4716c3d696e18146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -279,13 +285,15 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a4138d44f878941dc61552de71abf1527" id="r_a4138d44f878941dc61552de71abf1527"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4138d44f878941dc61552de71abf1527">Awake</a> ()</td></tr>
+<tr class="separator:a4138d44f878941dc61552de71abf1527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacb89422ac31400e002692441cdec53d" id="r_aacb89422ac31400e002692441cdec53d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacb89422ac31400e002692441cdec53d">Start</a> ()</td></tr>
 <tr class="separator:aacb89422ac31400e002692441cdec53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbda3a1a582714f4278b082719d42a76" id="r_abbda3a1a582714f4278b082719d42a76"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbda3a1a582714f4278b082719d42a76">OnApplicationQuit</a> ()</td></tr>
-<tr class="separator:abbda3a1a582714f4278b082719d42a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a415608b171b2d1830ed163ced7a7d129" id="r_a415608b171b2d1830ed163ced7a7d129"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a415608b171b2d1830ed163ced7a7d129">EstablishSingleton</a> ()</td></tr>
 <tr class="memdesc:a415608b171b2d1830ed163ced7a7d129"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Must be called in Awake</b>, Ensures singleton is the only instance.  <br /></td></tr>
 <tr class="separator:a415608b171b2d1830ed163ced7a7d129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb7fbe0f369faa250dd9203e0efbe91" id="r_aebb7fbe0f369faa250dd9203e0efbe91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#aebb7fbe0f369faa250dd9203e0efbe91">OnApplicationQuit</a> ()</td></tr>
+<tr class="separator:aebb7fbe0f369faa250dd9203e0efbe91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -294,8 +302,10 @@ Static Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a9705f376b1a0d7c31b6c09768cc341b7" id="r_a9705f376b1a0d7c31b6c09768cc341b7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9705f376b1a0d7c31b6c09768cc341b7">EventSubEnabled</a><code> [get]</code></td></tr>
+<tr class="memitem:a9705f376b1a0d7c31b6c09768cc341b7" id="r_a9705f376b1a0d7c31b6c09768cc341b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9705f376b1a0d7c31b6c09768cc341b7">EventSubEnabled</a><code> [get, set]</code></td></tr>
 <tr class="separator:a9705f376b1a0d7c31b6c09768cc341b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5066c987d3e6a285461c6530e5acf6e5" id="r_a5066c987d3e6a285461c6530e5acf6e5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5066c987d3e6a285461c6530e5acf6e5">EventSubConnectionActive</a><code> [get]</code></td></tr>
+<tr class="separator:a5066c987d3e6a285461c6530e5acf6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3d82084e2584a9e3ec276d3a90c2c7d" id="r_ac3d82084e2584a9e3ec276d3a90c2c7d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d82084e2584a9e3ec276d3a90c2c7d">EventSubStartingUp</a><code> [get]</code></td></tr>
 <tr class="separator:ac3d82084e2584a9e3ec276d3a90c2c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58b6e99d0126d693765ea0a991ec0982" id="r_a58b6e99d0126d693765ea0a991ec0982"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b6e99d0126d693765ea0a991ec0982">GetSubscriptions</a><code> [get]</code></td></tr>
@@ -312,8 +322,8 @@ Properties</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aa14d75f701c59336650f0e59b48c72b9" id="r_aa14d75f701c59336650f0e59b48c72b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa14d75f701c59336650f0e59b48c72b9">Awake</a> ()</td></tr>
-<tr class="separator:aa14d75f701c59336650f0e59b48c72b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1012bfa776f433dacf7d4a8fd8b69ab4" id="r_a1012bfa776f433dacf7d4a8fd8b69ab4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1012bfa776f433dacf7d4a8fd8b69ab4">FixedUpdate</a> ()</td></tr>
+<tr class="separator:a1012bfa776f433dacf7d4a8fd8b69ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c66dc927d4239359abb2c4c67ddaf83" id="r_a0c66dc927d4239359abb2c4c67ddaf83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c66dc927d4239359abb2c4c67ddaf83">OnEnable</a> ()</td></tr>
 <tr class="separator:a0c66dc927d4239359abb2c4c67ddaf83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427f5dcd714867fb0e8eaed1edef206a" id="r_a427f5dcd714867fb0e8eaed1edef206a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427f5dcd714867fb0e8eaed1edef206a">OnDisable</a> ()</td></tr>
@@ -343,6 +353,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a62ad501c3baa04156ba99c2f7f399b14" id="r_a62ad501c3baa04156ba99c2f7f399b14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62ad501c3baa04156ba99c2f7f399b14">_eventSubEnabled</a> = false</td></tr>
+<tr class="separator:a62ad501c3baa04156ba99c2f7f399b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8378ce0d9940948f064d1659f45c4e11" id="r_a8378ce0d9940948f064d1659f45c4e11"><td class="memItemLeft" align="right" valign="top">ClientWebSocket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8378ce0d9940948f064d1659f45c4e11">webSocket</a></td></tr>
 <tr class="separator:a8378ce0d9940948f064d1659f45c4e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9eb8edbdd61b14f0f16223e212fafdf" id="r_ac9eb8edbdd61b14f0f16223e212fafdf"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9eb8edbdd61b14f0f16223e212fafdf">recieverThread</a></td></tr>
@@ -370,6 +382,8 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
+<tr class="memitem:a2118a61bb25b691860980dd17098cbdf" id="r_a2118a61bb25b691860980dd17098cbdf"><td class="memItemLeft" align="right" valign="top">static readonly Queue&lt; Action &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2118a61bb25b691860980dd17098cbdf">mainThreadWorkQueue</a> = new Queue&lt;Action&gt;()</td></tr>
+<tr class="separator:a2118a61bb25b691860980dd17098cbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28bfd183c317c96adb1a9e7ae014bb48" id="r_a28bfd183c317c96adb1a9e7ae014bb48"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a28bfd183c317c96adb1a9e7ae014bb48">Locker</a></td></tr>
 <tr class="separator:a28bfd183c317c96adb1a9e7ae014bb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a032a188399ee8cef0d680e689e070c99" id="r_a032a188399ee8cef0d680e689e070c99"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a032a188399ee8cef0d680e689e070c99">preventNewInstances</a></td></tr>
@@ -378,8 +392,8 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch EventSub Singleton. Connects using WebSocket, Webhook not supported. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa14d75f701c59336650f0e59b48c72b9" name="aa14d75f701c59336650f0e59b48c72b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa14d75f701c59336650f0e59b48c72b9">&#9670;&#160;</a></span>Awake()</h2>
+<a id="a4138d44f878941dc61552de71abf1527" name="a4138d44f878941dc61552de71abf1527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4138d44f878941dc61552de71abf1527">&#9670;&#160;</a></span>Awake()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,7 +402,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.Awake </td>
+          <td class="memname">override void ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.Awake </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -396,15 +410,36 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented from <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a42967d6ca507402d4d0ec5eed49986a8">ScoredProductions.TwitchUnite.Utility.SingletonInstance&lt; TwitchEventSubClient &gt;</a>.</p>
+
+</div>
+</div>
+<a id="adce305270ed7c9b9c7f3212b7a559daa" name="adce305270ed7c9b9c7f3212b7a559daa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce305270ed7c9b9c7f3212b7a559daa">&#9670;&#160;</a></span>BeginConnectionSession() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.BeginConnectionSession </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Starts up the Event sub. </p>
+
 </div>
 </div>
 <a id="a6644a823825ebcaba85a8b2249945d98" name="a6644a823825ebcaba85a8b2249945d98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6644a823825ebcaba85a8b2249945d98">&#9670;&#160;</a></span>BeginConnectionSession()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6644a823825ebcaba85a8b2249945d98">&#9670;&#160;</a></span>BeginConnectionSession() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +465,6 @@ Static Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -619,6 +653,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1012bfa776f433dacf7d4a8fd8b69ab4" name="a1012bfa776f433dacf7d4a8fd8b69ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1012bfa776f433dacf7d4a8fd8b69ab4">&#9670;&#160;</a></span>FixedUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.FixedUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae259fb89b9f963a51eac44f6584756d8" name="ae259fb89b9f963a51eac44f6584756d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae259fb89b9f963a51eac44f6584756d8">&#9670;&#160;</a></span>GetCurrentSubscriptions()</h2>
 
@@ -718,8 +777,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abbda3a1a582714f4278b082719d42a76" name="abbda3a1a582714f4278b082719d42a76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbda3a1a582714f4278b082719d42a76">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
+<a id="aebb7fbe0f369faa250dd9203e0efbe91" name="aebb7fbe0f369faa250dd9203e0efbe91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebb7fbe0f369faa250dd9203e0efbe91">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -728,7 +787,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.OnApplicationQuit </td>
+          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html">ScoredProductions.TwitchUnite.Utility.SingletonInstance</a>&lt; T &gt;.OnApplicationQuit </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -736,12 +795,10 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#aebb7fbe0f369faa250dd9203e0efbe91">ScoredProductions.TwitchUnite.Utility.SingletonInstance&lt; TwitchEventSubClient &gt;</a>.</p>
 
 </div>
 </div>
@@ -1000,9 +1057,39 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Makes the EventSub unsubscribe from the registered subscriptions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Ids</td><td>Subscriptions</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a62ad501c3baa04156ba99c2f7f399b14" name="a62ad501c3baa04156ba99c2f7f399b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ad501c3baa04156ba99c2f7f399b14">&#9670;&#160;</a></span>_eventSubEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient._eventSubEnabled = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1c139c9ddd253167dde2373bc2df06fb" name="a1c139c9ddd253167dde2373bc2df06fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c139c9ddd253167dde2373bc2df06fb">&#9670;&#160;</a></span>_instance</h2>
 
@@ -1151,6 +1238,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2118a61bb25b691860980dd17098cbdf" name="a2118a61bb25b691860980dd17098cbdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2118a61bb25b691860980dd17098cbdf">&#9670;&#160;</a></span>mainThreadWorkQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Queue&lt;Action&gt; ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.mainThreadWorkQueue = new Queue&lt;Action&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a569934a5da4fc9bd0b9c797881949875" name="a569934a5da4fc9bd0b9c797881949875"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a569934a5da4fc9bd0b9c797881949875">&#9670;&#160;</a></span>Name</h2>
 
@@ -1169,6 +1278,20 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2ea609a37ff5bc13f6aad5b1e110048" name="ab2ea609a37ff5bc13f6aad5b1e110048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ea609a37ff5bc13f6aad5b1e110048">&#9670;&#160;</a></span>OnAuthorizationRemoved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;<a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a>&gt; ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.OnAuthorizationRemoved</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -1223,6 +1346,20 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">UnityEvent&lt;<a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_clear_user_messages.html">ChannelChatClearUserMessages</a>&gt; ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.OnChannelChatClearUserMessages</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab74c61b145466cad6af7ad40f7bc059c" name="ab74c61b145466cad6af7ad40f7bc059c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74c61b145466cad6af7ad40f7bc059c">&#9670;&#160;</a></span>OnChannelChatMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent&lt;<a class="el" href="struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_message.html">ChannelChatMessage</a>&gt; ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.OnChannelChatMessage</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2069,20 +2206,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0082ef7c1c3f97289f8dcdb90effee64" name="a0082ef7c1c3f97289f8dcdb90effee64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0082ef7c1c3f97289f8dcdb90effee64">&#9670;&#160;</a></span>StartOnLoad</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.StartOnLoad</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abee292788d39a949a9b58e0d10ef2f94" name="abee292788d39a949a9b58e0d10ef2f94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abee292788d39a949a9b58e0d10ef2f94">&#9670;&#160;</a></span>StartUpTask</h2>
 
@@ -2194,6 +2317,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5066c987d3e6a285461c6530e5acf6e5" name="a5066c987d3e6a285461c6530e5acf6e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5066c987d3e6a285461c6530e5acf6e5">&#9670;&#160;</a></span>EventSubConnectionActive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.TwitchUnite.EventSub.TwitchEventSubClient.EventSubConnectionActive</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9705f376b1a0d7c31b6c09768cc341b7" name="a9705f376b1a0d7c31b6c09768cc341b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9705f376b1a0d7c31b6c09768cc341b7">&#9670;&#160;</a></span>EventSubEnabled</h2>
 
@@ -2209,7 +2354,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

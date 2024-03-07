@@ -13,7 +13,7 @@ var class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager =
       [ "Exception", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#ab997f64572f1ae1dcd9c15f3057200e6ab0d4998a26f5b5742ad38c4af8817e32", null ],
       [ "Warning", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#ab997f64572f1ae1dcd9c15f3057200e6a0eaadb4fcb48a0a0ed7bc9868be9fbaa", null ]
     ] ],
-    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#a3afd14b09976e8dd818cd97b25c84133", null ],
+    [ "Awake", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#a508b3fa621666d3edb9f673267e6de5c", null ],
     [ "ClearPostedMessages", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#ad5dd9c17ea449cc123b4d07d6b391170", null ],
     [ "ClearPostedMessages", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#a315de8ea3ba5aa475a69f4802de6407b", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_debug_manager.html#a22d4d21ac92e6dabe92193c6e200b2d9", null ],

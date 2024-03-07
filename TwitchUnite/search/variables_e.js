@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['name_0',['NAME',['../class_scored_productions_1_1_twitch_unite_1_1_twitch_words.html#a6472b1f3fcc12a68640cad023d0423fa',1,'ScoredProductions::TwitchUnite::TwitchWords']]],
-  ['name_1',['Name',['../class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a569934a5da4fc9bd0b9c797881949875',1,'ScoredProductions::TwitchUnite::Utility::SingletonInstance']]],
+  ['name_0',['Name',['../class_scored_productions_1_1_twitch_unite_1_1_utility_1_1_singleton_instance.html#a569934a5da4fc9bd0b9c797881949875',1,'ScoredProductions::TwitchUnite::Utility::SingletonInstance']]],
+  ['name_1',['NAME',['../class_scored_productions_1_1_twitch_unite_1_1_twitch_words.html#a6472b1f3fcc12a68640cad023d0423fa',1,'ScoredProductions::TwitchUnite::TwitchWords']]],
   ['networkstream_2',['networkStream',['../class_scored_productions_1_1_twitch_unite_1_1_i_r_c_1_1_twitch_i_r_c_client.html#ac8873dfc99b7f482ecbba63f2f8d2993',1,'ScoredProductions::TwitchUnite::IRC::TwitchIRCClient']]],
   ['newauthtype_3',['NewAuthType',['../class_scored_productions_1_1_twitch_unite_1_1_save_client_details.html#a443794282058e6118ab8b326c2e68f75',1,'ScoredProductions::TwitchUnite::SaveClientDetails']]],
   ['next_5fad_5fat_4',['NEXT_AD_AT',['../class_scored_productions_1_1_twitch_unite_1_1_twitch_words.html#a16e750316c41276808fdce521830e095',1,'ScoredProductions::TwitchUnite::TwitchWords']]],

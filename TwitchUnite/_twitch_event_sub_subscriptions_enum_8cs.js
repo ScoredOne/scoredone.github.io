@@ -6,6 +6,7 @@ var _twitch_event_sub_subscriptions_enum_8cs =
       [ "Channel_Ad_Break_Begin", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39aa2b625521ee38fc4c7a7d4cd47901828", null ],
       [ "Channel_Chat_Clear", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39a45bd34dbd65d9d8eba8c5fee7495baff", null ],
       [ "Channel_Chat_Clear_User_Messages", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39a20d398f88f03318041545a0ca1bcb4b1", null ],
+      [ "Channel_Chat_Message", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39aa0fd30e065f32b41afa62167bd229d75", null ],
       [ "Channel_Chat_Message_Delete", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39ac26b84a911a493ba08bdd5d72af9157c", null ],
       [ "Channel_Chat_Notification", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39a866b1611a0bf4b40956705f20253658d", null ],
       [ "Channel_Chat_Settings_Update", "_twitch_event_sub_subscriptions_enum_8cs.html#ac635a927e0ab149bff10749f1ceefb39aaa332e73cfb8ad10804e7d032b423974", null ],
