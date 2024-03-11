@@ -1,0 +1,4 @@
+var struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid =
+[
+    [ "UnRaid", "struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid.html#a1910a862763d940c83d8da27d87ddc5e", null ]
+];

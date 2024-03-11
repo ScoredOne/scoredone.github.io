@@ -1,0 +1,4 @@
+var _twitch_event_sub_subscriptions_8cs =
+[
+    [ "ScoredProductions.TwitchUnited.EventSub.TwitchEventSubSubscriptions", "class_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html", "class_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_twitch_event_sub_subscriptions" ]
+];

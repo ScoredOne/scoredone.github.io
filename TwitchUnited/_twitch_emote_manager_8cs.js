@@ -1,0 +1,4 @@
+var _twitch_emote_manager_8cs =
+[
+    [ "ScoredProductions.TwitchUnited.ManagersAndBuilders.TwitchEmoteManager", "class_scored_productions_1_1_twitch_united_1_1_managers_and_builders_1_1_twitch_emote_manager.html", "class_scored_productions_1_1_twitch_united_1_1_managers_and_builders_1_1_twitch_emote_manager" ]
+];

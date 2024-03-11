@@ -1,4 +1,0 @@
-var _create_extension_secret_8cs =
-[
-    [ "ScoredProductions.TwitchUnite.API.Extensions.CreateExtensionSecret", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret" ]
-];

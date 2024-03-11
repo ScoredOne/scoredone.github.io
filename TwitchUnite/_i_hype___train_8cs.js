@@ -1,7 +1,0 @@
-var _i_hype___train_8cs =
-[
-    [ "ScoredProductions.TwitchUnite.API.Hype_Train.IHype_Train", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train" ],
-    [ "ScoredProductions.TwitchUnite.API.Hype_Train.IHype_Train.LastContribution", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_last_contribution.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_last_contribution" ],
-    [ "ScoredProductions.TwitchUnite.API.Hype_Train.IHype_Train.TopContribution", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_top_contribution.html", "class_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_top_contribution" ],
-    [ "ScoredProductions.TwitchUnite.API.Hype_Train.IHype_Train.EventData", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_event_data.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_event_data" ]
-];

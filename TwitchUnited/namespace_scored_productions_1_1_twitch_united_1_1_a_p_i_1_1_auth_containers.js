@@ -1,0 +1,15 @@
+var namespace_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers =
+[
+    [ "AuthorizationCodeGrantFlow", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow" ],
+    [ "ClientCredentialsFlow", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow" ],
+    [ "DeviceCodeGrantFlow", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow" ],
+    [ "IAppAccessToken", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_i_app_access_token.html", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_i_app_access_token" ],
+    [ "IAuthFlow", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow" ],
+    [ "ImplicitGrantFlow", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow" ],
+    [ "IUserAccessToken", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token" ],
+    [ "AuthRequestType", "namespace_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers.html#af1e0f7a959b810bb79163854cad950f6", [
+      [ "ImplicitGrantFlow", "namespace_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers.html#af1e0f7a959b810bb79163854cad950f6aa9589b72eaeb497bebafdd5b0ced2fb1", null ],
+      [ "AuthorizationCodeGrantFlow", "namespace_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers.html#af1e0f7a959b810bb79163854cad950f6a8122cb1413ed8b43813822273f040029", null ],
+      [ "DeviceCodeGrantFlow", "namespace_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_auth_containers.html#af1e0f7a959b810bb79163854cad950f6ad24bf92e61be7c6c0a0c2d973614b25e", null ]
+    ] ]
+];

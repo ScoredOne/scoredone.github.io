@@ -1,4 +1,0 @@
-var _manage_held_auto_mod_messages_8cs =
-[
-    [ "ScoredProductions.TwitchUnite.API.Moderation.ManageHeldAutoModMessages", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_moderation_1_1_manage_held_auto_mod_messages.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_moderation_1_1_manage_held_auto_mod_messages" ]
-];

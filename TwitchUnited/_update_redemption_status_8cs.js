@@ -1,0 +1,4 @@
+var _update_redemption_status_8cs =
+[
+    [ "ScoredProductions.TwitchUnited.API.Channel_Points.UpdateRedemptionStatus", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status" ]
+];

@@ -1,0 +1,9 @@
+var interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train =
+[
+    [ "EventData", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_event_data.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_event_data" ],
+    [ "LastContribution", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_last_contribution.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_last_contribution" ],
+    [ "TopContribution", "class_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_top_contribution.html", "class_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_top_contribution" ],
+    [ "Initialise", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train.html#ae8f774bf61a0ad7055dce42e9ce78854", null ],
+    [ "Endpoint", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train.html#a71aff061fad805da83e17d70507d6b4a", null ],
+    [ "HTTPMethod", "interface_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train.html#a71077c0384defb33dd6ad181eaf743fd", null ]
+];

@@ -1,8 +1,0 @@
-var _i_conduits_8cs =
-[
-    [ "ScoredProductions.TwitchUnite.API.Conduits.IConduits", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits" ],
-    [ "ScoredProductions.TwitchUnite.API.Conduits.IConduits.Transport", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_transport.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_transport" ],
-    [ "ScoredProductions.TwitchUnite.API.Conduits.IConduits.Shards", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_shards.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_shards" ],
-    [ "ScoredProductions.TwitchUnite.API.Conduits.IConduits.Shards.Transport", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_shards_1_1_transport.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_shards_1_1_transport" ],
-    [ "ScoredProductions.TwitchUnite.API.Conduits.IConduits.Errors", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_errors.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_conduits_1_1_i_conduits_1_1_errors" ]
-];

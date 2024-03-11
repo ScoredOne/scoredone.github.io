@@ -1,0 +1,13 @@
+var searchData=
+[
+  ['unraid_0',['UnRaid',['../struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid.html#a1910a862763d940c83d8da27d87ddc5e',1,'ScoredProductions::TwitchUnited::EventSub::Events::ChannelChatNotification::UnRaid']]],
+  ['unsubscribefromevents_1',['UnsubscribeFromEvents',['../class_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_twitch_event_sub_client.html#a317527278c068030731be01419598e47',1,'ScoredProductions::TwitchUnited::EventSub::TwitchEventSubClient']]],
+  ['updateauthuserinfo_2',['UpdateAuthUserInfo',['../class_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a2aac3829fc7faa9c875c1f186bf36554',1,'ScoredProductions::TwitchUnited::API::TwitchAPIClient']]],
+  ['updatemessagelimit_3',['UpdateMessageLimit',['../class_scored_productions_1_1_twitch_united_1_1_utility_1_1_debug_manager.html#afaa2f34bfded1327a6d197615ce7e1e6',1,'ScoredProductions.TwitchUnited.Utility.DebugManager.UpdateMessageLimit(int limit)'],['../class_scored_productions_1_1_twitch_united_1_1_utility_1_1_debug_manager.html#a2fdb5dccdc717a3922109449b07ba86a',1,'ScoredProductions.TwitchUnited.Utility.DebugManager.UpdateMessageLimit(int limit, out List&lt; string &gt; oldMessages)']]],
+  ['user_4',['User',['../struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_teams_1_1_i_teams_1_1_user.html#a230cb31c70ed83f5edc99ef88b8c414d',1,'ScoredProductions::TwitchUnited::API::Teams::ITeams::User']]],
+  ['userauthorizationgrant_5',['UserAuthorizationGrant',['../struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_user_authorization_grant.html#ad3faf1cbc6ae3f59f8ad4616c07b07b5',1,'ScoredProductions::TwitchUnited::EventSub::Events::UserAuthorizationGrant']]],
+  ['userauthorizationrevoke_6',['UserAuthorizationRevoke',['../struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_user_authorization_revoke.html#a954688233656f0d224320540b2a77eb8',1,'ScoredProductions::TwitchUnited::EventSub::Events::UserAuthorizationRevoke']]],
+  ['usernotice_7',['USERNOTICE',['../struct_scored_productions_1_1_twitch_united_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aef0fb0c9952a1b25d109d15400b98f28',1,'ScoredProductions::TwitchUnited::IRC::Tags::USERNOTICE']]],
+  ['userstate_8',['USERSTATE',['../struct_scored_productions_1_1_twitch_united_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_s_t_a_t_e.html#a62add019a031e9ea8f2c37e417599636',1,'ScoredProductions::TwitchUnited::IRC::Tags::USERSTATE']]],
+  ['userupdate_9',['UserUpdate',['../struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_user_update.html#a662638266dbf2ea82cb74673fbf23346',1,'ScoredProductions::TwitchUnited::EventSub::Events::UserUpdate']]]
+];

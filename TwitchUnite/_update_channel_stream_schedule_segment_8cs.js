@@ -1,4 +1,0 @@
-var _update_channel_stream_schedule_segment_8cs =
-[
-    [ "ScoredProductions.TwitchUnite.API.Schedule.UpdateChannelStreamScheduleSegment", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_schedule_1_1_update_channel_stream_schedule_segment.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_schedule_1_1_update_channel_stream_schedule_segment" ]
-];

@@ -1,4 +1,0 @@
-var _update_extension_bits_product_8cs =
-[
-    [ "ScoredProductions.TwitchUnite.API.Extensions.UpdateExtensionBitsProduct", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product" ]
-];

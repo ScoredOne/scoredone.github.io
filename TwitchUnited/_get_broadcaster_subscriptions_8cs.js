@@ -1,0 +1,4 @@
+var _get_broadcaster_subscriptions_8cs =
+[
+    [ "ScoredProductions.TwitchUnited.API.Subscriptions.GetBroadcasterSubscriptions", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html", "struct_scored_productions_1_1_twitch_united_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions" ]
+];

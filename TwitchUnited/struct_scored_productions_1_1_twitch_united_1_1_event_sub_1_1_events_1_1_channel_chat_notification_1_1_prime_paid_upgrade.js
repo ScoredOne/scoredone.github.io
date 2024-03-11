@@ -1,0 +1,5 @@
+var struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_prime_paid_upgrade =
+[
+    [ "PrimePaidUpgrade", "struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_prime_paid_upgrade.html#a66d1ee59a829d8e54bb43b15ce8dcfd1", null ],
+    [ "sub_tier", "struct_scored_productions_1_1_twitch_united_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_prime_paid_upgrade.html#a7ccd52105cf1a4d149409bbc5620b6b1", null ]
+];
