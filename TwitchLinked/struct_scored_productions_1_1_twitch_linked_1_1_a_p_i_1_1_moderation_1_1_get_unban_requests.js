@@ -1,0 +1,27 @@
+var struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests =
+[
+    [ "Initialise", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#ac9899d10c94c4440095a483786b3584b", null ],
+    [ "AFTER", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#af1e37c18ad2822c2900a53474d78ac82", null ],
+    [ "broadcaster_id", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#aec2161b0a1908a3f3cf02552808a2467", null ],
+    [ "BROADCASTER_ID", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#adfb11a74b6558568c9475298eaffa000", null ],
+    [ "broadcaster_login", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#acba8e1d297a4fc84ebb491a679516eea", null ],
+    [ "broadcaster_name", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a4095c14155f0655415d2ca1ce49732c8", null ],
+    [ "created_at", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a8cceaca256f3783e8f2df0f173090bcb", null ],
+    [ "Endpoint", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a437f477574394ac1580bbeaba1020fb4", null ],
+    [ "FIRST", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a1692cd94624d424ee035a9ce9d53920d", null ],
+    [ "HTTPMethod", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a61b30fdbc6bae70cc47da5817314cb68", null ],
+    [ "id", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#afe5cbe443e5fe3311b00f1797610b2e4", null ],
+    [ "moderator_id", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#ae56aa1ec0dcf449da9eea72805f680ec", null ],
+    [ "MODERATOR_ID", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a0b0e23d5e7241fa7906e5ba6f8946c19", null ],
+    [ "moderator_login", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#ac15616680c19b49d09713d4bebb6840a", null ],
+    [ "moderator_name", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a5f9d00fef6905d7b7a54f9a822d44edf", null ],
+    [ "resolution_text", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a49f0dc351b8737221d6200a47ab4a907", null ],
+    [ "resolved_at", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a1b48de4013cddff20e1c6b50a47e13f8", null ],
+    [ "status", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a9362920c4088fa7f54357f60b9958e3a", null ],
+    [ "STATUS", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#ac1f176b4e6a89441fcf60ed01d550a83", null ],
+    [ "text", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a34e759366fdbe4b28e570b19d13542c2", null ],
+    [ "user_id", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a9069d508fc2af28c714de00c419078ac", null ],
+    [ "USER_ID", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a9f97ab15dd3f3d1845c17212be2abbef", null ],
+    [ "user_login", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a9379b0836a695f534bfb0bcb86059485", null ],
+    [ "user_name", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a849ef322d82375dedd8336666f5eb3da", null ]
+];

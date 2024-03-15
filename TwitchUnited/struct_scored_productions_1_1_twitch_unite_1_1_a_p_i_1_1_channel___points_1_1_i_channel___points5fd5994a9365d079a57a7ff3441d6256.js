@@ -1,6 +1,0 @@
-var struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points5fd5994a9365d079a57a7ff3441d6256 =
-[
-    [ "Global_Cooldown_Setting", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points5fd5994a9365d079a57a7ff3441d6256.html#a2d6023792fb874e070edf0a0ef9982a8", null ],
-    [ "global_cooldown_seconds", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points5fd5994a9365d079a57a7ff3441d6256.html#a57cce450da501563be4a97922cfd8d32", null ],
-    [ "is_enabled", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points5fd5994a9365d079a57a7ff3441d6256.html#acb9afc715ae357803ff485fa91b7833e", null ]
-];

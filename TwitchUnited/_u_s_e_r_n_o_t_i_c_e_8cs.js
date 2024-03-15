@@ -1,5 +1,0 @@
-var _u_s_e_r_n_o_t_i_c_e_8cs =
-[
-    [ "ScoredProductions.TwitchUnited.IRC.Tags.USERNOTICE", "struct_scored_productions_1_1_twitch_united_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html", "struct_scored_productions_1_1_twitch_united_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e" ],
-    [ "ScoredProductions.TwitchUnited.IRC.Tags.USERNOTICE.Message_Params", "struct_scored_productions_1_1_twitch_united_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params.html", "struct_scored_productions_1_1_twitch_united_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params" ]
-];

@@ -1,0 +1,7 @@
+var struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati2659edc8c0441eb17b8d4e84f5a75b29 =
+[
+    [ "Amount", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati2659edc8c0441eb17b8d4e84f5a75b29.html#afa286644a219c1c668b7c452f93be770", null ],
+    [ "currency", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati2659edc8c0441eb17b8d4e84f5a75b29.html#ad9afec67478ffe433dc063fe09bdf853", null ],
+    [ "decimal_places", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati2659edc8c0441eb17b8d4e84f5a75b29.html#affeccb23c68e26b6a56748104c221940", null ],
+    [ "value", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati2659edc8c0441eb17b8d4e84f5a75b29.html#a2fe472906e14585f631abb5aa5b78c5e", null ]
+];

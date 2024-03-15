@@ -1,0 +1,4 @@
+var _get_custom_reward_redemption_8cs =
+[
+    [ "ScoredProductions.TwitchLinked.API.Channel_Points.GetCustomRewardRedemption", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_channel___points_1_1_get_custom_reward_redemption.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_channel___points_1_1_get_custom_reward_redemption" ]
+];

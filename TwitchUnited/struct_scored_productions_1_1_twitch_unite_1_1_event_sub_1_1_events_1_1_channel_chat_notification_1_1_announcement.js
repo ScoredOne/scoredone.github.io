@@ -1,5 +1,0 @@
-var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement =
-[
-    [ "Announcement", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement.html#a5e1cd68d0c5328ee05701a5c1e24c0e3", null ],
-    [ "color", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement.html#a6fc17e2caa3da046b006b3b9045605c9", null ]
-];

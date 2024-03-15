@@ -1,0 +1,13 @@
+var searchData=
+[
+  ['addblockedterm_0',['AddBlockedTerm',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_add_blocked_term.html',1,'ScoredProductions::TwitchLinked::API::Moderation']]],
+  ['addchannelmoderator_1',['AddChannelModerator',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html',1,'ScoredProductions::TwitchLinked::API::Moderation']]],
+  ['addchannelvip_2',['AddChannelVIP',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_v_i_p.html',1,'ScoredProductions::TwitchLinked::API::Moderation']]],
+  ['amount_3',['Amount',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_charity_1_1_i_charity_1_1_amount.html',1,'ScoredProductions.TwitchLinked.API.Charity.ICharity.Amount'],['../struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati2659edc8c0441eb17b8d4e84f5a75b29.html',1,'ScoredProductions.TwitchLinked.EventSub.Events.ChannelChatNotification.CharityDonation.Amount'],['../struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_i_charity_campaign_1_1_amount.html',1,'ScoredProductions.TwitchLinked.EventSub.ICharityCampaign.Amount']]],
+  ['announcement_4',['Announcement',['../struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement.html',1,'ScoredProductions::TwitchLinked::EventSub::Events::ChannelChatNotification']]],
+  ['applicationdatablock_5',['ApplicationDataBlock',['../struct_scored_productions_1_1_twitch_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension_1_1_application_data_block.html',1,'ScoredProductions::TwitchLinked::UniGif::UniGif::ApplicationExtension']]],
+  ['applicationextension_6',['ApplicationExtension',['../struct_scored_productions_1_1_twitch_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html',1,'ScoredProductions::TwitchLinked::UniGif::UniGif']]],
+  ['assigngueststarslot_7',['AssignGuestStarSlot',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_assign_guest_star_slot.html',1,'ScoredProductions::TwitchLinked::API::Guest_Star']]],
+  ['audiosettings_8',['AudioSettings',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_audio_settings.html',1,'ScoredProductions::TwitchLinked::API::Guest_Star::IGuest_Star']]],
+  ['authorizationcodegrantflow_9',['AuthorizationCodeGrantFlow',['../struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html',1,'ScoredProductions::TwitchLinked::API::AuthContainers']]]
+];

@@ -1,0 +1,9 @@
+var interface_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star =
+[
+    [ "AudioSettings", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_audio_settings.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_audio_settings" ],
+    [ "Guest", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_guest.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_guest" ],
+    [ "VideoSettings", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_video_settings.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_video_settings" ],
+    [ "Initialise", "interface_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star.html#a94bb81b2fa454a4c515d224f281a452a", null ],
+    [ "Endpoint", "interface_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star.html#a094c0a3932de245674ef172ce97bc837", null ],
+    [ "HTTPMethod", "interface_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star.html#a5687e2d3dd743f5d90220fe213939410", null ]
+];

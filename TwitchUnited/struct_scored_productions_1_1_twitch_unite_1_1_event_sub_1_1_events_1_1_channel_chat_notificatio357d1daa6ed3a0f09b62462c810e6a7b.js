@@ -1,8 +1,0 @@
-var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio357d1daa6ed3a0f09b62462c810e6a7b =
-[
-    [ "Emote", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio357d1daa6ed3a0f09b62462c810e6a7b.html#a38eaf12279aa03f3b6f8bc45971b977b", null ],
-    [ "emote_set_id", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio357d1daa6ed3a0f09b62462c810e6a7b.html#ae0eca17acff502de52234916a0be5c29", null ],
-    [ "format", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio357d1daa6ed3a0f09b62462c810e6a7b.html#ae6d6b0235e75d19b0b2f248dc0e5852a", null ],
-    [ "id", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio357d1daa6ed3a0f09b62462c810e6a7b.html#aab5136be9f17e45c99ed86c451d4b22e", null ],
-    [ "owner_id", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatio357d1daa6ed3a0f09b62462c810e6a7b.html#a7ec20083dbf88c76a08dd4f0df725cde", null ]
-];

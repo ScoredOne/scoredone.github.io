@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['name_0',['Name',['../class_scored_productions_1_1_twitch_linked_1_1_utility_1_1_singleton_instance.html#a9322e696bacd7f836de450726fa381e2',1,'ScoredProductions::TwitchLinked::Utility::SingletonInstance']]],
+  ['name_1',['NAME',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#affe6162d38028485ebae4de918239f5e',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['networkstream_2',['networkStream',['../class_scored_productions_1_1_twitch_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a9de2690099839bdc74f9e6f6a8e69803',1,'ScoredProductions::TwitchLinked::IRC::TwitchIRCClient']]],
+  ['newauthtype_3',['NewAuthType',['../class_scored_productions_1_1_twitch_linked_1_1_save_client_details.html#aa58b9f0691af08f1fbdf3733dd55bb58',1,'ScoredProductions::TwitchLinked::SaveClientDetails']]],
+  ['next_5fad_5fat_4',['NEXT_AD_AT',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#a5fa7d08e92d5f8b24eaefb042c934086',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['nick_5',['NICK',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#aaefe69bbfcc395003f536106475f1e8a',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['non_5fmoderator_5fchat_5fdelay_6',['NON_MODERATOR_CHAT_DELAY',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#ad74d1e5e0d095d53cd0da7b2a96e5812',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['non_5fmoderator_5fchat_5fdelay_5fduration_7',['NON_MODERATOR_CHAT_DELAY_DURATION',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#aab67453327d133c6d70c15536a781b76',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['non_5fssl_5firc_5fport_8',['NON_SSL_IRC_PORT',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_static.html#accabf633838388bf53c2ffb16b00a1a1',1,'ScoredProductions::TwitchLinked::TwitchStatic']]],
+  ['noncecharacters_9',['NonceCharacters',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_static.html#ab5a72e15b892f94a0d515358bfb174f0',1,'ScoredProductions::TwitchLinked::TwitchStatic']]],
+  ['notavailable_10',['NotAvailable',['../struct_scored_productions_1_1_twitch_linked_1_1_i_r_c_1_1_tags_1_1_twitch_tag_data.html#a16cd37ed01e0f676bc1c62b9ff4cc4d6',1,'ScoredProductions::TwitchLinked::IRC::Tags::TwitchTagData']]],
+  ['notice_11',['NOTICE',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#a2dd16d576526b411bec46b0af4aa5c9c',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['notice_5ftype_12',['NOTICE_TYPE',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#af072706a67040e7fb37bd3c2dbed0674',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['notification_13',['NOTIFICATION',['../class_scored_productions_1_1_twitch_linked_1_1_twitch_words.html#aa2e660752d136369f3a5e68bdccb293f',1,'ScoredProductions::TwitchLinked::TwitchWords']]],
+  ['notification_5ffailures_5fexceeded_14',['notification_failures_exceeded',['../class_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_twitch_event_sub_statuses.html#a4f1b70495727466b00fb7a1db3385927',1,'ScoredProductions::TwitchLinked::EventSub::TwitchEventSubStatuses']]],
+  ['null_15',['Null',['../struct_scored_productions_1_1_twitch_linked_1_1_light_json_1_1_json_value.html#ae938d1b300b2f4a44254eb83e54012ce',1,'ScoredProductions::TwitchLinked::LightJson::JsonValue']]],
+  ['numworkerstocreateonawake_16',['NumWorkersToCreateOnAwake',['../class_scored_productions_1_1_twitch_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a04f6fb8f7959268399d51eb72169ed07',1,'ScoredProductions.TwitchLinked.ManagersAndBuilders.TwitchBadgeManager.NumWorkersToCreateOnAwake'],['../class_scored_productions_1_1_twitch_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a5fc626c1061042cc113b0339632377bb',1,'ScoredProductions.TwitchLinked.ManagersAndBuilders.TwitchEmoteManager.NumWorkersToCreateOnAwake']]]
+];

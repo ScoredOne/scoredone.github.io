@@ -1,0 +1,5 @@
+var struct_scored_productions_1_1_twitch_linked_1_1_uni_gif_1_1_uni_gif_1_1_comment_extension_1_1_comment_data_block =
+[
+    [ "m_blockSize", "struct_scored_productions_1_1_twitch_linked_1_1_uni_gif_1_1_uni_gif_1_1_comment_extension_1_1_comment_data_block.html#ae572d099f7d59611a82f7f4ca61255a7", null ],
+    [ "m_commentData", "struct_scored_productions_1_1_twitch_linked_1_1_uni_gif_1_1_uni_gif_1_1_comment_extension_1_1_comment_data_block.html#a7ec51e27e4ea122eba18de13520fff09", null ]
+];

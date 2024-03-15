@@ -1,0 +1,6 @@
+var _channel_chat_message_8cs =
+[
+    [ "ScoredProductions.TwitchLinked.EventSub.Events.ChannelChatMessage", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message" ],
+    [ "ScoredProductions.TwitchLinked.EventSub.Events.ChannelChatMessage.Cheer", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_1_1_cheer.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_1_1_cheer" ],
+    [ "ScoredProductions.TwitchLinked.EventSub.Events.ChannelChatMessage.Reply", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_1_1_reply.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_1_1_reply" ]
+];

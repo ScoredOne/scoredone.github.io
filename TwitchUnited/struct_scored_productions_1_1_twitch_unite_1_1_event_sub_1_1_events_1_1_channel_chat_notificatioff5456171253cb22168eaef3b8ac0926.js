@@ -1,7 +1,0 @@
-var struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatioff5456171253cb22168eaef3b8ac0926 =
-[
-    [ "Cheermote", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatioff5456171253cb22168eaef3b8ac0926.html#a59bce9374e35c2c04a0456324c7d092b", null ],
-    [ "bits", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatioff5456171253cb22168eaef3b8ac0926.html#a37e4faa5d38ad6c3492af405f93c68ba", null ],
-    [ "prefix", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatioff5456171253cb22168eaef3b8ac0926.html#ae9b9094774bc114c9313b6a95b9bd66a", null ],
-    [ "tier", "struct_scored_productions_1_1_twitch_unite_1_1_event_sub_1_1_events_1_1_channel_chat_notificatioff5456171253cb22168eaef3b8ac0926.html#a27d5a5f485fb969ab14c56ea98e2b892", null ]
-];

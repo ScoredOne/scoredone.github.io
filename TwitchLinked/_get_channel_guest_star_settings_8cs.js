@@ -1,0 +1,4 @@
+var _get_channel_guest_star_settings_8cs =
+[
+    [ "ScoredProductions.TwitchLinked.API.Guest_Star.GetChannelGuestStarSettings", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings" ]
+];

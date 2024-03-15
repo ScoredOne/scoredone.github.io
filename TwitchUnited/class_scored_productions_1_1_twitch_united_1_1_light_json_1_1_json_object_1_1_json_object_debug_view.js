@@ -1,7 +1,0 @@
-var class_scored_productions_1_1_twitch_united_1_1_light_json_1_1_json_object_1_1_json_object_debug_view =
-[
-    [ "KeyValuePair", "class_scored_productions_1_1_twitch_united_1_1_light_json_1_1_json_object_1_1_json_object_debug_view_1_1_key_value_pair.html", "class_scored_productions_1_1_twitch_united_1_1_light_json_1_1_json_object_1_1_json_object_debug_view_1_1_key_value_pair" ],
-    [ "JsonObjectDebugView", "class_scored_productions_1_1_twitch_united_1_1_light_json_1_1_json_object_1_1_json_object_debug_view.html#a441a80900ab883d5da73129d2052c8ac", null ],
-    [ "jsonObject", "class_scored_productions_1_1_twitch_united_1_1_light_json_1_1_json_object_1_1_json_object_debug_view.html#a4d2183636b55ba20710d4c2f8dfd1e9e", null ],
-    [ "Keys", "class_scored_productions_1_1_twitch_united_1_1_light_json_1_1_json_object_1_1_json_object_debug_view.html#a8e40a3c2134d2e91494d86bcef16dd32", null ]
-];

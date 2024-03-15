@@ -1,0 +1,4 @@
+var _extension_bits_transaction_create_8cs =
+[
+    [ "ScoredProductions.TwitchLinked.EventSub.Events.ExtensionBitsTransactionCreate", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create" ]
+];

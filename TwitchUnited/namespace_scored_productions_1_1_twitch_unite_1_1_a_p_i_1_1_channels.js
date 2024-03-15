@@ -1,9 +1,0 @@
-var namespace_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels =
-[
-    [ "GetChannelEditors", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_channel_editors.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_channel_editors" ],
-    [ "GetChannelFollowers", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_channel_followers.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_channel_followers" ],
-    [ "GetChannelInformation", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_channel_information" ],
-    [ "GetFollowedChannels", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_followed_channels.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_get_followed_channels" ],
-    [ "IChannels", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_i_channels.html", "interface_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_i_channels" ],
-    [ "ModifyChannelInformation", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_modify_channel_information.html", "struct_scored_productions_1_1_twitch_unite_1_1_a_p_i_1_1_channels_1_1_modify_channel_information" ]
-];

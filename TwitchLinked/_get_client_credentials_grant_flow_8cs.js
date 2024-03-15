@@ -1,0 +1,4 @@
+var _get_client_credentials_grant_flow_8cs =
+[
+    [ "ScoredProductions.TwitchLinked.API.Auth.GetClientCredentialsGrantFlow", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow" ]
+];

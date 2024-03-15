@@ -1,0 +1,5 @@
+var struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_bits_badge_tier =
+[
+    [ "BitsBadgeTier", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_bits_badge_tier.html#a45f5ab5e7b12a0aa64c67e19a36ca664", null ],
+    [ "tier", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_bits_badge_tier.html#a743369c9a461e47b23117d99cb7e6017", null ]
+];

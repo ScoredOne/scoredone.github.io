@@ -1,0 +1,9 @@
+var class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings =
+[
+    [ "AuthPending", "class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings.html#a1f36d6b9f499f5b7c39931ab80fe78dd", null ],
+    [ "InvalidDeviceCode", "class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings.html#aaff9df214bdd513ab03f5c7d0742b94f", null ],
+    [ "InvalidRefreshToken", "class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings.html#aff1ce41ee027e4a314101eda55640329", null ],
+    [ "ManualRetrieval", "class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings.html#a800260fbae6745124192f70ff669109d", null ],
+    [ "PingInterval", "class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings.html#a92c61723cf0ed0aa61ecd7981a5ee539", null ],
+    [ "PingRetries", "class_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_retrieval_settings.html#a7aa345ccfb7b0bd3cbc8f07b16122fd2", null ]
+];
