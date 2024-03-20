@@ -1,0 +1,4 @@
+var _set_extension_required_configuration_8cs =
+[
+    [ "ScoredProductions.StreamLinked.API.Extensions.SetExtensionRequiredConfiguration", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_required_configuration.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_required_configuration" ]
+];

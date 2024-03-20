@@ -1,0 +1,4 @@
+var _channel_prediction_lock_8cs =
+[
+    [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelPredictionLock", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock" ]
+];

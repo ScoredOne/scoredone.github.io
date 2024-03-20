@@ -1,6 +1,0 @@
-var namespace_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions =
-[
-    [ "CheckUserSubscription", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions_1_1_check_user_subscription.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions_1_1_check_user_subscription" ],
-    [ "GetBroadcasterSubscriptions", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions" ],
-    [ "ISubscriptions", "interface_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions_1_1_i_subscriptions.html", "interface_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_subscriptions_1_1_i_subscriptions" ]
-];

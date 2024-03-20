@@ -1,0 +1,7 @@
+var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions =
+[
+    [ "GetEnumFromTwitchName", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions.html#ac2e74576b321c0757d84da8a39aecb9d", null ],
+    [ "ToLinkedType", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions.html#a8d16123c0e339f9afdda121ae7695503", null ],
+    [ "ToTwitchNameString", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions.html#a228292748d9e1568f6c8181ef5846d64", null ],
+    [ "ToVersionString", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions.html#af34f45085ed45f146fbb6013ce29d1ff", null ]
+];

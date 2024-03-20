@@ -1,0 +1,5 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement =
+[
+    [ "Announcement", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement.html#a9a208386a21a0ce6c89a8762932a8e64", null ],
+    [ "color", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_announcement.html#a0e1d0f984df7d4d8ab6a4e8a0c8a0d86", null ]
+];

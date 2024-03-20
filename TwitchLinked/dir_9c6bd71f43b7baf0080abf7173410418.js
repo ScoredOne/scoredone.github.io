@@ -1,4 +1,0 @@
-var dir_9c6bd71f43b7baf0080abf7173410418 =
-[
-    [ "TwitchLinked", "dir_101ed267b553d39d2960864134e504e0.html", "dir_101ed267b553d39d2960864134e504e0" ]
-];

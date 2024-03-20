@@ -1,0 +1,8 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_1_1_reward =
+[
+    [ "UnlockedEmote", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati7dc5ac9184bd52ff222e4e1cc87a7fd3.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati7dc5ac9184bd52ff222e4e1cc87a7fd3" ],
+    [ "Reward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_1_1_reward.html#a18b3bfeca59f01ba2ae5baec1fa58bef", null ],
+    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_1_1_reward.html#afa8d5a19aa5c87d6ebe48e98edb9dab1", null ],
+    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_1_1_reward.html#aa436240d5bfdb127fb5bd5ecb3402eb9", null ],
+    [ "unlocked_emote", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_1_1_reward.html#a7d6c6bba17746dba0053158c4bdbb2cb", null ]
+];

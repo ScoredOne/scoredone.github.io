@@ -1,4 +1,0 @@
-var _json_parse_exception_8cs =
-[
-    [ "ScoredProductions.TwitchLinked.LightJson.Serialization.JsonParseException", "class_scored_productions_1_1_twitch_linked_1_1_light_json_1_1_serialization_1_1_json_parse_exception.html", "class_scored_productions_1_1_twitch_linked_1_1_light_json_1_1_serialization_1_1_json_parse_exception" ]
-];

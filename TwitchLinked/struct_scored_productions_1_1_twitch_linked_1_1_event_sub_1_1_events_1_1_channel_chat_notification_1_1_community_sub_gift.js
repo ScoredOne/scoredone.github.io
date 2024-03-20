@@ -1,8 +1,0 @@
-var struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift =
-[
-    [ "CommunitySubGift", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#ad8dc92b627ddd51511903c6f5db93a0c", null ],
-    [ "cumulative_total", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#a6be59aa3bdabfecc4425ea0e0263dae8", null ],
-    [ "id", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#ab111af3dcae4edd13c537a229c4956c0", null ],
-    [ "sub_tier", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#a12e43862baf0723f29b84c8cb025dccb", null ],
-    [ "total", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_community_sub_gift.html#a70604f409fa4aa1a9174448a4887c4d1", null ]
-];

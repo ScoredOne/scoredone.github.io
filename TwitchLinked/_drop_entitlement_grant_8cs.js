@@ -1,5 +1,0 @@
-var _drop_entitlement_grant_8cs =
-[
-    [ "ScoredProductions.TwitchLinked.EventSub.Events.DropEntitlementGrant", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant" ],
-    [ "ScoredProductions.TwitchLinked.EventSub.Events.DropEntitlementGrant.Data", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant_1_1_data.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant_1_1_data" ]
-];

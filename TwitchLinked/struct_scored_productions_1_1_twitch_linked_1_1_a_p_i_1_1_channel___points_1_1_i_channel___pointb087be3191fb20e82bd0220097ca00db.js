@@ -1,6 +1,0 @@
-var struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___pointb087be3191fb20e82bd0220097ca00db =
-[
-    [ "Max_Per_Stream_Setting", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___pointb087be3191fb20e82bd0220097ca00db.html#a2438bb81fc620606c5c2bdee19511566", null ],
-    [ "is_enabled", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___pointb087be3191fb20e82bd0220097ca00db.html#ad846c3a2a1631bfef4cdf17c1ae2c25b", null ],
-    [ "max_per_stream", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___pointb087be3191fb20e82bd0220097ca00db.html#a06f5e24654d15b0e44f66ae9274ac7de", null ]
-];

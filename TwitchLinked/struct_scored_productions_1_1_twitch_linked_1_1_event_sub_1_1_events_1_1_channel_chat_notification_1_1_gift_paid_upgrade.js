@@ -1,8 +1,0 @@
-var struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_gift_paid_upgrade =
-[
-    [ "GiftPaidUpgrade", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_gift_paid_upgrade.html#a591363456d602f2844d33bf708dee018", null ],
-    [ "gifter_is_anonymous", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_gift_paid_upgrade.html#ab8f959cb13dbc009ba34ba581321ca6f", null ],
-    [ "gifter_user_id", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_gift_paid_upgrade.html#ab507f4eca907e162b9cc1a63e8f79321", null ],
-    [ "gifter_user_login", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_gift_paid_upgrade.html#a54493b5cbb70422258d5f24eb4a26e6f", null ],
-    [ "gifter_user_name", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_gift_paid_upgrade.html#a095acf4097da533eac398dcb72724f70", null ]
-];

@@ -1,0 +1,25 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove =
+[
+    [ "ChannelPointsCustomRewardRemove", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#ac0eb90674febac0cefcf3254fb4f7dd3", null ],
+    [ "background_color", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a619b2dfaa752641aaf2e2dcc650b63d9", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a722d3c24d4236e90c6732032df63f2e6", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#adf00a0a8047061ab4349cb3806afdee2", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a509566e8ece4eda9fb9fbb62606da212", null ],
+    [ "cooldown_expires_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#ae1d6cda1a30a4e243143bfc0893347e5", null ],
+    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a273b0c9720cd25c99c47d721da2835c6", null ],
+    [ "default_image", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#ac8e2ebc78cc1a0ec3ece24e3c455a971", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a937781d03a79e45667081c59d0818671", null ],
+    [ "global_cooldown", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a7bb71b75654fc5ec427f8546779146a6", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#adb02d872fce6b10a73917f1c7c3f6311", null ],
+    [ "image", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a9b7a0cecdc429582749518ff1bf8338d", null ],
+    [ "is_enabled", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a7f59b079c286692128993c1548ed0476", null ],
+    [ "is_in_stock", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#ad76015472b9da11883e4b0ccaabfd543", null ],
+    [ "is_paused", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a34dcb10b868d67435a8a811f1525ff21", null ],
+    [ "is_user_input_required", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a3b27d33f20ecd6f805fbc2048b17e877", null ],
+    [ "max_per_stream", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#adfea5e48677ceb246ff171aaa0f42a5a", null ],
+    [ "max_per_user_per_stream", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a88e4026cd71fc57ed555127548a40bb0", null ],
+    [ "prompt", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a8b5ee864545799697691c0f20fc21a9c", null ],
+    [ "redemptions_redeemed_current_stream", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a4d588d7a7abaea775bf3b1bc845fde22", null ],
+    [ "should_redemptions_skip_request_queue", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a37d9540aeced6575df111ad3fae89b3b", null ],
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_remove.html#a6fe12bcbebbaed004fdcebe11672c0b6", null ]
+];

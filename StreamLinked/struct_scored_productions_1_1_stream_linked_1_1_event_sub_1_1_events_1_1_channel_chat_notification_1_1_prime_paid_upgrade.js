@@ -1,0 +1,5 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_prime_paid_upgrade =
+[
+    [ "PrimePaidUpgrade", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_prime_paid_upgrade.html#ad19536efb9ca061137f8bd387c22c65e", null ],
+    [ "sub_tier", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_prime_paid_upgrade.html#abc2d717a27d73d40b74e3c0a28583f8f", null ]
+];

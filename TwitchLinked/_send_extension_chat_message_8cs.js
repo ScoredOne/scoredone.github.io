@@ -1,4 +1,0 @@
-var _send_extension_chat_message_8cs =
-[
-    [ "ScoredProductions.TwitchLinked.API.Extensions.SendExtensionChatMessage", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_chat_message.html", "struct_scored_productions_1_1_twitch_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_chat_message" ]
-];

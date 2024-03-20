@@ -1,4 +1,0 @@
-var _channel_guest_star_session_end_8cs =
-[
-    [ "ScoredProductions.TwitchLinked.EventSub.Events.ChannelGuestStarSessionEnd", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end.html", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_session_end" ]
-];

@@ -1,0 +1,7 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati1021c12ae82569d2579d6b98c54ef2a0 =
+[
+    [ "Amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati1021c12ae82569d2579d6b98c54ef2a0.html#a76a8332a81865e2a9883f3f48b2fd427", null ],
+    [ "currency", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati1021c12ae82569d2579d6b98c54ef2a0.html#a2221ef7eaf0dfd9e139fb08d47ea8b77", null ],
+    [ "decimal_places", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati1021c12ae82569d2579d6b98c54ef2a0.html#ac2bc65f3d53102d8d748d40c9e761f15", null ],
+    [ "value", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notificati1021c12ae82569d2579d6b98c54ef2a0.html#a406ca733bb85875e7e35ea45b30afab0", null ]
+];

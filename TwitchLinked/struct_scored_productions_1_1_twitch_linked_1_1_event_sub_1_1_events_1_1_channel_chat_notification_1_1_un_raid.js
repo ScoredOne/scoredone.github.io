@@ -1,4 +1,0 @@
-var struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid =
-[
-    [ "UnRaid", "struct_scored_productions_1_1_twitch_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid.html#a08df52e7414bb2e3ca35612237986b16", null ]
-];

@@ -1,0 +1,6 @@
+var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point00c4124a812f4824550925cc952ec156 =
+[
+    [ "Max_Per_Stream_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point00c4124a812f4824550925cc952ec156.html#a69476381ef818697c99eab6b410ddf7b", null ],
+    [ "is_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point00c4124a812f4824550925cc952ec156.html#aa9cb7c381abd7ff9e8a3c0e2c59e4d13", null ],
+    [ "max_per_stream", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point00c4124a812f4824550925cc952ec156.html#adf914c80b88f355192427ba87f790285", null ]
+];

@@ -1,0 +1,4 @@
+var _channel_chat_user_message_hold_8cs =
+[
+    [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageHold", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_user_message_hold.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_user_message_hold" ]
+];

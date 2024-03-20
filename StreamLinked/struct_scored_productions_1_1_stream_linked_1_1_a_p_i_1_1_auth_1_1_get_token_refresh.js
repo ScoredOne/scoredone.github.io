@@ -1,0 +1,15 @@
+var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh =
+[
+    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a6f89c3fff009158f9c22e99453323469", null ],
+    [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a6fde3e6f495436c19eed04a071b6d27d", null ],
+    [ "access_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a53627929d8950506a0394cdfdcb459a5", null ],
+    [ "CLIENT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a4905deab28a99f9feb10717ac1878c47", null ],
+    [ "CLIENT_SECRET", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#ab685a30c6275be9fb52bceeffbed001b", null ],
+    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a816806cad3ca14918cbfe2038d9a1701", null ],
+    [ "GRANT_TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a5b1587d6d724413abc32ec553108a85d", null ],
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#abe949f1476ea3a8b96ef4901ea206e24", null ],
+    [ "refresh_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a6d052d7b25018a2f9040d3e50a4e61af", null ],
+    [ "REFRESH_TOKEN", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#ad77c70117bd1ef3fea3df60fa1a1e16e", null ],
+    [ "scope", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a5d1e2175ec6eae6c2d7e8af2792ca5b0", null ],
+    [ "token_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a34d02e9b9acbc3f349d7d37a89d3b344", null ]
+];

@@ -1,0 +1,4 @@
+var _channel_unban_request_create_8cs =
+[
+    [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelUnbanRequestCreate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_create.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_create" ]
+];
