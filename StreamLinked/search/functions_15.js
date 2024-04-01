@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['whisper_0',['Whisper',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received_1_1_whisper.html#a57d408e7ecdc1f4c0402bcbfd4d413dc',1,'ScoredProductions::StreamLinked::EventSub::Events::WhisperReceived::Whisper']]],
-  ['whisper_1',['WHISPER',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_w_h_i_s_p_e_r.html#a072bc4d332a0cbef8819a68db81d2a3f',1,'ScoredProductions::StreamLinked::IRC::Tags::WHISPER']]],
+  ['whisper_0',['WHISPER',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_w_h_i_s_p_e_r.html#a072bc4d332a0cbef8819a68db81d2a3f',1,'ScoredProductions::StreamLinked::IRC::Tags::WHISPER']]],
+  ['whisper_1',['Whisper',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received_1_1_whisper.html#a57d408e7ecdc1f4c0402bcbfd4d413dc',1,'ScoredProductions::StreamLinked::EventSub::Events::WhisperReceived::Whisper']]],
   ['whisperreceived_2',['WhisperReceived',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#a5ea8d52906c2570630936bc8ac23fa8d',1,'ScoredProductions::StreamLinked::EventSub::Events::WhisperReceived']]],
   ['write_3',['Write',['../class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_writer.html#af074df2a42b3df533e3d67cdc86fa946',1,'ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.Write(string text)'],['../class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_writer.html#a245cd7f270fe1be60ab2cee4a0880c8f',1,'ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.Write(JsonValue jsonValue)']]],
   ['writeencodedjsonvalue_4',['WriteEncodedJsonValue',['../class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_writer.html#ad68ac87850e3daa1c24fb3f898419b0e',1,'ScoredProductions::StreamLinked::LightJson::Serialization::JsonWriter']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"_json_object_8cs.html":[2,0,0,0,0,0,0,0,2],
 "_json_parse_exception_8cs.html":[2,0,0,0,0,0,0,0,0,0],
 "_json_reader_8cs.html":[2,0,0,0,0,0,0,0,0,1],
 "_json_reader_8cs.html#a299777319996650ce5854d360a62e1f9":[2,0,0,0,0,0,0,0,0,1,1],
@@ -32,7 +33,7 @@ var NAVTREEINDEX1 =
 "_remove_channel_v_i_p_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,18],
 "_resolve_unban_requests_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,19],
 "_reward_8cs.html":[2,0,0,0,0,0,0,4,1,1,10],
-"_save_client_details_8cs.html":[2,0,0,0,0,0,0,6,0],
+"_save_client_details_8cs.html":[2,0,0,0,0,0,0,6,1],
 "_search_categories_8cs.html":[2,0,0,0,0,0,0,3,0,0,23,1],
 "_search_channels_8cs.html":[2,0,0,0,0,0,0,3,0,0,23,2],
 "_send_a_shoutout_8cs.html":[2,0,0,0,0,0,0,3,0,0,8,10],
@@ -86,7 +87,7 @@ var NAVTREEINDEX1 =
 "_twitch_event_sub_client_8cs.html":[2,0,0,0,0,0,0,4,4],
 "_twitch_event_sub_client_editor_8cs.html":[2,0,0,0,0,0,0,4,0,0],
 "_twitch_event_sub_conditions_8cs.html":[2,0,0,0,0,0,0,4,3,7],
-"_twitch_event_sub_implementation_8cs.html":[2,0,0,0,0,0,0,6,1],
+"_twitch_event_sub_implementation_8cs.html":[2,0,0,0,0,0,0,6,2],
 "_twitch_event_sub_implementation_editor_8cs.html":[2,0,0,0,0,0,0,1,1,2],
 "_twitch_event_sub_messages_enum_8cs.html":[2,0,0,0,0,0,0,4,3,8],
 "_twitch_event_sub_messages_enum_8cs.html#affecbae156a6e8740078e77e3ca6a0d5":[2,0,0,0,0,0,0,4,3,8,0],
@@ -194,8 +195,8 @@ var NAVTREEINDEX1 =
 "_twitch_message_8cs.html":[2,0,0,0,0,0,0,5,4],
 "_twitch_message_atlas_manager_8cs.html":[2,0,0,0,0,0,0,1,4],
 "_twitch_message_atlas_manager_editor_8cs.html":[2,0,0,0,0,0,0,1,1,3],
-"_twitch_message_displayer_prefab_8cs.html":[2,0,0,0,0,0,0,6,2],
-"_twitch_message_u_i_prefab_8cs.html":[2,0,0,0,0,0,0,6,3],
+"_twitch_message_displayer_prefab_8cs.html":[2,0,0,0,0,0,0,6,3],
+"_twitch_message_u_i_prefab_8cs.html":[2,0,0,0,0,0,0,6,4],
 "_twitch_scopes_8cs.html":[2,0,0,0,0,0,0,3,5],
 "_twitch_scopes_enum_8cs.html":[2,0,0,0,0,0,0,3,6],
 "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6":[2,0,0,0,0,0,0,3,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6ad0d8a3073a0f6195a96b89e4697f4056":[2,0,0,0,0,0,0,3,6,0,7],
 "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6ad2478c1bfa11ce9239f943d6353bf5a2":[2,0,0,0,0,0,0,3,6,0,11],
 "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6ad2c42e54dc314bd53c59288e7e9bacfa":[2,0,0,0,0,0,0,3,6,0,51],
-"_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6ad72f7c8b7b672e03acc0f0f4af168a03":[2,0,0,0,0,0,0,3,6,0,39],
-"_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6add46a3644aa4c682f3cd5c636afe69fa":[2,0,0,0,0,0,0,3,6,0,10]
+"_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6ad72f7c8b7b672e03acc0f0f4af168a03":[2,0,0,0,0,0,0,3,6,0,39]
 };

@@ -97,7 +97,6 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "recieverThreadReconnector", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a2d1a68e03a8fbafe6ea673c75db37b9a", null ],
     [ "reconnecting", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a1d1810e791883e379eb0dd105389294f", null ],
     [ "SessionSubscriptions", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#acb6be913ca9cf70ee42192fd566b2daa", null ],
-    [ "sessionTransport", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#ab17afa374c898050893a2e6a33fa9f14", null ],
     [ "StartUpTask", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a67f7c7bcccd1ef8467c61501cdbdf0a5", null ],
     [ "webSocket", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a5ab86a5c94c15164f107884890baaa10", null ],
     [ "WebSocketAddress", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#ae1e8391088041aa72dae20653ac962bf", null ],
@@ -109,5 +108,7 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "GetSubscriptions", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#aac9a227c994a12bec912df82783dc048", null ],
     [ "InstanceIsAlive", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a48ec67fa9431ea8b9a985ee461d9deea", null ],
     [ "KnownMaxTotalCost", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a81ebc7888a0c18373a491c66822e7c18", null ],
+    [ "SessionTransport", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a8c57c22128de206fa8c22607ab12d537", null ],
+    [ "SocketState", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#add10b92ea2b96009b690e9ecd5c170ec", null ],
     [ "UsedCost", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a654227b4793c7fc6128ba5acca13540f", null ]
 ];

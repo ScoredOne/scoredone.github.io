@@ -181,6 +181,7 @@ var NAVTREEINDEX0 =
 "_get_user_chat_color_8cs.html":[2,0,0,0,0,0,0,3,0,0,8,7],
 "_get_user_emotes_8cs.html":[2,0,0,0,0,0,0,3,0,0,8,8],
 "_get_user_extensions_8cs.html":[2,0,0,0,0,0,0,3,0,0,27,3],
+"_get_user_test_script_8cs.html":[2,0,0,0,0,0,0,6,0],
 "_get_users_8cs.html":[2,0,0,0,0,0,0,3,0,0,27,4],
 "_get_v_i_ps_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,13],
 "_get_validated_token_info_8cs.html":[2,0,0,0,0,0,0,3,0,0,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a1edd9f0e08fff3889aba16cc2731975a":[2,0,0,0,0,0,0,2,1,1,4],
 "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be":[2,0,0,0,0,0,0,2,1,1,0],
 "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3":[2,0,0,0,0,0,0,2,1,1,2],
-"_json_array_8cs.html":[2,0,0,0,0,0,0,0,1],
-"_json_object_8cs.html":[2,0,0,0,0,0,0,0,2]
+"_json_array_8cs.html":[2,0,0,0,0,0,0,0,1]
 };

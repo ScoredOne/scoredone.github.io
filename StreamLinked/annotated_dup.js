@@ -433,6 +433,7 @@ var annotated_dup =
         [ "TwitchMessageUIPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab" ],
         [ "TwitchStatic", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_static" ],
         [ "TwitchWords", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_words" ]
-      ] ]
+      ] ],
+      [ "GetUserTestScript", "class_scored_productions_1_1_get_user_test_script.html", "class_scored_productions_1_1_get_user_test_script" ]
     ] ]
 ];

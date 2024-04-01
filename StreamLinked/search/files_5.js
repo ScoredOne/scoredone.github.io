@@ -69,12 +69,13 @@ var searchData=
   ['getuseremotes_2ecs_66',['GetUserEmotes.cs',['../_get_user_emotes_8cs.html',1,'']]],
   ['getuserextensions_2ecs_67',['GetUserExtensions.cs',['../_get_user_extensions_8cs.html',1,'']]],
   ['getusers_2ecs_68',['GetUsers.cs',['../_get_users_8cs.html',1,'']]],
-  ['getvalidatedtokeninfo_2ecs_69',['GetValidatedTokenInfo.cs',['../_get_validated_token_info_8cs.html',1,'']]],
-  ['getvideos_2ecs_70',['GetVideos.cs',['../_get_videos_8cs.html',1,'']]],
-  ['getvips_2ecs_71',['GetVIPs.cs',['../_get_v_i_ps_8cs.html',1,'']]],
-  ['globalcooldown_2ecs_72',['GlobalCooldown.cs',['../_global_cooldown_8cs.html',1,'']]],
-  ['globaluserstate_2ecs_73',['GLOBALUSERSTATE.cs',['../_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html',1,'']]],
-  ['goalsbegin_2ecs_74',['GoalsBegin.cs',['../_goals_begin_8cs.html',1,'']]],
-  ['goalsend_2ecs_75',['GoalsEnd.cs',['../_goals_end_8cs.html',1,'']]],
-  ['goalsprogress_2ecs_76',['GoalsProgress.cs',['../_goals_progress_8cs.html',1,'']]]
+  ['getusertestscript_2ecs_69',['GetUserTestScript.cs',['../_get_user_test_script_8cs.html',1,'']]],
+  ['getvalidatedtokeninfo_2ecs_70',['GetValidatedTokenInfo.cs',['../_get_validated_token_info_8cs.html',1,'']]],
+  ['getvideos_2ecs_71',['GetVideos.cs',['../_get_videos_8cs.html',1,'']]],
+  ['getvips_2ecs_72',['GetVIPs.cs',['../_get_v_i_ps_8cs.html',1,'']]],
+  ['globalcooldown_2ecs_73',['GlobalCooldown.cs',['../_global_cooldown_8cs.html',1,'']]],
+  ['globaluserstate_2ecs_74',['GLOBALUSERSTATE.cs',['../_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html',1,'']]],
+  ['goalsbegin_2ecs_75',['GoalsBegin.cs',['../_goals_begin_8cs.html',1,'']]],
+  ['goalsend_2ecs_76',['GoalsEnd.cs',['../_goals_end_8cs.html',1,'']]],
+  ['goalsprogress_2ecs_77',['GoalsProgress.cs',['../_goals_progress_8cs.html',1,'']]]
 ];

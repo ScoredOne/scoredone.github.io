@@ -25,7 +25,7 @@
 var menudata={children:[
 {text:"Home",url:"https://scoredone.github.io/"},
 {text:"Asset Store Page" , url:"https://assetstore.unity.com/packages/slug/273978"},
-{text:"Main Page",url:"index.html"},
+{text:"Main Page",url:"docs.html"},
 {text:"Packages",url:"namespaces.html",children:[
 {text:"Package List",url:"namespaces.html"},
 {text:"Package Members",url:"namespacemembers.html",children:[

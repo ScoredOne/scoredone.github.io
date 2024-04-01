@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.0.1</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -310,12 +310,16 @@ Properties</h2></td></tr>
 <tr class="separator:aeb4b5de301ba2172cc6536c2787fa4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac9a227c994a12bec912df82783dc048" id="r_aac9a227c994a12bec912df82783dc048"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html">Subscription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9a227c994a12bec912df82783dc048">GetSubscriptions</a><code> [get]</code></td></tr>
 <tr class="separator:aac9a227c994a12bec912df82783dc048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add10b92ea2b96009b690e9ecd5c170ec" id="r_add10b92ea2b96009b690e9ecd5c170ec"><td class="memItemLeft" align="right" valign="top">WebSocketState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add10b92ea2b96009b690e9ecd5c170ec">SocketState</a><code> [get]</code></td></tr>
+<tr class="separator:add10b92ea2b96009b690e9ecd5c170ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654227b4793c7fc6128ba5acca13540f" id="r_a654227b4793c7fc6128ba5acca13540f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654227b4793c7fc6128ba5acca13540f">UsedCost</a> = 0<code> [get, private set]</code></td></tr>
 <tr class="separator:a654227b4793c7fc6128ba5acca13540f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ebc7888a0c18373a491c66822e7c18" id="r_a81ebc7888a0c18373a491c66822e7c18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81ebc7888a0c18373a491c66822e7c18">KnownMaxTotalCost</a> = 1000<code> [get, private set]</code></td></tr>
 <tr class="separator:a81ebc7888a0c18373a491c66822e7c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fcb23b853e430da57d9b3076518c29c" id="r_a6fcb23b853e430da57d9b3076518c29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_session.html">Session</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fcb23b853e430da57d9b3076518c29c">CurrentSessionState</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a6fcb23b853e430da57d9b3076518c29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c57c22128de206fa8c22607ab12d537" id="r_a8c57c22128de206fa8c22607ab12d537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport.html">Transport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c57c22128de206fa8c22607ab12d537">SessionTransport</a><code> [get, private set]</code></td></tr>
+<tr class="separator:a8c57c22128de206fa8c22607ab12d537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48ec67fa9431ea8b9a985ee461d9deea" id="r_a48ec67fa9431ea8b9a985ee461d9deea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a48ec67fa9431ea8b9a985ee461d9deea">InstanceIsAlive</a><code> [get]</code></td></tr>
 <tr class="memdesc:a48ec67fa9431ea8b9a985ee461d9deea"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the Singleton is running in the scene. Good to prevent non-playtime functionality running.  <br /></td></tr>
 <tr class="separator:a48ec67fa9431ea8b9a985ee461d9deea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -375,8 +379,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a88a904d54e48bb86cc347533c67e8cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1810e791883e379eb0dd105389294f" id="r_a1d1810e791883e379eb0dd105389294f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d1810e791883e379eb0dd105389294f">reconnecting</a> = false</td></tr>
 <tr class="separator:a1d1810e791883e379eb0dd105389294f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab17afa374c898050893a2e6a33fa9f14" id="r_ab17afa374c898050893a2e6a33fa9f14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport.html">Transport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab17afa374c898050893a2e6a33fa9f14">sessionTransport</a></td></tr>
-<tr class="separator:ab17afa374c898050893a2e6a33fa9f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0407641627e18550f48f71d55634de6" id="r_ac0407641627e18550f48f71d55634de6"><td class="memItemLeft" align="right" valign="top">readonly HashSet&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0407641627e18550f48f71d55634de6">receivedMessageIds</a> = new HashSet&lt;string&gt;()</td></tr>
 <tr class="separator:ac0407641627e18550f48f71d55634de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -2184,28 +2186,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab17afa374c898050893a2e6a33fa9f14" name="ab17afa374c898050893a2e6a33fa9f14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab17afa374c898050893a2e6a33fa9f14">&#9670;&#160;</a></span>sessionTransport</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport.html">Transport</a> ScoredProductions.StreamLinked.EventSub.TwitchEventSubClient.sessionTransport</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a67f7c7bcccd1ef8467c61501cdbdf0a5" name="a67f7c7bcccd1ef8467c61501cdbdf0a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67f7c7bcccd1ef8467c61501cdbdf0a5">&#9670;&#160;</a></span>StartUpTask</h2>
 
@@ -2445,6 +2425,50 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c57c22128de206fa8c22607ab12d537" name="a8c57c22128de206fa8c22607ab12d537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c57c22128de206fa8c22607ab12d537">&#9670;&#160;</a></span>SessionTransport</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport.html">Transport</a> ScoredProductions.StreamLinked.EventSub.TwitchEventSubClient.SessionTransport</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add10b92ea2b96009b690e9ecd5c170ec" name="add10b92ea2b96009b690e9ecd5c170ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add10b92ea2b96009b690e9ecd5c170ec">&#9670;&#160;</a></span>SocketState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WebSocketState ScoredProductions.StreamLinked.EventSub.TwitchEventSubClient.SocketState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
