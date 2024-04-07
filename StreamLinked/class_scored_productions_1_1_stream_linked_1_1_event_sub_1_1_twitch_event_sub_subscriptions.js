@@ -41,6 +41,8 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "Channel_Subscription_End", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a1e11dc731eaee66168ab81438a8258ae", null ],
     [ "Channel_Subscription_Gift", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#ac7a4f0b1343bd5c025db0c4a4d33dc70", null ],
     [ "Channel_Subscription_Message", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a7f1990d16fe5876405609437db4577dd", null ],
+    [ "Channel_Suspicious_User_Message", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#af6fd67f9a2d69ffffe9d7059c0536182", null ],
+    [ "Channel_Suspicious_User_Update", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a7f1026ce5f40700f64bd9cb3ad76e055", null ],
     [ "Channel_Unban", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a4fedc5caa83ad57ca3c5b507bae4938e", null ],
     [ "Channel_Unban_Request_Create", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#ae3aa389cb4a7068cb2b8a7b3937a6c14", null ],
     [ "Channel_Unban_Request_Resolve", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#acef374161ba21387916a13218a11d229", null ],

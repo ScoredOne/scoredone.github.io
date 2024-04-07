@@ -45,6 +45,8 @@ var dir_6afeb4fa70615cb60f2938451cf60261 =
     [ "ChannelSubscriptionEnd.cs", "_channel_subscription_end_8cs.html", "_channel_subscription_end_8cs" ],
     [ "ChannelSubscriptionGift.cs", "_channel_subscription_gift_8cs.html", "_channel_subscription_gift_8cs" ],
     [ "ChannelSubscriptionMessage.cs", "_channel_subscription_message_8cs.html", "_channel_subscription_message_8cs" ],
+    [ "ChannelSuspiciousUserMessage.cs", "_channel_suspicious_user_message_8cs.html", "_channel_suspicious_user_message_8cs" ],
+    [ "ChannelSuspiciousUserUpdate.cs", "_channel_suspicious_user_update_8cs.html", "_channel_suspicious_user_update_8cs" ],
     [ "ChannelUnban.cs", "_channel_unban_8cs.html", "_channel_unban_8cs" ],
     [ "ChannelUnbanRequestCreate.cs", "_channel_unban_request_create_8cs.html", "_channel_unban_request_create_8cs" ],
     [ "ChannelUnbanRequestResolve.cs", "_channel_unban_request_resolve_8cs.html", "_channel_unban_request_resolve_8cs" ],

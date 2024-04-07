@@ -8,6 +8,7 @@ var class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementati
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html#a8465a2d915ce35728f6e0198aac0077d", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html#ad2dbd0bc8ac59e4d13eea2c6d64f85d6", null ],
     [ "cts", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html#a2e552fed596b15d8b7138c9f26492bc9", null ],
+    [ "OutputText", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html#a746b00031b8b229b69f4c39fbd4e6f76", null ],
     [ "referenceEventSub", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html#a672b27d63346f03db660c70dab40f33e", null ],
     [ "UsernameData", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html#a2fb1eadb26c47bbb97f3dd69db16eb0b", null ]
 ];

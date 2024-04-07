@@ -119,6 +119,8 @@ var hierarchy =
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelModeratorAdd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelModeratorRemove", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelPointsAutomaticRewardRedemption", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption.html", null ],
+        [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelSuspiciousUserMessage", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_suspicious_user_message.html", null ],
+        [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelSuspiciousUserUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_suspicious_user_update.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelUnban", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelUnbanRequestCreate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_create.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelUnbanRequestResolve", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html", null ],

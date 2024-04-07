@@ -65,6 +65,8 @@ var namespace_scored_productions_1_1_stream_linked_1_1_event_sub =
       [ "Channel_Prediction_Progress", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a04159b43dc85196011e460b6c55244dc", null ],
       [ "Channel_Prediction_Lock", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6ab32beccf5c1b7b56e29b5cd1b8edbeba", null ],
       [ "Channel_Prediction_End", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a2f760053dd41c1c815ee311101b08585", null ],
+      [ "Channel_Suspicious_User_Message", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a9c89cef1e714ad48bfe333e41eb66059", null ],
+      [ "Channel_Suspicious_User_Update", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a998f61d67c099e0a03aa86e93092b0c1", null ],
       [ "Channel_VIP_Add", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a467625a9e6791246d2d9c7ed2e2860ba", null ],
       [ "Channel_VIP_Remove", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a8e35a86d4f53b36eb9be44db26709332", null ],
       [ "Charity_Donation", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6a2034b9b8edb31abcddd774f852ec88d6", null ],
