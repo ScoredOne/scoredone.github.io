@@ -47,6 +47,8 @@ var class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client
     [ "OnCLEARMSG", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a556503ff5fc37219e8b397c1ec82f67b", null ],
     [ "OnGLOBALUSERSTATE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a197f04ad205d14d7fb3e4998a1e294f3", null ],
     [ "OnHOSTTARGET", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#aa210622d3bc0449e8562d68f1054fef4", null ],
+    [ "OnIRCStarted", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a6e84981152bff0fd3f9ea788563c1a75", null ],
+    [ "OnIRCStopped", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#aa309dd577785f7cb9da5945dbff4d339", null ],
     [ "OnJOIN", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a4b1f7da32b2c9fe43f32e80d84ae767a", null ],
     [ "OnJoinedRoomUserUpdated", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#afe073ac5553e57d1abf57bea275e1ead", null ],
     [ "OnNICK", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#a31bbd10dd534cce56311a70e19a27695", null ],

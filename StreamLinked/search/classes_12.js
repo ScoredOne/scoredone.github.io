@@ -17,7 +17,7 @@ var searchData=
   ['twitchemotemanager_14',['TwitchEmoteManager',['../class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html',1,'ScoredProductions::StreamLinked::ManagersAndBuilders']]],
   ['twitcheventsubclient_15',['TwitchEventSubClient',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html',1,'ScoredProductions::StreamLinked::EventSub']]],
   ['twitcheventsubconditions_16',['TwitchEventSubConditions',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_twitch_event_sub_conditions.html',1,'ScoredProductions::StreamLinked::EventSub::WebSocketMessages']]],
-  ['twitcheventsubimplementation_17',['TwitchEventSubImplementation',['../class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html',1,'ScoredProductions::StreamLinked']]],
+  ['twitcheventsubstartupexample_17',['TwitchEventSubStartupExample',['../class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_startup_example.html',1,'ScoredProductions::StreamLinked']]],
   ['twitcheventsubstatuses_18',['TwitchEventSubStatuses',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_statuses.html',1,'ScoredProductions::StreamLinked::EventSub']]],
   ['twitcheventsubsubscriptions_19',['TwitchEventSubSubscriptions',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html',1,'ScoredProductions::StreamLinked::EventSub']]],
   ['twitchircclient_20',['TwitchIRCClient',['../class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html',1,'ScoredProductions::StreamLinked::IRC']]],

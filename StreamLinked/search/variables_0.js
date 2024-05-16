@@ -13,5 +13,6 @@ var searchData=
   ['_5ftwitchclientid_10',['_twitchClientID',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a7e439bf6b0b7951b414c89ad6c028457',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]],
   ['_5ftwitchsecret_11',['_twitchSecret',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a62d2b0937256e7beaa54dc64cbbef565',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]],
   ['_5ftwitchtarget_12',['_twitchTarget',['../class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#ab10053f95564fb8a5d312f6b60ca0ff6',1,'ScoredProductions::StreamLinked::IRC::TwitchIRCClient']]],
-  ['_5fuseraccesstoken_13',['_userAccessToken',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ac7ada886d43bfe6ecc1b85a8cae94fb5',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]]
+  ['_5fuseraccesstoken_13',['_userAccessToken',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ac7ada886d43bfe6ecc1b85a8cae94fb5',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]],
+  ['_5fuserprovidedwebresponse_14',['_userProvidedWebResponse',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a401790b49b35a80da7d6bcb55dd20722',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]]
 ];

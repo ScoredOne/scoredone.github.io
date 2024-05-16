@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -137,9 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aebb1287965167cc67b0e3fc184e3968d" id="r_aebb1287965167cc67b0e3fc184e3968d"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebb1287965167cc67b0e3fc184e3968d">BeginConnectionSession</a> ()</td></tr>
 <tr class="memdesc:aebb1287965167cc67b0e3fc184e3968d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up the Event sub.  <br /></td></tr>
 <tr class="separator:aebb1287965167cc67b0e3fc184e3968d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36310ffac535c61cec5a1452575243df" id="r_a36310ffac535c61cec5a1452575243df"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36310ffac535c61cec5a1452575243df">BeginConnectionSession</a> (bool restart=false, bool resubscribe=false)</td></tr>
-<tr class="memdesc:a36310ffac535c61cec5a1452575243df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up the Event sub.  <br /></td></tr>
-<tr class="separator:a36310ffac535c61cec5a1452575243df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d4251e4824668b494427fea763abb7" id="r_aa8d4251e4824668b494427fea763abb7"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8d4251e4824668b494427fea763abb7">BeginConnectionSession</a> (bool restart=false, bool resubscribe=false, params(<a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_event.html">IEvent</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html">Condition</a>)[] immedieteSubs)</td></tr>
+<tr class="memdesc:aa8d4251e4824668b494427fea763abb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts up the Event sub.  <br /></td></tr>
+<tr class="separator:aa8d4251e4824668b494427fea763abb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa95162fba5954c2cd113e0eea08b27c4" id="r_aa95162fba5954c2cd113e0eea08b27c4"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95162fba5954c2cd113e0eea08b27c4">SubscribeToEvent&lt; T &gt;</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html">Condition</a> condition)</td></tr>
 <tr class="separator:aa95162fba5954c2cd113e0eea08b27c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39bd122b286ffcf7474314e14c902d41" id="r_a39bd122b286ffcf7474314e14c902d41"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39bd122b286ffcf7474314e14c902d41">ResubscribeToSessionEvents</a> ()</td></tr>
@@ -160,6 +160,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:afc879440bbf0dc315cf13937e0dfcb65" id="r_afc879440bbf0dc315cf13937e0dfcb65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc879440bbf0dc315cf13937e0dfcb65">KeepaliveTimeoutSeconds</a> = 0</td></tr>
+<tr class="separator:afc879440bbf0dc315cf13937e0dfcb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c217124a212f145181815cb45a5d056" id="r_a7c217124a212f145181815cb45a5d056"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a494b2edb7d3e28d2d1f8e6f3583f9564">DebugManager.DebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c217124a212f145181815cb45a5d056">LogDebugLevel</a> = DebugManager.DebugLevel.Normal</td></tr>
 <tr class="separator:a7c217124a212f145181815cb45a5d056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b37dbcdb21d1114bbe587aa0e51c534" id="r_a8b37dbcdb21d1114bbe587aa0e51c534"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_hold.html">AutomodMessageHold</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b37dbcdb21d1114bbe587aa0e51c534">OnAutomodMessageHold</a></td></tr>
@@ -338,6 +340,9 @@ Static Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ace182f65ad78a986f4d9a9a5fb47f8c2" id="r_ace182f65ad78a986f4d9a9a5fb47f8c2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace182f65ad78a986f4d9a9a5fb47f8c2">GetSocketAddress</a><code> [get]</code></td></tr>
+<tr class="memdesc:ace182f65ad78a986f4d9a9a5fb47f8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to get the websocket address currently used by the client.  <br /></td></tr>
+<tr class="separator:ace182f65ad78a986f4d9a9a5fb47f8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3114c389c15b2c331c713d2060fb074" id="r_ae3114c389c15b2c331c713d2060fb074"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3114c389c15b2c331c713d2060fb074">EventSubEnabled</a><code> [get, set]</code></td></tr>
 <tr class="separator:ae3114c389c15b2c331c713d2060fb074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cd5146df713fb593c713de0379033b7" id="r_a3cd5146df713fb593c713de0379033b7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd5146df713fb593c713de0379033b7">EventSubConnectionActive</a><code> [get]</code></td></tr>
@@ -476,8 +481,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a36310ffac535c61cec5a1452575243df" name="a36310ffac535c61cec5a1452575243df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36310ffac535c61cec5a1452575243df">&#9670;&#160;</a></span>BeginConnectionSession() <span class="overload">[2/2]</span></h2>
+<a id="aa8d4251e4824668b494427fea763abb7" name="aa8d4251e4824668b494427fea763abb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d4251e4824668b494427fea763abb7">&#9670;&#160;</a></span>BeginConnectionSession() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +495,12 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>resubscribe</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>resubscribe</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params(<a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_event.html">IEvent</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html">Condition</a>)[]</td>          <td class="paramname"><span class="paramname"><em>immedieteSubs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1236,6 +1246,20 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc879440bbf0dc315cf13937e0dfcb65" name="afc879440bbf0dc315cf13937e0dfcb65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc879440bbf0dc315cf13937e0dfcb65">&#9670;&#160;</a></span>KeepaliveTimeoutSeconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ScoredProductions.StreamLinked.EventSub.TwitchEventSubClient.KeepaliveTimeoutSeconds = 0</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -2648,6 +2672,30 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace182f65ad78a986f4d9a9a5fb47f8c2" name="ace182f65ad78a986f4d9a9a5fb47f8c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace182f65ad78a986f4d9a9a5fb47f8c2">&#9670;&#160;</a></span>GetSocketAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.EventSub.TwitchEventSubClient.GetSocketAddress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used to get the websocket address currently used by the client. </p>
 
 </div>
 </div>

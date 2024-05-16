@@ -2,6 +2,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_
 [
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a3e5a026b5244921384816a871fa815be", null ],
     [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a9808c0529389ddd5399649ab2686821c", null ],
+    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a26c95d6acb90d532917829335e126c14", null ],
     [ "emote_set_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#ad10866143d072a1507846726deeb32d5", null ],
     [ "emote_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#af9b1e0aeb96829089483591d5711b8eb", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#aa2014b584de1945c2bd92f2cea3b6b86", null ],

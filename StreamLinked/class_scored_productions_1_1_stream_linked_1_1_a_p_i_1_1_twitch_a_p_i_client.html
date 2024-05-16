@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -147,6 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1f19d048a665cf7454eeb6f66a8445e" id="r_ab1f19d048a665cf7454eeb6f66a8445e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1f19d048a665cf7454eeb6f66a8445e">GetNewAuthToken</a> ()</td></tr>
 <tr class="memdesc:ab1f19d048a665cf7454eeb6f66a8445e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a new Auth token of the current type.  <br /></td></tr>
 <tr class="separator:ab1f19d048a665cf7454eeb6f66a8445e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892f179db221b9fc7e4c413e9d26a86d" id="r_a892f179db221b9fc7e4c413e9d26a86d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a892f179db221b9fc7e4c413e9d26a86d">ReceiveDeviceCodeGrantFlowManually</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html">GetDeviceCodeGrantAuthorisation</a> data)</td></tr>
+<tr class="memdesc:a892f179db221b9fc7e4c413e9d26a86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to supply the Device Code Grant Flow token Directly to the API after being manually set to. Will error if not expecting code.  <br /></td></tr>
+<tr class="separator:a892f179db221b9fc7e4c413e9d26a86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5f47996ce6f63b0dad52e726b31df8" id="r_a8d5f47996ce6f63b0dad52e726b31df8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6">TwitchScopesEnum</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d5f47996ce6f63b0dad52e726b31df8">AddToScopes</a> (bool returnNewUpdatedList=false, params <a class="el" href="namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6">TwitchScopesEnum</a>[] scopes)</td></tr>
 <tr class="memdesc:a8d5f47996ce6f63b0dad52e726b31df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to add Scope, notifies to get a new token on new scope added.  <br /></td></tr>
 <tr class="separator:a8d5f47996ce6f63b0dad52e726b31df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,17 +189,26 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:abfa9645d479d5333f71f38b60d7d397d" id="r_abfa9645d479d5333f71f38b60d7d397d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa9645d479d5333f71f38b60d7d397d">Redirect_URI</a> = &quot;http://localhost:3000/&quot;</td></tr>
-<tr class="memdesc:abfa9645d479d5333f71f38b60d7d397d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set in the Twitch Dev Console: Will receive the result of all client authorizations: either an access token or a failure message. This must exactly match the redirect_uri parameter passed to the authorization endpoint. When testing locally, you can set this to <a href="http://localhost">http://localhost</a>. A maximum of 10 redirect URLs is supported.  <br /></td></tr>
-<tr class="separator:abfa9645d479d5333f71f38b60d7d397d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeed7a7a14de6d2152f2ef70dbdd3cbe" id="r_abeed7a7a14de6d2152f2ef70dbdd3cbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeed7a7a14de6d2152f2ef70dbdd3cbe">CreateLocalHostServer</a> = true</td></tr>
+<tr class="separator:abeed7a7a14de6d2152f2ef70dbdd3cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b57c3e72332f873ce8b1e43524d4440" id="r_a7b57c3e72332f873ce8b1e43524d4440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b57c3e72332f873ce8b1e43524d4440">RedirectURI</a> = &quot;http://localhost:3000/&quot;</td></tr>
+<tr class="memdesc:a7b57c3e72332f873ce8b1e43524d4440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set in the Twitch Dev Console: Will receive the result of all client authorizations: either an access token or a failure message. This must exactly match the redirect_uri parameter passed to the authorization endpoint. When testing locally, you can set this to <a href="http://localhost">http://localhost</a>. A maximum of 10 redirect URLs is supported.  <br /></td></tr>
+<tr class="separator:a7b57c3e72332f873ce8b1e43524d4440"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea61e8f89cbffb65bda82abdcf92a38d" id="r_aea61e8f89cbffb65bda82abdcf92a38d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea61e8f89cbffb65bda82abdcf92a38d">AutoRetrieveNewAuth</a> = false</td></tr>
 <tr class="separator:aea61e8f89cbffb65bda82abdcf92a38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d73aeb480c87fac40895daf48566bc4" id="r_a5d73aeb480c87fac40895daf48566bc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d73aeb480c87fac40895daf48566bc4">UsePlayerPrefsFirst</a> = false</td></tr>
 <tr class="separator:a5d73aeb480c87fac40895daf48566bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea993a60d91cf269517902446f3b2d91" id="r_aea993a60d91cf269517902446f3b2d91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a494b2edb7d3e28d2d1f8e6f3583f9564">DebugManager.DebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea993a60d91cf269517902446f3b2d91">LogDebugLevel</a> = DebugManager.DebugLevel.Normal</td></tr>
 <tr class="separator:aea993a60d91cf269517902446f3b2d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd257830f887d1fd39910cce4dbabdd7" id="r_acd257830f887d1fd39910cce4dbabdd7"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html">IAuthFlow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd257830f887d1fd39910cce4dbabdd7">OnAuthenticationUpdated</a></td></tr>
-<tr class="separator:acd257830f887d1fd39910cce4dbabdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d91e7f1e51c3992eccdc510926c2ce" id="r_a53d91e7f1e51c3992eccdc510926c2ce"><td class="memItemLeft" align="right" valign="top">UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d91e7f1e51c3992eccdc510926c2ce">OnAuthenticationRefreshStarted</a></td></tr>
+<tr class="memdesc:a53d91e7f1e51c3992eccdc510926c2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns after the API starts aquiring a new token.  <br /></td></tr>
+<tr class="separator:a53d91e7f1e51c3992eccdc510926c2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fbdc08b28859babfdadf6c2b62e85e0" id="r_a8fbdc08b28859babfdadf6c2b62e85e0"><td class="memItemLeft" align="right" valign="top">UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fbdc08b28859babfdadf6c2b62e85e0">OnAuthenticationSuccess</a></td></tr>
+<tr class="memdesc:a8fbdc08b28859babfdadf6c2b62e85e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns after a successful call to Twitch API.  <br /></td></tr>
+<tr class="separator:a8fbdc08b28859babfdadf6c2b62e85e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf53101475f93389ebb75c5b7c4d254" id="r_accf53101475f93389ebb75c5b7c4d254"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; Exception &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accf53101475f93389ebb75c5b7c4d254">OnAuthenticationFailure</a></td></tr>
+<tr class="memdesc:accf53101475f93389ebb75c5b7c4d254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns after a failed call to Twitch API.  <br /></td></tr>
+<tr class="separator:accf53101475f93389ebb75c5b7c4d254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a711baf29ef9e3cbd27a9307745b4a984" id="r_a711baf29ef9e3cbd27a9307745b4a984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a711baf29ef9e3cbd27a9307745b4a984">DefaultAuthState</a> = AuthRequestType.ImplicitGrantFlow</td></tr>
 <tr class="separator:a711baf29ef9e3cbd27a9307745b4a984"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3e8bdb28834ca38c79c9d7e060f242a" id="r_ae3e8bdb28834ca38c79c9d7e060f242a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e8bdb28834ca38c79c9d7e060f242a">AuthWebserverActiveTime</a> = 60000</td></tr>
@@ -206,6 +218,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac77becadabff00af7afd536e63281310" id="r_ac77becadabff00af7afd536e63281310"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77becadabff00af7afd536e63281310">WebResponseBackup</a> = &quot;&lt;b&gt;Unity Application (StreamLinked) has received the response from Twitch.\nApp will now continue.&lt;/b&gt;&lt;br&gt;(You can close this window now)&quot;</td></tr>
+<tr class="separator:ac77becadabff00af7afd536e63281310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e71aa2bf2e34309f8e44fa6863709f8" id="r_a7e71aa2bf2e34309f8e44fa6863709f8"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8">Name</a></td></tr>
 <tr class="separator:a7e71aa2bf2e34309f8e44fa6863709f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -240,6 +254,8 @@ Properties</h2></td></tr>
 <tr class="separator:a0fe3344bb0a914ab56da9c146e9140e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b99b7b20eccaf0af9920e600bc836f8" id="r_a5b99b7b20eccaf0af9920e600bc836f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b99b7b20eccaf0af9920e600bc836f8">TwitchSecret</a><code> [get, set]</code></td></tr>
 <tr class="separator:a5b99b7b20eccaf0af9920e600bc836f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52418caa304ef8383da918a984f176b6" id="r_a52418caa304ef8383da918a984f176b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52418caa304ef8383da918a984f176b6">UserProvidedWebResponse</a><code> [get, set]</code></td></tr>
+<tr class="separator:a52418caa304ef8383da918a984f176b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a982866147a1701b7026291744b426a75" id="r_a982866147a1701b7026291744b426a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982866147a1701b7026291744b426a75">OAuthUserInfo</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a982866147a1701b7026291744b426a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4cb35972436bad1a8d6a487dec8fb4a" id="r_ac4cb35972436bad1a8d6a487dec8fb4a"><td class="memItemLeft" align="right" valign="top">CancellationToken&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4cb35972436bad1a8d6a487dec8fb4a">APICancelToken</a><code> [get]</code></td></tr>
@@ -274,9 +290,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a9049761375c82a31beca22cdb4460dc2" id="r_a9049761375c82a31beca22cdb4460dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9049761375c82a31beca22cdb4460dc2">StartLocalWebServer</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a> requestType)</td></tr>
 <tr class="memdesc:a9049761375c82a31beca22cdb4460dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start up webserver from Unity to receive some Auth token responses.  <br /></td></tr>
 <tr class="separator:a9049761375c82a31beca22cdb4460dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8be20632f0feddd328ddb3da0fd9cc9c" id="r_a8be20632f0feddd328ddb3da0fd9cc9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be20632f0feddd328ddb3da0fd9cc9c">ResponseBuilder</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a> type, <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> body=null)</td></tr>
-<tr class="memdesc:a8be20632f0feddd328ddb3da0fd9cc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTML/Javascript body and script to send up the webserver for clients after a response has been received.  <br /></td></tr>
-<tr class="separator:a8be20632f0feddd328ddb3da0fd9cc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bee2207d1f83ddd6af38d66a417de69" id="r_a3bee2207d1f83ddd6af38d66a417de69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bee2207d1f83ddd6af38d66a417de69">ResponseBuilder</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a> type)</td></tr>
+<tr class="memdesc:a3bee2207d1f83ddd6af38d66a417de69"><td class="mdescLeft">&#160;</td><td class="mdescRight">HTML/Javascript body and script to send up the webserver for clients after a response has been received.  <br /></td></tr>
+<tr class="separator:a3bee2207d1f83ddd6af38d66a417de69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28c15df549ba7ce639605be106e5f7b2" id="r_a28c15df549ba7ce639605be106e5f7b2"><td class="memItemLeft" align="right" valign="top">NameValueCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c15df549ba7ce639605be106e5f7b2">ExtractURIQueryValues</a> (<a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> uri)</td></tr>
 <tr class="memdesc:a28c15df549ba7ce639605be106e5f7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts query values from a URI.  <br /></td></tr>
 <tr class="separator:a28c15df549ba7ce639605be106e5f7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,6 +356,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a62d2b0937256e7beaa54dc64cbbef565"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22af80804fed92413bbb56c36061dbec" id="r_a22af80804fed92413bbb56c36061dbec"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6">TwitchScopesEnum</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22af80804fed92413bbb56c36061dbec">RequestScopes</a></td></tr>
 <tr class="separator:a22af80804fed92413bbb56c36061dbec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401790b49b35a80da7d6bcb55dd20722" id="r_a401790b49b35a80da7d6bcb55dd20722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a401790b49b35a80da7d6bcb55dd20722">_userProvidedWebResponse</a></td></tr>
+<tr class="separator:a401790b49b35a80da7d6bcb55dd20722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f556697aa2ea661fe74781b7568d354" id="r_a5f556697aa2ea661fe74781b7568d354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f556697aa2ea661fe74781b7568d354">TwitchState</a></td></tr>
 <tr class="separator:a5f556697aa2ea661fe74781b7568d354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac33facf0f96f068a5289460c63bc009c" id="r_ac33facf0f96f068a5289460c63bc009c"><td class="memItemLeft" align="right" valign="top">CancellationTokenSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac33facf0f96f068a5289460c63bc009c">HttpListenerCancellationToken</a></td></tr>
@@ -1790,6 +1808,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a892f179db221b9fc7e4c413e9d26a86d" name="a892f179db221b9fc7e4c413e9d26a86d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892f179db221b9fc7e4c413e9d26a86d">&#9670;&#160;</a></span>ReceiveDeviceCodeGrantFlowManually()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.API.TwitchAPIClient.ReceiveDeviceCodeGrantFlowManually </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html">GetDeviceCodeGrantAuthorisation</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to supply the Device Code Grant Flow token Directly to the API after being manually set to. Will error if not expecting code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad2bb962fb48a0c792c30778b7b6fa381" name="ad2bb962fb48a0c792c30778b7b6fa381"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2bb962fb48a0c792c30778b7b6fa381">&#9670;&#160;</a></span>RemoveFromScopes()</h2>
 
@@ -1844,8 +1887,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8be20632f0feddd328ddb3da0fd9cc9c" name="a8be20632f0feddd328ddb3da0fd9cc9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8be20632f0feddd328ddb3da0fd9cc9c">&#9670;&#160;</a></span>ResponseBuilder()</h2>
+<a id="a3bee2207d1f83ddd6af38d66a417de69" name="a3bee2207d1f83ddd6af38d66a417de69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bee2207d1f83ddd6af38d66a417de69">&#9670;&#160;</a></span>ResponseBuilder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1856,12 +1899,8 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> ScoredProductions.StreamLinked.API.TwitchAPIClient.ResponseBuilder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a></td>          <td class="paramname"><span class="paramname"><em>type</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a></td>          <td class="paramname"><span class="paramname"><em>body</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2094,6 +2133,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a401790b49b35a80da7d6bcb55dd20722" name="a401790b49b35a80da7d6bcb55dd20722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401790b49b35a80da7d6bcb55dd20722">&#9670;&#160;</a></span>_userProvidedWebResponse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> ScoredProductions.StreamLinked.API.TwitchAPIClient._userProvidedWebResponse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac9adf4125058f5f94bef288b4d013dbb" name="ac9adf4125058f5f94bef288b4d013dbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9adf4125058f5f94bef288b4d013dbb">&#9670;&#160;</a></span>AppAccessToken</h2>
 
@@ -2182,6 +2243,20 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool ScoredProductions.StreamLinked.API.TwitchAPIClient.AutoRetrieveNewAuth = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeed7a7a14de6d2152f2ef70dbdd3cbe" name="abeed7a7a14de6d2152f2ef70dbdd3cbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeed7a7a14de6d2152f2ef70dbdd3cbe">&#9670;&#160;</a></span>CreateLocalHostServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.API.TwitchAPIClient.CreateLocalHostServer = true</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2340,17 +2415,51 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acd257830f887d1fd39910cce4dbabdd7" name="acd257830f887d1fd39910cce4dbabdd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd257830f887d1fd39910cce4dbabdd7">&#9670;&#160;</a></span>OnAuthenticationUpdated</h2>
+<a id="accf53101475f93389ebb75c5b7c4d254" name="accf53101475f93389ebb75c5b7c4d254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf53101475f93389ebb75c5b7c4d254">&#9670;&#160;</a></span>OnAuthenticationFailure</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UnityEvent&lt;<a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html">IAuthFlow</a>&gt; ScoredProductions.StreamLinked.API.TwitchAPIClient.OnAuthenticationUpdated</td>
+          <td class="memname">UnityEvent&lt;Exception&gt; ScoredProductions.StreamLinked.API.TwitchAPIClient.OnAuthenticationFailure</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns after a failed call to Twitch API. </p>
+
+</div>
+</div>
+<a id="a53d91e7f1e51c3992eccdc510926c2ce" name="a53d91e7f1e51c3992eccdc510926c2ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d91e7f1e51c3992eccdc510926c2ce">&#9670;&#160;</a></span>OnAuthenticationRefreshStarted</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent ScoredProductions.StreamLinked.API.TwitchAPIClient.OnAuthenticationRefreshStarted</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns after the API starts aquiring a new token. </p>
+
+</div>
+</div>
+<a id="a8fbdc08b28859babfdadf6c2b62e85e0" name="a8fbdc08b28859babfdadf6c2b62e85e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fbdc08b28859babfdadf6c2b62e85e0">&#9670;&#160;</a></span>OnAuthenticationSuccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UnityEvent ScoredProductions.StreamLinked.API.TwitchAPIClient.OnAuthenticationSuccess</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns after a successful call to Twitch API. </p>
 
 </div>
 </div>
@@ -2376,14 +2485,14 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abfa9645d479d5333f71f38b60d7d397d" name="abfa9645d479d5333f71f38b60d7d397d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfa9645d479d5333f71f38b60d7d397d">&#9670;&#160;</a></span>Redirect_URI</h2>
+<a id="a7b57c3e72332f873ce8b1e43524d4440" name="a7b57c3e72332f873ce8b1e43524d4440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b57c3e72332f873ce8b1e43524d4440">&#9670;&#160;</a></span>RedirectURI</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> ScoredProductions.StreamLinked.API.TwitchAPIClient.Redirect_URI = &quot;http://localhost:3000/&quot;</td>
+          <td class="memname"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> ScoredProductions.StreamLinked.API.TwitchAPIClient.RedirectURI = &quot;http://localhost:3000/&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2520,6 +2629,28 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">bool ScoredProductions.StreamLinked.API.TwitchAPIClient.UsePlayerPrefsFirst = false</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac77becadabff00af7afd536e63281310" name="ac77becadabff00af7afd536e63281310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77becadabff00af7afd536e63281310">&#9670;&#160;</a></span>WebResponseBackup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> ScoredProductions.StreamLinked.API.TwitchAPIClient.WebResponseBackup = &quot;&lt;b&gt;Unity Application (StreamLinked) has received the response from Twitch.\nApp will now continue.&lt;/b&gt;&lt;br&gt;(You can close this window now)&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -2719,6 +2850,28 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52418caa304ef8383da918a984f176b6" name="a52418caa304ef8383da918a984f176b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52418caa304ef8383da918a984f176b6">&#9670;&#160;</a></span>UserProvidedWebResponse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> ScoredProductions.StreamLinked.API.TwitchAPIClient.UserProvidedWebResponse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

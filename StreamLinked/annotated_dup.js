@@ -429,8 +429,7 @@ var annotated_dup =
           [ "StringExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_extensions" ]
         ] ],
         [ "ImageHeaderHelpers", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers.html", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers" ],
-        [ "SaveClientDetails", "class_scored_productions_1_1_stream_linked_1_1_save_client_details.html", "class_scored_productions_1_1_stream_linked_1_1_save_client_details" ],
-        [ "TwitchEventSubImplementation", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation" ],
+        [ "TwitchEventSubStartupExample", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_startup_example.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_startup_example" ],
         [ "TwitchMessageDisplayerPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab" ],
         [ "TwitchMessageUIPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab" ],
         [ "TwitchStatic", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_static" ],

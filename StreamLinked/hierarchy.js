@@ -425,8 +425,7 @@ var hierarchy =
     [ "ScoredProductions.StreamLinked.EventSub.IChannel.Mod", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod.html", null ],
     [ "MonoBehaviour", null, [
       [ "ScoredProductions.GetUserTestScript", "class_scored_productions_1_1_get_user_test_script.html", null ],
-      [ "ScoredProductions.StreamLinked.SaveClientDetails", "class_scored_productions_1_1_stream_linked_1_1_save_client_details.html", null ],
-      [ "ScoredProductions.StreamLinked.TwitchEventSubImplementation", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_implementation.html", null ],
+      [ "ScoredProductions.StreamLinked.TwitchEventSubStartupExample", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_startup_example.html", null ],
       [ "ScoredProductions.StreamLinked.TwitchMessageDisplayerPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab.html", null ],
       [ "ScoredProductions.StreamLinked.TwitchMessageUIPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.SingletonInstance< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html", null ]

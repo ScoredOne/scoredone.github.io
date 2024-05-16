@@ -96,7 +96,7 @@ var NAVTREEINDEX0 =
 "_create_poll_8cs.html":[2,0,0,0,0,0,0,3,0,0,19,0],
 "_create_prediction_8cs.html":[2,0,0,0,0,0,0,3,0,0,20,0],
 "_create_stream_marker_8cs.html":[2,0,0,0,0,0,0,3,0,0,24,0],
-"_debug_manager_8cs.html":[2,0,0,0,0,0,0,2,0],
+"_debug_manager_8cs.html":[2,0,0,0,0,0,0,2,1],
 "_delete_channel_stream_schedule_segment_8cs.html":[2,0,0,0,0,0,0,3,0,0,22,1],
 "_delete_chat_messages_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,5],
 "_delete_conduit_8cs.html":[2,0,0,0,0,0,0,3,0,0,10,1],
@@ -107,6 +107,7 @@ var NAVTREEINDEX0 =
 "_delete_videos_8cs.html":[2,0,0,0,0,0,0,3,0,0,28,0],
 "_device_code_grant_flow_8cs.html":[2,0,0,0,0,0,0,3,1,4],
 "_drop_entitlement_grant_8cs.html":[2,0,0,0,0,0,0,4,1,58],
+"_editor_paged_8cs.html":[2,0,0,0,0,0,0,2,0,0],
 "_emote_position_8cs.html":[2,0,0,0,0,0,0,5,1,1],
 "_emotes_8cs.html":[2,0,0,0,0,0,0,4,1,1,2],
 "_end_guest_star_session_8cs.html":[2,0,0,0,0,0,0,3,0,0,16,4],
@@ -244,10 +245,9 @@ var NAVTREEINDEX0 =
 "_image_8cs.html":[2,0,0,0,0,0,0,4,1,1,4],
 "_image_header_helpers_8cs.html":[2,0,0,0,0,0,0,7,0],
 "_implicit_grant_flow_8cs.html":[2,0,0,0,0,0,0,3,1,5],
-"_internal_settings_store_8cs.html":[2,0,0,0,0,0,0,2,1],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61":[2,0,0,0,0,0,0,2,1,1],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a121fdedce992646795d36146baa1280e":[2,0,0,0,0,0,0,2,1,1,3],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3":[2,0,0,0,0,0,0,2,1,1,1],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a1edd9f0e08fff3889aba16cc2731975a":[2,0,0,0,0,0,0,2,1,1,4],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be":[2,0,0,0,0,0,0,2,1,1,0]
+"_internal_settings_store_8cs.html":[2,0,0,0,0,0,0,2,2],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61":[2,0,0,0,0,0,0,2,2,1],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a121fdedce992646795d36146baa1280e":[2,0,0,0,0,0,0,2,2,1,3],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3":[2,0,0,0,0,0,0,2,2,1,1],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a1edd9f0e08fff3889aba16cc2731975a":[2,0,0,0,0,0,0,2,2,1,4]
 };
