@@ -5,7 +5,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_sho
     [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#a188ce7435cb8388373a9a97f5fba9b2b", null ],
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#a348115f7e3a3d76905eee3934a817fcb", null ],
     [ "cooldown_ends_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#a8594881e8d0ed919bb5499e4ab27aadc", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#aebbe44cb7a14dcbbf84a2e15498dd715", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#adca827c6d97cd6f282ed5a3ee1376e14", null ],
     [ "moderator_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#a98a6d40826d9bf22e06c340903390cd7", null ],
     [ "moderator_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#a6f4cf039a551ec55881874790103b7ab", null ],
     [ "moderator_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_shoutout_create.html#a1bd852789d3299e6ab02177e83288486", null ],

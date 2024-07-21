@@ -49,6 +49,8 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "Channel_Update", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a1fb698dcbdaefd07d77c4936ccdb336c", null ],
     [ "Channel_Vip_Add", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a3064787cde1894d9085f26a2babd61b3", null ],
     [ "Channel_Vip_Remove", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#af84ca6d8ae619d1d6fba2510792599dc", null ],
+    [ "Channel_Warning_Acknowledge", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a764a9a7cab8969277395dec3e0722b34", null ],
+    [ "Channel_Warning_Send", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a94576ca39c6e9d162645415d1a40b7cb", null ],
     [ "Charity_Campaign_Progress", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#add2577be5d7b5915960e7e5c29176531", null ],
     [ "Charity_Campaign_Start", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a2cf4e97e4ca46195e404e759fbd4ca92", null ],
     [ "Charity_Campaign_Stop", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a5b5549dbdf11850b0379aa3f337b8025", null ],

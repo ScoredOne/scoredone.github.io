@@ -22,5 +22,6 @@ var dir_cf535e6bd6672c434f92fe6cf429c684 =
     [ "ResolveUnbanRequests.cs", "_resolve_unban_requests_8cs.html", "_resolve_unban_requests_8cs" ],
     [ "UnbanUser.cs", "_unban_user_8cs.html", "_unban_user_8cs" ],
     [ "UpdateAutoModSettings.cs", "_update_auto_mod_settings_8cs.html", "_update_auto_mod_settings_8cs" ],
-    [ "UpdateShieldModeStatus.cs", "_update_shield_mode_status_8cs.html", "_update_shield_mode_status_8cs" ]
+    [ "UpdateShieldModeStatus.cs", "_update_shield_mode_status_8cs.html", "_update_shield_mode_status_8cs" ],
+    [ "WarnChatUser.cs", "_warn_chat_user_8cs.html", "_warn_chat_user_8cs" ]
 ];

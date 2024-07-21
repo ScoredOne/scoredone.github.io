@@ -17,6 +17,7 @@ var interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel =
     [ "Untimeout", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_untimeout.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_untimeout" ],
     [ "Unvip", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unvip.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unvip" ],
     [ "Vip", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_vip.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_vip" ],
+    [ "Warn", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_warn.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_warn" ],
     [ "broadcaster_user_id", "interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html#a48117cefb304fdebbbc4a46ddad8e07f", null ],
     [ "broadcaster_user_login", "interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html#a2c6c983d34855cc60fe39e7624b8aae1", null ],
     [ "broadcaster_user_name", "interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html#a1fcc0f31a77656f1b7716e4fb019df85", null ],

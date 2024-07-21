@@ -17,6 +17,7 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#addc455d877b859c2446e8de17e3f059b", null ],
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a01aa966d113716a5298539f9b7517304", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a6a0308ed3a73f82eed334e7108d25d5e", null ],
+    [ "SearchEmotes", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a20951986c1d885fdbec2c3ce40fcd01f", null ],
     [ "Start", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#aca30b1c77c7e18c88a05b3769f49d42e", null ],
     [ "_instance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc", null ],
     [ "downloaderCoroutines", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a92363abb84cb43f566c43d7a51393219", null ],

@@ -1,8 +1,8 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color =
 [
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#ab15c19ab9d3ee25010d80b3c096d2e7c", null ],
+    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#adb41c1d7126430e56f3752505fa0c098", null ],
     [ "COLOR", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#adf6fea5c6521fd55210940fe450a05e2", null ],
-    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#a299f472dedb3cbf9fe1c22591fc675ef", null ],
-    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#ac764782da0e74cca4781d82a5b750c38", null ],
+    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#a22af2f47d165e239917a75a8a97cfaf3", null ],
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#ad45713e2a1040fb4745b84decbf5083f", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_user_chat_color.html#a2ac305b6f28a1984d3213f51faac7980", null ]
 ];

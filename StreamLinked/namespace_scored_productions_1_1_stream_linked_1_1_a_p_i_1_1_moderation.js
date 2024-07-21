@@ -22,5 +22,6 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation =
     [ "ResolveUnbanRequests", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests" ],
     [ "UnbanUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_unban_user.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_unban_user" ],
     [ "UpdateAutoModSettings", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_auto_mod_settings.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_auto_mod_settings" ],
-    [ "UpdateShieldModeStatus", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_shield_mode_status.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_shield_mode_status" ]
+    [ "UpdateShieldModeStatus", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_shield_mode_status.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_shield_mode_status" ],
+    [ "WarnChatUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user" ]
 ];

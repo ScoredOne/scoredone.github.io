@@ -7,7 +7,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goa
     [ "current_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a45c243d2e6c1517dd21eb6c9bafd25ac", null ],
     [ "description", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a0038e1236560fc9d823fee671f934eaf", null ],
     [ "ended_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a8168dc66b9264f8f2d9973632933008a", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#ad303a60385f8beec6bd1f7824831edca", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a201da01b6d6a89b688fe2611b911fef6", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a3f040ed95128e8af7b829741f282a98e", null ],
     [ "is_achieved", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a51ea922be67a097feba6c7a0c5917981", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html#a49ad7aa89129e4ec675956941f0ecd3c", null ],

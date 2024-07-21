@@ -5,7 +5,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#ab8aa2fd53625f13d8820ddca4dff5880", null ],
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#aab521304696dced5b4f297c1963741be", null ],
     [ "cumulative_total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#a69eeb877bacb31225a76c6180c5745fa", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#aa940e99890bb80d5e3e8a19827829675", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#ad3ae7f16b63a0e8792c31a57da3872aa", null ],
     [ "is_anonymous", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#aaf60e0d984fa7e22ca6e1b0c608d1fbb", null ],
     [ "tier", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#a038818b5d86b6c3887d25d3e7cba072a", null ],
     [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html#a9c01114c1c664c630bb51a55c235bd23", null ],

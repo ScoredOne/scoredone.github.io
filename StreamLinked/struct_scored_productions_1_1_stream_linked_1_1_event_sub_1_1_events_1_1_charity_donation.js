@@ -10,7 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "charity_logo", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#a5b662529687d5648f836bcdce6d0b5cd", null ],
     [ "charity_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#a874aa0f2912fea05bf1c35e3e0ad9815", null ],
     [ "charity_website", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#a9e8f0100c6788abf0dc287be382b84f9", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#a82afd8adb29dc7251dc2f2b18b1fef12", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#ac6e0d27cbc32f1ec2c23a4e0d67d7676", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#adce3cdcbd77d74eba3b7c22580f1eee0", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#a7c66467ff32956514e14d130ca1f2028", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_donation.html#a0dfb9976a39e00a928a34971e36581a7", null ],

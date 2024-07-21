@@ -1,7 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid =
 [
     [ "ChannelRaid", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#aeb7721301a3db964119c294677330cf4", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a3f958d9e914b0dfe2c87f8f6c9e6a811", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a23c7e292e932339d1a467c1e97a83e0b", null ],
     [ "from_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#aa8d95653be113f8214b06d636a6d53e5", null ],
     [ "from_broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a92aa07a48c085002741fd6ff1346cd7a", null ],
     [ "from_broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a273e7ac78b511261887ee91acaeb8e59", null ],

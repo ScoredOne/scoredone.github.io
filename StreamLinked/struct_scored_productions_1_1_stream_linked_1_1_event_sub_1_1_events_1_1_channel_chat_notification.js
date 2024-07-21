@@ -26,7 +26,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "chatter_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#ad4b29bd18491ed499170d89b0affb58d", null ],
     [ "color", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#af3cec0f3adaeb52f100afaac95e6b6af", null ],
     [ "community_sub_gift", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#a73f3b22d6c760c55b448db93d72a379c", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#a5deccc75383b61a32c567bdf518eb5f7", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#abbf1c6bca3b52fb833fac973247101d8", null ],
     [ "gift_paid_upgrade", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#a949ff2a0331f9bb40c636be4c5bd4711", null ],
     [ "message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#aad04aec86c9fbcdf10d070e212def8d1", null ],
     [ "message_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification.html#a829e09aac0b635e2d2668126547c0eba", null ],

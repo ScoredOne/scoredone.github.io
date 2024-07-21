@@ -46,6 +46,8 @@ var _twitch_scopes_enum_8cs =
       [ "moderator_manage_shield_mode", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a5ee93d3263f09e92f6b0d621dc53e0fe", null ],
       [ "moderator_read_shoutouts", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a9cd739df631280cf3e15becef5d8957c", null ],
       [ "moderator_manage_shoutouts", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a2d04194eaabe23ed9ed6f62c4c0b780b", null ],
+      [ "moderator_manage_warnings", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a143c590e437ad080cfb1bbe5797670b2", null ],
+      [ "moderator_read_warnings", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6acc974613c4f7031884b29ddca61cac53", null ],
       [ "user_edit", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a892680f4a1e9bfcab0bd7a22b5c19024", null ],
       [ "user_manage_blocked_users", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a21d8d6805e53ac0e6fe0cc052c72b9d8", null ],
       [ "user_read_blocked_users", "_twitch_scopes_enum_8cs.html#a47f4e9321b5bc9b8d13f4c4906f675a6a69d85b9757ef4fe2e0b010a0ee5d0325", null ],

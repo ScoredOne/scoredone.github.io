@@ -4,7 +4,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#a4f4fb40f092dcf501e115df9a56c7e55", null ],
     [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#a96bc896bc12233417201df27b7151ca9", null ],
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#a33240ce4b4fcff4bdea7ccdc78086dd7", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#a3f55f9ca3ede912cca0682d3e286936a", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#a9aebd85aaf1c583a9282d146bf9fcc19", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#abe6c52c0a71bcc37b456a931d4876877", null ],
     [ "redeemed_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#aa60451d939b9ad2fd8272f3a5617c2bf", null ],
     [ "reward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html#abe07e6298665ec63e94711797c96a20e", null ],

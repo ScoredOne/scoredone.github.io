@@ -4,7 +4,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_use
     [ "description", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a59d17bb4b217c6a87b0534002a12c7db", null ],
     [ "email", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a3ed1d5a87a929b365c5979d9c152a82d", null ],
     [ "email_verified", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a5d1bfc61c3edd2730e09798b2a611643", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a0bf2e0ba73b3f73ff295adb7a8bd6018", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#aa56026fbe3a99fb0ee5185ce79eb80d5", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#ac8055da6238949b60d3a00fae2241c27", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a3b40e257e222ec5e50c6abb1c9bc8a0a", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#add04eb83a091a526201db6f99c2b7fb1", null ]

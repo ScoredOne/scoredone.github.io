@@ -4,7 +4,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_ext
     [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#a771bc0c6f0731cdc680bc3c39a340e94", null ],
     [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#ae4a8851914bf4d3f5b32bbea28c77a78", null ],
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#aa1db113304e3c16598816b085a6d9846", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#aa5c0e089b23fa68ace15d2ab49754c35", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#a039e8fbf4ae86d85f46ef4f91133e663", null ],
     [ "extension_client_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#a4f5d598d07bdb0eb7f5f8d95a208c491", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#ab5892ced34830e88615f24e225df02fa", null ],
     [ "product", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html#aa061c981b02371ba378033f9bff11437", null ],

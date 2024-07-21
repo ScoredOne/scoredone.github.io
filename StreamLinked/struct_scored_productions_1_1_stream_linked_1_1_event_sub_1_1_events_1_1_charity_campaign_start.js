@@ -9,7 +9,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "charity_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#a8412d6f47a8f150943db7cea472066f4", null ],
     [ "charity_website", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#a3ea3550f994c422ef06ca9246b529f14", null ],
     [ "current_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#a4dec086a96b8cf8f6cfaee45eb73afe9", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#a8589b2f8f46e7b057ace49d98ac49154", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#a9f75963a632a4ed325825d8386e59558", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#ae6381547c41e3f81a069eeeedc5c506d", null ],
     [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_start.html#aab5facf94369cf3e0637e91353cb777f", null ]
 ];

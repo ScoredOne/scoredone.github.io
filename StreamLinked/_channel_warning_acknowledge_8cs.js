@@ -1,0 +1,4 @@
+var _channel_warning_acknowledge_8cs =
+[
+    [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelWarningAcknowledge", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_warning_acknowledge.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_warning_acknowledge" ]
+];

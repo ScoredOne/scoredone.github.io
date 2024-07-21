@@ -2,7 +2,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whi
 [
     [ "Whisper", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received_1_1_whisper.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received_1_1_whisper" ],
     [ "WhisperReceived", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#a5ea8d52906c2570630936bc8ac23fa8d", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#aa445131afe18b4b8ad29735e64e7d937", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#adb633ae887b3e9f8b46028a0eeeeb965", null ],
     [ "from_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#a6a6a3ea107dddd8758225413cc8fcabb", null ],
     [ "from_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#af0e1edc541c2b3651c43d6e5b7472bbb", null ],
     [ "from_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#af1394d76867fe33026cf85e54c12c050", null ],

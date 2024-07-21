@@ -3,7 +3,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_
     [ "DateRange", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_1_1_date_range.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_1_1_date_range" ],
     [ "Pagination", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_1_1_pagination.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_1_1_pagination" ],
     [ "TwitchAPIDataContainer", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a98ad43125dd98d32663ba3b28c0af26b", null ],
-    [ "ErrorToJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#af3ac98a16f0748210db298f9b8c20231", null ],
+    [ "ErrorToJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a7ff63bc2084fe01ca98b2d58050566eb", null ],
     [ "ErrorBody", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a9b271030283173c69f15d649e801f3c5", null ],
     [ "ErrorCode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a7c051ed52c1a87ae2c62321120b9a18b", null ],
     [ "ErrorObjects", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a9efa9d6531beebc501c93a7aa0458ba7", null ],

@@ -12,7 +12,9 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#aeba712bed376d03f74fa18da7067f132", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#ac46b8309001a506f1e9dd0952517ca5b", null ],
     [ "Start", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#aca30b1c77c7e18c88a05b3769f49d42e", null ],
+    [ "WaitForBuilders", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a5eddc694c790ed603ac237a7d1ea04e8", null ],
     [ "_instance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc", null ],
+    [ "_processAllIntoAtlas", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#ace70af2d1d647671d42b69e039722080", null ],
     [ "atlasConstructor", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a333e2466db9e302e8e4ddd1d573add0a", null ],
     [ "atlasTexture", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#acf52e5a3ad97d4fbef05477d3033012e", null ],
     [ "DebugMessages", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a70e20c1787b0f6ae917dbf994a670ba1", null ],
@@ -26,6 +28,7 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "AtlasReadyForUse", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a06d824b7234b3ec90b29bb245bce7f43", null ],
     [ "BuilderWorking", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a14b17c402d2995ada751a4ac78239191", null ],
     [ "InstanceIsAlive", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a48ec67fa9431ea8b9a985ee461d9deea", null ],
+    [ "ProcessAllIntoAtlas", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a8ea9fa3830129195dc864d8639060ce2", null ],
     [ "OnAtlasRebuildComplete", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#ad07b304d5625b3e9ff968f078ffb80f1", null ],
     [ "OnAtlasRebuildStarted", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a875f085426aa98f1f85b819af7f9ae81", null ]
 ];

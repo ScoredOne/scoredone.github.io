@@ -16,7 +16,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_appl
     [ "m_blockSize", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#a1d39dcf14c18b185ca83942c09edaca0", null ],
     [ "m_extensionIntroducer", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#a62093ea2b40143b6721b0d2adddc9abb", null ],
     [ "m_extensionLabel", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#a4f441009b310a8dbfadbf03411520ab8", null ],
-    [ "ApplicationAuthenticationCode", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#a8cffbcbadd4b97846021c8af8007db2c", null ],
-    [ "ApplicationIdentifier", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#af5550ac5f269dab8f00533405e9e5b3d", null ],
-    [ "LoopCount", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#af36d13f009744e77bcd41a1bf7e09906", null ]
+    [ "ApplicationAuthenticationCode", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#a4c588e6ba6ec0d653844bb4e631dfdcc", null ],
+    [ "ApplicationIdentifier", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#a3c446f93237fe47828c5a111c3247417", null ],
+    [ "LoopCount", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension.html#afbd1a37cf7757e551db1d5cb90fe43c7", null ]
 ];

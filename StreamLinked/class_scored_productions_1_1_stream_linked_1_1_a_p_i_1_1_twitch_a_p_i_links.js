@@ -91,5 +91,6 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links 
     [ "UserChatColor", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a87e8256b80863aed060e85d16f64b2c2", null ],
     [ "Users", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a1a6b336dd06bf4b7fdf7c624c958a021", null ],
     [ "Videos", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#aa0245d3b770dd07c7f7de164596fe06b", null ],
-    [ "VIPs", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ad4ef3527caf0c1bca1ba8f37b7f8e02b", null ]
+    [ "VIPs", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ad4ef3527caf0c1bca1ba8f37b7f8e02b", null ],
+    [ "WarnUser", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ac1611978dd3810b72b2656faaf611d2a", null ]
 ];

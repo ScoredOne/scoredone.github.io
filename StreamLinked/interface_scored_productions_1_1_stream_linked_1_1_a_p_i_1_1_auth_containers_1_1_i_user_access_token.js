@@ -8,5 +8,6 @@ var interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers
     [ "FlowName", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html#a1dc964af655c4889b8fa2162e3c4994c", null ],
     [ "OAuthAquireDate", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html#ab4312718ae091b7f628cb0d075ad9db2", null ],
     [ "Scope", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html#a33684614e224c9c01b521be2cc2286d4", null ],
-    [ "Token_Type", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html#a493083846a8726e7b9867f5c5c6aab55", null ]
+    [ "Token_Type", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html#a493083846a8726e7b9867f5c5c6aab55", null ],
+    [ "TypeEnum", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_user_access_token.html#a2d4042cbcd2c60db8f2fec4dcb4a5698", null ]
 ];

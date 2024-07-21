@@ -8,7 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "cooldown_expires_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#afa46f715bd296840443a2a2f66777c76", null ],
     [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#a8ee8a8314ce03fbef60d5732990e0570", null ],
     [ "default_image", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#ae7b71f32849ae50e1bdab11450379c25", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#a72c1be804ad2d6e6b07f3d5962cf16de", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#afb7a0619656dc40d191a6168a58525f2", null ],
     [ "global_cooldown", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#aca104aec59072b34141701887c0019fa", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#a39aac4c886b3bfad5deae25dd422ade5", null ],
     [ "image", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_update.html#a12cd9f1cc907a94f7ed263054700fd5b", null ],

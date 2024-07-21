@@ -9,7 +9,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "charity_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#a9182e5593b4ba59c9ef82e5fc85dbe6d", null ],
     [ "charity_website", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#ac114aa25fc5dd0933867340fa777a434", null ],
     [ "current_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#a44ffc26ceda67c31d234e380c430a8f6", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#aba8c1dcb1fb37b13ff6b89b93b5c26fc", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#adb20c1b31f5a2a2381da33b978e67b63", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#aac856585090847b347ca9b12cc1506e4", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#a61bd048ef12355755552922b0f0a1081", null ],
     [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_charity_campaign_progress.html#af81eb9bf356ce87ad77c5b27f4f2b203", null ]

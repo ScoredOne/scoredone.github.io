@@ -2,8 +2,8 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_
 [
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#af3a76b9bb0650ddf4ed22a5254a52f43", null ],
     [ "COUNT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a9dea59af9b0f5a8eaec38781195b0321", null ],
-    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#ac6c9fff7dcdfc841f07fb0303ee0bcd1", null ],
-    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a21f87747b4696ff856f078769fd8aaac", null ],
+    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a473aa3784f4cbd8cbf7aa1a3bc1fb75f", null ],
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a21cc9c875618b2763d63824d1ce3a846", null ],
     [ "PERIOD", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#ae9f20e90dfc18c7dc20f0d480a691128", null ],
     [ "rank", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a6154643d1621bccb791cce259e53b825", null ],
     [ "score", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#ad862ed973d3fdfdc6e0f734b64b6b151", null ],

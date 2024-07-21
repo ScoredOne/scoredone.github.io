@@ -1,7 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid =
 [
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#a08bbf5e7981874ff06edf2f64a3f1854", null ],
+    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#a1df85c912534333bfb961357948830d6", null ],
     [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#af782cc02b4c900d583017b31d77a9288", null ],
-    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#a26ea475c86d3a3b78a7d7b729bf9c50d", null ],
-    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#add9c9af38d8dd175574b8f71b0877b90", null ]
+    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#a7eef85ccaa2e11b60f11fe449a0f7ed2", null ],
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#abf56bd0685f50d51b900e90010ad1efe", null ]
 ];

@@ -4,7 +4,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hyp
     [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#a61846d2a53ff0a48109319c5be23aa97", null ],
     [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#a4717854d7fe901798b313231fd24d395", null ],
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#acdb91edbd9e2b953b3e725cf99057dc3", null ],
-    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#aac9a50ff565d618ad7aacfbdcd7ebebb", null ],
+    [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#af0569da94b6675a99bd7173c636a6410", null ],
     [ "expires_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#a76c346862cf4b6c3b75c3041e57d0a01", null ],
     [ "goal", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#a70090963e89f7f7d829359026acf0fc3", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_begin.html#ac8f1432808eed629fa28f6969edb12cb", null ],

@@ -8,8 +8,8 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_creat
     [ "broadcaster_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a62eee4cc69b7eb774e1cd3ba63c4b6e6", null ],
     [ "broadcaster_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a19ebfc491d92250a33335e80ae5d1b35", null ],
     [ "CONTENTTYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a65805b65c43beaf26c6625fb293f5ab8", null ],
-    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a31f918bc2e6d4f96c173b1942a5fc8c2", null ],
-    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#aad261dfd54e6600f2b4ab735c5e724b8", null ],
+    [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#ad157b048bbb3207338bc4b575c6a4e44", null ],
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a05905c3d91379a5c8f674ddadc54f8ff", null ],
     [ "segments", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a53f666c67dac054550c5d7a152728fa7", null ],
     [ "vacation", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a843028ec434dcc7799c65b40ce105b38", null ]
 ];
