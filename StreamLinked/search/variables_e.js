@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['name_0',['NAME',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a18686e4141c8d70afb003d38da71f849',1,'ScoredProductions::StreamLinked::TwitchWords']]],
-  ['name_1',['Name',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8',1,'ScoredProductions::StreamLinked::Utility::SingletonInstance']]],
+  ['name_0',['Name',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8',1,'ScoredProductions::StreamLinked::Utility::SingletonInstance']]],
+  ['name_1',['NAME',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a18686e4141c8d70afb003d38da71f849',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['networkstream_2',['networkStream',['../class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#ad25c0999e23e849d78e4052131d3775f',1,'ScoredProductions::StreamLinked::IRC::TwitchIRCClient']]],
   ['next_5fad_5fat_3',['NEXT_AD_AT',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a624436e11f444d6e8d0166fafee6cdea',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['nick_4',['NICK',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#ae13cf14a57fb81d063ebb81f30c6c3cd',1,'ScoredProductions::StreamLinked::TwitchWords']]],

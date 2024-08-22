@@ -13,7 +13,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_
     [ "gifter_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#afbf458c6758565e9ca31103c91f56fae", null ],
     [ "gifter_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#aaeebaca9cc033c4c8c7806d07e8f8ab7", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#a9a335c48b71bad10ea3c8add3780c5b5", null ],
-    [ "is_gift", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#af59be63ad6d29a67c04f1d88ce0df121", null ],
+    [ "is_gift", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#aeef4d0185094a0c777e0c48882b7143c", null ],
     [ "plan_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#abc4255453ed7be8b56a8348b26ce51a9", null ],
     [ "tier", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#a69dae8a6154c626e94e8879efba1e799", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#af948f2b022ddb3f27624de3e27eeec51", null ],

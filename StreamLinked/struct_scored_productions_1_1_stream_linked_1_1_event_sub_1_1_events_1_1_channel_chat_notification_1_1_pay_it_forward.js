@@ -1,7 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward =
 [
     [ "PayItForward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward.html#abb1adc46c3235ece682e2a0a3f562005", null ],
-    [ "gifter_is_anonymous", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward.html#a86ef95f8367c4b0bca66ed8275dc615b", null ],
+    [ "gifter_is_anonymous", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward.html#a4e65ac23f113548bdb43deed1fa3ef2f", null ],
     [ "gifter_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward.html#a299c7400e76d6419f6784159c40a143e", null ],
     [ "gifter_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward.html#acf970b247ea2b533e1d11873b5a8c9c1", null ],
     [ "gifter_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_pay_it_forward.html#a19a28d9a18557080684a1f4200af99ea", null ]

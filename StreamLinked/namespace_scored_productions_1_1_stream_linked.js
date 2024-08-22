@@ -71,6 +71,7 @@ var namespace_scored_productions_1_1_stream_linked =
       [ "user_read_moderated_channels", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6a193eb28805e389a8ba1a99c481e108c6", null ],
       [ "user_read_subscriptions", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6a45b7fdb7629f955b60af9e48c4f68d7c", null ],
       [ "user_manage_whispers", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6afc242e78458af6ac547986f911d45f91", null ],
+      [ "user_write_chat", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6aaa83b08d87b4877aaff994fb2115218f", null ],
       [ "channel_bot", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6ab25ae1112afce339e38dcc26698546f9", null ],
       [ "channel_moderate", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6ab67768050059be967e591b378bc1027f", null ],
       [ "chat_edit", "namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6a251fc3bdeceed985bdc30a59a49a26b3", null ],

@@ -8,5 +8,5 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "to_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a83349922627bf4cead3021e0acb8198b", null ],
     [ "to_broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#aa4539613175c6f6b59fe3f77710a0813", null ],
     [ "to_broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#ab07cf7d00d7b5e0b2d1583f01a6ada38", null ],
-    [ "viewers", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a23064930bf4ccbd88dc49731f7218cb4", null ]
+    [ "viewers", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html#a6bb0bf3d232c58a4761e90a672a887d3", null ]
 ];

@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.1.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.2</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -144,6 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e3193034cc5d3e4e730ec8f69317148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f74e6c58ba585ee85595c0c9ea0223c" id="r_a2f74e6c58ba585ee85595c0c9ea0223c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f74e6c58ba585ee85595c0c9ea0223c">LoadScopesFromToken</a> ()</td></tr>
 <tr class="separator:a2f74e6c58ba585ee85595c0c9ea0223c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e9c64f4d9bf6bb1f62be9d77651a46" id="r_a48e9c64f4d9bf6bb1f62be9d77651a46"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48e9c64f4d9bf6bb1f62be9d77651a46">UpdateAuthUserInfo</a> ()</td></tr>
+<tr class="separator:a48e9c64f4d9bf6bb1f62be9d77651a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1f19d048a665cf7454eeb6f66a8445e" id="r_ab1f19d048a665cf7454eeb6f66a8445e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1f19d048a665cf7454eeb6f66a8445e">GetNewAuthToken</a> ()</td></tr>
 <tr class="memdesc:ab1f19d048a665cf7454eeb6f66a8445e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a new Auth token of the current type.  <br /></td></tr>
 <tr class="separator:ab1f19d048a665cf7454eeb6f66a8445e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,6 +241,8 @@ Protected Member Functions</h2></td></tr>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a4c6eb564c54cdc8f1ea89bf2ff89a7fc" id="r_a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc">_instance</a></td></tr>
 <tr class="separator:a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f218ec3c0517254de5311e5e9db4d00" id="r_a5f218ec3c0517254de5311e5e9db4d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a5f218ec3c0517254de5311e5e9db4d00">preventNewInstances</a></td></tr>
+<tr class="separator:a5f218ec3c0517254de5311e5e9db4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -287,8 +291,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a8e66a63fedeab056d83487e35e48e4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0958f6e882210d31fdfb4d22b6940b1" id="r_ae0958f6e882210d31fdfb4d22b6940b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0958f6e882210d31fdfb4d22b6940b1">HasSettingsToGetOAuth</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a>? AuthType=null)</td></tr>
 <tr class="separator:ae0958f6e882210d31fdfb4d22b6940b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48e9c64f4d9bf6bb1f62be9d77651a46" id="r_a48e9c64f4d9bf6bb1f62be9d77651a46"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48e9c64f4d9bf6bb1f62be9d77651a46">UpdateAuthUserInfo</a> ()</td></tr>
-<tr class="separator:a48e9c64f4d9bf6bb1f62be9d77651a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9049761375c82a31beca22cdb4460dc2" id="r_a9049761375c82a31beca22cdb4460dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9049761375c82a31beca22cdb4460dc2">StartLocalWebServer</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a> requestType)</td></tr>
 <tr class="memdesc:a9049761375c82a31beca22cdb4460dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start up webserver from Unity to receive some Auth token responses.  <br /></td></tr>
 <tr class="separator:a9049761375c82a31beca22cdb4460dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,12 +309,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a5a4d39a5442d5547197bba69b8eb41ea" id="r_a5a4d39a5442d5547197bba69b8eb41ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a4d39a5442d5547197bba69b8eb41ea">ImplicitGrantFlowCallbackInitialResponse</a> (IAsyncResult result)</td></tr>
 <tr class="memdesc:a5a4d39a5442d5547197bba69b8eb41ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs when token is awaiting to be received from URI.  <br /></td></tr>
 <tr class="separator:a5a4d39a5442d5547197bba69b8eb41ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eda801cec2506fb10c4bf5e851e689a" id="r_a6eda801cec2506fb10c4bf5e851e689a"><td class="memItemLeft" align="right" valign="top">async void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eda801cec2506fb10c4bf5e851e689a">ImplicitGrantFlowCallbackBuildToken</a> (IAsyncResult result)</td></tr>
-<tr class="memdesc:a6eda801cec2506fb10c4bf5e851e689a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs after Javascript aquires the URI and sends it back down to Unity from the browser.  <br /></td></tr>
-<tr class="separator:a6eda801cec2506fb10c4bf5e851e689a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a989e2af59a6dc0c0bd797c72e30fb13b" id="r_a989e2af59a6dc0c0bd797c72e30fb13b"><td class="memItemLeft" align="right" valign="top">async void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a989e2af59a6dc0c0bd797c72e30fb13b">AuthorizationCodeGrantFlowCallback</a> (IAsyncResult result)</td></tr>
-<tr class="memdesc:a989e2af59a6dc0c0bd797c72e30fb13b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data received from Twitch to continue and build the next part of the token.  <br /></td></tr>
-<tr class="separator:a989e2af59a6dc0c0bd797c72e30fb13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0045925679a5e95c922b5dd1c0ceb59" id="r_ab0045925679a5e95c922b5dd1c0ceb59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0045925679a5e95c922b5dd1c0ceb59">ImplicitGrantFlowCallbackBuildToken</a> (IAsyncResult result)</td></tr>
+<tr class="memdesc:ab0045925679a5e95c922b5dd1c0ceb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs after Javascript aquires the URI and sends it back down to Unity from the browser.  <br /></td></tr>
+<tr class="separator:ab0045925679a5e95c922b5dd1c0ceb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5215455fac3834e40c47271808550a" id="r_adb5215455fac3834e40c47271808550a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb5215455fac3834e40c47271808550a">AuthorizationCodeGrantFlowCallback</a> (IAsyncResult result)</td></tr>
+<tr class="memdesc:adb5215455fac3834e40c47271808550a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data received from Twitch to continue and build the next part of the token.  <br /></td></tr>
+<tr class="separator:adb5215455fac3834e40c47271808550a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3e9f569c65ffe045d9640a3b8a723d" id="r_abf3e9f569c65ffe045d9640a3b8a723d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf3e9f569c65ffe045d9640a3b8a723d">BuildGrantFlowLink</a> (<a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> client_id, bool? force_verify, <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> redirect_uri, <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> response_type, <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a>[] scope, <a class="el" href="#a42e1fc460ad0b05930d40716f4102df6">string</a> state)</td></tr>
 <tr class="memdesc:abf3e9f569c65ffe045d9640a3b8a723d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build method to produce a URI on the Authorise URI.  <br /></td></tr>
 <tr class="separator:abf3e9f569c65ffe045d9640a3b8a723d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -385,8 +387,6 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:abb7aeb482dd600063ab37be0954038af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94e3758cba1ec088313ee4aed244e9f" id="r_ae94e3758cba1ec088313ee4aed244e9f"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#ae94e3758cba1ec088313ee4aed244e9f">Locker</a></td></tr>
 <tr class="separator:ae94e3758cba1ec088313ee4aed244e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f218ec3c0517254de5311e5e9db4d00" id="r_a5f218ec3c0517254de5311e5e9db4d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a5f218ec3c0517254de5311e5e9db4d00">preventNewInstances</a></td></tr>
-<tr class="separator:a5f218ec3c0517254de5311e5e9db4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Primary singleton for API functionality. Handles OAuth management and requests. Contains the methods to make API requests. </p>
@@ -511,8 +511,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a989e2af59a6dc0c0bd797c72e30fb13b" name="a989e2af59a6dc0c0bd797c72e30fb13b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a989e2af59a6dc0c0bd797c72e30fb13b">&#9670;&#160;</a></span>AuthorizationCodeGrantFlowCallback()</h2>
+<a id="adb5215455fac3834e40c47271808550a" name="adb5215455fac3834e40c47271808550a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb5215455fac3834e40c47271808550a">&#9670;&#160;</a></span>AuthorizationCodeGrantFlowCallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -521,7 +521,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">async void ScoredProductions.StreamLinked.API.TwitchAPIClient.AuthorizationCodeGrantFlowCallback </td>
+          <td class="memname">void ScoredProductions.StreamLinked.API.TwitchAPIClient.AuthorizationCodeGrantFlowCallback </td>
           <td>(</td>
           <td class="paramtype">IAsyncResult</td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
           <td></td>
@@ -1215,8 +1215,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6eda801cec2506fb10c4bf5e851e689a" name="a6eda801cec2506fb10c4bf5e851e689a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6eda801cec2506fb10c4bf5e851e689a">&#9670;&#160;</a></span>ImplicitGrantFlowCallbackBuildToken()</h2>
+<a id="ab0045925679a5e95c922b5dd1c0ceb59" name="ab0045925679a5e95c922b5dd1c0ceb59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0045925679a5e95c922b5dd1c0ceb59">&#9670;&#160;</a></span>ImplicitGrantFlowCallbackBuildToken()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1225,7 +1225,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">async void ScoredProductions.StreamLinked.API.TwitchAPIClient.ImplicitGrantFlowCallbackBuildToken </td>
+          <td class="memname">void ScoredProductions.StreamLinked.API.TwitchAPIClient.ImplicitGrantFlowCallbackBuildToken </td>
           <td>(</td>
           <td class="paramtype">IAsyncResult</td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
           <td></td>
@@ -1561,7 +1561,7 @@ Static Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><div class="fragment"><div class="line"><a class="code hl_struct" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a></div>
-<div class="ttc" id="astruct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value_html"><div class="ttname"><a href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">ScoredProductions.StreamLinked.LightJson.JsonValue</a></div><div class="ttdoc">A wrapper object that contains a valid JSON value.</div><div class="ttdef"><b>Definition</b> JsonValue.cs:14</div></div>
+<div class="ttc" id="astruct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value_html"><div class="ttname"><a href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">ScoredProductions.StreamLinked.LightJson.JsonValue</a></div><div class="ttdoc">A wrapper object that contains a valid JSON value.</div><div class="ttdef"><b>Definition</b> JsonValue.cs:13</div></div>
 </div><!-- fragment --> Raw response from server</dd></dl>
 
 </div>
@@ -2028,9 +2028,6 @@ Static Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">async Task ScoredProductions.StreamLinked.API.TwitchAPIClient.UpdateAuthUserInfo </td>
@@ -2039,11 +2036,6 @@ Static Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -2504,7 +2496,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2575,7 +2567,7 @@ Static Private Attributes</h2></td></tr>
 <div class="line">            <a class="code hl_enumeration" href="namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6">TwitchScopesEnum</a>.user_edit,</div>
 <div class="line">            TwitchScopesEnum.user_read_chat</div>
 <div class="line">        }</div>
-<div class="ttc" id="anamespace_scored_productions_1_1_stream_linked_html_a47f4e9321b5bc9b8d13f4c4906f675a6"><div class="ttname"><a href="namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6">ScoredProductions.StreamLinked.TwitchScopesEnum</a></div><div class="ttdeci">TwitchScopesEnum</div><div class="ttdoc">All scopes used by Twitch API Auth tokens. In Enum format.</div><div class="ttdef"><b>Definition</b> TwitchScopesEnum.cs:8</div></div>
+<div class="ttc" id="anamespace_scored_productions_1_1_stream_linked_html_a47f4e9321b5bc9b8d13f4c4906f675a6"><div class="ttname"><a href="namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6">ScoredProductions.StreamLinked.TwitchScopesEnum</a></div><div class="ttdeci">TwitchScopesEnum</div><div class="ttdoc">All scopes used by Twitch API Auth tokens. In Enum format.</div><div class="ttdef"><b>Definition</b> TwitchScopesEnum.cs:7</div></div>
 </div><!-- fragment -->
 </div>
 </div>

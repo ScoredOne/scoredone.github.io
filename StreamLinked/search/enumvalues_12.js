@@ -64,6 +64,7 @@ var searchData=
   ['user_5fread_5fmoderated_5fchannels_61',['user_read_moderated_channels',['../namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6a193eb28805e389a8ba1a99c481e108c6',1,'ScoredProductions::StreamLinked']]],
   ['user_5fread_5fsubscriptions_62',['user_read_subscriptions',['../namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6a45b7fdb7629f955b60af9e48c4f68d7c',1,'ScoredProductions::StreamLinked']]],
   ['user_5fupdate_63',['User_Update',['../namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6afd9361b00ce85ead84c2a1719a8da404',1,'ScoredProductions::StreamLinked::EventSub']]],
-  ['usernotice_64',['USERNOTICE',['../namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6',1,'ScoredProductions::StreamLinked::IRC']]],
-  ['userstate_65',['USERSTATE',['../namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe',1,'ScoredProductions::StreamLinked::IRC']]]
+  ['user_5fwrite_5fchat_64',['user_write_chat',['../namespace_scored_productions_1_1_stream_linked.html#a47f4e9321b5bc9b8d13f4c4906f675a6aaa83b08d87b4877aaff994fb2115218f',1,'ScoredProductions::StreamLinked']]],
+  ['usernotice_65',['USERNOTICE',['../namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6',1,'ScoredProductions::StreamLinked::IRC']]],
+  ['userstate_66',['USERSTATE',['../namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe',1,'ScoredProductions::StreamLinked::IRC']]]
 ];

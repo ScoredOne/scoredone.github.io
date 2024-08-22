@@ -75,6 +75,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links 
     [ "SearchChannels", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#aac0f9e4f0687b55df7623541c7685597", null ],
     [ "SendAShoutout", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a20f039dd4ae0649727181f4fee6d10b2", null ],
     [ "SendChatAnnouncement", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a1fb453edc1152a88f5c6f6de970ced59", null ],
+    [ "SendChatMessage", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a417fb72e485d60ec8b30bc7b5176f4c2", null ],
     [ "SendExtensionChatMessage", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ab91af38a55190efee51a1e86db20af66", null ],
     [ "SendExtensionPubSubMessage", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a95ee7aa84a1dc4e4b1edaa1b5c085617", null ],
     [ "SendWhisper", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a7b6b1b68b337139ced4c13649f8aa441", null ],

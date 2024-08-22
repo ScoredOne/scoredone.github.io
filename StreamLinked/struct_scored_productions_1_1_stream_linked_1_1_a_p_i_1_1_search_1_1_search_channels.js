@@ -11,7 +11,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_
     [ "game_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a048d8604f9207813d6bf44454a09dc59", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a825378cc16ac1fafa33f02c961a68ab9", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a229240c6aac5191271e66ab3ff3db970", null ],
-    [ "is_live", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a7651044b14fb44658b553dfae301a7e9", null ],
+    [ "is_live", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a78d16e2d72db16c3d08a972ca6585ab0", null ],
     [ "LIVE_ONLY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a02f6eb1b2de488a90593cc0c1f7cf406", null ],
     [ "QUERY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a724dc23f193580dbe26c44ada65c1de1", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#ad59529044a5dd99273eed76f147377ec", null ],

@@ -19,7 +19,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clip
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#ad0a591e3ee2768a348f9ff5cbcd29f2f", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a5a4c9c4c71abee06f34f0f7ebc8f44da", null ],
     [ "ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a140bac302a2521841245e32d4cf52bf3", null ],
-    [ "is_featured", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a930a3215e49fe720fec7967469360670", null ],
+    [ "is_featured", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a8170d85600c04a64a761cc1c8a142169", null ],
     [ "IS_FEATURED", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a7c793b5e73dd132a15360a3b61f2d522", null ],
     [ "language", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a9ebd355fbbb8cd4efec5aeb7d257feb8", null ],
     [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a723688fd22dc9416446953ab6b2d2844", null ],
@@ -27,6 +27,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clip
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a55be27d9e815a7225e591f0f6074d230", null ],
     [ "url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a0f1117b5aa459ff59dd6ac3c9e42e922", null ],
     [ "video_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#aa1255349cd3b07a68ae2311803a535e0", null ],
-    [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a4f5939e16e0e062c02a21f4bdb441d5e", null ],
-    [ "vod_offset", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a27539037baba8d164a0cdb37ba58a39b", null ]
+    [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a07d4e6df574f4daabec6a9388ce79a18", null ],
+    [ "vod_offset", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a8cc456fdc4b38bb64e9572ce903cb1a4", null ]
 ];

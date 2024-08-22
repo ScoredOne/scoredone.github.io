@@ -25,5 +25,5 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_st
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_streams.html#a6fbd2dada8449ac4b22f3037dee75317", null ],
     [ "USER_LOGIN", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_streams.html#af38eb165b0717181439970ff5b9150a2", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_streams.html#a645d0200499404bbb78fa02ad2b66020", null ],
-    [ "viewer_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_streams.html#a39b227bcef7153b9dabca3823549538d", null ]
+    [ "viewer_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_streams.html#aefcef21a32ccf896373906a4dabb3d8d", null ]
 ];

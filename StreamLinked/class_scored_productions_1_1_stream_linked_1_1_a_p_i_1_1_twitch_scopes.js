@@ -69,6 +69,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes =
     [ "user_read_follows", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes.html#a3f4054e3b11818ec69cad5307cafb44a", null ],
     [ "user_read_moderated_channels", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes.html#a64c399aba3b61d8ad498484de86a6e27", null ],
     [ "user_read_subscriptions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes.html#a89be88a2cb94c6151e9e416961f4148c", null ],
+    [ "user_write_chat", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes.html#ad8626c21966104524626e27795c271c3", null ],
     [ "whispers_edit", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes.html#a5d3cafd1dc8d43241c98e67aede2d512", null ],
     [ "whispers_read", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_scopes.html#a6002a62f2f99f0deea1d5861a48987b7", null ]
 ];

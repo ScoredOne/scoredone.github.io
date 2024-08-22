@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.1.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.2</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -125,8 +125,8 @@ Inheritance diagram for ScoredProductions.StreamLinked.IRC.TwitchIRCClient:</div
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aadf20c5f23376d5301008ae3735710e3" id="r_aadf20c5f23376d5301008ae3735710e3"><td class="memItemLeft" align="right" valign="top">delegate Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf20c5f23376d5301008ae3735710e3">ReturnAPIData</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> OldUser, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> NewUser)</td></tr>
-<tr class="separator:aadf20c5f23376d5301008ae3735710e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07135d580ce72a8b94afee7b21c65ea0" id="r_a07135d580ce72a8b94afee7b21c65ea0"><td class="memItemLeft" align="right" valign="top">delegate Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07135d580ce72a8b94afee7b21c65ea0">ReturnAPIData</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>? OldUser, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>? NewUser)</td></tr>
+<tr class="separator:a07135d580ce72a8b94afee7b21c65ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ad28b804444e1bfc65f7aa8ec0dd66" id="r_a64ad28b804444e1bfc65f7aa8ec0dd66"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ad28b804444e1bfc65f7aa8ec0dd66">GetJoinedRoomUserData</a> ()</td></tr>
 <tr class="memdesc:a64ad28b804444e1bfc65f7aa8ec0dd66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Twitch information of Target room.  <br /></td></tr>
 <tr class="separator:a64ad28b804444e1bfc65f7aa8ec0dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,7 +207,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a77a72ca0937a51b08895287a663dd456" id="r_a77a72ca0937a51b08895287a663dd456"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a72ca0937a51b08895287a663dd456">BUFFER_SIZE</a> = 1000000</td></tr>
 <tr class="memdesc:a77a72ca0937a51b08895287a663dd456"><td class="mdescLeft">&#160;</td><td class="mdescRight">1 MB  <br /></td></tr>
 <tr class="separator:a77a72ca0937a51b08895287a663dd456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe073ac5553e57d1abf57bea275e1ead" id="r_afe073ac5553e57d1abf57bea275e1ead"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#aadf20c5f23376d5301008ae3735710e3">ReturnAPIData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe073ac5553e57d1abf57bea275e1ead">OnJoinedRoomUserUpdated</a></td></tr>
+<tr class="memitem:afe073ac5553e57d1abf57bea275e1ead" id="r_afe073ac5553e57d1abf57bea275e1ead"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a07135d580ce72a8b94afee7b21c65ea0">ReturnAPIData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe073ac5553e57d1abf57bea275e1ead">OnJoinedRoomUserUpdated</a></td></tr>
 <tr class="separator:afe073ac5553e57d1abf57bea275e1ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e71aa2bf2e34309f8e44fa6863709f8" id="r_a7e71aa2bf2e34309f8e44fa6863709f8"><td class="memItemLeft" align="right" valign="top">static readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8">Name</a></td></tr>
 <tr class="separator:a7e71aa2bf2e34309f8e44fa6863709f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +228,8 @@ Protected Member Functions</h2></td></tr>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a4c6eb564c54cdc8f1ea89bf2ff89a7fc" id="r_a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc">_instance</a></td></tr>
 <tr class="separator:a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f218ec3c0517254de5311e5e9db4d00" id="r_a5f218ec3c0517254de5311e5e9db4d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a5f218ec3c0517254de5311e5e9db4d00">preventNewInstances</a></td></tr>
+<tr class="separator:a5f218ec3c0517254de5311e5e9db4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -243,8 +245,8 @@ Properties</h2></td></tr>
 <tr class="separator:a9cc3f0b359393dad6a3a96552e97cb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa45764f80c92dc988e52c87509b06085" id="r_aa45764f80c92dc988e52c87509b06085"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa45764f80c92dc988e52c87509b06085">ClientStopped</a><code> [get]</code></td></tr>
 <tr class="separator:aa45764f80c92dc988e52c87509b06085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d09102d0d73fce11c797e98428c86d" id="r_a24d09102d0d73fce11c797e98428c86d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24d09102d0d73fce11c797e98428c86d">JoinedRoomUserData</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a24d09102d0d73fce11c797e98428c86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9798db33e4b905928916dd24822a396" id="r_ac9798db33e4b905928916dd24822a396"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9798db33e4b905928916dd24822a396">JoinedRoomUserData</a><code> [get, private set]</code></td></tr>
+<tr class="separator:ac9798db33e4b905928916dd24822a396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec5c0074ebe22b600b486d363f9c4297" id="r_aec5c0074ebe22b600b486d363f9c4297"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec5c0074ebe22b600b486d363f9c4297">GetOAuthUsername</a><code> [get]</code></td></tr>
 <tr class="separator:aec5c0074ebe22b600b486d363f9c4297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48ec67fa9431ea8b9a985ee461d9deea" id="r_a48ec67fa9431ea8b9a985ee461d9deea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a48ec67fa9431ea8b9a985ee461d9deea">InstanceIsAlive</a><code> [get]</code></td></tr>
@@ -267,6 +269,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a693307c5e00fe9616b8214ac0807d44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e4748eef179632691d82065a9feca27" id="r_a2e4748eef179632691d82065a9feca27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e4748eef179632691d82065a9feca27">EndCancelTokens</a> ()</td></tr>
 <tr class="separator:a2e4748eef179632691d82065a9feca27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29b3f9b90da080cffecadc6acc43df4" id="r_ac29b3f9b90da080cffecadc6acc43df4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac29b3f9b90da080cffecadc6acc43df4">ReconnectToTwitchAuthListener</a> ()</td></tr>
+<tr class="separator:ac29b3f9b90da080cffecadc6acc43df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4505b1d3eb5529212c9f5958af0cce47" id="r_a4505b1d3eb5529212c9f5958af0cce47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4505b1d3eb5529212c9f5958af0cce47">GetSettings</a> ()</td></tr>
 <tr class="memdesc:a4505b1d3eb5529212c9f5958af0cce47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to aquire information required to start Twitch IRC.  <br /></td></tr>
 <tr class="separator:a4505b1d3eb5529212c9f5958af0cce47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,8 +296,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a07a706276a3cbae8e999ac20b12061de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab10053f95564fb8a5d312f6b60ca0ff6" id="r_ab10053f95564fb8a5d312f6b60ca0ff6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab10053f95564fb8a5d312f6b60ca0ff6">_twitchTarget</a></td></tr>
 <tr class="separator:ab10053f95564fb8a5d312f6b60ca0ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a438f29fd65361ee5f0822f14949d3aaa" id="r_a438f29fd65361ee5f0822f14949d3aaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a438f29fd65361ee5f0822f14949d3aaa">_joinedRoomUserData</a> = default</td></tr>
-<tr class="separator:a438f29fd65361ee5f0822f14949d3aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b0c908bf53915a68b611a84c6101f8" id="r_ae3b0c908bf53915a68b611a84c6101f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3b0c908bf53915a68b611a84c6101f8">_joinedRoomUserData</a> = null</td></tr>
+<tr class="separator:ae3b0c908bf53915a68b611a84c6101f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e1e2804b19f8f9b8a810eee9dd44191" id="r_a2e1e2804b19f8f9b8a810eee9dd44191"><td class="memItemLeft" align="right" valign="top">TcpClient&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e1e2804b19f8f9b8a810eee9dd44191">tcpClient</a></td></tr>
 <tr class="separator:a2e1e2804b19f8f9b8a810eee9dd44191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad25c0999e23e849d78e4052131d3775f" id="r_ad25c0999e23e849d78e4052131d3775f"><td class="memItemLeft" align="right" valign="top">NetworkStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad25c0999e23e849d78e4052131d3775f">networkStream</a></td></tr>
@@ -321,8 +325,6 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:aa12da5f56b8f92e1899ceaeae4b25b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94e3758cba1ec088313ee4aed244e9f" id="r_ae94e3758cba1ec088313ee4aed244e9f"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#ae94e3758cba1ec088313ee4aed244e9f">Locker</a></td></tr>
 <tr class="separator:ae94e3758cba1ec088313ee4aed244e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f218ec3c0517254de5311e5e9db4d00" id="r_a5f218ec3c0517254de5311e5e9db4d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a5f218ec3c0517254de5311e5e9db4d00">preventNewInstances</a></td></tr>
-<tr class="separator:a5f218ec3c0517254de5311e5e9db4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch IRC Singleton. Handles connection and processing of messages. </p>
@@ -840,8 +842,33 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aadf20c5f23376d5301008ae3735710e3" name="aadf20c5f23376d5301008ae3735710e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadf20c5f23376d5301008ae3735710e3">&#9670;&#160;</a></span>ReturnAPIData()</h2>
+<a id="ac29b3f9b90da080cffecadc6acc43df4" name="ac29b3f9b90da080cffecadc6acc43df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac29b3f9b90da080cffecadc6acc43df4">&#9670;&#160;</a></span>ReconnectToTwitchAuthListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.IRC.TwitchIRCClient.ReconnectToTwitchAuthListener </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07135d580ce72a8b94afee7b21c65ea0" name="a07135d580ce72a8b94afee7b21c65ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07135d580ce72a8b94afee7b21c65ea0">&#9670;&#160;</a></span>ReturnAPIData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -849,12 +876,12 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">delegate Task ScoredProductions.StreamLinked.IRC.TwitchIRCClient.ReturnAPIData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a></td>          <td class="paramname"><span class="paramname"><em>OldUser</em>, </span></td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?</td>          <td class="paramname"><span class="paramname"><em>OldUser</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a></td>          <td class="paramname"><span class="paramname"><em>NewUser</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?</td>          <td class="paramname"><span class="paramname"><em>NewUser</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1017,8 +1044,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a438f29fd65361ee5f0822f14949d3aaa" name="a438f29fd65361ee5f0822f14949d3aaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a438f29fd65361ee5f0822f14949d3aaa">&#9670;&#160;</a></span>_joinedRoomUserData</h2>
+<a id="ae3b0c908bf53915a68b611a84c6101f8" name="ae3b0c908bf53915a68b611a84c6101f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3b0c908bf53915a68b611a84c6101f8">&#9670;&#160;</a></span>_joinedRoomUserData</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1027,7 +1054,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> ScoredProductions.StreamLinked.IRC.TwitchIRCClient._joinedRoomUserData = default</td>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>? ScoredProductions.StreamLinked.IRC.TwitchIRCClient._joinedRoomUserData = null</td>
         </tr>
       </table>
   </td>
@@ -1433,7 +1460,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aadf20c5f23376d5301008ae3735710e3">ReturnAPIData</a> ScoredProductions.StreamLinked.IRC.TwitchIRCClient.OnJoinedRoomUserUpdated</td>
+          <td class="memname"><a class="el" href="#a07135d580ce72a8b94afee7b21c65ea0">ReturnAPIData</a> ScoredProductions.StreamLinked.IRC.TwitchIRCClient.OnJoinedRoomUserUpdated</td>
         </tr>
       </table>
   </td>
@@ -1642,7 +1669,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1908,8 +1935,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a24d09102d0d73fce11c797e98428c86d" name="a24d09102d0d73fce11c797e98428c86d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24d09102d0d73fce11c797e98428c86d">&#9670;&#160;</a></span>JoinedRoomUserData</h2>
+<a id="ac9798db33e4b905928916dd24822a396" name="ac9798db33e4b905928916dd24822a396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9798db33e4b905928916dd24822a396">&#9670;&#160;</a></span>JoinedRoomUserData</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1918,7 +1945,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> ScoredProductions.StreamLinked.IRC.TwitchIRCClient.JoinedRoomUserData</td>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>? ScoredProductions.StreamLinked.IRC.TwitchIRCClient.JoinedRoomUserData</td>
         </tr>
       </table>
   </td>

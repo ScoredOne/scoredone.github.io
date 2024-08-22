@@ -1,6 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735 =
 [
     [ "Global_Cooldown_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html#af96d276dd9741f33667225926719e9c0", null ],
-    [ "global_cooldown_seconds", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html#a5f7606286a6167f1700932a96cf2c5dc", null ],
-    [ "is_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html#ad2baabc24997962e35fca4f31e799bb9", null ]
+    [ "global_cooldown_seconds", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html#aa7ad76d0b3bf15cc5a25dab0a3d44e2b", null ],
+    [ "is_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html#a7970d034b682792e08bcdf78fb3b2bdb", null ]
 ];

@@ -14,5 +14,5 @@ var searchData=
   ['deletevideos_11',['DeleteVideos',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_delete_videos.html',1,'ScoredProductions::StreamLinked::API::Videos']]],
   ['devicecodegrantflow_12',['DeviceCodeGrantFlow',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html',1,'ScoredProductions::StreamLinked::API::AuthContainers']]],
   ['dropentitlementgrant_13',['DropEntitlementGrant',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['dropreason_14',['DropReason',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message_1_1_drop_reason.html',1,'ScoredProductions::StreamLinked::API::Chat::SendChatMessage']]]
+  ['dropreason_14',['DropReason',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat_1_1_drop_reason.html',1,'ScoredProductions::StreamLinked::API::Chat::IChat']]]
 ];

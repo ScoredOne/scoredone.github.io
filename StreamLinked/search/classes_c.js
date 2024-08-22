@@ -14,5 +14,5 @@ var searchData=
   ['mobile_11',['Mobile',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_i_extensions_1_1_mobile.html',1,'ScoredProductions::StreamLinked::API::Extensions::IExtensions']]],
   ['mod_12',['Mod',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
   ['modifychannelinformation_13',['ModifyChannelInformation',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_modify_channel_information.html',1,'ScoredProductions::StreamLinked::API::Channels']]],
-  ['mutedsegment_14',['MutedSegment',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_i_videos_1_1_muted_segment.html',1,'ScoredProductions::StreamLinked::API::Videos::IVideos']]]
+  ['mutedsegment_14',['MutedSegment',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_i_videos_1_1_muted_segment.html',1,'ScoredProductions::StreamLinked::API::Videos::IVideos']]]
 ];

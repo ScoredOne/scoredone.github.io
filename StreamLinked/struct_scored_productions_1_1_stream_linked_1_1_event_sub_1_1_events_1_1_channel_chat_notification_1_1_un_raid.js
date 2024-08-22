@@ -1,4 +1,0 @@
-var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid =
-[
-    [ "UnRaid", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_un_raid.html#ab1f6f549a512622072d9a18983154055", null ]
-];

@@ -7,7 +7,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_devic
     [ "CLIENT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a9ddc310d4c351947944e246c1ba09ee5", null ],
     [ "DEVICE_CODE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a6b31f42f2fc05bf57787d0509d865766", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a0fb0fd76523782a4e9def694e149dd09", null ],
-    [ "expires_in", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a57b98efb5fec24993d3a9886aad80e23", null ],
+    [ "expires_in", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a8f7810deddd1a3017c8562641e9c7162", null ],
     [ "GRANT_TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a37dfd07a6c76c30e3c04ac285654ed6b", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a8c85bafe487924c9f7ad11510ea9df98", null ],
     [ "LOCATION", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.html#a459c466f9e4821033ec17cb1dd4e40f0", null ],

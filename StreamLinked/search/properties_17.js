@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wait_5ftime_5fseconds_0',['wait_time_seconds',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_slow.html#a8d53e4b134f61d52a8ad7c1023fcfe37',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Slow']]],
+  ['wait_5ftime_5fseconds_0',['wait_time_seconds',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_slow.html#a8f2566c0d93746efde52d173f87531f2',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Slow']]],
   ['warn_1',['warn',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderate_v2.html#a005363308f33c3ab26106267fac890c2',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelModerateV2']]],
   ['whisper_2',['whisper',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#a320e8d681db02850c8c1492c3b384cdd',1,'ScoredProductions::StreamLinked::EventSub::Events::WhisperReceived']]],
   ['whisper_5fid_3',['whisper_id',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#af4021cb670576c771c52119b76dc01f2',1,'ScoredProductions::StreamLinked::EventSub::Events::WhisperReceived']]],

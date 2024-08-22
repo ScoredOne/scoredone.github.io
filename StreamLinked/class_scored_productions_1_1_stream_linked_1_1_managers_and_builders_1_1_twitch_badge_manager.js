@@ -12,7 +12,7 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "GetBadges", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a78446dd0551f2c0e15a4bbfb046a5c02", null ],
     [ "GetBadges", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a87c1e59fee0c76ed557a10c87429687b", null ],
     [ "GetBadgeTMPText", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a455805cc8ea41181d587c9ae851b3690", null ],
-    [ "GetChannelBadges", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a70ccd32e7f62b6367eb76f6bbd6288c8", null ],
+    [ "GetChannelBadges", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a4822b6331b5d910fdc883b43433d0f41", null ],
     [ "GetGlobalBadges", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a051f0280f6cf69e4aff07ea7a52aa45a", null ],
     [ "GetInstance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a26987c940d842a83aa6200268a459b3b", null ],
     [ "OnApplicationQuit", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a4feadee82ec17235b1d966ff17130250", null ],

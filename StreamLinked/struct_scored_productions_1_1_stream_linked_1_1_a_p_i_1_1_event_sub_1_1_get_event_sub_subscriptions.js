@@ -3,7 +3,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a3ea93732d196251aa102abffaa96201a", null ],
     [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ac2c6d189c05fdd5095beb903e733a88c", null ],
     [ "condition", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a8344b5bae729fcf0ae64ad4cb6c645ec", null ],
-    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a15aa54f8844c029dd9991d07dff3e33d", null ],
+    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a13b0ca90e3950425f3f9f9bd5d3de33f", null ],
     [ "created_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a5e1baabc76d31478e6247ab6ae3a6c52", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a55589b22a349ac4e287ef136479f7576", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ad7daa71e5a0f151004638cf4d0f7ac7c", null ],

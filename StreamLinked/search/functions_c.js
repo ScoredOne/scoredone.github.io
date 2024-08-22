@@ -18,5 +18,5 @@ var searchData=
   ['metadata_15',['Metadata',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_metadata.html#a046e2225f5c921710520381072aef739',1,'ScoredProductions::StreamLinked::EventSub::WebSocketMessages::Metadata']]],
   ['mobile_16',['Mobile',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_i_extensions_1_1_mobile.html#a5ac3c283e72b0c64efaacc507d39498e',1,'ScoredProductions::StreamLinked::API::Extensions::IExtensions::Mobile']]],
   ['mod_17',['Mod',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod.html#a776777cca417dd9454b647d197dd151b',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Mod']]],
-  ['mutedsegment_18',['MutedSegment',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_i_videos_1_1_muted_segment.html#a6f9956d464fe6314674214aac14b2a14',1,'ScoredProductions::StreamLinked::API::Videos::IVideos::MutedSegment']]]
+  ['mutedsegment_18',['MutedSegment',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_i_videos_1_1_muted_segment.html#a6f9956d464fe6314674214aac14b2a14',1,'ScoredProductions::StreamLinked::API::Videos::IVideos::MutedSegment']]]
 ];

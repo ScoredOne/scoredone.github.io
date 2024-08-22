@@ -6,12 +6,12 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hyp
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a4882c54c54ca5ad2c0bd436582507c83", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#aeb20034debd978fedf799bfda68616bf", null ],
     [ "expires_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#ab8b8fe806284bde9a3de1d78d9fea91e", null ],
-    [ "goal", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a70a7a31f75bb7c4c61f84f166f4da463", null ],
+    [ "goal", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#ae7c0b7201933501582b404b492bb590b", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#aff81596afb5703be5cd43e3f308532da", null ],
     [ "last_contribution", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#aed41c0a80eb9e5dca9db27297bce78c8", null ],
-    [ "level", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#ae54e5a7946268dea130c57ce7c4f7bed", null ],
-    [ "progress", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a6111c8a31e8d9a140cd04701702c1406", null ],
+    [ "level", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a64168f56d9f71cbedb69553865434867", null ],
+    [ "progress", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a7d6e75edc11ca2e8a35d1569886579cc", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a7d7a6720a82df89c313d3cb7d5dc8b4a", null ],
     [ "top_contributions", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a8f30572a068d4617db91018a44e208db", null ],
-    [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#a921cb9b3a40aef48c6d3e238498515ed", null ]
+    [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_hype_train_end.html#ae70cc48753dcf4d1896886145c19b113", null ]
 ];

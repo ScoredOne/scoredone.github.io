@@ -28,6 +28,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_vid
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#abfe1e8bce2efc398a5a3be7d81ce051d", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a98a268552aa27fa63d72a38620e017c4", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#af231a5a046e5b933a8ade1a4e7d8e016", null ],
-    [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#af9677a05943895c45f7c9ceb1ef21386", null ],
+    [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a44c3daa0e21eaa41302a24b68973626d", null ],
     [ "viewable", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#aeef48706f10e7a9b18a59de1caa2ce57", null ]
 ];

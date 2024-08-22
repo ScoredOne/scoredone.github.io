@@ -9,7 +9,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_upd
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a689e379da5c51e1b51df5489fb02fe70", null ],
     [ "expiration", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#ad07288d177d4fe657f8ced528c84bdfd", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a83f6483623c73ac087e2126fef746de6", null ],
-    [ "in_development", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a5b22e9039fceebce2f661a5014e68812", null ],
-    [ "is_broadcast", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#abb2ba5c7896a510d6dedfeee7b31c56c", null ],
+    [ "in_development", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a4d9a0e406cf67ac9ad6bed6bb5433eb1", null ],
+    [ "is_broadcast", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a86da2c7120ec99845f1210cfe97d4220", null ],
     [ "sku", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a857a16b65248deac2df926803f5c214e", null ]
 ];

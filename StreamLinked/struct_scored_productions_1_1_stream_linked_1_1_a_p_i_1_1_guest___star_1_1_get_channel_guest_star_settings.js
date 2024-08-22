@@ -5,9 +5,9 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_g
     [ "browser_source_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#a0b3b451f3adc26639e790b2b20fc9840", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#afa20a2b0cde6bedf66f9f4064803cdc6", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#adedbd415df4e27b869041a8e0519d7b8", null ],
-    [ "is_browser_source_audio_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#a698d1c5a34bbdb0e7f9ddaa9e3811bc0", null ],
-    [ "is_moderator_send_live_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#aefc264f353b34efee4f340c4c412469d", null ],
+    [ "is_browser_source_audio_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#a4573e22b307b18835b388db38b7f7ba3", null ],
+    [ "is_moderator_send_live_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#a1e88c1630932e19b71addaef34a1375b", null ],
     [ "layout", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#ada4ac22e8e30dfa9c054b7e49e635f95", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#a56fd3ad3338053d45b48786b17034111", null ],
-    [ "slot_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#ac01e61963c5258145bc66c9b2eba0731", null ]
+    [ "slot_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_channel_guest_star_settings.html#aae0cd87e4e40b66d2fc39589af7ceb56", null ]
 ];

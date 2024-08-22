@@ -54,7 +54,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value =
     [ "IsNull", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#aab12b2ecb8b28d50ea3daedf0ddc1227", null ],
     [ "IsNumber", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#a6e5dda2acb08ce592c09fc67d1124a8d", null ],
     [ "IsString", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#a50e64d6fe8df03469f3ae7cef1e7092c", null ],
-    [ "this[int index]", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#a5d13b2e51c5f24a05c09e3b899e72a3d", null ],
-    [ "this[string key]", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#ae4e80f708e21d51412d526424b9561ec", null ],
+    [ "this[int index]", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#a198219ad6f30b5c3b83cec83b71e0b73", null ],
+    [ "this[string key]", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#a4e47629430abbea5b9321b49b25ffa85", null ],
     [ "Type", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html#abec35f0380141f1699e53243bebd9869", null ]
 ];

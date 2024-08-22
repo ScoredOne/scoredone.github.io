@@ -15,7 +15,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_ge
     [ "ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a4344e0aa8201794f8d8c5c4fbe6155a9", null ],
     [ "locked_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a67799fff4d8f31f22893a48d9a408c77", null ],
     [ "outcomes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a59a45bc74ea6b35f8caeb8c0c40a59ac", null ],
-    [ "prediction_window", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#af341fcea999301e5ff47df676f351af1", null ],
+    [ "prediction_window", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a3603edbf62c81bfbf5b4eee1d5cc980b", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a0854722a91397e2839b1c9008ffe2ff6", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#aeb25dfbd1111977ff5303c39141f53f2", null ],
     [ "winning_outcome_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#acd31d65d624bacad7b1cdc09f913ae73", null ]
