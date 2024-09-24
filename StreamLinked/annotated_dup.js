@@ -1,6 +1,15 @@
 var annotated_dup =
 [
     [ "ScoredProductions", "namespace_scored_productions.html", [
+      [ "Assets", "namespace_scored_productions_1_1_assets.html", [
+        [ "StreamLinked", "namespace_scored_productions_1_1_assets_1_1_stream_linked.html", [
+          [ "ManagersAndBuilders", "namespace_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders.html", [
+            [ "Containers", "namespace_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders_1_1_containers.html", [
+              [ "CoroutineWrapper", "class_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_coroutine_wrapper.html", "class_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_coroutine_wrapper" ]
+            ] ]
+          ] ]
+        ] ]
+      ] ],
       [ "StreamLinked", "namespace_scored_productions_1_1_stream_linked.html", [
         [ "API", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html", [
           [ "Ads", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads.html", [
@@ -74,6 +83,7 @@ var annotated_dup =
             [ "GetEmoteSets", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets" ],
             [ "GetGlobalChatBadges", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges" ],
             [ "GetGlobalEmotes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes" ],
+            [ "GetSharedChatSession", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session" ],
             [ "GetUserChatColor", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color" ],
             [ "GetUserEmotes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes" ],
             [ "IChat", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat" ],
@@ -268,7 +278,8 @@ var annotated_dup =
               [ "BitsVoting", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_bits_voting.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_bits_voting" ],
               [ "Condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition" ],
               [ "Emotes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_emotes.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_emotes" ],
-              [ "GlobalCooldown", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_global_cooldown.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_global_cooldown" ]
+              [ "GlobalCooldown", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_global_cooldown.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_global_cooldown" ],
+              [ "Participant", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_participant.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_participant" ]
             ] ],
             [ "AutomodMessageHold", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_hold.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_hold" ],
             [ "AutomodMessageUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_update.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_update" ],
@@ -308,6 +319,9 @@ var annotated_dup =
             [ "ChannelPredictionLock", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock" ],
             [ "ChannelPredictionProgress", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_progress.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_progress" ],
             [ "ChannelRaid", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_raid" ],
+            [ "ChannelSharedChatSessionBegin", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shared_chat_session_begin.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shared_chat_session_begin" ],
+            [ "ChannelSharedChatSessionEnd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shared_chat_session_end.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shared_chat_session_end" ],
+            [ "ChannelSharedChatSessionUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shared_chat_session_update.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shared_chat_session_update" ],
             [ "ChannelSubscribe", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscribe.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscribe" ],
             [ "ChannelSubscriptionEnd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_end.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_end" ],
             [ "ChannelSubscriptionGift", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_gift" ],
@@ -415,12 +429,22 @@ var annotated_dup =
           [ "JsonValue", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value" ]
         ] ],
         [ "ManagersAndBuilders", "namespace_scored_productions_1_1_stream_linked_1_1_managers_and_builders.html", [
-          [ "EmoteExtensions", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_emote_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_emote_extensions" ],
-          [ "TwitchBadge", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge" ],
+          [ "Containers", "namespace_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers.html", [
+            [ "EmoteExtensions", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_emote_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_emote_extensions" ],
+            [ "TwitchBadge", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge" ],
+            [ "TwitchEmote", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote" ]
+          ] ],
           [ "TwitchBadgeManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager" ],
-          [ "TwitchEmote", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote" ],
           [ "TwitchEmoteManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager" ],
-          [ "TwitchMessageAtlasManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager" ]
+          [ "TwitchMessageAtlasManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager" ],
+          [ "TwitchMessageAtlasProducer", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_producer.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_producer" ]
+        ] ],
+        [ "TwitchSceneFiles", "namespace_scored_productions_1_1_stream_linked_1_1_twitch_scene_files.html", [
+          [ "GetUserTestScript", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_get_user_test_script.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_get_user_test_script" ],
+          [ "TwitchEventSubStartupExample", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_event_sub_startup_example.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_event_sub_startup_example" ],
+          [ "TwitchMessageGameObject", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object" ],
+          [ "TwitchMessageGameObjectProvider", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object_provider.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object_provider" ],
+          [ "TwitchMessageSingleDisplayer", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer" ]
         ] ],
         [ "UniGif", "namespace_scored_productions_1_1_stream_linked_1_1_uni_gif.html", [
           [ "UniGif", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif" ],
@@ -433,13 +457,10 @@ var annotated_dup =
           [ "StringExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_extensions" ]
         ] ],
         [ "ImageHeaderHelpers", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers.html", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers" ],
-        [ "TwitchEventSubStartupExample", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_startup_example.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_event_sub_startup_example" ],
         [ "TwitchMessageDisplayerPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab" ],
         [ "TwitchMessageUIPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab" ],
         [ "TwitchStatic", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_static" ],
         [ "TwitchWords", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_words" ]
-      ] ],
-      [ "GetUserTestScript", "class_scored_productions_1_1_get_user_test_script.html", "class_scored_productions_1_1_get_user_test_script" ],
-      [ "TestScript", "class_scored_productions_1_1_test_script.html", "class_scored_productions_1_1_test_script" ]
+      ] ]
     ] ]
 ];

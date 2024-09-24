@@ -7,6 +7,7 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat =
     [ "GetEmoteSets", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets" ],
     [ "GetGlobalChatBadges", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges" ],
     [ "GetGlobalEmotes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes" ],
+    [ "GetSharedChatSession", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session" ],
     [ "GetUserChatColor", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color" ],
     [ "GetUserEmotes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes" ],
     [ "IChat", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat" ],

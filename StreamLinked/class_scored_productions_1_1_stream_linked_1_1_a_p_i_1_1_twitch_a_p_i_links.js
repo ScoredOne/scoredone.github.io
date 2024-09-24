@@ -79,6 +79,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links 
     [ "SendExtensionChatMessage", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ab91af38a55190efee51a1e86db20af66", null ],
     [ "SendExtensionPubSubMessage", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a95ee7aa84a1dc4e4b1edaa1b5c085617", null ],
     [ "SendWhisper", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a7b6b1b68b337139ced4c13649f8aa441", null ],
+    [ "Session", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ae327f0c8ae983fc24d373fd56d20c8c3", null ],
     [ "SetExtensionRequiredConfiguration", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a4988898c21b8259c6563dbd793e8d58a", null ],
     [ "ShieldModeStatus", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a2ae0d5f04f8ea2af6f8175434ee72002", null ],
     [ "SnoozeNextAd", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ab15123b9fc7488cd039946efbfde5a83", null ],

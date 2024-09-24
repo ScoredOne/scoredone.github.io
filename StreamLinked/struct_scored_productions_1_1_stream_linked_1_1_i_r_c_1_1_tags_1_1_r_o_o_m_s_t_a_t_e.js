@@ -1,6 +1,8 @@
 var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e =
 [
-    [ "ROOMSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#a9728e7f8c59148a5aba938ba08ccb9b5", null ],
+    [ "ROOMSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#af31423518138f69c97170275d6a1340f", null ],
+    [ "ExtractBadges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#a13b8f49641b866bf21e12b26af2cd1c3", null ],
+    [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#a72483be0902dad8b2e785dac74739fdc", null ],
     [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#a4253d0926a8c5fca5be52201ab1126b4", null ],
     [ "emoteOnly", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#a3c2bf347e40bf1776248c46417b9e22b", null ],
     [ "followersOnly", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html#ad5f06b922d90a56143a5a968d20999d5", null ],

@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.2</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -149,6 +149,15 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:aae677a5187a41a6d6483f07e9caa0b33" id="r_aae677a5187a41a6d6483f07e9caa0b33"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae677a5187a41a6d6483f07e9caa0b33">Channel_Chat_User_Message_Update</a> = &quot;channel.chat.user_message_update&quot;</td></tr>
 <tr class="memdesc:aae677a5187a41a6d6483f07e9caa0b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">A user is notified if their message’s automod status is updated. Link <br /></td></tr>
 <tr class="separator:aae677a5187a41a6d6483f07e9caa0b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50d740f15bdeaccaba3983f6944e040" id="r_aa50d740f15bdeaccaba3983f6944e040"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa50d740f15bdeaccaba3983f6944e040">Channel_Shared_Chat_Session_Begin</a> = &quot;channel.shared_chat.begin&quot;</td></tr>
+<tr class="memdesc:aa50d740f15bdeaccaba3983f6944e040"><td class="mdescLeft">&#160;</td><td class="mdescRight">A notification when a channel becomes active in an active shared chat session. Link <br /></td></tr>
+<tr class="separator:aa50d740f15bdeaccaba3983f6944e040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52eb010d27e6adb3305d327a4f3b4c67" id="r_a52eb010d27e6adb3305d327a4f3b4c67"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52eb010d27e6adb3305d327a4f3b4c67">Channel_Shared_Chat_Session_Update</a> = &quot;channel.shared_chat.update&quot;</td></tr>
+<tr class="memdesc:a52eb010d27e6adb3305d327a4f3b4c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">A notification when the active shared chat session the channel is in changes. Link <br /></td></tr>
+<tr class="separator:a52eb010d27e6adb3305d327a4f3b4c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d2d0cf21faf979eda158e397d50f9a" id="r_a26d2d0cf21faf979eda158e397d50f9a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26d2d0cf21faf979eda158e397d50f9a">Channel_Shared_Chat_Session_End</a> = &quot;channel.shared_chat.end&quot;</td></tr>
+<tr class="memdesc:a26d2d0cf21faf979eda158e397d50f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A notification when a channel leaves a shared chat session or the session ends. Link <br /></td></tr>
+<tr class="separator:a26d2d0cf21faf979eda158e397d50f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ffad7399d6f8ceeb64f6d437dd8565" id="r_a07ffad7399d6f8ceeb64f6d437dd8565"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07ffad7399d6f8ceeb64f6d437dd8565">Channel_Subscribe</a> = &quot;channel.subscribe&quot;</td></tr>
 <tr class="memdesc:a07ffad7399d6f8ceeb64f6d437dd8565"><td class="mdescLeft">&#160;</td><td class="mdescRight">A notification when a specified channel receives a subscriber. This does not include resubscribes. Link <br /></td></tr>
 <tr class="separator:a07ffad7399d6f8ceeb64f6d437dd8565"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1213,6 +1222,78 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A broadcaster raids another broadcaster’s channel. Link</p>
+
+</div>
+</div>
+<a id="aa50d740f15bdeaccaba3983f6944e040" name="aa50d740f15bdeaccaba3983f6944e040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50d740f15bdeaccaba3983f6944e040">&#9670;&#160;</a></span>Channel_Shared_Chat_Session_Begin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.EventSub.TwitchEventSubSubscriptions.Channel_Shared_Chat_Session_Begin = &quot;channel.shared_chat.begin&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A notification when a channel becomes active in an active shared chat session. Link</p>
+
+</div>
+</div>
+<a id="a26d2d0cf21faf979eda158e397d50f9a" name="a26d2d0cf21faf979eda158e397d50f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d2d0cf21faf979eda158e397d50f9a">&#9670;&#160;</a></span>Channel_Shared_Chat_Session_End</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.EventSub.TwitchEventSubSubscriptions.Channel_Shared_Chat_Session_End = &quot;channel.shared_chat.end&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A notification when a channel leaves a shared chat session or the session ends. Link</p>
+
+</div>
+</div>
+<a id="a52eb010d27e6adb3305d327a4f3b4c67" name="a52eb010d27e6adb3305d327a4f3b4c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52eb010d27e6adb3305d327a4f3b4c67">&#9670;&#160;</a></span>Channel_Shared_Chat_Session_Update</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.EventSub.TwitchEventSubSubscriptions.Channel_Shared_Chat_Session_Update = &quot;channel.shared_chat.update&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A notification when the active shared chat session the channel is in changes. Link</p>
 
 </div>
 </div>

@@ -29,6 +29,6 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "BuilderWorking", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a14b17c402d2995ada751a4ac78239191", null ],
     [ "InstanceIsAlive", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a48ec67fa9431ea8b9a985ee461d9deea", null ],
     [ "ProcessAllIntoAtlas", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a8ea9fa3830129195dc864d8639060ce2", null ],
-    [ "OnAtlasRebuildComplete", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#ad07b304d5625b3e9ff968f078ffb80f1", null ],
-    [ "OnAtlasRebuildStarted", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a875f085426aa98f1f85b819af7f9ae81", null ]
+    [ "OnAtlasRebuildComplete", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#a79884a1dd0b4b29241cd4e044bb341cc", null ],
+    [ "OnAtlasRebuildStarted", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html#abd50a17d349f3e7c5aea0a790a325d63", null ]
 ];

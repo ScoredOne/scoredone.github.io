@@ -16,7 +16,7 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "GetGlobalBadges", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a051f0280f6cf69e4aff07ea7a52aa45a", null ],
     [ "GetInstance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a26987c940d842a83aa6200268a459b3b", null ],
     [ "OnApplicationQuit", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a4feadee82ec17235b1d966ff17130250", null ],
-    [ "OnAtlasBuildStarted", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#aa5cda73b19461bd15fae56374cd6a50e", null ],
+    [ "OnAtlasBuildStarted", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#a4e925279d19d0ed00a458be72a671da7", null ],
     [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#af9e91801a61fd93b1c826ca053046b13", null ],
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#afcbfb8630d837d782a4ac5dff994c599", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html#aa880b3c234463238430f76a2b4494559", null ],

@@ -161,7 +161,9 @@ var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c
       [ "whisper_restricted", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a1d94c1b4be92684c72a4f52efaac15c7a74a01d74e40cf66aadbe61addc6a70fb", null ],
       [ "whisper_restricted_recipient", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a1d94c1b4be92684c72a4f52efaac15c7a7de839048484ced0e2e995cbe82fcff9", null ]
     ] ],
-    [ "NOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#abc6ffe94a5d405a0d370e2765d5fed56", null ],
+    [ "NOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a7faf024cc5ee4990a27f9167782c0fbe", null ],
+    [ "ExtractBadges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a13b8f49641b866bf21e12b26af2cd1c3", null ],
+    [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a72483be0902dad8b2e785dac74739fdc", null ],
     [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a4253d0926a8c5fca5be52201ab1126b4", null ],
     [ "noticeOutcome", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#a8a1f6884b0064a2127e5b3708fd0207b", null ],
     [ "targetUserId", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html#ae5707470824e3dfc1d235c38deadf08f", null ]

@@ -9,6 +9,7 @@ var interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel =
     [ "Mod", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod" ],
     [ "Raid", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_raid.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_raid" ],
     [ "Slow", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_slow.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_slow" ],
+    [ "SourceBadges", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_source_badges.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_source_badges" ],
     [ "Timeout", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_timeout.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_timeout" ],
     [ "Unban", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unban.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unban" ],
     [ "UnbanRequest", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unban_request.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unban_request" ],

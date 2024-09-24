@@ -22,5 +22,6 @@ var _i_channel_8cs =
     [ "ScoredProductions.StreamLinked.EventSub.IChannel.Delete", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_delete.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_delete" ],
     [ "ScoredProductions.StreamLinked.EventSub.IChannel.AutomodTerms", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_terms.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_terms" ],
     [ "ScoredProductions.StreamLinked.EventSub.IChannel.UnbanRequest", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unban_request.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_unban_request" ],
-    [ "ScoredProductions.StreamLinked.EventSub.IChannel.Warn", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_warn.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_warn" ]
+    [ "ScoredProductions.StreamLinked.EventSub.IChannel.Warn", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_warn.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_warn" ],
+    [ "ScoredProductions.StreamLinked.EventSub.IChannel.SourceBadges", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_source_badges.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_source_badges" ]
 ];

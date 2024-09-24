@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e =
 [
     [ "Message_Params", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params" ],
+    [ "SourceData", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_source_data.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_source_data" ],
     [ "MsgID", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367acc", [
       [ "sub", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367acca8a68dc3e925eacf92633be230722a140", null ],
       [ "resub", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367acca9d97b912469b048cdbc68c614452d69b", null ],
@@ -12,9 +13,12 @@ var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n
       [ "raid", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367acca7f57eed2a8e5a2a3c7d70f2efd09bd37", null ],
       [ "unraid", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367accaaec4575980c875fbfc049565c52344c5", null ],
       [ "ritual", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367accace9060fbe1c563dd84a898d8b6a37bfb", null ],
-      [ "bitsbadgetier", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367accadd3dbb7c9b49fa460329b3c84d2e67f1", null ]
+      [ "bitsbadgetier", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367accadd3dbb7c9b49fa460329b3c84d2e67f1", null ],
+      [ "sharedchatnotice", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#aa827969370e3697b910760dc3d367accabc3dbb075fb2697c578036520fe3e204", null ]
     ] ],
-    [ "USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a3495534f1944b35a11ec38106fe0b14c", null ],
+    [ "USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a012a5632b80685b52ac52dbd5939456f", null ],
+    [ "ExtractBadges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a13b8f49641b866bf21e12b26af2cd1c3", null ],
+    [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a72483be0902dad8b2e785dac74739fdc", null ],
     [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a4253d0926a8c5fca5be52201ab1126b4", null ],
     [ "badges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#ae59955d031c12b08d1ae08fac9d132fe", null ],
     [ "colour", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#ae51e1bfd74008b60caa60081428d9e46", null ],
@@ -27,6 +31,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n
     [ "msg_param", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a2b3ac38e1099b7dae959be003f1cd645", null ],
     [ "permissions", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a967b961c1f713ce68d0e04272420af5d", null ],
     [ "roomId", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a5df18fd0dedff54f0f411477c07c3fb1", null ],
+    [ "sourceData", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#ad42df172334afaaa8a5b4862b027cece", null ],
     [ "system_msg", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#a654194b8d6f94c81681456593e615ee2", null ],
     [ "timestampDate", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#ae60706034c779311b22aac5159cbb864", null ],
     [ "turbo", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#ab1a8be1c6cee53147aff7f8b19c33f55", null ],

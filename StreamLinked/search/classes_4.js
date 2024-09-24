@@ -1,7 +1,7 @@
 var searchData=
 [
   ['emote_0',['Emote',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_emote.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Message::Fragments']]],
-  ['emoteextensions_1',['EmoteExtensions',['../class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_emote_extensions.html',1,'ScoredProductions::StreamLinked::ManagersAndBuilders']]],
+  ['emoteextensions_1',['EmoteExtensions',['../class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_emote_extensions.html',1,'ScoredProductions::StreamLinked::ManagersAndBuilders::Containers']]],
   ['emoteposition_2',['EmotePosition',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html',1,'ScoredProductions::StreamLinked::IRC::Tags']]],
   ['emotes_3',['Emotes',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a.html',1,'ScoredProductions.StreamLinked.EventSub.Events.ChannelPointsAutomaticRewardRedemption.Message.Emotes'],['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_emotes.html',1,'ScoredProductions.StreamLinked.EventSub.Events.Objects.Emotes']]],
   ['endgueststarsession_4',['EndGuestStarSession',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_end_guest_star_session.html',1,'ScoredProductions::StreamLinked::API::Guest_Star']]],

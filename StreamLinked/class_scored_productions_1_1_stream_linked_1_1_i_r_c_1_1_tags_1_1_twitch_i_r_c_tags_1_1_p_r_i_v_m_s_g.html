@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.2</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -168,6 +168,18 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a669f3397e9ad1a6d0d105de6ad1feff5" id="r_a669f3397e9ad1a6d0d105de6ad1feff5"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a669f3397e9ad1a6d0d105de6ad1feff5">room_id</a> = &quot;room-id&quot;</td></tr>
 <tr class="memdesc:a669f3397e9ad1a6d0d105de6ad1feff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID that identifies the chat room (channel).  <br /></td></tr>
 <tr class="separator:a669f3397e9ad1a6d0d105de6ad1feff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8310ee0c8545c3bb340f84e38e25a59e" id="r_a8310ee0c8545c3bb340f84e38e25a59e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8310ee0c8545c3bb340f84e38e25a59e">source_badges</a> = &quot;source-badges&quot;</td></tr>
+<tr class="memdesc:a8310ee0c8545c3bb340f84e38e25a59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comma-seperated list of chat badges for the chatter in the room the message was sent from. This uses the same format as the badges tag.  <br /></td></tr>
+<tr class="separator:a8310ee0c8545c3bb340f84e38e25a59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7b9b5307ba16a89f91615a9f9176d3" id="r_a9e7b9b5307ba16a89f91615a9f9176d3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7b9b5307ba16a89f91615a9f9176d3">source_badge_info</a> = &quot;source-badge-info&quot;</td></tr>
+<tr class="memdesc:a9e7b9b5307ba16a89f91615a9f9176d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains metadata related to the chat badges in the source-badges tag.  <br /></td></tr>
+<tr class="separator:a9e7b9b5307ba16a89f91615a9f9176d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09c3383589b7e3f5ace18c14e34b0c7" id="r_ab09c3383589b7e3f5ace18c14e34b0c7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab09c3383589b7e3f5ace18c14e34b0c7">source_id</a> = &quot;source-id&quot;</td></tr>
+<tr class="memdesc:ab09c3383589b7e3f5ace18c14e34b0c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A UUID that identifies the source message from the channel the message was sent from.  <br /></td></tr>
+<tr class="separator:ab09c3383589b7e3f5ace18c14e34b0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae19f17d2c89967a8761ccfb2c9d8bd37" id="r_ae19f17d2c89967a8761ccfb2c9d8bd37"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae19f17d2c89967a8761ccfb2c9d8bd37">source_room_id</a> = &quot;source-room-id&quot;</td></tr>
+<tr class="memdesc:ae19f17d2c89967a8761ccfb2c9d8bd37"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID that identifies the chat room (channel) the message was sent from.  <br /></td></tr>
+<tr class="separator:ae19f17d2c89967a8761ccfb2c9d8bd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74aa09a399820a1ec76b089a2c91c2d9" id="r_a74aa09a399820a1ec76b089a2c91c2d9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74aa09a399820a1ec76b089a2c91c2d9">subscriber</a> = &quot;subscriber&quot;</td></tr>
 <tr class="memdesc:a74aa09a399820a1ec76b089a2c91c2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the user is a subscriber. Is true (1) if the user is a subscriber; otherwise, false (0).  <br /></td></tr>
 <tr class="separator:a74aa09a399820a1ec76b089a2c91c2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -694,6 +706,102 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>An ID that identifies the chat room (channel). </p>
+
+</div>
+</div>
+<a id="a9e7b9b5307ba16a89f91615a9f9176d3" name="a9e7b9b5307ba16a89f91615a9f9176d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7b9b5307ba16a89f91615a9f9176d3">&#9670;&#160;</a></span>source_badge_info</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.PRIVMSG.source_badge_info = &quot;source-badge-info&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains metadata related to the chat badges in the source-badges tag. </p>
+
+</div>
+</div>
+<a id="a8310ee0c8545c3bb340f84e38e25a59e" name="a8310ee0c8545c3bb340f84e38e25a59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8310ee0c8545c3bb340f84e38e25a59e">&#9670;&#160;</a></span>source_badges</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.PRIVMSG.source_badges = &quot;source-badges&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comma-seperated list of chat badges for the chatter in the room the message was sent from. This uses the same format as the badges tag. </p>
+
+</div>
+</div>
+<a id="ab09c3383589b7e3f5ace18c14e34b0c7" name="ab09c3383589b7e3f5ace18c14e34b0c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab09c3383589b7e3f5ace18c14e34b0c7">&#9670;&#160;</a></span>source_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.PRIVMSG.source_id = &quot;source-id&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A UUID that identifies the source message from the channel the message was sent from. </p>
+
+</div>
+</div>
+<a id="ae19f17d2c89967a8761ccfb2c9d8bd37" name="ae19f17d2c89967a8761ccfb2c9d8bd37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae19f17d2c89967a8761ccfb2c9d8bd37">&#9670;&#160;</a></span>source_room_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.PRIVMSG.source_room_id = &quot;source-room-id&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>An ID that identifies the chat room (channel) the message was sent from. </p>
 
 </div>
 </div>

@@ -7,6 +7,7 @@ var dir_94d03c77b3fe139912158050fba468d6 =
     [ "GetEmoteSets.cs", "_get_emote_sets_8cs.html", "_get_emote_sets_8cs" ],
     [ "GetGlobalChatBadges.cs", "_get_global_chat_badges_8cs.html", "_get_global_chat_badges_8cs" ],
     [ "GetGlobalEmotes.cs", "_get_global_emotes_8cs.html", "_get_global_emotes_8cs" ],
+    [ "GetSharedChatSession.cs", "_get_shared_chat_session_8cs.html", "_get_shared_chat_session_8cs" ],
     [ "GetUserChatColor.cs", "_get_user_chat_color_8cs.html", "_get_user_chat_color_8cs" ],
     [ "GetUserEmotes.cs", "_get_user_emotes_8cs.html", "_get_user_emotes_8cs" ],
     [ "IChat.cs", "_i_chat_8cs.html", "_i_chat_8cs" ],
