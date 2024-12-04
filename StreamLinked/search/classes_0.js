@@ -11,9 +11,12 @@ var searchData=
   ['assigngueststarslot_8',['AssignGuestStarSlot',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_assign_guest_star_slot.html',1,'ScoredProductions::StreamLinked::API::Guest_Star']]],
   ['audiosettings_9',['AudioSettings',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_audio_settings.html',1,'ScoredProductions::StreamLinked::API::Guest_Star::IGuest_Star']]],
   ['authorizationcodegrantflow_10',['AuthorizationCodeGrantFlow',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html',1,'ScoredProductions::StreamLinked::API::AuthContainers']]],
-  ['automodmessagehold_11',['AutomodMessageHold',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_hold.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['automodmessageupdate_12',['AutomodMessageUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_update.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['automodsettingsupdate_13',['AutomodSettingsUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['automodterms_14',['AutomodTerms',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_terms.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
-  ['automodtermsupdate_15',['AutomodTermsUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_terms_update.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]]
+  ['automod_11',['Automod',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
+  ['automodmessagehold_12',['AutomodMessageHold',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_hold.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['automodmessageholdv2_13',['AutomodMessageHoldV2',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_hold_v2.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['automodmessageupdate_14',['AutomodMessageUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_update.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['automodmessageupdatev2_15',['AutomodMessageUpdateV2',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_message_update_v2.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['automodsettingsupdate_16',['AutomodSettingsUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['automodterms_17',['AutomodTerms',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_terms.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
+  ['automodtermsupdate_18',['AutomodTermsUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_terms_update.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]]
 ];

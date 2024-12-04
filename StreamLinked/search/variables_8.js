@@ -16,8 +16,5 @@ var searchData=
   ['host_5fvideo_5fenabled_13',['HOST_VIDEO_ENABLED',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a0242819c2c78f484681ec8524b759657',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['host_5fvolume_14',['HOST_VOLUME',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a661cc20eebcee192611a6c4de492d40f',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['hosttarget_15',['HOSTTARGET',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a0becb05d71f263eafad4c8ffd56ae9fa',1,'ScoredProductions::StreamLinked::TwitchWords']]],
-  ['httplistenercancellationtoken_16',['HttpListenerCancellationToken',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ac33facf0f96f068a5289460c63bc009c',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]],
-  ['hype_5ftrain_5fbegin_17',['Hype_Train_Begin',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a2b6b14ee70bd35cfd3e475d79b17fb9e',1,'ScoredProductions::StreamLinked::EventSub::TwitchEventSubSubscriptions']]],
-  ['hype_5ftrain_5fend_18',['Hype_Train_End',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a429b093ccbbf4cfc273235bd9ff6afd9',1,'ScoredProductions::StreamLinked::EventSub::TwitchEventSubSubscriptions']]],
-  ['hype_5ftrain_5fprogress_19',['Hype_Train_Progress',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a960e6ac6449d447659c2d54bbf83d4c8',1,'ScoredProductions::StreamLinked::EventSub::TwitchEventSubSubscriptions']]]
+  ['httplistenercancellationtoken_16',['HttpListenerCancellationToken',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ac33facf0f96f068a5289460c63bc009c',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]]
 ];

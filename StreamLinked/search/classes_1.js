@@ -6,5 +6,8 @@ var searchData=
   ['banuser_3',['BanUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html',1,'ScoredProductions::StreamLinked::API::Moderation']]],
   ['bitsbadgetier_4',['BitsBadgeTier',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_bits_badge_tier.html',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelChatNotification']]],
   ['bitsvoting_5',['BitsVoting',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_bits_voting.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
-  ['blockuser_6',['BlockUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user.html',1,'ScoredProductions::StreamLinked::API::Users']]]
+  ['blockedterm_6',['BlockedTerm',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
+  ['blockuser_7',['BlockUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user.html',1,'ScoredProductions::StreamLinked::API::Users']]],
+  ['boundaries_8',['Boundaries',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_1_1_boundaries.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Automod']]],
+  ['boundary_9',['Boundary',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term_1_1_terms_found_1_1_boundary.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel::BlockedTerm::TermsFound']]]
 ];

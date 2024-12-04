@@ -75,8 +75,5 @@ var searchData=
   ['getvideos_2ecs_72',['GetVideos.cs',['../_get_videos_8cs.html',1,'']]],
   ['getvips_2ecs_73',['GetVIPs.cs',['../_get_v_i_ps_8cs.html',1,'']]],
   ['globalcooldown_2ecs_74',['GlobalCooldown.cs',['../_global_cooldown_8cs.html',1,'']]],
-  ['globaluserstate_2ecs_75',['GLOBALUSERSTATE.cs',['../_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html',1,'']]],
-  ['goalsbegin_2ecs_76',['GoalsBegin.cs',['../_goals_begin_8cs.html',1,'']]],
-  ['goalsend_2ecs_77',['GoalsEnd.cs',['../_goals_end_8cs.html',1,'']]],
-  ['goalsprogress_2ecs_78',['GoalsProgress.cs',['../_goals_progress_8cs.html',1,'']]]
+  ['globaluserstate_2ecs_75',['GLOBALUSERSTATE.cs',['../_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html',1,'']]]
 ];

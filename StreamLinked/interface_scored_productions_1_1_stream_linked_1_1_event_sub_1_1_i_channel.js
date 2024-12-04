@@ -1,8 +1,10 @@
 var interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel =
 [
+    [ "Automod", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod" ],
     [ "AutomodTerms", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_terms.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_terms" ],
     [ "Badges", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_badges.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_badges" ],
     [ "Ban", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_ban.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_ban" ],
+    [ "BlockedTerm", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term" ],
     [ "Delete", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_delete.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_delete" ],
     [ "Followers", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_followers.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_followers" ],
     [ "Message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message" ],

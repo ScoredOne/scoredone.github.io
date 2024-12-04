@@ -13,8 +13,10 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_
     [ "data", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a62fe0c6fc224f9cbfe699f16f0401d8b", null ],
     [ "date_range", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a8623fc3b19a4c1cefb2b78603e22f36d", null ],
     [ "max_total_cost", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a16cb3e66b7885d32789a0677a01b1bd9", null ],
+    [ "message", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a1683898698744cd49995299305ed0670", null ],
     [ "pagination", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a651bf04c0092fe9921c9cf3403204251", null ],
     [ "points", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a9a07aafd142962086e429235ed17b2e4", null ],
+    [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#aebd636e124e7f8b8ffa870be6018428f", null ],
     [ "template", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a4a96984a326b35429d59d2f3db338971", null ],
     [ "total", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#ac663f28494674b9d18cbb891d7366b8a", null ],
     [ "total_cost", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a03fafba530030baad87864f6b9582fe8", null ]

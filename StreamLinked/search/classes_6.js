@@ -80,9 +80,6 @@ var searchData=
   ['global_5fcooldown_5fsetting_77',['Global_Cooldown_Setting',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html',1,'ScoredProductions::StreamLinked::API::Channel_Points::IChannel_Points']]],
   ['globalcooldown_78',['GlobalCooldown',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_global_cooldown.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
   ['globaluserstate_79',['GLOBALUSERSTATE',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e.html',1,'ScoredProductions.StreamLinked.IRC.Tags.GLOBALUSERSTATE'],['../class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e.html',1,'ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.GLOBALUSERSTATE']]],
-  ['goalsbegin_80',['GoalsBegin',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_begin.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['goalsend_81',['GoalsEnd',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_end.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['goalsprogress_82',['GoalsProgress',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_goals_progress.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['graphiccontrolextension_83',['GraphicControlExtension',['../struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_graphic_control_extension.html',1,'ScoredProductions::StreamLinked::UniGif::UniGif']]],
-  ['guest_84',['Guest',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_guest.html',1,'ScoredProductions::StreamLinked::API::Guest_Star::IGuest_Star']]]
+  ['graphiccontrolextension_80',['GraphicControlExtension',['../struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_graphic_control_extension.html',1,'ScoredProductions::StreamLinked::UniGif::UniGif']]],
+  ['guest_81',['Guest',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_guest.html',1,'ScoredProductions::StreamLinked::API::Guest_Star::IGuest_Star']]]
 ];

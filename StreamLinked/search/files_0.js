@@ -8,7 +8,9 @@ var searchData=
   ['authorizationcodegrantflow_2ecs_5',['AuthorizationCodeGrantFlow.cs',['../_authorization_code_grant_flow_8cs.html',1,'']]],
   ['authrequesttype_2ecs_6',['AuthRequestType.cs',['../_auth_request_type_8cs.html',1,'']]],
   ['automodmessagehold_2ecs_7',['AutomodMessageHold.cs',['../_automod_message_hold_8cs.html',1,'']]],
-  ['automodmessageupdate_2ecs_8',['AutomodMessageUpdate.cs',['../_automod_message_update_8cs.html',1,'']]],
-  ['automodsettingsupdate_2ecs_9',['AutomodSettingsUpdate.cs',['../_automod_settings_update_8cs.html',1,'']]],
-  ['automodtermsupdate_2ecs_10',['AutomodTermsUpdate.cs',['../_automod_terms_update_8cs.html',1,'']]]
+  ['automodmessageholdv2_2ecs_8',['AutomodMessageHoldV2.cs',['../_automod_message_hold_v2_8cs.html',1,'']]],
+  ['automodmessageupdate_2ecs_9',['AutomodMessageUpdate.cs',['../_automod_message_update_8cs.html',1,'']]],
+  ['automodmessageupdatev2_2ecs_10',['AutomodMessageUpdateV2.cs',['../_automod_message_update_v2_8cs.html',1,'']]],
+  ['automodsettingsupdate_2ecs_11',['AutomodSettingsUpdate.cs',['../_automod_settings_update_8cs.html',1,'']]],
+  ['automodtermsupdate_2ecs_12',['AutomodTermsUpdate.cs',['../_automod_terms_update_8cs.html',1,'']]]
 ];
