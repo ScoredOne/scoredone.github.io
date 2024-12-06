@@ -1,96 +1,43 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>
-		Scored'Productions
-		</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	</head>
-	<style>
-		.grid-container {
-		  display: grid;
-		  grid-template-columns: auto auto auto;
-		  padding: 25px;
-		}
-	</style>
-	<body>
+<html lang="en">
 
-	<!-- !PAGE CONTENT! -->
-	<div class="w3-content" style="max-width:1500px">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scored'Productions Website</title>
+    <base href="/" />
+    <base href="~/StreamLinked/docs" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="_content/Blazor.Bootstrap/blazor.bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="ScoredProductions Website.styles.css" rel="stylesheet" />
+</head>
 
-		<!-- Header -->
-		<header class="w3-panel w3-center w3-opacity">
-			<h1><b>Scored'Productions</b></h1>
-			<h2 class="w3-xlarge">Programmer, Streamer and Creator</h2>
-		  
-			<div class="w3-padding-32">
-				<p>Quick links</p>
-				<div class="w3-bar w3-border">
-					<a href="https://github.com/ScoredOne?tab=repositories" class="w3-bar-item w3-button w3-padding w3-border">Repository</a>
-					<a href="StreamLinked/docs" class="w3-bar-item w3-button w3-padding w3-border">StreamLinked</a>
-					<a href="https://assetstore.unity.com/publishers/35238" class="w3-bar-item w3-button w3-padding w3-border"> Unity Page </a>
-					<a href="https://www.x.com/ScoredOne" class="w3-bar-item w3-button w3-padding w3-border"> X / twitter </a>
-					<a href="https://www.twitch.tv/scoredone" class="w3-bar-item w3-button w3-padding w3-border">   Twitch  </a>
-					<a href="https://www.discord.gg/tU9xmZZhSr" class="w3-bar-item w3-button w3-padding w3-border">  Discord  </a>
-					<a href="https://www.tiktok.com/@scoredone" class="w3-bar-item w3-button w3-padding w3-border">  Tiktok  </a>
-					<a href="https://scoredone.itch.io/" class="w3-bar-item w3-button w3-padding w3-border">  Old Page </a>
-				</div>
-			</div>
-		</header>
-	
-		<!-- Grid -->
-		<div class="grid-container w3-grayscale">
-			<div class="grid-item">
-				<div class="w3-container">
-					<h4>Unity Asset Store</h4>
-					<div class="w3-white">
-						<p>I own a publisher page on the <b><a href="https://assetstore.unity.com/publishers/35238">Unity Asset Store<a/></b>. 
-						Here you can find my creations that I have uploaded since its inception in 2018.</p>
-					</div>
-					<img src="Resources/StorePage.png" style="width:100%">
-				</div>
-			</div>
-			
-			<div class="grid-item">
-				<div class="w3-container">
-					<h4>Content Creation</h4>
-					<div class="w3-white">
-						<p>I create video content online.</p>
-						<p>Currently I livestream on Twitch.tv at my channel @<b><a href="https://www.twitch.tv/scoredone">ScoredOne<a/></b></p>
-						<p>
-							After livestreaming I take clips of my streams and post them to other platforms. These platforms include my 
-							<b><a href="https://www.youtube.com/channel/UCCtWeaCSuCkBpgqd9UN6Mlg">YouTube<a/></b>, 
-							<b><a href="https://twitter.com/ScoredOne">X(Twitter)<a/></b> and my 
-							<b><a href="https://www.tiktok.com/@scoredone">Tiktok<a/></b>.
-						</p>
-						<p>For updates on this and my community, you can find me in my <b><a href="https://discord.gg/tU9xmZZhSr">Discord<a/></b>.</p>
-					</div>
-					<img src="Resources/TwitchPage.png" style="width:100%">
-				</div>
-			</div>
-			
-		</div>
-	  
-		<div>
-			<div class="w3-container">
-				<h4>Contact Info</h4>
-				<div class="w3-white">
-					<p>Do you need to get in touch with me in regards to tech support, business or streaming related activies?</p>
-					<p><b>Business Email: <a href="mailto:scoredproductionsonline@gmail.com">scoredproductionsonline@gmail.com<a/></b></p>
-				</div>
-			</div>
-		</div>
-			
-	<!-- End Page Content -->
-	</div>
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
 
-	<!-- Footer -->
-	<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
-		<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-	</footer>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Add chart.js reference if chart components are used in your application. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.js" integrity="sha512-gQhCDsnnnUfaRzD8k1L5llCCV6O9HN09zClIzzeJ8OJ9MpGmIlCxm+pdCkqTwqJ4JcjbojFr79rl2F1mzcoLMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Add chartjs-plugin-datalabels.min.js reference if chart components with data label feature is used in your application. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Add sortable.js reference if SortableList component is used in your application. -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="_content/Blazor.Bootstrap/blazor.bootstrap.js"></script>
+</body>
 
-	</body>
 </html>
-
