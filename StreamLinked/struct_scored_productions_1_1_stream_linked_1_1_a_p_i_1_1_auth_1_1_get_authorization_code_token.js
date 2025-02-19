@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a840a1a09d9fb029371401d687531e31c", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a661b6633a5f5691d153cf62dbc0824b7", null ],
     [ "access_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#aee2bb961a3f703e2c48fa3bc8c235659", null ],

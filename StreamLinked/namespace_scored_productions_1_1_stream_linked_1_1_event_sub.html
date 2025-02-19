@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>StreamLinked: ScoredProductions.StreamLinked.EventSub Namespace Reference</title>
-<link rel="icon" href="Logo v2 small.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.4</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.5.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -158,97 +157,100 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6acf69bf78f4c0ea2b4f450bfda7832e64">Automod_Settings_Update</a> = 2
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ae5949d8d1f9835d19a7d054980962069">Automod_Terms_Update</a> = 3
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a939cb379e8b7df81c3cf49a7c3cc660b">Channel_Bits_Use</a> = 80
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a4a21720c42e8d5f384c63315cc53af73">Channel_Update</a> = 4
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6ab83283069db05261c9b574a46cc7d4f1">Channel_Follow</a> = 5
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6aa2b625521ee38fc4c7a7d4cd47901828">Channel_Ad_Break_Begin</a> = 6
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ab83283069db05261c9b574a46cc7d4f1">Channel_Follow</a> = 5
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6aa2b625521ee38fc4c7a7d4cd47901828">Channel_Ad_Break_Begin</a> = 6
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a45bd34dbd65d9d8eba8c5fee7495baff">Channel_Chat_Clear</a> = 7
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a20d398f88f03318041545a0ca1bcb4b1">Channel_Chat_Clear_User_Messages</a> = 8
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6aa0fd30e065f32b41afa62167bd229d75">Channel_Chat_Message</a> = 9
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ac26b84a911a493ba08bdd5d72af9157c">Channel_Chat_Message_Delete</a> = 10
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6aa0fd30e065f32b41afa62167bd229d75">Channel_Chat_Message</a> = 9
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac26b84a911a493ba08bdd5d72af9157c">Channel_Chat_Message_Delete</a> = 10
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a866b1611a0bf4b40956705f20253658d">Channel_Chat_Notification</a> = 11
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6aaa332e73cfb8ad10804e7d032b423974">Channel_Chat_Settings_Update</a> = 12
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a4285dcf5f699d3274ae32669a73f2cc3">Channel_Chat_User_Message_Hold</a> = 13
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6aca39540b62fd40877f6a59ac8499544d">Channel_Chat_User_Message_Update</a> = 14
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a4285dcf5f699d3274ae32669a73f2cc3">Channel_Chat_User_Message_Hold</a> = 13
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6aca39540b62fd40877f6a59ac8499544d">Channel_Chat_User_Message_Update</a> = 14
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a0481714a55478692a2c00e06165ee6b3">Channel_Shared_Chat_Session_Begin</a> = 75
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a53e0cf54d6adbc982238ad59ba53694b">Channel_Shared_Chat_Session_Update</a> = 76
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a9c551230cf04abb8a4a26c66e5ad51a5">Channel_Shared_Chat_Session_End</a> = 77
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6af65d948a91ba5343631a84f58745990b">Channel_Subscribe</a> = 15
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a9c551230cf04abb8a4a26c66e5ad51a5">Channel_Shared_Chat_Session_End</a> = 77
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6af65d948a91ba5343631a84f58745990b">Channel_Subscribe</a> = 15
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a75677a7b0a740a3bc5ec4b425453e339">Channel_Subscription_End</a> = 16
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a6d1f4a79d0099f6772ba74e62f45af86">Channel_Subscription_Gift</a> = 17
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a5f975588d375d1893e2d8648c8a93e2e">Channel_Subscription_Message</a> = 18
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a04f3a0dbcc81155348d5e8ead5065872">Channel_Cheer</a> = 19
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a5f975588d375d1893e2d8648c8a93e2e">Channel_Subscription_Message</a> = 18
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a04f3a0dbcc81155348d5e8ead5065872">Channel_Cheer</a> = 19
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a85ff14c8fed9a20e66f782061b8c9db6">Channel_Raid</a> = 20
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6af98fc651802f9a5b5144bbbe8fb41a8c">Channel_Ban</a> = 21
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a8f6cde7b380672158b5dddb53bf4ace2">Channel_Unban</a> = 22
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a7872345746bed4afd0a469472f31869d">Channel_Unban_Request_Create</a> = 23
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a8f6cde7b380672158b5dddb53bf4ace2">Channel_Unban</a> = 22
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a7872345746bed4afd0a469472f31869d">Channel_Unban_Request_Create</a> = 23
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ac3c0df0721f41b417e0a272b323831f7">Channel_Unban_Request_Resolve</a> = 24
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a108192d4c6eccd878dfcfca8764bb002">Channel_Moderate</a> = 25
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6adac11481c1e7f6a69a7a0b67e550e9af">Channel_Moderate_V2</a> = 26
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a4172461946a7739c93eb8159b554b8a7">Channel_Moderator_Add</a> = 27
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6adac11481c1e7f6a69a7a0b67e550e9af">Channel_Moderate_V2</a> = 26
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a4172461946a7739c93eb8159b554b8a7">Channel_Moderator_Add</a> = 27
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6af5ac8d7c757c7279f1d41c8ef0d6ce63">Channel_Moderator_Remove</a> = 28
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6afc2ffaf224303deb431ba53e881318d4">Channel_Guest_Star_Session_Begin</a> = 29
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a2cf3e6fdccf96b5128ed0fba69a30297">Channel_Guest_Star_Session_End</a> = 30
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6aa22aa08f73305298ca7450f2011795d0">Channel_Guest_Star_Guest_Update</a> = 31
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a2cf3e6fdccf96b5128ed0fba69a30297">Channel_Guest_Star_Session_End</a> = 30
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6aa22aa08f73305298ca7450f2011795d0">Channel_Guest_Star_Guest_Update</a> = 31
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6aafb3a9a282b72e0ea975ad53f1732c1c">Channel_Guest_Star_Settings_Update</a> = 32
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a691ebc554eddedf504fc7144ceecccb8">Channel_Points_Automatic_Reward_Redemption</a> = 33
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6adc68b8394f36ecfcf67ce3aa60d1b061">Channel_Points_Automatic_Reward_Redemption_V2</a> = 81
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a08f289047ca254ae1f1b5b7345db3c28">Channel_Points_Custom_Reward_Add</a> = 34
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a8308211bbdbd6bf7f71b5f8bc3404dd5">Channel_Points_Custom_Reward_Update</a> = 35
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a8308211bbdbd6bf7f71b5f8bc3404dd5">Channel_Points_Custom_Reward_Update</a> = 35
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ae16485f9e5ef8c69bb6e50300f4bbdd8">Channel_Points_Custom_Reward_Remove</a> = 36
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a8438c90bee3ebff9ba9c3252a7905b12">Channel_Points_Custom_Reward_Redemption_Add</a> = 37
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a8438c90bee3ebff9ba9c3252a7905b12">Channel_Points_Custom_Reward_Redemption_Add</a> = 37
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6aefc24a4ae4be56b172f7f6301d6204dc">Channel_Points_Custom_Reward_Redemption_Update</a> = 38
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a4d80fa91f5bf1b6e9a187e2210323581">Channel_Poll_Begin</a> = 39
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a4d80fa91f5bf1b6e9a187e2210323581">Channel_Poll_Begin</a> = 39
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a5dd198d40b4dbe04ce843ca841dc3d2b">Channel_Poll_Progress</a> = 40
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a38fc5e89b48954e40f47f6d30a93f984">Channel_Poll_End</a> = 41
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a38fc5e89b48954e40f47f6d30a93f984">Channel_Poll_End</a> = 41
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a1d0c9217078a654a69a1a680285e1e6d">Channel_Prediction_Begin</a> = 42
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a04159b43dc85196011e460b6c55244dc">Channel_Prediction_Progress</a> = 43
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a04159b43dc85196011e460b6c55244dc">Channel_Prediction_Progress</a> = 43
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ab32beccf5c1b7b56e29b5cd1b8edbeba">Channel_Prediction_Lock</a> = 44
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a2f760053dd41c1c815ee311101b08585">Channel_Prediction_End</a> = 45
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a2f760053dd41c1c815ee311101b08585">Channel_Prediction_End</a> = 45
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a9c89cef1e714ad48bfe333e41eb66059">Channel_Suspicious_User_Message</a> = 46
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a998f61d67c099e0a03aa86e93092b0c1">Channel_Suspicious_User_Update</a> = 47
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a998f61d67c099e0a03aa86e93092b0c1">Channel_Suspicious_User_Update</a> = 47
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a467625a9e6791246d2d9c7ed2e2860ba">Channel_VIP_Add</a> = 48
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a8e35a86d4f53b36eb9be44db26709332">Channel_VIP_Remove</a> = 49
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a8e35a86d4f53b36eb9be44db26709332">Channel_VIP_Remove</a> = 49
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ab35bf564a07c6f7122d58e625d835cc9">Channel_Warning_Acknowledge</a> = 50
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a5a2d5455612b53d5a2413b102f9d6177">Channel_Warning_Send</a> = 51
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a5a2d5455612b53d5a2413b102f9d6177">Channel_Warning_Send</a> = 51
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a0dbd3eecc95a1658bc8cdb2727d09bb3">Channel_Charity_Donation</a> = 52
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a7260a9c6e1f3f0551f794312e1616df1">Channel_Charity_Campaign_Start</a> = 53
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a7260a9c6e1f3f0551f794312e1616df1">Channel_Charity_Campaign_Start</a> = 53
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a11456dce7ff64fba605fd295a2fba161">Channel_Charity_Campaign_Progress</a> = 54
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ab13d7591eb59c9cba9b11286740a1ef5">Channel_Charity_Campaign_Stop</a> = 55
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6ab13d7591eb59c9cba9b11286740a1ef5">Channel_Charity_Campaign_Stop</a> = 55
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a0bb86e8e08b262f606521dd0c5f8cbb8">Conduit_Shard_Disabled</a> = 56
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a59c8c042d63b31778a053fbf0909c4fb">Drop_Entitlement_Grant</a> = 57
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a59c8c042d63b31778a053fbf0909c4fb">Drop_Entitlement_Grant</a> = 57
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6acb5627acd9b1283532adb5bd0c432ae8">Extension_Bits_Transaction_Create</a> = 58
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a01aaf1b74404b8b869b54eaa876057fb">Channel_Goal_Begin</a> = 59
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a01aaf1b74404b8b869b54eaa876057fb">Channel_Goal_Begin</a> = 59
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6aad1b160d160b28eca057988845cc9575">Channel_Goal_Progress</a> = 60
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a6b28cea9478d3a53bbdb30f1768ec96e">Channel_Goal_End</a> = 61
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a6b28cea9478d3a53bbdb30f1768ec96e">Channel_Goal_End</a> = 61
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ae0cd8cefa513a5090309954fc58ff89e">Channel_Hype_Train_Begin</a> = 62
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6afbaeeae8b799fc62792bdd5b17bbb6e9">Channel_Hype_Train_Progress</a> = 63
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6afbaeeae8b799fc62792bdd5b17bbb6e9">Channel_Hype_Train_Progress</a> = 63
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ac815a971e3f4353ea754d99a5edebdde">Channel_Hype_Train_End</a> = 64
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a82355952baa00a0a0ed958ffb4cb3ad7">Channel_Shield_Mode_Begin</a> = 65
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a82355952baa00a0a0ed958ffb4cb3ad7">Channel_Shield_Mode_Begin</a> = 65
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a37cad20849078201b927010e93417279">Channel_Shield_Mode_End</a> = 66
-, <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a61360ba2a1c624501b3264bd3e2a406e">Channel_Shoutout_Create</a> = 67
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a61360ba2a1c624501b3264bd3e2a406e">Channel_Shoutout_Create</a> = 67
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ab1ed3ab56333339e897e784744b5ab76">Channel_Shoutout_Received</a> = 68
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac6fa1700ade790d02f5f3968b6b1acbd">Stream_Online</a> = 69
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac1e181c0f4715e06c0bb3ff5729532c1">Stream_Offline</a> = 70
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a983dff44dbf395de6149f05c918d30a4">User_Authorization_Grant</a> = 71
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ac6fa1700ade790d02f5f3968b6b1acbd">Stream_Online</a> = 69
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac1e181c0f4715e06c0bb3ff5729532c1">Stream_Offline</a> = 70
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a983dff44dbf395de6149f05c918d30a4">User_Authorization_Grant</a> = 71
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ae3053b08c6e47f5646e2d4d58fff7750">User_Authorization_Revoke</a> = 72
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6afd9361b00ce85ead84c2a1719a8da404">User_Update</a> = 73
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6afd9361b00ce85ead84c2a1719a8da404">User_Update</a> = 73
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ab1c68d38d4a56cf5ca1df4eccf22d29c">Whisper_Received</a> = 74
 <br />
  }</td></tr>
@@ -276,6 +278,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6aba081ce369c524460c0ab0de37d0a543" name="ac95ff2080109771673bc2659918128f6aba081ce369c524460c0ab0de37d0a543"></a>Automod_Message_Update_V2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6acf69bf78f4c0ea2b4f450bfda7832e64" name="ac95ff2080109771673bc2659918128f6acf69bf78f4c0ea2b4f450bfda7832e64"></a>Automod_Settings_Update&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6ae5949d8d1f9835d19a7d054980962069" name="ac95ff2080109771673bc2659918128f6ae5949d8d1f9835d19a7d054980962069"></a>Automod_Terms_Update&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a939cb379e8b7df81c3cf49a7c3cc660b" name="ac95ff2080109771673bc2659918128f6a939cb379e8b7df81c3cf49a7c3cc660b"></a>Channel_Bits_Use&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a4a21720c42e8d5f384c63315cc53af73" name="ac95ff2080109771673bc2659918128f6a4a21720c42e8d5f384c63315cc53af73"></a>Channel_Update&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6ab83283069db05261c9b574a46cc7d4f1" name="ac95ff2080109771673bc2659918128f6ab83283069db05261c9b574a46cc7d4f1"></a>Channel_Follow&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6aa2b625521ee38fc4c7a7d4cd47901828" name="ac95ff2080109771673bc2659918128f6aa2b625521ee38fc4c7a7d4cd47901828"></a>Channel_Ad_Break_Begin&#160;</td><td class="fielddoc"></td></tr>
@@ -309,6 +312,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6aa22aa08f73305298ca7450f2011795d0" name="ac95ff2080109771673bc2659918128f6aa22aa08f73305298ca7450f2011795d0"></a>Channel_Guest_Star_Guest_Update&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6aafb3a9a282b72e0ea975ad53f1732c1c" name="ac95ff2080109771673bc2659918128f6aafb3a9a282b72e0ea975ad53f1732c1c"></a>Channel_Guest_Star_Settings_Update&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a691ebc554eddedf504fc7144ceecccb8" name="ac95ff2080109771673bc2659918128f6a691ebc554eddedf504fc7144ceecccb8"></a>Channel_Points_Automatic_Reward_Redemption&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6adc68b8394f36ecfcf67ce3aa60d1b061" name="ac95ff2080109771673bc2659918128f6adc68b8394f36ecfcf67ce3aa60d1b061"></a>Channel_Points_Automatic_Reward_Redemption_V2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a08f289047ca254ae1f1b5b7345db3c28" name="ac95ff2080109771673bc2659918128f6a08f289047ca254ae1f1b5b7345db3c28"></a>Channel_Points_Custom_Reward_Add&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a8308211bbdbd6bf7f71b5f8bc3404dd5" name="ac95ff2080109771673bc2659918128f6a8308211bbdbd6bf7f71b5f8bc3404dd5"></a>Channel_Points_Custom_Reward_Update&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6ae16485f9e5ef8c69bb6e50300f4bbdd8" name="ac95ff2080109771673bc2659918128f6ae16485f9e5ef8c69bb6e50300f4bbdd8"></a>Channel_Points_Custom_Reward_Remove&#160;</td><td class="fielddoc"></td></tr>

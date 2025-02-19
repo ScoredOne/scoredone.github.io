@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#af3a76b9bb0650ddf4ed22a5254a52f43", null ],
     [ "COUNT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a9dea59af9b0f5a8eaec38781195b0321", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a473aa3784f4cbd8cbf7aa1a3bc1fb75f", null ],

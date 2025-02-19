@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a4552e451c06fc611f607e670f9235ba9", null ],
     [ "aggression", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a056190bd072f21e5a6631ef0ffa83df6", null ],
     [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a55d0fb5022a6c98aa108337887f72a14", null ],

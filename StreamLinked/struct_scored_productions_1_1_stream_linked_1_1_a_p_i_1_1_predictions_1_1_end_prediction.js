@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_end_prediction =
 [
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_end_prediction.html#abe6389147ad12a2855658a8584869b0b", null ],
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_end_prediction.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_end_prediction.html#acf3fe663eb7c3c6b025761fee80e7193", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_end_prediction.html#ae316695d75b74df6d65fe0b957c8f568", null ],
     [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_end_prediction.html#af710ad9e7765f0f9c56697ab496e579a", null ],

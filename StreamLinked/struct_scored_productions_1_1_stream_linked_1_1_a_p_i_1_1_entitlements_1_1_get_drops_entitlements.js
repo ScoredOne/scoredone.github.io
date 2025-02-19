@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a26e7f3ca84a497c9f6a661b46183554b", null ],
     [ "benefit_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a1ad948adff251b780bec15c6264c7f29", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a1a0fc2fe6f947f2fccd291fab5d0ebd5", null ],

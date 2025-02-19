@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_secrets =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_secrets.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_secrets.html#a05e57102108701df0d7aad7ff2913132", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_secrets.html#a61396e4847a4ef3efffff3f9a9464010", null ],
     [ "EXTENSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_secrets.html#a3dfd0805ee17b6ecf620291a3103870e", null ],

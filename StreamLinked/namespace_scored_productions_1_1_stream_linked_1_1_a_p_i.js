@@ -31,6 +31,7 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i =
     [ "Users", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users.html", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users" ],
     [ "Videos", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos.html", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos" ],
     [ "Whispers", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers.html", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers" ],
+    [ "INoResponse", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_no_response.html", null ],
     [ "ITwitchAPIDataObject", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object" ],
     [ "TwitchAPIClient", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client" ],
     [ "TwitchAPIDataContainer", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container" ],

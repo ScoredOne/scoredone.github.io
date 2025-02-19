@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['emote_0',['Emote',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_emote.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Message::Fragments']]],
+  ['emote_0',['Emote',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message_1_1_fragments_1_1_emote.html',1,'ScoredProductions.StreamLinked.EventSub.IChannel.Message.Fragments.Emote'],['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_power_up_1_1_emote.html',1,'ScoredProductions.StreamLinked.EventSub.IChannel.PowerUp.Emote']]],
   ['emoteextensions_1',['EmoteExtensions',['../class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_emote_extensions.html',1,'ScoredProductions::StreamLinked::ManagersAndBuilders::Containers']]],
   ['emoteposition_2',['EmotePosition',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html',1,'ScoredProductions::StreamLinked::IRC::Tags']]],
   ['emotes_3',['Emotes',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a.html',1,'ScoredProductions.StreamLinked.EventSub.Events.ChannelPointsAutomaticRewardRedemption.Message.Emotes'],['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_emotes.html',1,'ScoredProductions.StreamLinked.EventSub.Events.Objects.Emotes']]],
@@ -11,5 +11,6 @@ var searchData=
   ['eventdata_8',['EventData',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_hype___train_1_1_i_hype___train_1_1_event_data.html',1,'ScoredProductions::StreamLinked::API::Hype_Train::IHype_Train']]],
   ['eventsubinformation_9',['EventSubInformation',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information.html',1,'ScoredProductions::StreamLinked::EventSub::ExtensionAttributes']]],
   ['eventsubinformationextensions_10',['EventSubInformationExtensions',['../class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions.html',1,'ScoredProductions::StreamLinked::EventSub::ExtensionAttributes']]],
-  ['extensionbitstransactioncreate_11',['ExtensionBitsTransactionCreate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]]
+  ['extensionbitstransactioncreate_11',['ExtensionBitsTransactionCreate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['extensions_12',['Extensions',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html',1,'ScoredProductions::StreamLinked::Utility']]]
 ];

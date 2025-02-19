@@ -9,6 +9,7 @@ var interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel =
     [ "Followers", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_followers.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_followers" ],
     [ "Message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message" ],
     [ "Mod", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_mod" ],
+    [ "PowerUp", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_power_up.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_power_up" ],
     [ "Raid", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_raid.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_raid" ],
     [ "Slow", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_slow.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_slow" ],
     [ "SourceBadges", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_source_badges.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_source_badges" ],

@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment =
 [
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a83eb9c0f0be26be53ec97e0e41256897", null ],
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a5e4561f346edd3d4a3062f7c033d0d50", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a5af105cf2deb0b6dfb259c7c0a4ad48b", null ],
     [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a5dabcde9f2c1620cc4c4c2109451c6ad", null ],

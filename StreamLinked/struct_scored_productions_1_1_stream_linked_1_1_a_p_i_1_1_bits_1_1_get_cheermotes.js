@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a7ab4ac7d6ec8cb9653b2aa0322a04184", null ],
     [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a45064a0cd87f181a6f8265a3011e63d0", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#afd3c2156c0be274ca193dbc63d28eae6", null ],

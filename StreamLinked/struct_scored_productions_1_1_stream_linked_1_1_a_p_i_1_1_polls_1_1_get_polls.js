@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a69f457be6a0a15f89d569c4fdf93d38c", null ],
     [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a2a5546f8d035ab7129556d51c49210aa", null ],
     [ "bits_per_vote", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#acf16e54d4c6bf399322f4f420e20131d", null ],

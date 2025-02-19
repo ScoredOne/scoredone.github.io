@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret.html#af06f7313a29c26a5cfb03f05ece7dd6a", null ],
     [ "DELAY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret.html#aa6e2568ec8c7b883bee26d7244a2eef6", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret.html#a3fbbc6454312d1db3bb8a3d069a85daa", null ],

@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_start_a_raid =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_start_a_raid.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_start_a_raid.html#af4fa134b820205ff8a85f4779a7aa92c", null ],
     [ "created_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_start_a_raid.html#afacbb296bd53efb9c960c92c50eff8cc", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_start_a_raid.html#a5f4ba171c621efe1becf0c69d87082e0", null ],

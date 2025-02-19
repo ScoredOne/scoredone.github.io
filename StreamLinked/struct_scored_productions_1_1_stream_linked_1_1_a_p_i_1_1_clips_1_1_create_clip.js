@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#a7bdeb4036196d6b1ca1f9d3ba78f3d9a", null ],
     [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#a767f6f0273c83bc9f4a75d27442fe570", null ],
     [ "edit_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#ae3a77449709434393c410795eecbdb54", null ],

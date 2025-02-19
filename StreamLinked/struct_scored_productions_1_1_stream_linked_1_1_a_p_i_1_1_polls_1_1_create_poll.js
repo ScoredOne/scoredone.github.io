@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_create_poll =
 [
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_create_poll.html#a1029cbde72e8aeb23b71b7682ec40eb9", null ],
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_create_poll.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_create_poll.html#a727483c23db394868ac2b23480ed00e0", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_create_poll.html#a04b2fa84d7e0a4fb674bffbba2022fd0", null ],
     [ "bits_per_vote", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_create_poll.html#a7037dc7476efbce465393539c0a4e06d", null ],

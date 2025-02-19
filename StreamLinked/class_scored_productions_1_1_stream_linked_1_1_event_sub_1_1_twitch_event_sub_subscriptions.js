@@ -6,6 +6,7 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "Automod_Terms_Update", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#add955c49031f18ff2d21df1ed710f9da", null ],
     [ "Channel_Ad_Break_Begin", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a3a64176ecc387afa016201abd61859a6", null ],
     [ "Channel_Ban", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a3cbedf129a2a9841e99fde9a8bbf6b56", null ],
+    [ "Channel_Bits_Use", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a58d27619c9e3a9e569c240273ba65bb4", null ],
     [ "Channel_Channel_Points_Automatic_Reward_Redemption", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a7e60832cb5e57c6cadb7d73c193ff134", null ],
     [ "Channel_Charity_Campaign_Progress", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#a9ddfef30cceaea7e10a2bb1ec651587e", null ],
     [ "Channel_Charity_Campaign_Start", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_subscriptions.html#af35ab26c9950a569a62e95858108981e", null ],

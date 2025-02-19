@@ -1,5 +1,6 @@
 var searchData=
 [
   ['x_0',['x',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html#a616e7bd981a04b2362a218e02d747159',1,'ScoredProductions::StreamLinked::API::Users::IUsers::Map']]],
-  ['x_1',['X',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a395027e284420171709c362fe16a8814',1,'ScoredProductions::StreamLinked::TwitchWords']]]
+  ['x_1',['X',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a395027e284420171709c362fe16a8814',1,'ScoredProductions::StreamLinked::TwitchWords']]],
+  ['xor_2',['XOr',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html#aecba6f5830feab27c8f9d32e5728840b',1,'ScoredProductions.StreamLinked.Utility.FlaggedEnum.XOr(T value)'],['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html#a8bf94c0c5e3aad5ca2eb9a88fe49e3ea',1,'ScoredProductions.StreamLinked.Utility.FlaggedEnum.XOr(params T[] values)'],['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html#ad301f70f0b42e4d6551f37fb8e213ebe',1,'ScoredProductions.StreamLinked.Utility.FlaggedEnum.XOr(IList&lt; T &gt; values)'],['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html#ae9a717b6b7ec2faf592cf5d31b55075b',1,'ScoredProductions.StreamLinked.Utility.FlaggedEnum.XOr(FlaggedEnum&lt; T &gt; value)']]]
 ];

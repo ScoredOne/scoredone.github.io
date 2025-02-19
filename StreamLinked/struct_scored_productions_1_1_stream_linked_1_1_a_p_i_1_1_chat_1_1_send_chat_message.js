@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message =
 [
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#aa780385cc2fe317b33dd91fb91547a26", null ],
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a5460d6de03d724f6940e3c653aa338e5", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a20f1af928199188cdf82912919a372fd", null ],
     [ "CONTENTTYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#ae6a9d42b09befd24ad25f51b0a9ecdcd", null ],

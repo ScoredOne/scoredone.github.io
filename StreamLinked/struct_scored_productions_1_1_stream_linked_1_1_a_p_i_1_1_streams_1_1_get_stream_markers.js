@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_stream_markers =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_stream_markers.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_stream_markers.html#a1e7966eba0f6a48279afca81b2793444", null ],
     [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_stream_markers.html#ace2b7f8d0c74332e34ab0daeee4b0ab0", null ],
     [ "BEFORE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_stream_markers.html#ae9c223f68a3bf0e136dac0cbccab12a4", null ],

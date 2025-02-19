@@ -24,7 +24,7 @@
 */
 var menudata={children:[
 {text:"Home",url:"https://scoredone.github.io/"},
-{text:"Asset Store Page" , url:"https://assetstore.unity.com/packages/slug/273978"},
+{text:"Asset Store Page",url:"https://assetstore.unity.com/packages/slug/273978"},
 {text:"Main Page",url:"docs.html"},
 {text:"Packages",url:"namespaces.html",children:[
 {text:"Package List",url:"namespaces.html"},
@@ -66,7 +66,8 @@ var menudata={children:[
 {text:"y",url:"functions_y.html#index_y"},
 {text:"z",url:"functions_z.html#index_z"}]},
 {text:"Functions",url:"functions_func.html",children:[
-{text:"a",url:"functions_func.html#index_a"},
+{text:"_",url:"functions_func.html#index__5F"},
+{text:"a",url:"functions_func_a.html#index_a"},
 {text:"b",url:"functions_func_b.html#index_b"},
 {text:"c",url:"functions_func_c.html#index_c"},
 {text:"d",url:"functions_func_d.html#index_d"},
@@ -87,7 +88,8 @@ var menudata={children:[
 {text:"t",url:"functions_func_t.html#index_t"},
 {text:"u",url:"functions_func_u.html#index_u"},
 {text:"v",url:"functions_func_v.html#index_v"},
-{text:"w",url:"functions_func_w.html#index_w"}]},
+{text:"w",url:"functions_func_w.html#index_w"},
+{text:"x",url:"functions_func_x.html#index_x"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"_",url:"functions_vars.html#index__5F"},
 {text:"a",url:"functions_vars_a.html#index_a"},
@@ -147,4 +149,7 @@ var menudata={children:[
 {text:"z",url:"functions_prop_z.html#index_z"}]},
 {text:"Events",url:"functions_evnt.html"}]}]},
 {text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}
+{text:"File List",url:"files.html"},
+{text:"File Members",url:"globals.html",children:[
+{text:"All",url:"globals.html"},
+{text:"Enumerations",url:"globals_enum.html"}]}]}]}
