@@ -1,0 +1,8 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati21c80f05513b2dcd114f360207f30680 =
+[
+    [ "UnlockedEmote", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatie5082a38c26ccda50b77b032cfd0ee2b.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatie5082a38c26ccda50b77b032cfd0ee2b" ],
+    [ "Reward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati21c80f05513b2dcd114f360207f30680.html#a388aead9cdbf77b2fceec9d96a314766", null ],
+    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati21c80f05513b2dcd114f360207f30680.html#a2a65b8164765224ecb53c0e13f4143f7", null ],
+    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati21c80f05513b2dcd114f360207f30680.html#a81e77a18a73687f8d5bedab68159ebb8", null ],
+    [ "unlocked_emote", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati21c80f05513b2dcd114f360207f30680.html#aa9dd4f5efa771736bfad50a6cc6bac3e", null ]
+];

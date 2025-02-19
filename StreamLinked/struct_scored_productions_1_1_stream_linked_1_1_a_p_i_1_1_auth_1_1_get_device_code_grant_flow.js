@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow.html#a8e77a0656d48835db6d36d7b454d4eb9", null ],
     [ "CLIENT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow.html#a643a44aad4c269bde5ed94ff79360405", null ],
     [ "device_code", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow.html#a64bc17dcf7e8259b16a295cd3fea804f", null ],

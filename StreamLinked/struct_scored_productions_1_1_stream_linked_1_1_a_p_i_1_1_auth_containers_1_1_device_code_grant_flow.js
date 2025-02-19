@@ -6,7 +6,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_
     [ "DeviceCodeGrantFlow", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a142233cb829f85dc0c386097cc3843c6", null ],
     [ "DeviceCodeGrantFlow", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a2a821812bcef0ce7b2096f6e54714e3d", null ],
     [ "Out", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a60f22de641bcd8920990b94fdac1f3e4", null ],
-    [ "_oAuthAquireDate", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a8a7b92bed93b2b2e660b3f68132c190c", null ],
+    [ "_oAuthAquireDate", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a8b44e38b22200bee06b3c6780e0c3fdf", null ],
     [ "FLOWNAME", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a393ac2c3a0434974354ab5e236fb3848", null ],
     [ "Access_Token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a8c3ae27bc7e2136b0615563e2239acee", null ],
     [ "Expires_In", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#af7ec9a3aa8070b619cda5b30efee0ccd", null ],

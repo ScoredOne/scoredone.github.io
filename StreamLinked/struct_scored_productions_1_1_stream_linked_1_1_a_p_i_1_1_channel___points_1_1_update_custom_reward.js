@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward =
 [
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#ad8fee51475b2f4faf10d8d646b1c8d26", null ],
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#ab06c671bc70a186e60e41c411a5f2614", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#a758330d8c3afc6c91af58b751794b48f", null ],
     [ "background_color", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#ac74380fe1b8f24ce471ab92613d2d1f8", null ],

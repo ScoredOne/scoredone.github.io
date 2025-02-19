@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html#a9fc498355c981784e90144a6c4dfad31", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html#a3ef35074a84e791ed7e994882e3ad926", null ],
     [ "format", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html#a16cc3e48b74ed65d2fb27ceb63632a6b", null ],

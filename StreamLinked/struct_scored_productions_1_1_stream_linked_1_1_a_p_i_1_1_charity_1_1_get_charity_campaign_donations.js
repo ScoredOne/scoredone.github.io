@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign_donations =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign_donations.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign_donations.html#a60faca11e9e63a537f49839884533afb", null ],
     [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign_donations.html#ab56f665ec21d62d26b6457a65b824308", null ],
     [ "amount", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign_donations.html#a1b9ce34ff5eadc974a1b5cc354c7e5c6", null ],

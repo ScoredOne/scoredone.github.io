@@ -256,6 +256,7 @@ var annotated_dup =
             [ "IWhispers", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_i_whispers.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_i_whispers" ],
             [ "SendWhisper", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper" ]
           ] ],
+          [ "INoResponse", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_no_response.html", null ],
           [ "ITwitchAPIDataObject", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object" ],
           [ "TwitchAPIClient", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client" ],
           [ "TwitchAPIDataContainer", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container" ],
@@ -289,6 +290,7 @@ var annotated_dup =
             [ "AutomodTermsUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_terms_update.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_terms_update" ],
             [ "ChannelAdBreakBegin", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin" ],
             [ "ChannelBan", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban" ],
+            [ "ChannelBitsUse", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_bits_use.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_bits_use" ],
             [ "ChannelCharityCampaignProgress", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress" ],
             [ "ChannelCharityCampaignStart", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_start.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_start" ],
             [ "ChannelCharityCampaignStop", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_stop.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_stop" ],
@@ -318,6 +320,7 @@ var annotated_dup =
             [ "ChannelModeratorAdd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add" ],
             [ "ChannelModeratorRemove", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove" ],
             [ "ChannelPointsAutomaticRewardRedemption", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption" ],
+            [ "ChannelPointsAutomaticRewardRedemptionV2", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2" ],
             [ "ChannelPointsCustomRewardAdd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add" ],
             [ "ChannelPointsCustomRewardRedemptionAdd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add" ],
             [ "ChannelPointsCustomRewardRedemptionUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_update" ],
@@ -454,9 +457,10 @@ var annotated_dup =
         ] ],
         [ "Utility", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html", [
           [ "DebugManager", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager" ],
+          [ "Extensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions" ],
+          [ "FlaggedEnum", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum" ],
           [ "InternalSettingsStore", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store" ],
-          [ "SingletonInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance" ],
-          [ "StringExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_extensions" ]
+          [ "SingletonInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance" ]
         ] ],
         [ "ImageHeaderHelpers", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers.html", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers" ],
         [ "TwitchMessageDisplayerPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab" ],

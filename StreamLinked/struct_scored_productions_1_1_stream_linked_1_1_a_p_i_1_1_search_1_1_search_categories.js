@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#afeb9029bc1da8686148e8ed844e20921", null ],
     [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#af6deecd8d9e22f37e41137c2c6f720f3", null ],
     [ "box_art_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a4c3317ca0e6aa6c8b632f7fe2e3c3aef", null ],

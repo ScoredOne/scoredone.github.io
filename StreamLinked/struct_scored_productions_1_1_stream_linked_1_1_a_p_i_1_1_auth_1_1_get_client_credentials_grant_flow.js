@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow =
 [
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a4f65a8aad6ee668798334c2dd4a23c9e", null ],
     [ "access_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a9d9c39120a81312ab0203347d93e8617", null ],
     [ "CLIENT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a3470c517a85be6857e142b5fcdb8a2df", null ],

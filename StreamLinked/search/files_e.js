@@ -1,24 +1,9 @@
 var searchData=
 [
-  ['searchcategories_2ecs_0',['SearchCategories.cs',['../_search_categories_8cs.html',1,'']]],
-  ['searchchannels_2ecs_1',['SearchChannels.cs',['../_search_channels_8cs.html',1,'']]],
-  ['sendashoutout_2ecs_2',['SendAShoutout.cs',['../_send_a_shoutout_8cs.html',1,'']]],
-  ['sendchatannouncement_2ecs_3',['SendChatAnnouncement.cs',['../_send_chat_announcement_8cs.html',1,'']]],
-  ['sendchatmessage_2ecs_4',['SendChatMessage.cs',['../_send_chat_message_8cs.html',1,'']]],
-  ['sendextensionchatmessage_2ecs_5',['SendExtensionChatMessage.cs',['../_send_extension_chat_message_8cs.html',1,'']]],
-  ['sendextensionpubsubmessage_2ecs_6',['SendExtensionPubSubMessage.cs',['../_send_extension_pub_sub_message_8cs.html',1,'']]],
-  ['sendgueststarinvite_2ecs_7',['SendGuestStarInvite.cs',['../_send_guest_star_invite_8cs.html',1,'']]],
-  ['sendwhisper_2ecs_8',['SendWhisper.cs',['../_send_whisper_8cs.html',1,'']]],
-  ['session_2ecs_9',['Session.cs',['../_session_8cs.html',1,'']]],
-  ['setextensionconfigurationsegment_2ecs_10',['SetExtensionConfigurationSegment.cs',['../_set_extension_configuration_segment_8cs.html',1,'']]],
-  ['setextensionrequiredconfiguration_2ecs_11',['SetExtensionRequiredConfiguration.cs',['../_set_extension_required_configuration_8cs.html',1,'']]],
-  ['singletoninstance_2ecs_12',['SingletonInstance.cs',['../_singleton_instance_8cs.html',1,'']]],
-  ['snoozenextad_2ecs_13',['SnoozeNextAd.cs',['../_snooze_next_ad_8cs.html',1,'']]],
-  ['socketresponce_2ecs_14',['SocketResponce.cs',['../_socket_responce_8cs.html',1,'']]],
-  ['startaraid_2ecs_15',['StartARaid.cs',['../_start_a_raid_8cs.html',1,'']]],
-  ['startcommercial_2ecs_16',['StartCommercial.cs',['../_start_commercial_8cs.html',1,'']]],
-  ['streamoffline_2ecs_17',['StreamOffline.cs',['../_stream_offline_8cs.html',1,'']]],
-  ['streamonline_2ecs_18',['StreamOnline.cs',['../_stream_online_8cs.html',1,'']]],
-  ['stringextensions_2ecs_19',['StringExtensions.cs',['../_string_extensions_8cs.html',1,'']]],
-  ['subscription_2ecs_20',['Subscription.cs',['../_subscription_8cs.html',1,'']]]
+  ['removeblockedterm_2ecs_0',['RemoveBlockedTerm.cs',['../_remove_blocked_term_8cs.html',1,'']]],
+  ['removechannelmoderator_2ecs_1',['RemoveChannelModerator.cs',['../_remove_channel_moderator_8cs.html',1,'']]],
+  ['removechannelvip_2ecs_2',['RemoveChannelVIP.cs',['../_remove_channel_v_i_p_8cs.html',1,'']]],
+  ['resolveunbanrequests_2ecs_3',['ResolveUnbanRequests.cs',['../_resolve_unban_requests_8cs.html',1,'']]],
+  ['reward_2ecs_4',['Reward.cs',['../_reward_8cs.html',1,'']]],
+  ['roomstate_2ecs_5',['ROOMSTATE.cs',['../_r_o_o_m_s_t_a_t_e_8cs.html',1,'']]]
 ];

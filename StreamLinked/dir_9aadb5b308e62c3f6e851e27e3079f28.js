@@ -30,5 +30,6 @@ var dir_9aadb5b308e62c3f6e851e27e3079f28 =
     [ "Users", "dir_1e150dec42e8d78b11b2812370d73fab.html", "dir_1e150dec42e8d78b11b2812370d73fab" ],
     [ "Videos", "dir_047a41554682b2cb75e289cb2ad20ed9.html", "dir_047a41554682b2cb75e289cb2ad20ed9" ],
     [ "Whispers", "dir_45324c10a418cfcc96078843305d4bee.html", "dir_45324c10a418cfcc96078843305d4bee" ],
+    [ "INoResponse.cs", "_i_no_response_8cs.html", "_i_no_response_8cs" ],
     [ "ITwitchAPIDataObject.cs", "_i_twitch_a_p_i_data_object_8cs.html", "_i_twitch_a_p_i_data_object_8cs" ]
 ];

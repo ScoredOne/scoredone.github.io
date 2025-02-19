@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements =
 [
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a189482cbde94429b16bb55a975a418f2", null ],
+    [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#aa803c4c0921fcc53de3ce3b4fb18ab70", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a0eed1a7e984d04f2fca2295f48838dcf", null ],
     [ "CONTENTTYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#ac293e743358992c4646c1ae51fbd2c28", null ],
