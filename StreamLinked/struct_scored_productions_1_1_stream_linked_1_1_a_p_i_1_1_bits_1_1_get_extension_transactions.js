@@ -15,6 +15,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_exten
     [ "product_data", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#a7f103649100f91fdafe0e28751ab7cd3", null ],
     [ "product_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#aa1cf8d528b465a17586a1de51b3174c1", null ],
     [ "timestamp", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#aad5ede504f3d70f3a077c56e84ca9b19", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#a40ab67ea4b81789cbadf6ccd1257cafe", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#af1d02f7cd87255545f8b42e1d957fbe5", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#ae92c24b3d5cdd2ef1f174987fc98d486", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_extension_transactions.html#a7a9b631f270ef11286ed6c315c8d10f4", null ]

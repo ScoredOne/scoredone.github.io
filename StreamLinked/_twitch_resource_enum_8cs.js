@@ -1,0 +1,35 @@
+var _twitch_resource_enum_8cs =
+[
+    [ "TwitchResourceEnum", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75", [
+      [ "Ads", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a1aa2e2ff6972016c11c692bfb5c43909", null ],
+      [ "Analytics", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75aa768caa988605a2846599cf7e2d0c26a", null ],
+      [ "Auth", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a632c9594449737188c71ee1c8534f893", null ],
+      [ "Bits", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75af10034efe0880222e7495496264ee1be", null ],
+      [ "CCLs", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75ab690af6bc981cc1915a935d575b7a745", null ],
+      [ "Channel_Points", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a2b90f8a77931b8bf745f0f28cce3e44d", null ],
+      [ "Channels", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a14cb425d8170ed04f3d8016d5a0ccf20", null ],
+      [ "Charity", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75ade0dc1d39b0c11111a6133b76a562a3c", null ],
+      [ "Chat", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a55dcdf017b51fc96f7b5f9d63013b95d", null ],
+      [ "Clips", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75ae913cbc12d24106eeaac040c19a4f7c1", null ],
+      [ "Conduits", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75aa950248ec6d5bad7aacf7a0b5519fcfb", null ],
+      [ "Entitlements", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75aacae51df737812f53583cc9f4b684dd5", null ],
+      [ "EventSub", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a3f2ad437f4b130255110ab28d822f2f1", null ],
+      [ "Extensions", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a5e2f5f3c24ae8c6ab3eca618826b0e23", null ],
+      [ "Games", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a251bd8143891238ecedc306508e29017", null ],
+      [ "Goals", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75ad93302eabf22ebf309dffabfe626a2d5", null ],
+      [ "Guest_Star", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a7fdb8d566dea1b76c0bf05c76ed13063", null ],
+      [ "Hype_Train", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75af4117eb841a2fd878f19f97c3ee96569", null ],
+      [ "Moderation", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a4f4528c10546108f0df9db006600350e", null ],
+      [ "Polls", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a79d6f84dece4bb8ae0de03b43d3f5bc6", null ],
+      [ "Predictions", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75aa54a7ef2564ed935fb8e20b0e7cea2a7", null ],
+      [ "Raids", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a650d0052540bb7fa10d8ec5e7c7d8542", null ],
+      [ "Schedule", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a25f7347236b51a5eae4ba01a7862cb55", null ],
+      [ "Search", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a13348442cc6a27032d2b4aa28b75a5d3", null ],
+      [ "Streams", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a21b3cb64e5310225472b9fa9ad3e1ee3", null ],
+      [ "Subscriptions", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a4ca2c509994c2776d0880357b4e8e5be", null ],
+      [ "Teams", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a1fe1b6cf4f52930c301b03e5a69c42c2", null ],
+      [ "Users", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75af9aae5fda8d810a29f12d1e61b4ab25f", null ],
+      [ "Videos", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a554cfab3938e21d9270bd6b75931f96f", null ],
+      [ "Whispers", "_twitch_resource_enum_8cs.html#a06a05f07c09a6bc7779a3e80b96c3d75a24293fa39253bd5f151001819ede0ed6", null ]
+    ] ]
+];

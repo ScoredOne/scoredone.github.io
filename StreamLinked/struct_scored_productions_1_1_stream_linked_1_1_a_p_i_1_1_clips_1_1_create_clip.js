@@ -7,5 +7,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_c
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#af2bfb726e6d391ac865a91395ed7635c", null ],
     [ "HAS_DELAY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#a726defa35bae2eb3314862dab96e3547", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#a48c92e718ad077a0a02d68fe7fa31fd8", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#ae8d6cfd3484e10a9f17cf0d0e5ebf0ca", null ]
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#ae8d6cfd3484e10a9f17cf0d0e5ebf0ca", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html#ae899ee47d7ea6d22e2ea9000aca53271", null ]
 ];

@@ -12,5 +12,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_creat
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#ad157b048bbb3207338bc4b575c6a4e44", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a05905c3d91379a5c8f674ddadc54f8ff", null ],
     [ "segments", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a53f666c67dac054550c5d7a152728fa7", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a4fc20a9eac8cd2c7c5128f20edaa9cad", null ],
     [ "vacation", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a843028ec434dcc7799c65b40ce105b38", null ]
 ];

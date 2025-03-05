@@ -10,5 +10,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_sch
     [ "next_ad_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_schedule.html#acb3440bacc19d6b01792f392b76b9be2", null ],
     [ "preroll_free_time", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_schedule.html#a8ed05186dd3d6f97200aa71edd7fb07f", null ],
     [ "snooze_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_schedule.html#a088c825073782a0f48190004ec22f9b3", null ],
-    [ "snooze_refresh_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_schedule.html#a16088f495a05e17eae993e7a5f7321ee", null ]
+    [ "snooze_refresh_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_schedule.html#a16088f495a05e17eae993e7a5f7321ee", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_get_ad_schedule.html#a8783d81cd8ddc0cef7457636bc4fca6c", null ]
 ];

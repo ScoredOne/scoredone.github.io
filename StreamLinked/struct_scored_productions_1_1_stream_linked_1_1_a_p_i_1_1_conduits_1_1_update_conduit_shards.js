@@ -9,5 +9,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_updat
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html#ac5db27c28c4576df4d4333ab317e50bf", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html#aa32d10f94eec67c9ea12587a81f50df9", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html#a8c1e5cc5574d63323c644d77f9537cc0", null ],
-    [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html#ac8ffb1ed98ce4045e748bdd13bfcab87", null ]
+    [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html#ac8ffb1ed98ce4045e748bdd13bfcab87", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_update_conduit_shards.html#a46968075c19d8fe7f335b9e16478fa9e", null ]
 ];

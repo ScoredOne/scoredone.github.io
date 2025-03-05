@@ -9,5 +9,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_d
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html#a03c3ce98e99d17f626778465abad5673", null ],
     [ "SESSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html#a23a72465f7912b3daee39560e59f877e", null ],
     [ "SHOULD_REINVITE_GUEST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html#ab4ca32f01dc7959953c21ea00c25f7dc", null ],
-    [ "SLOT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html#aa3865c3b90c0a6545f1d4ab9d107d845", null ]
+    [ "SLOT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html#aa3865c3b90c0a6545f1d4ab9d107d845", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html#a42dcc435c9ec6980d71c1aec62018d81", null ]
 ];

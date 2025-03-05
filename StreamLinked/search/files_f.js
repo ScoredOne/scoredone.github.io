@@ -19,5 +19,8 @@ var searchData=
   ['startcommercial_2ecs_16',['StartCommercial.cs',['../_start_commercial_8cs.html',1,'']]],
   ['streamoffline_2ecs_17',['StreamOffline.cs',['../_stream_offline_8cs.html',1,'']]],
   ['streamonline_2ecs_18',['StreamOnline.cs',['../_stream_online_8cs.html',1,'']]],
-  ['subscription_2ecs_19',['Subscription.cs',['../_subscription_8cs.html',1,'']]]
+  ['stringpair_2ecs_19',['StringPair.cs',['../_string_pair_8cs.html',1,'']]],
+  ['stringpaireditor_2ecs_20',['StringPairEditor.cs',['../_string_pair_editor_8cs.html',1,'']]],
+  ['stringpairunit_2ecs_21',['StringPairUnit.cs',['../_string_pair_unit_8cs.html',1,'']]],
+  ['subscription_2ecs_22',['Subscription.cs',['../_subscription_8cs.html',1,'']]]
 ];

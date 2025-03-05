@@ -5,5 +5,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_globa
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html#a9faa6de42436339a29912aef95ab92a3", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html#ae6f5d574b0933d6f5e59672f050b4b8b", null ],
     [ "set_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html#a064add5013d515751eda22fdf7452516", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html#a7e093a090447c17da3b7c24a5206563e", null ],
     [ "versions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_chat_badges.html#ac34e1c9a986b2b3e6cd70e92d4932a2b", null ]
 ];

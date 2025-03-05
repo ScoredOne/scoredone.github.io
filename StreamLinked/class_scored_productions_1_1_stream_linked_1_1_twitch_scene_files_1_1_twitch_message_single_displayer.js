@@ -9,7 +9,6 @@ var class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch
     [ "_messageDelay", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#aad3d236fae6f3e5bd7439cd123d03018", null ],
     [ "atlasProducer", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#aac4d37a7c34c4432b6eb3d73a8e427e7", null ],
     [ "atlasRequests", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a40def02df4adf9fd2a1b9e3cff85b59c", null ],
-    [ "currentMessage", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a13622c0571368eb01ce35b6fb8acf2e6", null ],
     [ "ircClient", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a75c8918c1f6d456585cd9704dc98fe2f", null ],
     [ "messageQueue", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a7e5715a59b47322af1a67ddd5bbfd0be", null ],
     [ "messageUpdater", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#aa094c345b042e440e05b927554ef2e92", null ],

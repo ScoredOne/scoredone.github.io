@@ -9,5 +9,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_moderated_channels.html#adad0a3d1a6af5b97f41b13d162e8faae", null ],
     [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_moderated_channels.html#a105977fc366737c67f879689eb0c3db7", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_moderated_channels.html#a24b6c00d3f442e50bd2d8710fadc06cd", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_moderated_channels.html#a4d2437f7c45f4dac3efe63b726b87a9e", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_moderated_channels.html#a850798ead6841de34bd54cf9813aed0e", null ]
 ];

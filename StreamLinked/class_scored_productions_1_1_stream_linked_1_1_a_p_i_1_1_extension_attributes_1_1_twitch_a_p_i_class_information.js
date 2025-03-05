@@ -1,0 +1,6 @@
+var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information =
+[
+    [ "TwitchAPIClassInformation", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information.html#aeab90ae56cb054d8b9921371cbaea5b7", null ],
+    [ "LinkedClass", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information.html#a5a3b8198cfbdc81daea457b05e524be8", null ],
+    [ "ResourceType", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information.html#a8e9f89ce0418e176c9642833c90aa81a", null ]
+];

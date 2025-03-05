@@ -12,5 +12,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_upd
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a83f6483623c73ac087e2126fef746de6", null ],
     [ "in_development", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a4d9a0e406cf67ac9ad6bed6bb5433eb1", null ],
     [ "is_broadcast", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a86da2c7120ec99845f1210cfe97d4220", null ],
-    [ "sku", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a857a16b65248deac2df926803f5c214e", null ]
+    [ "sku", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a857a16b65248deac2df926803f5c214e", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html#a37d2c5589c649bdb041409086fd38a8d", null ]
 ];

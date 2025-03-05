@@ -15,5 +15,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_c
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html#aadbc91456e43e4077391231b80364ab9", null ],
     [ "is_branded_content", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html#af4fba6e537fd28ac3d182856de2b85b6", null ],
     [ "tags", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html#a3320fc346c9fe8af2e1bdc9284b455d1", null ],
-    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html#ac23b18d347d02f8ddecc489bf556072c", null ]
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html#ac23b18d347d02f8ddecc489bf556072c", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_channel_information.html#a85ce7e042472a190b4db55e9420a9982", null ]
 ];

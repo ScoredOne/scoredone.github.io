@@ -19,5 +19,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_ch
     [ "slow_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html#af633ab926d345b7e849bb20b59d7010f", null ],
     [ "slow_mode_wait_time", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html#a9dddd1fec915e55b41862e2d1acfe9df", null ],
     [ "subscriber_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html#a11e4de5a90b6ad893d33baf7c70620f9", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html#a2b2e44e87b470b6c5af4261793e1368b", null ],
     [ "unique_chat_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_update_chat_settings.html#a60504c9d9fe4b62e882f270dbdab07e7", null ]
 ];

@@ -14,5 +14,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_crea
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_create_event_sub_subscription.html#a7f32a3ae448db10a5183f31f2a4d2e81", null ],
     [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_create_event_sub_subscription.html#a72d86ccc618e8c6ed92a1f9456722a3a", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_create_event_sub_subscription.html#af55479d10817667466c1e58e3cc6f493", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_create_event_sub_subscription.html#a5da370eb810467115dba946fb7ec80cd", null ],
     [ "version", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_create_event_sub_subscription.html#a4a91b37bdbc9df859f534eb64e2e2cbf", null ]
 ];

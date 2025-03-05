@@ -34,7 +34,9 @@ var searchData=
   ['startcommercial_31',['StartCommercial',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_start_commercial.html',1,'ScoredProductions::StreamLinked::API::Ads']]],
   ['streamoffline_32',['StreamOffline',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_offline.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
   ['streamonline_33',['StreamOnline',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['sub_34',['Sub',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_sub.html',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelChatNotification']]],
-  ['subgift_35',['SubGift',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_sub_gift.html',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelChatNotification']]],
-  ['subscription_36',['Subscription',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html',1,'ScoredProductions::StreamLinked::EventSub::WebSocketMessages']]]
+  ['stringpair_34',['StringPair',['../class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair.html',1,'ScoredProductions::StreamLinked::VisualScripting']]],
+  ['stringpairunit_35',['StringPairUnit',['../class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair_unit.html',1,'ScoredProductions::StreamLinked::VisualScripting']]],
+  ['sub_36',['Sub',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_sub.html',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelChatNotification']]],
+  ['subgift_37',['SubGift',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_sub_gift.html',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelChatNotification']]],
+  ['subscription_38',['Subscription',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html',1,'ScoredProductions::StreamLinked::EventSub::WebSocketMessages']]]
 ];

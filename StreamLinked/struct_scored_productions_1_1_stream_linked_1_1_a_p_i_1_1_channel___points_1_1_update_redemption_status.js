@@ -17,6 +17,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1
     [ "reward", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#ac29bc2e6ffcef9df344e48a51136e195", null ],
     [ "REWARD_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#ae65bb94fc7713e876c25292fe06c4032", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#a414a158d40cedbb08426eb954c0e7b96", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#a5f8beb68423434b6c07826fbdb35eee3", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#a9c88a2b770a7a584d35e4f4e76fbd5d2", null ],
     [ "user_input", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#ac1d11a16eb49216d146cc601ea5aabbb", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_redemption_status.html#a5486857e4ff42b3ccc157b0e21c79818", null ],

@@ -14,5 +14,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_autho
     [ "REDIRECT_URI", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a4dba439918f86b07bf51fd7a5fb94045", null ],
     [ "refresh_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#aa601a94be707fc207ba5038193698b85", null ],
     [ "scope", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#abeaac5fc1a1067a7e54d749c4c87ea47", null ],
-    [ "token_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a2ddd135ecaf4cdc21fc02b51a40fd67c", null ]
+    [ "token_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a2ddd135ecaf4cdc21fc02b51a40fd67c", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a51e15d00ad19fe068bc131a1f780c276", null ]
 ];

@@ -12,5 +12,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token
     [ "refresh_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a6d052d7b25018a2f9040d3e50a4e61af", null ],
     [ "REFRESH_TOKEN", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#ad77c70117bd1ef3fea3df60fa1a1e16e", null ],
     [ "scope", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a5d1e2175ec6eae6c2d7e8af2792ca5b0", null ],
-    [ "token_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a34d02e9b9acbc3f349d7d37a89d3b344", null ]
+    [ "token_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a34d02e9b9acbc3f349d7d37a89d3b344", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#acdcb0c59446b5b76ccceb99c8e654745", null ]
 ];

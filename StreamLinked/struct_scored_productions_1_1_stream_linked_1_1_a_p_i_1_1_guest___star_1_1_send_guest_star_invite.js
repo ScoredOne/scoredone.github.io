@@ -7,5 +7,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_s
     [ "GUEST_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_send_guest_star_invite.html#a47d95a1b7b88d7e34631e7e4c4c56ffe", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_send_guest_star_invite.html#a1287845d503e1c7aa9d95358302e6b84", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_send_guest_star_invite.html#aba783f8f3bdba2e675f32b605be57986", null ],
-    [ "SESSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_send_guest_star_invite.html#ab6e03d7854d171b628338199e0d282e3", null ]
+    [ "SESSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_send_guest_star_invite.html#ab6e03d7854d171b628338199e0d282e3", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_send_guest_star_invite.html#ae2327365315873120d836d34cf738609", null ]
 ];

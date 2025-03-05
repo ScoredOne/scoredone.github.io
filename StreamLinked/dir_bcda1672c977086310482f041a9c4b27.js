@@ -9,5 +9,6 @@ var dir_bcda1672c977086310482f041a9c4b27 =
     [ "TwitchSceneFiles", "dir_09b601e7f631c3478eb7ed2265076173.html", "dir_09b601e7f631c3478eb7ed2265076173" ],
     [ "TwitchStatics", "dir_3500bd8193d3b7ff44ad9e7cdab6d7cb.html", "dir_3500bd8193d3b7ff44ad9e7cdab6d7cb" ],
     [ "UniGif", "dir_ed753bbced2270a25a45611a12b7ebf2.html", "dir_ed753bbced2270a25a45611a12b7ebf2" ],
-    [ "Utility", "dir_2f414cdd99909efd713ee0df6dd1513b.html", "dir_2f414cdd99909efd713ee0df6dd1513b" ]
+    [ "Utility", "dir_2f414cdd99909efd713ee0df6dd1513b.html", "dir_2f414cdd99909efd713ee0df6dd1513b" ],
+    [ "VisualScripting", "dir_75e7136951e906675f050dc286fea42f.html", "dir_75e7136951e906675f050dc286fea42f" ]
 ];

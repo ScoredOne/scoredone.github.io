@@ -3,6 +3,7 @@ var NAVTREEINDEX0 =
 "_add_blocked_term_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,0],
 "_add_channel_moderator_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,1],
 "_add_channel_v_i_p_8cs.html":[2,0,0,0,0,0,0,3,0,0,18,2],
+"_advanced_dropdown_provider_8cs.html":[2,0,0,0,0,0,0,9,0,0],
 "_archive_2_managers_and_builders_2_editor_2_twitch_message_atlas_manager_editor_8cs.html":[2,0,0,0,0,0,0,0,0,0,0],
 "_assign_guest_star_slot_8cs.html":[2,0,0,0,0,0,0,3,0,0,16,0],
 "_auth_request_type_8cs.html":[2,0,0,0,0,0,0,3,1,2],
@@ -129,7 +130,7 @@ var NAVTREEINDEX0 =
 "_delete_videos_8cs.html":[2,0,0,0,0,0,0,3,0,0,28,0],
 "_device_code_grant_flow_8cs.html":[2,0,0,0,0,0,0,3,1,4],
 "_drop_entitlement_grant_8cs.html":[2,0,0,0,0,0,0,4,1,78],
-"_editor_paged_8cs.html":[2,0,0,0,0,0,0,9,0,0],
+"_editor_paged_8cs.html":[2,0,0,0,0,0,0,9,0,1],
 "_emote_position_8cs.html":[2,0,0,0,0,0,0,5,1,1],
 "_emotes_8cs.html":[2,0,0,0,0,0,0,4,1,1,2],
 "_end_guest_star_session_8cs.html":[2,0,0,0,0,0,0,3,0,0,16,4],
@@ -140,7 +141,7 @@ var NAVTREEINDEX0 =
 "_extensions_8cs.html":[2,0,0,0,0,0,0,9,2],
 "_flagged_enum_8cs.html":[2,0,0,0,0,0,0,9,3],
 "_flagged_enum_8cs.html#aa8f137f19095e0bdcf4f521e901f88bb":[2,0,0,0,0,0,0,9,3,1],
-"_flagged_enum_property_drawer_8cs.html":[2,0,0,0,0,0,0,9,0,1],
+"_flagged_enum_property_drawer_8cs.html":[2,0,0,0,0,0,0,9,0,2],
 "_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html":[2,0,0,0,0,0,0,5,1,0,2],
 "_get_ad_schedule_8cs.html":[2,0,0,0,0,0,0,3,0,0,0,0],
 "_get_authorization_code_token_8cs.html":[2,0,0,0,0,0,0,3,0,0,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "_i_polls_8cs.html":[2,0,0,0,0,0,0,3,0,0,19,3],
 "_i_prediction_8cs.html":[2,0,0,0,0,0,0,4,1,0,7],
 "_i_predictions_8cs.html":[2,0,0,0,0,0,0,3,0,0,20,3],
-"_i_raids_8cs.html":[2,0,0,0,0,0,0,3,0,0,21,1],
-"_i_schedule_8cs.html":[2,0,0,0,0,0,0,3,0,0,22,4]
+"_i_raids_8cs.html":[2,0,0,0,0,0,0,3,0,0,21,1]
 };

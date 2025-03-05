@@ -9,5 +9,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_valid
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info.html#a1d7a0ada8d1aa3105c805cb6f125b96e", null ],
     [ "login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info.html#a356e4e059e304d52b5384ba316797e7e", null ],
     [ "scope", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info.html#a7bb97f2056f36b95ccecdf61d5701eca", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info.html#a033a4d2f392d7c273fb0d520b422bd91", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info.html#ae131d9c52133ec95801258b33ed911f5", null ]
 ];

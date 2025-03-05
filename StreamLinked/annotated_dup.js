@@ -118,6 +118,10 @@ var annotated_dup =
             [ "GetEventSubSubscriptions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions" ],
             [ "IEventSub", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_i_event_sub.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_i_event_sub" ]
           ] ],
+          [ "ExtensionAttributes", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes.html", [
+            [ "TwitchAPIClassExtensions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_extensions" ],
+            [ "TwitchAPIClassInformation", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information" ]
+          ] ],
           [ "Extensions", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions.html", [
             [ "CreateExtensionSecret", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_create_extension_secret" ],
             [ "GetExtensionBitsProducts", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_bits_products.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_bits_products" ],
@@ -461,6 +465,12 @@ var annotated_dup =
           [ "FlaggedEnum", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum" ],
           [ "InternalSettingsStore", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store" ],
           [ "SingletonInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance" ]
+        ] ],
+        [ "VisualScripting", "namespace_scored_productions_1_1_stream_linked_1_1_visual_scripting.html", [
+          [ "StringPair", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair.html", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair" ],
+          [ "StringPairUnit", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair_unit.html", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair_unit" ],
+          [ "TwitchAPIRequest", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request" ],
+          [ "VisualScriptingExtensions", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_visual_scripting_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_visual_scripting_extensions" ]
         ] ],
         [ "ImageHeaderHelpers", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers.html", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers" ],
         [ "TwitchMessageDisplayerPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab" ],

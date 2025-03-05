@@ -10,5 +10,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheer
     [ "order", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a49e10b999c0dffdcdd3ac814e4ac8b03", null ],
     [ "prefix", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a52aa816c72fbcb3f9cfbfef7292a3969", null ],
     [ "tiers", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#ae3d526ab46abaad0e05c857e92b10856", null ],
-    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a7b9fe1e5a61748bf5028203674811758", null ]
+    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a7b9fe1e5a61748bf5028203674811758", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_cheermotes.html#a5b5d78ba5f64bc4e0261dd097d8a373f", null ]
 ];

@@ -26,6 +26,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get
     [ "subscriptions_support_level", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a2d58881d465b1f10d2662a4f95f0d3b6", null ],
     [ "summary", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a6428aa5f2599b516d1846ccb6ffdd5e7", null ],
     [ "support_email", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#aca8bf68f70d9ed6924a37c51d67ffc61", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a8809e6ff27a1e560074c8f1e591941e5", null ],
     [ "version", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a9c0ccf1e884ba20040537c13236682e1", null ],
     [ "viewer_summary", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a4664651782b90209285dacb9bbac6872", null ],
     [ "views", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a3894c9fd991b7143387d63c02ab15e97", null ]

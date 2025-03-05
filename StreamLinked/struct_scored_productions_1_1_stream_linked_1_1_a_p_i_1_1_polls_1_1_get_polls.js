@@ -21,5 +21,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_poll
     [ "ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a475182f2382b621725bd91ebec279425", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#ade8b157c4e8c14ee9c55616b99a7bc75", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a34a51916f16d192de986b83c5b56b46c", null ],
-    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a4abfe035eba3fa7af146b20bb1df4c7a", null ]
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#a4abfe035eba3fa7af146b20bb1df4c7a", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_polls_1_1_get_polls.html#adc4286edd39a28ab42e040b598e8ef34", null ]
 ];

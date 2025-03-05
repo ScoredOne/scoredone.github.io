@@ -16,5 +16,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "race_ethnicity_or_religion", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a90c2d36b5b38a729f711b3db2e69f338", null ],
     [ "sex_based_terms", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a4b15d52a0e0e0e9a2750edd2dfcf94b0", null ],
     [ "sexuality_sex_or_gender", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a40035a9e4c207b3f3510622a09219348", null ],
-    [ "swearing", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a7459696f866c23065359a098b31adeba", null ]
+    [ "swearing", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#a7459696f866c23065359a098b31adeba", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_auto_mod_settings.html#add5fb278d4db827dc3dfd242dc349c10", null ]
 ];

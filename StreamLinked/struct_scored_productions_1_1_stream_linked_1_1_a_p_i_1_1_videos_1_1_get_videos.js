@@ -24,6 +24,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_vid
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a1661db8f92ecefddf57bb882a83b5c69", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a5ec3f703e85096623d2e3da4bd67c925", null ],
     [ "TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#add9921c5ada83b5e37812e9b991a56eb", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a4e753d36dd3fb3d3be018d1619cd58da", null ],
     [ "url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a64c61ad372f9c22177bfaa81c2e2247e", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#a31b8ba91d90fd6daa88cb29dcddbb2c7", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_get_videos.html#abfe1e8bce2efc398a5a3be7d81ce051d", null ],

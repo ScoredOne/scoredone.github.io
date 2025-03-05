@@ -38,7 +38,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client
     [ "LoadClientID", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a12d1d50bf0e521f048fa3d65b2ec0e18", null ],
     [ "LoadClientSecret", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a64ad8c971f9d4f271b7d85b1eb18cfc4", null ],
     [ "LoadScopesFromToken", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a2f74e6c58ba585ee85595c0c9ea0223c", null ],
-    [ "LoadUserAccessAuthContainer", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ab8d1469cedaf000abc73526c693a2760", null ],
+    [ "LoadUserAccessAuthContainer", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ae0e79add3223f067cec623bc49a23baf", null ],
     [ "MakeTwitchAPIRequest", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a61e46b04f7c724cebe437208d6992376", null ],
     [ "MakeTwitchAPIRequest", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a10533af3c2f975d0287fd546413c71d6", null ],
     [ "MakeTwitchAPIRequest", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#a44ee685929a47b1ca158620c18e8283d", null ],

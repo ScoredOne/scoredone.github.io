@@ -13,5 +13,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chann
     [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html#a35bbf842edcdd133cab801b4902e13c1", null ],
     [ "scale", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html#aa2a39ae9bc8dbe1380172702eff9df17", null ],
     [ "theme_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html#adfe93050017173c0e90ad348ccdc29c1", null ],
-    [ "tier", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html#a210cce6b4f438faac77ae97096fe7b74", null ]
+    [ "tier", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html#a210cce6b4f438faac77ae97096fe7b74", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html#a716dbcd2a8380390d8989d25ad13e600", null ]
 ];

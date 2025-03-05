@@ -8,5 +8,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html#a78e4421cf0b0c1c20a1c208b4d6cb4d2", null ],
     [ "FROM_USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html#a1b82ff6495e2874f3124912d80111d0d", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html#aced3d578711614e5999376883ebb3ec7", null ],
-    [ "TO_USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html#a292839039a9b2e5c5e9d37e62b32738e", null ]
+    [ "TO_USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html#a292839039a9b2e5c5e9d37e62b32738e", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html#afc4f7cfd524f0bfa7a6ba1a64d517bb4", null ]
 ];

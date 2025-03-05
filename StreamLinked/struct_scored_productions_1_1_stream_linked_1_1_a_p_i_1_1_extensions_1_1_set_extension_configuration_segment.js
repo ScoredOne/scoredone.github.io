@@ -6,5 +6,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a9227ead3a6c833de4d973ac9d20a0d28", null ],
     [ "CONTENTTYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#aa5a6464242fb007ef3101d49f683baf0", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a4076b66dcbf8d1e83c8f9eb2eafb0372", null ],
-    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a25958220bd1fdfff1ef08928064f5dcb", null ]
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a25958220bd1fdfff1ef08928064f5dcb", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a56a4acc5268b1b9f108907e08d849a5a", null ]
 ];

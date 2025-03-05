@@ -17,6 +17,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_
     [ "is_gift", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#aeef4d0185094a0c777e0c48882b7143c", null ],
     [ "plan_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#abc4255453ed7be8b56a8348b26ce51a9", null ],
     [ "tier", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#a69dae8a6154c626e94e8879efba1e799", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#a62c5e2e0de62e57988b6e30e86cdd228", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#af948f2b022ddb3f27624de3e27eeec51", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#af89b5c70853b741ccc7c06fb4b97fb5d", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_subscriptions_1_1_get_broadcaster_subscriptions.html#abbfb81d4d00ffe2e4faaab897a98674a", null ],

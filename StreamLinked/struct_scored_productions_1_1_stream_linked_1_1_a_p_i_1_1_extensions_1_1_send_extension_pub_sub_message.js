@@ -6,5 +6,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_sen
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_pub_sub_message.html#a3ccd5cab687df3d1b3b1a515906d4111", null ],
     [ "CONTENTTYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_pub_sub_message.html#a387514fbaff10529d7b5012ea6b51f28", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_pub_sub_message.html#ab1b01622974fe5f453a238690ea44dab", null ],
-    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_pub_sub_message.html#a151ab1a24f53878654cc872325326924", null ]
+    [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_pub_sub_message.html#a151ab1a24f53878654cc872325326924", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_send_extension_pub_sub_message.html#a1856f9130d23d1d11db171b5de11aac6", null ]
 ];

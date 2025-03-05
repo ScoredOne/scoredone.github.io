@@ -13,6 +13,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_c
     [ "ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channel_stream_schedule.html#a927ddcfcc87ce1eee297ed37ed46af1d", null ],
     [ "segments", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channel_stream_schedule.html#aed7243538484460fd692ba05f1a853fc", null ],
     [ "START_TIME", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channel_stream_schedule.html#a924e1d73d26995be0a70dcfd160a8347", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channel_stream_schedule.html#a4d943668b370264269892274ce9dbc36", null ],
     [ "UTC_OFFSET", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channel_stream_schedule.html#abd36a671f1482305826a2f237a380b3d", null ],
     [ "vacation", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channel_stream_schedule.html#af9810a6189b367ad4885506781b3f88f", null ]
 ];

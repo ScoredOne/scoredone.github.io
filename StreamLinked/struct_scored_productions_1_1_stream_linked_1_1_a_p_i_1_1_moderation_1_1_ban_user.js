@@ -13,5 +13,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html#ab1d79563368c719bb595ff8106579144", null ],
     [ "moderator_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html#a16730b5a73bf94e84b409d7ac34d015a", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html#a7fbb4611aa48e42b14b2f3bc2dd3a09c", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html#ac9cd044c5d5a8ea499fb2f8642c03623", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html#aee1203133a7519deeb933ec29e641661", null ]
 ];

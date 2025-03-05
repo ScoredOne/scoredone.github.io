@@ -13,5 +13,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_g
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_guest_star_invites.html#a5a12f63d2ac236a975ded2693b44e8b2", null ],
     [ "SESSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_guest_star_invites.html#a66c318d90c02287fca9b43c47cc8e22c", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_guest_star_invites.html#a07031bebb72b227997d8645cb9d1afa9", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_guest_star_invites.html#a1d1cc13ce25d3d92bbd2851a7fe80bdc", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_get_guest_star_invites.html#a00c689a5deb086a3a6b602c856805ee2", null ]
 ];

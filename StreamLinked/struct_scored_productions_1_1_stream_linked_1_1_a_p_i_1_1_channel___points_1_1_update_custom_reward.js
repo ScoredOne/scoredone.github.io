@@ -28,5 +28,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1
     [ "prompt", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#ab1e4265aa75e5fa7d8f66d9cf1ebf72f", null ],
     [ "redemptions_redeemed_current_stream", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#add3d88dbc83eeb9dc1ddf1a0e63c7f36", null ],
     [ "should_redemptions_skip_request_queue", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#a8d29b130add9724069d82f9fce64f782", null ],
-    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#ab92a5ddcc8947a439c918d1a649239a4", null ]
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#ab92a5ddcc8947a439c918d1a649239a4", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_update_custom_reward.html#adfbd5998e47fd4b5ac7b2d4063395353", null ]
 ];

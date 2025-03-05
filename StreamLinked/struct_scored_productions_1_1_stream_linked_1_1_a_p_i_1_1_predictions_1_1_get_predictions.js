@@ -19,5 +19,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_ge
     [ "prediction_window", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a3603edbf62c81bfbf5b4eee1d5cc980b", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a0854722a91397e2839b1c9008ffe2ff6", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#aeb25dfbd1111977ff5303c39141f53f2", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#a5fe3192d1d3ae8952e2c821b043b0c94", null ],
     [ "winning_outcome_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_predictions_1_1_get_predictions.html#acd31d65d624bacad7b1cdc09f913ae73", null ]
 ];

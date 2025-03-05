@@ -26,6 +26,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clip
     [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a723688fd22dc9416446953ab6b2d2844", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#ac9837c0210eb0109cbd3d8d92f7d4303", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a55be27d9e815a7225e591f0f6074d230", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#afaae889d291fa9a6e4fb4d0f97488b2e", null ],
     [ "url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a0f1117b5aa459ff59dd6ac3c9e42e922", null ],
     [ "video_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#aa1255349cd3b07a68ae2311803a535e0", null ],
     [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a07d4e6df574f4daabec6a9388ce79a18", null ],

@@ -9,5 +9,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_c
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html#aa89819e768b9c738a083445b9dead64a", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html#aa0a9eb41bb0de71bce63eede9abd2954", null ],
     [ "STATUS", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html#abb640721e7c1a52ab3e7918cfc40d964", null ],
-    [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html#ade090e9ddf77869639f0d8cc2e66ad04", null ]
+    [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html#ade090e9ddf77869639f0d8cc2e66ad04", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_get_conduit_shards.html#a86b7aa0d591d3dfe4bcfc120e418a391", null ]
 ];

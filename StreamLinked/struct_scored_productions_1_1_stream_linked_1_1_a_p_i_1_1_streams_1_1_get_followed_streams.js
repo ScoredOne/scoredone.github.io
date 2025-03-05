@@ -16,6 +16,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_fo
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#a4cc17bab0c49feaa6ebf97cc7e8ea579", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#a93b180a9b79136640cc207aad6c2c8de", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#ac1c07e8383be7b830cfeef97803a551d", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#a11b242fef40ab7865414d421f4e31ece", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#a2fc23775035953fab46a837ad2643aab", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#a7fb9a08df7fd227b9193d58262527ee1", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#ad63d6cff66d5f0062032483b1199efd4", null ],

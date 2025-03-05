@@ -6,5 +6,6 @@ var searchData=
   ['videooverlay_3',['VideoOverlay',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_i_extensions_1_1_video_overlay.html',1,'ScoredProductions::StreamLinked::API::Extensions::IExtensions']]],
   ['videosettings_4',['VideoSettings',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_i_guest___star_1_1_video_settings.html',1,'ScoredProductions::StreamLinked::API::Guest_Star::IGuest_Star']]],
   ['views_5',['Views',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_i_extensions_1_1_views.html',1,'ScoredProductions::StreamLinked::API::Extensions::IExtensions']]],
-  ['vip_6',['Vip',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_vip.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]]
+  ['vip_6',['Vip',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_vip.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
+  ['visualscriptingextensions_7',['VisualScriptingExtensions',['../class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_visual_scripting_extensions.html',1,'ScoredProductions::StreamLinked::VisualScripting']]]
 ];

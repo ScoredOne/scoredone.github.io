@@ -20,6 +20,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_res
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#a217e78b9460cb2389193d07202f72414", null ],
     [ "STATUS", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#a938d6d7f16d5c2f4449b81afb46648fa", null ],
     [ "text", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#aa8039f7afbfee8f46d3b094297ec3870", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#aa305bd235ec2a16494f2bee90dbf9ac7", null ],
     [ "UNBAN_REQUEST_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#a69d645f79cea150597feb51895a7940d", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#adec34b1c9ea0db9fd15f89d73bad4d5d", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html#a350624571cd32abe758b8fcca0aafe93", null ],

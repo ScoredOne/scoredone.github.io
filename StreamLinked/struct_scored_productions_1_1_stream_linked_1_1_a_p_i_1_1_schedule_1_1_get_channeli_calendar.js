@@ -7,5 +7,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_c
     [ "CONTENTTYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channeli_calendar.html#a35bf03dc149183f495132c7199ed1b60", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channeli_calendar.html#afb39949f196aa46f75b9e4d36ea54fbf", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channeli_calendar.html#a61763313971d4a885358a85db827a513", null ],
-    [ "Response", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channeli_calendar.html#ada57979bedbefd8ec26d12442d9240e6", null ]
+    [ "Response", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channeli_calendar.html#ada57979bedbefd8ec26d12442d9240e6", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_get_channeli_calendar.html#a151fbd71e6a297956315f8f58a8cd7ed", null ]
 ];

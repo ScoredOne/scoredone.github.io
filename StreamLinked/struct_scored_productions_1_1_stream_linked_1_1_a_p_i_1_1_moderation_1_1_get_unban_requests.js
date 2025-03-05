@@ -21,6 +21,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#ab1a5c410f08c088091265d2683826432", null ],
     [ "STATUS", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a669e4e6368c2b67639f18b0752f26ffb", null ],
     [ "text", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a7e495fc730c3d944cad7d0dc0b112bd0", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a05d70643d37e2ebe5891f93c8927d7e7", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#afad66570b053261782ab6d09c809f96e", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a86e5f287d2ebb7efcfb8126fe620a6cb", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_unban_requests.html#a1f3959437e6ce25cf983e5fa6e1c368b", null ],

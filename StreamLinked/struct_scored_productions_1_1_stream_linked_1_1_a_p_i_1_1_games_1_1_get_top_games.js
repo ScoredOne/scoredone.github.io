@@ -10,5 +10,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_games.html#abb0f8d83fff0ad098621f34924e4d401", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_games.html#a119ac69fa82e7884c6b8d3afabcd47e8", null ],
     [ "igdb_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_games.html#afe48265ba1cd5922123932ba06f7b873", null ],
-    [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_games.html#ac86b60e6c779cfd0f96864dad5052b31", null ]
+    [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_games.html#ac86b60e6c779cfd0f96864dad5052b31", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_top_games.html#ae3c9cbc50108e45f2c8503cc07cd3671", null ]
 ];

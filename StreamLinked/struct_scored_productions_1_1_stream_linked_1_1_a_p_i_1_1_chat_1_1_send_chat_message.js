@@ -9,5 +9,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a4d3cc3ad6bfd147bf91fce16954feaad", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#af4435185d62c85984144a71e9b9d6929", null ],
     [ "is_sent", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a87ffb6ac2a1ba028960baa3431a67bf3", null ],
-    [ "message_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a13fdac2c60aa24f8975bb037b681efcc", null ]
+    [ "message_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a13fdac2c60aa24f8975bb037b681efcc", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_send_chat_message.html#a3e176692092520e048406fc2c9d7b436", null ]
 ];

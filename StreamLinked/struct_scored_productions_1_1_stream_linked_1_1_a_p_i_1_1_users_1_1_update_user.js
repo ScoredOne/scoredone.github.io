@@ -15,5 +15,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_u
     [ "offline_image_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user.html#a2f1ce9c8b68f77215274a4e7fd035574", null ],
     [ "profile_image_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user.html#a05d5d2ad7b13ce2a575493718474e129", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user.html#a214fdbb36486c55fb47bea15c9fc1eb9", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user.html#aabe1d93729770bee8e96813c6d27a890", null ],
     [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user.html#ae00ab84e4810811556fcc541f37e9104", null ]
 ];

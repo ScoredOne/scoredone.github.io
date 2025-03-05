@@ -14,5 +14,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_ch
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign.html#a5f46aa522b0136f1e30e7e3457096ba8", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign.html#aee67c61ca10852f868dad556a305e6a3", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign.html#ae843a4ad94308047fa9c57a30ae2f4e2", null ],
-    [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign.html#a9e4b6195d30a653e305aff5830de67f7", null ]
+    [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign.html#a9e4b6195d30a653e305aff5830de67f7", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_charity_1_1_get_charity_campaign.html#a2f0f71ce7fb961d6fec86560ffc2bba0", null ]
 ];

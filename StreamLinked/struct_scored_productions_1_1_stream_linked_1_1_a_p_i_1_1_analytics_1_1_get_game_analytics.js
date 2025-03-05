@@ -13,5 +13,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_
     [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a534db218be28486d3fe8a46fde3362fd", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a83666b9a48ce79ce1138be27f6fa8bec", null ],
     [ "TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#acd6266ea5c499b26d2076edd4329f9b1", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a6b906778879cd776f948946a8de2951b", null ],
     [ "url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ae96e2e1d0cd00cda229e3571e49f51c3", null ]
 ];

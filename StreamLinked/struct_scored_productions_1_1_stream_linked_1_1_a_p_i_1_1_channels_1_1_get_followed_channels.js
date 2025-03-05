@@ -11,5 +11,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_f
     [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_followed_channels.html#a3be2ecc42d356a9943314f609cc464e6", null ],
     [ "followed_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_followed_channels.html#a3d1839e3bd2d266c7bf86c73c952beec", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_followed_channels.html#a2848d2200ac0f77a7e8af188250b6b85", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_followed_channels.html#a1e415cf706ff3fdeb8f1622231f477e2", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channels_1_1_get_followed_channels.html#a84af905a6c3ff8f63c14710d699a706f", null ]
 ];

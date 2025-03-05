@@ -8,5 +8,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_u
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a585d75c4b77531cf7fcf39790964be1f", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a34c74c866069d256c4700436292f4aa6", null ],
     [ "ids", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#ae22bae2a1e9090a56dcd7582dfe817c3", null ],
-    [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a96d4d5a20a5a50d50ddc7cfcdc3599f7", null ]
+    [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a96d4d5a20a5a50d50ddc7cfcdc3599f7", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_update_drops_entitlements.html#a439fe4d5155e254746db029069b424b3", null ]
 ];

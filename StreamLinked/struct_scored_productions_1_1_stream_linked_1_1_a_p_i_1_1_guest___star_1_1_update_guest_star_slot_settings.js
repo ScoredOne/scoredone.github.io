@@ -11,5 +11,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_u
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#ab7df7f2136cfd8040e73fc07f9557909", null ],
     [ "SESSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#acaef52fa409ef214339eccada6e946d0", null ],
     [ "SLOT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#a28c52e9089bbe16803064ec9a63ce690", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#afc86eebecda77073a4ad3071657053be", null ],
     [ "VOLUME", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#a89c578c12772f964bd05f198bb3b6e76", null ]
 ];

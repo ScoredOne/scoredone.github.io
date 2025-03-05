@@ -16,5 +16,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_chan
     [ "team_display_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a1925ad9af914828b3c4449d0ba49867b", null ],
     [ "team_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#ae7dbbece0a0e057de4ef666db4c431ca", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a7ca5bd5d76f977d866a674cb282a94b0", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#ab3fd66a967ac2b9d4f19e06883e54e78", null ],
     [ "updated_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a8f13cafc23274e14db4b081128a5c222", null ]
 ];

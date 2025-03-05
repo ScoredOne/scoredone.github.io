@@ -12,5 +12,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_war
     [ "moderator_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html#a74a0343529e87917680d9d29d8ebbbbd", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html#a480cdfb11a5b5c891b210bab5ea408c2", null ],
     [ "reason", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html#a9a34e9820a720c5601d9e1a842d16703", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html#ac65ae70a2875f745c5e4352c871709a9", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html#aca22d83f1b1b4396ecaca04d2321f9c0", null ]
 ];

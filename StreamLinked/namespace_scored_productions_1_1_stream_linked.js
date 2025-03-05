@@ -8,6 +8,7 @@ var namespace_scored_productions_1_1_stream_linked =
     [ "TwitchSceneFiles", "namespace_scored_productions_1_1_stream_linked_1_1_twitch_scene_files.html", "namespace_scored_productions_1_1_stream_linked_1_1_twitch_scene_files" ],
     [ "UniGif", "namespace_scored_productions_1_1_stream_linked_1_1_uni_gif.html", "namespace_scored_productions_1_1_stream_linked_1_1_uni_gif" ],
     [ "Utility", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html", "namespace_scored_productions_1_1_stream_linked_1_1_utility" ],
+    [ "VisualScripting", "namespace_scored_productions_1_1_stream_linked_1_1_visual_scripting.html", "namespace_scored_productions_1_1_stream_linked_1_1_visual_scripting" ],
     [ "ImageHeaderHelpers", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers.html", "class_scored_productions_1_1_stream_linked_1_1_image_header_helpers" ],
     [ "TwitchMessageDisplayerPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_displayer_prefab" ],
     [ "TwitchMessageUIPrefab", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_message_u_i_prefab" ],

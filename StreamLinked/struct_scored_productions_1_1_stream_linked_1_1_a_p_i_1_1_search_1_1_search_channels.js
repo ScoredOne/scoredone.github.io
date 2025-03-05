@@ -18,5 +18,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#ad59529044a5dd99273eed76f147377ec", null ],
     [ "tags", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#ada555164d691d78727344be88cc0194a", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#abdc4de8ded100df1433d8791c182aa2f", null ],
-    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a1d0671eac939cf143094f036323bac48", null ]
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a1d0671eac939cf143094f036323bac48", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a94d9bb13434bd90afb9662be0c36ea78", null ]
 ];

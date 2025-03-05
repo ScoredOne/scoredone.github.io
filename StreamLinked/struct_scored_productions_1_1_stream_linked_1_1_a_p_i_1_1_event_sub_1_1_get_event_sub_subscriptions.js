@@ -14,6 +14,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_
     [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ab69793f72f149ccbaeb9a3f846258c64", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a9459c75d405bda3cb69d35f5511ab43f", null ],
     [ "TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a1e70775e53d7cb7c03d8f9cf2f43353a", null ],
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ad959b4efd16b50ac02ef5ce5f425af6b", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#af0390577222f70d5553b8e4bec6b742a", null ],
     [ "version", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ae212140fd0e18d1867e67a5cc7d623f0", null ]
 ];
