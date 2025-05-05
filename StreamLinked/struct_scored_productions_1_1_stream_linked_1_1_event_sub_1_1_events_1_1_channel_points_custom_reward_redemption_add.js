@@ -8,6 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#aa19df78e8ccf9d1723f70ef7923f99b8", null ],
     [ "redeemed_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#ac23025960251b6dd826f687d6a07ac9b", null ],
     [ "reward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#aa60591ec07bc221f998b33cacaa04567", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#a7625447306037629a233a8194783ac21", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#a4e1325b982df701cbb87227c4b3dc661", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#a19aa7db9458c1a0a980ed167bf91c755", null ],
     [ "user_input", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_redemption_add.html#a81db0fd6e2f0891153f3c6f1fb526cea", null ],

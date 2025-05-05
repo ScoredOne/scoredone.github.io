@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -112,8 +112,9 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.Auth.GetDeviceCodeGra
  <div class="center">
   <img src="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_authorisation.png" usemap="#ScoredProductions.StreamLinked.API.Auth.GetDeviceCodeGrantAuthorisation_map" alt=""/>
   <map id="ScoredProductions.StreamLinked.API.Auth.GetDeviceCodeGrantAuthorisation_map" name="ScoredProductions.StreamLinked.API.Auth.GetDeviceCodeGrantAuthorisation_map">
-<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_user_access.html" alt="ScoredProductions.StreamLinked.API.Auth.IUserAccess" shape="rect" coords="0,56,452,80"/>
-<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html" alt="ScoredProductions.StreamLinked.API.ITwitchAPIDataObject" shape="rect" coords="0,0,452,24"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth.html" alt="ScoredProductions.StreamLinked.API.Auth.IAuth" shape="rect" coords="0,112,452,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html" alt="ScoredProductions.StreamLinked.API.ITwitchAPIDataObject" shape="rect" coords="0,56,452,80"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html" alt="ScoredProductions.StreamLinked.API.Scopes.IScope" shape="rect" coords="0,0,452,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -124,6 +125,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a24a5874130bc8ac876b4e9b28c60e20a" id="r_a24a5874130bc8ac876b4e9b28c60e20a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth.html#a24a5874130bc8ac876b4e9b28c60e20a">EndpointIsAuthRequest</a> (<a class="el" href="#a09e6b9179f16416184948b35b7d80d6b">string</a> endpoint)</td></tr>
+<tr class="separator:a24a5874130bc8ac876b4e9b28c60e20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0348eb381baae9ecb78e2994a29c092c" id="r_a0348eb381baae9ecb78e2994a29c092c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html#a0348eb381baae9ecb78e2994a29c092c">HasResponse&lt; T &gt;</a> ()</td></tr>
 <tr class="separator:a0348eb381baae9ecb78e2994a29c092c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -152,6 +155,9 @@ Properties</h2></td></tr>
 <tr class="separator:a0fb0fd76523782a4e9def694e149dd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a649e32eb9a054827d8845c4cfc4f8316" id="r_a649e32eb9a054827d8845c4cfc4f8316"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649e32eb9a054827d8845c4cfc4f8316">TypeEnum</a><code> [get]</code></td></tr>
 <tr class="separator:a649e32eb9a054827d8845c4cfc4f8316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7619efe1e637ba87e74af6ee5be6a614" id="r_a7619efe1e637ba87e74af6ee5be6a614"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7619efe1e637ba87e74af6ee5be6a614">Scopes</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7619efe1e637ba87e74af6ee5be6a614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional and Required scopes needed by Twitch, found at  Twitch Scopes <br /></td></tr>
+<tr class="separator:a7619efe1e637ba87e74af6ee5be6a614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a459c466f9e4821033ec17cb1dd4e40f0" id="r_a459c466f9e4821033ec17cb1dd4e40f0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a09e6b9179f16416184948b35b7d80d6b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a459c466f9e4821033ec17cb1dd4e40f0">LOCATION</a><code> [get]</code></td></tr>
 <tr class="separator:a459c466f9e4821033ec17cb1dd4e40f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ddc310d4c351947944e246c1ba09ee5" id="r_a9ddc310d4c351947944e246c1ba09ee5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a09e6b9179f16416184948b35b7d80d6b">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ddc310d4c351947944e246c1ba09ee5">CLIENT_ID</a><code> [get]</code></td></tr>
@@ -166,6 +172,31 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch API Class</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a24a5874130bc8ac876b4e9b28c60e20a" name="a24a5874130bc8ac876b4e9b28c60e20a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a5874130bc8ac876b4e9b28c60e20a">&#9670;&#160;</a></span>EndpointIsAuthRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ScoredProductions.StreamLinked.API.Auth.IAuth.EndpointIsAuthRequest </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>endpoint</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0348eb381baae9ecb78e2994a29c092c" name="a0348eb381baae9ecb78e2994a29c092c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0348eb381baae9ecb78e2994a29c092c">&#9670;&#160;</a></span>HasResponse&lt; T &gt;()</h2>
 
@@ -486,6 +517,32 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7619efe1e637ba87e74af6ee5be6a614" name="a7619efe1e637ba87e74af6ee5be6a614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7619efe1e637ba87e74af6ee5be6a614">&#9670;&#160;</a></span>Scopes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> [] ScoredProductions.StreamLinked.API.Auth.GetDeviceCodeGrantAuthorisation.Scopes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Optional and Required scopes needed by Twitch, found at  Twitch Scopes</p>
+
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html#ae8d5620bed27e6a78f5375c775184bfb">ScoredProductions.StreamLinked.API.Scopes.IScope</a>.</p>
 
 </div>
 </div>

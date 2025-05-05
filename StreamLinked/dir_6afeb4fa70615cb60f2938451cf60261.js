@@ -2,8 +2,6 @@ var dir_6afeb4fa70615cb60f2938451cf60261 =
 [
     [ "Interfaces", "dir_a3fff1cd0657df7cb18a013742ad0a58.html", "dir_a3fff1cd0657df7cb18a013742ad0a58" ],
     [ "Objects", "dir_d8c6d84da8c39340a51f5f2c440369f3.html", "dir_d8c6d84da8c39340a51f5f2c440369f3" ],
-    [ "Polls", "dir_ea703cde4383e4575b44f9250df40db9.html", "dir_ea703cde4383e4575b44f9250df40db9" ],
-    [ "Prediction", "dir_6004dc0a615c3f398bfaed26c8cfaf7a.html", "dir_6004dc0a615c3f398bfaed26c8cfaf7a" ],
     [ "AutomodMessageHold.cs", "_automod_message_hold_8cs.html", "_automod_message_hold_8cs" ],
     [ "AutomodMessageHoldV2.cs", "_automod_message_hold_v2_8cs.html", "_automod_message_hold_v2_8cs" ],
     [ "AutomodMessageUpdate.cs", "_automod_message_update_8cs.html", "_automod_message_update_8cs" ],

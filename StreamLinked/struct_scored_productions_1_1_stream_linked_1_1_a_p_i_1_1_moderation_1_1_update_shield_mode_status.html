@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -112,8 +112,10 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.Moderation.UpdateShie
  <div class="center">
   <img src="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_shield_mode_status.png" usemap="#ScoredProductions.StreamLinked.API.Moderation.UpdateShieldModeStatus_map" alt=""/>
   <map id="ScoredProductions.StreamLinked.API.Moderation.UpdateShieldModeStatus_map" name="ScoredProductions.StreamLinked.API.Moderation.UpdateShieldModeStatus_map">
-<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_i_moderation.html" alt="ScoredProductions.StreamLinked.API.Moderation.IModeration" shape="rect" coords="0,56,436,80"/>
-<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html" alt="ScoredProductions.StreamLinked.API.ITwitchAPIDataObject" shape="rect" coords="0,0,436,24"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_i_moderation.html" alt="ScoredProductions.StreamLinked.API.Moderation.IModeration" shape="rect" coords="0,112,436,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html" title="Ensure a static string called BuildDataJson is included, NetStandard 2.1 doesnt include inherited sta..." alt="ScoredProductions.StreamLinked.API.IJsonRequest" shape="rect" coords="446,112,882,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html" alt="ScoredProductions.StreamLinked.API.ITwitchAPIDataObject" shape="rect" coords="0,56,436,80"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html" alt="ScoredProductions.StreamLinked.API.Scopes.IScope" shape="rect" coords="0,0,436,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -133,6 +135,8 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac67ebd4652afb6b8e17238b92b4ad27f" id="r_ac67ebd4652afb6b8e17238b92b4ad27f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a></td></tr>
 <tr class="separator:ac67ebd4652afb6b8e17238b92b4ad27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccb090f22495e76cb5d94db7bcdbd4b" id="r_a3ccb090f22495e76cb5d94db7bcdbd4b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html#a3ccb090f22495e76cb5d94db7bcdbd4b">MethodName</a> = &quot;BuildDataJson&quot;</td></tr>
+<tr class="separator:a3ccb090f22495e76cb5d94db7bcdbd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -152,12 +156,15 @@ Properties</h2></td></tr>
 <tr class="separator:a226e7ee9e0b900a2b40c3c2b7de34ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afadb4c9121b6d9b2f6646270f093699d" id="r_afadb4c9121b6d9b2f6646270f093699d"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afadb4c9121b6d9b2f6646270f093699d">TypeEnum</a><code> [get]</code></td></tr>
 <tr class="separator:afadb4c9121b6d9b2f6646270f093699d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7010b48b8b2208dc333ca20b293174" id="r_adf7010b48b8b2208dc333ca20b293174"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf7010b48b8b2208dc333ca20b293174">Scopes</a><code> [get]</code></td></tr>
+<tr class="memdesc:adf7010b48b8b2208dc333ca20b293174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional and Required scopes needed by Twitch, found at  Twitch Scopes <br /></td></tr>
+<tr class="separator:adf7010b48b8b2208dc333ca20b293174"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01c0148c32ee918920276883bd4256a3" id="r_a01c0148c32ee918920276883bd4256a3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01c0148c32ee918920276883bd4256a3">BROADCASTER_ID</a><code> [get]</code></td></tr>
 <tr class="separator:a01c0148c32ee918920276883bd4256a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedd4e2936fe67ce56d8a3e4aeffd0c0" id="r_aeedd4e2936fe67ce56d8a3e4aeffd0c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeedd4e2936fe67ce56d8a3e4aeffd0c0">MODERATOR_ID</a><code> [get]</code></td></tr>
 <tr class="separator:aeedd4e2936fe67ce56d8a3e4aeffd0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a514e61600813938aacbe73aa1d640260" id="r_a514e61600813938aacbe73aa1d640260"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a514e61600813938aacbe73aa1d640260">CONTENTTYPE</a><code> [get]</code></td></tr>
-<tr class="separator:a514e61600813938aacbe73aa1d640260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37020ed87815ea8f6435431bc04b0a36" id="r_a37020ed87815ea8f6435431bc04b0a36"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37020ed87815ea8f6435431bc04b0a36">CONTENT_TYPE</a><code> [get]</code></td></tr>
+<tr class="separator:a37020ed87815ea8f6435431bc04b0a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch API Class</p>
@@ -241,6 +248,28 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3ccb090f22495e76cb5d94db7bcdbd4b" name="a3ccb090f22495e76cb5d94db7bcdbd4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccb090f22495e76cb5d94db7bcdbd4b">&#9670;&#160;</a></span>MethodName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a> ScoredProductions.StreamLinked.API.IJsonRequest.MethodName = &quot;BuildDataJson&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac67ebd4652afb6b8e17238b92b4ad27f" name="ac67ebd4652afb6b8e17238b92b4ad27f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac67ebd4652afb6b8e17238b92b4ad27f">&#9670;&#160;</a></span>string</h2>
 
@@ -286,8 +315,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a514e61600813938aacbe73aa1d640260" name="a514e61600813938aacbe73aa1d640260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a514e61600813938aacbe73aa1d640260">&#9670;&#160;</a></span>CONTENTTYPE</h2>
+<a id="a37020ed87815ea8f6435431bc04b0a36" name="a37020ed87815ea8f6435431bc04b0a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37020ed87815ea8f6435431bc04b0a36">&#9670;&#160;</a></span>CONTENT_TYPE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +325,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a> ScoredProductions.StreamLinked.API.Moderation.UpdateShieldModeStatus.CONTENTTYPE</td>
+          <td class="memname"><a class="el" href="#ac67ebd4652afb6b8e17238b92b4ad27f">string</a> ScoredProductions.StreamLinked.API.Moderation.UpdateShieldModeStatus.CONTENT_TYPE</td>
         </tr>
       </table>
   </td>
@@ -485,6 +514,32 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf7010b48b8b2208dc333ca20b293174" name="adf7010b48b8b2208dc333ca20b293174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf7010b48b8b2208dc333ca20b293174">&#9670;&#160;</a></span>Scopes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> [] ScoredProductions.StreamLinked.API.Moderation.UpdateShieldModeStatus.Scopes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Optional and Required scopes needed by Twitch, found at  Twitch Scopes</p>
+
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html#ae8d5620bed27e6a78f5375c775184bfb">ScoredProductions.StreamLinked.API.Scopes.IScope</a>.</p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['has_5fchat_5fsupport_0',['HAS_CHAT_SUPPORT',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a0d355c34311c0077ea78b059ad5809db',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['has_5fdelay_1',['HAS_DELAY',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a7f039f9e0bf6a5ee95c3e11ba1502800',1,'ScoredProductions::StreamLinked::TwitchWords']]],
-  ['haserrored_2',['HasErrored',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#a300757706e9ea1aa0db069f144cc3e37',1,'ScoredProductions::StreamLinked::API::TwitchAPIDataContainer']]],
+  ['has_5ferrored_2',['HAS_ERRORED',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#afca16360b14511bb80fa333a75586f59',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]],
   ['headervalues_3',['HeaderValues',['../class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#ac521537cfa001f6b5498e3c27df3ec79',1,'ScoredProductions::StreamLinked::VisualScripting::TwitchAPIRequest']]],
   ['height_4',['HEIGHT',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a653d6759ab2c67cc64436f040dff4cc1',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['held_5fat_5',['HELD_AT',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#ae55c2e1c91999dc400b92297a60f8f08',1,'ScoredProductions::StreamLinked::TwitchWords']]],

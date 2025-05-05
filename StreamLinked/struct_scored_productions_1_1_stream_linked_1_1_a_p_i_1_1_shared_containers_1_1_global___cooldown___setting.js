@@ -1,0 +1,6 @@
+var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_global___cooldown___setting =
+[
+    [ "Global_Cooldown_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_global___cooldown___setting.html#a09cf6763f2154efd940687b96fcb7d43", null ],
+    [ "global_cooldown_seconds", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_global___cooldown___setting.html#abdc32b0b300cd4f9c0aa88fdc4e878c9", null ],
+    [ "is_enabled", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_global___cooldown___setting.html#a72b719cd813e256291719fbf9a00a2a9", null ]
+];

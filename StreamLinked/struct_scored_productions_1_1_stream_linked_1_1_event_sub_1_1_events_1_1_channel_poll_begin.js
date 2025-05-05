@@ -10,6 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "ends_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_begin.html#a994c0ff9d4eed7d145258177d30ec60a", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_begin.html#af2bc45d08619e2c70d65069e3e07457a", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_begin.html#aedc7bfc1d5a67a9a8d8a236b8d0ae379", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_begin.html#a2fe8d5ca25a6cf7c1109997e43d34477", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_begin.html#ab59f11a0995d32faff32c30829b8331c", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_begin.html#a88eabd246d73aed35c7a01e33ea38195", null ]
 ];

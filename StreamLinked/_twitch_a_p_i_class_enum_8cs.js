@@ -99,7 +99,7 @@ var _twitch_a_p_i_class_enum_8cs =
       [ "GetShieldModeStatus", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a96e6331bcabeb031d9e98fe13bf94297", null ],
       [ "GetUnbanRequests", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5af02a6668a6fb6fc93590fae5eea77a93", null ],
       [ "GetVIPs", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a3f1e16defc8bbe03ce5b729b9b96cd38", null ],
-      [ "ManageHeldAutoModMessages", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5ac62f3056a9c16e7ca44a4c78e58609c4", null ],
+      [ "ManageHeldAutoMessages", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5aeec9b9f54cbfae250ed6d8a235b772fa", null ],
       [ "RemoveBlockedTerm", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a3f8a409b12461dad2136b606346415dd", null ],
       [ "RemoveChannelModerator", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a113f8697dfaf4fe76aae6ce3380e6851", null ],
       [ "RemoveChannelVIP", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a7255743ec147975b54ea2cda8a472efc", null ],

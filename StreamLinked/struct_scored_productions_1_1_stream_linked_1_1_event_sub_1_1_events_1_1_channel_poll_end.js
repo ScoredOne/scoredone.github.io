@@ -10,6 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "ends_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#a6598dbc402e78671065fd1dfed126727", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#ad7c8518554ace798563ef5c056b7de52", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#a60b292a0051e1194082683b190ebbd1d", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#af2ac78a293bb4622c77df72356521127", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#a55be85da4e6e481c12c0e7ad4100f493", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#a2fa1bd717c263d0580f8ad90d0ac68fb", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_poll_end.html#a736a2ee5fc68c524989b6e26303bf4e1", null ]

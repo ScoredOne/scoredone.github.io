@@ -6,6 +6,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_str
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html#a4da1d70cdc4eb440c088a396eee48852", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html#a9ac3a8e507058969ce168ac6958e8f67", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html#a15ca07486238ab1a0297f77c86533d0c", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html#a22b62d379bb31324cfcace29d4727fff", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html#a7c31bf0d3938e75717acfdfd78edabc1", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html#ac54e75fc5c1c76615e7506d5b2c667a3", null ]
 ];

@@ -8,6 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#a8bc067864b254dcecc73fa64a52cba08", null ],
     [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#a76a2e2beeef1485b2bcdf18ddf5db524", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#a92e0e592d1ad50e2a0435bddee7165ac", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#a478360039ddaf6036c29bf86b0919cc8", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#a8afa135032366bbfe6a2bad431f7efa0", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#a2540b3aa74dff90fec3b435b9420faf2", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html#ada9fc620e555650790c2711bda09ff3e", null ]

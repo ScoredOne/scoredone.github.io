@@ -1,5 +1,4 @@
 var _device_code_grant_flow_8cs =
 [
-    [ "ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow" ],
-    [ "ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow.APISettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_a_p_i_settings.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow_1_1_a_p_i_settings" ]
+    [ "ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow" ]
 ];

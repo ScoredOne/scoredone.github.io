@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['data_0',['Data',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant_1_1_data.html',1,'ScoredProductions::StreamLinked::EventSub::Events::DropEntitlementGrant']]],
-  ['daterange_1',['DateRange',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_i_analytics_1_1_date_range.html',1,'ScoredProductions.StreamLinked.API.Analytics.IAnalytics.DateRange'],['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_1_1_date_range.html',1,'ScoredProductions.StreamLinked.API.TwitchAPIDataContainer&lt; T &gt;.DateRange']]],
+  ['data_0',['Data',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_data.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['daterange_1',['DateRange',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_date_range.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]],
   ['debugmanager_2',['DebugManager',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html',1,'ScoredProductions::StreamLinked::Utility']]],
-  ['delete_3',['Delete',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_delete.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
+  ['delete_3',['Delete',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_delete.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
   ['deletechannelstreamschedulesegment_4',['DeleteChannelStreamScheduleSegment',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_delete_channel_stream_schedule_segment.html',1,'ScoredProductions::StreamLinked::API::Schedule']]],
   ['deletechatmessages_5',['DeleteChatMessages',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html',1,'ScoredProductions::StreamLinked::API::Moderation']]],
   ['deleteconduits_6',['DeleteConduits',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_delete_conduits.html',1,'ScoredProductions::StreamLinked::API::Conduits']]],
@@ -14,5 +14,5 @@ var searchData=
   ['deletevideos_11',['DeleteVideos',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_delete_videos.html',1,'ScoredProductions::StreamLinked::API::Videos']]],
   ['devicecodegrantflow_12',['DeviceCodeGrantFlow',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html',1,'ScoredProductions::StreamLinked::API::AuthContainers']]],
   ['dropentitlementgrant_13',['DropEntitlementGrant',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['dropreason_14',['DropReason',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat_1_1_drop_reason.html',1,'ScoredProductions::StreamLinked::API::Chat::IChat']]]
+  ['dropreason_14',['DropReason',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_drop_reason.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]]
 ];

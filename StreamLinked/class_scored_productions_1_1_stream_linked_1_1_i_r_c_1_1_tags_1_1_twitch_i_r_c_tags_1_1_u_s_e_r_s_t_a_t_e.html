@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,6 +97,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_i_r_c_1
   <div class="summary">
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_u_s_e_r_s_t_a_t_e-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE Class Reference</div></div>
 </div><!--header-->
@@ -104,45 +105,50 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_i_r_c_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1fae16acbaca16e5f231642a3b086712" id="r_a1fae16acbaca16e5f231642a3b086712"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fae16acbaca16e5f231642a3b086712">badge_info</a> = &quot;badge-info&quot;</td></tr>
-<tr class="memdesc:a1fae16acbaca16e5f231642a3b086712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains metadata related to the chat badges in the badges tag. Currently, this tag contains metadata only for subscriber badges, to indicate the number of months the user has been a subscriber.  <br /></td></tr>
-<tr class="separator:a1fae16acbaca16e5f231642a3b086712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674f45b055a035c6c6a8bc0fe7592272" id="r_a674f45b055a035c6c6a8bc0fe7592272"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a674f45b055a035c6c6a8bc0fe7592272">badges</a> = &quot;badges&quot;</td></tr>
-<tr class="memdesc:a674f45b055a035c6c6a8bc0fe7592272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comma-separated list of chat badges in the form, [badge]/[version]. For example, admin/1. There are many possible badge values, but here are few: admin, bits, broadcaster, moderator, subscriber, staff, turbo Most badges have only 1 version, but some badges like subscriber badges offer different versions of the badge depending on how long the user has subscribed. To get the badge, use the Get Global Chat Badges and Get Channel Chat Badges APIs.Match the badge to the set-id field’s value in the response.Then, match the version to the id field in the list of versions.  <br /></td></tr>
-<tr class="separator:a674f45b055a035c6c6a8bc0fe7592272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a706bcbfc8ab22dd42301e344e7fa78" id="r_a5a706bcbfc8ab22dd42301e344e7fa78"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a706bcbfc8ab22dd42301e344e7fa78">color</a> = &quot;color&quot;</td></tr>
-<tr class="memdesc:a5a706bcbfc8ab22dd42301e344e7fa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color of the user’s name in the chat room. This is a hexadecimal RGB color code in the form, #[RGB]. This tag may be empty if it is never set.  <br /></td></tr>
-<tr class="separator:a5a706bcbfc8ab22dd42301e344e7fa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7985b8f61cded87979db0f7334a9261e" id="r_a7985b8f61cded87979db0f7334a9261e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7985b8f61cded87979db0f7334a9261e">display_name</a> = &quot;display-name&quot;</td></tr>
-<tr class="memdesc:a7985b8f61cded87979db0f7334a9261e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user’s display name, escaped as described in the IRCv3 spec. This tag may be empty if it is never set.  <br /></td></tr>
-<tr class="separator:a7985b8f61cded87979db0f7334a9261e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b0aafbb8ce3b2e9eb18ce814e05a6e4" id="r_a0b0aafbb8ce3b2e9eb18ce814e05a6e4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b0aafbb8ce3b2e9eb18ce814e05a6e4">emote_sets</a> = &quot;emote-sets&quot;</td></tr>
-<tr class="memdesc:a0b0aafbb8ce3b2e9eb18ce814e05a6e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A comma-delimited list of IDs that identify the emote sets that the user has access to. Is always set to at least zero (0). To access the emotes in the set, use the Get Emote Sets API.  <br /></td></tr>
-<tr class="separator:a0b0aafbb8ce3b2e9eb18ce814e05a6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd6402b5670ca7fb61858af164ac4fe7" id="r_acd6402b5670ca7fb61858af164ac4fe7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6402b5670ca7fb61858af164ac4fe7">id</a> = &quot;id&quot;</td></tr>
-<tr class="memdesc:acd6402b5670ca7fb61858af164ac4fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID that uniquely identifies the message.  <br /></td></tr>
-<tr class="separator:acd6402b5670ca7fb61858af164ac4fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab750e1ef00507ec5222e4cbe6e77f7fd" id="r_ab750e1ef00507ec5222e4cbe6e77f7fd"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab750e1ef00507ec5222e4cbe6e77f7fd">mod</a> = &quot;mod&quot;</td></tr>
-<tr class="memdesc:ab750e1ef00507ec5222e4cbe6e77f7fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the user is a moderator. Is true (1) if the user is a moderator; otherwise, false (0).  <br /></td></tr>
-<tr class="separator:ab750e1ef00507ec5222e4cbe6e77f7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0122054fc59f9f96d1fa5ead5647b41" id="r_ab0122054fc59f9f96d1fa5ead5647b41"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0122054fc59f9f96d1fa5ead5647b41">subscriber</a> = &quot;subscriber&quot;</td></tr>
-<tr class="memdesc:ab0122054fc59f9f96d1fa5ead5647b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the user is a subscriber. Is true (1) if the user is a subscriber; otherwise, false (0).  <br /></td></tr>
-<tr class="separator:ab0122054fc59f9f96d1fa5ead5647b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ae6b2f79fe488d4825fb518fcc8a002" id="r_a2ae6b2f79fe488d4825fb518fcc8a002"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae6b2f79fe488d4825fb518fcc8a002">turbo</a> = &quot;turbo&quot;</td></tr>
-<tr class="memdesc:a2ae6b2f79fe488d4825fb518fcc8a002"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that indicates whether the user has site-wide commercial free mode enabled. Is true (1) if enabled; otherwise, false (0).  <br /></td></tr>
-<tr class="separator:a2ae6b2f79fe488d4825fb518fcc8a002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b71106ff969b480090f9b3f4ac9b9a2" id="r_a0b71106ff969b480090f9b3f4ac9b9a2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b71106ff969b480090f9b3f4ac9b9a2">user_type</a> = &quot;user-type&quot;</td></tr>
-<tr class="memdesc:a0b71106ff969b480090f9b3f4ac9b9a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of user. Possible values are: "" — A normal user, admin — A Twitch administrator, global_mod — A global moderator, staff — A Twitch employe.  <br /></td></tr>
-<tr class="separator:a0b71106ff969b480090f9b3f4ac9b9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13484076293a6d01e03d7d8fb1d9dfd7" id="r_a13484076293a6d01e03d7d8fb1d9dfd7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13484076293a6d01e03d7d8fb1d9dfd7">BADGE_INFO</a> = &quot;badge-info&quot;</td></tr>
+<tr class="memdesc:a13484076293a6d01e03d7d8fb1d9dfd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains metadata related to the chat badges in the badges tag. Currently, this tag contains metadata only for subscriber badges, to indicate the number of months the user has been a subscriber.  <br /></td></tr>
+<tr class="separator:a13484076293a6d01e03d7d8fb1d9dfd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa684a0763c983461716157323d3f63ce" id="r_aa684a0763c983461716157323d3f63ce"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa684a0763c983461716157323d3f63ce">BADGES</a> = &quot;badges&quot;</td></tr>
+<tr class="memdesc:aa684a0763c983461716157323d3f63ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comma-separated list of chat badges in the form, [badge]/[version]. For example, admin/1. There are many possible badge values, but here are few: admin, bits, broadcaster, moderator, subscriber, staff, turbo Most badges have only 1 version, but some badges like subscriber badges offer different versions of the badge depending on how long the user has subscribed. To get the badge, use the Get Global Chat Badges and Get Channel Chat Badges APIs.Match the badge to the set-id field’s value in the response.Then, match the version to the id field in the list of versions.  <br /></td></tr>
+<tr class="separator:aa684a0763c983461716157323d3f63ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbac82b864e761a5b462e6f558e49320" id="r_acbac82b864e761a5b462e6f558e49320"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbac82b864e761a5b462e6f558e49320">COLOR</a> = &quot;color&quot;</td></tr>
+<tr class="memdesc:acbac82b864e761a5b462e6f558e49320"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color of the user’s name in the chat room. This is a hexadecimal RGB color code in the form, #[RGB]. This tag may be empty if it is never set.  <br /></td></tr>
+<tr class="separator:acbac82b864e761a5b462e6f558e49320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79732b75ce8299a25df41e5726752892" id="r_a79732b75ce8299a25df41e5726752892"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79732b75ce8299a25df41e5726752892">DISPLAY_NAME</a> = &quot;display-name&quot;</td></tr>
+<tr class="memdesc:a79732b75ce8299a25df41e5726752892"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user’s display name, escaped as described in the IRCv3 spec. This tag may be empty if it is never set.  <br /></td></tr>
+<tr class="separator:a79732b75ce8299a25df41e5726752892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac30af25a5b250a439566a58c44ed4d4" id="r_aac30af25a5b250a439566a58c44ed4d4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac30af25a5b250a439566a58c44ed4d4">EMOTE_SETS</a> = &quot;emote-sets&quot;</td></tr>
+<tr class="memdesc:aac30af25a5b250a439566a58c44ed4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A comma-delimited list of IDs that identify the emote sets that the user has access to. Is always set to at least zero (0). To access the emotes in the set, use the Get Emote Sets API.  <br /></td></tr>
+<tr class="separator:aac30af25a5b250a439566a58c44ed4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad355b60d1da3b4f3275a7a5fd6a11325" id="r_ad355b60d1da3b4f3275a7a5fd6a11325"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad355b60d1da3b4f3275a7a5fd6a11325">ID</a> = &quot;id&quot;</td></tr>
+<tr class="memdesc:ad355b60d1da3b4f3275a7a5fd6a11325"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID that uniquely identifies the message.  <br /></td></tr>
+<tr class="separator:ad355b60d1da3b4f3275a7a5fd6a11325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5378fcbb001df61579d29099003e80" id="r_a7c5378fcbb001df61579d29099003e80"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c5378fcbb001df61579d29099003e80">MOD</a> = &quot;mod&quot;</td></tr>
+<tr class="memdesc:a7c5378fcbb001df61579d29099003e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the user is a moderator. Is true (1) if the user is a moderator; otherwise, false (0).  <br /></td></tr>
+<tr class="separator:a7c5378fcbb001df61579d29099003e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f95a65ddae0a8e8ba029a503857eeb7" id="r_a0f95a65ddae0a8e8ba029a503857eeb7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f95a65ddae0a8e8ba029a503857eeb7">SUBSCRIBER</a> = &quot;subscriber&quot;</td></tr>
+<tr class="memdesc:a0f95a65ddae0a8e8ba029a503857eeb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the user is a subscriber. Is true (1) if the user is a subscriber; otherwise, false (0).  <br /></td></tr>
+<tr class="separator:a0f95a65ddae0a8e8ba029a503857eeb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be1075e2a9a15403423d13d20dbc705" id="r_a7be1075e2a9a15403423d13d20dbc705"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7be1075e2a9a15403423d13d20dbc705">TURBO</a> = &quot;turbo&quot;</td></tr>
+<tr class="memdesc:a7be1075e2a9a15403423d13d20dbc705"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that indicates whether the user has site-wide commercial free mode enabled. Is true (1) if enabled; otherwise, false (0).  <br /></td></tr>
+<tr class="separator:a7be1075e2a9a15403423d13d20dbc705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4f35f2dab501d8317697438b6489b8" id="r_ade4f35f2dab501d8317697438b6489b8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4f35f2dab501d8317697438b6489b8">USER_TYPE</a> = &quot;user-type&quot;</td></tr>
+<tr class="memdesc:ade4f35f2dab501d8317697438b6489b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of user. Possible values are: "" — A normal user, admin — A Twitch administrator, global_mod — A global moderator, staff — A Twitch employe.  <br /></td></tr>
+<tr class="separator:ade4f35f2dab501d8317697438b6489b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa3dee85d65ab7452564d71bf7b73f009" id="r_aa3dee85d65ab7452564d71bf7b73f009"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3dee85d65ab7452564d71bf7b73f009">GetAll</a><code> [get]</code></td></tr>
 <tr class="separator:aa3dee85d65ab7452564d71bf7b73f009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a0a2065e001b3a76285e57f38b9d88de6" id="r_a0a2065e001b3a76285e57f38b9d88de6"><td class="memItemLeft" align="right" valign="top">static readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a2065e001b3a76285e57f38b9d88de6">_getall</a> = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html#a76be7f56367dcb28bd42dd6a966144d8">Get</a>(typeof(<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_u_s_e_r_s_t_a_t_e.html">USERSTATE</a>))</td></tr>
+<tr class="separator:a0a2065e001b3a76285e57f38b9d88de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1fae16acbaca16e5f231642a3b086712" name="a1fae16acbaca16e5f231642a3b086712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fae16acbaca16e5f231642a3b086712">&#9670;&#160;</a></span>badge_info</h2>
+<a id="a0a2065e001b3a76285e57f38b9d88de6" name="a0a2065e001b3a76285e57f38b9d88de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2065e001b3a76285e57f38b9d88de6">&#9670;&#160;</a></span>_getall</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +157,29 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.badge_info = &quot;badge-info&quot;</td>
+          <td class="memname">readonly string [] ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE._getall = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html#a76be7f56367dcb28bd42dd6a966144d8">Get</a>(typeof(<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_u_s_e_r_s_t_a_t_e.html">USERSTATE</a>))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13484076293a6d01e03d7d8fb1d9dfd7" name="a13484076293a6d01e03d7d8fb1d9dfd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13484076293a6d01e03d7d8fb1d9dfd7">&#9670;&#160;</a></span>BADGE_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.BADGE_INFO = &quot;badge-info&quot;</td>
         </tr>
       </table>
   </td>
@@ -165,8 +193,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a674f45b055a035c6c6a8bc0fe7592272" name="a674f45b055a035c6c6a8bc0fe7592272"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a674f45b055a035c6c6a8bc0fe7592272">&#9670;&#160;</a></span>badges</h2>
+<a id="aa684a0763c983461716157323d3f63ce" name="aa684a0763c983461716157323d3f63ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa684a0763c983461716157323d3f63ce">&#9670;&#160;</a></span>BADGES</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +203,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.badges = &quot;badges&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.BADGES = &quot;badges&quot;</td>
         </tr>
       </table>
   </td>
@@ -189,8 +217,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a706bcbfc8ab22dd42301e344e7fa78" name="a5a706bcbfc8ab22dd42301e344e7fa78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a706bcbfc8ab22dd42301e344e7fa78">&#9670;&#160;</a></span>color</h2>
+<a id="acbac82b864e761a5b462e6f558e49320" name="acbac82b864e761a5b462e6f558e49320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbac82b864e761a5b462e6f558e49320">&#9670;&#160;</a></span>COLOR</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +227,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.color = &quot;color&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.COLOR = &quot;color&quot;</td>
         </tr>
       </table>
   </td>
@@ -213,8 +241,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a7985b8f61cded87979db0f7334a9261e" name="a7985b8f61cded87979db0f7334a9261e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7985b8f61cded87979db0f7334a9261e">&#9670;&#160;</a></span>display_name</h2>
+<a id="a79732b75ce8299a25df41e5726752892" name="a79732b75ce8299a25df41e5726752892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79732b75ce8299a25df41e5726752892">&#9670;&#160;</a></span>DISPLAY_NAME</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +251,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.display_name = &quot;display-name&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.DISPLAY_NAME = &quot;display-name&quot;</td>
         </tr>
       </table>
   </td>
@@ -237,8 +265,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b0aafbb8ce3b2e9eb18ce814e05a6e4" name="a0b0aafbb8ce3b2e9eb18ce814e05a6e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b0aafbb8ce3b2e9eb18ce814e05a6e4">&#9670;&#160;</a></span>emote_sets</h2>
+<a id="aac30af25a5b250a439566a58c44ed4d4" name="aac30af25a5b250a439566a58c44ed4d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac30af25a5b250a439566a58c44ed4d4">&#9670;&#160;</a></span>EMOTE_SETS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +275,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.emote_sets = &quot;emote-sets&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.EMOTE_SETS = &quot;emote-sets&quot;</td>
         </tr>
       </table>
   </td>
@@ -261,8 +289,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="acd6402b5670ca7fb61858af164ac4fe7" name="acd6402b5670ca7fb61858af164ac4fe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd6402b5670ca7fb61858af164ac4fe7">&#9670;&#160;</a></span>id</h2>
+<a id="ad355b60d1da3b4f3275a7a5fd6a11325" name="ad355b60d1da3b4f3275a7a5fd6a11325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad355b60d1da3b4f3275a7a5fd6a11325">&#9670;&#160;</a></span>ID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,7 +299,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.id = &quot;id&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.ID = &quot;id&quot;</td>
         </tr>
       </table>
   </td>
@@ -285,8 +313,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab750e1ef00507ec5222e4cbe6e77f7fd" name="ab750e1ef00507ec5222e4cbe6e77f7fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab750e1ef00507ec5222e4cbe6e77f7fd">&#9670;&#160;</a></span>mod</h2>
+<a id="a7c5378fcbb001df61579d29099003e80" name="a7c5378fcbb001df61579d29099003e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5378fcbb001df61579d29099003e80">&#9670;&#160;</a></span>MOD</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +323,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.mod = &quot;mod&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.MOD = &quot;mod&quot;</td>
         </tr>
       </table>
   </td>
@@ -309,8 +337,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0122054fc59f9f96d1fa5ead5647b41" name="ab0122054fc59f9f96d1fa5ead5647b41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0122054fc59f9f96d1fa5ead5647b41">&#9670;&#160;</a></span>subscriber</h2>
+<a id="a0f95a65ddae0a8e8ba029a503857eeb7" name="a0f95a65ddae0a8e8ba029a503857eeb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f95a65ddae0a8e8ba029a503857eeb7">&#9670;&#160;</a></span>SUBSCRIBER</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +347,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.subscriber = &quot;subscriber&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.SUBSCRIBER = &quot;subscriber&quot;</td>
         </tr>
       </table>
   </td>
@@ -333,8 +361,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ae6b2f79fe488d4825fb518fcc8a002" name="a2ae6b2f79fe488d4825fb518fcc8a002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ae6b2f79fe488d4825fb518fcc8a002">&#9670;&#160;</a></span>turbo</h2>
+<a id="a7be1075e2a9a15403423d13d20dbc705" name="a7be1075e2a9a15403423d13d20dbc705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be1075e2a9a15403423d13d20dbc705">&#9670;&#160;</a></span>TURBO</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +371,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.turbo = &quot;turbo&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.TURBO = &quot;turbo&quot;</td>
         </tr>
       </table>
   </td>
@@ -357,8 +385,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b71106ff969b480090f9b3f4ac9b9a2" name="a0b71106ff969b480090f9b3f4ac9b9a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b71106ff969b480090f9b3f4ac9b9a2">&#9670;&#160;</a></span>user_type</h2>
+<a id="ade4f35f2dab501d8317697438b6489b8" name="ade4f35f2dab501d8317697438b6489b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4f35f2dab501d8317697438b6489b8">&#9670;&#160;</a></span>USER_TYPE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +395,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.user_type = &quot;user-type&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.USERSTATE.USER_TYPE = &quot;user-type&quot;</td>
         </tr>
       </table>
   </td>

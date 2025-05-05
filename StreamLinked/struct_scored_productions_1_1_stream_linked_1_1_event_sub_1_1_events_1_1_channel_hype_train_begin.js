@@ -12,6 +12,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "last_contribution", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#acb5a07ebe43fb7c2e048951500a48dd5", null ],
     [ "level", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#a664975cfb8b35864baef11b5024c64f2", null ],
     [ "progress", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#a36710695e094a7e0c5cbb66ba63b6704", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#a64bc511a0f5aae02df75555bdb14c30f", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#a15cc19c5dcd3196a1dc81e971a8bee2e", null ],
     [ "top_contributions", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#abcb6439f57e89eba2d46262b5fd9fc89", null ],
     [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_begin.html#a7be36c98da6a8cd5d8ddd408438c6dec", null ]

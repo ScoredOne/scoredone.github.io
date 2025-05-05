@@ -1,0 +1,5 @@
+var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_twitch_event_sub_scope_attribute =
+[
+    [ "TwitchEventSubScopeAttribute", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_twitch_event_sub_scope_attribute.html#a5bf91f63d1571f71eed6d27205035f54", null ],
+    [ "LinkedSubscriptions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_twitch_event_sub_scope_attribute.html#aa06d2ab50b866a3b6f7fc2ee970cf25b", null ]
+];

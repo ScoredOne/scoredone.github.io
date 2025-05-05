@@ -9,10 +9,11 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote
     [ "format", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#a0eed134f847d5f6cb75e440bdc709350", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#ab8ed8df71fba6fa136100c07f80c7483", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#aabcbc34c8fae956d458a13d4882d3566", null ],
-    [ "images", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#a85065c087705cb9762a70cf069ede8a2", null ],
+    [ "images", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#aae33ad7714d689cfe794ae6746c954e5", null ],
     [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#a872af9a8d46804fa2b8fa55409ff794d", null ],
     [ "owner_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#af546465f7f9246ff63e5512500d09e34", null ],
     [ "scale", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#ac820f7e016b38686a7c14a492777e621", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#a23f146931effc34081be4d4df96acf59", null ],
     [ "theme_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#aed97423e6c51cf5fa1a982a4eb98dc15", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_emote_sets.html#a0b8862b3e0fa0dff56e6352addda7c20", null ]
 ];

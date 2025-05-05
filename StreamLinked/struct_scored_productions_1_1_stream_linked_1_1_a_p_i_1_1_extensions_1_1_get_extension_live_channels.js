@@ -11,6 +11,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get
     [ "game_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_live_channels.html#a5c12e434426477a68e758d3d9054c9e8", null ],
     [ "game_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_live_channels.html#aacde13f41f907a3be98103b381e0f9cf", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_live_channels.html#ada7fa38be146e3f6892982ed6361f14f", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_live_channels.html#a940c751997deae0b786ac4feef358e07", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_live_channels.html#accf4e8dce03d8c842de0a5c98621fd4d", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extension_live_channels.html#a04179f2c692b76d1f68b854ef3aec8e1", null ]
 ];

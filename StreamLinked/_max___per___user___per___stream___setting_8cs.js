@@ -1,0 +1,4 @@
+var _max___per___user___per___stream___setting_8cs =
+[
+    [ "ScoredProductions.StreamLinked.API.SharedContainers.Max_Per_User_Per_Stream_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_max___per___user___per___stream___setting.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_max___per___user___per___stream___setting" ]
+];

@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -123,12 +123,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8cb9c5c73ded02d2eeb5d7ab5e419fad" id="r_a8cb9c5c73ded02d2eeb5d7ab5e419fad"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb9c5c73ded02d2eeb5d7ab5e419fad">Serialize</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> value)</td></tr>
-<tr class="memdesc:a8cb9c5c73ded02d2eeb5d7ab5e419fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a string representation of the given value.  <br /></td></tr>
-<tr class="separator:a8cb9c5c73ded02d2eeb5d7ab5e419fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af82eff30825d0c5e2826ffedef98d0e9" id="r_af82eff30825d0c5e2826ffedef98d0e9"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82eff30825d0c5e2826ffedef98d0e9">Serialize</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> value, bool pretty)</td></tr>
-<tr class="memdesc:af82eff30825d0c5e2826ffedef98d0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a string representation of the given value.  <br /></td></tr>
-<tr class="separator:af82eff30825d0c5e2826ffedef98d0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430b9d0987a419a0315be95721df6d6e" id="r_a430b9d0987a419a0315be95721df6d6e"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430b9d0987a419a0315be95721df6d6e">Serialize&lt; T &gt;</a> (T value, bool pretty=false)</td></tr>
+<tr class="memdesc:a430b9d0987a419a0315be95721df6d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to automatically serialize a struct into a JSON, always check output. Will only serialize ValueType (and ValueType array) <code>Properties</code>.  <br /></td></tr>
+<tr class="separator:a430b9d0987a419a0315be95721df6d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3099a6b53120270d42e11323e1c4a563" id="r_a3099a6b53120270d42e11323e1c4a563"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3099a6b53120270d42e11323e1c4a563">StructToJsonValue&lt; T &gt;</a> (T value)</td></tr>
+<tr class="memdesc:a3099a6b53120270d42e11323e1c4a563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to automatically serialize a struct into a JsonValue, always check output. Will only store ValueType (and ValueType array) <code>Properties</code>.  <br /></td></tr>
+<tr class="separator:a3099a6b53120270d42e11323e1c4a563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856bf85a35611325ef1ec72bfaf6bee0" id="r_a856bf85a35611325ef1ec72bfaf6bee0"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a856bf85a35611325ef1ec72bfaf6bee0">Serialize</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> value, bool pretty=false)</td></tr>
+<tr class="memdesc:a856bf85a35611325ef1ec72bfaf6bee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a string representation of the given value.  <br /></td></tr>
+<tr class="separator:a856bf85a35611325ef1ec72bfaf6bee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -152,6 +155,8 @@ Properties</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:af074df2a42b3df533e3d67cdc86fa946" id="r_af074df2a42b3df533e3d67cdc86fa946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af074df2a42b3df533e3d67cdc86fa946">Write</a> (string text)</td></tr>
 <tr class="separator:af074df2a42b3df533e3d67cdc86fa946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a04bedb5050287c13f9b2e3bce74765" id="r_a4a04bedb5050287c13f9b2e3bce74765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a04bedb5050287c13f9b2e3bce74765">Write</a> (char character)</td></tr>
+<tr class="separator:a4a04bedb5050287c13f9b2e3bce74765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad68ac87850e3daa1c24fb3f898419b0e" id="r_ad68ac87850e3daa1c24fb3f898419b0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad68ac87850e3daa1c24fb3f898419b0e">WriteEncodedJsonValue</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> value)</td></tr>
 <tr class="separator:ad68ac87850e3daa1c24fb3f898419b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62060f7acf090c7aac8407194bc43d6c" id="r_a62060f7acf090c7aac8407194bc43d6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62060f7acf090c7aac8407194bc43d6c">WriteEncodedString</a> (string text)</td></tr>
@@ -164,6 +169,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a91453dc2754cf2a6dd838645035b3c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ca94955dd4ee4617e8f7599a32a0663" id="r_a8ca94955dd4ee4617e8f7599a32a0663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca94955dd4ee4617e8f7599a32a0663">WriteLine</a> (string line)</td></tr>
 <tr class="separator:a8ca94955dd4ee4617e8f7599a32a0663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f49bfc06f938f8b812335700967f628" id="r_a9f49bfc06f938f8b812335700967f628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f49bfc06f938f8b812335700967f628">WriteLine</a> (char line)</td></tr>
+<tr class="separator:a9f49bfc06f938f8b812335700967f628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa378d001b85cd5c79c520ce97699fe" id="r_afaa378d001b85cd5c79c520ce97699fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaa378d001b85cd5c79c520ce97699fe">AddRenderingCollection</a> (IEnumerable&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> &gt; value)</td></tr>
 <tr class="separator:afaa378d001b85cd5c79c520ce97699fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c1dc60e726f1129709a9f5d064aab3" id="r_a76c1dc60e726f1129709a9f5d064aab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76c1dc60e726f1129709a9f5d064aab3">RemoveRenderingCollection</a> (IEnumerable&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> &gt; value)</td></tr>
@@ -435,41 +442,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8cb9c5c73ded02d2eeb5d7ab5e419fad" name="a8cb9c5c73ded02d2eeb5d7ab5e419fad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cb9c5c73ded02d2eeb5d7ab5e419fad">&#9670;&#160;</a></span>Serialize() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.Serialize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generates a string representation of the given value. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>The value to serialize.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="af82eff30825d0c5e2826ffedef98d0e9" name="af82eff30825d0c5e2826ffedef98d0e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af82eff30825d0c5e2826ffedef98d0e9">&#9670;&#160;</a></span>Serialize() <span class="overload">[2/2]</span></h2>
+<a id="a856bf85a35611325ef1ec72bfaf6bee0" name="a856bf85a35611325ef1ec72bfaf6bee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856bf85a35611325ef1ec72bfaf6bee0">&#9670;&#160;</a></span>Serialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,7 +459,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>pretty</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>pretty</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -506,8 +480,119 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a430b9d0987a419a0315be95721df6d6e" name="a430b9d0987a419a0315be95721df6d6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430b9d0987a419a0315be95721df6d6e">&#9670;&#160;</a></span>Serialize&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string <a class="el" href="#a856bf85a35611325ef1ec72bfaf6bee0">ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.Serialize</a>&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>pretty</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to automatically serialize a struct into a JSON, always check output. Will only serialize ValueType (and ValueType array) <code>Properties</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to serialize.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>struct</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a3099a6b53120270d42e11323e1c4a563" name="a3099a6b53120270d42e11323e1c4a563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3099a6b53120270d42e11323e1c4a563">&#9670;&#160;</a></span>StructToJsonValue&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.StructToJsonValue&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to automatically serialize a struct into a JsonValue, always check output. Will only store ValueType (and ValueType array) <code>Properties</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to serialize.</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>struct</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a4a04bedb5050287c13f9b2e3bce74765" name="a4a04bedb5050287c13f9b2e3bce74765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a04bedb5050287c13f9b2e3bce74765">&#9670;&#160;</a></span>Write() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.Write </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>character</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a245cd7f270fe1be60ab2cee4a0880c8f" name="a245cd7f270fe1be60ab2cee4a0880c8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a245cd7f270fe1be60ab2cee4a0880c8f">&#9670;&#160;</a></span>Write() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a245cd7f270fe1be60ab2cee4a0880c8f">&#9670;&#160;</a></span>Write() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,7 +617,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="af074df2a42b3df533e3d67cdc86fa946" name="af074df2a42b3df533e3d67cdc86fa946"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af074df2a42b3df533e3d67cdc86fa946">&#9670;&#160;</a></span>Write() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af074df2a42b3df533e3d67cdc86fa946">&#9670;&#160;</a></span>Write() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -632,7 +717,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a91453dc2754cf2a6dd838645035b3c30" name="a91453dc2754cf2a6dd838645035b3c30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91453dc2754cf2a6dd838645035b3c30">&#9670;&#160;</a></span>WriteLine() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91453dc2754cf2a6dd838645035b3c30">&#9670;&#160;</a></span>WriteLine() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,8 +741,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f49bfc06f938f8b812335700967f628" name="a9f49bfc06f938f8b812335700967f628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f49bfc06f938f8b812335700967f628">&#9670;&#160;</a></span>WriteLine() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter.WriteLine </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>line</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8ca94955dd4ee4617e8f7599a32a0663" name="a8ca94955dd4ee4617e8f7599a32a0663"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ca94955dd4ee4617e8f7599a32a0663">&#9670;&#160;</a></span>WriteLine() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ca94955dd4ee4617e8f7599a32a0663">&#9670;&#160;</a></span>WriteLine() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

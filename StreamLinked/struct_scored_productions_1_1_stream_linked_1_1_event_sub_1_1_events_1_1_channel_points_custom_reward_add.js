@@ -20,6 +20,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "max_per_user_per_stream", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html#a89a926f379ad2ca6885a27594ce50044", null ],
     [ "prompt", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html#aae386b2918b52684f9ef17cfa21b5996", null ],
     [ "redemptions_redeemed_current_stream", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html#a7b5c64c9ece08050969829ef4e5ba242", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html#ac60c144eecf43e6a27a4d797c6e784df", null ],
     [ "should_redemptions_skip_request_queue", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html#aecf53728ff4bb1b5c66e694b49262a81", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_custom_reward_add.html#aa795ef79dc234fb9af4fa5d0043d6088", null ]
 ];

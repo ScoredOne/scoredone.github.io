@@ -1,0 +1,7 @@
+var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_attribute =
+[
+    [ "EventSubInformationAttribute", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_attribute.html#a6a8fd6ebd911eda2ffc269e2abeb01e1", null ],
+    [ "Class", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_attribute.html#a47cae93991667e755515846fa3723a02", null ],
+    [ "TwitchName", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_attribute.html#a3d1a7152ed18837e484843d488141a98", null ],
+    [ "Version", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_attribute.html#a6fceaa328dd751a036cca41882aa12ed", null ]
+];

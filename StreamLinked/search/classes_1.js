@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['badges_0',['Badges',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_badges.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
-  ['badgeversion_1',['BadgeVersion',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_i_chat_1_1_badge_version.html',1,'ScoredProductions::StreamLinked::API::Chat::IChat']]],
-  ['ban_2',['Ban',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_ban.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
-  ['banuser_3',['BanUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html',1,'ScoredProductions::StreamLinked::API::Moderation']]],
-  ['bitsbadgetier_4',['BitsBadgeTier',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_notification_1_1_bits_badge_tier.html',1,'ScoredProductions::StreamLinked::EventSub::Events::ChannelChatNotification']]],
-  ['bitsvoting_5',['BitsVoting',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_bits_voting.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
-  ['blockedterm_6',['BlockedTerm',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel']]],
-  ['blockuser_7',['BlockUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user.html',1,'ScoredProductions::StreamLinked::API::Users']]],
-  ['boundaries_8',['Boundaries',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_automod_1_1_boundaries.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel::Automod']]],
-  ['boundary_9',['Boundary',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term_1_1_terms_found_1_1_boundary.html',1,'ScoredProductions::StreamLinked::EventSub::IChannel::BlockedTerm::TermsFound']]]
+  ['badge_0',['Badge',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_badge.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['badgedata_1',['BadgeData',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html',1,'ScoredProductions::StreamLinked::IRC::Tags']]],
+  ['badgeversion_2',['BadgeVersion',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_badge_version.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]],
+  ['ban_3',['Ban',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['banuser_4',['BanUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html',1,'ScoredProductions::StreamLinked::API::Moderation']]],
+  ['bitsbadgetier_5',['BitsBadgeTier',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_bits_badge_tier.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['bitsvoting_6',['BitsVoting',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_bits_voting.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['blockedterm_7',['BlockedTerm',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_blocked_term.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['blockuser_8',['BlockUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user.html',1,'ScoredProductions::StreamLinked::API::Users']]],
+  ['boundaries_9',['Boundaries',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_boundaries.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
+  ['boundary_10',['Boundary',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_boundary.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]]
 ];

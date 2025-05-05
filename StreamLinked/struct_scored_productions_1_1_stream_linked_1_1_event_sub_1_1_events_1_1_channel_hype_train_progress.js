@@ -10,6 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#a14b18e7ad4e21fe16ee4e0fa1215d1a6", null ],
     [ "is_golden_kappa_train", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#a122ea2336a39d3077d30f76dd6d9434e", null ],
     [ "level", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#adbb3d4df047952a58a248c4aa124e6d3", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#ae08af282d4166110fe4907616f471261", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#a3a04a57bed77486eeb4744fb9c583778", null ],
     [ "top_contributions", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#aca867341fc2aa180a8e5718c86db1008", null ],
     [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_hype_train_progress.html#a18fd0f203fd1ded371454f376249fccc", null ]

@@ -11,5 +11,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_shield_mode_status.html#a71ad958a71c55d5369b95847894a4327", null ],
     [ "moderator_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_shield_mode_status.html#acb007727eee226dbaa1f75a56a39ad57", null ],
     [ "moderator_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_shield_mode_status.html#a8e6a5fcc2d305eed4a5980ceb0d94320", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_shield_mode_status.html#a2c99484f820efa8142b05b62a10c6332", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_shield_mode_status.html#a65e674277b3d8c352c5fcc06a1ca6b50", null ]
 ];

@@ -11,5 +11,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_game
     [ "IGDB_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_games.html#a13969ab4d5be0302ef4043d7e768fc89", null ],
     [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_games.html#a8731a8eabae8eaf83b920a22c0647977", null ],
     [ "NAME", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_games.html#a0a005c9dc68f606628e4687d294dce2c", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_games.html#a2a1d56aa4e39c8b3964157b8281a7987", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_games_1_1_get_games.html#a06f3efb8891c4fb4351bda49e0612aad", null ]
 ];

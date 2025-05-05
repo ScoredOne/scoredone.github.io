@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -95,7 +95,6 @@ $(function(){initNavTree('struct_scored_productions_1_1_stream_linked_1_1_i_r_c_
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -114,115 +113,162 @@ Inheritance diagram for ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE:</div
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params.html">Message_Params</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_source_data.html">SourceData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa827969370e3697b910760dc3d367acc" id="r_aa827969370e3697b910760dc3d367acc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa827969370e3697b910760dc3d367acc">MsgID</a> : byte { <br />
-&#160;&#160;<a class="el" href="#aa827969370e3697b910760dc3d367acca8a68dc3e925eacf92633be230722a140">sub</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367acca9d97b912469b048cdbc68c614452d69b">resub</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367accad3b08955ee10b7004e8cb849d283d903">subgift</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367acca0f95b3d0f6e090e9c505feafd7f45d7c">submysterygift</a>
+<tr class="memitem:ab29575779574b432801a64a8bdf33a14" id="r_ab29575779574b432801a64a8bdf33a14"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab29575779574b432801a64a8bdf33a14">MsgIDEnum</a> : byte { <br />
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14a8a68dc3e925eacf92633be230722a140">sub</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a9d97b912469b048cdbc68c614452d69b">resub</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ad3b08955ee10b7004e8cb849d283d903">subgift</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a0f95b3d0f6e090e9c505feafd7f45d7c">submysterygift</a>
 , <br />
-&#160;&#160;<a class="el" href="#aa827969370e3697b910760dc3d367accac4b4290a8349e0d56d414f04ffb0abcf">giftpaidupgrade</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367accac2636249a97960f8945a9f596ab3709b">rewardgift</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367acca65beb5b66993a3d3f6b42d70c39ec404">anongiftpaidupgrade</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367acca7f57eed2a8e5a2a3c7d70f2efd09bd37">raid</a>
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14ac4b4290a8349e0d56d414f04ffb0abcf">giftpaidupgrade</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ac2636249a97960f8945a9f596ab3709b">rewardgift</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a65beb5b66993a3d3f6b42d70c39ec404">anongiftpaidupgrade</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a7f57eed2a8e5a2a3c7d70f2efd09bd37">raid</a>
 , <br />
-&#160;&#160;<a class="el" href="#aa827969370e3697b910760dc3d367accaaec4575980c875fbfc049565c52344c5">unraid</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367accace9060fbe1c563dd84a898d8b6a37bfb">ritual</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367accadd3dbb7c9b49fa460329b3c84d2e67f1">bitsbadgetier</a>
-, <a class="el" href="#aa827969370e3697b910760dc3d367accabc3dbb075fb2697c578036520fe3e204">sharedchatnotice</a>
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14aaec4575980c875fbfc049565c52344c5">unraid</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb">ritual</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1">bitsbadgetier</a>
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204">sharedchatnotice</a>
 <br />
  }</td></tr>
-<tr class="separator:aa827969370e3697b910760dc3d367acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ab29575779574b432801a64a8bdf33a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a012a5632b80685b52ac52dbd5939456f" id="r_a012a5632b80685b52ac52dbd5939456f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a012a5632b80685b52ac52dbd5939456f">USERNOTICE</a> (IReadOnlyDictionary&lt; string, string &gt; tags, string chatMessage)</td></tr>
-<tr class="separator:a012a5632b80685b52ac52dbd5939456f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef71b8dacfca298f70b145a6b3892b3" id="r_adef71b8dacfca298f70b145a6b3892b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef71b8dacfca298f70b145a6b3892b3">USERNOTICE</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> tags, string chatMessage)</td></tr>
+<tr class="separator:adef71b8dacfca298f70b145a6b3892b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4253d0926a8c5fca5be52201ab1126b4" id="r_a4253d0926a8c5fca5be52201ab1126b4"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#a4253d0926a8c5fca5be52201ab1126b4">ExtractTags</a> (string source, <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> command, string defaultValue=&quot;&quot;)</td></tr>
-<tr class="separator:a4253d0926a8c5fca5be52201ab1126b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8b50317c334456e5da9f7367c4ae82" id="r_afb8b50317c334456e5da9f7367c4ae82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#afb8b50317c334456e5da9f7367c4ae82">ExtractTags</a> (string source, <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> command, string defaultValue=&quot;&quot;)</td></tr>
+<tr class="separator:afb8b50317c334456e5da9f7367c4ae82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72483be0902dad8b2e785dac74739fdc" id="r_a72483be0902dad8b2e785dac74739fdc"><td class="memItemLeft" align="right" valign="top">static SortedSet&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#a72483be0902dad8b2e785dac74739fdc">ExtractEmotes</a> (string emoteString, string chatMessage)</td></tr>
 <tr class="separator:a72483be0902dad8b2e785dac74739fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c4f5ff3c9e84917191c40ade4fb849" id="r_a59c4f5ff3c9e84917191c40ade4fb849"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#a59c4f5ff3c9e84917191c40ade4fb849">ExtractEmotes</a> (string emoteString, string chatMessage, out <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[] Emotes)</td></tr>
+<tr class="memdesc:a59c4f5ff3c9e84917191c40ade4fb849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pre-sorted array of emote positions.  <br /></td></tr>
+<tr class="separator:a59c4f5ff3c9e84917191c40ade4fb849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13b8f49641b866bf21e12b26af2cd1c3" id="r_a13b8f49641b866bf21e12b26af2cd1c3"><td class="memItemLeft" align="right" valign="top">static List&lt;(string, int)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#a13b8f49641b866bf21e12b26af2cd1c3">ExtractBadges</a> (string badgeString)</td></tr>
 <tr class="separator:a13b8f49641b866bf21e12b26af2cd1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae7fbf282eede040478654a55311696" id="r_afae7fbf282eede040478654a55311696"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#afae7fbf282eede040478654a55311696">ExtractBadges</a> (string badgeString, out <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a>[] Badges)</td></tr>
+<tr class="memdesc:afae7fbf282eede040478654a55311696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process badges into seperate containers.  <br /></td></tr>
+<tr class="separator:afae7fbf282eede040478654a55311696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a967b961c1f713ce68d0e04272420af5d" id="r_a967b961c1f713ce68d0e04272420af5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#a6622444be5269019f081ccbdf6001877">TwitchUserPerm</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a967b961c1f713ce68d0e04272420af5d">permissions</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a967b961c1f713ce68d0e04272420af5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61052ba131b7308944a10beb92f36ad9" id="r_a61052ba131b7308944a10beb92f36ad9"><td class="memItemLeft" align="right" valign="top">int?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61052ba131b7308944a10beb92f36ad9">monthsSubscribed</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a61052ba131b7308944a10beb92f36ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae59955d031c12b08d1ae08fac9d132fe" id="r_ae59955d031c12b08d1ae08fac9d132fe"><td class="memItemLeft" align="right" valign="top">List&lt;(string name, int version)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59955d031c12b08d1ae08fac9d132fe">badges</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ae59955d031c12b08d1ae08fac9d132fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae51e1bfd74008b60caa60081428d9e46" id="r_ae51e1bfd74008b60caa60081428d9e46"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae51e1bfd74008b60caa60081428d9e46">colour</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ae51e1bfd74008b60caa60081428d9e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada1cd6a7465880e23c89788b8528051e" id="r_ada1cd6a7465880e23c89788b8528051e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada1cd6a7465880e23c89788b8528051e">displayName</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ada1cd6a7465880e23c89788b8528051e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa33bccb1c9137a60c37b5dfaa7f55dc" id="r_aaa33bccb1c9137a60c37b5dfaa7f55dc"><td class="memItemLeft" align="right" valign="top">SortedSet&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa33bccb1c9137a60c37b5dfaa7f55dc">emotes</a><code> [get, private set]</code></td></tr>
-<tr class="separator:aaa33bccb1c9137a60c37b5dfaa7f55dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674a73574400422dccf902f5ea26e62d" id="r_a674a73574400422dccf902f5ea26e62d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a674a73574400422dccf902f5ea26e62d">id</a><code> [get, private set]</code></td></tr>
+<tr class="memitem:a387047cfa518e2753ea4fad076c5f858" id="r_a387047cfa518e2753ea4fad076c5f858"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a387047cfa518e2753ea4fad076c5f858">badge_info</a><code> [get, set]</code></td></tr>
+<tr class="separator:a387047cfa518e2753ea4fad076c5f858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcea28445ca97474a6515b8b6dbfabbf" id="r_afcea28445ca97474a6515b8b6dbfabbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcea28445ca97474a6515b8b6dbfabbf">badges</a><code> [get, set]</code></td></tr>
+<tr class="separator:afcea28445ca97474a6515b8b6dbfabbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea633379d2e7abef4cae85f983c8a7f" id="r_acea633379d2e7abef4cae85f983c8a7f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acea633379d2e7abef4cae85f983c8a7f">color</a><code> [get, set]</code></td></tr>
+<tr class="separator:acea633379d2e7abef4cae85f983c8a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ec568ec18915b9f5ed7831c88dc2ac" id="r_af0ec568ec18915b9f5ed7831c88dc2ac"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ec568ec18915b9f5ed7831c88dc2ac">display_name</a><code> [get, set]</code></td></tr>
+<tr class="separator:af0ec568ec18915b9f5ed7831c88dc2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978e7bf2b88da61572cb2221eb56034d" id="r_a978e7bf2b88da61572cb2221eb56034d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a978e7bf2b88da61572cb2221eb56034d">emotes</a><code> [get, set]</code></td></tr>
+<tr class="separator:a978e7bf2b88da61572cb2221eb56034d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674a73574400422dccf902f5ea26e62d" id="r_a674a73574400422dccf902f5ea26e62d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a674a73574400422dccf902f5ea26e62d">id</a><code> [get, set]</code></td></tr>
 <tr class="separator:a674a73574400422dccf902f5ea26e62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac802c489aea3dd54a8af1389810af664" id="r_ac802c489aea3dd54a8af1389810af664"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac802c489aea3dd54a8af1389810af664">login</a><code> [get, private set]</code></td></tr>
+<tr class="memitem:ac802c489aea3dd54a8af1389810af664" id="r_ac802c489aea3dd54a8af1389810af664"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac802c489aea3dd54a8af1389810af664">login</a><code> [get, set]</code></td></tr>
 <tr class="separator:ac802c489aea3dd54a8af1389810af664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a617aa17c2b419afa8ba5b17a18980940" id="r_a617aa17c2b419afa8ba5b17a18980940"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa827969370e3697b910760dc3d367acc">MsgID</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a617aa17c2b419afa8ba5b17a18980940">msg_ID</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a617aa17c2b419afa8ba5b17a18980940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df18fd0dedff54f0f411477c07c3fb1" id="r_a5df18fd0dedff54f0f411477c07c3fb1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5df18fd0dedff54f0f411477c07c3fb1">roomId</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a5df18fd0dedff54f0f411477c07c3fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654194b8d6f94c81681456593e615ee2" id="r_a654194b8d6f94c81681456593e615ee2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654194b8d6f94c81681456593e615ee2">system_msg</a><code> [get, private set]</code></td></tr>
+<tr class="memitem:a93add6b641586f2d1b8dec0bf6367150" id="r_a93add6b641586f2d1b8dec0bf6367150"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93add6b641586f2d1b8dec0bf6367150">mod</a><code> [get, set]</code></td></tr>
+<tr class="separator:a93add6b641586f2d1b8dec0bf6367150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1afb59cc10b9c03a6b368f6aabfccf" id="r_a0e1afb59cc10b9c03a6b368f6aabfccf"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e1afb59cc10b9c03a6b368f6aabfccf">msg_id</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0e1afb59cc10b9c03a6b368f6aabfccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef204074118414a2122a218a24264d1" id="r_a8ef204074118414a2122a218a24264d1"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="#ab29575779574b432801a64a8bdf33a14">MsgIDEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ef204074118414a2122a218a24264d1">MessageID</a><code> [get]</code></td></tr>
+<tr class="separator:a8ef204074118414a2122a218a24264d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4cecf6b516fff09e63d2d1c900f472" id="r_a9d4cecf6b516fff09e63d2d1c900f472"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d4cecf6b516fff09e63d2d1c900f472">room_id</a><code> [get, set]</code></td></tr>
+<tr class="separator:a9d4cecf6b516fff09e63d2d1c900f472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34fdb0c034fbb0b8c33557983e492f7" id="r_ab34fdb0c034fbb0b8c33557983e492f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab34fdb0c034fbb0b8c33557983e492f7">source_badges</a><code> [get, set]</code></td></tr>
+<tr class="separator:ab34fdb0c034fbb0b8c33557983e492f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb39d4fe534d5e1d679cd2f42d644e9" id="r_a6fb39d4fe534d5e1d679cd2f42d644e9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb39d4fe534d5e1d679cd2f42d644e9">source_badge_info</a><code> [get, set]</code></td></tr>
+<tr class="separator:a6fb39d4fe534d5e1d679cd2f42d644e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed870cc32e1b285419b00cf537e82bcc" id="r_aed870cc32e1b285419b00cf537e82bcc"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed870cc32e1b285419b00cf537e82bcc">source_id</a><code> [get, set]</code></td></tr>
+<tr class="separator:aed870cc32e1b285419b00cf537e82bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b56f67a8887980f7fe53df90654bd5" id="r_a20b56f67a8887980f7fe53df90654bd5"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20b56f67a8887980f7fe53df90654bd5">source_room_id</a><code> [get, set]</code></td></tr>
+<tr class="separator:a20b56f67a8887980f7fe53df90654bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02557fd692dd665e17f0ddef76b67cb6" id="r_a02557fd692dd665e17f0ddef76b67cb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02557fd692dd665e17f0ddef76b67cb6">subscriber</a><code> [get, set]</code></td></tr>
+<tr class="separator:a02557fd692dd665e17f0ddef76b67cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654194b8d6f94c81681456593e615ee2" id="r_a654194b8d6f94c81681456593e615ee2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654194b8d6f94c81681456593e615ee2">system_msg</a><code> [get, set]</code></td></tr>
 <tr class="separator:a654194b8d6f94c81681456593e615ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae60706034c779311b22aac5159cbb864" id="r_ae60706034c779311b22aac5159cbb864"><td class="memItemLeft" align="right" valign="top">DateTime?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae60706034c779311b22aac5159cbb864">timestampDate</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ae60706034c779311b22aac5159cbb864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a8be1c6cee53147aff7f8b19c33f55" id="r_ab1a8be1c6cee53147aff7f8b19c33f55"><td class="memItemLeft" align="right" valign="top">bool?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1a8be1c6cee53147aff7f8b19c33f55">turbo</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ab1a8be1c6cee53147aff7f8b19c33f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228ce1d3d9c530d57d6ae38c7f815c58" id="r_a228ce1d3d9c530d57d6ae38c7f815c58"><td class="memItemLeft" align="right" valign="top">long?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a228ce1d3d9c530d57d6ae38c7f815c58">userId</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a228ce1d3d9c530d57d6ae38c7f815c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b3ac38e1099b7dae959be003f1cd645" id="r_a2b3ac38e1099b7dae959be003f1cd645"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params.html">Message_Params</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b3ac38e1099b7dae959be003f1cd645">msg_param</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a2b3ac38e1099b7dae959be003f1cd645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad42df172334afaaa8a5b4862b027cece" id="r_ad42df172334afaaa8a5b4862b027cece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_source_data.html">SourceData</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad42df172334afaaa8a5b4862b027cece">sourceData</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ad42df172334afaaa8a5b4862b027cece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18621d68e5292106ff251d5db19fd1e" id="r_ae18621d68e5292106ff251d5db19fd1e"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae18621d68e5292106ff251d5db19fd1e">tmi_sent_ts</a><code> [get, set]</code></td></tr>
+<tr class="separator:ae18621d68e5292106ff251d5db19fd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ccc9c1d13be6a212a963782c7019b6" id="r_a18ccc9c1d13be6a212a963782c7019b6"><td class="memItemLeft" align="right" valign="top">readonly DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18ccc9c1d13be6a212a963782c7019b6">TimestampDate</a><code> [get]</code></td></tr>
+<tr class="separator:a18ccc9c1d13be6a212a963782c7019b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b24d6ad2bcab74ff5ccc65406c77031" id="r_a6b24d6ad2bcab74ff5ccc65406c77031"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b24d6ad2bcab74ff5ccc65406c77031">turbo</a><code> [get, set]</code></td></tr>
+<tr class="separator:a6b24d6ad2bcab74ff5ccc65406c77031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775ba786321fcc838661183cc064de9e" id="r_a775ba786321fcc838661183cc064de9e"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775ba786321fcc838661183cc064de9e">user_id</a><code> [get, set]</code></td></tr>
+<tr class="separator:a775ba786321fcc838661183cc064de9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c8801167507caddc659babada0d2f7" id="r_a06c8801167507caddc659babada0d2f7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06c8801167507caddc659babada0d2f7">user_type</a><code> [get, set]</code></td></tr>
+<tr class="separator:a06c8801167507caddc659babada0d2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76578a11553f3f05eeb3dda85f7020e6" id="r_a76578a11553f3f05eeb3dda85f7020e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76578a11553f3f05eeb3dda85f7020e6">msg_param_cumulative_months</a><code> [get, set]</code></td></tr>
+<tr class="separator:a76578a11553f3f05eeb3dda85f7020e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9104c86bf12d297cef316b497e484ff" id="r_af9104c86bf12d297cef316b497e484ff"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9104c86bf12d297cef316b497e484ff">msg_param_displayName</a><code> [get, set]</code></td></tr>
+<tr class="separator:af9104c86bf12d297cef316b497e484ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c88437ddb4eb3d0b712215c2333f82" id="r_a42c88437ddb4eb3d0b712215c2333f82"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c88437ddb4eb3d0b712215c2333f82">msg_param_login</a><code> [get, set]</code></td></tr>
+<tr class="separator:a42c88437ddb4eb3d0b712215c2333f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2b3c60e20de4aa0feed28f584bbb8c" id="r_ada2b3c60e20de4aa0feed28f584bbb8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada2b3c60e20de4aa0feed28f584bbb8c">msg_param_months</a><code> [get, set]</code></td></tr>
+<tr class="separator:ada2b3c60e20de4aa0feed28f584bbb8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543818bd51249c71ead4a34e6c7afc92" id="r_a543818bd51249c71ead4a34e6c7afc92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a543818bd51249c71ead4a34e6c7afc92">msg_param_promo_gift_total</a><code> [get, set]</code></td></tr>
+<tr class="separator:a543818bd51249c71ead4a34e6c7afc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a361e08f8d556b558b6791e4aaf460cbe" id="r_a361e08f8d556b558b6791e4aaf460cbe"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a361e08f8d556b558b6791e4aaf460cbe">msg_param_promo_name</a><code> [get, set]</code></td></tr>
+<tr class="separator:a361e08f8d556b558b6791e4aaf460cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24cd366e60c94c391af3dc67a1a86778" id="r_a24cd366e60c94c391af3dc67a1a86778"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24cd366e60c94c391af3dc67a1a86778">msg_param_recipient_display_name</a><code> [get, set]</code></td></tr>
+<tr class="separator:a24cd366e60c94c391af3dc67a1a86778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86261a4ba3d483852af548e6faed14f9" id="r_a86261a4ba3d483852af548e6faed14f9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86261a4ba3d483852af548e6faed14f9">msg_param_recipient_id</a><code> [get, set]</code></td></tr>
+<tr class="separator:a86261a4ba3d483852af548e6faed14f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e167e6b3453830c0a19055bb4c63dd" id="r_a46e167e6b3453830c0a19055bb4c63dd"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e167e6b3453830c0a19055bb4c63dd">msg_param_recipient_user_name</a><code> [get, set]</code></td></tr>
+<tr class="separator:a46e167e6b3453830c0a19055bb4c63dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c9324a1914ea3b4a3363e7ea4c18d5" id="r_a99c9324a1914ea3b4a3363e7ea4c18d5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c9324a1914ea3b4a3363e7ea4c18d5">msg_param_sender_login</a><code> [get, set]</code></td></tr>
+<tr class="separator:a99c9324a1914ea3b4a3363e7ea4c18d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a456bb7a7a29823c2a0621f1daba94207" id="r_a456bb7a7a29823c2a0621f1daba94207"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a456bb7a7a29823c2a0621f1daba94207">msg_param_sender_name</a><code> [get, set]</code></td></tr>
+<tr class="separator:a456bb7a7a29823c2a0621f1daba94207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a2b530ddb46ea421a191a3c66f37a60" id="r_a4a2b530ddb46ea421a191a3c66f37a60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a2b530ddb46ea421a191a3c66f37a60">msg_param_should_share_streak</a><code> [get, set]</code></td></tr>
+<tr class="separator:a4a2b530ddb46ea421a191a3c66f37a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696b5ade571b3da847d0746fff5357b5" id="r_a696b5ade571b3da847d0746fff5357b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a696b5ade571b3da847d0746fff5357b5">msg_param_streak_months</a><code> [get, set]</code></td></tr>
+<tr class="separator:a696b5ade571b3da847d0746fff5357b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0a52fa7ca1c12f91fb008585a09259" id="r_a2c0a52fa7ca1c12f91fb008585a09259"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c0a52fa7ca1c12f91fb008585a09259">msg_param_sub_plan</a><code> [get, set]</code></td></tr>
+<tr class="separator:a2c0a52fa7ca1c12f91fb008585a09259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e825913cc01677292d3410f9ae06ec2" id="r_a1e825913cc01677292d3410f9ae06ec2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e825913cc01677292d3410f9ae06ec2">msg_param_sub_plan_name</a><code> [get, set]</code></td></tr>
+<tr class="separator:a1e825913cc01677292d3410f9ae06ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac91a8c5a4e953029c32d3792709c0f2d" id="r_ac91a8c5a4e953029c32d3792709c0f2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac91a8c5a4e953029c32d3792709c0f2d">msg_param_viewerCount</a><code> [get, set]</code></td></tr>
+<tr class="separator:ac91a8c5a4e953029c32d3792709c0f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af546e04edb90afadd3bd9fe47123ca86" id="r_af546e04edb90afadd3bd9fe47123ca86"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af546e04edb90afadd3bd9fe47123ca86">msg_param_threshold</a><code> [get, set]</code></td></tr>
+<tr class="separator:af546e04edb90afadd3bd9fe47123ca86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d72ed56397636897f848bec7e2624ff" id="r_a6d72ed56397636897f848bec7e2624ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d72ed56397636897f848bec7e2624ff">msg_param_gift_months</a><code> [get, set]</code></td></tr>
+<tr class="separator:a6d72ed56397636897f848bec7e2624ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="aa827969370e3697b910760dc3d367acc" name="aa827969370e3697b910760dc3d367acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa827969370e3697b910760dc3d367acc">&#9670;&#160;</a></span>MsgID</h2>
+<a id="ab29575779574b432801a64a8bdf33a14" name="ab29575779574b432801a64a8bdf33a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab29575779574b432801a64a8bdf33a14">&#9670;&#160;</a></span>MsgIDEnum</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="#aa827969370e3697b910760dc3d367acc">ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.MsgID</a> : byte</td>
+          <td class="memname">enum <a class="el" href="#ab29575779574b432801a64a8bdf33a14">ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.MsgIDEnum</a> : byte</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367acca8a68dc3e925eacf92633be230722a140" name="aa827969370e3697b910760dc3d367acca8a68dc3e925eacf92633be230722a140"></a>sub&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367acca9d97b912469b048cdbc68c614452d69b" name="aa827969370e3697b910760dc3d367acca9d97b912469b048cdbc68c614452d69b"></a>resub&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accad3b08955ee10b7004e8cb849d283d903" name="aa827969370e3697b910760dc3d367accad3b08955ee10b7004e8cb849d283d903"></a>subgift&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367acca0f95b3d0f6e090e9c505feafd7f45d7c" name="aa827969370e3697b910760dc3d367acca0f95b3d0f6e090e9c505feafd7f45d7c"></a>submysterygift&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accac4b4290a8349e0d56d414f04ffb0abcf" name="aa827969370e3697b910760dc3d367accac4b4290a8349e0d56d414f04ffb0abcf"></a>giftpaidupgrade&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accac2636249a97960f8945a9f596ab3709b" name="aa827969370e3697b910760dc3d367accac2636249a97960f8945a9f596ab3709b"></a>rewardgift&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367acca65beb5b66993a3d3f6b42d70c39ec404" name="aa827969370e3697b910760dc3d367acca65beb5b66993a3d3f6b42d70c39ec404"></a>anongiftpaidupgrade&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367acca7f57eed2a8e5a2a3c7d70f2efd09bd37" name="aa827969370e3697b910760dc3d367acca7f57eed2a8e5a2a3c7d70f2efd09bd37"></a>raid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accaaec4575980c875fbfc049565c52344c5" name="aa827969370e3697b910760dc3d367accaaec4575980c875fbfc049565c52344c5"></a>unraid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accace9060fbe1c563dd84a898d8b6a37bfb" name="aa827969370e3697b910760dc3d367accace9060fbe1c563dd84a898d8b6a37bfb"></a>ritual&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accadd3dbb7c9b49fa460329b3c84d2e67f1" name="aa827969370e3697b910760dc3d367accadd3dbb7c9b49fa460329b3c84d2e67f1"></a>bitsbadgetier&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa827969370e3697b910760dc3d367accabc3dbb075fb2697c578036520fe3e204" name="aa827969370e3697b910760dc3d367accabc3dbb075fb2697c578036520fe3e204"></a>sharedchatnotice&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14a8a68dc3e925eacf92633be230722a140" name="ab29575779574b432801a64a8bdf33a14a8a68dc3e925eacf92633be230722a140"></a>sub&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14a9d97b912469b048cdbc68c614452d69b" name="ab29575779574b432801a64a8bdf33a14a9d97b912469b048cdbc68c614452d69b"></a>resub&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14ad3b08955ee10b7004e8cb849d283d903" name="ab29575779574b432801a64a8bdf33a14ad3b08955ee10b7004e8cb849d283d903"></a>subgift&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14a0f95b3d0f6e090e9c505feafd7f45d7c" name="ab29575779574b432801a64a8bdf33a14a0f95b3d0f6e090e9c505feafd7f45d7c"></a>submysterygift&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14ac4b4290a8349e0d56d414f04ffb0abcf" name="ab29575779574b432801a64a8bdf33a14ac4b4290a8349e0d56d414f04ffb0abcf"></a>giftpaidupgrade&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14ac2636249a97960f8945a9f596ab3709b" name="ab29575779574b432801a64a8bdf33a14ac2636249a97960f8945a9f596ab3709b"></a>rewardgift&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14a65beb5b66993a3d3f6b42d70c39ec404" name="ab29575779574b432801a64a8bdf33a14a65beb5b66993a3d3f6b42d70c39ec404"></a>anongiftpaidupgrade&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14a7f57eed2a8e5a2a3c7d70f2efd09bd37" name="ab29575779574b432801a64a8bdf33a14a7f57eed2a8e5a2a3c7d70f2efd09bd37"></a>raid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14aaec4575980c875fbfc049565c52344c5" name="ab29575779574b432801a64a8bdf33a14aaec4575980c875fbfc049565c52344c5"></a>unraid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb" name="ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb"></a>ritual&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1" name="ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1"></a>bitsbadgetier&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204" name="ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204"></a>sharedchatnotice&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a012a5632b80685b52ac52dbd5939456f" name="a012a5632b80685b52ac52dbd5939456f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a012a5632b80685b52ac52dbd5939456f">&#9670;&#160;</a></span>USERNOTICE()</h2>
+<a id="adef71b8dacfca298f70b145a6b3892b3" name="adef71b8dacfca298f70b145a6b3892b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef71b8dacfca298f70b145a6b3892b3">&#9670;&#160;</a></span>USERNOTICE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +276,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.USERNOTICE </td>
           <td>(</td>
-          <td class="paramtype">IReadOnlyDictionary&lt; string, string &gt;</td>          <td class="paramname"><span class="paramname"><em>tags</em>, </span></td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a></td>          <td class="paramname"><span class="paramname"><em>tags</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -244,7 +290,7 @@ Properties</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a13b8f49641b866bf21e12b26af2cd1c3" name="a13b8f49641b866bf21e12b26af2cd1c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13b8f49641b866bf21e12b26af2cd1c3">&#9670;&#160;</a></span>ExtractBadges()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b8f49641b866bf21e12b26af2cd1c3">&#9670;&#160;</a></span>ExtractBadges() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,8 +314,47 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="afae7fbf282eede040478654a55311696" name="afae7fbf282eede040478654a55311696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae7fbf282eede040478654a55311696">&#9670;&#160;</a></span>ExtractBadges() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ScoredProductions.StreamLinked.IRC.Tags.ITagContainer.ExtractBadges </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>badgeString</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a>[]</td>          <td class="paramname"><span class="paramname"><em>Badges</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Process badges into seperate containers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">badgeString</td><td></td></tr>
+    <tr><td class="paramname">Badges</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>badges &gt; 0</dd></dl>
+
+</div>
+</div>
 <a id="a72483be0902dad8b2e785dac74739fdc" name="a72483be0902dad8b2e785dac74739fdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72483be0902dad8b2e785dac74739fdc">&#9670;&#160;</a></span>ExtractEmotes()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72483be0902dad8b2e785dac74739fdc">&#9670;&#160;</a></span>ExtractEmotes() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,8 +382,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4253d0926a8c5fca5be52201ab1126b4" name="a4253d0926a8c5fca5be52201ab1126b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4253d0926a8c5fca5be52201ab1126b4">&#9670;&#160;</a></span>ExtractTags()</h2>
+<a id="a59c4f5ff3c9e84917191c40ade4fb849" name="a59c4f5ff3c9e84917191c40ade4fb849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59c4f5ff3c9e84917191c40ade4fb849">&#9670;&#160;</a></span>ExtractEmotes() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +392,52 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Dictionary&lt; string, string &gt; ScoredProductions.StreamLinked.IRC.Tags.ITagContainer.ExtractTags </td>
+          <td class="memname">static bool ScoredProductions.StreamLinked.IRC.Tags.ITagContainer.ExtractEmotes </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>emoteString</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>chatMessage</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[]</td>          <td class="paramname"><span class="paramname"><em>Emotes</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pre-sorted array of emote positions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">emoteString</td><td></td></tr>
+    <tr><td class="paramname">chatMessage</td><td></td></tr>
+    <tr><td class="paramname">Emotes</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Emotes &gt; 0</dd></dl>
+
+</div>
+</div>
+<a id="afb8b50317c334456e5da9f7367c4ae82" name="afb8b50317c334456e5da9f7367c4ae82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8b50317c334456e5da9f7367c4ae82">&#9670;&#160;</a></span>ExtractTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> ScoredProductions.StreamLinked.IRC.Tags.ITagContainer.ExtractTags </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>source</em>, </span></td>
         </tr>
@@ -332,8 +462,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="ae59955d031c12b08d1ae08fac9d132fe" name="ae59955d031c12b08d1ae08fac9d132fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae59955d031c12b08d1ae08fac9d132fe">&#9670;&#160;</a></span>badges</h2>
+<a id="a387047cfa518e2753ea4fad076c5f858" name="a387047cfa518e2753ea4fad076c5f858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a387047cfa518e2753ea4fad076c5f858">&#9670;&#160;</a></span>badge_info</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,20 +472,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;(string name, int version)&gt; ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.badges</td>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.badge_info</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae51e1bfd74008b60caa60081428d9e46" name="ae51e1bfd74008b60caa60081428d9e46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae51e1bfd74008b60caa60081428d9e46">&#9670;&#160;</a></span>colour</h2>
+<a id="afcea28445ca97474a6515b8b6dbfabbf" name="afcea28445ca97474a6515b8b6dbfabbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcea28445ca97474a6515b8b6dbfabbf">&#9670;&#160;</a></span>badges</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,20 +494,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.colour</td>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a> [] ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.badges</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ada1cd6a7465880e23c89788b8528051e" name="ada1cd6a7465880e23c89788b8528051e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada1cd6a7465880e23c89788b8528051e">&#9670;&#160;</a></span>displayName</h2>
+<a id="acea633379d2e7abef4cae85f983c8a7f" name="acea633379d2e7abef4cae85f983c8a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea633379d2e7abef4cae85f983c8a7f">&#9670;&#160;</a></span>color</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,20 +516,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.displayName</td>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.color</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aaa33bccb1c9137a60c37b5dfaa7f55dc" name="aaa33bccb1c9137a60c37b5dfaa7f55dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa33bccb1c9137a60c37b5dfaa7f55dc">&#9670;&#160;</a></span>emotes</h2>
+<a id="af0ec568ec18915b9f5ed7831c88dc2ac" name="af0ec568ec18915b9f5ed7831c88dc2ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ec568ec18915b9f5ed7831c88dc2ac">&#9670;&#160;</a></span>display_name</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -408,12 +538,34 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SortedSet&lt;<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>&gt; ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.emotes</td>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.display_name</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a978e7bf2b88da61572cb2221eb56034d" name="a978e7bf2b88da61572cb2221eb56034d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978e7bf2b88da61572cb2221eb56034d">&#9670;&#160;</a></span>emotes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> [] ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.emotes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -435,7 +587,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -457,15 +609,15 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a61052ba131b7308944a10beb92f36ad9" name="a61052ba131b7308944a10beb92f36ad9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61052ba131b7308944a10beb92f36ad9">&#9670;&#160;</a></span>monthsSubscribed</h2>
+<a id="a8ef204074118414a2122a218a24264d1" name="a8ef204074118414a2122a218a24264d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ef204074118414a2122a218a24264d1">&#9670;&#160;</a></span>MessageID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,20 +626,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.monthsSubscribed</td>
+          <td class="memname">readonly <a class="el" href="#ab29575779574b432801a64a8bdf33a14">MsgIDEnum</a> ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.MessageID</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a617aa17c2b419afa8ba5b17a18980940" name="a617aa17c2b419afa8ba5b17a18980940"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a617aa17c2b419afa8ba5b17a18980940">&#9670;&#160;</a></span>msg_ID</h2>
+<a id="a93add6b641586f2d1b8dec0bf6367150" name="a93add6b641586f2d1b8dec0bf6367150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93add6b641586f2d1b8dec0bf6367150">&#9670;&#160;</a></span>mod</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,20 +648,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aa827969370e3697b910760dc3d367acc">MsgID</a>? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_ID</td>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.mod</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2b3ac38e1099b7dae959be003f1cd645" name="a2b3ac38e1099b7dae959be003f1cd645"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b3ac38e1099b7dae959be003f1cd645">&#9670;&#160;</a></span>msg_param</h2>
+<a id="a0e1afb59cc10b9c03a6b368f6aabfccf" name="a0e1afb59cc10b9c03a6b368f6aabfccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1afb59cc10b9c03a6b368f6aabfccf">&#9670;&#160;</a></span>msg_id</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,20 +670,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_message___params.html">Message_Params</a>? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param</td>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_id</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a967b961c1f713ce68d0e04272420af5d" name="a967b961c1f713ce68d0e04272420af5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a967b961c1f713ce68d0e04272420af5d">&#9670;&#160;</a></span>permissions</h2>
+<a id="a76578a11553f3f05eeb3dda85f7020e6" name="a76578a11553f3f05eeb3dda85f7020e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76578a11553f3f05eeb3dda85f7020e6">&#9670;&#160;</a></span>msg_param_cumulative_months</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,20 +692,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#a6622444be5269019f081ccbdf6001877">TwitchUserPerm</a> ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.permissions</td>
+          <td class="memname">int ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_cumulative_months</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5df18fd0dedff54f0f411477c07c3fb1" name="a5df18fd0dedff54f0f411477c07c3fb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5df18fd0dedff54f0f411477c07c3fb1">&#9670;&#160;</a></span>roomId</h2>
+<a id="af9104c86bf12d297cef316b497e484ff" name="af9104c86bf12d297cef316b497e484ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9104c86bf12d297cef316b497e484ff">&#9670;&#160;</a></span>msg_param_displayName</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,20 +714,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.roomId</td>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_displayName</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad42df172334afaaa8a5b4862b027cece" name="ad42df172334afaaa8a5b4862b027cece"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad42df172334afaaa8a5b4862b027cece">&#9670;&#160;</a></span>sourceData</h2>
+<a id="a6d72ed56397636897f848bec7e2624ff" name="a6d72ed56397636897f848bec7e2624ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d72ed56397636897f848bec7e2624ff">&#9670;&#160;</a></span>msg_param_gift_months</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -584,12 +736,474 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e_1_1_source_data.html">SourceData</a>? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.sourceData</td>
+          <td class="memname">int ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_gift_months</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42c88437ddb4eb3d0b712215c2333f82" name="a42c88437ddb4eb3d0b712215c2333f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42c88437ddb4eb3d0b712215c2333f82">&#9670;&#160;</a></span>msg_param_login</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_login</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada2b3c60e20de4aa0feed28f584bbb8c" name="ada2b3c60e20de4aa0feed28f584bbb8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2b3c60e20de4aa0feed28f584bbb8c">&#9670;&#160;</a></span>msg_param_months</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_months</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a543818bd51249c71ead4a34e6c7afc92" name="a543818bd51249c71ead4a34e6c7afc92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a543818bd51249c71ead4a34e6c7afc92">&#9670;&#160;</a></span>msg_param_promo_gift_total</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_promo_gift_total</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a361e08f8d556b558b6791e4aaf460cbe" name="a361e08f8d556b558b6791e4aaf460cbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a361e08f8d556b558b6791e4aaf460cbe">&#9670;&#160;</a></span>msg_param_promo_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_promo_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24cd366e60c94c391af3dc67a1a86778" name="a24cd366e60c94c391af3dc67a1a86778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24cd366e60c94c391af3dc67a1a86778">&#9670;&#160;</a></span>msg_param_recipient_display_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_recipient_display_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86261a4ba3d483852af548e6faed14f9" name="a86261a4ba3d483852af548e6faed14f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86261a4ba3d483852af548e6faed14f9">&#9670;&#160;</a></span>msg_param_recipient_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_recipient_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46e167e6b3453830c0a19055bb4c63dd" name="a46e167e6b3453830c0a19055bb4c63dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e167e6b3453830c0a19055bb4c63dd">&#9670;&#160;</a></span>msg_param_recipient_user_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_recipient_user_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99c9324a1914ea3b4a3363e7ea4c18d5" name="a99c9324a1914ea3b4a3363e7ea4c18d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c9324a1914ea3b4a3363e7ea4c18d5">&#9670;&#160;</a></span>msg_param_sender_login</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_sender_login</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a456bb7a7a29823c2a0621f1daba94207" name="a456bb7a7a29823c2a0621f1daba94207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a456bb7a7a29823c2a0621f1daba94207">&#9670;&#160;</a></span>msg_param_sender_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_sender_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a2b530ddb46ea421a191a3c66f37a60" name="a4a2b530ddb46ea421a191a3c66f37a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2b530ddb46ea421a191a3c66f37a60">&#9670;&#160;</a></span>msg_param_should_share_streak</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_should_share_streak</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a696b5ade571b3da847d0746fff5357b5" name="a696b5ade571b3da847d0746fff5357b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696b5ade571b3da847d0746fff5357b5">&#9670;&#160;</a></span>msg_param_streak_months</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_streak_months</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c0a52fa7ca1c12f91fb008585a09259" name="a2c0a52fa7ca1c12f91fb008585a09259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c0a52fa7ca1c12f91fb008585a09259">&#9670;&#160;</a></span>msg_param_sub_plan</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_sub_plan</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e825913cc01677292d3410f9ae06ec2" name="a1e825913cc01677292d3410f9ae06ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e825913cc01677292d3410f9ae06ec2">&#9670;&#160;</a></span>msg_param_sub_plan_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_sub_plan_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af546e04edb90afadd3bd9fe47123ca86" name="af546e04edb90afadd3bd9fe47123ca86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af546e04edb90afadd3bd9fe47123ca86">&#9670;&#160;</a></span>msg_param_threshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_threshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac91a8c5a4e953029c32d3792709c0f2d" name="ac91a8c5a4e953029c32d3792709c0f2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac91a8c5a4e953029c32d3792709c0f2d">&#9670;&#160;</a></span>msg_param_viewerCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.msg_param_viewerCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d4cecf6b516fff09e63d2d1c900f472" name="a9d4cecf6b516fff09e63d2d1c900f472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d4cecf6b516fff09e63d2d1c900f472">&#9670;&#160;</a></span>room_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.room_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fb39d4fe534d5e1d679cd2f42d644e9" name="a6fb39d4fe534d5e1d679cd2f42d644e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fb39d4fe534d5e1d679cd2f42d644e9">&#9670;&#160;</a></span>source_badge_info</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.source_badge_info</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab34fdb0c034fbb0b8c33557983e492f7" name="ab34fdb0c034fbb0b8c33557983e492f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34fdb0c034fbb0b8c33557983e492f7">&#9670;&#160;</a></span>source_badges</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a> [] ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.source_badges</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed870cc32e1b285419b00cf537e82bcc" name="aed870cc32e1b285419b00cf537e82bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed870cc32e1b285419b00cf537e82bcc">&#9670;&#160;</a></span>source_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.source_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20b56f67a8887980f7fe53df90654bd5" name="a20b56f67a8887980f7fe53df90654bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20b56f67a8887980f7fe53df90654bd5">&#9670;&#160;</a></span>source_room_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.source_room_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02557fd692dd665e17f0ddef76b67cb6" name="a02557fd692dd665e17f0ddef76b67cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02557fd692dd665e17f0ddef76b67cb6">&#9670;&#160;</a></span>subscriber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.subscriber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -611,15 +1225,15 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae60706034c779311b22aac5159cbb864" name="ae60706034c779311b22aac5159cbb864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae60706034c779311b22aac5159cbb864">&#9670;&#160;</a></span>timestampDate</h2>
+<a id="a18ccc9c1d13be6a212a963782c7019b6" name="a18ccc9c1d13be6a212a963782c7019b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18ccc9c1d13be6a212a963782c7019b6">&#9670;&#160;</a></span>TimestampDate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -628,20 +1242,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">DateTime? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.timestampDate</td>
+          <td class="memname">readonly DateTime ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.TimestampDate</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab1a8be1c6cee53147aff7f8b19c33f55" name="ab1a8be1c6cee53147aff7f8b19c33f55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1a8be1c6cee53147aff7f8b19c33f55">&#9670;&#160;</a></span>turbo</h2>
+<a id="ae18621d68e5292106ff251d5db19fd1e" name="ae18621d68e5292106ff251d5db19fd1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae18621d68e5292106ff251d5db19fd1e">&#9670;&#160;</a></span>tmi_sent_ts</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -650,20 +1264,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.turbo</td>
+          <td class="memname">long ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.tmi_sent_ts</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a228ce1d3d9c530d57d6ae38c7f815c58" name="a228ce1d3d9c530d57d6ae38c7f815c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a228ce1d3d9c530d57d6ae38c7f815c58">&#9670;&#160;</a></span>userId</h2>
+<a id="a6b24d6ad2bcab74ff5ccc65406c77031" name="a6b24d6ad2bcab74ff5ccc65406c77031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b24d6ad2bcab74ff5ccc65406c77031">&#9670;&#160;</a></span>turbo</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,12 +1286,56 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long? ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.userId</td>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.turbo</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a775ba786321fcc838661183cc064de9e" name="a775ba786321fcc838661183cc064de9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775ba786321fcc838661183cc064de9e">&#9670;&#160;</a></span>user_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.user_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06c8801167507caddc659babada0d2f7" name="a06c8801167507caddc659babada0d2f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c8801167507caddc659babada0d2f7">&#9670;&#160;</a></span>user_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE.user_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

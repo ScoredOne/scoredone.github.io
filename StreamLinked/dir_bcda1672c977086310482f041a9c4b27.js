@@ -1,6 +1,5 @@
 var dir_bcda1672c977086310482f041a9c4b27 =
 [
-    [ "Archive", "dir_43ef766847ca136dd4b557513573948f.html", "dir_43ef766847ca136dd4b557513573948f" ],
     [ "LightJson", "dir_d3c2a7a1b0f55e6f2d2641a84cd1da53.html", "dir_d3c2a7a1b0f55e6f2d2641a84cd1da53" ],
     [ "ManagersAndBuilders", "dir_46c6b179911d0afdd25b121a986fe91f.html", "dir_46c6b179911d0afdd25b121a986fe91f" ],
     [ "TwitchAPI", "dir_20bc8fa87b51073d74ae8c79ce432e0f.html", "dir_20bc8fa87b51073d74ae8c79ce432e0f" ],

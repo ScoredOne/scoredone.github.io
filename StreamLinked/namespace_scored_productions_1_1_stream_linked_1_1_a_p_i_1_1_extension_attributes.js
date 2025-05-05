@@ -1,5 +1,0 @@
-var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes =
-[
-    [ "TwitchAPIClassExtensions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_extensions" ],
-    [ "TwitchAPIClassInformation", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extension_attributes_1_1_twitch_a_p_i_class_information" ]
-];

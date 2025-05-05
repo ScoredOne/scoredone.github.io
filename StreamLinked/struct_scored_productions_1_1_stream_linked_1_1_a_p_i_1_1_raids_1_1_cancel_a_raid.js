@@ -5,5 +5,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a
     [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#af782cc02b4c900d583017b31d77a9288", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#a7eef85ccaa2e11b60f11fe449a0f7ed2", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#abf56bd0685f50d51b900e90010ad1efe", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#af9cc37417e157aa1e9ccc01e7b3a05f3", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_raids_1_1_cancel_a_raid.html#adfc90b5963986c4ad195b57115abb53e", null ]
 ];

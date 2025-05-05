@@ -1,0 +1,5 @@
+var _command_type_attribute_8cs =
+[
+    [ "ScoredProductions.StreamLinked.IRC.Extensions.IRCCommandType", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_i_r_c_command_type.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_i_r_c_command_type" ],
+    [ "ScoredProductions.StreamLinked.IRC.Extensions.CommandTypeExtensions", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_command_type_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_command_type_extensions" ]
+];

@@ -17,6 +17,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "moderator_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#a4727baab0c7f68b87e4ad8a21fb30136", null ],
     [ "moderator_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#a55b5110588e717ba778bbe61df5594e6", null ],
     [ "moderator_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#af95c5c037718cec0ba30856ce8a67b48", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#a51746a53d63463a6cdb8e5ae84234314", null ],
     [ "session_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#ab8503adf9dfc3085b6466f0ebca2046c", null ],
     [ "slot_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#a5349d100ae636b0b686469477e74785c", null ],
     [ "state", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_guest_star_guest_update.html#a01969423049cbcb4d60a62835bffad4f", null ]

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['notice_0',['NOTICE',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html',1,'ScoredProductions.StreamLinked.IRC.Tags.NOTICE'],['../class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_n_o_t_i_c_e.html',1,'ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.NOTICE']]]
+  ['other_0',['OTHER',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_o_t_h_e_r.html',1,'ScoredProductions::StreamLinked::IRC::Tags']]],
+  ['outcome_1',['Outcome',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_outcome.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]],
+  ['outcomes_2',['Outcomes',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]]
 ];

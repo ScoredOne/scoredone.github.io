@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -128,6 +128,16 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:aa0a23eb1a91128a4521a309a5eaca605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d97d5a2eaecca504655b09e6c015e6" id="r_a83d97d5a2eaecca504655b09e6c015e6"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83d97d5a2eaecca504655b09e6c015e6">NON_SSL_IRC_PORT</a> = 80</td></tr>
 <tr class="separator:a83d97d5a2eaecca504655b09e6c015e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acdb7d3b5f539eb2c57b50906cfad7a" id="r_a0acdb7d3b5f539eb2c57b50906cfad7a"><td class="memItemLeft" align="right" valign="top">static readonly DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0acdb7d3b5f539eb2c57b50906cfad7a">TwitchUTCStart</a> = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)</td></tr>
+<tr class="separator:a0acdb7d3b5f539eb2c57b50906cfad7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab935d0c7420a4f02c24f925691bf4210" id="r_ab935d0c7420a4f02c24f925691bf4210"><td class="memItemLeft" align="right" valign="top">static readonly WaitForEndOfFrame&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab935d0c7420a4f02c24f925691bf4210">EndOfFrameWait</a> = new WaitForEndOfFrame()</td></tr>
+<tr class="separator:ab935d0c7420a4f02c24f925691bf4210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0869550477d5a04edd90c4395c768c" id="r_a9a0869550477d5a04edd90c4395c768c"><td class="memItemLeft" align="right" valign="top">static readonly WaitForSeconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a0869550477d5a04edd90c4395c768c">OneSecondWait</a> = new WaitForSeconds(1)</td></tr>
+<tr class="separator:a9a0869550477d5a04edd90c4395c768c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7e5f4f15b520494d7ac2827d85d018" id="r_a7d7e5f4f15b520494d7ac2827d85d018"><td class="memItemLeft" align="right" valign="top">static readonly WaitForSecondsRealtime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d7e5f4f15b520494d7ac2827d85d018">OneSecondWaitRealtime</a> = new WaitForSecondsRealtime(1)</td></tr>
+<tr class="separator:a7d7e5f4f15b520494d7ac2827d85d018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4fdd29dbe940e6b4ae6ff91ec614fb0" id="r_aa4fdd29dbe940e6b4ae6ff91ec614fb0"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4fdd29dbe940e6b4ae6ff91ec614fb0">ByteSizeUnits</a> = new string[] { &quot;B&quot;, &quot;KB&quot;, &quot;MB&quot;, &quot;GB&quot;, &quot;TB&quot;, &quot;PB&quot; }</td></tr>
+<tr class="separator:aa4fdd29dbe940e6b4ae6ff91ec614fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f37b9fd6e530f4b5933401ed2951d80" id="r_a5f37b9fd6e530f4b5933401ed2951d80"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f37b9fd6e530f4b5933401ed2951d80">NonceCharacters</a> = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</td></tr>
 <tr class="separator:a5f37b9fd6e530f4b5933401ed2951d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -310,6 +320,50 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa4fdd29dbe940e6b4ae6ff91ec614fb0" name="aa4fdd29dbe940e6b4ae6ff91ec614fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4fdd29dbe940e6b4ae6ff91ec614fb0">&#9670;&#160;</a></span>ByteSizeUnits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ScoredProductions.StreamLinked.TwitchStatic.ByteSizeUnits = new string[] { &quot;B&quot;, &quot;KB&quot;, &quot;MB&quot;, &quot;GB&quot;, &quot;TB&quot;, &quot;PB&quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab935d0c7420a4f02c24f925691bf4210" name="ab935d0c7420a4f02c24f925691bf4210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab935d0c7420a4f02c24f925691bf4210">&#9670;&#160;</a></span>EndOfFrameWait</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly WaitForEndOfFrame ScoredProductions.StreamLinked.TwitchStatic.EndOfFrameWait = new WaitForEndOfFrame()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a83d97d5a2eaecca504655b09e6c015e6" name="a83d97d5a2eaecca504655b09e6c015e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83d97d5a2eaecca504655b09e6c015e6">&#9670;&#160;</a></span>NON_SSL_IRC_PORT</h2>
 
@@ -354,6 +408,50 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9a0869550477d5a04edd90c4395c768c" name="a9a0869550477d5a04edd90c4395c768c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0869550477d5a04edd90c4395c768c">&#9670;&#160;</a></span>OneSecondWait</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly WaitForSeconds ScoredProductions.StreamLinked.TwitchStatic.OneSecondWait = new WaitForSeconds(1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d7e5f4f15b520494d7ac2827d85d018" name="a7d7e5f4f15b520494d7ac2827d85d018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7e5f4f15b520494d7ac2827d85d018">&#9670;&#160;</a></span>OneSecondWaitRealtime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly WaitForSecondsRealtime ScoredProductions.StreamLinked.TwitchStatic.OneSecondWaitRealtime = new WaitForSecondsRealtime(1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa0a23eb1a91128a4521a309a5eaca605" name="aa0a23eb1a91128a4521a309a5eaca605"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0a23eb1a91128a4521a309a5eaca605">&#9670;&#160;</a></span>SSL_IRC_PORT</h2>
 
@@ -365,6 +463,28 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const int ScoredProductions.StreamLinked.TwitchStatic.SSL_IRC_PORT = 443</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0acdb7d3b5f539eb2c57b50906cfad7a" name="a0acdb7d3b5f539eb2c57b50906cfad7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0acdb7d3b5f539eb2c57b50906cfad7a">&#9670;&#160;</a></span>TwitchUTCStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DateTime ScoredProductions.StreamLinked.TwitchStatic.TwitchUTCStart = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)</td>
         </tr>
       </table>
   </td>

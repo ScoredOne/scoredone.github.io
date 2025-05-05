@@ -8,6 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "from_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shoutout_received.html#aebfa2f0f299828cfddab91b38b89fdc0", null ],
     [ "from_broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shoutout_received.html#aa2e15215b7d5d035c73930ec0e1f6726", null ],
     [ "from_broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shoutout_received.html#a86ab37318a2532eea0f52bbc08c66ede", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shoutout_received.html#a498977ec7125a09a1e711cf815b7c87b", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shoutout_received.html#a76748a2d85bf0fa9db63716c6e232581", null ],
     [ "viewer_count", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shoutout_received.html#a4b38333721a82407ff785aa527e60443", null ]
 ];

@@ -5,6 +5,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add
     [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html#a4df5afd807e3e3cb68d70985b1f43da9", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html#ac152fdb3cbf2a5543e58e1268c07eb9b", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html#a128073494821d3e63c8ce758171efeaf", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html#a754dbaec86c0dd7eee4d84a29645e1c5", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html#a954af812f31d5e5ede7a424c620f26fc", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html#a0ab345e99ce4fba41c5779a6643693b1", null ]
 ];

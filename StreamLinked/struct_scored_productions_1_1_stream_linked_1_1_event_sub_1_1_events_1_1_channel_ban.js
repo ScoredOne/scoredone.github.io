@@ -12,6 +12,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "moderator_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#ad1c71ad3ad22f40e182a4fb7ed86e136", null ],
     [ "moderator_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#ae772bb696184a382c54c377f3ad8ce44", null ],
     [ "reason", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#a295e89224114d22cce6549c8af48ced3", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#a932c140b673b56573d312622de7e1b38", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#a30f7615ecdf40e9f7181593919235541", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#a0993e1b56ff2acbf6f3e96b035ccf80d", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ban.html#a22c470d426d9b621a0d3bfadb85d7458", null ]

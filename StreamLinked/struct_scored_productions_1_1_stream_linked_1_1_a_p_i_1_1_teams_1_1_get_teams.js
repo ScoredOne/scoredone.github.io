@@ -11,10 +11,11 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_team
     [ "ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#acee3868b88f6c9a28ab1add532b0514d", null ],
     [ "info", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a20c0b6e8b9051a9383a73b836dbf5864", null ],
     [ "NAME", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a9231cd32751cf589959bef9b3d33793d", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a5dac08cdcc57ba1dc48aac47f441cbf1", null ],
     [ "team_display_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a2423751aac9ebebb8578e2d354596d6e", null ],
     [ "team_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a10622645f1d2ebaba393870deac7cfd9", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a266d20aa72cb7920183f33cbfe7d27c7", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a5267189664d8857c523459b48bc04f25", null ],
     [ "updated_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#a0b440b9746fa21326c1459b5d0495df0", null ],
-    [ "users", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#ae848ed59ce69c7d871c8af0c30a21e3c", null ]
+    [ "users", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_teams.html#ab87934b7b092633a1ececac78445b165", null ]
 ];

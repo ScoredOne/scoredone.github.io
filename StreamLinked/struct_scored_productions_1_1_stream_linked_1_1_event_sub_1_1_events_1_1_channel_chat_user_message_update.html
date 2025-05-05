@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -110,8 +110,9 @@ Inheritance diagram for ScoredProductions.StreamLinked.EventSub.Events.ChannelCh
  <div class="center">
   <img src="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_user_message_update.png" usemap="#ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageUpdate_map" alt=""/>
   <map id="ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageUpdate_map" name="ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageUpdate_map">
-<area href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html" alt="ScoredProductions.StreamLinked.EventSub.IChannel" shape="rect" coords="0,56,493,80"/>
-<area href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_event.html" alt="ScoredProductions.StreamLinked.EventSub.IEvent" shape="rect" coords="0,0,493,24"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_channel.html" alt="ScoredProductions.StreamLinked.EventSub.Interfaces.IChannel" shape="rect" coords="0,112,493,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_event.html" alt="ScoredProductions.StreamLinked.EventSub.Interfaces.IEvent" shape="rect" coords="0,56,493,80"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html" alt="ScoredProductions.StreamLinked.API.Scopes.IScope" shape="rect" coords="0,0,493,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -138,10 +139,13 @@ Properties</h2></td></tr>
 <tr class="separator:a682454c7586ddf1e07047d238073416d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc95832e9f3b70d7d1dd0d130a8de5ef" id="r_abc95832e9f3b70d7d1dd0d130a8de5ef"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc95832e9f3b70d7d1dd0d130a8de5ef">message_id</a><code> [get, set]</code></td></tr>
 <tr class="separator:abc95832e9f3b70d7d1dd0d130a8de5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47c60fa9d6955940c9d32b2e65d96b64" id="r_a47c60fa9d6955940c9d32b2e65d96b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message.html">IChannel.Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c60fa9d6955940c9d32b2e65d96b64">message</a><code> [get, set]</code></td></tr>
-<tr class="separator:a47c60fa9d6955940c9d32b2e65d96b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65709eac597329e51901cb001a1a5304" id="r_a65709eac597329e51901cb001a1a5304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_message.html">Message</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65709eac597329e51901cb001a1a5304">message</a><code> [get, set]</code></td></tr>
+<tr class="separator:a65709eac597329e51901cb001a1a5304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1949a4d135a7800472ddd24fcf7c0c09" id="r_a1949a4d135a7800472ddd24fcf7c0c09"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html#ac95ff2080109771673bc2659918128f6">TwitchEventSubSubscriptionsEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1949a4d135a7800472ddd24fcf7c0c09">Enum</a><code> [get]</code></td></tr>
 <tr class="separator:a1949a4d135a7800472ddd24fcf7c0c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a4bb0b951191da4eec83c36bebb904" id="r_a98a4bb0b951191da4eec83c36bebb904"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98a4bb0b951191da4eec83c36bebb904">Scopes</a><code> [get]</code></td></tr>
+<tr class="memdesc:a98a4bb0b951191da4eec83c36bebb904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional and Required scopes needed by Twitch, found at  Twitch Scopes <br /></td></tr>
+<tr class="separator:a98a4bb0b951191da4eec83c36bebb904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch Eventsub Reference</p>
@@ -184,7 +188,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html#a48117cefb304fdebbbc4a46ddad8e07f">ScoredProductions.StreamLinked.EventSub.IChannel</a>.</p>
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_channel.html#aaa35a26101d345473c74be73d2b1fd88">ScoredProductions.StreamLinked.EventSub.Interfaces.IChannel</a>.</p>
 
 </div>
 </div>
@@ -208,7 +212,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html#a2c6c983d34855cc60fe39e7624b8aae1">ScoredProductions.StreamLinked.EventSub.IChannel</a>.</p>
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_channel.html#a37215644261630020b50ed6aab35bd6c">ScoredProductions.StreamLinked.EventSub.Interfaces.IChannel</a>.</p>
 
 </div>
 </div>
@@ -232,7 +236,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel.html#a1fcc0f31a77656f1b7716e4fb019df85">ScoredProductions.StreamLinked.EventSub.IChannel</a>.</p>
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_channel.html#a2579c0892fbf9cfb96df02de1b851945">ScoredProductions.StreamLinked.EventSub.Interfaces.IChannel</a>.</p>
 
 </div>
 </div>
@@ -256,12 +260,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_event.html#a2d17722ac8ae3714d9ae38f83172f874">ScoredProductions.StreamLinked.EventSub.IEvent</a>.</p>
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_event.html#a5a7080331c93f78e2ee5ae706b5ead90">ScoredProductions.StreamLinked.EventSub.Interfaces.IEvent</a>.</p>
 
 </div>
 </div>
-<a id="a47c60fa9d6955940c9d32b2e65d96b64" name="a47c60fa9d6955940c9d32b2e65d96b64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c60fa9d6955940c9d32b2e65d96b64">&#9670;&#160;</a></span>message</h2>
+<a id="a65709eac597329e51901cb001a1a5304" name="a65709eac597329e51901cb001a1a5304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65709eac597329e51901cb001a1a5304">&#9670;&#160;</a></span>message</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +274,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_message.html">IChannel.Message</a> ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageUpdate.message</td>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_message.html">Message</a> ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageUpdate.message</td>
         </tr>
       </table>
   </td>
@@ -301,6 +305,32 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98a4bb0b951191da4eec83c36bebb904" name="a98a4bb0b951191da4eec83c36bebb904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a4bb0b951191da4eec83c36bebb904">&#9670;&#160;</a></span>Scopes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> [] ScoredProductions.StreamLinked.EventSub.Events.ChannelChatUserMessageUpdate.Scopes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Optional and Required scopes needed by Twitch, found at  Twitch Scopes</p>
+
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html#ae8d5620bed27e6a78f5375c775184bfb">ScoredProductions.StreamLinked.API.Scopes.IScope</a>.</p>
 
 </div>
 </div>

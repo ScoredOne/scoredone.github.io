@@ -14,6 +14,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_aut
     [ "moderator_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#ac18625fb7c7eb7a5cf02ece4bb2646fb", null ],
     [ "overall_level", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#a635b0ebdd12afcf4a0750e17e9c3bb44", null ],
     [ "race_ethnicity_or_religion", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#a9521ccdde2b413f93527a339e7357f97", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#a10cdcc4b749af35c3910bededa7b094d", null ],
     [ "sex_based_terms", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#a3aef526fa1a0930032d3a60ee6f22380", null ],
     [ "sexuality_sex_or_gender", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#a326b432a6d8aab1331912c40c22770c1", null ],
     [ "swearing", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_automod_settings_update.html#a0ecb85606804e2818f0303fa8ac6cdad", null ]

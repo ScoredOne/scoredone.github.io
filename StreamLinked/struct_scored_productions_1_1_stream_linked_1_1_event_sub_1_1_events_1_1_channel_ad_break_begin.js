@@ -10,5 +10,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "requester_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html#a25db9afb7a370d830a7995ff6d0fd2e0", null ],
     [ "requester_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html#a80e43050a342e106217c1157a924c368", null ],
     [ "requester_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html#a5fc9b36047569867353a5b5d1fb747de", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html#ace4d7e7eb5d2ec05b49a5732db823ecc", null ],
     [ "timestamp", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_ad_break_begin.html#a180c43ee8433faaa47d9df9f42ca0f2e", null ]
 ];

@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -96,7 +96,6 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_manager
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
@@ -104,7 +103,6 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_manager
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager Class Reference</div></div>
 </div><!--header-->
@@ -118,7 +116,7 @@ Inheritance diagram for ScoredProductions.StreamLinked.ManagersAndBuilders.Twitc
  <div class="center">
   <img src="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.png" usemap="#ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager_map" alt=""/>
   <map id="ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager_map" name="ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager_map">
-<area href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html" alt="ScoredProductions.StreamLinked.Utility.SingletonInstance&lt; TwitchBadgeManager &gt;" shape="rect" coords="0,0,484,24"/>
+<area href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html" alt="ScoredProductions.StreamLinked.Utility.SingletonDispatcher&lt; TwitchBadgeManager &gt;" shape="rect" coords="0,0,498,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -128,86 +126,71 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a057918a77d1dcd6e668571a3101d2443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76ce0fae5615181c0a87ec98433ea09d" id="r_a76ce0fae5615181c0a87ec98433ea09d"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76ce0fae5615181c0a87ec98433ea09d">DownloadBadgesFromWeb</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> badge)</td></tr>
 <tr class="separator:a76ce0fae5615181c0a87ec98433ea09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a455805cc8ea41181d587c9ae851b3690" id="r_a455805cc8ea41181d587c9ae851b3690"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455805cc8ea41181d587c9ae851b3690">GetBadgeTMPText</a> (List&lt;(string name, int version)&gt; messageBadges)</td></tr>
-<tr class="separator:a455805cc8ea41181d587c9ae851b3690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78446dd0551f2c0e15a4bbfb046a5c02" id="r_a78446dd0551f2c0e15a4bbfb046a5c02"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78446dd0551f2c0e15a4bbfb046a5c02">GetBadges</a> (List&lt; string &gt; searchBadges)</td></tr>
-<tr class="separator:a78446dd0551f2c0e15a4bbfb046a5c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f50c1ee4621f2af0c4652611687ce80" id="r_a5f50c1ee4621f2af0c4652611687ce80"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f50c1ee4621f2af0c4652611687ce80">GetBadgeTMPText</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a>[] messageBadges, long room_id)</td></tr>
+<tr class="separator:a5f50c1ee4621f2af0c4652611687ce80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42562c1265ea2eacd6442b470589dd06" id="r_a42562c1265ea2eacd6442b470589dd06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42562c1265ea2eacd6442b470589dd06">GetBadges</a> (string[] searchBadges, long room_id)</td></tr>
+<tr class="separator:a42562c1265ea2eacd6442b470589dd06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141b90f576347a4cd75cca8fce207b79" id="r_a141b90f576347a4cd75cca8fce207b79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141b90f576347a4cd75cca8fce207b79">RestartCoroutineThreads</a> ()</td></tr>
+<tr class="separator:a141b90f576347a4cd75cca8fce207b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a051f0280f6cf69e4aff07ea7a52aa45a" id="r_a051f0280f6cf69e4aff07ea7a52aa45a"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a051f0280f6cf69e4aff07ea7a52aa45a">GetGlobalBadges</a> ()</td></tr>
 <tr class="separator:a051f0280f6cf69e4aff07ea7a52aa45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4822b6331b5d910fdc883b43433d0f41" id="r_a4822b6331b5d910fdc883b43433d0f41"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4822b6331b5d910fdc883b43433d0f41">GetChannelBadges</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>? oldUser, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>? newUser)</td></tr>
-<tr class="separator:a4822b6331b5d910fdc883b43433d0f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c1e59fee0c76ed557a10c87429687b" id="r_a87c1e59fee0c76ed557a10c87429687b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c1e59fee0c76ed557a10c87429687b">GetBadges</a> (params <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>[] badges)</td></tr>
-<tr class="separator:a87c1e59fee0c76ed557a10c87429687b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00810edb3d8cce206603ed18c97b32e7" id="r_a00810edb3d8cce206603ed18c97b32e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00810edb3d8cce206603ed18c97b32e7">GetBadge</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> badge)</td></tr>
-<tr class="separator:a00810edb3d8cce206603ed18c97b32e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc9dd5cabd5a5393ca89fed6d6fdcc0" id="r_a1dc9dd5cabd5a5393ca89fed6d6fdcc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc9dd5cabd5a5393ca89fed6d6fdcc0">ExpireBadgesOfChannel</a> (string roomName)</td></tr>
-<tr class="separator:a1dc9dd5cabd5a5393ca89fed6d6fdcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a26987c940d842a83aa6200268a459b3b" id="r_a26987c940d842a83aa6200268a459b3b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a26987c940d842a83aa6200268a459b3b">GetInstance</a> (out T instance)</td></tr>
-<tr class="memdesc:a26987c940d842a83aa6200268a459b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Singleton if it exists in the scene.  <br /></td></tr>
-<tr class="separator:a26987c940d842a83aa6200268a459b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abedf84cbc948a1b9d8267c2c614e1847" id="r_abedf84cbc948a1b9d8267c2c614e1847"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#abedf84cbc948a1b9d8267c2c614e1847">CreateOrGetInstance</a> (out T instance)</td></tr>
-<tr class="memdesc:abedf84cbc948a1b9d8267c2c614e1847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current instance, if a singleton doesnt exist, it will create one.  <br /></td></tr>
-<tr class="separator:abedf84cbc948a1b9d8267c2c614e1847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857940c7986761fad59a881e7b4157a0" id="r_a857940c7986761fad59a881e7b4157a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a857940c7986761fad59a881e7b4157a0">GetChannelBadges</a> (long room_id, bool force=false, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a> credentials=null)</td></tr>
+<tr class="separator:a857940c7986761fad59a881e7b4157a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78217d738d29c8ee4bf4697783479854" id="r_a78217d738d29c8ee4bf4697783479854"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78217d738d29c8ee4bf4697783479854">GetChannelBadges</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> user, bool force=false, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a> credentials=null)</td></tr>
+<tr class="separator:a78217d738d29c8ee4bf4697783479854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f486ee5e857e42b415427ab1458e02" id="r_ae5f486ee5e857e42b415427ab1458e02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5f486ee5e857e42b415427ab1458e02">CheckBadgeCanHaveCustomVariants</a> (string badge)</td></tr>
+<tr class="separator:ae5f486ee5e857e42b415427ab1458e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea1395acfa506c95c0fee1803d4f6ec" id="r_a7ea1395acfa506c95c0fee1803d4f6ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea1395acfa506c95c0fee1803d4f6ec">GetBadgeCount</a> ()</td></tr>
+<tr class="separator:a7ea1395acfa506c95c0fee1803d4f6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2c4afdb55a314ca851afe8fce8dd5e" id="r_a0f2c4afdb55a314ca851afe8fce8dd5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f2c4afdb55a314ca851afe8fce8dd5e">QueueBadgesDownloads</a> (params <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>[] badges)</td></tr>
+<tr class="separator:a0f2c4afdb55a314ca851afe8fce8dd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a182ec444172cfbbe1949c8c9813215" id="r_a1a182ec444172cfbbe1949c8c9813215"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a182ec444172cfbbe1949c8c9813215">QueueBadgeDownload</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> badge)</td></tr>
+<tr class="separator:a1a182ec444172cfbbe1949c8c9813215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a512726923f4ab5ffb0992e8386e6427d" id="r_a512726923f4ab5ffb0992e8386e6427d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a494b2edb7d3e28d2d1f8e6f3583f9564">DebugManager.DebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a512726923f4ab5ffb0992e8386e6427d">LogDebugLevel</a> = DebugManager.DebugLevel.Normal</td></tr>
-<tr class="separator:a512726923f4ab5ffb0992e8386e6427d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a11f142a5703d07b5d7ff940f502471" id="r_a9a11f142a5703d07b5d7ff940f502471"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a11f142a5703d07b5d7ff940f502471">NumWorkersToCreateOnAwake</a> = 2</td></tr>
+<tr class="memitem:a9a11f142a5703d07b5d7ff940f502471" id="r_a9a11f142a5703d07b5d7ff940f502471"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a11f142a5703d07b5d7ff940f502471">NumWorkersToCreateOnAwake</a> = 4</td></tr>
 <tr class="separator:a9a11f142a5703d07b5d7ff940f502471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa22eb3e03860ce76da3915fd7d1702f" id="r_aaa22eb3e03860ce76da3915fd7d1702f"><td class="memItemLeft" align="right" valign="top">readonly WaitForSecondsRealtime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa22eb3e03860ce76da3915fd7d1702f">Wait1Second</a> = new WaitForSecondsRealtime(1)</td></tr>
-<tr class="separator:aaa22eb3e03860ce76da3915fd7d1702f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3de77234520e73d0a38e66797faab7e8" id="r_a3de77234520e73d0a38e66797faab7e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#a8e8561d0822d8ac378760b698e790dd2">TwitchBadge.BadgeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3de77234520e73d0a38e66797faab7e8">BadgeSize</a> = TwitchBadge.BadgeSize.Three</td></tr>
 <tr class="separator:a3de77234520e73d0a38e66797faab7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33ca33f4ed3ca4bd233cda2457990e9" id="r_aa33ca33f4ed3ca4bd233cda2457990e9"><td class="memItemLeft" align="right" valign="top">DebugManager.DebugLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#aa33ca33f4ed3ca4bd233cda2457990e9">LogDebugLevel</a></td></tr>
+<tr class="separator:aa33ca33f4ed3ca4bd233cda2457990e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac41f83fc6ed03325185950a2f1708571" id="r_ac41f83fc6ed03325185950a2f1708571"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac41f83fc6ed03325185950a2f1708571">GlobalBadgeName</a> = &quot;*Global&quot;</td></tr>
+<tr class="memdesc:ac41f83fc6ed03325185950a2f1708571"><td class="mdescLeft">&#160;</td><td class="mdescRight">A non web address compatible name as Twitch user names are translated to links for their channel.  <br /></td></tr>
 <tr class="separator:ac41f83fc6ed03325185950a2f1708571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e71aa2bf2e34309f8e44fa6863709f8" id="r_a7e71aa2bf2e34309f8e44fa6863709f8"><td class="memItemLeft" align="right" valign="top">static readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8">Name</a></td></tr>
-<tr class="separator:a7e71aa2bf2e34309f8e44fa6863709f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a85bbc9779c922b46f6ecb5703e0bf" id="r_a59a85bbc9779c922b46f6ecb5703e0bf"><td class="memItemLeft" align="right" valign="top">static readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59a85bbc9779c922b46f6ecb5703e0bf">CustomBadgeNames</a> = new string[] { &quot;subscriber&quot;, &quot;cheer&quot; }</td></tr>
+<tr class="separator:a59a85bbc9779c922b46f6ecb5703e0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a584713d8ed7759698bbf767782a97f7e" id="r_a584713d8ed7759698bbf767782a97f7e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a584713d8ed7759698bbf767782a97f7e">Awake</a> ()</td></tr>
 <tr class="separator:a584713d8ed7759698bbf767782a97f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4feadee82ec17235b1d966ff17130250" id="r_a4feadee82ec17235b1d966ff17130250"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4feadee82ec17235b1d966ff17130250">OnApplicationQuit</a> ()</td></tr>
-<tr class="separator:a4feadee82ec17235b1d966ff17130250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adef36405df7fb507bd061bec5ef7683f" id="r_adef36405df7fb507bd061bec5ef7683f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#adef36405df7fb507bd061bec5ef7683f">EstablishSingleton</a> ()</td></tr>
-<tr class="memdesc:adef36405df7fb507bd061bec5ef7683f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Must be called in Awake</b>, Ensures singleton is the only instance.  <br /></td></tr>
-<tr class="separator:adef36405df7fb507bd061bec5ef7683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca30b1c77c7e18c88a05b3769f49d42e" id="r_aca30b1c77c7e18c88a05b3769f49d42e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#aca30b1c77c7e18c88a05b3769f49d42e">Start</a> ()</td></tr>
-<tr class="separator:aca30b1c77c7e18c88a05b3769f49d42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093bb29f93227e2c7a772eb3f8903aa3" id="r_a093bb29f93227e2c7a772eb3f8903aa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#a093bb29f93227e2c7a772eb3f8903aa3">LateUpdate</a> ()</td></tr>
+<tr class="separator:a093bb29f93227e2c7a772eb3f8903aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a4c6eb564c54cdc8f1ea89bf2ff89a7fc" id="r_a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc">_instance</a></td></tr>
-<tr class="separator:a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f218ec3c0517254de5311e5e9db4d00" id="r_a5f218ec3c0517254de5311e5e9db4d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a5f218ec3c0517254de5311e5e9db4d00">preventNewInstances</a></td></tr>
-<tr class="separator:a5f218ec3c0517254de5311e5e9db4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7bccb5872daa897d3b003d853e852ec" id="r_aa7bccb5872daa897d3b003d853e852ec"><td class="memItemLeft" align="right" valign="top">static readonly Queue&lt; Action &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#aa7bccb5872daa897d3b003d853e852ec">MainThreadDispatchQueue</a></td></tr>
+<tr class="memdesc:aa7bccb5872daa897d3b003d853e852ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue of Actions that will be executed on the main thread (<code>LateUpdate</code>)  <br /></td></tr>
+<tr class="separator:aa7bccb5872daa897d3b003d853e852ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a9a7e5ae06db3dfaa9117d0deca922f5b" id="r_a9a7e5ae06db3dfaa9117d0deca922f5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7e5ae06db3dfaa9117d0deca922f5b">HoldUntilAtlasReady</a><code> [get]</code></td></tr>
-<tr class="separator:a9a7e5ae06db3dfaa9117d0deca922f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92976edfa7ddaa6c9006e400e4bb8c5f" id="r_a92976edfa7ddaa6c9006e400e4bb8c5f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92976edfa7ddaa6c9006e400e4bb8c5f">DownloadedBadges</a> = new List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt;()<code> [get, private set]</code></td></tr>
-<tr class="separator:a92976edfa7ddaa6c9006e400e4bb8c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ba4f01e64cf8becc78dac345bd348b" id="r_a75ba4f01e64cf8becc78dac345bd348b"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75ba4f01e64cf8becc78dac345bd348b">PersistBetweenScenes</a><code> [get]</code></td></tr>
+<tr class="separator:a75ba4f01e64cf8becc78dac345bd348b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f49b8d52b2868f950208e92cd1137e" id="r_a68f49b8d52b2868f950208e92cd1137e"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; long, List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f49b8d52b2868f950208e92cd1137e">RoomBadges</a> = new Dictionary&lt;long, List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt;&gt;()<code> [get]</code></td></tr>
+<tr class="separator:a68f49b8d52b2868f950208e92cd1137e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6f5af43a8733772f89e54e637a5e23" id="r_a4a6f5af43a8733772f89e54e637a5e23"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a6f5af43a8733772f89e54e637a5e23">AquiredRooms</a> = new List&lt;<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>&gt;()<code> [get]</code></td></tr>
+<tr class="separator:a4a6f5af43a8733772f89e54e637a5e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e095ffb7c601c98c5efceb880628a8" id="r_ac4e095ffb7c601c98c5efceb880628a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4e095ffb7c601c98c5efceb880628a8">DownloaderWorking</a><code> [get]</code></td></tr>
 <tr class="separator:ac4e095ffb7c601c98c5efceb880628a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab10ab15e6dd6ba245147140a502e5654" id="r_ab10ab15e6dd6ba245147140a502e5654"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab10ab15e6dd6ba245147140a502e5654">Busy</a><code> [get]</code></td></tr>
 <tr class="separator:ab10ab15e6dd6ba245147140a502e5654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6497e5a1ed8ca0691b59a2b22118466" id="r_ab6497e5a1ed8ca0691b59a2b22118466"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6497e5a1ed8ca0691b59a2b22118466">ReadyForBuild</a><code> [get]</code></td></tr>
-<tr class="separator:ab6497e5a1ed8ca0691b59a2b22118466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47faa6d34bec5926348ea410a0d1fae6" id="r_a47faa6d34bec5926348ea410a0d1fae6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47faa6d34bec5926348ea410a0d1fae6">CurrentWaitingItems</a><code> [get]</code></td></tr>
 <tr class="separator:a47faa6d34bec5926348ea410a0d1fae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8597a86e6473a170990095098189ad4f" id="r_a8597a86e6473a170990095098189ad4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8597a86e6473a170990095098189ad4f">DownloadNewEmotes</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a8597a86e6473a170990095098189ad4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48ec67fa9431ea8b9a985ee461d9deea" id="r_a48ec67fa9431ea8b9a985ee461d9deea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a48ec67fa9431ea8b9a985ee461d9deea">InstanceIsAlive</a><code> [get]</code></td></tr>
-<tr class="memdesc:a48ec67fa9431ea8b9a985ee461d9deea"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the Singleton is running in the scene. Good to prevent non-playtime functionality running.  <br /></td></tr>
-<tr class="separator:a48ec67fa9431ea8b9a985ee461d9deea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -215,33 +198,27 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a725b0455e55e3b443373959aa79d256e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa880b3c234463238430f76a2b4494559" id="r_aa880b3c234463238430f76a2b4494559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa880b3c234463238430f76a2b4494559">OnEnable</a> ()</td></tr>
 <tr class="separator:aa880b3c234463238430f76a2b4494559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9e91801a61fd93b1c826ca053046b13" id="r_af9e91801a61fd93b1c826ca053046b13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e91801a61fd93b1c826ca053046b13">OnDestroy</a> ()</td></tr>
-<tr class="separator:af9e91801a61fd93b1c826ca053046b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcbfb8630d837d782a4ac5dff994c599" id="r_afcbfb8630d837d782a4ac5dff994c599"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbfb8630d837d782a4ac5dff994c599">OnDisable</a> ()</td></tr>
 <tr class="separator:afcbfb8630d837d782a4ac5dff994c599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c84f2a38573fe6a82827a60d73c8b6e" id="r_a3c84f2a38573fe6a82827a60d73c8b6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c84f2a38573fe6a82827a60d73c8b6e">EndFunctionality</a> ()</td></tr>
 <tr class="separator:a3c84f2a38573fe6a82827a60d73c8b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e925279d19d0ed00a458be72a671da7" id="r_a4e925279d19d0ed00a458be72a671da7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e925279d19d0ed00a458be72a671da7">OnAtlasBuildStarted</a> (object sender, EventArgs e)</td></tr>
-<tr class="memdesc:a4e925279d19d0ed00a458be72a671da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal from atlas that work has started.  <br /></td></tr>
-<tr class="separator:a4e925279d19d0ed00a458be72a671da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf5eb9fe1e73225b577afd437ca9aac" id="r_a8cf5eb9fe1e73225b577afd437ca9aac"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cf5eb9fe1e73225b577afd437ca9aac">InternalCoroutineGetChannelBadges</a> (long room_id, bool force=false, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a> credentials=null)</td></tr>
+<tr class="separator:a8cf5eb9fe1e73225b577afd437ca9aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6e407025faa6dda56e9dd2a752cffc" id="r_acf6e407025faa6dda56e9dd2a752cffc"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6e407025faa6dda56e9dd2a752cffc">InternalCoroutineGetChannelBadges</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a> user, bool force=false, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a> credentials=null)</td></tr>
+<tr class="separator:acf6e407025faa6dda56e9dd2a752cffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a094579cbbd1d0f3ad198bac59e6aa133" id="r_a094579cbbd1d0f3ad198bac59e6aa133"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a094579cbbd1d0f3ad198bac59e6aa133">threadsWorking</a> = new Dictionary&lt;int, bool&gt;()</td></tr>
-<tr class="separator:a094579cbbd1d0f3ad198bac59e6aa133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64159d83715778f6aa2b33ad8041a788" id="r_a64159d83715778f6aa2b33ad8041a788"><td class="memItemLeft" align="right" valign="top">List&lt; Coroutine &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64159d83715778f6aa2b33ad8041a788">downloaderCoroutines</a> = new List&lt;Coroutine&gt;()</td></tr>
-<tr class="separator:a64159d83715778f6aa2b33ad8041a788"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7593fc0b427e7c26a825152e226bbe7" id="r_ab7593fc0b427e7c26a825152e226bbe7"><td class="memItemLeft" align="right" valign="top">CancellationTokenSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7593fc0b427e7c26a825152e226bbe7">RequestAPICancellationToken</a></td></tr>
-<tr class="separator:ab7593fc0b427e7c26a825152e226bbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831f1d082d32f7c71aae2d8f808646d4" id="r_a831f1d082d32f7c71aae2d8f808646d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831f1d082d32f7c71aae2d8f808646d4">persistBetweenScenes</a> = true</td></tr>
+<tr class="separator:a831f1d082d32f7c71aae2d8f808646d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70222f0183c0bc34b43ba6f98128c560" id="r_a70222f0183c0bc34b43ba6f98128c560"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70222f0183c0bc34b43ba6f98128c560">threadsWorking</a> = new Dictionary&lt;int, bool&gt;()</td></tr>
+<tr class="separator:a70222f0183c0bc34b43ba6f98128c560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499dbfd5418e85f4d3d51546a1274eb6" id="r_a499dbfd5418e85f4d3d51546a1274eb6"><td class="memItemLeft" align="right" valign="top">readonly List&lt; Coroutine &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a499dbfd5418e85f4d3d51546a1274eb6">downloaderCoroutines</a> = new List&lt;Coroutine&gt;()</td></tr>
+<tr class="separator:a499dbfd5418e85f4d3d51546a1274eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26daaf423b244bf4116ee95a1af99f25" id="r_a26daaf423b244bf4116ee95a1af99f25"><td class="memItemLeft" align="right" valign="top">readonly Queue&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26daaf423b244bf4116ee95a1af99f25">downloadQueue</a> = new Queue&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt;()</td></tr>
 <tr class="separator:a26daaf423b244bf4116ee95a1af99f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338ec92aaa946b5f73695115a1ff7114" id="r_a338ec92aaa946b5f73695115a1ff7114"><td class="memItemLeft" align="right" valign="top">WaitUntil&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338ec92aaa946b5f73695115a1ff7114">downloadsWaiting</a></td></tr>
-<tr class="separator:a338ec92aaa946b5f73695115a1ff7114"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae94e3758cba1ec088313ee4aed244e9f" id="r_ae94e3758cba1ec088313ee4aed244e9f"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#ae94e3758cba1ec088313ee4aed244e9f">Locker</a></td></tr>
-<tr class="separator:ae94e3758cba1ec088313ee4aed244e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7593fc0b427e7c26a825152e226bbe7" id="r_ab7593fc0b427e7c26a825152e226bbe7"><td class="memItemLeft" align="right" valign="top">CancellationTokenSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7593fc0b427e7c26a825152e226bbe7">RequestAPICancellationToken</a></td></tr>
+<tr class="separator:ab7593fc0b427e7c26a825152e226bbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch badge downloader and manager. </p>
@@ -290,39 +267,27 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a3d1fa3e0cc16aa5b0678335ba4b12216">ScoredProductions.StreamLinked.Utility.SingletonInstance&lt; TwitchBadgeManager &gt;</a>.</p>
-
 </div>
 </div>
-<a id="abedf84cbc948a1b9d8267c2c614e1847" name="abedf84cbc948a1b9d8267c2c614e1847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abedf84cbc948a1b9d8267c2c614e1847">&#9670;&#160;</a></span>CreateOrGetInstance()</h2>
+<a id="ae5f486ee5e857e42b415427ab1458e02" name="ae5f486ee5e857e42b415427ab1458e02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f486ee5e857e42b415427ab1458e02">&#9670;&#160;</a></span>CheckBadgeCanHaveCustomVariants()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.CreateOrGetInstance </td>
+          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.CheckBadgeCanHaveCustomVariants </td>
           <td>(</td>
-          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>instance</em></span></td><td>)</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>badge</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Gets the current instance, if a singleton doesnt exist, it will create one. </p>
 
 </div>
 </div>
@@ -385,133 +350,111 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adef36405df7fb507bd061bec5ef7683f" name="adef36405df7fb507bd061bec5ef7683f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adef36405df7fb507bd061bec5ef7683f">&#9670;&#160;</a></span>EstablishSingleton()</h2>
+<a id="a7ea1395acfa506c95c0fee1803d4f6ec" name="a7ea1395acfa506c95c0fee1803d4f6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ea1395acfa506c95c0fee1803d4f6ec">&#9670;&#160;</a></span>GetBadgeCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.EstablishSingleton </td>
+          <td class="memname">int ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadgeCount </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p><b>Must be called in Awake</b>, Ensures singleton is the only instance. </p>
-
 </div>
 </div>
-<a id="a1dc9dd5cabd5a5393ca89fed6d6fdcc0" name="a1dc9dd5cabd5a5393ca89fed6d6fdcc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dc9dd5cabd5a5393ca89fed6d6fdcc0">&#9670;&#160;</a></span>ExpireBadgesOfChannel()</h2>
+<a id="a42562c1265ea2eacd6442b470589dd06" name="a42562c1265ea2eacd6442b470589dd06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42562c1265ea2eacd6442b470589dd06">&#9670;&#160;</a></span>GetBadges()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.ExpireBadgesOfChannel </td>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>[] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadges </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>roomName</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00810edb3d8cce206603ed18c97b32e7" name="a00810edb3d8cce206603ed18c97b32e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00810edb3d8cce206603ed18c97b32e7">&#9670;&#160;</a></span>GetBadge()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadge </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a></td>          <td class="paramname"><span class="paramname"><em>badge</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a78446dd0551f2c0e15a4bbfb046a5c02" name="a78446dd0551f2c0e15a4bbfb046a5c02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78446dd0551f2c0e15a4bbfb046a5c02">&#9670;&#160;</a></span>GetBadges() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a> &gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadges </td>
-          <td>(</td>
-          <td class="paramtype">List&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>searchBadges</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87c1e59fee0c76ed557a10c87429687b" name="a87c1e59fee0c76ed557a10c87429687b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87c1e59fee0c76ed557a10c87429687b">&#9670;&#160;</a></span>GetBadges() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadges </td>
-          <td>(</td>
-          <td class="paramtype">params <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>[]</td>          <td class="paramname"><span class="paramname"><em>badges</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a455805cc8ea41181d587c9ae851b3690" name="a455805cc8ea41181d587c9ae851b3690"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a455805cc8ea41181d587c9ae851b3690">&#9670;&#160;</a></span>GetBadgeTMPText()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string[] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadgeTMPText </td>
-          <td>(</td>
-          <td class="paramtype">List&lt;(string name, int version)&gt;</td>          <td class="paramname"><span class="paramname"><em>messageBadges</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4822b6331b5d910fdc883b43433d0f41" name="a4822b6331b5d910fdc883b43433d0f41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4822b6331b5d910fdc883b43433d0f41">&#9670;&#160;</a></span>GetChannelBadges()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">async Task ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetChannelBadges </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?</td>          <td class="paramname"><span class="paramname"><em>oldUser</em>, </span></td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>searchBadges</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>?</td>          <td class="paramname"><span class="paramname"><em>newUser</em></span>&#160;)</td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>room_id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f50c1ee4621f2af0c4652611687ce80" name="a5f50c1ee4621f2af0c4652611687ce80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f50c1ee4621f2af0c4652611687ce80">&#9670;&#160;</a></span>GetBadgeTMPText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetBadgeTMPText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html">BadgeData</a>[]</td>          <td class="paramname"><span class="paramname"><em>messageBadges</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>room_id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78217d738d29c8ee4bf4697783479854" name="a78217d738d29c8ee4bf4697783479854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78217d738d29c8ee4bf4697783479854">&#9670;&#160;</a></span>GetChannelBadges() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetChannelBadges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a></td>          <td class="paramname"><span class="paramname"><em>user</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a></td>          <td class="paramname"><span class="paramname"><em>credentials</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a857940c7986761fad59a881e7b4157a0" name="a857940c7986761fad59a881e7b4157a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857940c7986761fad59a881e7b4157a0">&#9670;&#160;</a></span>GetChannelBadges() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.GetChannelBadges </td>
+          <td>(</td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>room_id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a></td>          <td class="paramname"><span class="paramname"><em>credentials</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -535,8 +478,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a26987c940d842a83aa6200268a459b3b" name="a26987c940d842a83aa6200268a459b3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26987c940d842a83aa6200268a459b3b">&#9670;&#160;</a></span>GetInstance()</h2>
+<a id="acf6e407025faa6dda56e9dd2a752cffc" name="acf6e407025faa6dda56e9dd2a752cffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6e407025faa6dda56e9dd2a752cffc">&#9670;&#160;</a></span>InternalCoroutineGetChannelBadges() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -545,68 +488,19 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.GetInstance </td>
+          <td class="memname">IEnumerator ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.InternalCoroutineGetChannelBadges </td>
           <td>(</td>
-          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>instance</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the Singleton if it exists in the scene. </p>
-
-</div>
-</div>
-<a id="a4feadee82ec17235b1d966ff17130250" name="a4feadee82ec17235b1d966ff17130250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4feadee82ec17235b1d966ff17130250">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.OnApplicationQuit </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#af703ff45f05e78bcbde2b41c6b7bc1ed">ScoredProductions.StreamLinked.Utility.SingletonInstance&lt; TwitchBadgeManager &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a4e925279d19d0ed00a458be72a671da7" name="a4e925279d19d0ed00a458be72a671da7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e925279d19d0ed00a458be72a671da7">&#9670;&#160;</a></span>OnAtlasBuildStarted()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.OnAtlasBuildStarted </td>
-          <td>(</td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>sender</em>, </span></td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a></td>          <td class="paramname"><span class="paramname"><em>user</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">EventArgs</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a></td>          <td class="paramname"><span class="paramname"><em>credentials</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -616,12 +510,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Signal from atlas that work has started. </p>
-
 </div>
 </div>
-<a id="af9e91801a61fd93b1c826ca053046b13" name="af9e91801a61fd93b1c826ca053046b13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9e91801a61fd93b1c826ca053046b13">&#9670;&#160;</a></span>OnDestroy()</h2>
+<a id="a8cf5eb9fe1e73225b577afd437ca9aac" name="a8cf5eb9fe1e73225b577afd437ca9aac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf5eb9fe1e73225b577afd437ca9aac">&#9670;&#160;</a></span>InternalCoroutineGetChannelBadges() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -630,7 +522,41 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.OnDestroy </td>
+          <td class="memname">IEnumerator ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.InternalCoroutineGetChannelBadges </td>
+          <td>(</td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>room_id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>force</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a></td>          <td class="paramname"><span class="paramname"><em>credentials</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a093bb29f93227e2c7a772eb3f8903aa3" name="a093bb29f93227e2c7a772eb3f8903aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a093bb29f93227e2c7a772eb3f8903aa3">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">ScoredProductions.StreamLinked.Utility.SingletonDispatcher</a>&lt; T &gt;.LateUpdate </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -638,7 +564,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -695,54 +621,58 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aca30b1c77c7e18c88a05b3769f49d42e" name="aca30b1c77c7e18c88a05b3769f49d42e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca30b1c77c7e18c88a05b3769f49d42e">&#9670;&#160;</a></span>Start()</h2>
+<a id="a1a182ec444172cfbbe1949c8c9813215" name="a1a182ec444172cfbbe1949c8c9813215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a182ec444172cfbbe1949c8c9813215">&#9670;&#160;</a></span>QueueBadgeDownload()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.Start </td>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.QueueBadgeDownload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a></td>          <td class="paramname"><span class="paramname"><em>badge</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f2c4afdb55a314ca851afe8fce8dd5e" name="a0f2c4afdb55a314ca851afe8fce8dd5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2c4afdb55a314ca851afe8fce8dd5e">&#9670;&#160;</a></span>QueueBadgesDownloads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.QueueBadgesDownloads </td>
+          <td>(</td>
+          <td class="paramtype">params <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>[]</td>          <td class="paramname"><span class="paramname"><em>badges</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a141b90f576347a4cd75cca8fce207b79" name="a141b90f576347a4cd75cca8fce207b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141b90f576347a4cd75cca8fce207b79">&#9670;&#160;</a></span>RestartCoroutineThreads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.RestartCoroutineThreads </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4c6eb564c54cdc8f1ea89bf2ff89a7fc" name="a4c6eb564c54cdc8f1ea89bf2ff89a7fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c6eb564c54cdc8f1ea89bf2ff89a7fc">&#9670;&#160;</a></span>_instance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;._instance</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3de77234520e73d0a38e66797faab7e8" name="a3de77234520e73d0a38e66797faab7e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3de77234520e73d0a38e66797faab7e8">&#9670;&#160;</a></span>BadgeSize</h2>
 
@@ -757,8 +687,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a64159d83715778f6aa2b33ad8041a788" name="a64159d83715778f6aa2b33ad8041a788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64159d83715778f6aa2b33ad8041a788">&#9670;&#160;</a></span>downloaderCoroutines</h2>
+<a id="a59a85bbc9779c922b46f6ecb5703e0bf" name="a59a85bbc9779c922b46f6ecb5703e0bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a85bbc9779c922b46f6ecb5703e0bf">&#9670;&#160;</a></span>CustomBadgeNames</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,7 +697,29 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;Coroutine&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.downloaderCoroutines = new List&lt;Coroutine&gt;()</td>
+          <td class="memname">readonly string [] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.CustomBadgeNames = new string[] { &quot;subscriber&quot;, &quot;cheer&quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a499dbfd5418e85f4d3d51546a1274eb6" name="a499dbfd5418e85f4d3d51546a1274eb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a499dbfd5418e85f4d3d51546a1274eb6">&#9670;&#160;</a></span>downloaderCoroutines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;Coroutine&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.downloaderCoroutines = new List&lt;Coroutine&gt;()</td>
         </tr>
       </table>
   </td>
@@ -801,28 +753,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a338ec92aaa946b5f73695115a1ff7114" name="a338ec92aaa946b5f73695115a1ff7114"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a338ec92aaa946b5f73695115a1ff7114">&#9670;&#160;</a></span>downloadsWaiting</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">WaitUntil ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.downloadsWaiting</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac41f83fc6ed03325185950a2f1708571" name="ac41f83fc6ed03325185950a2f1708571"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac41f83fc6ed03325185950a2f1708571">&#9670;&#160;</a></span>GlobalBadgeName</h2>
 
@@ -843,10 +773,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>A non web address compatible name as Twitch user names are translated to links for their channel. </p>
+
 </div>
 </div>
-<a id="ae94e3758cba1ec088313ee4aed244e9f" name="ae94e3758cba1ec088313ee4aed244e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae94e3758cba1ec088313ee4aed244e9f">&#9670;&#160;</a></span>Locker</h2>
+<a id="aa33ca33f4ed3ca4bd233cda2457990e9" name="aa33ca33f4ed3ca4bd233cda2457990e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa33ca33f4ed3ca4bd233cda2457990e9">&#9670;&#160;</a></span>LogDebugLevel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -855,34 +787,20 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly object <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.Locker</td>
+          <td class="memname">DebugManager.DebugLevel <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">ScoredProductions.StreamLinked.Utility.SingletonDispatcher</a>&lt; T &gt;.LogDebugLevel</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a512726923f4ab5ffb0992e8386e6427d" name="a512726923f4ab5ffb0992e8386e6427d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a512726923f4ab5ffb0992e8386e6427d">&#9670;&#160;</a></span>LogDebugLevel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a494b2edb7d3e28d2d1f8e6f3583f9564">DebugManager.DebugLevel</a> ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.LogDebugLevel = DebugManager.DebugLevel.Normal</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7e71aa2bf2e34309f8e44fa6863709f8" name="a7e71aa2bf2e34309f8e44fa6863709f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e71aa2bf2e34309f8e44fa6863709f8">&#9670;&#160;</a></span>Name</h2>
+<a id="aa7bccb5872daa897d3b003d853e852ec" name="aa7bccb5872daa897d3b003d853e852ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7bccb5872daa897d3b003d853e852ec">&#9670;&#160;</a></span>MainThreadDispatchQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -891,15 +809,17 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly string <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.Name</td>
+          <td class="memname">readonly Queue&lt;Action&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">ScoredProductions.StreamLinked.Utility.SingletonDispatcher</a>&lt; T &gt;.MainThreadDispatchQueue</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Queue of Actions that will be executed on the main thread (<code>LateUpdate</code>) </p>
 
 </div>
 </div>
@@ -910,15 +830,15 @@ Static Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.NumWorkersToCreateOnAwake = 2</td>
+          <td class="memname">int ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.NumWorkersToCreateOnAwake = 4</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5f218ec3c0517254de5311e5e9db4d00" name="a5f218ec3c0517254de5311e5e9db4d00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f218ec3c0517254de5311e5e9db4d00">&#9670;&#160;</a></span>preventNewInstances</h2>
+<a id="a831f1d082d32f7c71aae2d8f808646d4" name="a831f1d082d32f7c71aae2d8f808646d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831f1d082d32f7c71aae2d8f808646d4">&#9670;&#160;</a></span>persistBetweenScenes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -927,12 +847,12 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.preventNewInstances</td>
+          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.persistBetweenScenes = true</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -961,8 +881,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a094579cbbd1d0f3ad198bac59e6aa133" name="a094579cbbd1d0f3ad198bac59e6aa133"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a094579cbbd1d0f3ad198bac59e6aa133">&#9670;&#160;</a></span>threadsWorking</h2>
+<a id="a70222f0183c0bc34b43ba6f98128c560" name="a70222f0183c0bc34b43ba6f98128c560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70222f0183c0bc34b43ba6f98128c560">&#9670;&#160;</a></span>threadsWorking</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -971,7 +891,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;int, bool&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.threadsWorking = new Dictionary&lt;int, bool&gt;()</td>
+          <td class="memname">readonly Dictionary&lt;int, bool&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.threadsWorking = new Dictionary&lt;int, bool&gt;()</td>
         </tr>
       </table>
   </td>
@@ -983,21 +903,29 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa22eb3e03860ce76da3915fd7d1702f" name="aaa22eb3e03860ce76da3915fd7d1702f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa22eb3e03860ce76da3915fd7d1702f">&#9670;&#160;</a></span>Wait1Second</h2>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a4a6f5af43a8733772f89e54e637a5e23" name="a4a6f5af43a8733772f89e54e637a5e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6f5af43a8733772f89e54e637a5e23">&#9670;&#160;</a></span>AquiredRooms</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly WaitForSecondsRealtime ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.Wait1Second = new WaitForSecondsRealtime(1)</td>
+          <td class="memname">List&lt;<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.AquiredRooms = new List&lt;<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html">GetUsers</a>&gt;()</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
 <a id="ab10ab15e6dd6ba245147140a502e5654" name="ab10ab15e6dd6ba245147140a502e5654"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab10ab15e6dd6ba245147140a502e5654">&#9670;&#160;</a></span>Busy</h2>
 
@@ -1042,28 +970,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a92976edfa7ddaa6c9006e400e4bb8c5f" name="a92976edfa7ddaa6c9006e400e4bb8c5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92976edfa7ddaa6c9006e400e4bb8c5f">&#9670;&#160;</a></span>DownloadedBadges</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.DownloadedBadges = new List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt;()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac4e095ffb7c601c98c5efceb880628a8" name="ac4e095ffb7c601c98c5efceb880628a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4e095ffb7c601c98c5efceb880628a8">&#9670;&#160;</a></span>DownloaderWorking</h2>
 
@@ -1086,8 +992,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8597a86e6473a170990095098189ad4f" name="a8597a86e6473a170990095098189ad4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8597a86e6473a170990095098189ad4f">&#9670;&#160;</a></span>DownloadNewEmotes</h2>
+<a id="a75ba4f01e64cf8becc78dac345bd348b" name="a75ba4f01e64cf8becc78dac345bd348b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ba4f01e64cf8becc78dac345bd348b">&#9670;&#160;</a></span>PersistBetweenScenes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1096,29 +1002,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.DownloadNewEmotes</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9a7e5ae06db3dfaa9117d0deca922f5b" name="a9a7e5ae06db3dfaa9117d0deca922f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a7e5ae06db3dfaa9117d0deca922f5b">&#9670;&#160;</a></span>HoldUntilAtlasReady</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.HoldUntilAtlasReady</td>
+          <td class="memname">override bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.PersistBetweenScenes</td>
         </tr>
       </table>
   </td>
@@ -1130,8 +1014,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a48ec67fa9431ea8b9a985ee461d9deea" name="a48ec67fa9431ea8b9a985ee461d9deea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48ec67fa9431ea8b9a985ee461d9deea">&#9670;&#160;</a></span>InstanceIsAlive</h2>
+<a id="a68f49b8d52b2868f950208e92cd1137e" name="a68f49b8d52b2868f950208e92cd1137e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f49b8d52b2868f950208e92cd1137e">&#9670;&#160;</a></span>RoomBadges</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1140,31 +1024,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.InstanceIsAlive</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>If the Singleton is running in the scene. Good to prevent non-playtime functionality running. </p>
-
-</div>
-</div>
-<a id="ab6497e5a1ed8ca0691b59a2b22118466" name="ab6497e5a1ed8ca0691b59a2b22118466"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6497e5a1ed8ca0691b59a2b22118466">&#9670;&#160;</a></span>ReadyForBuild</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.ReadyForBuild</td>
+          <td class="memname">Dictionary&lt;long, List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt; &gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchBadgeManager.RoomBadges = new Dictionary&lt;long, List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html">TwitchBadge</a>&gt;&gt;()</td>
         </tr>
       </table>
   </td>

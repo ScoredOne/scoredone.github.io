@@ -6,7 +6,5 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth =
     [ "GetDeviceCodeGrantFlow", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_device_code_grant_flow" ],
     [ "GetTokenRefresh", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh" ],
     [ "GetValidatedTokenInfo", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_validated_token_info" ],
-    [ "IAppAccess", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_app_access.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_app_access" ],
-    [ "IAuth", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth" ],
-    [ "IUserAccess", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_user_access.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_user_access" ]
+    [ "IAuth", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth" ]
 ];

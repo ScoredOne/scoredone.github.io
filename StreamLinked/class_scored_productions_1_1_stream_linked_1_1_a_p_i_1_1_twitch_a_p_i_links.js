@@ -66,7 +66,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links 
     [ "GuestStarInvites", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#aaf430a9e81294d85523cb594aef0b833", null ],
     [ "GuestStarSession", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a0bbf36f7ab4435c10c8ca6e0f030317d", null ],
     [ "GuestStarSlot", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a0bb1af3aa4ec7815c37fd737d6c3b413", null ],
-    [ "ManageHeldAutoModMessages", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a2ca254df42508a85e94d1e68528201a6", null ],
+    [ "ManageHeldAutoMessages", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ae9cdf2ef4a9336e2360bdb4e0de51a65", null ],
     [ "Moderators", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ab4469fa02a614f4c4208ef1a33debbf4", null ],
     [ "Polls", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a203ff27c1a26e057fe22c6f2d219843f", null ],
     [ "Predictions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a1e3ca5da4ca6b6f4f4ef750e4b4f2244", null ],

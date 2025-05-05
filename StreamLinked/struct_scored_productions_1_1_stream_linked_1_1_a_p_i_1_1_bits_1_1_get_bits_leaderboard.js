@@ -7,6 +7,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a21cc9c875618b2763d63824d1ce3a846", null ],
     [ "PERIOD", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#ae9f20e90dfc18c7dc20f0d480a691128", null ],
     [ "rank", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#adb10e5b3c8eabdaacb73ed284121a8c7", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a1546b17c4233c8cb75317883697f4a90", null ],
     [ "score", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a2a72e8f081b448bcbca1471021651e50", null ],
     [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#a3139286944eb9896a905e895617b93ca", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_bits_1_1_get_bits_leaderboard.html#ac4f427dfeece34e340716d5538b4be8f", null ],

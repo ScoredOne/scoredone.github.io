@@ -5,6 +5,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#adeaa133749be58c9adaf8d4242ad6316", null ],
     [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#ad27a4b2d35e4883c68c67915ad7e934c", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#a452abc4904f30fc2ceb3acc898c96e45", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#ae061c8554a5ba2d3644fd7f9f98f1b89", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#a64b4b26649da72b2a1fce61ea9b67b4f", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#a28168808af8f977126c730aa9862686f", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_remove.html#a417e2014f85155cd76ca593942f66372", null ]

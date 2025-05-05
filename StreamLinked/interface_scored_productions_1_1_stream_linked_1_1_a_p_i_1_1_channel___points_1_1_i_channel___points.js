@@ -1,13 +1,9 @@
 var interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points =
 [
-    [ "Global_Cooldown_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point82c0d3d67a02cf4f166fcd4dc62bf735" ],
-    [ "Image", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points_1_1_image.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points_1_1_image" ],
-    [ "Max_Per_Stream_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point00c4124a812f4824550925cc952ec156.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point00c4124a812f4824550925cc952ec156" ],
-    [ "Max_Per_User_Per_Stream_Setting", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point253b6ca787b789a2aecad493216e6ceb.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___point253b6ca787b789a2aecad493216e6ceb" ],
-    [ "Reward", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points_1_1_reward.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points_1_1_reward" ],
     [ "HasResponse< T >", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points.html#aa8a7f3cdaf9970d33a03b952eb3c4e8b", null ],
     [ "Endpoint", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points.html#ab302e95f13eedd86ad1f93d520438c3d", null ],
     [ "HTTPMethod", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points.html#aeffb1258b89e9ea57101c221304491dc", null ],
+    [ "Scopes", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points.html#ae8d5620bed27e6a78f5375c775184bfb", null ],
     [ "TypeEnum", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_channel___points_1_1_i_channel___points.html#aae64e067661378996bb7f500eacd599e", null ]
 ];

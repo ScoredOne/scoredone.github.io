@@ -7,7 +7,8 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_share
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a55c79d13c417d3c66b657ff5e0647307", null ],
     [ "host_broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ac781b2563e64ea4fb3530feec6062b57", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#afdf5788af7f8ae97d6813bcb476fc3e2", null ],
-    [ "participants", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a63685c335d4a11a189ef6a8e7199debb", null ],
+    [ "participants", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a546f23f20e9bf8d71d6f72bc780c251d", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ae1ea42eea4420298eac6f0b939d316bb", null ],
     [ "session_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a2c64ba6dd7bd9de6f8da97682fa8e7a3", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a2b3e72e11f4996e3e5f6ec206104c87e", null ],
     [ "updated_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ae14c3958b51f5b1708c0a91e0de4eb09", null ]

@@ -17,7 +17,7 @@ var class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager =
     [ "ClearPostedMessages", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a4479b825567ef14e9e6f92bfce3cc991", null ],
     [ "ClearPostedMessages", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a873a750f509b3f564f32bd142c031a4e", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#abedf84cbc948a1b9d8267c2c614e1847", null ],
-    [ "EstablishSingleton", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#adef36405df7fb507bd061bec5ef7683f", null ],
+    [ "EstablishSingleton", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#addd415202c1fd44c33e07ee62060c325", null ],
     [ "FixedUpdate", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a5795f3d47d9b628e01600ad118ae3f45", null ],
     [ "GetInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a26987c940d842a83aa6200268a459b3b", null ],
     [ "GetMessage", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a76c3a17e5101f11f62d930f3de931730", null ],
@@ -39,5 +39,6 @@ var class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager =
     [ "preventNewInstances", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a5f218ec3c0517254de5311e5e9db4d00", null ],
     [ "InstanceIsAlive", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a48ec67fa9431ea8b9a985ee461d9deea", null ],
     [ "MessageLimit", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a04f70764fbca592de7b9e258cb84db1c", null ],
+    [ "PersistBetweenScenes", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#aa79004b7094cff5ebbabeff63b636a76", null ],
     [ "PostedMessages", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a63d306e55d998f4f5742bb70139c5861", null ]
 ];

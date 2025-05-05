@@ -7,6 +7,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#abab2fdfc5827a0b4263a79a1c6c5b293", null ],
     [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#a6797bbf8e74d906fc815ae16b08ce0ed", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#a92d83cf66c15981497bc56653adeff95", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#a3b52aea29ff10df6958854a6571d7e05", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#ad89cecd5e51f2c117a4c6a460fff380c", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#a17c0a15dfd29240639539bc9c6f6a6eb", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_v_i_ps.html#af87026343cf809549e63f8331e64b609", null ],

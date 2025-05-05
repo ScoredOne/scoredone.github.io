@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -99,6 +99,7 @@ $(function(){initNavTree('struct_scored_productions_1_1_stream_linked_1_1_a_p_i_
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user_extensions-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions Struct Reference</div></div>
 </div><!--header-->
@@ -112,8 +113,10 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.Users.UpdateUserExten
  <div class="center">
   <img src="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user_extensions.png" usemap="#ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions_map" alt=""/>
   <map id="ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions_map" name="ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions_map">
-<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users.html" alt="ScoredProductions.StreamLinked.API.Users.IUsers" shape="rect" coords="0,56,389,80"/>
-<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html" alt="ScoredProductions.StreamLinked.API.ITwitchAPIDataObject" shape="rect" coords="0,0,389,24"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users.html" alt="ScoredProductions.StreamLinked.API.Users.IUsers" shape="rect" coords="0,112,389,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html" title="Ensure a static string called BuildDataJson is included, NetStandard 2.1 doesnt include inherited sta..." alt="ScoredProductions.StreamLinked.API.IJsonRequest" shape="rect" coords="399,112,788,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html" alt="ScoredProductions.StreamLinked.API.ITwitchAPIDataObject" shape="rect" coords="0,56,389,80"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html" alt="ScoredProductions.StreamLinked.API.Scopes.IScope" shape="rect" coords="0,0,389,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -121,11 +124,15 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.Users.UpdateUserExten
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aba2e78d3343bedab6f809c44721d829e" id="r_aba2e78d3343bedab6f809c44721d829e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba2e78d3343bedab6f809c44721d829e">Initialise</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> body)</td></tr>
 <tr class="separator:aba2e78d3343bedab6f809c44721d829e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d91a7e210784ce748646386bbc0db0" id="r_ab2d91a7e210784ce748646386bbc0db0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2d91a7e210784ce748646386bbc0db0">OnBeforeSerialize</a> ()</td></tr>
+<tr class="separator:ab2d91a7e210784ce748646386bbc0db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509edb335ca8c736ea35a751eab43b0a" id="r_a509edb335ca8c736ea35a751eab43b0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509edb335ca8c736ea35a751eab43b0a">OnAfterDeserialize</a> ()</td></tr>
+<tr class="separator:a509edb335ca8c736ea35a751eab43b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a492fd02f9a093a02676fd5bf8d83ec3f" id="r_a492fd02f9a093a02676fd5bf8d83ec3f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492fd02f9a093a02676fd5bf8d83ec3f">BuildDataJson</a> (Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a> &gt; <a class="el" href="#a3da4f5e2b62e33d476ab1b3fc45f78b7">panel</a>=null, Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a> &gt; <a class="el" href="#aeacb2b7e261f576c6bd81eb6a26142b6">overlay</a>=null, Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a> &gt; <a class="el" href="#a68e1848b7f6ea3a7958dd704a2592652">component</a>=null)</td></tr>
-<tr class="separator:a492fd02f9a093a02676fd5bf8d83ec3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb9dad53d2c7a2c55d4b00ad4426f25" id="r_a0bb9dad53d2c7a2c55d4b00ad4426f25"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb9dad53d2c7a2c55d4b00ad4426f25">BuildDataJson</a> (Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt; <a class="el" href="#a280d5b2a330fa4d7439dd2789a7cb9cc">panel</a>=null, Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt; <a class="el" href="#a6a3af1363435a154b8212076920e568a">overlay</a>=null, Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt; <a class="el" href="#a716fc4e17ead65f83d1b2a4ecce1fdf2">component</a>=null)</td></tr>
+<tr class="separator:a0bb9dad53d2c7a2c55d4b00ad4426f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0348eb381baae9ecb78e2994a29c092c" id="r_a0348eb381baae9ecb78e2994a29c092c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html#a0348eb381baae9ecb78e2994a29c092c">HasResponse&lt; T &gt;</a> ()</td></tr>
 <tr class="separator:a0348eb381baae9ecb78e2994a29c092c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -133,29 +140,49 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:af1f4e206873d5e7bcc55263abf454073" id="r_af1f4e206873d5e7bcc55263abf454073"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a></td></tr>
 <tr class="separator:af1f4e206873d5e7bcc55263abf454073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccb090f22495e76cb5d94db7bcdbd4b" id="r_a3ccb090f22495e76cb5d94db7bcdbd4b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html#a3ccb090f22495e76cb5d94db7bcdbd4b">MethodName</a> = &quot;BuildDataJson&quot;</td></tr>
+<tr class="separator:a3ccb090f22495e76cb5d94db7bcdbd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a3da4f5e2b62e33d476ab1b3fc45f78b7" id="r_a3da4f5e2b62e33d476ab1b3fc45f78b7"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3da4f5e2b62e33d476ab1b3fc45f78b7">panel</a><code> [get, set]</code></td></tr>
-<tr class="separator:a3da4f5e2b62e33d476ab1b3fc45f78b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeacb2b7e261f576c6bd81eb6a26142b6" id="r_aeacb2b7e261f576c6bd81eb6a26142b6"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeacb2b7e261f576c6bd81eb6a26142b6">overlay</a><code> [get, set]</code></td></tr>
-<tr class="separator:aeacb2b7e261f576c6bd81eb6a26142b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68e1848b7f6ea3a7958dd704a2592652" id="r_a68e1848b7f6ea3a7958dd704a2592652"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e1848b7f6ea3a7958dd704a2592652">component</a><code> [get, set]</code></td></tr>
-<tr class="separator:a68e1848b7f6ea3a7958dd704a2592652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a280d5b2a330fa4d7439dd2789a7cb9cc" id="r_a280d5b2a330fa4d7439dd2789a7cb9cc"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a280d5b2a330fa4d7439dd2789a7cb9cc">panel</a><code> [get, set]</code></td></tr>
+<tr class="separator:a280d5b2a330fa4d7439dd2789a7cb9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a3af1363435a154b8212076920e568a" id="r_a6a3af1363435a154b8212076920e568a"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a3af1363435a154b8212076920e568a">overlay</a><code> [get, set]</code></td></tr>
+<tr class="separator:a6a3af1363435a154b8212076920e568a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716fc4e17ead65f83d1b2a4ecce1fdf2" id="r_a716fc4e17ead65f83d1b2a4ecce1fdf2"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a716fc4e17ead65f83d1b2a4ecce1fdf2">component</a><code> [get, set]</code></td></tr>
+<tr class="separator:a716fc4e17ead65f83d1b2a4ecce1fdf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c0a0f9c6cc4f02e5b734de872615ba1" id="r_a9c0a0f9c6cc4f02e5b734de872615ba1"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a5e7fd0dcd52a1025215773db0142fae9">TwitchAPIRequestMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c0a0f9c6cc4f02e5b734de872615ba1">HTTPMethod</a><code> [get]</code></td></tr>
 <tr class="separator:a9c0a0f9c6cc4f02e5b734de872615ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a1df196dde2011462bd3122908f05b2" id="r_a9a1df196dde2011462bd3122908f05b2"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a1df196dde2011462bd3122908f05b2">Endpoint</a><code> [get]</code></td></tr>
 <tr class="separator:a9a1df196dde2011462bd3122908f05b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196ebec1bc2d025dbda7a6cac287e46b" id="r_a196ebec1bc2d025dbda7a6cac287e46b"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a196ebec1bc2d025dbda7a6cac287e46b">TypeEnum</a><code> [get]</code></td></tr>
 <tr class="separator:a196ebec1bc2d025dbda7a6cac287e46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d258a43c7a5b900ba024eb41c2455a3" id="r_a0d258a43c7a5b900ba024eb41c2455a3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d258a43c7a5b900ba024eb41c2455a3">CONTENTTYPE</a><code> [get]</code></td></tr>
-<tr class="separator:a0d258a43c7a5b900ba024eb41c2455a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab962dd00b056eff918f9fe60571d66f5" id="r_ab962dd00b056eff918f9fe60571d66f5"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab962dd00b056eff918f9fe60571d66f5">Scopes</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab962dd00b056eff918f9fe60571d66f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional and Required scopes needed by Twitch, found at  Twitch Scopes <br /></td></tr>
+<tr class="separator:ab962dd00b056eff918f9fe60571d66f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc82ccb4924c92128c01da3f21502e8" id="r_a1cc82ccb4924c92128c01da3f21502e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc82ccb4924c92128c01da3f21502e8">CONTENT_TYPE</a><code> [get]</code></td></tr>
+<tr class="separator:a1cc82ccb4924c92128c01da3f21502e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab1d52b90557faa3683abbc94a36bf41c" id="r_ab1d52b90557faa3683abbc94a36bf41c"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1d52b90557faa3683abbc94a36bf41c">panel_keys</a></td></tr>
+<tr class="separator:ab1d52b90557faa3683abbc94a36bf41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1d92d2060e701bb0e6f9144aa85ffb" id="r_aba1d92d2060e701bb0e6f9144aa85ffb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba1d92d2060e701bb0e6f9144aa85ffb">panel_values</a></td></tr>
+<tr class="separator:aba1d92d2060e701bb0e6f9144aa85ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299cb30795c175925982f4fcd7ddb353" id="r_a299cb30795c175925982f4fcd7ddb353"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a299cb30795c175925982f4fcd7ddb353">overlay_keys</a></td></tr>
+<tr class="separator:a299cb30795c175925982f4fcd7ddb353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba30d51845fbc8126c2633d4a7f367e" id="r_aeba30d51845fbc8126c2633d4a7f367e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeba30d51845fbc8126c2633d4a7f367e">overlay_values</a></td></tr>
+<tr class="separator:aeba30d51845fbc8126c2633d4a7f367e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9dc36b8feff41df8a02bc22000d77b" id="r_a0e9dc36b8feff41df8a02bc22000d77b"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e9dc36b8feff41df8a02bc22000d77b">component_keys</a></td></tr>
+<tr class="separator:a0e9dc36b8feff41df8a02bc22000d77b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac35ebdfaeb2e5d3b55bff41d2407279b" id="r_ac35ebdfaeb2e5d3b55bff41d2407279b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35ebdfaeb2e5d3b55bff41d2407279b">component_values</a></td></tr>
+<tr class="separator:ac35ebdfaeb2e5d3b55bff41d2407279b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch API Class</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a492fd02f9a093a02676fd5bf8d83ec3f" name="a492fd02f9a093a02676fd5bf8d83ec3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a492fd02f9a093a02676fd5bf8d83ec3f">&#9670;&#160;</a></span>BuildDataJson()</h2>
+<a id="a0bb9dad53d2c7a2c55d4b00ad4426f25" name="a0bb9dad53d2c7a2c55d4b00ad4426f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb9dad53d2c7a2c55d4b00ad4426f25">&#9670;&#160;</a></span>BuildDataJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,17 +193,17 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a> ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.BuildDataJson </td>
           <td>(</td>
-          <td class="paramtype">Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers::Map</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>panel</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </span></td>
+          <td class="paramtype">Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>panel</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers::Map</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>overlay</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </span></td>
+          <td class="paramtype">Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>overlay</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Dictionary&lt; int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers::Map</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>component</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
+          <td class="paramtype">Dictionary&lt; int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>component</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -241,7 +268,195 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a509edb335ca8c736ea35a751eab43b0a" name="a509edb335ca8c736ea35a751eab43b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509edb335ca8c736ea35a751eab43b0a">&#9670;&#160;</a></span>OnAfterDeserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.OnAfterDeserialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2d91a7e210784ce748646386bbc0db0" name="ab2d91a7e210784ce748646386bbc0db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d91a7e210784ce748646386bbc0db0">&#9670;&#160;</a></span>OnBeforeSerialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.OnBeforeSerialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0e9dc36b8feff41df8a02bc22000d77b" name="a0e9dc36b8feff41df8a02bc22000d77b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9dc36b8feff41df8a02bc22000d77b">&#9670;&#160;</a></span>component_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.component_keys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac35ebdfaeb2e5d3b55bff41d2407279b" name="ac35ebdfaeb2e5d3b55bff41d2407279b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35ebdfaeb2e5d3b55bff41d2407279b">&#9670;&#160;</a></span>component_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.component_values</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ccb090f22495e76cb5d94db7bcdbd4b" name="a3ccb090f22495e76cb5d94db7bcdbd4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccb090f22495e76cb5d94db7bcdbd4b">&#9670;&#160;</a></span>MethodName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a> ScoredProductions.StreamLinked.API.IJsonRequest.MethodName = &quot;BuildDataJson&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a299cb30795c175925982f4fcd7ddb353" name="a299cb30795c175925982f4fcd7ddb353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299cb30795c175925982f4fcd7ddb353">&#9670;&#160;</a></span>overlay_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.overlay_keys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeba30d51845fbc8126c2633d4a7f367e" name="aeba30d51845fbc8126c2633d4a7f367e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba30d51845fbc8126c2633d4a7f367e">&#9670;&#160;</a></span>overlay_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.overlay_values</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1d52b90557faa3683abbc94a36bf41c" name="ab1d52b90557faa3683abbc94a36bf41c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d52b90557faa3683abbc94a36bf41c">&#9670;&#160;</a></span>panel_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.panel_keys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba1d92d2060e701bb0e6f9144aa85ffb" name="aba1d92d2060e701bb0e6f9144aa85ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1d92d2060e701bb0e6f9144aa85ffb">&#9670;&#160;</a></span>panel_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a> [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.panel_values</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af1f4e206873d5e7bcc55263abf454073" name="af1f4e206873d5e7bcc55263abf454073"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1f4e206873d5e7bcc55263abf454073">&#9670;&#160;</a></span>string</h2>
 
@@ -265,8 +480,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a68e1848b7f6ea3a7958dd704a2592652" name="a68e1848b7f6ea3a7958dd704a2592652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e1848b7f6ea3a7958dd704a2592652">&#9670;&#160;</a></span>component</h2>
+<a id="a716fc4e17ead65f83d1b2a4ecce1fdf2" name="a716fc4e17ead65f83d1b2a4ecce1fdf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716fc4e17ead65f83d1b2a4ecce1fdf2">&#9670;&#160;</a></span>component</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,7 +490,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a>&gt; ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.component</td>
+          <td class="memname">Dictionary&lt;int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a>&gt; ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.component</td>
         </tr>
       </table>
   </td>
@@ -287,8 +502,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d258a43c7a5b900ba024eb41c2455a3" name="a0d258a43c7a5b900ba024eb41c2455a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d258a43c7a5b900ba024eb41c2455a3">&#9670;&#160;</a></span>CONTENTTYPE</h2>
+<a id="a1cc82ccb4924c92128c01da3f21502e8" name="a1cc82ccb4924c92128c01da3f21502e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc82ccb4924c92128c01da3f21502e8">&#9670;&#160;</a></span>CONTENT_TYPE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,7 +512,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a> ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.CONTENTTYPE</td>
+          <td class="memname"><a class="el" href="#af1f4e206873d5e7bcc55263abf454073">string</a> ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.CONTENT_TYPE</td>
         </tr>
       </table>
   </td>
@@ -357,8 +572,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aeacb2b7e261f576c6bd81eb6a26142b6" name="aeacb2b7e261f576c6bd81eb6a26142b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeacb2b7e261f576c6bd81eb6a26142b6">&#9670;&#160;</a></span>overlay</h2>
+<a id="a6a3af1363435a154b8212076920e568a" name="a6a3af1363435a154b8212076920e568a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a3af1363435a154b8212076920e568a">&#9670;&#160;</a></span>overlay</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +582,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a>&gt; ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.overlay</td>
+          <td class="memname">Dictionary&lt;int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a>&gt; ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.overlay</td>
         </tr>
       </table>
   </td>
@@ -379,8 +594,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a3da4f5e2b62e33d476ab1b3fc45f78b7" name="a3da4f5e2b62e33d476ab1b3fc45f78b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3da4f5e2b62e33d476ab1b3fc45f78b7">&#9670;&#160;</a></span>panel</h2>
+<a id="a280d5b2a330fa4d7439dd2789a7cb9cc" name="a280d5b2a330fa4d7439dd2789a7cb9cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280d5b2a330fa4d7439dd2789a7cb9cc">&#9670;&#160;</a></span>panel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,7 +604,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;int, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users_1_1_map.html">IUsers.Map</a>&gt; ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.panel</td>
+          <td class="memname">Dictionary&lt;int, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html">Map</a>&gt; ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.panel</td>
         </tr>
       </table>
   </td>
@@ -398,6 +613,32 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab962dd00b056eff918f9fe60571d66f5" name="ab962dd00b056eff918f9fe60571d66f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab962dd00b056eff918f9fe60571d66f5">&#9670;&#160;</a></span>Scopes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> [] ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions.Scopes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Optional and Required scopes needed by Twitch, found at  Twitch Scopes</p>
+
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html#ae8d5620bed27e6a78f5375c775184bfb">ScoredProductions.StreamLinked.API.Scopes.IScope</a>.</p>
 
 </div>
 </div>

@@ -13,6 +13,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_chan
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a4b3e1668feaa8c643210b2c3131cee40", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a637a240371cb7caeb0b9624d5ff61f42", null ],
     [ "info", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#ab677885bf0f2e496fd6acf3597928899", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a8a19c476d5b24d381def91bd65aab1a1", null ],
     [ "team_display_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a1925ad9af914828b3c4449d0ba49867b", null ],
     [ "team_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#ae7dbbece0a0e057de4ef666db4c431ca", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_teams_1_1_get_channel_teams.html#a7ca5bd5d76f977d866a674cb282a94b0", null ],

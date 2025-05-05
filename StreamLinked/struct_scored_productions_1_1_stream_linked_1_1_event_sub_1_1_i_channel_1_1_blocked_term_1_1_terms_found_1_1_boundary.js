@@ -1,6 +1,0 @@
-var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term_1_1_terms_found_1_1_boundary =
-[
-    [ "Boundary", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term_1_1_terms_found_1_1_boundary.html#a41a044032f0f6ca0afaaf41c69b97216", null ],
-    [ "end_pos", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term_1_1_terms_found_1_1_boundary.html#a98ef5496396d473d6ef1e2685b57aa1e", null ],
-    [ "term_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_i_channel_1_1_blocked_term_1_1_terms_found_1_1_boundary.html#a4872661592474e30932d1f0e7ad5c47e", null ]
-];

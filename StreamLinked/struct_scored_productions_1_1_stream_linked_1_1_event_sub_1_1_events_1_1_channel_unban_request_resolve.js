@@ -10,6 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "moderator_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#ac4edf45322581265e004be500de7b7a4", null ],
     [ "moderator_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#a9bc794c7a91b550eca3794c9e547ed60", null ],
     [ "resolution_text", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#aa5c69c64edd4d240196fc0f5f7802306", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#ad92edc14ccd08471f3c42525ff8a199a", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#a9d831628e2eba055de519fef1f064d60", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#afe35aecbb8582f28e1d4ec328e23410c", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_unban_request_resolve.html#a71ee408a6cbbf28f371ef39b0c082b04", null ],

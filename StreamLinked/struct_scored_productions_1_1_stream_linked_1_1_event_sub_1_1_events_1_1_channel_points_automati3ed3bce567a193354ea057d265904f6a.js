@@ -1,7 +1,0 @@
-var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a =
-[
-    [ "Emotes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a.html#a0e176f858f88b73f84807557a754e6e3", null ],
-    [ "begin", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a.html#a4917b9df667423d8439c06f1df9cdb2f", null ],
-    [ "end", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a.html#aad6f7d9f8d873c176758375d88c291db", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automati3ed3bce567a193354ea057d265904f6a.html#ac23ed38fa2e1676af74969d7a0f3edba", null ]
-];

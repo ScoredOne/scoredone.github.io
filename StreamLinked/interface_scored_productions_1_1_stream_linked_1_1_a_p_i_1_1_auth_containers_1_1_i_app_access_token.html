@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -118,11 +118,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a479dc85236410b6fd3192411efc66570" id="r_a479dc85236410b6fd3192411efc66570"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#a479dc85236410b6fd3192411efc66570">Out</a> (bool pretty=false)</td></tr>
 <tr class="memdesc:a479dc85236410b6fd3192411efc66570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object transformed into a Json Structure.  <br /></td></tr>
 <tr class="separator:a479dc85236410b6fd3192411efc66570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fef34306dbe0e3727b544600b9601d2" id="r_a5fef34306dbe0e3727b544600b9601d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#a5fef34306dbe0e3727b544600b9601d2">AsJsonValue</a> ()</td></tr>
+<tr class="separator:a5fef34306dbe0e3727b544600b9601d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a393ac2c3a0434974354ab5e236fb3848" id="r_a393ac2c3a0434974354ab5e236fb3848"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#a393ac2c3a0434974354ab5e236fb3848">FLOWNAME</a> = &quot;FlowName&quot;</td></tr>
 <tr class="separator:a393ac2c3a0434974354ab5e236fb3848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f229629d34095aa231bdcc9c646a09" id="r_af1f229629d34095aa231bdcc9c646a09"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#af1f229629d34095aa231bdcc9c646a09">AUTHREQUESTENUM</a> = &quot;AuthRequestEnum&quot;</td></tr>
+<tr class="separator:af1f229629d34095aa231bdcc9c646a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -137,9 +141,39 @@ Properties</h2></td></tr>
 <tr class="memitem:a493083846a8726e7b9867f5c5c6aab55" id="r_a493083846a8726e7b9867f5c5c6aab55"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#a493083846a8726e7b9867f5c5c6aab55">Token_Type</a><code> [get, set]</code></td></tr>
 <tr class="separator:a493083846a8726e7b9867f5c5c6aab55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ff60f86f8859cc366d0ec1b0696a47f" id="r_a1ff60f86f8859cc366d0ec1b0696a47f"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#a1ff60f86f8859cc366d0ec1b0696a47f">ExpiryDate</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1ff60f86f8859cc366d0ec1b0696a47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Expiry Date of the token from provided information. (<code>OAuthAquireDate</code> + <code>Expires_In</code>)  <br /></td></tr>
 <tr class="separator:a1ff60f86f8859cc366d0ec1b0696a47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3f1a5832423808e2e284579966f823" id="r_acd3f1a5832423808e2e284579966f823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html#acd3f1a5832423808e2e284579966f823">TypeEnum</a><code> [get]</code></td></tr>
+<tr class="separator:acd3f1a5832423808e2e284579966f823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5fef34306dbe0e3727b544600b9601d2" name="a5fef34306dbe0e3727b544600b9601d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fef34306dbe0e3727b544600b9601d2">&#9670;&#160;</a></span>AsJsonValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> ScoredProductions.StreamLinked.API.AuthContainers.IAuthFlow.AsJsonValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html#aa9f93544582aaaba74658def8c802759">ScoredProductions.StreamLinked.API.AuthContainers.AuthorizationCodeGrantFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow.html#aeccc45c0e93af6b9a673e08537bd27fa">ScoredProductions.StreamLinked.API.AuthContainers.ClientCredentialsFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a87f63fbe7d0b3c488531a4298732d4b3">ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow</a>, and <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow.html#a3f22c4c26fa0a1702d756f1dca286406">ScoredProductions.StreamLinked.API.AuthContainers.ImplicitGrantFlow</a>.</p>
+
+</div>
+</div>
 <a id="a479dc85236410b6fd3192411efc66570" name="a479dc85236410b6fd3192411efc66570"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a479dc85236410b6fd3192411efc66570">&#9670;&#160;</a></span>Out()</h2>
 
@@ -166,11 +200,31 @@ Properties</h2></td></tr>
 <p>Object transformed into a Json Structure. </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implemented in <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html#af5965000ca60bf130ebec3d742cdab8c">ScoredProductions.StreamLinked.API.AuthContainers.AuthorizationCodeGrantFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow.html#a5cdb78e72e1375698c55a085962bd3bc">ScoredProductions.StreamLinked.API.AuthContainers.ClientCredentialsFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a60f22de641bcd8920990b94fdac1f3e4">ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow</a>, and <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow.html#aabb37a2d6fc81aad53e992321305f26f">ScoredProductions.StreamLinked.API.AuthContainers.ImplicitGrantFlow</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af1f229629d34095aa231bdcc9c646a09" name="af1f229629d34095aa231bdcc9c646a09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1f229629d34095aa231bdcc9c646a09">&#9670;&#160;</a></span>AUTHREQUESTENUM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.AuthContainers.IAuthFlow.AUTHREQUESTENUM = &quot;AuthRequestEnum&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a393ac2c3a0434974354ab5e236fb3848" name="a393ac2c3a0434974354ab5e236fb3848"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a393ac2c3a0434974354ab5e236fb3848">&#9670;&#160;</a></span>FLOWNAME</h2>
 
@@ -262,7 +316,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html#ac5d737b26b5331d7988b19c85fb555a5">ScoredProductions.StreamLinked.API.AuthContainers.AuthorizationCodeGrantFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow.html#ae9ce64b83d1fc938da467640d0c4bb18">ScoredProductions.StreamLinked.API.AuthContainers.ClientCredentialsFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#abebd9a9d8ea0de5f399011f5e973eece">ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow</a>, and <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow.html#a8dd2e5a2aee9c0a348727299c620704d">ScoredProductions.StreamLinked.API.AuthContainers.ImplicitGrantFlow</a>.</p>
+<p>Gets the Expiry Date of the token from provided information. (<code>OAuthAquireDate</code> + <code>Expires_In</code>) </p>
 
 </div>
 </div>
@@ -335,6 +389,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html#a9e01a09b87ae7e3cf86afbbb5d2ef07d">ScoredProductions.StreamLinked.API.AuthContainers.AuthorizationCodeGrantFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow.html#a50f5d4fc2bb97f9b3687575921b88f04">ScoredProductions.StreamLinked.API.AuthContainers.ClientCredentialsFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#a7a4334f489fc7a62c0aaaf20c608caf7">ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow</a>, and <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow.html#ae58421c339e6685602645087133651da">ScoredProductions.StreamLinked.API.AuthContainers.ImplicitGrantFlow</a>.</p>
+
+</div>
+</div>
+<a id="acd3f1a5832423808e2e284579966f823" name="acd3f1a5832423808e2e284579966f823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3f1a5832423808e2e284579966f823">&#9670;&#160;</a></span>TypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a> ScoredProductions.StreamLinked.API.AuthContainers.IAuthFlow.TypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_authorization_code_grant_flow.html#abbbd4c71273e874fc3ffda5cb723bc8d">ScoredProductions.StreamLinked.API.AuthContainers.AuthorizationCodeGrantFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_client_credentials_flow.html#a372e6d11ae00f3c6b9d4e0d6f7d30738">ScoredProductions.StreamLinked.API.AuthContainers.ClientCredentialsFlow</a>, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html#aa5078b7d8ddd8ad284139ffded8fa1c6">ScoredProductions.StreamLinked.API.AuthContainers.DeviceCodeGrantFlow</a>, and <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_implicit_grant_flow.html#affa039361d76a6cc77b979174a7b6065">ScoredProductions.StreamLinked.API.AuthContainers.ImplicitGrantFlow</a>.</p>
 
 </div>
 </div>

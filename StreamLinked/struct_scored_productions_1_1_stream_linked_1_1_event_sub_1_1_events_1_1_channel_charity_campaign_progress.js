@@ -8,9 +8,10 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "charity_logo", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#ad234a996405031354e164e277dd6cffd", null ],
     [ "charity_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#ab2f6ed4b0662d3cfa70231056ef40b4c", null ],
     [ "charity_website", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a3db32be4ce0d46f7b7a0c8b2c8d7dc87", null ],
-    [ "current_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#abd3d139890b2ef218b5d5df34794f743", null ],
+    [ "current_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a3b108d419db79bdcf18ee4eb6820e251", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a062b4004d4a5a84eb05643c8cb1b0ea1", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a06565d59da0957346167305fedbb4fd9", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a0606b2f411ecbb1139e5d12d6f27fe9f", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a400579380aa52c5b44bb4290e435f8ee", null ],
-    [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#a012c500c7ddb6805a745716925329c47", null ]
+    [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html#afbc7f0965d8bfdd6cc4f9d141567761b", null ]
 ];

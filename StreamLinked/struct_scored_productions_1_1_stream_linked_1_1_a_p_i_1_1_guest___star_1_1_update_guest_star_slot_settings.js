@@ -9,6 +9,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_u
     [ "IS_LIVE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#ac8cbb9d10ae79ddf069ade16845860f8", null ],
     [ "IS_VIDEO_ENABLED", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#a4368604c9694397d72e044954b1afb01", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#ab7df7f2136cfd8040e73fc07f9557909", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#aa315fbb2a8f4cba82b78ca71fa2c1dd4", null ],
     [ "SESSION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#acaef52fa409ef214339eccada6e946d0", null ],
     [ "SLOT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#a28c52e9089bbe16803064ec9a63ce690", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_update_guest_star_slot_settings.html#afc86eebecda77073a4ad3071657053be", null ],

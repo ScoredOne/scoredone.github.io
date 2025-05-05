@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -172,6 +172,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a34c901202be84d120e06b3debe0db3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77c5a3be44f431169ebb7dbf48d8b3f1" id="r_a77c5a3be44f431169ebb7dbf48d8b3f1"><td class="memItemLeft" align="right" valign="top">NameValueCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77c5a3be44f431169ebb7dbf48d8b3f1">ToNVC</a> ()</td></tr>
 <tr class="separator:a77c5a3be44f431169ebb7dbf48d8b3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3e6755bd1afdaee173894027e90485" id="r_a8f3e6755bd1afdaee173894027e90485"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f3e6755bd1afdaee173894027e90485">OnBeforeSerialize</a> ()</td></tr>
+<tr class="separator:a8f3e6755bd1afdaee173894027e90485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3f0701ca4bacaf7f46753b1bddb0fa" id="r_a1b3f0701ca4bacaf7f46753b1bddb0fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3f0701ca4bacaf7f46753b1bddb0fa">OnAfterDeserialize</a> ()</td></tr>
+<tr class="separator:a1b3f0701ca4bacaf7f46753b1bddb0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -195,6 +199,10 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a386c8fd4f3e3dc9782be651593449b7b" id="r_a386c8fd4f3e3dc9782be651593449b7b"><td class="memItemLeft" align="right" valign="top">IDictionary&lt; string, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386c8fd4f3e3dc9782be651593449b7b">properties</a></td></tr>
 <tr class="separator:a386c8fd4f3e3dc9782be651593449b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0bf0a6d36bdf7629d228c5b43cf67fe" id="r_af0bf0a6d36bdf7629d228c5b43cf67fe"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0bf0a6d36bdf7629d228c5b43cf67fe">properties_keys</a> = null</td></tr>
+<tr class="separator:af0bf0a6d36bdf7629d228c5b43cf67fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f0d5a8853a1e5516f8bf7523952f0e" id="r_ab6f0d5a8853a1e5516f8bf7523952f0e"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6f0d5a8853a1e5516f8bf7523952f0e">properties_values</a> = null</td></tr>
+<tr class="separator:ab6f0d5a8853a1e5516f8bf7523952f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a key-value pair collection of JsonValue objects. </p>
@@ -449,6 +457,40 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns an enumerator that iterates through this collection. </p>
+
+</div>
+</div>
+<a id="a1b3f0701ca4bacaf7f46753b1bddb0fa" name="a1b3f0701ca4bacaf7f46753b1bddb0fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3f0701ca4bacaf7f46753b1bddb0fa">&#9670;&#160;</a></span>OnAfterDeserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.LightJson.JsonObject.OnAfterDeserialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f3e6755bd1afdaee173894027e90485" name="a8f3e6755bd1afdaee173894027e90485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3e6755bd1afdaee173894027e90485">&#9670;&#160;</a></span>OnBeforeSerialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.LightJson.JsonObject.OnBeforeSerialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -721,6 +763,50 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">IDictionary&lt;string, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&gt; ScoredProductions.StreamLinked.LightJson.JsonObject.properties</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0bf0a6d36bdf7629d228c5b43cf67fe" name="af0bf0a6d36bdf7629d228c5b43cf67fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0bf0a6d36bdf7629d228c5b43cf67fe">&#9670;&#160;</a></span>properties_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ScoredProductions.StreamLinked.LightJson.JsonObject.properties_keys = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6f0d5a8853a1e5516f8bf7523952f0e" name="ab6f0d5a8853a1e5516f8bf7523952f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f0d5a8853a1e5516f8bf7523952f0e">&#9670;&#160;</a></span>properties_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] ScoredProductions.StreamLinked.LightJson.JsonObject.properties_values = null</td>
         </tr>
       </table>
   </td>

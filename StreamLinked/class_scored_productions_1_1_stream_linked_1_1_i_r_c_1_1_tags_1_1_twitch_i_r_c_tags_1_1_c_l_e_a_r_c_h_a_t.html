@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,6 +97,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_i_r_c_1
   <div class="summary">
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_c_l_e_a_r_c_h_a_t-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT Class Reference</div></div>
 </div><!--header-->
@@ -104,27 +105,32 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_i_r_c_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af369fa85e0b43169251bc270c1fbb981" id="r_af369fa85e0b43169251bc270c1fbb981"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af369fa85e0b43169251bc270c1fbb981">ban_duration</a> = &quot;ban-duration&quot;</td></tr>
-<tr class="memdesc:af369fa85e0b43169251bc270c1fbb981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional. The message includes this tag if the user was put in a timeout. The tag contains the duration of the timeout, in seconds.  <br /></td></tr>
-<tr class="separator:af369fa85e0b43169251bc270c1fbb981"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafa6ce26ef7838eaf57e1fc6af467c5b" id="r_aafa6ce26ef7838eaf57e1fc6af467c5b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafa6ce26ef7838eaf57e1fc6af467c5b">room_id</a> = &quot;room-id&quot;</td></tr>
-<tr class="memdesc:aafa6ce26ef7838eaf57e1fc6af467c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the channel where the messages were removed from.  <br /></td></tr>
-<tr class="separator:aafa6ce26ef7838eaf57e1fc6af467c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76fe534a7c82a5e8a4304c21d478e094" id="r_a76fe534a7c82a5e8a4304c21d478e094"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76fe534a7c82a5e8a4304c21d478e094">target_user_id</a> = &quot;target-user-id&quot;</td></tr>
-<tr class="memdesc:a76fe534a7c82a5e8a4304c21d478e094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional. The ID of the user that was banned or put in a timeout. The user was banned if the message doesn’t include the ban-duration tag.  <br /></td></tr>
-<tr class="separator:a76fe534a7c82a5e8a4304c21d478e094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e87efeeb5aac7b134b1833849161023" id="r_a2e87efeeb5aac7b134b1833849161023"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e87efeeb5aac7b134b1833849161023">tmi_sent_ts</a> = &quot;tmi-sent-ts&quot;</td></tr>
-<tr class="memdesc:a2e87efeeb5aac7b134b1833849161023"><td class="mdescLeft">&#160;</td><td class="mdescRight">The UNIX timestamp.  <br /></td></tr>
-<tr class="separator:a2e87efeeb5aac7b134b1833849161023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4557e074d7bf4c65a3a443324079eae8" id="r_a4557e074d7bf4c65a3a443324079eae8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4557e074d7bf4c65a3a443324079eae8">BAN_DURATION</a> = &quot;ban-duration&quot;</td></tr>
+<tr class="memdesc:a4557e074d7bf4c65a3a443324079eae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional. The message includes this tag if the user was put in a timeout. The tag contains the duration of the timeout, in seconds.  <br /></td></tr>
+<tr class="separator:a4557e074d7bf4c65a3a443324079eae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a68545e40cc10bfb77a92078960887" id="r_a75a68545e40cc10bfb77a92078960887"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75a68545e40cc10bfb77a92078960887">ROOM_ID</a> = &quot;room-id&quot;</td></tr>
+<tr class="memdesc:a75a68545e40cc10bfb77a92078960887"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the channel where the messages were removed from.  <br /></td></tr>
+<tr class="separator:a75a68545e40cc10bfb77a92078960887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0580000ec284e5724f11f3e4439464a" id="r_ac0580000ec284e5724f11f3e4439464a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0580000ec284e5724f11f3e4439464a">TARGET_USER_ID</a> = &quot;target-user-id&quot;</td></tr>
+<tr class="memdesc:ac0580000ec284e5724f11f3e4439464a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional. The ID of the user that was banned or put in a timeout. The user was banned if the message doesn’t include the ban-duration tag.  <br /></td></tr>
+<tr class="separator:ac0580000ec284e5724f11f3e4439464a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3cdacfe0b8cf322039f9e9eb8b2aba9" id="r_ad3cdacfe0b8cf322039f9e9eb8b2aba9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3cdacfe0b8cf322039f9e9eb8b2aba9">TMI_SENT_TS</a> = &quot;tmi-sent-ts&quot;</td></tr>
+<tr class="memdesc:ad3cdacfe0b8cf322039f9e9eb8b2aba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The UNIX timestamp.  <br /></td></tr>
+<tr class="separator:ad3cdacfe0b8cf322039f9e9eb8b2aba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:abd3cbae9d6dd81f3c311958d5133dd48" id="r_abd3cbae9d6dd81f3c311958d5133dd48"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd3cbae9d6dd81f3c311958d5133dd48">GetAll</a><code> [get]</code></td></tr>
 <tr class="separator:abd3cbae9d6dd81f3c311958d5133dd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a39dacdba8ffe175bf78be6e0098c5115" id="r_a39dacdba8ffe175bf78be6e0098c5115"><td class="memItemLeft" align="right" valign="top">static readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39dacdba8ffe175bf78be6e0098c5115">_getall</a> = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html#a76be7f56367dcb28bd42dd6a966144d8">Get</a>(typeof(<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_c_l_e_a_r_c_h_a_t.html">CLEARCHAT</a>))</td></tr>
+<tr class="separator:a39dacdba8ffe175bf78be6e0098c5115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af369fa85e0b43169251bc270c1fbb981" name="af369fa85e0b43169251bc270c1fbb981"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af369fa85e0b43169251bc270c1fbb981">&#9670;&#160;</a></span>ban_duration</h2>
+<a id="a39dacdba8ffe175bf78be6e0098c5115" name="a39dacdba8ffe175bf78be6e0098c5115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39dacdba8ffe175bf78be6e0098c5115">&#9670;&#160;</a></span>_getall</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,7 +139,29 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.ban_duration = &quot;ban-duration&quot;</td>
+          <td class="memname">readonly string [] ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT._getall = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html#a76be7f56367dcb28bd42dd6a966144d8">Get</a>(typeof(<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_c_l_e_a_r_c_h_a_t.html">CLEARCHAT</a>))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4557e074d7bf4c65a3a443324079eae8" name="a4557e074d7bf4c65a3a443324079eae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4557e074d7bf4c65a3a443324079eae8">&#9670;&#160;</a></span>BAN_DURATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.BAN_DURATION = &quot;ban-duration&quot;</td>
         </tr>
       </table>
   </td>
@@ -147,8 +175,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aafa6ce26ef7838eaf57e1fc6af467c5b" name="aafa6ce26ef7838eaf57e1fc6af467c5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafa6ce26ef7838eaf57e1fc6af467c5b">&#9670;&#160;</a></span>room_id</h2>
+<a id="a75a68545e40cc10bfb77a92078960887" name="a75a68545e40cc10bfb77a92078960887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75a68545e40cc10bfb77a92078960887">&#9670;&#160;</a></span>ROOM_ID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +185,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.room_id = &quot;room-id&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.ROOM_ID = &quot;room-id&quot;</td>
         </tr>
       </table>
   </td>
@@ -171,8 +199,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a76fe534a7c82a5e8a4304c21d478e094" name="a76fe534a7c82a5e8a4304c21d478e094"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76fe534a7c82a5e8a4304c21d478e094">&#9670;&#160;</a></span>target_user_id</h2>
+<a id="ac0580000ec284e5724f11f3e4439464a" name="ac0580000ec284e5724f11f3e4439464a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0580000ec284e5724f11f3e4439464a">&#9670;&#160;</a></span>TARGET_USER_ID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +209,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.target_user_id = &quot;target-user-id&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.TARGET_USER_ID = &quot;target-user-id&quot;</td>
         </tr>
       </table>
   </td>
@@ -195,8 +223,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2e87efeeb5aac7b134b1833849161023" name="a2e87efeeb5aac7b134b1833849161023"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e87efeeb5aac7b134b1833849161023">&#9670;&#160;</a></span>tmi_sent_ts</h2>
+<a id="ad3cdacfe0b8cf322039f9e9eb8b2aba9" name="ad3cdacfe0b8cf322039f9e9eb8b2aba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3cdacfe0b8cf322039f9e9eb8b2aba9">&#9670;&#160;</a></span>TMI_SENT_TS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +233,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.tmi_sent_ts = &quot;tmi-sent-ts&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.CLEARCHAT.TMI_SENT_TS = &quot;tmi-sent-ts&quot;</td>
         </tr>
       </table>
   </td>

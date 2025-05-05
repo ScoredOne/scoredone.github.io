@@ -74,6 +74,9 @@ var searchData=
   ['getvalidatedtokeninfo_2ecs_71',['GetValidatedTokenInfo.cs',['../_get_validated_token_info_8cs.html',1,'']]],
   ['getvideos_2ecs_72',['GetVideos.cs',['../_get_videos_8cs.html',1,'']]],
   ['getvips_2ecs_73',['GetVIPs.cs',['../_get_v_i_ps_8cs.html',1,'']]],
-  ['globalcooldown_2ecs_74',['GlobalCooldown.cs',['../_global_cooldown_8cs.html',1,'']]],
-  ['globaluserstate_2ecs_75',['GLOBALUSERSTATE.cs',['../_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html',1,'']]]
+  ['giftpaidupgrade_2ecs_74',['GiftPaidUpgrade.cs',['../_gift_paid_upgrade_8cs.html',1,'']]],
+  ['global_5fcooldown_5fsetting_2ecs_75',['Global_Cooldown_Setting.cs',['../_global___cooldown___setting_8cs.html',1,'']]],
+  ['globalcooldown_2ecs_76',['GlobalCooldown.cs',['../_global_cooldown_8cs.html',1,'']]],
+  ['globaluserstate_2ecs_77',['GLOBALUSERSTATE.cs',['../_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e_8cs.html',1,'']]],
+  ['guest_2ecs_78',['Guest.cs',['../_guest_8cs.html',1,'']]]
 ];

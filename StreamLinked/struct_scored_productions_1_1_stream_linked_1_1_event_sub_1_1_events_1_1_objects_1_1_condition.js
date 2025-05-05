@@ -1,8 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition =
 [
     [ "Condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a7a87927af2fe0234fedb48894e8dfb19", null ],
-    [ "readonly", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a145e86603416890efb9944095d5d1a13", null ],
-    [ "ToString", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#aeaca313da0b2ddd68f52753c5edd0a02", null ],
     [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a89c2ad625a1e313411fce6cd8dc2b91a", null ],
     [ "campaign_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a73ed57bb53f18363ba49eee496655091", null ],
     [ "category_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#adeea21a96fd5925822d468088fb922a9", null ],

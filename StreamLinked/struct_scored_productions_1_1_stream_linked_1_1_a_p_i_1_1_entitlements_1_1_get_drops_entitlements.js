@@ -9,6 +9,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_g
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a1018db82fd5082b2eb47779f691c0132", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a032707e92177122e8fafe19e1e15f429", null ],
     [ "last_updated", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#aaa20b8f40c46076d58415e9c8d45e336", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a3e17ad369169c4bbae0230ca90ce3b72", null ],
     [ "timestamp", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#ab7e6a43393556686faa244606329bfba", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a3b9592021b4f61c8019c24fb91785eac", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_entitlements_1_1_get_drops_entitlements.html#a3efbbd7ea677ff11f6453448b27b4772", null ]

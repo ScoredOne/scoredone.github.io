@@ -8,6 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "duration_months", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#a5b80115ca95858e54fa03bc5551bc5a3", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#a0c643ca70f14e56a2e6be76655ac11c6", null ],
     [ "message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#a9d48ed7ab1ef92a91fa0e902a2b4727a", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#aa19475eccdaa9765f96250bbf6e04c5e", null ],
     [ "streak_months", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#af7008a1828115af5c09ed6e0ee0c4ce3", null ],
     [ "tier", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#aeb7160d881a94e805f539eb9a1ca2e69", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_subscription_message.html#a378c9a2feae4ca315b769202090fd5a9", null ],

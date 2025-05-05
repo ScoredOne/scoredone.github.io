@@ -12,7 +12,6 @@ var class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch
     [ "ircClient", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a75c8918c1f6d456585cd9704dc98fe2f", null ],
     [ "messageQueue", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a7e5715a59b47322af1a67ddd5bbfd0be", null ],
     [ "messageUpdater", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#aa094c345b042e440e05b927554ef2e92", null ],
-    [ "secondWait", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a6adbb952059c4bc52481c0d30593c269", null ],
     [ "textBody", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#ace2f0a44ec8942a17b50fdbe9854f3e7", null ],
     [ "waitTimer", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#ae38d72339251076e4cce47cb4885a2d0", null ],
     [ "FilterByUser", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html#a6324aa56351b8e3ef37b6f3babadd228", null ],

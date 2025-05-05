@@ -10,6 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#a88864314bf5b740fcea79c6bb8ef98ba", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#af9b586dd756ab329788776b78f0ff421", null ],
     [ "is_achieved", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#a191930ef9d03194882ee0cc1a9fd7f47", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#a635568b71d86b62832a9ae99e09f1b7e", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#a22ff11b894d31c974eb0ca3c47a0d4ca", null ],
     [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#a9cabd81208d5e77ecd09e095e1051139", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_goals_progress.html#a2b2408c23c712ed3737888cd10078cd5", null ]

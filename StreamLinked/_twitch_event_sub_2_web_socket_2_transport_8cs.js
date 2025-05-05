@@ -1,0 +1,4 @@
+var _twitch_event_sub_2_web_socket_2_transport_8cs =
+[
+    [ "ScoredProductions.StreamLinked.EventSub.WebSocketMessages.Transport", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport" ]
+];

@@ -1,0 +1,4 @@
+var _twitch_event_sub_2_events_2_objects_2_top_predictors_8cs =
+[
+    [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.TopPredictors", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_top_predictors.html", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_top_predictors" ]
+];

@@ -12,6 +12,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_crea
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#ad3cda11ec197003609660d0425d36fc2", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#ae44270e622f430b4c0d5d8454b7676b5", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#a584b1e06e434182d210e614b5c18f170", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#a9bf8228cc9d3baada7ec4ea21a045956", null ],
     [ "target_amount", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#a6d0931f47ed01c41f6c42346c6dd7405", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#aab2c5ae329c0a74831849bed18a10e78", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_goals_1_1_get_creator_goals.html#a2015af79276bce9d4466a442e8242247", null ]

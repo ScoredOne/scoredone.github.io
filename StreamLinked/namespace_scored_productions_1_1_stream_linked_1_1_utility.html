@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -109,9 +109,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html">Extensions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Large container for Enums to be used as flags when you need more than the maximum possible flags (32, 64, 128 [.Net9]). Enum values must be unique values. Enums can be checked using <code>CheckEnumState()</code>  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html">InternalSettingsStore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple method of credential store. PlayerPref will need populating on Install of App. PlayerPrefs are not saved/included in build.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">SingletonDispatcher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton base class.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">SingletonInstance</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton base class.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#details">More...</a><br /></td></tr>
@@ -119,14 +123,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a53bb6ea77cbd8888243fbceb287f7f61" id="r_a53bb6ea77cbd8888243fbceb287f7f61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> : byte { <br />
-&#160;&#160;<a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be">TwitchClientSecret</a>
+<tr class="memitem:a53bb6ea77cbd8888243fbceb287f7f61" id="r_a53bb6ea77cbd8888243fbceb287f7f61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> : byte { <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be">TwitchClientSecret</a>
 , <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3">TwitchClientID</a>
 , <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3">TwitchTarget</a>
-, <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a121fdedce992646795d36146baa1280e">TwitchUserAccessAuthContainer</a>
-, <br />
-&#160;&#160;<a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a1edd9f0e08fff3889aba16cc2731975a">TwitchAppAccessAuthContainer</a>
-<br />
+, <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de">TwitchAuthenticationTokens</a>
  }</td></tr>
 <tr class="separator:a53bb6ea77cbd8888243fbceb287f7f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,9 +149,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3" name="a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3"></a>TwitchTarget&#160;</td><td class="fielddoc"><p>Type <code>string</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a121fdedce992646795d36146baa1280e" name="a53bb6ea77cbd8888243fbceb287f7f61a121fdedce992646795d36146baa1280e"></a>TwitchUserAccessAuthContainer&#160;</td><td class="fielddoc"><p>Type <code>IUserAccessToken (JSON String)</code> </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a1edd9f0e08fff3889aba16cc2731975a" name="a53bb6ea77cbd8888243fbceb287f7f61a1edd9f0e08fff3889aba16cc2731975a"></a>TwitchAppAccessAuthContainer&#160;</td><td class="fielddoc"><p>Type <code>IAppAccessToken (JSON String)</code> </p>
+<tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de" name="a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de"></a>TwitchAuthenticationTokens&#160;</td><td class="fielddoc"><p>Type <code> JsonValue { String (Used ClientID), String (Used Secret), List[IAuthFlow](JSON Array) }</code> </p>
 </td></tr>
 </table>
 

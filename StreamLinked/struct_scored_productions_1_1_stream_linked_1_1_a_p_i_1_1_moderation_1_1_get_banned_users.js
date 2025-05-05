@@ -14,6 +14,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "moderator_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#a9634208ab67195a85dda6684c4dbbeec", null ],
     [ "moderator_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#a8e9cdcf4e5f52220882ae311f1a0a9c1", null ],
     [ "reason", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#a175ac9971b28e16a18c831e7cbf1e801", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#a38d68d1ef57233d84b7e72000c79b93c", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#a1bd9e3963689c8702053182b06007ebc", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#a034f6565226a7f8283b8bdc15b2f39d6", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_banned_users.html#abe7270bf03ae5ded6d934dafded1f051", null ],

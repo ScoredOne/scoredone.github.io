@@ -13,6 +13,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#a7202829bff2eacb898d626f5cd50ce8d", null ],
     [ "moderator_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#abe52fcc826f751c6a50fbde40d7ff9d9", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#aadd0b28a99c4dcd1c212e4964d2cc63e", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#a948e88c889078c87137c44daff2e42a2", null ],
     [ "text", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#a1e1fec397953a845ad63a9faf911ed30", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#a796923c5f5ec0e951401813f4e9342b5", null ],
     [ "updated_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_get_blocked_terms.html#ac9c11b7c71658157af47f8b6def848a7", null ]

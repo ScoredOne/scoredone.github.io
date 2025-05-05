@@ -10,6 +10,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_fo
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#ab9283acc1b98f219658119ee627d8bfd", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#acb38f784787892d3d68859ad11c024e6", null ],
     [ "language", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#abfececb5a889b14c40d0dbe71e92502b", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#ac0fee063fdf4fc8472dc5a78ece3835c", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#ac3341fb7bd409fd0de51c50ffb3642f1", null ],
     [ "tag_ids", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#aa2b7c6f9f5ba4aed154c292947263169", null ],
     [ "tags", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_streams_1_1_get_followed_streams.html#a87b0becafd0b2d657e50eef62115f6cb", null ],

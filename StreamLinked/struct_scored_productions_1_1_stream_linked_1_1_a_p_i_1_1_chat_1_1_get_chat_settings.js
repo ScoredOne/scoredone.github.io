@@ -13,6 +13,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#a866e30c5025290a80823bf2e53e9e887", null ],
     [ "non_moderator_chat_delay", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#a62d7f175db0568be8e03ddb5b48fed85", null ],
     [ "non_moderator_chat_delay_duration", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#a2cf69e761d40ce1f88e2ba02007e9414", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#a947c07a23039fb78514cbfc2e93d7a75", null ],
     [ "slow_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#a619bd20a7098128461e23b7729d6952e", null ],
     [ "slow_mode_wait_time", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#ae62418f61d6e8c0a1962601c67348055", null ],
     [ "subscriber_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_chat_settings.html#a89e317356dd87fd3de9340b54d1d2879", null ],

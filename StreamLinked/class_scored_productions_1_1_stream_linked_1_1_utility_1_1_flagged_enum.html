@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,7 +97,9 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_utility
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -106,6 +108,9 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_utility
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.Utility.FlaggedEnum&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Large container for Enums to be used as flags when you need more than the maximum possible flags (32, 64, 128 [.Net9]). Enum values must be unique values. Enums can be checked using <code>CheckEnumState()</code>  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for ScoredProductions.StreamLinked.Utility.FlaggedEnum&lt; T &gt;:</div>
 <div class="dyncontent">
@@ -115,6 +120,96 @@ Inheritance diagram for ScoredProductions.StreamLinked.Utility.FlaggedEnum&lt; T
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a21c2e3a0b43e1d8eb8dc9db0ab5390f0" id="r_a21c2e3a0b43e1d8eb8dc9db0ab5390f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c2e3a0b43e1d8eb8dc9db0ab5390f0">FlaggedEnum</a> (int[] data)</td></tr>
+<tr class="memdesc:a21c2e3a0b43e1d8eb8dc9db0ab5390f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a custom enum where there is no backing enum, just a store of values to compare against in a flaggable format.  <br /></td></tr>
+<tr class="separator:a21c2e3a0b43e1d8eb8dc9db0ab5390f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2021ecae0f07675a1a58ac935eeae7f0" id="r_a2021ecae0f07675a1a58ac935eeae7f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2021ecae0f07675a1a58ac935eeae7f0">FlaggedEnum</a> (Type enumType)</td></tr>
+<tr class="separator:a2021ecae0f07675a1a58ac935eeae7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada94e03c93112753c1677ba27ebf8bfd" id="r_ada94e03c93112753c1677ba27ebf8bfd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada94e03c93112753c1677ba27ebf8bfd">FlaggedEnum</a> (Enum @enum)</td></tr>
+<tr class="separator:ada94e03c93112753c1677ba27ebf8bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d00902ddcc19938beed1a965632989" id="r_a87d00902ddcc19938beed1a965632989"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d00902ddcc19938beed1a965632989">FlaggedEnum</a> (Type enumType, int[] values)</td></tr>
+<tr class="separator:a87d00902ddcc19938beed1a965632989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83aac0c17ba9ca5daafa51ed639e76e0" id="r_a83aac0c17ba9ca5daafa51ed639e76e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83aac0c17ba9ca5daafa51ed639e76e0">FlaggedEnum</a> (Enum @enum, int[] values)</td></tr>
+<tr class="separator:a83aac0c17ba9ca5daafa51ed639e76e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bb90676d97c80104ce252af3faaf80" id="r_a81bb90676d97c80104ce252af3faaf80"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81bb90676d97c80104ce252af3faaf80">Equals</a> (object obj)</td></tr>
+<tr class="separator:a81bb90676d97c80104ce252af3faaf80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c38b49ef1b2c78480ac6e1b29f90f2a" id="r_a2c38b49ef1b2c78480ac6e1b29f90f2a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c38b49ef1b2c78480ac6e1b29f90f2a">Equals</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> other)</td></tr>
+<tr class="separator:a2c38b49ef1b2c78480ac6e1b29f90f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d1fceb35d021dbd3d13a21708f3c2b" id="r_a69d1fceb35d021dbd3d13a21708f3c2b"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d1fceb35d021dbd3d13a21708f3c2b">GetHashCode</a> ()</td></tr>
+<tr class="separator:a69d1fceb35d021dbd3d13a21708f3c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7529006ff88be68868a295f2bddd64a" id="r_ac7529006ff88be68868a295f2bddd64a"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7529006ff88be68868a295f2bddd64a">GetAllFlagged</a> ()</td></tr>
+<tr class="separator:ac7529006ff88be68868a295f2bddd64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fab1fe696f1df87f588a086c96f8dda" id="r_a9fab1fe696f1df87f588a086c96f8dda"><td class="memItemLeft" align="right" valign="top">E&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fab1fe696f1df87f588a086c96f8dda">GetAllFlagged&lt; E &gt;</a> ()</td></tr>
+<tr class="separator:a9fab1fe696f1df87f588a086c96f8dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cab1e5f70830bcc320473b87caa93de" id="r_a6cab1e5f70830bcc320473b87caa93de"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cab1e5f70830bcc320473b87caa93de">GetAllFlaggedAsArray</a> ()</td></tr>
+<tr class="separator:a6cab1e5f70830bcc320473b87caa93de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac57f5868a2b9a41b41bb13da1fbea45" id="r_aac57f5868a2b9a41b41bb13da1fbea45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac57f5868a2b9a41b41bb13da1fbea45">HasFlag</a> (params int[] values)</td></tr>
+<tr class="separator:aac57f5868a2b9a41b41bb13da1fbea45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef25d80591318219313bb5e84ba727d2" id="r_aef25d80591318219313bb5e84ba727d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef25d80591318219313bb5e84ba727d2">HasntFlag</a> (params int[] values)</td></tr>
+<tr class="separator:aef25d80591318219313bb5e84ba727d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7289fd3f1ebb48ae9be4b2c793dd6f" id="r_a6d7289fd3f1ebb48ae9be4b2c793dd6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d7289fd3f1ebb48ae9be4b2c793dd6f">HasNoFlag</a> ()</td></tr>
+<tr class="memdesc:a6d7289fd3f1ebb48ae9be4b2c793dd6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if all values are false.  <br /></td></tr>
+<tr class="separator:a6d7289fd3f1ebb48ae9be4b2c793dd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c9caf11f874274c8b016839f515d3c" id="r_aa4c9caf11f874274c8b016839f515d3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4c9caf11f874274c8b016839f515d3c">HasAllFlag</a> ()</td></tr>
+<tr class="memdesc:aa4c9caf11f874274c8b016839f515d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if all values are true.  <br /></td></tr>
+<tr class="separator:aa4c9caf11f874274c8b016839f515d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851fa79e67e825ef2550849b4e7ba78b" id="r_a851fa79e67e825ef2550849b4e7ba78b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851fa79e67e825ef2550849b4e7ba78b">Clear</a> ()</td></tr>
+<tr class="separator:a851fa79e67e825ef2550849b4e7ba78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9851a5dade3f8937f79df12924bf01f8" id="r_a9851a5dade3f8937f79df12924bf01f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9851a5dade3f8937f79df12924bf01f8">Add</a> (int value)</td></tr>
+<tr class="separator:a9851a5dade3f8937f79df12924bf01f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a8c3b6ace689d51e9904c14a2c3028" id="r_aa5a8c3b6ace689d51e9904c14a2c3028"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5a8c3b6ace689d51e9904c14a2c3028">Add</a> (params int[] values)</td></tr>
+<tr class="separator:aa5a8c3b6ace689d51e9904c14a2c3028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b8ce4413fe23c44064329f212d8299" id="r_a89b8ce4413fe23c44064329f212d8299"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89b8ce4413fe23c44064329f212d8299">Add</a> (IList&lt; int &gt; values)</td></tr>
+<tr class="separator:a89b8ce4413fe23c44064329f212d8299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef4957ecd83018c14e7f1d7b2c296fb" id="r_aaef4957ecd83018c14e7f1d7b2c296fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaef4957ecd83018c14e7f1d7b2c296fb">Add</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> value)</td></tr>
+<tr class="separator:aaef4957ecd83018c14e7f1d7b2c296fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab465f9daaebeb3084ed856dbb13820f7" id="r_ab465f9daaebeb3084ed856dbb13820f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab465f9daaebeb3084ed856dbb13820f7">Subtract</a> (int value)</td></tr>
+<tr class="separator:ab465f9daaebeb3084ed856dbb13820f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738a2c9a39d5c70e0d20437137bccfa2" id="r_a738a2c9a39d5c70e0d20437137bccfa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a738a2c9a39d5c70e0d20437137bccfa2">Subtract</a> (params int[] values)</td></tr>
+<tr class="separator:a738a2c9a39d5c70e0d20437137bccfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0125b8fa6e3f5d02ac9650f85503ee79" id="r_a0125b8fa6e3f5d02ac9650f85503ee79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0125b8fa6e3f5d02ac9650f85503ee79">Subtract</a> (IList&lt; int &gt; values)</td></tr>
+<tr class="separator:a0125b8fa6e3f5d02ac9650f85503ee79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa186ee99fb22719da18b06460f97ae8c" id="r_aa186ee99fb22719da18b06460f97ae8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa186ee99fb22719da18b06460f97ae8c">Subtract</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> value)</td></tr>
+<tr class="separator:aa186ee99fb22719da18b06460f97ae8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6e938194fa598687367681991560a7" id="r_a5a6e938194fa598687367681991560a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a6e938194fa598687367681991560a7">Or</a> (int value)</td></tr>
+<tr class="separator:a5a6e938194fa598687367681991560a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a713ac13b44de1c7d3cb14e039fbbc299" id="r_a713ac13b44de1c7d3cb14e039fbbc299"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a713ac13b44de1c7d3cb14e039fbbc299">Or</a> (params int[] values)</td></tr>
+<tr class="separator:a713ac13b44de1c7d3cb14e039fbbc299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0a1999dc5d31e9941e4c57af203c7a" id="r_a1d0a1999dc5d31e9941e4c57af203c7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0a1999dc5d31e9941e4c57af203c7a">Or</a> (IList&lt; int &gt; values)</td></tr>
+<tr class="separator:a1d0a1999dc5d31e9941e4c57af203c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa13dbc3107134e1d96d80e5801f1e37" id="r_afa13dbc3107134e1d96d80e5801f1e37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa13dbc3107134e1d96d80e5801f1e37">Or</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> value)</td></tr>
+<tr class="separator:afa13dbc3107134e1d96d80e5801f1e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab20d729e841af1c910097cfed01435b1" id="r_ab20d729e841af1c910097cfed01435b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab20d729e841af1c910097cfed01435b1">XOr</a> (int value)</td></tr>
+<tr class="separator:ab20d729e841af1c910097cfed01435b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13885b96ba2f9389c279df8164071e9" id="r_ac13885b96ba2f9389c279df8164071e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac13885b96ba2f9389c279df8164071e9">XOr</a> (params int[] values)</td></tr>
+<tr class="separator:ac13885b96ba2f9389c279df8164071e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a649f830438ab14a2899ef46a0780a" id="r_a17a649f830438ab14a2899ef46a0780a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a649f830438ab14a2899ef46a0780a">XOr</a> (IList&lt; int &gt; values)</td></tr>
+<tr class="separator:a17a649f830438ab14a2899ef46a0780a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de02ff11b037602118143ce4e54e542" id="r_a8de02ff11b037602118143ce4e54e542"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8de02ff11b037602118143ce4e54e542">XOr</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> value)</td></tr>
+<tr class="separator:a8de02ff11b037602118143ce4e54e542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551b80bfc0f7c3ab22f5747a353e7949" id="r_a551b80bfc0f7c3ab22f5747a353e7949"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551b80bfc0f7c3ab22f5747a353e7949">And</a> (int value)</td></tr>
+<tr class="separator:a551b80bfc0f7c3ab22f5747a353e7949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa21c7cfa9534df40ffed3e4e276d9bd" id="r_afa21c7cfa9534df40ffed3e4e276d9bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa21c7cfa9534df40ffed3e4e276d9bd">And</a> (params int[] values)</td></tr>
+<tr class="separator:afa21c7cfa9534df40ffed3e4e276d9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab58f8a3948f765b6c63c152563a800" id="r_a3ab58f8a3948f765b6c63c152563a800"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab58f8a3948f765b6c63c152563a800">And</a> (IList&lt; int &gt; values)</td></tr>
+<tr class="separator:a3ab58f8a3948f765b6c63c152563a800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a589f190ea809ed33ca4660b6106c8bd8" id="r_a589f190ea809ed33ca4660b6106c8bd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a589f190ea809ed33ca4660b6106c8bd8">And</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> value)</td></tr>
+<tr class="separator:a589f190ea809ed33ca4660b6106c8bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48bab479826945dea0082a6142ec1aa" id="r_af48bab479826945dea0082a6142ec1aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af48bab479826945dea0082a6142ec1aa">Replace</a> (params int[] values)</td></tr>
+<tr class="memdesc:af48bab479826945dea0082a6142ec1aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the current entries and replaces them with a new set.  <br /></td></tr>
+<tr class="separator:af48bab479826945dea0082a6142ec1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01117d87424636f81b183d3c3db980c7" id="r_a01117d87424636f81b183d3c3db980c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01117d87424636f81b183d3c3db980c7">Replace</a> (IList&lt; int &gt; values)</td></tr>
+<tr class="memdesc:a01117d87424636f81b183d3c3db980c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the current entries and replaces them with a new set.  <br /></td></tr>
+<tr class="separator:a01117d87424636f81b183d3c3db980c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6068ddb40f690a17bbd899787a7cf5" id="r_a4b6068ddb40f690a17bbd899787a7cf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b6068ddb40f690a17bbd899787a7cf5">Replace</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> value)</td></tr>
+<tr class="memdesc:a4b6068ddb40f690a17bbd899787a7cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the current entries and replaces them with a new set.  <br /></td></tr>
+<tr class="separator:a4b6068ddb40f690a17bbd899787a7cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff76d90f544be630ef7c6b448e94d384" id="r_aff76d90f544be630ef7c6b448e94d384"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff76d90f544be630ef7c6b448e94d384">OnBeforeSerialize</a> ()</td></tr>
+<tr class="separator:aff76d90f544be630ef7c6b448e94d384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1651e018da98cd01fa860eac37c538f0" id="r_a1651e018da98cd01fa860eac37c538f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1651e018da98cd01fa860eac37c538f0">OnAfterDeserialize</a> ()</td></tr>
+<tr class="separator:a1651e018da98cd01fa860eac37c538f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d72cb77bdb8351009e4cb1eaf889917" id="r_a4d72cb77bdb8351009e4cb1eaf889917"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d72cb77bdb8351009e4cb1eaf889917">GetEnumerator</a> ()</td></tr>
+<tr class="separator:a4d72cb77bdb8351009e4cb1eaf889917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a5eb50e0ab44cc76f9d9bcaadb21767" id="r_a0a5eb50e0ab44cc76f9d9bcaadb21767"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a5eb50e0ab44cc76f9d9bcaadb21767">FlaggedEnum</a> ()</td></tr>
 <tr class="separator:a0a5eb50e0ab44cc76f9d9bcaadb21767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484ce3855b98a3167651d5d715e3a99c" id="r_a484ce3855b98a3167651d5d715e3a99c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a484ce3855b98a3167651d5d715e3a99c">FlaggedEnum</a> (params T[] values)</td></tr>
@@ -123,8 +218,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7dff9f301a5d734e9828472bec99126f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ac386566d17a5b414fd2c366668cf9" id="r_a42ac386566d17a5b414fd2c366668cf9"><td class="memItemLeft" align="right" valign="top">List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42ac386566d17a5b414fd2c366668cf9">GetAllFlagged</a> ()</td></tr>
 <tr class="separator:a42ac386566d17a5b414fd2c366668cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbb65a3a3cccce67084b581a254ea478" id="r_afbb65a3a3cccce67084b581a254ea478"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb65a3a3cccce67084b581a254ea478">FlagsEquals</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; enumValue)</td></tr>
-<tr class="separator:afbb65a3a3cccce67084b581a254ea478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fab1fe696f1df87f588a086c96f8dda" id="r_a9fab1fe696f1df87f588a086c96f8dda"><td class="memItemLeft" align="right" valign="top">E&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fab1fe696f1df87f588a086c96f8dda">GetAllFlagged&lt; E &gt;</a> ()</td></tr>
+<tr class="separator:a9fab1fe696f1df87f588a086c96f8dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5ea72eef996b01297393d33a0dfd2a" id="r_a4a5ea72eef996b01297393d33a0dfd2a"><td class="memItemLeft" align="right" valign="top">T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a5ea72eef996b01297393d33a0dfd2a">GetAllFlaggedAsArray</a> ()</td></tr>
+<tr class="separator:a4a5ea72eef996b01297393d33a0dfd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e42206f6657ae61faa91dca61e1d661" id="r_a7e42206f6657ae61faa91dca61e1d661"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e42206f6657ae61faa91dca61e1d661">HasFlag</a> (params T[] values)</td></tr>
 <tr class="separator:a7e42206f6657ae61faa91dca61e1d661"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a733236637b45dbecf7fbeb18b5e26231" id="r_a733236637b45dbecf7fbeb18b5e26231"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a733236637b45dbecf7fbeb18b5e26231">HasntFlag</a> (params T[] values)</td></tr>
@@ -177,8 +274,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abc64a34575b5038041fdb396ed4e673f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437bc60340841ac7a44a6d8bf578a448" id="r_a437bc60340841ac7a44a6d8bf578a448"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437bc60340841ac7a44a6d8bf578a448">And</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; value)</td></tr>
 <tr class="separator:a437bc60340841ac7a44a6d8bf578a448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affed7992f4adce23246633d7617495b6" id="r_affed7992f4adce23246633d7617495b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affed7992f4adce23246633d7617495b6">Replace</a> (params T[] values)</td></tr>
+<tr class="memdesc:affed7992f4adce23246633d7617495b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the current entries and replaces them with a new set.  <br /></td></tr>
+<tr class="separator:affed7992f4adce23246633d7617495b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47f82f93e2050c83929357d0fb532c9" id="r_ac47f82f93e2050c83929357d0fb532c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac47f82f93e2050c83929357d0fb532c9">Replace</a> (IList&lt; T &gt; values)</td></tr>
+<tr class="memdesc:ac47f82f93e2050c83929357d0fb532c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the current entries and replaces them with a new set.  <br /></td></tr>
+<tr class="separator:ac47f82f93e2050c83929357d0fb532c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa442c56cd042a56d429a98d92816d8" id="r_aafa442c56cd042a56d429a98d92816d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafa442c56cd042a56d429a98d92816d8">Replace</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; value)</td></tr>
+<tr class="memdesc:aafa442c56cd042a56d429a98d92816d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the current entries and replaces them with a new set.  <br /></td></tr>
+<tr class="separator:aafa442c56cd042a56d429a98d92816d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81bb90676d97c80104ce252af3faaf80" id="r_a81bb90676d97c80104ce252af3faaf80"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81bb90676d97c80104ce252af3faaf80">Equals</a> (object obj)</td></tr>
 <tr class="separator:a81bb90676d97c80104ce252af3faaf80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a784e4ea00f38415f7852609f5efc5773" id="r_a784e4ea00f38415f7852609f5efc5773"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784e4ea00f38415f7852609f5efc5773">Equals</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; other)</td></tr>
+<tr class="separator:a784e4ea00f38415f7852609f5efc5773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d1fceb35d021dbd3d13a21708f3c2b" id="r_a69d1fceb35d021dbd3d13a21708f3c2b"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d1fceb35d021dbd3d13a21708f3c2b">GetHashCode</a> ()</td></tr>
 <tr class="separator:a69d1fceb35d021dbd3d13a21708f3c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff76d90f544be630ef7c6b448e94d384" id="r_aff76d90f544be630ef7c6b448e94d384"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff76d90f544be630ef7c6b448e94d384">OnBeforeSerialize</a> ()</td></tr>
@@ -190,10 +298,38 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a82d89d0f6c2f96eedeb1008860eeeedd" id="r_a82d89d0f6c2f96eedeb1008860eeeedd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d89d0f6c2f96eedeb1008860eeeedd">operator==</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; enumValue)</td></tr>
-<tr class="separator:a82d89d0f6c2f96eedeb1008860eeeedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a349733b205ef7b3cb81f4f750b8af3e9" id="r_a349733b205ef7b3cb81f4f750b8af3e9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349733b205ef7b3cb81f4f750b8af3e9">operator!=</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; enumValue)</td></tr>
-<tr class="separator:a349733b205ef7b3cb81f4f750b8af3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60a101982169b41d4f602bcc7cbbb65" id="r_af60a101982169b41d4f602bcc7cbbb65"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af60a101982169b41d4f602bcc7cbbb65">CheckEnumState</a> (params Type[] EnumsToCheck)</td></tr>
+<tr class="separator:af60a101982169b41d4f602bcc7cbbb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75dfd23aae1bb1c4ecbd3bd65db8509" id="r_ac75dfd23aae1bb1c4ecbd3bd65db8509"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac75dfd23aae1bb1c4ecbd3bd65db8509">operator==</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> left, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> right)</td></tr>
+<tr class="separator:ac75dfd23aae1bb1c4ecbd3bd65db8509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed39282ea7dc6ab23a1d5dc21116421b" id="r_aed39282ea7dc6ab23a1d5dc21116421b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed39282ea7dc6ab23a1d5dc21116421b">operator!=</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> left, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> right)</td></tr>
+<tr class="separator:aed39282ea7dc6ab23a1d5dc21116421b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a8b46cb367f27f351abc07fb4d4392" id="r_a36a8b46cb367f27f351abc07fb4d4392"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a8b46cb367f27f351abc07fb4d4392">operator+</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, int enumValue)</td></tr>
+<tr class="separator:a36a8b46cb367f27f351abc07fb4d4392"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b1f1922797f6de1817ad6fa7341ae62" id="r_a0b1f1922797f6de1817ad6fa7341ae62"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b1f1922797f6de1817ad6fa7341ae62">operator+</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> enumValue)</td></tr>
+<tr class="separator:a0b1f1922797f6de1817ad6fa7341ae62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2fd645c7caa3067dbab98b778635c7" id="r_a6c2fd645c7caa3067dbab98b778635c7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2fd645c7caa3067dbab98b778635c7">operator-</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, int enumValue)</td></tr>
+<tr class="separator:a6c2fd645c7caa3067dbab98b778635c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08050c4a1a9ea9ee639aa9fdeeb15d0d" id="r_a08050c4a1a9ea9ee639aa9fdeeb15d0d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08050c4a1a9ea9ee639aa9fdeeb15d0d">operator-</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> enumValue)</td></tr>
+<tr class="separator:a08050c4a1a9ea9ee639aa9fdeeb15d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfaba77ec861d474e41cd87279f306c" id="r_aebfaba77ec861d474e41cd87279f306c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebfaba77ec861d474e41cd87279f306c">operator|</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, int enumValue)</td></tr>
+<tr class="separator:aebfaba77ec861d474e41cd87279f306c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d48a2dedb1a0317aa8d27addde2bd8" id="r_a66d48a2dedb1a0317aa8d27addde2bd8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66d48a2dedb1a0317aa8d27addde2bd8">operator|</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> enumValue)</td></tr>
+<tr class="separator:a66d48a2dedb1a0317aa8d27addde2bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d812dfaede4506700bfd43d9c358a2a" id="r_a6d812dfaede4506700bfd43d9c358a2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d812dfaede4506700bfd43d9c358a2a">operator&amp;</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, int enumValue)</td></tr>
+<tr class="separator:a6d812dfaede4506700bfd43d9c358a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa47e7cea6d5420741fd773f4426893b" id="r_aaa47e7cea6d5420741fd773f4426893b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa47e7cea6d5420741fd773f4426893b">operator&amp;</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> enumValue)</td></tr>
+<tr class="separator:aaa47e7cea6d5420741fd773f4426893b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4676f216bebfbf6649a8d0f4f49c4e76" id="r_a4676f216bebfbf6649a8d0f4f49c4e76"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4676f216bebfbf6649a8d0f4f49c4e76">operator^</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, int enumValue)</td></tr>
+<tr class="separator:a4676f216bebfbf6649a8d0f4f49c4e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c06675b1796e6eab60cde7aba6d1af5" id="r_a1c06675b1796e6eab60cde7aba6d1af5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c06675b1796e6eab60cde7aba6d1af5">operator^</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> enumValue)</td></tr>
+<tr class="separator:a1c06675b1796e6eab60cde7aba6d1af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88fcce146ad00d0deb718cb5b3f2c543" id="r_a88fcce146ad00d0deb718cb5b3f2c543"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88fcce146ad00d0deb718cb5b3f2c543">CheckEnumState</a> ()</td></tr>
+<tr class="separator:a88fcce146ad00d0deb718cb5b3f2c543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba4e73cc511abe10975a19466534293" id="r_aeba4e73cc511abe10975a19466534293"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeba4e73cc511abe10975a19466534293">operator==</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; left, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; right)</td></tr>
+<tr class="separator:aeba4e73cc511abe10975a19466534293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a4f6564390c1b048407ce1a5d4a0b9" id="r_ac6a4f6564390c1b048407ce1a5d4a0b9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a4f6564390c1b048407ce1a5d4a0b9">operator!=</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; left, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; right)</td></tr>
+<tr class="separator:ac6a4f6564390c1b048407ce1a5d4a0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a99435cf4c5a2d19627eb9e159c7967" id="r_a8a99435cf4c5a2d19627eb9e159c7967"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a99435cf4c5a2d19627eb9e159c7967">operator+</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; self, T enumValue)</td></tr>
 <tr class="separator:a8a99435cf4c5a2d19627eb9e159c7967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f72a4b3c2c71d987a10ace1650a54b3" id="r_a2f72a4b3c2c71d987a10ace1650a54b3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f72a4b3c2c71d987a10ace1650a54b3">operator+</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; enumValue)</td></tr>
@@ -215,29 +351,80 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af9250ea1645005ddd04cdbbf8fa53c4e" id="r_af9250ea1645005ddd04cdbbf8fa53c4e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9250ea1645005ddd04cdbbf8fa53c4e">operator^</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; self, <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt; enumValue)</td></tr>
 <tr class="separator:af9250ea1645005ddd04cdbbf8fa53c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa0391d35cf3dbce0ab390ec73fcb6587" id="r_aa0391d35cf3dbce0ab390ec73fcb6587"><td class="memItemLeft" align="right" valign="top">readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0391d35cf3dbce0ab390ec73fcb6587">getEnumNames</a></td></tr>
+<tr class="separator:aa0391d35cf3dbce0ab390ec73fcb6587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef528948412d28a0e13fb055a0e94dc0" id="r_aef528948412d28a0e13fb055a0e94dc0"><td class="memItemLeft" align="right" valign="top">readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef528948412d28a0e13fb055a0e94dc0">GetEnumLength</a></td></tr>
+<tr class="separator:aef528948412d28a0e13fb055a0e94dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab016510d8c00028baf50d5d3df657ea2" id="r_ab016510d8c00028baf50d5d3df657ea2"><td class="memItemLeft" align="right" valign="top">readonly int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab016510d8c00028baf50d5d3df657ea2">getEnumValues</a></td></tr>
+<tr class="separator:ab016510d8c00028baf50d5d3df657ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c9235c37d51535bb136ef8b691d60a9" id="r_a7c9235c37d51535bb136ef8b691d60a9"><td class="memItemLeft" align="right" valign="top">readonly Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9235c37d51535bb136ef8b691d60a9">GetUnderlyingType</a></td></tr>
+<tr class="separator:a7c9235c37d51535bb136ef8b691d60a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a6f3372b3ece44d25d43f1efea9a1fc3f" id="r_a6f3372b3ece44d25d43f1efea9a1fc3f"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f3372b3ece44d25d43f1efea9a1fc3f">GetEnumNames</a><code> [get]</code></td></tr>
+<tr class="separator:a6f3372b3ece44d25d43f1efea9a1fc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21080f6fdfd1a4c90b476c8c8c1ee2a" id="r_ac21080f6fdfd1a4c90b476c8c8c1ee2a"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac21080f6fdfd1a4c90b476c8c8c1ee2a">GetEnumValues</a><code> [get]</code></td></tr>
+<tr class="separator:ac21080f6fdfd1a4c90b476c8c8c1ee2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfde33b48a25437790662d796ee703bf" id="r_adfde33b48a25437790662d796ee703bf"><td class="memItemLeft" align="right" valign="top">ReadOnlyDictionary&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfde33b48a25437790662d796ee703bf">StoredValues</a><code> [get]</code></td></tr>
+<tr class="memdesc:adfde33b48a25437790662d796ee703bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the dictionary used, not the actual values.  <br /></td></tr>
+<tr class="separator:adfde33b48a25437790662d796ee703bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7691b2b15f66a602bdd5d74f60b76b45" id="r_a7691b2b15f66a602bdd5d74f60b76b45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7691b2b15f66a602bdd5d74f60b76b45">this[int index]</a><code> [get, set]</code></td></tr>
+<tr class="separator:a7691b2b15f66a602bdd5d74f60b76b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363600418db56793d65b5b739e450f2c" id="r_a363600418db56793d65b5b739e450f2c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363600418db56793d65b5b739e450f2c">Count</a><code> [get]</code></td></tr>
+<tr class="memdesc:a363600418db56793d65b5b739e450f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of flags set to on.  <br /></td></tr>
+<tr class="separator:a363600418db56793d65b5b739e450f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a722b7e511535cdc9366723a60b244118" id="r_a722b7e511535cdc9366723a60b244118"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a722b7e511535cdc9366723a60b244118">EnumNames</a><code> [get]</code></td></tr>
 <tr class="separator:a722b7e511535cdc9366723a60b244118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa52f8058f2817f968a836411146f0c00" id="r_aa52f8058f2817f968a836411146f0c00"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa52f8058f2817f968a836411146f0c00">UnderlyingType</a><code> [get]</code></td></tr>
 <tr class="separator:aa52f8058f2817f968a836411146f0c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62e0741cebf58b17a996918c7fdca335" id="r_a62e0741cebf58b17a996918c7fdca335"><td class="memItemLeft" align="right" valign="top">static T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62e0741cebf58b17a996918c7fdca335">EnumValues</a><code> [get]</code></td></tr>
 <tr class="separator:a62e0741cebf58b17a996918c7fdca335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e3b5ecb81b11f8eb9ff5cbf715b0fd" id="r_a34e3b5ecb81b11f8eb9ff5cbf715b0fd"><td class="memItemLeft" align="right" valign="top">static T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e3b5ecb81b11f8eb9ff5cbf715b0fd">GetEnumValuesInternal</a><code> [get]</code></td></tr>
+<tr class="separator:a34e3b5ecb81b11f8eb9ff5cbf715b0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4708ddc14ca28c36db571555acc9e2a0" id="r_a4708ddc14ca28c36db571555acc9e2a0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4708ddc14ca28c36db571555acc9e2a0">EnumLength</a><code> [get]</code></td></tr>
 <tr class="separator:a4708ddc14ca28c36db571555acc9e2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf06b33179b6c5ca83b1d508b8b9144c" id="r_adf06b33179b6c5ca83b1d508b8b9144c"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; T, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf06b33179b6c5ca83b1d508b8b9144c">StoredValues</a><code> [get]</code></td></tr>
-<tr class="separator:adf06b33179b6c5ca83b1d508b8b9144c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f389f24b1cd67f5b5fbb328817c8664" id="r_a1f389f24b1cd67f5b5fbb328817c8664"><td class="memItemLeft" align="right" valign="top">T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f389f24b1cd67f5b5fbb328817c8664">GetEnumValues</a><code> [get]</code></td></tr>
+<tr class="separator:a1f389f24b1cd67f5b5fbb328817c8664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03d1ca4d2f28504d47b798f4fa11862" id="r_ad03d1ca4d2f28504d47b798f4fa11862"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad03d1ca4d2f28504d47b798f4fa11862">GetEnumLength</a><code> [get]</code></td></tr>
+<tr class="separator:ad03d1ca4d2f28504d47b798f4fa11862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa94d3283d4f6c7e6db85417a7d906f84" id="r_aa94d3283d4f6c7e6db85417a7d906f84"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa94d3283d4f6c7e6db85417a7d906f84">GetUnderlyingType</a><code> [get]</code></td></tr>
+<tr class="separator:aa94d3283d4f6c7e6db85417a7d906f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04cad532bfc202084f52d7265bb7bdb" id="r_af04cad532bfc202084f52d7265bb7bdb"><td class="memItemLeft" align="right" valign="top">ReadOnlyDictionary&lt; T, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af04cad532bfc202084f52d7265bb7bdb">StoredValues</a><code> [get]</code></td></tr>
+<tr class="memdesc:af04cad532bfc202084f52d7265bb7bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the dictionary used, not the actual values.  <br /></td></tr>
+<tr class="separator:af04cad532bfc202084f52d7265bb7bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e4cf2a94b92ddb115c5617c264ed38c" id="r_a2e4cf2a94b92ddb115c5617c264ed38c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e4cf2a94b92ddb115c5617c264ed38c">this[T index]</a><code> [get, set]</code></td></tr>
 <tr class="separator:a2e4cf2a94b92ddb115c5617c264ed38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7691b2b15f66a602bdd5d74f60b76b45" id="r_a7691b2b15f66a602bdd5d74f60b76b45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7691b2b15f66a602bdd5d74f60b76b45">this[int index]</a><code> [get, set]</code></td></tr>
-<tr class="separator:a7691b2b15f66a602bdd5d74f60b76b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a203232a843a2ab8f6961ef348bfebd27" id="r_a203232a843a2ab8f6961ef348bfebd27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a203232a843a2ab8f6961ef348bfebd27">Count</a><code> [get]</code></td></tr>
-<tr class="memdesc:a203232a843a2ab8f6961ef348bfebd27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of flags set to on.  <br /></td></tr>
-<tr class="separator:a203232a843a2ab8f6961ef348bfebd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a47e2a696015bb08aecb0e91bc94007c8" id="r_a47e2a696015bb08aecb0e91bc94007c8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8">Operation</a> { <br />
+&#160;&#160;<a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8a34ec78fcc91ffb1e54cd85e4a0924332">add</a>
+, <a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8a97f415c180230ce76bafa74bc058ef5f">subtract</a>
+, <a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8ae81c4e4f2b7b93b481e13a8553c2ae1b">or</a>
+, <a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8aa392960421913165197845f34bf5d1a8">xor</a>
+, <br />
+&#160;&#160;<a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8abe5d5d37542d75f93a87094459f76678">and</a>
+<br />
+ }</td></tr>
+<tr class="separator:a47e2a696015bb08aecb0e91bc94007c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a3ac87a2cbe46967ffae9d0e041c1d1a5" id="r_a3ac87a2cbe46967ffae9d0e041c1d1a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ac87a2cbe46967ffae9d0e041c1d1a5">PerformOperation</a> (T value, <a class="el" href="_flagged_enum_8cs.html#aa8f137f19095e0bdcf4f521e901f88bb">Operation</a> op)</td></tr>
+<tr class="memitem:a887b47f787955efe0e9987e6c73a0412" id="r_a887b47f787955efe0e9987e6c73a0412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887b47f787955efe0e9987e6c73a0412">_buildDictionary</a> ()</td></tr>
+<tr class="separator:a887b47f787955efe0e9987e6c73a0412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a5eb50e0ab44cc76f9d9bcaadb21767" id="r_a0a5eb50e0ab44cc76f9d9bcaadb21767"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a5eb50e0ab44cc76f9d9bcaadb21767">FlaggedEnum</a> ()</td></tr>
+<tr class="separator:a0a5eb50e0ab44cc76f9d9bcaadb21767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1941719d0e5eb8e55d0b581e47b65110" id="r_a1941719d0e5eb8e55d0b581e47b65110"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1941719d0e5eb8e55d0b581e47b65110">PerformOperation</a> (int value, <a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8">Operation</a> op)</td></tr>
+<tr class="separator:a1941719d0e5eb8e55d0b581e47b65110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0745e936bb838b5bbe95dc350a2c9771" id="r_a0745e936bb838b5bbe95dc350a2c9771"><td class="memItemLeft" align="right" valign="top">IEnumerator IEnumerable.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0745e936bb838b5bbe95dc350a2c9771">GetEnumerator</a> ()</td></tr>
+<tr class="separator:a0745e936bb838b5bbe95dc350a2c9771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887b47f787955efe0e9987e6c73a0412" id="r_a887b47f787955efe0e9987e6c73a0412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887b47f787955efe0e9987e6c73a0412">_buildDictionary</a> ()</td></tr>
+<tr class="memdesc:a887b47f787955efe0e9987e6c73a0412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds missing values to the dictionary while maintaining the current values.  <br /></td></tr>
+<tr class="separator:a887b47f787955efe0e9987e6c73a0412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac87a2cbe46967ffae9d0e041c1d1a5" id="r_a3ac87a2cbe46967ffae9d0e041c1d1a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ac87a2cbe46967ffae9d0e041c1d1a5">PerformOperation</a> (T value, <a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8">Operation</a> op)</td></tr>
 <tr class="separator:a3ac87a2cbe46967ffae9d0e041c1d1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0745e936bb838b5bbe95dc350a2c9771" id="r_a0745e936bb838b5bbe95dc350a2c9771"><td class="memItemLeft" align="right" valign="top">IEnumerator IEnumerable.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0745e936bb838b5bbe95dc350a2c9771">GetEnumerator</a> ()</td></tr>
 <tr class="separator:a0745e936bb838b5bbe95dc350a2c9771"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,13 +433,15 @@ Private Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a9c6300f4d9d2a85b60c0447fa97549a8" id="r_a9c6300f4d9d2a85b60c0447fa97549a8"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c6300f4d9d2a85b60c0447fa97549a8">FlaggedEnum</a> ()</td></tr>
 <tr class="separator:a9c6300f4d9d2a85b60c0447fa97549a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a283d503567da627c9bcf0c21a29f33" id="r_a6a283d503567da627c9bcf0c21a29f33"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; T, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a283d503567da627c9bcf0c21a29f33">_buildDictionary</a> ()</td></tr>
-<tr class="separator:a6a283d503567da627c9bcf0c21a29f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae557e8c98d8d8bee86192ad067998074" id="r_ae557e8c98d8d8bee86192ad067998074"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; T, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae557e8c98d8d8bee86192ad067998074">_storedValues</a></td></tr>
-<tr class="separator:ae557e8c98d8d8bee86192ad067998074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d58dc93cab8639b7a067b4d7a522cf4" id="r_a4d58dc93cab8639b7a067b4d7a522cf4"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d58dc93cab8639b7a067b4d7a522cf4">_storedValues</a> = new Dictionary&lt;int, bool&gt;(0)</td></tr>
+<tr class="separator:a4d58dc93cab8639b7a067b4d7a522cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644bd7f8a133b8fa39472ba6d1dd2ed8" id="r_a644bd7f8a133b8fa39472ba6d1dd2ed8"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a644bd7f8a133b8fa39472ba6d1dd2ed8">_serializedAnswers</a></td></tr>
+<tr class="separator:a644bd7f8a133b8fa39472ba6d1dd2ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa72586557d3fa830f1858962f5ab7495" id="r_aa72586557d3fa830f1858962f5ab7495"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; T, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa72586557d3fa830f1858962f5ab7495">_storedValues</a> = new Dictionary&lt;T, bool&gt;(<a class="el" href="#a4708ddc14ca28c36db571555acc9e2a0">EnumLength</a>)</td></tr>
+<tr class="separator:aa72586557d3fa830f1858962f5ab7495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b6c1591e13956b9b804eceab8d0809" id="r_ab8b6c1591e13956b9b804eceab8d0809"><td class="memItemLeft" align="right" valign="top">List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b6c1591e13956b9b804eceab8d0809">_serializedAnswers</a></td></tr>
 <tr class="separator:ab8b6c1591e13956b9b804eceab8d0809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -267,9 +456,182 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:ad938e058197fee66db96b6532d708e87" id="r_ad938e058197fee66db96b6532d708e87"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad938e058197fee66db96b6532d708e87">_enumLength</a></td></tr>
 <tr class="separator:ad938e058197fee66db96b6532d708e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Large container for Enums to be used as flags when you need more than the maximum possible flags (32, 64, 128 [.Net9]). Enum values must be unique values. Enums can be checked using <code>CheckEnumState()</code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Enum</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>new()</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a47e2a696015bb08aecb0e91bc94007c8" name="a47e2a696015bb08aecb0e91bc94007c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e2a696015bb08aecb0e91bc94007c8">&#9670;&#160;</a></span>Operation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8">ScoredProductions.StreamLinked.Utility.FlaggedEnum.Operation</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a47e2a696015bb08aecb0e91bc94007c8a34ec78fcc91ffb1e54cd85e4a0924332" name="a47e2a696015bb08aecb0e91bc94007c8a34ec78fcc91ffb1e54cd85e4a0924332"></a>add&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a47e2a696015bb08aecb0e91bc94007c8a97f415c180230ce76bafa74bc058ef5f" name="a47e2a696015bb08aecb0e91bc94007c8a97f415c180230ce76bafa74bc058ef5f"></a>subtract&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a47e2a696015bb08aecb0e91bc94007c8ae81c4e4f2b7b93b481e13a8553c2ae1b" name="a47e2a696015bb08aecb0e91bc94007c8ae81c4e4f2b7b93b481e13a8553c2ae1b"></a>or&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a47e2a696015bb08aecb0e91bc94007c8aa392960421913165197845f34bf5d1a8" name="a47e2a696015bb08aecb0e91bc94007c8aa392960421913165197845f34bf5d1a8"></a>xor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a47e2a696015bb08aecb0e91bc94007c8abe5d5d37542d75f93a87094459f76678" name="a47e2a696015bb08aecb0e91bc94007c8abe5d5d37542d75f93a87094459f76678"></a>and&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0a5eb50e0ab44cc76f9d9bcaadb21767" name="a0a5eb50e0ab44cc76f9d9bcaadb21767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5eb50e0ab44cc76f9d9bcaadb21767">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[1/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21c2e3a0b43e1d8eb8dc9db0ab5390f0" name="a21c2e3a0b43e1d8eb8dc9db0ab5390f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c2e3a0b43e1d8eb8dc9db0ab5390f0">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[2/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> </td>
+          <td>(</td>
+          <td class="paramtype">int[]</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor for a custom enum where there is no backing enum, just a store of values to compare against in a flaggable format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2021ecae0f07675a1a58ac935eeae7f0" name="a2021ecae0f07675a1a58ac935eeae7f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2021ecae0f07675a1a58ac935eeae7f0">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> </td>
+          <td>(</td>
+          <td class="paramtype">Type</td>          <td class="paramname"><span class="paramname"><em>enumType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada94e03c93112753c1677ba27ebf8bfd" name="ada94e03c93112753c1677ba27ebf8bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada94e03c93112753c1677ba27ebf8bfd">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[4/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> </td>
+          <td>(</td>
+          <td class="paramtype">Enum @</td>          <td class="paramname"><span class="paramname"><em>enum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87d00902ddcc19938beed1a965632989" name="a87d00902ddcc19938beed1a965632989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d00902ddcc19938beed1a965632989">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[5/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> </td>
+          <td>(</td>
+          <td class="paramtype">Type</td>          <td class="paramname"><span class="paramname"><em>enumType</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83aac0c17ba9ca5daafa51ed639e76e0" name="a83aac0c17ba9ca5daafa51ed639e76e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83aac0c17ba9ca5daafa51ed639e76e0">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[6/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> </td>
+          <td>(</td>
+          <td class="paramtype">Enum @</td>          <td class="paramname"><span class="paramname"><em>enum</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c6300f4d9d2a85b60c0447fa97549a8" name="a9c6300f4d9d2a85b60c0447fa97549a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c6300f4d9d2a85b60c0447fa97549a8">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c6300f4d9d2a85b60c0447fa97549a8">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +656,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0a5eb50e0ab44cc76f9d9bcaadb21767" name="a0a5eb50e0ab44cc76f9d9bcaadb21767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a5eb50e0ab44cc76f9d9bcaadb21767">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5eb50e0ab44cc76f9d9bcaadb21767">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +673,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a484ce3855b98a3167651d5d715e3a99c" name="a484ce3855b98a3167651d5d715e3a99c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a484ce3855b98a3167651d5d715e3a99c">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a484ce3855b98a3167651d5d715e3a99c">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,7 +690,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7dff9f301a5d734e9828472bec99126f" name="a7dff9f301a5d734e9828472bec99126f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dff9f301a5d734e9828472bec99126f">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dff9f301a5d734e9828472bec99126f">&#9670;&#160;</a></span>FlaggedEnum() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,8 +707,8 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6a283d503567da627c9bcf0c21a29f33" name="a6a283d503567da627c9bcf0c21a29f33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a283d503567da627c9bcf0c21a29f33">&#9670;&#160;</a></span>_buildDictionary()</h2>
+<a id="a887b47f787955efe0e9987e6c73a0412" name="a887b47f787955efe0e9987e6c73a0412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887b47f787955efe0e9987e6c73a0412">&#9670;&#160;</a></span>_buildDictionary() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +717,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Dictionary&lt; T, bool &gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._buildDictionary </td>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._buildDictionary </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -363,15 +725,42 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a02c4a9d32da7386aba450aa81ebec08c" name="a02c4a9d32da7386aba450aa81ebec08c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02c4a9d32da7386aba450aa81ebec08c">&#9670;&#160;</a></span>Add() <span class="overload">[1/4]</span></h2>
+<a id="a887b47f787955efe0e9987e6c73a0412" name="a887b47f787955efe0e9987e6c73a0412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887b47f787955efe0e9987e6c73a0412">&#9670;&#160;</a></span>_buildDictionary() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._buildDictionary </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds missing values to the dictionary while maintaining the current values. </p>
+
+</div>
+</div>
+<a id="aaef4957ecd83018c14e7f1d7b2c296fb" name="aaef4957ecd83018c14e7f1d7b2c296fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef4957ecd83018c14e7f1d7b2c296fb">&#9670;&#160;</a></span>Add() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,8 +783,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a02c4a9d32da7386aba450aa81ebec08c" name="a02c4a9d32da7386aba450aa81ebec08c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c4a9d32da7386aba450aa81ebec08c">&#9670;&#160;</a></span>Add() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a89b8ce4413fe23c44064329f212d8299" name="a89b8ce4413fe23c44064329f212d8299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89b8ce4413fe23c44064329f212d8299">&#9670;&#160;</a></span>Add() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Add </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="a66ca2896de3a640d9a0bbed641da1211" name="a66ca2896de3a640d9a0bbed641da1211"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66ca2896de3a640d9a0bbed641da1211">&#9670;&#160;</a></span>Add() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ca2896de3a640d9a0bbed641da1211">&#9670;&#160;</a></span>Add() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,8 +855,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9851a5dade3f8937f79df12924bf01f8" name="a9851a5dade3f8937f79df12924bf01f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9851a5dade3f8937f79df12924bf01f8">&#9670;&#160;</a></span>Add() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Add </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="aa5a8c3b6ace689d51e9904c14a2c3028" name="aa5a8c3b6ace689d51e9904c14a2c3028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a8c3b6ace689d51e9904c14a2c3028">&#9670;&#160;</a></span>Add() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Add </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="a3aed2bc70b4e4dca912c671258a1c0f5" name="a3aed2bc70b4e4dca912c671258a1c0f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aed2bc70b4e4dca912c671258a1c0f5">&#9670;&#160;</a></span>Add() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aed2bc70b4e4dca912c671258a1c0f5">&#9670;&#160;</a></span>Add() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +928,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a81ae8bd59dfc9b28c97764fb33801f9d" name="a81ae8bd59dfc9b28c97764fb33801f9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81ae8bd59dfc9b28c97764fb33801f9d">&#9670;&#160;</a></span>Add() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a81ae8bd59dfc9b28c97764fb33801f9d">&#9670;&#160;</a></span>Add() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,8 +951,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a437bc60340841ac7a44a6d8bf578a448" name="a437bc60340841ac7a44a6d8bf578a448"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a437bc60340841ac7a44a6d8bf578a448">&#9670;&#160;</a></span>And() <span class="overload">[1/4]</span></h2>
+<a id="a589f190ea809ed33ca4660b6106c8bd8" name="a589f190ea809ed33ca4660b6106c8bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a589f190ea809ed33ca4660b6106c8bd8">&#9670;&#160;</a></span>And() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,8 +975,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a437bc60340841ac7a44a6d8bf578a448" name="a437bc60340841ac7a44a6d8bf578a448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437bc60340841ac7a44a6d8bf578a448">&#9670;&#160;</a></span>And() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.And </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a3ab58f8a3948f765b6c63c152563a800" name="a3ab58f8a3948f765b6c63c152563a800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab58f8a3948f765b6c63c152563a800">&#9670;&#160;</a></span>And() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.And </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="abc64a34575b5038041fdb396ed4e673f" name="abc64a34575b5038041fdb396ed4e673f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc64a34575b5038041fdb396ed4e673f">&#9670;&#160;</a></span>And() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abc64a34575b5038041fdb396ed4e673f">&#9670;&#160;</a></span>And() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,8 +1047,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a551b80bfc0f7c3ab22f5747a353e7949" name="a551b80bfc0f7c3ab22f5747a353e7949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551b80bfc0f7c3ab22f5747a353e7949">&#9670;&#160;</a></span>And() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.And </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="afa21c7cfa9534df40ffed3e4e276d9bd" name="afa21c7cfa9534df40ffed3e4e276d9bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa21c7cfa9534df40ffed3e4e276d9bd">&#9670;&#160;</a></span>And() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.And </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="aa1b0627dcdbc6f3a85bad9a4b1f9201d" name="aa1b0627dcdbc6f3a85bad9a4b1f9201d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1b0627dcdbc6f3a85bad9a4b1f9201d">&#9670;&#160;</a></span>And() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b0627dcdbc6f3a85bad9a4b1f9201d">&#9670;&#160;</a></span>And() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,7 +1120,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a18f8eb86e574bee3d0b7321fd218b175" name="a18f8eb86e574bee3d0b7321fd218b175"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18f8eb86e574bee3d0b7321fd218b175">&#9670;&#160;</a></span>And() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f8eb86e574bee3d0b7321fd218b175">&#9670;&#160;</a></span>And() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,8 +1143,58 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a88fcce146ad00d0deb718cb5b3f2c543" name="a88fcce146ad00d0deb718cb5b3f2c543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88fcce146ad00d0deb718cb5b3f2c543">&#9670;&#160;</a></span>CheckEnumState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.CheckEnumState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af60a101982169b41d4f602bcc7cbbb65" name="af60a101982169b41d4f602bcc7cbbb65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60a101982169b41d4f602bcc7cbbb65">&#9670;&#160;</a></span>CheckEnumState() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.CheckEnumState </td>
+          <td>(</td>
+          <td class="paramtype">params Type[]</td>          <td class="paramname"><span class="paramname"><em>EnumsToCheck</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a851fa79e67e825ef2550849b4e7ba78b" name="a851fa79e67e825ef2550849b4e7ba78b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a851fa79e67e825ef2550849b4e7ba78b">&#9670;&#160;</a></span>Clear()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a851fa79e67e825ef2550849b4e7ba78b">&#9670;&#160;</a></span>Clear() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -579,8 +1210,59 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a851fa79e67e825ef2550849b4e7ba78b" name="a851fa79e67e825ef2550849b4e7ba78b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851fa79e67e825ef2550849b4e7ba78b">&#9670;&#160;</a></span>Clear() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c38b49ef1b2c78480ac6e1b29f90f2a" name="a2c38b49ef1b2c78480ac6e1b29f90f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c38b49ef1b2c78480ac6e1b29f90f2a">&#9670;&#160;</a></span>Equals() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Equals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a784e4ea00f38415f7852609f5efc5773" name="a784e4ea00f38415f7852609f5efc5773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a784e4ea00f38415f7852609f5efc5773">&#9670;&#160;</a></span>Equals() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Equals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a81bb90676d97c80104ce252af3faaf80" name="a81bb90676d97c80104ce252af3faaf80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81bb90676d97c80104ce252af3faaf80">&#9670;&#160;</a></span>Equals()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a81bb90676d97c80104ce252af3faaf80">&#9670;&#160;</a></span>Equals() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,16 +1278,33 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afbb65a3a3cccce67084b581a254ea478" name="afbb65a3a3cccce67084b581a254ea478"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbb65a3a3cccce67084b581a254ea478">&#9670;&#160;</a></span>FlagsEquals()</h2>
+<a id="a81bb90676d97c80104ce252af3faaf80" name="a81bb90676d97c80104ce252af3faaf80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81bb90676d97c80104ce252af3faaf80">&#9670;&#160;</a></span>Equals() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.FlagsEquals </td>
+          <td class="memname">override bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Equals </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span></td><td>)</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7529006ff88be68868a295f2bddd64a" name="ac7529006ff88be68868a295f2bddd64a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7529006ff88be68868a295f2bddd64a">&#9670;&#160;</a></span>GetAllFlagged() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; int &gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetAllFlagged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -614,7 +1313,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a42ac386566d17a5b414fd2c366668cf9" name="a42ac386566d17a5b414fd2c366668cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42ac386566d17a5b414fd2c366668cf9">&#9670;&#160;</a></span>GetAllFlagged()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ac386566d17a5b414fd2c366668cf9">&#9670;&#160;</a></span>GetAllFlagged() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -630,8 +1329,136 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9fab1fe696f1df87f588a086c96f8dda" name="a9fab1fe696f1df87f588a086c96f8dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fab1fe696f1df87f588a086c96f8dda">&#9670;&#160;</a></span>GetAllFlagged&lt; E &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">E <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="#ac7529006ff88be68868a295f2bddd64a">GetAllFlagged</a>&lt; E &gt; </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>E</em></td><td>&#160;:</td><td valign="top"><em>ICollection&lt;int&gt;</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>E</em></td><td>&#160;:</td><td valign="top"><em>new()</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a9fab1fe696f1df87f588a086c96f8dda" name="a9fab1fe696f1df87f588a086c96f8dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fab1fe696f1df87f588a086c96f8dda">&#9670;&#160;</a></span>GetAllFlagged&lt; E &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">E <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.<a class="el" href="#ac7529006ff88be68868a295f2bddd64a">GetAllFlagged</a>&lt; E &gt; </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>E</em></td><td>&#160;:</td><td valign="top"><em>ICollection&lt;T&gt;</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>E</em></td><td>&#160;:</td><td valign="top"><em>new()</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a6cab1e5f70830bcc320473b87caa93de" name="a6cab1e5f70830bcc320473b87caa93de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cab1e5f70830bcc320473b87caa93de">&#9670;&#160;</a></span>GetAllFlaggedAsArray() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int[] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetAllFlaggedAsArray </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a5ea72eef996b01297393d33a0dfd2a" name="a4a5ea72eef996b01297393d33a0dfd2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a5ea72eef996b01297393d33a0dfd2a">&#9670;&#160;</a></span>GetAllFlaggedAsArray() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">T[] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetAllFlaggedAsArray </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d72cb77bdb8351009e4cb1eaf889917" name="a4d72cb77bdb8351009e4cb1eaf889917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d72cb77bdb8351009e4cb1eaf889917">&#9670;&#160;</a></span>GetEnumerator() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator&lt; int &gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumerator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0745e936bb838b5bbe95dc350a2c9771" name="a0745e936bb838b5bbe95dc350a2c9771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0745e936bb838b5bbe95dc350a2c9771">&#9670;&#160;</a></span>GetEnumerator() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator IEnumerable. <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumerator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae559b6b074a20836949319f26f53afce" name="ae559b6b074a20836949319f26f53afce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae559b6b074a20836949319f26f53afce">&#9670;&#160;</a></span>GetEnumerator() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae559b6b074a20836949319f26f53afce">&#9670;&#160;</a></span>GetEnumerator() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -648,7 +1475,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0745e936bb838b5bbe95dc350a2c9771" name="a0745e936bb838b5bbe95dc350a2c9771"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0745e936bb838b5bbe95dc350a2c9771">&#9670;&#160;</a></span>GetEnumerator() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0745e936bb838b5bbe95dc350a2c9771">&#9670;&#160;</a></span>GetEnumerator() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,7 +1500,24 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a69d1fceb35d021dbd3d13a21708f3c2b" name="a69d1fceb35d021dbd3d13a21708f3c2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69d1fceb35d021dbd3d13a21708f3c2b">&#9670;&#160;</a></span>GetHashCode()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d1fceb35d021dbd3d13a21708f3c2b">&#9670;&#160;</a></span>GetHashCode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override int <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetHashCode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69d1fceb35d021dbd3d13a21708f3c2b" name="a69d1fceb35d021dbd3d13a21708f3c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d1fceb35d021dbd3d13a21708f3c2b">&#9670;&#160;</a></span>GetHashCode() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -690,7 +1534,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aa4c9caf11f874274c8b016839f515d3c" name="aa4c9caf11f874274c8b016839f515d3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4c9caf11f874274c8b016839f515d3c">&#9670;&#160;</a></span>HasAllFlag()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4c9caf11f874274c8b016839f515d3c">&#9670;&#160;</a></span>HasAllFlag() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -709,8 +1553,45 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa4c9caf11f874274c8b016839f515d3c" name="aa4c9caf11f874274c8b016839f515d3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4c9caf11f874274c8b016839f515d3c">&#9670;&#160;</a></span>HasAllFlag() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.HasAllFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if all values are true. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aac57f5868a2b9a41b41bb13da1fbea45" name="aac57f5868a2b9a41b41bb13da1fbea45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac57f5868a2b9a41b41bb13da1fbea45">&#9670;&#160;</a></span>HasFlag() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.HasFlag </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7e42206f6657ae61faa91dca61e1d661" name="a7e42206f6657ae61faa91dca61e1d661"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e42206f6657ae61faa91dca61e1d661">&#9670;&#160;</a></span>HasFlag()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e42206f6657ae61faa91dca61e1d661">&#9670;&#160;</a></span>HasFlag() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -727,7 +1608,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a6d7289fd3f1ebb48ae9be4b2c793dd6f" name="a6d7289fd3f1ebb48ae9be4b2c793dd6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d7289fd3f1ebb48ae9be4b2c793dd6f">&#9670;&#160;</a></span>HasNoFlag()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7289fd3f1ebb48ae9be4b2c793dd6f">&#9670;&#160;</a></span>HasNoFlag() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -746,8 +1627,45 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6d7289fd3f1ebb48ae9be4b2c793dd6f" name="a6d7289fd3f1ebb48ae9be4b2c793dd6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7289fd3f1ebb48ae9be4b2c793dd6f">&#9670;&#160;</a></span>HasNoFlag() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.HasNoFlag </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if all values are false. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aef25d80591318219313bb5e84ba727d2" name="aef25d80591318219313bb5e84ba727d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef25d80591318219313bb5e84ba727d2">&#9670;&#160;</a></span>HasntFlag() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.HasntFlag </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a733236637b45dbecf7fbeb18b5e26231" name="a733236637b45dbecf7fbeb18b5e26231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a733236637b45dbecf7fbeb18b5e26231">&#9670;&#160;</a></span>HasntFlag()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a733236637b45dbecf7fbeb18b5e26231">&#9670;&#160;</a></span>HasntFlag() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -764,7 +1682,24 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a1651e018da98cd01fa860eac37c538f0" name="a1651e018da98cd01fa860eac37c538f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1651e018da98cd01fa860eac37c538f0">&#9670;&#160;</a></span>OnAfterDeserialize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1651e018da98cd01fa860eac37c538f0">&#9670;&#160;</a></span>OnAfterDeserialize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.OnAfterDeserialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1651e018da98cd01fa860eac37c538f0" name="a1651e018da98cd01fa860eac37c538f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1651e018da98cd01fa860eac37c538f0">&#9670;&#160;</a></span>OnAfterDeserialize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -781,7 +1716,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aff76d90f544be630ef7c6b448e94d384" name="aff76d90f544be630ef7c6b448e94d384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff76d90f544be630ef7c6b448e94d384">&#9670;&#160;</a></span>OnBeforeSerialize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff76d90f544be630ef7c6b448e94d384">&#9670;&#160;</a></span>OnBeforeSerialize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -797,8 +1732,25 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a349733b205ef7b3cb81f4f750b8af3e9" name="a349733b205ef7b3cb81f4f750b8af3e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a349733b205ef7b3cb81f4f750b8af3e9">&#9670;&#160;</a></span>operator!=()</h2>
+<a id="aff76d90f544be630ef7c6b448e94d384" name="aff76d90f544be630ef7c6b448e94d384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff76d90f544be630ef7c6b448e94d384">&#9670;&#160;</a></span>OnBeforeSerialize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.OnBeforeSerialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed39282ea7dc6ab23a1d5dc21116421b" name="aed39282ea7dc6ab23a1d5dc21116421b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed39282ea7dc6ab23a1d5dc21116421b">&#9670;&#160;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,6 +1760,64 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>left</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6a4f6564390c1b048407ce1a5d4a0b9" name="ac6a4f6564390c1b048407ce1a5d4a0b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a4f6564390c1b048407ce1a5d4a0b9">&#9670;&#160;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>left</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa47e7cea6d5420741fd773f4426893b" name="aaa47e7cea6d5420741fd773f4426893b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa47e7cea6d5420741fd773f4426893b">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator&amp; </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
         </tr>
@@ -826,8 +1836,37 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6d812dfaede4506700bfd43d9c358a2a" name="a6d812dfaede4506700bfd43d9c358a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d812dfaede4506700bfd43d9c358a2a">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a61a656bfd2aea6a34e9b6dd25517f5ea" name="a61a656bfd2aea6a34e9b6dd25517f5ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61a656bfd2aea6a34e9b6dd25517f5ea">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61a656bfd2aea6a34e9b6dd25517f5ea">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -856,7 +1895,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aa701d64c476ed4a0543e1be450735f51" name="aa701d64c476ed4a0543e1be450735f51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa701d64c476ed4a0543e1be450735f51">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa701d64c476ed4a0543e1be450735f51">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -884,8 +1923,66 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0b1f1922797f6de1817ad6fa7341ae62" name="a0b1f1922797f6de1817ad6fa7341ae62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b1f1922797f6de1817ad6fa7341ae62">&#9670;&#160;</a></span>operator+() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36a8b46cb367f27f351abc07fb4d4392" name="a36a8b46cb367f27f351abc07fb4d4392"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a8b46cb367f27f351abc07fb4d4392">&#9670;&#160;</a></span>operator+() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2f72a4b3c2c71d987a10ace1650a54b3" name="a2f72a4b3c2c71d987a10ace1650a54b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f72a4b3c2c71d987a10ace1650a54b3">&#9670;&#160;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f72a4b3c2c71d987a10ace1650a54b3">&#9670;&#160;</a></span>operator+() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -914,7 +2011,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8a99435cf4c5a2d19627eb9e159c7967" name="a8a99435cf4c5a2d19627eb9e159c7967"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a99435cf4c5a2d19627eb9e159c7967">&#9670;&#160;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a99435cf4c5a2d19627eb9e159c7967">&#9670;&#160;</a></span>operator+() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -942,8 +2039,66 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a08050c4a1a9ea9ee639aa9fdeeb15d0d" name="a08050c4a1a9ea9ee639aa9fdeeb15d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08050c4a1a9ea9ee639aa9fdeeb15d0d">&#9670;&#160;</a></span>operator-() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c2fd645c7caa3067dbab98b778635c7" name="a6c2fd645c7caa3067dbab98b778635c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c2fd645c7caa3067dbab98b778635c7">&#9670;&#160;</a></span>operator-() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad8da63601a4323a37fdd03286a6c35f5" name="ad8da63601a4323a37fdd03286a6c35f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8da63601a4323a37fdd03286a6c35f5">&#9670;&#160;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8da63601a4323a37fdd03286a6c35f5">&#9670;&#160;</a></span>operator-() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -972,7 +2127,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8d35da31f1b0054d05760f45c3fedaed" name="a8d35da31f1b0054d05760f45c3fedaed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d35da31f1b0054d05760f45c3fedaed">&#9670;&#160;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d35da31f1b0054d05760f45c3fedaed">&#9670;&#160;</a></span>operator-() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1000,8 +2155,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a82d89d0f6c2f96eedeb1008860eeeedd" name="a82d89d0f6c2f96eedeb1008860eeeedd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82d89d0f6c2f96eedeb1008860eeeedd">&#9670;&#160;</a></span>operator==()</h2>
+<a id="ac75dfd23aae1bb1c4ecbd3bd65db8509" name="ac75dfd23aae1bb1c4ecbd3bd65db8509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75dfd23aae1bb1c4ecbd3bd65db8509">&#9670;&#160;</a></span>operator==() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1011,6 +2166,64 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>left</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeba4e73cc511abe10975a19466534293" name="aeba4e73cc511abe10975a19466534293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba4e73cc511abe10975a19466534293">&#9670;&#160;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>left</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c06675b1796e6eab60cde7aba6d1af5" name="a1c06675b1796e6eab60cde7aba6d1af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c06675b1796e6eab60cde7aba6d1af5">&#9670;&#160;</a></span>operator^() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator^ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
         </tr>
@@ -1029,8 +2242,37 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4676f216bebfbf6649a8d0f4f49c4e76" name="a4676f216bebfbf6649a8d0f4f49c4e76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4676f216bebfbf6649a8d0f4f49c4e76">&#9670;&#160;</a></span>operator^() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator^ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af9250ea1645005ddd04cdbbf8fa53c4e" name="af9250ea1645005ddd04cdbbf8fa53c4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9250ea1645005ddd04cdbbf8fa53c4e">&#9670;&#160;</a></span>operator^() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af9250ea1645005ddd04cdbbf8fa53c4e">&#9670;&#160;</a></span>operator^() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1059,7 +2301,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a095c288eebb9a8fd8cd2352bad583a0a" name="a095c288eebb9a8fd8cd2352bad583a0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a095c288eebb9a8fd8cd2352bad583a0a">&#9670;&#160;</a></span>operator^() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a095c288eebb9a8fd8cd2352bad583a0a">&#9670;&#160;</a></span>operator^() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,8 +2329,66 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a66d48a2dedb1a0317aa8d27addde2bd8" name="a66d48a2dedb1a0317aa8d27addde2bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66d48a2dedb1a0317aa8d27addde2bd8">&#9670;&#160;</a></span>operator|() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebfaba77ec861d474e41cd87279f306c" name="aebfaba77ec861d474e41cd87279f306c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfaba77ec861d474e41cd87279f306c">&#9670;&#160;</a></span>operator|() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a> <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>enumValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a16db7d79569c6300582f8ab4be353310" name="a16db7d79569c6300582f8ab4be353310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16db7d79569c6300582f8ab4be353310">&#9670;&#160;</a></span>operator|() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a16db7d79569c6300582f8ab4be353310">&#9670;&#160;</a></span>operator|() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1117,7 +2417,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aad21a9b58b3c302e633be8da4974bdc2" name="aad21a9b58b3c302e633be8da4974bdc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad21a9b58b3c302e633be8da4974bdc2">&#9670;&#160;</a></span>operator|() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad21a9b58b3c302e633be8da4974bdc2">&#9670;&#160;</a></span>operator|() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1145,8 +2445,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3cac11184a26e33f55c8b648705b85d9" name="a3cac11184a26e33f55c8b648705b85d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cac11184a26e33f55c8b648705b85d9">&#9670;&#160;</a></span>Or() <span class="overload">[1/4]</span></h2>
+<a id="afa13dbc3107134e1d96d80e5801f1e37" name="afa13dbc3107134e1d96d80e5801f1e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa13dbc3107134e1d96d80e5801f1e37">&#9670;&#160;</a></span>Or() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1169,8 +2469,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3cac11184a26e33f55c8b648705b85d9" name="a3cac11184a26e33f55c8b648705b85d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cac11184a26e33f55c8b648705b85d9">&#9670;&#160;</a></span>Or() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Or </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a1d0a1999dc5d31e9941e4c57af203c7a" name="a1d0a1999dc5d31e9941e4c57af203c7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0a1999dc5d31e9941e4c57af203c7a">&#9670;&#160;</a></span>Or() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Or </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="ac4c7ec9fca812498dd575c9e7a7699a6" name="ac4c7ec9fca812498dd575c9e7a7699a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4c7ec9fca812498dd575c9e7a7699a6">&#9670;&#160;</a></span>Or() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c7ec9fca812498dd575c9e7a7699a6">&#9670;&#160;</a></span>Or() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1193,8 +2541,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5a6e938194fa598687367681991560a7" name="a5a6e938194fa598687367681991560a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a6e938194fa598687367681991560a7">&#9670;&#160;</a></span>Or() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Or </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a713ac13b44de1c7d3cb14e039fbbc299" name="a713ac13b44de1c7d3cb14e039fbbc299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a713ac13b44de1c7d3cb14e039fbbc299">&#9670;&#160;</a></span>Or() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Or </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="ae5a27c4d77be9fb293da01c48ea75397" name="ae5a27c4d77be9fb293da01c48ea75397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5a27c4d77be9fb293da01c48ea75397">&#9670;&#160;</a></span>Or() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a27c4d77be9fb293da01c48ea75397">&#9670;&#160;</a></span>Or() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1218,7 +2614,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2a583c60aaa99f651abf2d4921d13b57" name="a2a583c60aaa99f651abf2d4921d13b57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a583c60aaa99f651abf2d4921d13b57">&#9670;&#160;</a></span>Or() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a583c60aaa99f651abf2d4921d13b57">&#9670;&#160;</a></span>Or() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1241,8 +2637,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ac87a2cbe46967ffae9d0e041c1d1a5" name="a3ac87a2cbe46967ffae9d0e041c1d1a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac87a2cbe46967ffae9d0e041c1d1a5">&#9670;&#160;</a></span>PerformOperation()</h2>
+<a id="a1941719d0e5eb8e55d0b581e47b65110" name="a1941719d0e5eb8e55d0b581e47b65110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1941719d0e5eb8e55d0b581e47b65110">&#9670;&#160;</a></span>PerformOperation() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1253,12 +2649,12 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.PerformOperation </td>
           <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_flagged_enum_8cs.html#aa8f137f19095e0bdcf4f521e901f88bb">Operation</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8">Operation</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1278,8 +2674,195 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9957082a02e12fddfc01a0e21e5da614" name="a9957082a02e12fddfc01a0e21e5da614"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9957082a02e12fddfc01a0e21e5da614">&#9670;&#160;</a></span>Subtract() <span class="overload">[1/4]</span></h2>
+<a id="a3ac87a2cbe46967ffae9d0e041c1d1a5" name="a3ac87a2cbe46967ffae9d0e041c1d1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ac87a2cbe46967ffae9d0e041c1d1a5">&#9670;&#160;</a></span>PerformOperation() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.PerformOperation </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a47e2a696015bb08aecb0e91bc94007c8">Operation</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+    <tr><td class="paramname">op</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a4b6068ddb40f690a17bbd899787a7cf5" name="a4b6068ddb40f690a17bbd899787a7cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6068ddb40f690a17bbd899787a7cf5">&#9670;&#160;</a></span>Replace() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Replace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the current entries and replaces them with a new set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aafa442c56cd042a56d429a98d92816d8" name="aafa442c56cd042a56d429a98d92816d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa442c56cd042a56d429a98d92816d8">&#9670;&#160;</a></span>Replace() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Replace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the current entries and replaces them with a new set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a01117d87424636f81b183d3c3db980c7" name="a01117d87424636f81b183d3c3db980c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01117d87424636f81b183d3c3db980c7">&#9670;&#160;</a></span>Replace() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Replace </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the current entries and replaces them with a new set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac47f82f93e2050c83929357d0fb532c9" name="ac47f82f93e2050c83929357d0fb532c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47f82f93e2050c83929357d0fb532c9">&#9670;&#160;</a></span>Replace() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Replace </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the current entries and replaces them with a new set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af48bab479826945dea0082a6142ec1aa" name="af48bab479826945dea0082a6142ec1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af48bab479826945dea0082a6142ec1aa">&#9670;&#160;</a></span>Replace() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Replace </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the current entries and replaces them with a new set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="affed7992f4adce23246633d7617495b6" name="affed7992f4adce23246633d7617495b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affed7992f4adce23246633d7617495b6">&#9670;&#160;</a></span>Replace() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Replace </td>
+          <td>(</td>
+          <td class="paramtype">params T[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the current entries and replaces them with a new set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa186ee99fb22719da18b06460f97ae8c" name="aa186ee99fb22719da18b06460f97ae8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa186ee99fb22719da18b06460f97ae8c">&#9670;&#160;</a></span>Subtract() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1302,8 +2885,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9957082a02e12fddfc01a0e21e5da614" name="a9957082a02e12fddfc01a0e21e5da614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9957082a02e12fddfc01a0e21e5da614">&#9670;&#160;</a></span>Subtract() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Subtract </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a0125b8fa6e3f5d02ac9650f85503ee79" name="a0125b8fa6e3f5d02ac9650f85503ee79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0125b8fa6e3f5d02ac9650f85503ee79">&#9670;&#160;</a></span>Subtract() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Subtract </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="af0f5f9b7cc57bacdca0465a0feb44552" name="af0f5f9b7cc57bacdca0465a0feb44552"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0f5f9b7cc57bacdca0465a0feb44552">&#9670;&#160;</a></span>Subtract() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af0f5f9b7cc57bacdca0465a0feb44552">&#9670;&#160;</a></span>Subtract() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1326,8 +2957,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab465f9daaebeb3084ed856dbb13820f7" name="ab465f9daaebeb3084ed856dbb13820f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab465f9daaebeb3084ed856dbb13820f7">&#9670;&#160;</a></span>Subtract() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Subtract </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a738a2c9a39d5c70e0d20437137bccfa2" name="a738a2c9a39d5c70e0d20437137bccfa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a738a2c9a39d5c70e0d20437137bccfa2">&#9670;&#160;</a></span>Subtract() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.Subtract </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="ab93cab4239e1b95773e13416e38b2dff" name="ab93cab4239e1b95773e13416e38b2dff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab93cab4239e1b95773e13416e38b2dff">&#9670;&#160;</a></span>Subtract() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab93cab4239e1b95773e13416e38b2dff">&#9670;&#160;</a></span>Subtract() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1351,7 +3030,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a97d6be9efa21a021fe356ae2e3a72c5d" name="a97d6be9efa21a021fe356ae2e3a72c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d6be9efa21a021fe356ae2e3a72c5d">&#9670;&#160;</a></span>Subtract() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a97d6be9efa21a021fe356ae2e3a72c5d">&#9670;&#160;</a></span>Subtract() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1374,8 +3053,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9a717b6b7ec2faf592cf5d31b55075b" name="ae9a717b6b7ec2faf592cf5d31b55075b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9a717b6b7ec2faf592cf5d31b55075b">&#9670;&#160;</a></span>XOr() <span class="overload">[1/4]</span></h2>
+<a id="a8de02ff11b037602118143ce4e54e542" name="a8de02ff11b037602118143ce4e54e542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de02ff11b037602118143ce4e54e542">&#9670;&#160;</a></span>XOr() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1398,8 +3077,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae9a717b6b7ec2faf592cf5d31b55075b" name="ae9a717b6b7ec2faf592cf5d31b55075b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a717b6b7ec2faf592cf5d31b55075b">&#9670;&#160;</a></span>XOr() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.XOr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="a17a649f830438ab14a2899ef46a0780a" name="a17a649f830438ab14a2899ef46a0780a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a649f830438ab14a2899ef46a0780a">&#9670;&#160;</a></span>XOr() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.XOr </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="ad301f70f0b42e4d6551f37fb8e213ebe" name="ad301f70f0b42e4d6551f37fb8e213ebe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad301f70f0b42e4d6551f37fb8e213ebe">&#9670;&#160;</a></span>XOr() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad301f70f0b42e4d6551f37fb8e213ebe">&#9670;&#160;</a></span>XOr() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1422,8 +3149,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab20d729e841af1c910097cfed01435b1" name="ab20d729e841af1c910097cfed01435b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab20d729e841af1c910097cfed01435b1">&#9670;&#160;</a></span>XOr() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.XOr </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
+<a id="ac13885b96ba2f9389c279df8164071e9" name="ac13885b96ba2f9389c279df8164071e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13885b96ba2f9389c279df8164071e9">&#9670;&#160;</a></span>XOr() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.XOr </td>
+          <td>(</td>
+          <td class="paramtype">params int[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value changed</dd></dl>
+
+</div>
+</div>
 <a id="a8bf94c0c5e3aad5ca2eb9a88fe49e3ea" name="a8bf94c0c5e3aad5ca2eb9a88fe49e3ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf94c0c5e3aad5ca2eb9a88fe49e3ea">&#9670;&#160;</a></span>XOr() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf94c0c5e3aad5ca2eb9a88fe49e3ea">&#9670;&#160;</a></span>XOr() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1447,7 +3222,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aecba6f5830feab27c8f9d32e5728840b" name="aecba6f5830feab27c8f9d32e5728840b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecba6f5830feab27c8f9d32e5728840b">&#9670;&#160;</a></span>XOr() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aecba6f5830feab27c8f9d32e5728840b">&#9670;&#160;</a></span>XOr() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1537,8 +3312,30 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a644bd7f8a133b8fa39472ba6d1dd2ed8" name="a644bd7f8a133b8fa39472ba6d1dd2ed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644bd7f8a133b8fa39472ba6d1dd2ed8">&#9670;&#160;</a></span>_serializedAnswers <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;int&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._serializedAnswers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab8b6c1591e13956b9b804eceab8d0809" name="ab8b6c1591e13956b9b804eceab8d0809"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8b6c1591e13956b9b804eceab8d0809">&#9670;&#160;</a></span>_serializedAnswers</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8b6c1591e13956b9b804eceab8d0809">&#9670;&#160;</a></span>_serializedAnswers <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1559,8 +3356,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae557e8c98d8d8bee86192ad067998074" name="ae557e8c98d8d8bee86192ad067998074"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae557e8c98d8d8bee86192ad067998074">&#9670;&#160;</a></span>_storedValues</h2>
+<a id="a4d58dc93cab8639b7a067b4d7a522cf4" name="a4d58dc93cab8639b7a067b4d7a522cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d58dc93cab8639b7a067b4d7a522cf4">&#9670;&#160;</a></span>_storedValues <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1569,7 +3366,29 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;T, bool&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._storedValues</td>
+          <td class="memname">readonly Dictionary&lt;int, bool&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._storedValues = new Dictionary&lt;int, bool&gt;(0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa72586557d3fa830f1858962f5ab7495" name="aa72586557d3fa830f1858962f5ab7495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa72586557d3fa830f1858962f5ab7495">&#9670;&#160;</a></span>_storedValues <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;T, bool&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;._storedValues = new Dictionary&lt;T, bool&gt;(<a class="el" href="#a4708ddc14ca28c36db571555acc9e2a0">EnumLength</a>)</td>
         </tr>
       </table>
   </td>
@@ -1603,9 +3422,65 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aef528948412d28a0e13fb055a0e94dc0" name="aef528948412d28a0e13fb055a0e94dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef528948412d28a0e13fb055a0e94dc0">&#9670;&#160;</a></span>GetEnumLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumLength</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0391d35cf3dbce0ab390ec73fcb6587" name="aa0391d35cf3dbce0ab390ec73fcb6587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0391d35cf3dbce0ab390ec73fcb6587">&#9670;&#160;</a></span>getEnumNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string [] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.getEnumNames</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab016510d8c00028baf50d5d3df657ea2" name="ab016510d8c00028baf50d5d3df657ea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab016510d8c00028baf50d5d3df657ea2">&#9670;&#160;</a></span>getEnumValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int [] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.getEnumValues</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c9235c37d51535bb136ef8b691d60a9" name="a7c9235c37d51535bb136ef8b691d60a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c9235c37d51535bb136ef8b691d60a9">&#9670;&#160;</a></span>GetUnderlyingType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Type <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetUnderlyingType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a203232a843a2ab8f6961ef348bfebd27" name="a203232a843a2ab8f6961ef348bfebd27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a203232a843a2ab8f6961ef348bfebd27">&#9670;&#160;</a></span>Count</h2>
+<a id="a363600418db56793d65b5b739e450f2c" name="a363600418db56793d65b5b739e450f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363600418db56793d65b5b739e450f2c">&#9670;&#160;</a></span>Count</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1694,8 +3569,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adf06b33179b6c5ca83b1d508b8b9144c" name="adf06b33179b6c5ca83b1d508b8b9144c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf06b33179b6c5ca83b1d508b8b9144c">&#9670;&#160;</a></span>StoredValues</h2>
+<a id="ad03d1ca4d2f28504d47b798f4fa11862" name="ad03d1ca4d2f28504d47b798f4fa11862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad03d1ca4d2f28504d47b798f4fa11862">&#9670;&#160;</a></span>GetEnumLength</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1704,7 +3579,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;T, bool&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.StoredValues</td>
+          <td class="memname">int <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumLength</td>
         </tr>
       </table>
   </td>
@@ -1713,6 +3588,164 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f3372b3ece44d25d43f1efea9a1fc3f" name="a6f3372b3ece44d25d43f1efea9a1fc3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3372b3ece44d25d43f1efea9a1fc3f">&#9670;&#160;</a></span>GetEnumNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac21080f6fdfd1a4c90b476c8c8c1ee2a" name="ac21080f6fdfd1a4c90b476c8c8c1ee2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21080f6fdfd1a4c90b476c8c8c1ee2a">&#9670;&#160;</a></span>GetEnumValues <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f389f24b1cd67f5b5fbb328817c8664" name="a1f389f24b1cd67f5b5fbb328817c8664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f389f24b1cd67f5b5fbb328817c8664">&#9670;&#160;</a></span>GetEnumValues <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T [] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34e3b5ecb81b11f8eb9ff5cbf715b0fd" name="a34e3b5ecb81b11f8eb9ff5cbf715b0fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e3b5ecb81b11f8eb9ff5cbf715b0fd">&#9670;&#160;</a></span>GetEnumValuesInternal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T [] <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetEnumValuesInternal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa94d3283d4f6c7e6db85417a7d906f84" name="aa94d3283d4f6c7e6db85417a7d906f84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa94d3283d4f6c7e6db85417a7d906f84">&#9670;&#160;</a></span>GetUnderlyingType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.GetUnderlyingType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adfde33b48a25437790662d796ee703bf" name="adfde33b48a25437790662d796ee703bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfde33b48a25437790662d796ee703bf">&#9670;&#160;</a></span>StoredValues <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReadOnlyDictionary&lt;int, bool&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.StoredValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a copy of the dictionary used, not the actual values. </p>
+
+</div>
+</div>
+<a id="af04cad532bfc202084f52d7265bb7bdb" name="af04cad532bfc202084f52d7265bb7bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af04cad532bfc202084f52d7265bb7bdb">&#9670;&#160;</a></span>StoredValues <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReadOnlyDictionary&lt;T, bool&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">ScoredProductions.StreamLinked.Utility.FlaggedEnum</a>&lt; T &gt;.StoredValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a copy of the dictionary used, not the actual values. </p>
 
 </div>
 </div>

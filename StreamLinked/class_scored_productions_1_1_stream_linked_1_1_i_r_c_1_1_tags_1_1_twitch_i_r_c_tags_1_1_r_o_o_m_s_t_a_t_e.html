@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,6 +97,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_i_r_c_1
   <div class="summary">
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_r_o_o_m_s_t_a_t_e-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE Class Reference</div></div>
 </div><!--header-->
@@ -104,33 +105,38 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_i_r_c_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a21242cff09915f4d0ce9cf6dcf62602e" id="r_a21242cff09915f4d0ce9cf6dcf62602e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21242cff09915f4d0ce9cf6dcf62602e">emote_only</a> = &quot;emote-only&quot;</td></tr>
-<tr class="memdesc:a21242cff09915f4d0ce9cf6dcf62602e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the chat room allows only messages with emotes. Is true (1) if only emotes are allowed; otherwise, false (0).  <br /></td></tr>
-<tr class="separator:a21242cff09915f4d0ce9cf6dcf62602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66967a1b4d4d837eac6ff11844c88cfc" id="r_a66967a1b4d4d837eac6ff11844c88cfc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66967a1b4d4d837eac6ff11844c88cfc">followers_only</a> = &quot;followers-only&quot;</td></tr>
-<tr class="memdesc:a66967a1b4d4d837eac6ff11844c88cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value that determines whether only followers can post messages in the chat room. The value indicates how long, in minutes, the user must have followed the broadcaster before posting chat messages. If the value is -1, the chat room is not restricted to followers only.  <br /></td></tr>
-<tr class="separator:a66967a1b4d4d837eac6ff11844c88cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d01de44eee83e21532d96e04c66bb0" id="r_a72d01de44eee83e21532d96e04c66bb0"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d01de44eee83e21532d96e04c66bb0">r9k</a> = &quot;r9k&quot;</td></tr>
-<tr class="memdesc:a72d01de44eee83e21532d96e04c66bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether a user’s messages must be unique. Applies only to messages with more than 9 characters. Is true (1) if users must post unique messages; otherwise, false (0).  <br /></td></tr>
-<tr class="separator:a72d01de44eee83e21532d96e04c66bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa39658901dcd0416cca1ff944bc8c0f7" id="r_aa39658901dcd0416cca1ff944bc8c0f7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39658901dcd0416cca1ff944bc8c0f7">room_id</a> = &quot;room-id&quot;</td></tr>
-<tr class="memdesc:aa39658901dcd0416cca1ff944bc8c0f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID that identifies the chat room (channel).  <br /></td></tr>
-<tr class="separator:aa39658901dcd0416cca1ff944bc8c0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac04aff6dae33a73926923a049efe5d2d" id="r_ac04aff6dae33a73926923a049efe5d2d"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac04aff6dae33a73926923a049efe5d2d">slow</a> = &quot;slow&quot;</td></tr>
-<tr class="memdesc:ac04aff6dae33a73926923a049efe5d2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value that determines how long, in seconds, users must wait between sending messages.  <br /></td></tr>
-<tr class="separator:ac04aff6dae33a73926923a049efe5d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9972a0b5bd05807c96560923c274cd9e" id="r_a9972a0b5bd05807c96560923c274cd9e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9972a0b5bd05807c96560923c274cd9e">subs_only</a> = &quot;subs-only&quot;</td></tr>
-<tr class="memdesc:a9972a0b5bd05807c96560923c274cd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether only subscribers and moderators can chat in the chat room. Is true (1) if only subscribers and moderators can chat; otherwise, false (0).  <br /></td></tr>
-<tr class="separator:a9972a0b5bd05807c96560923c274cd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08da464ce7e5fa62284db5dcfb958253" id="r_a08da464ce7e5fa62284db5dcfb958253"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08da464ce7e5fa62284db5dcfb958253">EMOTE_ONLY</a> = &quot;emote-only&quot;</td></tr>
+<tr class="memdesc:a08da464ce7e5fa62284db5dcfb958253"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether the chat room allows only messages with emotes. Is true (1) if only emotes are allowed; otherwise, false (0).  <br /></td></tr>
+<tr class="separator:a08da464ce7e5fa62284db5dcfb958253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6650cd35894e47c6f1b18359b0dfa79a" id="r_a6650cd35894e47c6f1b18359b0dfa79a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6650cd35894e47c6f1b18359b0dfa79a">FOLLOWERS_ONLY</a> = &quot;followers-only&quot;</td></tr>
+<tr class="memdesc:a6650cd35894e47c6f1b18359b0dfa79a"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value that determines whether only followers can post messages in the chat room. The value indicates how long, in minutes, the user must have followed the broadcaster before posting chat messages. If the value is -1, the chat room is not restricted to followers only.  <br /></td></tr>
+<tr class="separator:a6650cd35894e47c6f1b18359b0dfa79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c44982d4341e58a3d94716f412ac695" id="r_a8c44982d4341e58a3d94716f412ac695"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c44982d4341e58a3d94716f412ac695">R9K</a> = &quot;r9k&quot;</td></tr>
+<tr class="memdesc:a8c44982d4341e58a3d94716f412ac695"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether a user’s messages must be unique. Applies only to messages with more than 9 characters. Is true (1) if users must post unique messages; otherwise, false (0).  <br /></td></tr>
+<tr class="separator:a8c44982d4341e58a3d94716f412ac695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b50a3ff16948bed1d23b0383e75186" id="r_a88b50a3ff16948bed1d23b0383e75186"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b50a3ff16948bed1d23b0383e75186">ROOM_ID</a> = &quot;room-id&quot;</td></tr>
+<tr class="memdesc:a88b50a3ff16948bed1d23b0383e75186"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ID that identifies the chat room (channel).  <br /></td></tr>
+<tr class="separator:a88b50a3ff16948bed1d23b0383e75186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af62dbc2c8137e26fcbad0e74b3d1353b" id="r_af62dbc2c8137e26fcbad0e74b3d1353b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af62dbc2c8137e26fcbad0e74b3d1353b">SLOW</a> = &quot;slow&quot;</td></tr>
+<tr class="memdesc:af62dbc2c8137e26fcbad0e74b3d1353b"><td class="mdescLeft">&#160;</td><td class="mdescRight">An integer value that determines how long, in seconds, users must wait between sending messages.  <br /></td></tr>
+<tr class="separator:af62dbc2c8137e26fcbad0e74b3d1353b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4195fbf816fc2e5c0fc88525315bef" id="r_afb4195fbf816fc2e5c0fc88525315bef"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb4195fbf816fc2e5c0fc88525315bef">SUBS_ONLY</a> = &quot;subs-only&quot;</td></tr>
+<tr class="memdesc:afb4195fbf816fc2e5c0fc88525315bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Boolean value that determines whether only subscribers and moderators can chat in the chat room. Is true (1) if only subscribers and moderators can chat; otherwise, false (0).  <br /></td></tr>
+<tr class="separator:afb4195fbf816fc2e5c0fc88525315bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ad0b25020ee526da74babd5ca4018a6e7" id="r_ad0b25020ee526da74babd5ca4018a6e7"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0b25020ee526da74babd5ca4018a6e7">GetAll</a><code> [get]</code></td></tr>
 <tr class="separator:ad0b25020ee526da74babd5ca4018a6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac890f9dd58866bb25b037d0c354b79d3" id="r_ac890f9dd58866bb25b037d0c354b79d3"><td class="memItemLeft" align="right" valign="top">static readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac890f9dd58866bb25b037d0c354b79d3">_getall</a> = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html#a76be7f56367dcb28bd42dd6a966144d8">Get</a>(typeof(<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_r_o_o_m_s_t_a_t_e.html">ROOMSTATE</a>))</td></tr>
+<tr class="separator:ac890f9dd58866bb25b037d0c354b79d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a21242cff09915f4d0ce9cf6dcf62602e" name="a21242cff09915f4d0ce9cf6dcf62602e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21242cff09915f4d0ce9cf6dcf62602e">&#9670;&#160;</a></span>emote_only</h2>
+<a id="ac890f9dd58866bb25b037d0c354b79d3" name="ac890f9dd58866bb25b037d0c354b79d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac890f9dd58866bb25b037d0c354b79d3">&#9670;&#160;</a></span>_getall</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,7 +145,29 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.emote_only = &quot;emote-only&quot;</td>
+          <td class="memname">readonly string [] ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE._getall = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html#a76be7f56367dcb28bd42dd6a966144d8">Get</a>(typeof(<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_r_o_o_m_s_t_a_t_e.html">ROOMSTATE</a>))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08da464ce7e5fa62284db5dcfb958253" name="a08da464ce7e5fa62284db5dcfb958253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08da464ce7e5fa62284db5dcfb958253">&#9670;&#160;</a></span>EMOTE_ONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.EMOTE_ONLY = &quot;emote-only&quot;</td>
         </tr>
       </table>
   </td>
@@ -153,8 +181,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a66967a1b4d4d837eac6ff11844c88cfc" name="a66967a1b4d4d837eac6ff11844c88cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66967a1b4d4d837eac6ff11844c88cfc">&#9670;&#160;</a></span>followers_only</h2>
+<a id="a6650cd35894e47c6f1b18359b0dfa79a" name="a6650cd35894e47c6f1b18359b0dfa79a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6650cd35894e47c6f1b18359b0dfa79a">&#9670;&#160;</a></span>FOLLOWERS_ONLY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +191,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.followers_only = &quot;followers-only&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.FOLLOWERS_ONLY = &quot;followers-only&quot;</td>
         </tr>
       </table>
   </td>
@@ -177,8 +205,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a72d01de44eee83e21532d96e04c66bb0" name="a72d01de44eee83e21532d96e04c66bb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d01de44eee83e21532d96e04c66bb0">&#9670;&#160;</a></span>r9k</h2>
+<a id="a8c44982d4341e58a3d94716f412ac695" name="a8c44982d4341e58a3d94716f412ac695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c44982d4341e58a3d94716f412ac695">&#9670;&#160;</a></span>R9K</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +215,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.r9k = &quot;r9k&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.R9K = &quot;r9k&quot;</td>
         </tr>
       </table>
   </td>
@@ -201,8 +229,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa39658901dcd0416cca1ff944bc8c0f7" name="aa39658901dcd0416cca1ff944bc8c0f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa39658901dcd0416cca1ff944bc8c0f7">&#9670;&#160;</a></span>room_id</h2>
+<a id="a88b50a3ff16948bed1d23b0383e75186" name="a88b50a3ff16948bed1d23b0383e75186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b50a3ff16948bed1d23b0383e75186">&#9670;&#160;</a></span>ROOM_ID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +239,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.room_id = &quot;room-id&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.ROOM_ID = &quot;room-id&quot;</td>
         </tr>
       </table>
   </td>
@@ -225,8 +253,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ac04aff6dae33a73926923a049efe5d2d" name="ac04aff6dae33a73926923a049efe5d2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac04aff6dae33a73926923a049efe5d2d">&#9670;&#160;</a></span>slow</h2>
+<a id="af62dbc2c8137e26fcbad0e74b3d1353b" name="af62dbc2c8137e26fcbad0e74b3d1353b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af62dbc2c8137e26fcbad0e74b3d1353b">&#9670;&#160;</a></span>SLOW</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +263,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.slow = &quot;slow&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.SLOW = &quot;slow&quot;</td>
         </tr>
       </table>
   </td>
@@ -249,8 +277,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a9972a0b5bd05807c96560923c274cd9e" name="a9972a0b5bd05807c96560923c274cd9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9972a0b5bd05807c96560923c274cd9e">&#9670;&#160;</a></span>subs_only</h2>
+<a id="afb4195fbf816fc2e5c0fc88525315bef" name="afb4195fbf816fc2e5c0fc88525315bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4195fbf816fc2e5c0fc88525315bef">&#9670;&#160;</a></span>SUBS_ONLY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +287,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.subs_only = &quot;subs-only&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.ROOMSTATE.SUBS_ONLY = &quot;subs-only&quot;</td>
         </tr>
       </table>
   </td>

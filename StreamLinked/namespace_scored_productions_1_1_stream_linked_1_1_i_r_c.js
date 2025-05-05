@@ -1,9 +1,11 @@
 var namespace_scored_productions_1_1_stream_linked_1_1_i_r_c =
 [
+    [ "Extensions", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions.html", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions" ],
     [ "Tags", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags.html", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags" ],
     [ "TwitchIRCClient", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client" ],
-    [ "TwitchMessage", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message" ],
+    [ "TwitchMessage", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message" ],
     [ "TwitchIRCCommand", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69", [
+      [ "NONE", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69ab50339a10e1de285ac99d4c3990b8693", null ],
       [ "JOIN", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f", null ],
       [ "NICK", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a752426dbe1a539250d564270c20a27f2", null ],
       [ "NOTICE", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69aaa14599dc3fdfa9cc81a7c3c247b77b9", null ],
@@ -20,7 +22,7 @@ var namespace_scored_productions_1_1_stream_linked_1_1_i_r_c =
       [ "ROOMSTATE", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a17688171bada54d9aa3e3441d45c2ba3", null ],
       [ "USERNOTICE", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6", null ],
       [ "USERSTATE", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe", null ],
-      [ "WHISPER", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a3c0e5a57daf15aabf3a19bca8aad9dc3", null ]
+      [ "CAP", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69adb5ce5cb1b12edacae4584e881e1451f", null ]
     ] ],
     [ "TwitchUserPerm", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#a6622444be5269019f081ccbdf6001877", [
       [ "Viewer", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#a6622444be5269019f081ccbdf6001877afb15c53f22336982a182b84aeb2f42eb", null ],

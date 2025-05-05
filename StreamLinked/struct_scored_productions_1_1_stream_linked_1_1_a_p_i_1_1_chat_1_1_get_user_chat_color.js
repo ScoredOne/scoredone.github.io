@@ -5,6 +5,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_
     [ "color", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#a7f95f7aad3890b8378441178d272a116", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#a00bb0ad82f8ec355992fdd1d03b0d91b", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#aa1f71d86e2f09d5f7b71891ddf2b2f25", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#ab61c279318e38217eece780fa0f62c8d", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#a21c8002d25ef4f2f2ea5d7d9e2142bb9", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#a689ae54cc6bb0dbe15d9231ba7618df6", null ],
     [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_chat_color.html#a6346a0688e0458767279acfa0c38a2b1", null ],

@@ -1,0 +1,4 @@
+var _queue_container_8cs =
+[
+    [ "ScoredProductions.StreamLinked.ManagersAndBuilders.Containers.QueueContainer", "struct_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_queue_container.html", "struct_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_queue_container" ]
+];

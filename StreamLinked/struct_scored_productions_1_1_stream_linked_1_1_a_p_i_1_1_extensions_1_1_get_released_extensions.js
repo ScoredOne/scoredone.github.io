@@ -16,11 +16,12 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get
     [ "has_chat_support", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a2273fdd7a4c248c16e93cf385b0568ce", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#ad72a86b4a3abf5551addd05fbf2b6410", null ],
     [ "icon_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a0ac3a3dab044a9c815807f6ef4a7650a", null ],
-    [ "icon_urls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a1363bd46d68955ecb7cb6fe09283664b", null ],
+    [ "icon_urls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a15cdd76b297172f952dc2b0d04926bd1", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a96159f5ecb8d2f0f3e9fa28eedcbfa6d", null ],
     [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a9958ca43224006a9014d7918f9a76485", null ],
     [ "privacy_policy_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#ac978f7863bfd1fd4c507b1d17f4859c3", null ],
     [ "request_identity_link", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#aaee8314952728073d422a570c09f7886", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#ae919954fc56d7d7cc4705e7c7cb7697f", null ],
     [ "screenshot_urls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#ab3c338de327bddbf18d22e392d850635", null ],
     [ "state", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#abf4e393b9ea4c96710a050fb8dfaf062", null ],
     [ "subscriptions_support_level", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a2d58881d465b1f10d2662a4f95f0d3b6", null ],
@@ -29,5 +30,5 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a8809e6ff27a1e560074c8f1e591941e5", null ],
     [ "version", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a9c0ccf1e884ba20040537c13236682e1", null ],
     [ "viewer_summary", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a4664651782b90209285dacb9bbac6872", null ],
-    [ "views", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#a3894c9fd991b7143387d63c02ab15e97", null ]
+    [ "views", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_released_extensions.html#ad6c997e8ede034f54f54df68c343f229", null ]
 ];

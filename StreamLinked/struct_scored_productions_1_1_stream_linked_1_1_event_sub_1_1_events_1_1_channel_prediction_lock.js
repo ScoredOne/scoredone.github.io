@@ -8,6 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html#aa385c97c7bc677bba8f90e1c0c4a6692", null ],
     [ "locks_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html#aa97d4ed04d8576015c018c913f7be69d", null ],
     [ "outcomes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html#a27d3d270c64d1acdf593f946cec598d0", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html#a3e31a0783a9b26fb1d73dda6b60276f6", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html#a91909891af403fd9cc5e9810e929d8bc", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_prediction_lock.html#a9114c0703d19aa0663e2966f569a1477", null ]
 ];

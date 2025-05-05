@@ -23,6 +23,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clip
     [ "is_featured", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a8170d85600c04a64a761cc1c8a142169", null ],
     [ "IS_FEATURED", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a7c793b5e73dd132a15360a3b61f2d522", null ],
     [ "language", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a9ebd355fbbb8cd4efec5aeb7d257feb8", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#ad62225e3f070fd167c28e461517f5b87", null ],
     [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a723688fd22dc9416446953ab6b2d2844", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#ac9837c0210eb0109cbd3d8d92f7d4303", null ],
     [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html#a55be27d9e815a7225e591f0f6074d230", null ],

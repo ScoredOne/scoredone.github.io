@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -104,6 +104,8 @@ $(function(){initNavTree('namespace_scored_productions_1_1_stream_linked_1_1_i_r
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions" id="r_namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions.html">Extensions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags" id="r_namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags.html">Tags</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -112,34 +114,35 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html">TwitchIRCClient</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Twitch IRC Singleton. Handles connection and processing of messages.  <a href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html">TwitchMessage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container of an IRC message received from Twitch.  <a href="class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html">TwitchMessage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container of an IRC message received from Twitch.  <a href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:aa69b7d2d7fb13dde61a0b5a292dc4a69" id="r_aa69b7d2d7fb13dde61a0b5a292dc4a69"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> : byte { <br />
-&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f">JOIN</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a752426dbe1a539250d564270c20a27f2">NICK</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69aaa14599dc3fdfa9cc81a7c3c247b77b9">NOTICE</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a9be203cdfef8628939c9942fb61fdae3">PART</a>
+&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69ab50339a10e1de285ac99d4c3990b8693">NONE</a> = 0
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f">JOIN</a> = 1
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a752426dbe1a539250d564270c20a27f2">NICK</a> = 2
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69aaa14599dc3fdfa9cc81a7c3c247b77b9">NOTICE</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a7a95bf926a0333f57705aeac07a362a2">PASS</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69ae07ff41a486c27c095a15898dcca34d1">PING</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a15c94917c8795679ecb650ed760c27f0">PONG</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69af0e11cfb6c5259c616a876e7c3d20a12">PRIVMSG</a>
+&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a9be203cdfef8628939c9942fb61fdae3">PART</a> = 4
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a7a95bf926a0333f57705aeac07a362a2">PASS</a> = 5
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69ae07ff41a486c27c095a15898dcca34d1">PING</a> = 6
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a15c94917c8795679ecb650ed760c27f0">PONG</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a63b6f9413ab9460e74f79cea9d06ad59">CLEARCHAT</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69acfe0691fb72a0aa08217a00f4b71cdc9">CLEARMSG</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69af76c90923b90bc20e448e252e647c8fa">GLOBALUSERSTATE</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a0ddb8c380aa5f6e7d018ffd69013c0eb">HOSTTARGET</a>
+&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69af0e11cfb6c5259c616a876e7c3d20a12">PRIVMSG</a> = 8
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a63b6f9413ab9460e74f79cea9d06ad59">CLEARCHAT</a> = 9
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69acfe0691fb72a0aa08217a00f4b71cdc9">CLEARMSG</a> = 10
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69af76c90923b90bc20e448e252e647c8fa">GLOBALUSERSTATE</a> = 11
 , <br />
-&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a435d743b35551ea7106af41c4a308c01">RECONNECT</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a17688171bada54d9aa3e3441d45c2ba3">ROOMSTATE</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6">USERNOTICE</a>
-, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe">USERSTATE</a>
+&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a0ddb8c380aa5f6e7d018ffd69013c0eb">HOSTTARGET</a> = 12
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a435d743b35551ea7106af41c4a308c01">RECONNECT</a> = 13
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a17688171bada54d9aa3e3441d45c2ba3">ROOMSTATE</a> = 14
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6">USERNOTICE</a> = 15
 , <br />
-&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a3c0e5a57daf15aabf3a19bca8aad9dc3">WHISPER</a>
+&#160;&#160;<a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe">USERSTATE</a> = 16
+, <a class="el" href="#aa69b7d2d7fb13dde61a0b5a292dc4a69adb5ce5cb1b12edacae4584e881e1451f">CAP</a> = 17
 <br />
  }</td></tr>
 <tr class="separator:aa69b7d2d7fb13dde61a0b5a292dc4a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,7 +173,8 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f" name="aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f"></a>JOIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69ab50339a10e1de285ac99d4c3990b8693" name="aa69b7d2d7fb13dde61a0b5a292dc4a69ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f" name="aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f"></a>JOIN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69a752426dbe1a539250d564270c20a27f2" name="aa69b7d2d7fb13dde61a0b5a292dc4a69a752426dbe1a539250d564270c20a27f2"></a>NICK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69aaa14599dc3fdfa9cc81a7c3c247b77b9" name="aa69b7d2d7fb13dde61a0b5a292dc4a69aaa14599dc3fdfa9cc81a7c3c247b77b9"></a>NOTICE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69a9be203cdfef8628939c9942fb61fdae3" name="aa69b7d2d7fb13dde61a0b5a292dc4a69a9be203cdfef8628939c9942fb61fdae3"></a>PART&#160;</td><td class="fielddoc"></td></tr>
@@ -186,7 +190,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69a17688171bada54d9aa3e3441d45c2ba3" name="aa69b7d2d7fb13dde61a0b5a292dc4a69a17688171bada54d9aa3e3441d45c2ba3"></a>ROOMSTATE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6" name="aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6"></a>USERNOTICE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe" name="aa69b7d2d7fb13dde61a0b5a292dc4a69a82cdea66579a8d9585bb2ac3257caafe"></a>USERSTATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69a3c0e5a57daf15aabf3a19bca8aad9dc3" name="aa69b7d2d7fb13dde61a0b5a292dc4a69a3c0e5a57daf15aabf3a19bca8aad9dc3"></a>WHISPER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa69b7d2d7fb13dde61a0b5a292dc4a69adb5ce5cb1b12edacae4584e881e1451f" name="aa69b7d2d7fb13dde61a0b5a292dc4a69adb5ce5cb1b12edacae4584e881e1451f"></a>CAP&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

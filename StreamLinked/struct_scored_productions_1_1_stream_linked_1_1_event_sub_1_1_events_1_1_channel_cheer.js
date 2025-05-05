@@ -8,6 +8,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#aed01291b384870ae192fdaf681396903", null ],
     [ "is_anonymous", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#a4765beb4e51ba31563bc4eda3fed83a4", null ],
     [ "message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#ab18adc88663c5b795cc7d4d451aad021", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#a4d19d1a7cf4ac30d2f334aea5466f85c", null ],
     [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#a7b97351d1907344d8e79c43fdfa54aa5", null ],
     [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#ab944d6584961382af1f6670d8b6a9281", null ],
     [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_cheer.html#a722f784d3b52ab17e1ef7053bd1413bc", null ]

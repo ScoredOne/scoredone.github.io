@@ -8,5 +8,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_cha
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shield_mode_end.html#af677dd8838a8fbfef626a186be2c4bdf", null ],
     [ "moderator_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shield_mode_end.html#a069b92e0abf82455d5f05cfd00614f37", null ],
     [ "moderator_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shield_mode_end.html#acd4050cd6040bec513c7d1bbf131e225", null ],
-    [ "moderator_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shield_mode_end.html#abdd7736cf6bd21d121a5dfd645b87a39", null ]
+    [ "moderator_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shield_mode_end.html#abdd7736cf6bd21d121a5dfd645b87a39", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_shield_mode_end.html#ad89d15d0921edadc04590cbe785e38c0", null ]
 ];

@@ -3,6 +3,5 @@ var namespace_scored_productions_1_1_stream_linked_1_1_managers_and_builders =
     [ "Containers", "namespace_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers.html", "namespace_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers" ],
     [ "TwitchBadgeManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_badge_manager" ],
     [ "TwitchEmoteManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager" ],
-    [ "TwitchMessageAtlasManager", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_manager" ],
     [ "TwitchMessageAtlasProducer", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_producer.html", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_producer" ]
 ];

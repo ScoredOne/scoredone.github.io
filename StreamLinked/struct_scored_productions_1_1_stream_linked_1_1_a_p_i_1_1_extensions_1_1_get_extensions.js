@@ -16,11 +16,12 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get
     [ "has_chat_support", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a5614f1dafb2c1e20479b71b7b6176750", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#aafdcc69d3017f941993dd8cf70be9535", null ],
     [ "icon_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a46c4a16cdce0fe65b5ab5da2953717bc", null ],
-    [ "icon_urls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a13c28253fae10e146edb906c757b29ab", null ],
+    [ "icon_urls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#ab631160ca822cc10479b5ae938e601a7", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a590aeed9b8023d3f0525b56daed228c2", null ],
     [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a4c6a7a59858966df2856787f94ea2b4f", null ],
     [ "privacy_policy_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a23586be8ed37aabe39db105ab337cdf7", null ],
     [ "request_identity_link", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#abd52e9c9e347a9270fdd21c7fa55d1ad", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#ad9bca47142d0e619450059fcb3bdf5dc", null ],
     [ "screenshot_urls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a31d9c677dd6ed3ffe2101eaf076d86c3", null ],
     [ "state", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#acf0d68667fbfcc0665ea085b7eb75f1e", null ],
     [ "subscriptions_support_level", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a1c43e6cdfef3d976876118ef2061f779", null ],
@@ -29,5 +30,5 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#adfdabae565502c60b1ea1328ef486f84", null ],
     [ "version", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a7fca4bb93426aa42b22b9265abe93936", null ],
     [ "viewer_summary", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#a06f5bbf696f2af7e288587ae9d24a2ac", null ],
-    [ "views", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#afcfa36a4bfb5e3e3a1c9e64e941d1544", null ]
+    [ "views", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_get_extensions.html#abc567be5925e1dd1c2b311526c986d2e", null ]
 ];

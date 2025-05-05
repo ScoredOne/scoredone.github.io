@@ -27,9 +27,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Logo v2 small.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Logo v3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -130,12 +130,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a89f69fd754c84c63b37f936cdec7b997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7f9a2b0e0f7d14deb7c638e0d75a51" id="r_acd7f9a2b0e0f7d14deb7c638e0d75a51"><td class="memItemLeft" align="right" valign="top">string string textmeshpro[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd7f9a2b0e0f7d14deb7c638e0d75a51">GetEmotesTMPText</a> (params <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[] EmotesToGet)</td></tr>
 <tr class="separator:acd7f9a2b0e0f7d14deb7c638e0d75a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20951986c1d885fdbec2c3ce40fcd01f" id="r_a20951986c1d885fdbec2c3ce40fcd01f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20951986c1d885fdbec2c3ce40fcd01f">SearchEmotes</a> (List&lt; string &gt; searchEmotes)</td></tr>
-<tr class="separator:a20951986c1d885fdbec2c3ce40fcd01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa83436ed95580ce52f809781299b4b9" id="r_aaa83436ed95580ce52f809781299b4b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa83436ed95580ce52f809781299b4b9">SearchEmotes</a> (string[] searchEmotes)</td></tr>
+<tr class="separator:aaa83436ed95580ce52f809781299b4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac0b970ebd090a4ce29807e22a832008" id="r_aac0b970ebd090a4ce29807e22a832008"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0b970ebd090a4ce29807e22a832008">GetGlobalChatEmotes</a> ()</td></tr>
 <tr class="separator:aac0b970ebd090a4ce29807e22a832008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ee4a3ba37b91a6d7e0813686a903fac" id="r_a5ee4a3ba37b91a6d7e0813686a903fac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ee4a3ba37b91a6d7e0813686a903fac">GetEmote</a> (string ID, string <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8">Name</a>=null, bool IsGlobal=false)</td></tr>
-<tr class="separator:a5ee4a3ba37b91a6d7e0813686a903fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c2ba99160279dc8e384dfab9559852" id="r_ad7c2ba99160279dc8e384dfab9559852"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7c2ba99160279dc8e384dfab9559852">GetChannelChatEmotes</a> (string broadcasterId)</td></tr>
+<tr class="separator:ad7c2ba99160279dc8e384dfab9559852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2d901133095104dd7dd04d8130fb82" id="r_a0b2d901133095104dd7dd04d8130fb82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b2d901133095104dd7dd04d8130fb82">QueueEmoteDownload</a> (string ID, string <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a7e71aa2bf2e34309f8e44fa6863709f8">Name</a>=null, bool IsGlobal=false)</td></tr>
+<tr class="separator:a0b2d901133095104dd7dd04d8130fb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7efb00922b7fd35b260da9c5fafaa24" id="r_ab7efb00922b7fd35b260da9c5fafaa24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7efb00922b7fd35b260da9c5fafaa24">QueueEmoteDownload</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html">GetGlobalEmotes</a> globalEmote)</td></tr>
+<tr class="separator:ab7efb00922b7fd35b260da9c5fafaa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab981d866798334f7f39355e3c63222dc" id="r_ab981d866798334f7f39355e3c63222dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab981d866798334f7f39355e3c63222dc">QueueEmoteDownload</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html">GetChannelEmotes</a> channelEmote)</td></tr>
+<tr class="separator:ab981d866798334f7f39355e3c63222dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ed1f9f592e5af4fefd8f043962fc03" id="r_a27ed1f9f592e5af4fefd8f043962fc03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27ed1f9f592e5af4fefd8f043962fc03">QueueEmoteDownload</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_message.html">Message</a> messageData)</td></tr>
+<tr class="memdesc:a27ed1f9f592e5af4fefd8f043962fc03"><td class="mdescLeft">&#160;</td><td class="mdescRight">EventSub Messages.  <br /></td></tr>
+<tr class="separator:a27ed1f9f592e5af4fefd8f043962fc03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -150,8 +159,6 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2c162c423192bebb75f6af77029f87db" id="r_a2c162c423192bebb75f6af77029f87db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a494b2edb7d3e28d2d1f8e6f3583f9564">DebugManager.DebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c162c423192bebb75f6af77029f87db">LogDebugLevel</a> = DebugManager.DebugLevel.Normal</td></tr>
 <tr class="separator:a2c162c423192bebb75f6af77029f87db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a386bad9fb56e36c81fbf75468ef5c605" id="r_a386bad9fb56e36c81fbf75468ef5c605"><td class="memItemLeft" align="right" valign="top">readonly WaitForSecondsRealtime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386bad9fb56e36c81fbf75468ef5c605">Wait1Second</a> = new WaitForSecondsRealtime(1)</td></tr>
-<tr class="separator:a386bad9fb56e36c81fbf75468ef5c605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4091457836b380652f1adf388e81aeed" id="r_a4091457836b380652f1adf388e81aeed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html#a503ed8bb50b0321ce9d115dfee8cd0ad">TwitchEmote.EmoteSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4091457836b380652f1adf388e81aeed">EmoteSize</a></td></tr>
 <tr class="separator:a4091457836b380652f1adf388e81aeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5889dd93b4dfe9b44836ead92b241d39" id="r_a5889dd93b4dfe9b44836ead92b241d39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html#a25f0ff074ed58828f700a8e2a46dcee8">TwitchEmote.ThemeMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5889dd93b4dfe9b44836ead92b241d39">EmoteThemeMode</a></td></tr>
@@ -172,9 +179,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a357c01582e0edd945e68872eadc807c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acca76403551253275c6f38abbe04b6a0" id="r_acca76403551253275c6f38abbe04b6a0"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca76403551253275c6f38abbe04b6a0">OnApplicationQuit</a> ()</td></tr>
 <tr class="separator:acca76403551253275c6f38abbe04b6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adef36405df7fb507bd061bec5ef7683f" id="r_adef36405df7fb507bd061bec5ef7683f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#adef36405df7fb507bd061bec5ef7683f">EstablishSingleton</a> ()</td></tr>
-<tr class="memdesc:adef36405df7fb507bd061bec5ef7683f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Must be called in Awake</b>, Ensures singleton is the only instance.  <br /></td></tr>
-<tr class="separator:adef36405df7fb507bd061bec5ef7683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addd415202c1fd44c33e07ee62060c325" id="r_addd415202c1fd44c33e07ee62060c325"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#addd415202c1fd44c33e07ee62060c325">EstablishSingleton</a> (bool updateName=false)</td></tr>
+<tr class="memdesc:addd415202c1fd44c33e07ee62060c325"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Must be called in Awake</b>, Ensures singleton is the only instance.  <br /></td></tr>
+<tr class="separator:addd415202c1fd44c33e07ee62060c325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca30b1c77c7e18c88a05b3769f49d42e" id="r_aca30b1c77c7e18c88a05b3769f49d42e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#aca30b1c77c7e18c88a05b3769f49d42e">Start</a> ()</td></tr>
 <tr class="separator:aca30b1c77c7e18c88a05b3769f49d42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -187,28 +194,22 @@ Static Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a2d6abe87d010dfd01e6ba020029b7c2e" id="r_a2d6abe87d010dfd01e6ba020029b7c2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6abe87d010dfd01e6ba020029b7c2e">HoldUntilAtlasReady</a><code> [get]</code></td></tr>
-<tr class="separator:a2d6abe87d010dfd01e6ba020029b7c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57089ee2f63d2e4361007c5a95101ff1" id="r_a57089ee2f63d2e4361007c5a95101ff1"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57089ee2f63d2e4361007c5a95101ff1">PersistBetweenScenes</a><code> [get]</code></td></tr>
+<tr class="separator:a57089ee2f63d2e4361007c5a95101ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2268ea8efbd2ddfbcd2ea4679dec38f3" id="r_a2268ea8efbd2ddfbcd2ea4679dec38f3"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2268ea8efbd2ddfbcd2ea4679dec38f3">DownloadedEmotes</a> = new List&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a>&gt;()<code> [get, private set]</code></td></tr>
 <tr class="separator:a2268ea8efbd2ddfbcd2ea4679dec38f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1440d3f44db370b5db7a6ea7ff56573a" id="r_a1440d3f44db370b5db7a6ea7ff56573a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1440d3f44db370b5db7a6ea7ff56573a">DownloaderWorking</a><code> [get]</code></td></tr>
 <tr class="separator:a1440d3f44db370b5db7a6ea7ff56573a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f3c5683d35212f4fa879fb4a4ca63dc" id="r_a0f3c5683d35212f4fa879fb4a4ca63dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3c5683d35212f4fa879fb4a4ca63dc">Busy</a><code> [get]</code></td></tr>
 <tr class="separator:a0f3c5683d35212f4fa879fb4a4ca63dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb3ca0aace26506abcaca5ccea62e83" id="r_adbb3ca0aace26506abcaca5ccea62e83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbb3ca0aace26506abcaca5ccea62e83">ReadyForBuild</a><code> [get]</code></td></tr>
-<tr class="separator:adbb3ca0aace26506abcaca5ccea62e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac736b09bc64810f167df14472e6850" id="r_a9ac736b09bc64810f167df14472e6850"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ac736b09bc64810f167df14472e6850">CurrentWaitingItems</a><code> [get]</code></td></tr>
 <tr class="separator:a9ac736b09bc64810f167df14472e6850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae92ebda987156c4faa07f3aa94b4dc68" id="r_ae92ebda987156c4faa07f3aa94b4dc68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92ebda987156c4faa07f3aa94b4dc68">DownloadNewEmotes</a><code> [get, private set]</code></td></tr>
-<tr class="separator:ae92ebda987156c4faa07f3aa94b4dc68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48ec67fa9431ea8b9a985ee461d9deea" id="r_a48ec67fa9431ea8b9a985ee461d9deea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a48ec67fa9431ea8b9a985ee461d9deea">InstanceIsAlive</a><code> [get]</code></td></tr>
 <tr class="memdesc:a48ec67fa9431ea8b9a985ee461d9deea"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the Singleton is running in the scene. Good to prevent non-playtime functionality running.  <br /></td></tr>
 <tr class="separator:a48ec67fa9431ea8b9a985ee461d9deea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a4eeabedb449e87779fc4eac44dc58f59" id="r_a4eeabedb449e87779fc4eac44dc58f59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eeabedb449e87779fc4eac44dc58f59">TwitchEmoteManager</a> ()</td></tr>
-<tr class="separator:a4eeabedb449e87779fc4eac44dc58f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff87b6add82299571a4ff83b25c08669" id="r_aff87b6add82299571a4ff83b25c08669"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff87b6add82299571a4ff83b25c08669">DownloaderService</a> (int threadNum)</td></tr>
 <tr class="separator:aff87b6add82299571a4ff83b25c08669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a0308ed3a73f82eed334e7108d25d5e" id="r_a6a0308ed3a73f82eed334e7108d25d5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a0308ed3a73f82eed334e7108d25d5e">OnEnable</a> ()</td></tr>
@@ -219,22 +220,21 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a01aa966d113716a5298539f9b7517304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40726f5c734c34bd82dd91dd2aa74178" id="r_a40726f5c734c34bd82dd91dd2aa74178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40726f5c734c34bd82dd91dd2aa74178">EndFunctionality</a> ()</td></tr>
 <tr class="separator:a40726f5c734c34bd82dd91dd2aa74178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a768bf5d0d740a7bb1d4206e1364dae00" id="r_a768bf5d0d740a7bb1d4206e1364dae00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768bf5d0d740a7bb1d4206e1364dae00">OnAtlasBuildStarted</a> (object sender, EventArgs e)</td></tr>
-<tr class="memdesc:a768bf5d0d740a7bb1d4206e1364dae00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal from atlas that work has started.  <br /></td></tr>
-<tr class="separator:a768bf5d0d740a7bb1d4206e1364dae00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a366d8ef4788d3b8743ef4aa2c2a5862d" id="r_a366d8ef4788d3b8743ef4aa2c2a5862d"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a366d8ef4788d3b8743ef4aa2c2a5862d">threadsWorking</a> = new Dictionary&lt;int, bool&gt;()</td></tr>
-<tr class="separator:a366d8ef4788d3b8743ef4aa2c2a5862d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf0b871a3486f06882f352276c6fcde" id="r_a2cf0b871a3486f06882f352276c6fcde"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf0b871a3486f06882f352276c6fcde">persistBetweenScenes</a> = true</td></tr>
+<tr class="separator:a2cf0b871a3486f06882f352276c6fcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39de80b49e274d7a7d7eb965b6abb7a" id="r_aa39de80b49e274d7a7d7eb965b6abb7a"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39de80b49e274d7a7d7eb965b6abb7a">threadsWorking</a> = new Dictionary&lt;int, bool&gt;()</td></tr>
+<tr class="separator:aa39de80b49e274d7a7d7eb965b6abb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b06ed19889782f65dc786d4e41fe7cd" id="r_a7b06ed19889782f65dc786d4e41fe7cd"><td class="memItemLeft" align="right" valign="top">CancellationTokenSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b06ed19889782f65dc786d4e41fe7cd">RequestAPICancellationToken</a></td></tr>
 <tr class="separator:a7b06ed19889782f65dc786d4e41fe7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a375c34e0f15aac6759e3bbe1f1c82235" id="r_a375c34e0f15aac6759e3bbe1f1c82235"><td class="memItemLeft" align="right" valign="top">readonly Queue&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a375c34e0f15aac6759e3bbe1f1c82235">downloadQueue</a> = new Queue&lt;<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a>&gt;()</td></tr>
 <tr class="separator:a375c34e0f15aac6759e3bbe1f1c82235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae170deea055a3f6c619e1b753eb10dbb" id="r_ae170deea055a3f6c619e1b753eb10dbb"><td class="memItemLeft" align="right" valign="top">WaitUntil&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae170deea055a3f6c619e1b753eb10dbb">downloadsWaiting</a></td></tr>
 <tr class="separator:ae170deea055a3f6c619e1b753eb10dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92363abb84cb43f566c43d7a51393219" id="r_a92363abb84cb43f566c43d7a51393219"><td class="memItemLeft" align="right" valign="top">List&lt; Coroutine &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92363abb84cb43f566c43d7a51393219">downloaderCoroutines</a> = new List&lt;Coroutine&gt;()</td></tr>
-<tr class="separator:a92363abb84cb43f566c43d7a51393219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d0652eba9df4aca08ef8069cdeca29" id="r_af8d0652eba9df4aca08ef8069cdeca29"><td class="memItemLeft" align="right" valign="top">readonly List&lt; Coroutine &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8d0652eba9df4aca08ef8069cdeca29">downloaderCoroutines</a> = new List&lt;Coroutine&gt;()</td></tr>
+<tr class="separator:af8d0652eba9df4aca08ef8069cdeca29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -243,33 +243,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch emote downloader and manager. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4eeabedb449e87779fc4eac44dc58f59" name="a4eeabedb449e87779fc4eac44dc58f59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eeabedb449e87779fc4eac44dc58f59">&#9670;&#160;</a></span>TwitchEmoteManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.TwitchEmoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a357c01582e0edd945e68872eadc807c5" name="a357c01582e0edd945e68872eadc807c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a357c01582e0edd945e68872eadc807c5">&#9670;&#160;</a></span>Awake()</h2>
 
@@ -391,8 +365,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adef36405df7fb507bd061bec5ef7683f" name="adef36405df7fb507bd061bec5ef7683f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adef36405df7fb507bd061bec5ef7683f">&#9670;&#160;</a></span>EstablishSingleton()</h2>
+<a id="addd415202c1fd44c33e07ee62060c325" name="addd415202c1fd44c33e07ee62060c325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addd415202c1fd44c33e07ee62060c325">&#9670;&#160;</a></span>EstablishSingleton()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,7 +377,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.EstablishSingleton </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>updateName</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -418,26 +392,17 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5ee4a3ba37b91a6d7e0813686a903fac" name="a5ee4a3ba37b91a6d7e0813686a903fac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ee4a3ba37b91a6d7e0813686a903fac">&#9670;&#160;</a></span>GetEmote()</h2>
+<a id="ad7c2ba99160279dc8e384dfab9559852" name="ad7c2ba99160279dc8e384dfab9559852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c2ba99160279dc8e384dfab9559852">&#9670;&#160;</a></span>GetChannelChatEmotes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.GetEmote </td>
+          <td class="memname">async Task ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.GetChannelChatEmotes </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>ID</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>broadcasterId</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>Name</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>IsGlobal</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -549,37 +514,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a768bf5d0d740a7bb1d4206e1364dae00" name="a768bf5d0d740a7bb1d4206e1364dae00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a768bf5d0d740a7bb1d4206e1364dae00">&#9670;&#160;</a></span>OnAtlasBuildStarted()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.OnAtlasBuildStarted </td>
-          <td>(</td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>sender</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">EventArgs</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Signal from atlas that work has started. </p>
-
-</div>
-</div>
 <a id="addc455d877b859c2446e8de17e3f059b" name="addc455d877b859c2446e8de17e3f059b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addc455d877b859c2446e8de17e3f059b">&#9670;&#160;</a></span>OnDestroy()</h2>
 
@@ -655,16 +589,101 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a20951986c1d885fdbec2c3ce40fcd01f" name="a20951986c1d885fdbec2c3ce40fcd01f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20951986c1d885fdbec2c3ce40fcd01f">&#9670;&#160;</a></span>SearchEmotes()</h2>
+<a id="ab981d866798334f7f39355e3c63222dc" name="ab981d866798334f7f39355e3c63222dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab981d866798334f7f39355e3c63222dc">&#9670;&#160;</a></span>QueueEmoteDownload() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> &gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.SearchEmotes </td>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.QueueEmoteDownload </td>
           <td>(</td>
-          <td class="paramtype">List&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>searchEmotes</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_channel_emotes.html">GetChannelEmotes</a></td>          <td class="paramname"><span class="paramname"><em>channelEmote</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7efb00922b7fd35b260da9c5fafaa24" name="ab7efb00922b7fd35b260da9c5fafaa24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7efb00922b7fd35b260da9c5fafaa24">&#9670;&#160;</a></span>QueueEmoteDownload() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.QueueEmoteDownload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_global_emotes.html">GetGlobalEmotes</a></td>          <td class="paramname"><span class="paramname"><em>globalEmote</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27ed1f9f592e5af4fefd8f043962fc03" name="a27ed1f9f592e5af4fefd8f043962fc03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ed1f9f592e5af4fefd8f043962fc03">&#9670;&#160;</a></span>QueueEmoteDownload() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.QueueEmoteDownload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_message.html">Message</a></td>          <td class="paramname"><span class="paramname"><em>messageData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>EventSub Messages. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">messageData</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0b2d901133095104dd7dd04d8130fb82" name="a0b2d901133095104dd7dd04d8130fb82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2d901133095104dd7dd04d8130fb82">&#9670;&#160;</a></span>QueueEmoteDownload() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.QueueEmoteDownload </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>ID</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>Name</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>IsGlobal</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa83436ed95580ce52f809781299b4b9" name="aaa83436ed95580ce52f809781299b4b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa83436ed95580ce52f809781299b4b9">&#9670;&#160;</a></span>SearchEmotes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a>[] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.SearchEmotes </td>
+          <td>(</td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>searchEmotes</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -720,8 +739,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a92363abb84cb43f566c43d7a51393219" name="a92363abb84cb43f566c43d7a51393219"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92363abb84cb43f566c43d7a51393219">&#9670;&#160;</a></span>downloaderCoroutines</h2>
+<a id="af8d0652eba9df4aca08ef8069cdeca29" name="af8d0652eba9df4aca08ef8069cdeca29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8d0652eba9df4aca08ef8069cdeca29">&#9670;&#160;</a></span>downloaderCoroutines</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -730,7 +749,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;Coroutine&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.downloaderCoroutines = new List&lt;Coroutine&gt;()</td>
+          <td class="memname">readonly List&lt;Coroutine&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.downloaderCoroutines = new List&lt;Coroutine&gt;()</td>
         </tr>
       </table>
   </td>
@@ -900,6 +919,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2cf0b871a3486f06882f352276c6fcde" name="a2cf0b871a3486f06882f352276c6fcde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf0b871a3486f06882f352276c6fcde">&#9670;&#160;</a></span>persistBetweenScenes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.persistBetweenScenes = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5f218ec3c0517254de5311e5e9db4d00" name="a5f218ec3c0517254de5311e5e9db4d00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f218ec3c0517254de5311e5e9db4d00">&#9670;&#160;</a></span>preventNewInstances</h2>
 
@@ -944,8 +985,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a366d8ef4788d3b8743ef4aa2c2a5862d" name="a366d8ef4788d3b8743ef4aa2c2a5862d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a366d8ef4788d3b8743ef4aa2c2a5862d">&#9670;&#160;</a></span>threadsWorking</h2>
+<a id="aa39de80b49e274d7a7d7eb965b6abb7a" name="aa39de80b49e274d7a7d7eb965b6abb7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa39de80b49e274d7a7d7eb965b6abb7a">&#9670;&#160;</a></span>threadsWorking</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -954,7 +995,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Dictionary&lt;int, bool&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.threadsWorking = new Dictionary&lt;int, bool&gt;()</td>
+          <td class="memname">readonly Dictionary&lt;int, bool&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.threadsWorking = new Dictionary&lt;int, bool&gt;()</td>
         </tr>
       </table>
   </td>
@@ -962,20 +1003,6 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a386bad9fb56e36c81fbf75468ef5c605" name="a386bad9fb56e36c81fbf75468ef5c605"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a386bad9fb56e36c81fbf75468ef5c605">&#9670;&#160;</a></span>Wait1Second</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">readonly WaitForSecondsRealtime ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.Wait1Second = new WaitForSecondsRealtime(1)</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -1069,50 +1096,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae92ebda987156c4faa07f3aa94b4dc68" name="ae92ebda987156c4faa07f3aa94b4dc68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae92ebda987156c4faa07f3aa94b4dc68">&#9670;&#160;</a></span>DownloadNewEmotes</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.DownloadNewEmotes</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d6abe87d010dfd01e6ba020029b7c2e" name="a2d6abe87d010dfd01e6ba020029b7c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6abe87d010dfd01e6ba020029b7c2e">&#9670;&#160;</a></span>HoldUntilAtlasReady</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.HoldUntilAtlasReady</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a48ec67fa9431ea8b9a985ee461d9deea" name="a48ec67fa9431ea8b9a985ee461d9deea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48ec67fa9431ea8b9a985ee461d9deea">&#9670;&#160;</a></span>InstanceIsAlive</h2>
 
@@ -1137,8 +1120,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adbb3ca0aace26506abcaca5ccea62e83" name="adbb3ca0aace26506abcaca5ccea62e83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbb3ca0aace26506abcaca5ccea62e83">&#9670;&#160;</a></span>ReadyForBuild</h2>
+<a id="a57089ee2f63d2e4361007c5a95101ff1" name="a57089ee2f63d2e4361007c5a95101ff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57089ee2f63d2e4361007c5a95101ff1">&#9670;&#160;</a></span>PersistBetweenScenes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1147,7 +1130,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.ReadyForBuild</td>
+          <td class="memname">override bool ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.PersistBetweenScenes</td>
         </tr>
       </table>
   </td>

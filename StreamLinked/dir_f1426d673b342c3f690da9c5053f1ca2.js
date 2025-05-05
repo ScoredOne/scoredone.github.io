@@ -6,7 +6,7 @@ var dir_f1426d673b342c3f690da9c5053f1ca2 =
     [ "Session.cs", "_session_8cs.html", "_session_8cs" ],
     [ "SocketResponce.cs", "_socket_responce_8cs.html", "_socket_responce_8cs" ],
     [ "Subscription.cs", "_subscription_8cs.html", "_subscription_8cs" ],
-    [ "Transport.cs", "_transport_8cs.html", "_transport_8cs" ],
+    [ "Transport.cs", "_twitch_event_sub_2_web_socket_2_transport_8cs.html", "_twitch_event_sub_2_web_socket_2_transport_8cs" ],
     [ "TwitchEventSubConditions.cs", "_twitch_event_sub_conditions_8cs.html", "_twitch_event_sub_conditions_8cs" ],
     [ "TwitchEventSubMessagesEnum.cs", "_twitch_event_sub_messages_enum_8cs.html", "_twitch_event_sub_messages_enum_8cs" ]
 ];

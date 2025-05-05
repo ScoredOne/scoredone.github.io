@@ -7,5 +7,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_del
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html#a21b98d33a223e9e09d8ef064ca247a40", null ],
     [ "MESSAGE_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html#a871e3e6b3fc4d44d68f219a16c553885", null ],
     [ "MODERATOR_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html#a84f439287a7e60bf555530f4813ecb29", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html#a136c5bbebcdf9388fb7e70bca6d378e8", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html#a072a1bb9a46656d0bb5df367f8001702", null ]
 ];

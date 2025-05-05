@@ -9,6 +9,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a55589b22a349ac4e287ef136479f7576", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ad7daa71e5a0f151004638cf4d0f7ac7c", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ae36929f046bd700eabd68725285e5fba", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#afaaf7c027a081415e3ee34aabf40f0ad", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#afa21cec28c19b372c396746a6f388e6a", null ],
     [ "STATUS", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a1d41ecfa982c2bd59db44da7da6013b8", null ],
     [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ab69793f72f149ccbaeb9a3f846258c64", null ],

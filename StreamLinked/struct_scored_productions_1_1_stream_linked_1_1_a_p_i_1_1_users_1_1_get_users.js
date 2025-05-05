@@ -15,6 +15,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user
     [ "LOGIN", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#a25cd991e344bc9976fb459467f2e5508", null ],
     [ "offline_image_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#aebd7b65b07e26bc773e59e424f5881ef", null ],
     [ "profile_image_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#a60a2253c88fa61ce6eeb03c1e34b6d8e", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#a1b1b4c31052e053c4e32b15b6b188a96", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#abf29de80e63975dd6567afeb5821566d", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#a7815272229e68e94da218593ed10072d", null ],
     [ "view_count", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_users.html#ab7b35c539e6a47d7d677c3c687a0c605", null ]

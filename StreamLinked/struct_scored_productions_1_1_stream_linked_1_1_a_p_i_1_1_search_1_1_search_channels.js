@@ -15,6 +15,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_
     [ "is_live", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a78d16e2d72db16c3d08a972ca6585ab0", null ],
     [ "LIVE_ONLY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a02f6eb1b2de488a90593cc0c1f7cf406", null ],
     [ "QUERY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a724dc23f193580dbe26c44ada65c1de1", null ],
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#a564f5d57c17a89e31d0185d9f1fa148d", null ],
     [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#ad59529044a5dd99273eed76f147377ec", null ],
     [ "tags", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#ada555164d691d78727344be88cc0194a", null ],
     [ "thumbnail_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_channels.html#abdc4de8ded100df1433d8791c182aa2f", null ],
