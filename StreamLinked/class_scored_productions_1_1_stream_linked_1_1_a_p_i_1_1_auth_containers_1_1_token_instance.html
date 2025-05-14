@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.2</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -176,8 +176,10 @@ Properties</h2></td></tr>
 <tr class="memitem:ad1f6f2736868409cb339bdecf73a6e04" id="r_ad1f6f2736868409cb339bdecf73a6e04"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f6f2736868409cb339bdecf73a6e04">TokenID</a><code> [get]</code></td></tr>
 <tr class="separator:ad1f6f2736868409cb339bdecf73a6e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e392967b0e32cb313920e5dc66d935c" id="r_a8e392967b0e32cb313920e5dc66d935c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e392967b0e32cb313920e5dc66d935c">HasToken</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8e392967b0e32cb313920e5dc66d935c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the backing OAuthToken is null without attempting to load it in.  <br /></td></tr>
 <tr class="separator:a8e392967b0e32cb313920e5dc66d935c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e085702a1c9ef2e733711aa06834388" id="r_a1e085702a1c9ef2e733711aa06834388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_auth_flow.html">IAuthFlow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e085702a1c9ef2e733711aa06834388">OAuthToken</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1e085702a1c9ef2e733711aa06834388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning, Not thread safe, do not check if this value is null if you know its null, use <code>HasToken</code> instead.  <br /></td></tr>
 <tr class="separator:a1e085702a1c9ef2e733711aa06834388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -895,6 +897,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Checks if the backing OAuthToken is null without attempting to load it in. </p>
+
 </div>
 </div>
 <a id="ab315ec39ec8c5c1b5bcd0a7200c79065" name="ab315ec39ec8c5c1b5bcd0a7200c79065"></a>
@@ -938,6 +942,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Warning, Not thread safe, do not check if this value is null if you know its null, use <code>HasToken</code> instead. </p>
 
 </div>
 </div>

@@ -508,6 +508,7 @@ var class_scored_productions_1_1_stream_linked_1_1_twitch_words =
     [ "SUB_TIER", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a2274f45fcd582828a0ecfc4e9d758866", null ],
     [ "SUBSCRIBER_MODE", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a55fdd73edc346ff3ff2f4bfc53b2f2fd", null ],
     [ "SUBSCRIPTION", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a7093354215b96e966b0aaa4745ba00e4", null ],
+    [ "SUBSCRIPTION_ID", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#aec4867452e2f8b3c0718b21d1e7a7af4", null ],
     [ "SUBSCRIPTION_TYPE", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a69fb65c863c60662b249c7e6ea29f5de", null ],
     [ "SUBSCRIPTION_VERSION", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a09760603e443b3a565cae9354fe15213", null ],
     [ "SUBSCRIPTIONS_SUPPORT_LEVEL", "class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#af66b1319fb6276872a7a4b58bc5532fc", null ],

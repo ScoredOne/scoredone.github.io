@@ -12,6 +12,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#afaaf7c027a081415e3ee34aabf40f0ad", null ],
     [ "status", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#afa21cec28c19b372c396746a6f388e6a", null ],
     [ "STATUS", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a1d41ecfa982c2bd59db44da7da6013b8", null ],
+    [ "SUBSCRIPTION_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a928d280935b68db73fe2e17e2db3a54a", null ],
     [ "transport", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#ab69793f72f149ccbaeb9a3f846258c64", null ],
     [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a9459c75d405bda3cb69d35f5511ab43f", null ],
     [ "TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_event_sub_1_1_get_event_sub_subscriptions.html#a1e70775e53d7cb7c03d8f9cf2f43353a", null ],

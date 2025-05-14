@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.2</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -126,12 +126,14 @@ Inheritance diagram for ScoredProductions.StreamLinked.ManagersAndBuilders.Twitc
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac02b815c93ba262404e6337173785d7b" id="r_ac02b815c93ba262404e6337173785d7b"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac02b815c93ba262404e6337173785d7b">DownloadEmoteFromWeb</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> emote)</td></tr>
 <tr class="separator:ac02b815c93ba262404e6337173785d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89f69fd754c84c63b37f936cdec7b997" id="r_a89f69fd754c84c63b37f936cdec7b997"><td class="memItemLeft" align="right" valign="top">string string textmeshpro[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f69fd754c84c63b37f936cdec7b997">GetEmotesTMPText</a> (SortedSet&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> &gt; EmotesToGet)</td></tr>
-<tr class="separator:a89f69fd754c84c63b37f936cdec7b997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7f9a2b0e0f7d14deb7c638e0d75a51" id="r_acd7f9a2b0e0f7d14deb7c638e0d75a51"><td class="memItemLeft" align="right" valign="top">string string textmeshpro[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd7f9a2b0e0f7d14deb7c638e0d75a51">GetEmotesTMPText</a> (params <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[] EmotesToGet)</td></tr>
-<tr class="separator:acd7f9a2b0e0f7d14deb7c638e0d75a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa83436ed95580ce52f809781299b4b9" id="r_aaa83436ed95580ce52f809781299b4b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa83436ed95580ce52f809781299b4b9">SearchEmotes</a> (string[] searchEmotes)</td></tr>
-<tr class="separator:aaa83436ed95580ce52f809781299b4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a52ea412ad37a60e652adef303df940" id="r_a2a52ea412ad37a60e652adef303df940"><td class="memItemLeft" align="right" valign="top">List&lt;(string emoteName, string textmeshpro)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a52ea412ad37a60e652adef303df940">GetEmotesTMPText</a> (SortedSet&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> &gt; EmotesToGet)</td></tr>
+<tr class="memdesc:a2a52ea412ad37a60e652adef303df940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the TMP text of the provided emotes, List contents are unique and not duplicated if duplicates are found in the provided values.  <br /></td></tr>
+<tr class="separator:a2a52ea412ad37a60e652adef303df940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fcebd5aa2422e2623cd8b24d6c82ad9" id="r_a7fcebd5aa2422e2623cd8b24d6c82ad9"><td class="memItemLeft" align="right" valign="top">List&lt;(string emoteName, string textmeshpro)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fcebd5aa2422e2623cd8b24d6c82ad9">GetEmotesTMPText</a> (params <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[] EmotesToGet)</td></tr>
+<tr class="memdesc:a7fcebd5aa2422e2623cd8b24d6c82ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the TMP text of the provided emotes, List contents are unique and not duplicated if duplicates are found in the provided values.  <br /></td></tr>
+<tr class="separator:a7fcebd5aa2422e2623cd8b24d6c82ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4876f887a562d02c9a24794dcc7422f1" id="r_a4876f887a562d02c9a24794dcc7422f1"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4876f887a562d02c9a24794dcc7422f1">SearchEmotes</a> (string[] searchEmotes)</td></tr>
+<tr class="separator:a4876f887a562d02c9a24794dcc7422f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac0b970ebd090a4ce29807e22a832008" id="r_aac0b970ebd090a4ce29807e22a832008"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0b970ebd090a4ce29807e22a832008">GetGlobalChatEmotes</a> ()</td></tr>
 <tr class="separator:aac0b970ebd090a4ce29807e22a832008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7c2ba99160279dc8e384dfab9559852" id="r_ad7c2ba99160279dc8e384dfab9559852"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7c2ba99160279dc8e384dfab9559852">GetChannelChatEmotes</a> (string broadcasterId)</td></tr>
@@ -165,8 +167,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a5889dd93b4dfe9b44836ead92b241d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8799e00217fbeb41643910e70336ae6" id="r_aa8799e00217fbeb41643910e70336ae6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8799e00217fbeb41643910e70336ae6">NumWorkersToCreateOnAwake</a> = 4</td></tr>
 <tr class="separator:aa8799e00217fbeb41643910e70336ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af302ebe3bd82316de77349e21cf98104" id="r_af302ebe3bd82316de77349e21cf98104"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af302ebe3bd82316de77349e21cf98104">emoteName</a></td></tr>
-<tr class="separator:af302ebe3bd82316de77349e21cf98104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -409,14 +409,14 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acd7f9a2b0e0f7d14deb7c638e0d75a51" name="acd7f9a2b0e0f7d14deb7c638e0d75a51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7f9a2b0e0f7d14deb7c638e0d75a51">&#9670;&#160;</a></span>GetEmotesTMPText() <span class="overload">[1/2]</span></h2>
+<a id="a7fcebd5aa2422e2623cd8b24d6c82ad9" name="a7fcebd5aa2422e2623cd8b24d6c82ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fcebd5aa2422e2623cd8b24d6c82ad9">&#9670;&#160;</a></span>GetEmotesTMPText() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string string textmeshpro[] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.GetEmotesTMPText </td>
+          <td class="memname">List&lt;(string emoteName, string textmeshpro)&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.GetEmotesTMPText </td>
           <td>(</td>
           <td class="paramtype">params <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[]</td>          <td class="paramname"><span class="paramname"><em>EmotesToGet</em></span></td><td>)</td>
           <td></td>
@@ -424,22 +424,40 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the TMP text of the provided emotes, List contents are unique and not duplicated if duplicates are found in the provided values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">EmotesToGet</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
 </div>
 </div>
-<a id="a89f69fd754c84c63b37f936cdec7b997" name="a89f69fd754c84c63b37f936cdec7b997"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89f69fd754c84c63b37f936cdec7b997">&#9670;&#160;</a></span>GetEmotesTMPText() <span class="overload">[2/2]</span></h2>
+<a id="a2a52ea412ad37a60e652adef303df940" name="a2a52ea412ad37a60e652adef303df940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a52ea412ad37a60e652adef303df940">&#9670;&#160;</a></span>GetEmotesTMPText() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string string textmeshpro[] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.GetEmotesTMPText </td>
+          <td class="memname">List&lt;(string emoteName, string textmeshpro)&gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.GetEmotesTMPText </td>
           <td>(</td>
           <td class="paramtype">SortedSet&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>EmotesToGet</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the TMP text of the provided emotes, List contents are unique and not duplicated if duplicates are found in the provided values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">EmotesToGet</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -674,14 +692,14 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa83436ed95580ce52f809781299b4b9" name="aaa83436ed95580ce52f809781299b4b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa83436ed95580ce52f809781299b4b9">&#9670;&#160;</a></span>SearchEmotes()</h2>
+<a id="a4876f887a562d02c9a24794dcc7422f1" name="a4876f887a562d02c9a24794dcc7422f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4876f887a562d02c9a24794dcc7422f1">&#9670;&#160;</a></span>SearchEmotes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a>[] ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.SearchEmotes </td>
+          <td class="memname">List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html">TwitchEmote</a> &gt; ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.SearchEmotes </td>
           <td>(</td>
           <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>searchEmotes</em></span></td><td>)</td>
           <td></td>
@@ -801,20 +819,6 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af302ebe3bd82316de77349e21cf98104" name="af302ebe3bd82316de77349e21cf98104"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af302ebe3bd82316de77349e21cf98104">&#9670;&#160;</a></span>emoteName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchEmoteManager.emoteName</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
