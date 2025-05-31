@@ -5,6 +5,7 @@ var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m
     [ "ExtractBadges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#afae7fbf282eede040478654a55311696", null ],
     [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#a72483be0902dad8b2e785dac74739fdc", null ],
     [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#a59c4f5ff3c9e84917191c40ade4fb849", null ],
+    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#aa5f696e700a8eda65dc71b41b4b831a6", null ],
     [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#afb8b50317c334456e5da9f7367c4ae82", null ],
     [ "badge_info", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#aeb9ad232d9d233fd2c9d92d05318a05e", null ],
     [ "badges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html#a8256dbd5173e9e0bea8391c0e085702d", null ],

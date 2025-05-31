@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.2</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afb8b50317c334456e5da9f7367c4ae82" id="r_afb8b50317c334456e5da9f7367c4ae82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#afb8b50317c334456e5da9f7367c4ae82">ExtractTags</a> (string source, <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> command, string defaultValue=&quot;&quot;)</td></tr>
 <tr class="separator:afb8b50317c334456e5da9f7367c4ae82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f696e700a8eda65dc71b41b4b831a6" id="r_aa5f696e700a8eda65dc71b41b4b831a6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#aa5f696e700a8eda65dc71b41b4b831a6">ExtractTags</a> (ReadOnlySpan&lt; char &gt; source, <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> command, string defaultValue=&quot;&quot;)</td></tr>
+<tr class="separator:aa5f696e700a8eda65dc71b41b4b831a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72483be0902dad8b2e785dac74739fdc" id="r_a72483be0902dad8b2e785dac74739fdc"><td class="memItemLeft" align="right" valign="top">static SortedSet&lt; <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#a72483be0902dad8b2e785dac74739fdc">ExtractEmotes</a> (string emoteString, string chatMessage)</td></tr>
 <tr class="separator:a72483be0902dad8b2e785dac74739fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c4f5ff3c9e84917191c40ade4fb849" id="r_a59c4f5ff3c9e84917191c40ade4fb849"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html#a59c4f5ff3c9e84917191c40ade4fb849">ExtractEmotes</a> (string emoteString, string chatMessage, out <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html">EmotePosition</a>[] Emotes)</td></tr>
@@ -294,8 +296,42 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aa5f696e700a8eda65dc71b41b4b831a6" name="aa5f696e700a8eda65dc71b41b4b831a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f696e700a8eda65dc71b41b4b831a6">&#9670;&#160;</a></span>ExtractTags() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> ScoredProductions.StreamLinked.IRC.Tags.ITagContainer.ExtractTags </td>
+          <td>(</td>
+          <td class="paramtype">ReadOnlySpan&lt; char &gt;</td>          <td class="paramname"><span class="paramname"><em>source</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a></td>          <td class="paramname"><span class="paramname"><em>command</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>defaultValue</em><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afb8b50317c334456e5da9f7367c4ae82" name="afb8b50317c334456e5da9f7367c4ae82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb8b50317c334456e5da9f7367c4ae82">&#9670;&#160;</a></span>ExtractTags()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8b50317c334456e5da9f7367c4ae82">&#9670;&#160;</a></span>ExtractTags() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

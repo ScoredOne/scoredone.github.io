@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.2</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -242,6 +242,10 @@ Properties</h2></td></tr>
 <tr class="separator:a70af121db2ac28288caa0eb2cd5f893c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9b044bf3831a66808383214099fc3c1" id="r_af9b044bf3831a66808383214099fc3c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b044bf3831a66808383214099fc3c1">IsConnected</a><code> [get]</code></td></tr>
 <tr class="separator:af9b044bf3831a66808383214099fc3c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa41f6c4acee2d5849dd4ab02408ed71" id="r_aaa41f6c4acee2d5849dd4ab02408ed71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa41f6c4acee2d5849dd4ab02408ed71">IsConnecting</a><code> [get]</code></td></tr>
+<tr class="separator:aaa41f6c4acee2d5849dd4ab02408ed71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06be952db1a96644096c6b8f29178b78" id="r_a06be952db1a96644096c6b8f29178b78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06be952db1a96644096c6b8f29178b78">IsConnectingOrConnected</a><code> [get]</code></td></tr>
+<tr class="separator:a06be952db1a96644096c6b8f29178b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d5b094f09c1238392df42a4513e1a6b" id="r_a2d5b094f09c1238392df42a4513e1a6b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d5b094f09c1238392df42a4513e1a6b">TwitchTarget</a><code> [get, set]</code></td></tr>
 <tr class="separator:a2d5b094f09c1238392df42a4513e1a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaef0a0627b7093c26f9af67b7907304e" id="r_aaef0a0627b7093c26f9af67b7907304e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaef0a0627b7093c26f9af67b7907304e">ConnectedChannelOnSocket</a><code> [get, private set]</code></td></tr>
@@ -273,9 +277,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2e4748eef179632691d82065a9feca27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b5a335ce383d1219f4f6d91cd3bed1" id="r_a65b5a335ce383d1219f4f6d91cd3bed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b5a335ce383d1219f4f6d91cd3bed1">BuildCancelTokens</a> ()</td></tr>
 <tr class="separator:a65b5a335ce383d1219f4f6d91cd3bed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4505b1d3eb5529212c9f5958af0cce47" id="r_a4505b1d3eb5529212c9f5958af0cce47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4505b1d3eb5529212c9f5958af0cce47">GetSettings</a> ()</td></tr>
-<tr class="memdesc:a4505b1d3eb5529212c9f5958af0cce47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to aquire information required to start Twitch IRC.  <br /></td></tr>
-<tr class="separator:a4505b1d3eb5529212c9f5958af0cce47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a5b2d5e8165f8660620be0ff917b6a" id="r_a43a5b2d5e8165f8660620be0ff917b6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a5b2d5e8165f8660620be0ff917b6a">GetSettings</a> ()</td></tr>
+<tr class="memdesc:a43a5b2d5e8165f8660620be0ff917b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to aquire information required to start Twitch IRC.  <br /></td></tr>
+<tr class="separator:a43a5b2d5e8165f8660620be0ff917b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4073572a6f967f5bc28c3be3a217117e" id="r_a4073572a6f967f5bc28c3be3a217117e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4073572a6f967f5bc28c3be3a217117e">ReadAsyncCallback</a> (IAsyncResult result)</td></tr>
 <tr class="memdesc:a4073572a6f967f5bc28c3be3a217117e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process response received in the IRC.  <br /></td></tr>
 <tr class="separator:a4073572a6f967f5bc28c3be3a217117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -538,8 +542,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4505b1d3eb5529212c9f5958af0cce47" name="a4505b1d3eb5529212c9f5958af0cce47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4505b1d3eb5529212c9f5958af0cce47">&#9670;&#160;</a></span>GetSettings()</h2>
+<a id="a43a5b2d5e8165f8660620be0ff917b6a" name="a43a5b2d5e8165f8660620be0ff917b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a5b2d5e8165f8660620be0ff917b6a">&#9670;&#160;</a></span>GetSettings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -548,7 +552,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.IRC.TwitchIRCClient.GetSettings </td>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.TwitchIRCClient.GetSettings </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -2069,6 +2073,50 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool ScoredProductions.StreamLinked.IRC.TwitchIRCClient.IsConnected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa41f6c4acee2d5849dd4ab02408ed71" name="aaa41f6c4acee2d5849dd4ab02408ed71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa41f6c4acee2d5849dd4ab02408ed71">&#9670;&#160;</a></span>IsConnecting</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.TwitchIRCClient.IsConnecting</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06be952db1a96644096c6b8f29178b78" name="a06be952db1a96644096c6b8f29178b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06be952db1a96644096c6b8f29178b78">&#9670;&#160;</a></span>IsConnectingOrConnected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.IRC.TwitchIRCClient.IsConnectingOrConnected</td>
         </tr>
       </table>
   </td>
