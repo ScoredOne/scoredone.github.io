@@ -7,8 +7,11 @@ var class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_
       [ "CircularReference", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a60b3563c85f83d5fe9aa360244888fafac3ae4f9a09186eb50cebe868d6b65cc9", null ]
     ] ],
     [ "JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a378a44aa8d05e30b8f43cdff0b1f8dff", null ],
+    [ "JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a22d7d3f2f54ea0fff26c1638c3fb502e", null ],
     [ "JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a0a4181ded355b177b2e309400e2babe0", null ],
+    [ "JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#abf2901a8e53a5701c4d06babb6c30b8e", null ],
     [ "JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a85d81bc06c8b06ede60816a9edbb7d6e", null ],
-    [ "GetDefaultMessage", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a2383d5a89dc75208c515dad63c894027", null ],
+    [ "JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a324a4d668a8c0a739d9906c8f099b363", null ],
+    [ "GetDefaultMessage", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#ada9fcc2038d65855ae79588e0aa8b2d6", null ],
     [ "Type", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html#a476361b72351dab0d6e82d34c498bad2", null ]
 ];

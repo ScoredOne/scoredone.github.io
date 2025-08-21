@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -124,6 +124,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb097f8bb35e65faf9849d3d4e4ddc4a" id="r_aeb097f8bb35e65faf9849d3d4e4ddc4a"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb097f8bb35e65faf9849d3d4e4ddc4a">RichTextSize</a> (this string str, int size)</td></tr>
 <tr class="memdesc:aeb097f8bb35e65faf9849d3d4e4ddc4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt;size={0}&gt;value&lt;/size&gt;  <br /></td></tr>
 <tr class="separator:aeb097f8bb35e65faf9849d3d4e4ddc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae617462e0fdb38b83e7b58e67e23b52c" id="r_ae617462e0fdb38b83e7b58e67e23b52c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae617462e0fdb38b83e7b58e67e23b52c">IsNullOrEmpty</a> (this Array array, out int len)</td></tr>
+<tr class="memdesc:ae617462e0fdb38b83e7b58e67e23b52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handy for strings, why not arrays.  <br /></td></tr>
+<tr class="separator:ae617462e0fdb38b83e7b58e67e23b52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725e9da5f4a4dab2f14e28edf97ed729" id="r_a725e9da5f4a4dab2f14e28edf97ed729"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a725e9da5f4a4dab2f14e28edf97ed729">IsNullOrEmpty</a> (this Array array)</td></tr>
 <tr class="memdesc:a725e9da5f4a4dab2f14e28edf97ed729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handy for strings, why not arrays.  <br /></td></tr>
 <tr class="separator:a725e9da5f4a4dab2f14e28edf97ed729"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,10 +136,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a39239cf47ee0ffb84205ad4fee87fa97" id="r_a39239cf47ee0ffb84205ad4fee87fa97"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39239cf47ee0ffb84205ad4fee87fa97">MakeReadable</a> (this string[] value)</td></tr>
 <tr class="memdesc:a39239cf47ee0ffb84205ad4fee87fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies string.ToReadable to each value in array.  <br /></td></tr>
 <tr class="separator:a39239cf47ee0ffb84205ad4fee87fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59876cb2ae4f067861fe65c8087be03" id="r_ae59876cb2ae4f067861fe65c8087be03"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59876cb2ae4f067861fe65c8087be03">YieldTask</a> (this Task work)</td></tr>
+<tr class="memdesc:ae59876cb2ae4f067861fe65c8087be03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps the task inside an <code>IEnumerator</code> and runs the task on another thread.  <br /></td></tr>
+<tr class="separator:ae59876cb2ae4f067861fe65c8087be03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c6ad86b2375654e80108c735727b0da" id="r_a6c6ad86b2375654e80108c735727b0da"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c6ad86b2375654e80108c735727b0da">YieldTask&lt; T &gt;</a> (this Task&lt; T &gt; work)</td></tr>
+<tr class="memdesc:a6c6ad86b2375654e80108c735727b0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps the task inside an <code>IEnumerator</code> and runs the task on another thread, result is stored in the completed <code>IEnumerator</code> via the <code>value.Current</code>  <br /></td></tr>
+<tr class="separator:a6c6ad86b2375654e80108c735727b0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a725e9da5f4a4dab2f14e28edf97ed729" name="a725e9da5f4a4dab2f14e28edf97ed729"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a725e9da5f4a4dab2f14e28edf97ed729">&#9670;&#160;</a></span>IsNullOrEmpty()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a725e9da5f4a4dab2f14e28edf97ed729">&#9670;&#160;</a></span>IsNullOrEmpty() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,6 +171,45 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">array</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae617462e0fdb38b83e7b58e67e23b52c" name="ae617462e0fdb38b83e7b58e67e23b52c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae617462e0fdb38b83e7b58e67e23b52c">&#9670;&#160;</a></span>IsNullOrEmpty() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ScoredProductions.StreamLinked.Utility.Extensions.IsNullOrEmpty </td>
+          <td>(</td>
+          <td class="paramtype">this Array</td>          <td class="paramname"><span class="paramname"><em>array</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handy for strings, why not arrays. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">array</td><td></td></tr>
+    <tr><td class="paramname">len</td><td>Found Length of the array</td></tr>
   </table>
   </dd>
 </dl>
@@ -482,6 +530,80 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ae59876cb2ae4f067861fe65c8087be03" name="ae59876cb2ae4f067861fe65c8087be03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59876cb2ae4f067861fe65c8087be03">&#9670;&#160;</a></span>YieldTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IEnumerator ScoredProductions.StreamLinked.Utility.Extensions.YieldTask </td>
+          <td>(</td>
+          <td class="paramtype">this Task</td>          <td class="paramname"><span class="paramname"><em>work</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wraps the task inside an <code>IEnumerator</code> and runs the task on another thread. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">work</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a6c6ad86b2375654e80108c735727b0da" name="a6c6ad86b2375654e80108c735727b0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6ad86b2375654e80108c735727b0da">&#9670;&#160;</a></span>YieldTask&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IEnumerator <a class="el" href="#ae59876cb2ae4f067861fe65c8087be03">ScoredProductions.StreamLinked.Utility.Extensions.YieldTask</a>&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this Task&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>work</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wraps the task inside an <code>IEnumerator</code> and runs the task on another thread, result is stored in the completed <code>IEnumerator</code> via the <code>value.Current</code> </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">work</td><td></td></tr>
   </table>
   </dd>
 </dl>

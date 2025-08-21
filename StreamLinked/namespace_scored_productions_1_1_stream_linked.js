@@ -1,7 +1,6 @@
 var namespace_scored_productions_1_1_stream_linked =
 [
     [ "API", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i" ],
-    [ "Editor", "namespace_scored_productions_1_1_stream_linked_1_1_editor.html", "namespace_scored_productions_1_1_stream_linked_1_1_editor" ],
     [ "EventSub", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub.html", "namespace_scored_productions_1_1_stream_linked_1_1_event_sub" ],
     [ "IRC", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c" ],
     [ "LightJson", "namespace_scored_productions_1_1_stream_linked_1_1_light_json.html", "namespace_scored_productions_1_1_stream_linked_1_1_light_json" ],

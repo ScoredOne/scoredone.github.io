@@ -10,6 +10,7 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_con
     [ "IsDownloaded", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#a8b5df2e243b74ae45fc4fdb571166db9", null ],
     [ "MarkUnused", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#addd2ad1f41c773ab02adb052ba973185", null ],
     [ "TextmeshFormating", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#addacdce3149fbda762eecc918c0e127d", null ],
+    [ "ToString", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#af00f4cf7f7e38469fa3485cd70fe099f", null ],
     [ "GlobalRoomValue", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#a8781425c93958925e53efd41bb588734", null ],
     [ "AssociatedChannel", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#ad147435f2c8d6f92d47d691d8047eaea", null ],
     [ "IgnoreBadge", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html#aa65e3e851a96194436ef4d792d5a8f2d", null ],

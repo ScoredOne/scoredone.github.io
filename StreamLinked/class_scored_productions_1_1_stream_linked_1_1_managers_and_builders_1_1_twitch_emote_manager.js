@@ -1,7 +1,9 @@
 var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager =
 [
     [ "Awake", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a357c01582e0edd945e68872eadc807c5", null ],
+    [ "CreateOrGetInstance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a77b8f1a3f4152d4b80278eb16a9a1bec", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#abedf84cbc948a1b9d8267c2c614e1847", null ],
+    [ "DeleteInstance", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a2c368b0bde86706dc1a4a84bba5ae672", null ],
     [ "DownloadEmoteFromWeb", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#ac02b815c93ba262404e6337173785d7b", null ],
     [ "DownloaderService", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#aff87b6add82299571a4ff83b25c08669", null ],
     [ "EndFunctionality", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a40726f5c734c34bd82dd91dd2aa74178", null ],

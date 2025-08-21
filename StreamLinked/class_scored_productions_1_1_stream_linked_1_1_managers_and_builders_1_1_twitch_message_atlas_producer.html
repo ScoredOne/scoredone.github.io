@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -133,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2cd5d69f29aa67abd02fbbd9229e994f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ad655f3a8f7cde6bb3779177966188" id="r_a17ad655f3a8f7cde6bb3779177966188"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ad655f3a8f7cde6bb3779177966188">AtlasProducerCoroutine</a> (<a class="el" href="class_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_coroutine_wrapper.html">CoroutineWrapper</a> self)</td></tr>
 <tr class="separator:a17ad655f3a8f7cde6bb3779177966188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c368b0bde86706dc1a4a84bba5ae672" id="r_a2c368b0bde86706dc1a4a84bba5ae672"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a2c368b0bde86706dc1a4a84bba5ae672">DeleteInstance</a> ()</td></tr>
+<tr class="memdesc:a2c368b0bde86706dc1a4a84bba5ae672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete singleton from the scene.  <br /></td></tr>
+<tr class="separator:a2c368b0bde86706dc1a4a84bba5ae672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -142,6 +145,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abedf84cbc948a1b9d8267c2c614e1847" id="r_abedf84cbc948a1b9d8267c2c614e1847"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#abedf84cbc948a1b9d8267c2c614e1847">CreateOrGetInstance</a> (out T instance)</td></tr>
 <tr class="memdesc:abedf84cbc948a1b9d8267c2c614e1847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current instance, if a singleton doesnt exist, it will create one.  <br /></td></tr>
 <tr class="separator:abedf84cbc948a1b9d8267c2c614e1847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b8f1a3f4152d4b80278eb16a9a1bec" id="r_a77b8f1a3f4152d4b80278eb16a9a1bec"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a77b8f1a3f4152d4b80278eb16a9a1bec">CreateOrGetInstance</a> (GameObject prefab, out T instance)</td></tr>
+<tr class="memdesc:a77b8f1a3f4152d4b80278eb16a9a1bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current instance, if a singleton doesnt exist, it will create one with the provided prefab.  <br /></td></tr>
+<tr class="separator:a77b8f1a3f4152d4b80278eb16a9a1bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -269,8 +275,39 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a77b8f1a3f4152d4b80278eb16a9a1bec" name="a77b8f1a3f4152d4b80278eb16a9a1bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b8f1a3f4152d4b80278eb16a9a1bec">&#9670;&#160;</a></span>CreateOrGetInstance() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.CreateOrGetInstance </td>
+          <td>(</td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>prefab</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the current instance, if a singleton doesnt exist, it will create one with the provided prefab. </p>
+
+</div>
+</div>
 <a id="abedf84cbc948a1b9d8267c2c614e1847" name="abedf84cbc948a1b9d8267c2c614e1847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abedf84cbc948a1b9d8267c2c614e1847">&#9670;&#160;</a></span>CreateOrGetInstance()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abedf84cbc948a1b9d8267c2c614e1847">&#9670;&#160;</a></span>CreateOrGetInstance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,6 +330,33 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current instance, if a singleton doesnt exist, it will create one. </p>
+
+</div>
+</div>
+<a id="a2c368b0bde86706dc1a4a84bba5ae672" name="a2c368b0bde86706dc1a4a84bba5ae672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c368b0bde86706dc1a4a84bba5ae672">&#9670;&#160;</a></span>DeleteInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.DeleteInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete singleton from the scene. </p>
 
 </div>
 </div>

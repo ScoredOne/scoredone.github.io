@@ -1,0 +1,4 @@
+var _event_sub_polls_startup_example_8cs =
+[
+    [ "ScoredProductions.StreamLinked.TwitchSceneFiles.EventSubPollsStartupExample", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_event_sub_polls_startup_example.html", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_event_sub_polls_startup_example" ]
+];

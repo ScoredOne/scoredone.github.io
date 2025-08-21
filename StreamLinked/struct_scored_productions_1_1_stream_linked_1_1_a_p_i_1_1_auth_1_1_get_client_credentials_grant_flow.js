@@ -1,8 +1,10 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow =
 [
     [ "EndpointIsAuthRequest", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a24a5874130bc8ac876b4e9b28c60e20a", null ],
+    [ "GenerateBodyString", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a5799b48aa6925a4e037682b7a949b3e9", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a4f65a8aad6ee668798334c2dd4a23c9e", null ],
+    [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a0a8a087d132eeca1f2f51ca87438f481", null ],
     [ "access_token", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a9d9c39120a81312ab0203347d93e8617", null ],
     [ "CLIENT_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a3470c517a85be6857e142b5fcdb8a2df", null ],
     [ "CLIENT_SECRET", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_client_credentials_grant_flow.html#a1f3de7d5622b4f31ca8e500b5e104667", null ],

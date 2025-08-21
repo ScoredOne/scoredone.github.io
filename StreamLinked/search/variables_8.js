@@ -17,6 +17,5 @@ var searchData=
   ['host_5fvideo_5fenabled_14',['HOST_VIDEO_ENABLED',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a0242819c2c78f484681ec8524b759657',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['host_5fvolume_15',['HOST_VOLUME',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a661cc20eebcee192611a6c4de492d40f',1,'ScoredProductions::StreamLinked::TwitchWords']]],
   ['hosttarget_16',['HOSTTARGET',['../class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a0becb05d71f263eafad4c8ffd56ae9fa',1,'ScoredProductions::StreamLinked::TwitchWords']]],
-  ['httplistenercancellationtoken_17',['HttpListenerCancellationToken',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html#ac33facf0f96f068a5289460c63bc009c',1,'ScoredProductions::StreamLinked::API::TwitchAPIClient']]],
-  ['httpmethod_18',['HTTPMethod',['../class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a0e3600d4dc505aabd327fef836dbf9bc',1,'ScoredProductions::StreamLinked::VisualScripting::TwitchAPIRequest']]]
+  ['httpmethod_17',['HTTPMethod',['../class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a0e3600d4dc505aabd327fef836dbf9bc',1,'ScoredProductions::StreamLinked::VisualScripting::TwitchAPIRequest']]]
 ];

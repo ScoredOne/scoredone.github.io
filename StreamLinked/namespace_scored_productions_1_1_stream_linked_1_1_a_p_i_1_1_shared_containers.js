@@ -1,5 +1,6 @@
 var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers =
 [
+    [ "All_Time_High", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_all___time___high.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_all___time___high" ],
     [ "Amount", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_amount.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_amount" ],
     [ "AudioSettings", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_audio_settings.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_audio_settings" ],
     [ "BadgeVersion", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_badge_version.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_badge_version" ],
@@ -7,6 +8,7 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containe
     [ "Choice", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice" ],
     [ "Color", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_color.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_color" ],
     [ "Cost", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_cost.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_cost" ],
+    [ "Current", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_current.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_current" ],
     [ "DateRange", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_date_range.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_date_range" ],
     [ "DropReason", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_drop_reason.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_drop_reason" ],
     [ "Errors", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_errors.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_errors" ],
@@ -35,6 +37,7 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containe
     [ "Secrets", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_secrets.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_secrets" ],
     [ "Segment", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_segment.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_segment" ],
     [ "Shards", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_shards.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_shards" ],
+    [ "Shared_All_Time_High", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_shared___all___time___high.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_shared___all___time___high" ],
     [ "Size", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_size.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_size" ],
     [ "Tiers", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_tiers.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_tiers" ],
     [ "TopContribution", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_contribution.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_contribution" ],

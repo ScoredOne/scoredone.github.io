@@ -25,7 +25,8 @@
 var menudata={children:[
 {text:"Home",url:"https://scoredone.github.io/"},
 {text:"Asset Store Page",url:"https://assetstore.unity.com/packages/slug/273978"},
-{text:"Main Page",url:"docs.html"},
+{text:"Main Page",url:"index.html"},
+{text:"Related Pages",url:"pages.html"},
 {text:"Packages",url:"namespaces.html",children:[
 {text:"Package List",url:"namespaces.html"},
 {text:"Package Members",url:"namespacemembers.html",children:[
@@ -90,7 +91,8 @@ var menudata={children:[
 {text:"u",url:"functions_func_u.html#index_u"},
 {text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"},
-{text:"x",url:"functions_func_x.html#index_x"}]},
+{text:"x",url:"functions_func_x.html#index_x"},
+{text:"y",url:"functions_func_y.html#index_y"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"_",url:"functions_vars.html#index__5F"},
 {text:"a",url:"functions_vars_a.html#index_a"},

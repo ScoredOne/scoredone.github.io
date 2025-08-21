@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -213,21 +213,25 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a6b28cea9478d3a53bbdb30f1768ec96e">Channel_Goal_End</a> = 61
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ae0cd8cefa513a5090309954fc58ff89e">Channel_Hype_Train_Begin</a> = 62
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a14c43bcfc7e26611e746c67d4a50deb2">Channel_Hype_Train_Begin_V2</a> = 82
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6afbaeeae8b799fc62792bdd5b17bbb6e9">Channel_Hype_Train_Progress</a> = 63
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac815a971e3f4353ea754d99a5edebdde">Channel_Hype_Train_End</a> = 64
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a82355952baa00a0a0ed958ffb4cb3ad7">Channel_Shield_Mode_Begin</a> = 65
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6a37cad20849078201b927010e93417279">Channel_Shield_Mode_End</a> = 66
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6abbd65584e9ea070397aa2858e3da7f9c">Channel_Hype_Train_Progress_V2</a> = 83
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac815a971e3f4353ea754d99a5edebdde">Channel_Hype_Train_End</a> = 64
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a105c184391698ca2ecadf8b70278f1c3">Channel_Hype_Train_End_V2</a> = 84
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6a82355952baa00a0a0ed958ffb4cb3ad7">Channel_Shield_Mode_Begin</a> = 65
+, <br />
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6a37cad20849078201b927010e93417279">Channel_Shield_Mode_End</a> = 66
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a61360ba2a1c624501b3264bd3e2a406e">Channel_Shoutout_Create</a> = 67
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ab1ed3ab56333339e897e784744b5ab76">Channel_Shoutout_Received</a> = 68
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac6fa1700ade790d02f5f3968b6b1acbd">Stream_Online</a> = 69
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ac6fa1700ade790d02f5f3968b6b1acbd">Stream_Online</a> = 69
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6ac1e181c0f4715e06c0bb3ff5729532c1">Stream_Offline</a> = 70
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ac1e181c0f4715e06c0bb3ff5729532c1">Stream_Offline</a> = 70
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6a983dff44dbf395de6149f05c918d30a4">User_Authorization_Grant</a> = 71
 , <a class="el" href="#ac95ff2080109771673bc2659918128f6ae3053b08c6e47f5646e2d4d58fff7750">User_Authorization_Revoke</a> = 72
+, <a class="el" href="#ac95ff2080109771673bc2659918128f6afd9361b00ce85ead84c2a1719a8da404">User_Update</a> = 73
 , <br />
-&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6afd9361b00ce85ead84c2a1719a8da404">User_Update</a> = 73
-, <a class="el" href="#ac95ff2080109771673bc2659918128f6ab1c68d38d4a56cf5ca1df4eccf22d29c">Whisper_Received</a> = 74
+&#160;&#160;<a class="el" href="#ac95ff2080109771673bc2659918128f6ab1c68d38d4a56cf5ca1df4eccf22d29c">Whisper_Received</a> = 74
 <br />
  }</td></tr>
 <tr class="memdesc:ac95ff2080109771673bc2659918128f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">All EventSub Subscription Types, each attributed with its true string value and version, both accessible with extension.  <a href="#ac95ff2080109771673bc2659918128f6">More...</a><br /></td></tr>
@@ -318,8 +322,11 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6aad1b160d160b28eca057988845cc9575" name="ac95ff2080109771673bc2659918128f6aad1b160d160b28eca057988845cc9575"></a>Channel_Goal_Progress&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a6b28cea9478d3a53bbdb30f1768ec96e" name="ac95ff2080109771673bc2659918128f6a6b28cea9478d3a53bbdb30f1768ec96e"></a>Channel_Goal_End&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6ae0cd8cefa513a5090309954fc58ff89e" name="ac95ff2080109771673bc2659918128f6ae0cd8cefa513a5090309954fc58ff89e"></a>Channel_Hype_Train_Begin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a14c43bcfc7e26611e746c67d4a50deb2" name="ac95ff2080109771673bc2659918128f6a14c43bcfc7e26611e746c67d4a50deb2"></a>Channel_Hype_Train_Begin_V2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6afbaeeae8b799fc62792bdd5b17bbb6e9" name="ac95ff2080109771673bc2659918128f6afbaeeae8b799fc62792bdd5b17bbb6e9"></a>Channel_Hype_Train_Progress&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6abbd65584e9ea070397aa2858e3da7f9c" name="ac95ff2080109771673bc2659918128f6abbd65584e9ea070397aa2858e3da7f9c"></a>Channel_Hype_Train_Progress_V2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6ac815a971e3f4353ea754d99a5edebdde" name="ac95ff2080109771673bc2659918128f6ac815a971e3f4353ea754d99a5edebdde"></a>Channel_Hype_Train_End&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a105c184391698ca2ecadf8b70278f1c3" name="ac95ff2080109771673bc2659918128f6a105c184391698ca2ecadf8b70278f1c3"></a>Channel_Hype_Train_End_V2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a82355952baa00a0a0ed958ffb4cb3ad7" name="ac95ff2080109771673bc2659918128f6a82355952baa00a0a0ed958ffb4cb3ad7"></a>Channel_Shield_Mode_Begin&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a37cad20849078201b927010e93417279" name="ac95ff2080109771673bc2659918128f6a37cad20849078201b927010e93417279"></a>Channel_Shield_Mode_End&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac95ff2080109771673bc2659918128f6a61360ba2a1c624501b3264bd3e2a406e" name="ac95ff2080109771673bc2659918128f6a61360ba2a1c624501b3264bd3e2a406e"></a>Channel_Shoutout_Create&#160;</td><td class="fielddoc"></td></tr>

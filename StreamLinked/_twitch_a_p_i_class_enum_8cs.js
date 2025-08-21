@@ -85,6 +85,7 @@ var _twitch_a_p_i_class_enum_8cs =
       [ "UpdateGuestStarSlot", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5abd3e0330a99ddeaeb76e13dad25749e1", null ],
       [ "UpdateGuestStarSlotSettings", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a80142db2b61c4c160df4e701a1337fc6", null ],
       [ "GetHypeTrainEvents", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a001a3ad9be4ff0c20339e4f7a9ecdc77", null ],
+      [ "GetHypeTrainStatus", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a191c62dec06ec33dc562bdc8cc61e843", null ],
       [ "AddBlockedTerm", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a29b8e64ca61f6f3e0a60256da73dfb4f", null ],
       [ "AddChannelModerator", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5ab96de4b7c2652912a9f48822747aa16c", null ],
       [ "AddChannelVIP", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a71536e75e1935399fc11d1855c91545a", null ],

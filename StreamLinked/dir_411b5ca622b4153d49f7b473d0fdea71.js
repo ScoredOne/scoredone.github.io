@@ -1,5 +1,6 @@
 var dir_411b5ca622b4153d49f7b473d0fdea71 =
 [
+    [ "All_Time_High.cs", "_all___time___high_8cs.html", "_all___time___high_8cs" ],
     [ "Amount.cs", "_twitch_a_p_i_2_a_p_i_endpoints_2_shared_containers_2_amount_8cs.html", "_twitch_a_p_i_2_a_p_i_endpoints_2_shared_containers_2_amount_8cs" ],
     [ "AudioSettings.cs", "_audio_settings_8cs.html", "_audio_settings_8cs" ],
     [ "BadgeVersion.cs", "_badge_version_8cs.html", "_badge_version_8cs" ],
@@ -7,6 +8,7 @@ var dir_411b5ca622b4153d49f7b473d0fdea71 =
     [ "Choice.cs", "_choice_8cs.html", "_choice_8cs" ],
     [ "Color.cs", "_color_8cs.html", "_color_8cs" ],
     [ "Cost.cs", "_cost_8cs.html", "_cost_8cs" ],
+    [ "Current.cs", "_current_8cs.html", "_current_8cs" ],
     [ "DateRange.cs", "_date_range_8cs.html", "_date_range_8cs" ],
     [ "DropReason.cs", "_drop_reason_8cs.html", "_drop_reason_8cs" ],
     [ "Errors.cs", "_errors_8cs.html", "_errors_8cs" ],
@@ -34,6 +36,7 @@ var dir_411b5ca622b4153d49f7b473d0fdea71 =
     [ "Secrets.cs", "_secrets_8cs.html", "_secrets_8cs" ],
     [ "Segment.cs", "_segment_8cs.html", "_segment_8cs" ],
     [ "Shards.cs", "_shards_8cs.html", "_shards_8cs" ],
+    [ "Shared_All_Time_High.cs", "_shared___all___time___high_8cs.html", "_shared___all___time___high_8cs" ],
     [ "Size.cs", "_size_8cs.html", "_size_8cs" ],
     [ "Tiers.cs", "_tiers_8cs.html", "_tiers_8cs" ],
     [ "TopContribution.cs", "_top_contribution_8cs.html", "_top_contribution_8cs" ],

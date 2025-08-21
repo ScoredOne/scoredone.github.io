@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token =
 [
     [ "EndpointIsAuthRequest", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a24a5874130bc8ac876b4e9b28c60e20a", null ],
+    [ "GenerateBodyString", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#af314d9292453342c877d824072a69e0f", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a840a1a09d9fb029371401d687531e31c", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_authorization_code_token.html#a661b6633a5f5691d153cf62dbc0824b7", null ],

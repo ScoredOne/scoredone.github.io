@@ -1,6 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh =
 [
     [ "EndpointIsAuthRequest", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a24a5874130bc8ac876b4e9b28c60e20a", null ],
+    [ "GenerateBodyString", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a4b5c6356ccb8e329e46807d197f3f007", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a6f89c3fff009158f9c22e99453323469", null ],
     [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh.html#a6fde3e6f495436c19eed04a071b6d27d", null ],

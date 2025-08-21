@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -106,195 +106,199 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_a_p_i_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a9b0b28da59124d4c4852401f425fad07" id="r_a9b0b28da59124d4c4852401f425fad07"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> = &quot;https://api.twitch.tv/&quot;</td></tr>
+<tr class="memitem:a9b0b28da59124d4c4852401f425fad07" id="r_a9b0b28da59124d4c4852401f425fad07"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> = &quot;https://api.twitch.tv/helix/&quot;</td></tr>
 <tr class="separator:a9b0b28da59124d4c4852401f425fad07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac96c59625d4ccb7e8156d6acd210de1" id="r_aac96c59625d4ccb7e8156d6acd210de1"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac96c59625d4ccb7e8156d6acd210de1">StartCommercial</a> = &quot;https://api.twitch.tv/helix/channels/commercial&quot;</td></tr>
+<tr class="memitem:aac96c59625d4ccb7e8156d6acd210de1" id="r_aac96c59625d4ccb7e8156d6acd210de1"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac96c59625d4ccb7e8156d6acd210de1">StartCommercial</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/commercial&quot;</td></tr>
 <tr class="separator:aac96c59625d4ccb7e8156d6acd210de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace63e340f1e5bfa96331b01dcb7b9b03" id="r_ace63e340f1e5bfa96331b01dcb7b9b03"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace63e340f1e5bfa96331b01dcb7b9b03">GetAdSchedule</a> = &quot;https://api.twitch.tv/helix/channels/ads&quot;</td></tr>
+<tr class="memitem:ace63e340f1e5bfa96331b01dcb7b9b03" id="r_ace63e340f1e5bfa96331b01dcb7b9b03"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace63e340f1e5bfa96331b01dcb7b9b03">GetAdSchedule</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/ads&quot;</td></tr>
 <tr class="separator:ace63e340f1e5bfa96331b01dcb7b9b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab15123b9fc7488cd039946efbfde5a83" id="r_ab15123b9fc7488cd039946efbfde5a83"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab15123b9fc7488cd039946efbfde5a83">SnoozeNextAd</a> = &quot;https://api.twitch.tv/helix/channels/ads/schedule/snooze&quot;</td></tr>
+<tr class="memitem:ab15123b9fc7488cd039946efbfde5a83" id="r_ab15123b9fc7488cd039946efbfde5a83"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab15123b9fc7488cd039946efbfde5a83">SnoozeNextAd</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/ads/schedule/snooze&quot;</td></tr>
 <tr class="separator:ab15123b9fc7488cd039946efbfde5a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae572fb2ea09db4b4f2e74f0d3b74aeae" id="r_ae572fb2ea09db4b4f2e74f0d3b74aeae"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae572fb2ea09db4b4f2e74f0d3b74aeae">GetExtensionAnalytics</a> = &quot;https://api.twitch.tv/helix/analytics/extensions&quot;</td></tr>
+<tr class="memitem:ae572fb2ea09db4b4f2e74f0d3b74aeae" id="r_ae572fb2ea09db4b4f2e74f0d3b74aeae"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae572fb2ea09db4b4f2e74f0d3b74aeae">GetExtensionAnalytics</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;analytics/extensions&quot;</td></tr>
 <tr class="separator:ae572fb2ea09db4b4f2e74f0d3b74aeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae61c558e5929457308a0cb0c3dba2d30" id="r_ae61c558e5929457308a0cb0c3dba2d30"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61c558e5929457308a0cb0c3dba2d30">GetGameAnalytics</a> = &quot;https://api.twitch.tv/helix/analytics/games&quot;</td></tr>
+<tr class="memitem:ae61c558e5929457308a0cb0c3dba2d30" id="r_ae61c558e5929457308a0cb0c3dba2d30"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61c558e5929457308a0cb0c3dba2d30">GetGameAnalytics</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;analytics/games&quot;</td></tr>
 <tr class="separator:ae61c558e5929457308a0cb0c3dba2d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ffd61453df2c03d87d0b2c90cc26690" id="r_a8ffd61453df2c03d87d0b2c90cc26690"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ffd61453df2c03d87d0b2c90cc26690">GetBitsLeaderboard</a> = &quot;https://api.twitch.tv/helix/bits/leaderboard&quot;</td></tr>
+<tr class="memitem:a8ffd61453df2c03d87d0b2c90cc26690" id="r_a8ffd61453df2c03d87d0b2c90cc26690"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ffd61453df2c03d87d0b2c90cc26690">GetBitsLeaderboard</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;bits/leaderboard&quot;</td></tr>
 <tr class="separator:a8ffd61453df2c03d87d0b2c90cc26690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac58f735e2b9fc46a19d658463eeae0e4" id="r_ac58f735e2b9fc46a19d658463eeae0e4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac58f735e2b9fc46a19d658463eeae0e4">GetCheermotes</a> = &quot;https://api.twitch.tv/helix/bits/cheermotes&quot;</td></tr>
+<tr class="memitem:ac58f735e2b9fc46a19d658463eeae0e4" id="r_ac58f735e2b9fc46a19d658463eeae0e4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac58f735e2b9fc46a19d658463eeae0e4">GetCheermotes</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;bits/cheermotes&quot;</td></tr>
 <tr class="separator:ac58f735e2b9fc46a19d658463eeae0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a74dbb38ef47b156775f60795c8b4f6" id="r_a0a74dbb38ef47b156775f60795c8b4f6"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a74dbb38ef47b156775f60795c8b4f6">GetExtensionTransactions</a> = &quot;https://api.twitch.tv/helix/extensions/transactions&quot;</td></tr>
+<tr class="memitem:a0a74dbb38ef47b156775f60795c8b4f6" id="r_a0a74dbb38ef47b156775f60795c8b4f6"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a74dbb38ef47b156775f60795c8b4f6">GetExtensionTransactions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/transactions&quot;</td></tr>
 <tr class="separator:a0a74dbb38ef47b156775f60795c8b4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7dac2c43432d1983fb3975821af11e9" id="r_af7dac2c43432d1983fb3975821af11e9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7dac2c43432d1983fb3975821af11e9">ChannelInformation</a> = &quot;https://api.twitch.tv/helix/channels&quot;</td></tr>
+<tr class="memitem:af7dac2c43432d1983fb3975821af11e9" id="r_af7dac2c43432d1983fb3975821af11e9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7dac2c43432d1983fb3975821af11e9">ChannelInformation</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels&quot;</td></tr>
 <tr class="separator:af7dac2c43432d1983fb3975821af11e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaed633d650108516a6b8704f371da9a" id="r_abaed633d650108516a6b8704f371da9a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaed633d650108516a6b8704f371da9a">GetChannelEditors</a> = &quot;https://api.twitch.tv/helix/channels/editors&quot;</td></tr>
+<tr class="memitem:abaed633d650108516a6b8704f371da9a" id="r_abaed633d650108516a6b8704f371da9a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaed633d650108516a6b8704f371da9a">GetChannelEditors</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/editors&quot;</td></tr>
 <tr class="separator:abaed633d650108516a6b8704f371da9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95972724212f0b4bdec6777e8fab75b" id="r_ae95972724212f0b4bdec6777e8fab75b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95972724212f0b4bdec6777e8fab75b">GetFollowedChannels</a> = &quot;https://api.twitch.tv/helix/channels/followed&quot;</td></tr>
+<tr class="memitem:ae95972724212f0b4bdec6777e8fab75b" id="r_ae95972724212f0b4bdec6777e8fab75b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95972724212f0b4bdec6777e8fab75b">GetFollowedChannels</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/followed&quot;</td></tr>
 <tr class="separator:ae95972724212f0b4bdec6777e8fab75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf11bde280aee2b68827f6313807b647" id="r_adf11bde280aee2b68827f6313807b647"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf11bde280aee2b68827f6313807b647">GetChannelFollowers</a> = &quot;https://api.twitch.tv/helix/channels/followers&quot;</td></tr>
+<tr class="memitem:adf11bde280aee2b68827f6313807b647" id="r_adf11bde280aee2b68827f6313807b647"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf11bde280aee2b68827f6313807b647">GetChannelFollowers</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/followers&quot;</td></tr>
 <tr class="separator:adf11bde280aee2b68827f6313807b647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c44c7a8be86722590f6cccbd8eeff0" id="r_a86c44c7a8be86722590f6cccbd8eeff0"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c44c7a8be86722590f6cccbd8eeff0">CustomRewards</a> = &quot;https://api.twitch.tv/helix/channel_points/custom_rewards&quot;</td></tr>
+<tr class="memitem:a86c44c7a8be86722590f6cccbd8eeff0" id="r_a86c44c7a8be86722590f6cccbd8eeff0"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c44c7a8be86722590f6cccbd8eeff0">CustomRewards</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channel_points/custom_rewards&quot;</td></tr>
 <tr class="separator:a86c44c7a8be86722590f6cccbd8eeff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c709251a89f736c959c7ecea669a2f5" id="r_a2c709251a89f736c959c7ecea669a2f5"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c709251a89f736c959c7ecea669a2f5">CustomRewardRedemption</a> = &quot;https://api.twitch.tv/helix/channel_points/custom_rewards/redemptions&quot;</td></tr>
+<tr class="memitem:a2c709251a89f736c959c7ecea669a2f5" id="r_a2c709251a89f736c959c7ecea669a2f5"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c709251a89f736c959c7ecea669a2f5">CustomRewardRedemption</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channel_points/custom_rewards/redemptions&quot;</td></tr>
 <tr class="separator:a2c709251a89f736c959c7ecea669a2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25fc91b89b802b75087fb238bd3dce2a" id="r_a25fc91b89b802b75087fb238bd3dce2a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fc91b89b802b75087fb238bd3dce2a">GetCharityCampaign</a> = &quot;https://api.twitch.tv/helix/charity/campaigns&quot;</td></tr>
+<tr class="memitem:a25fc91b89b802b75087fb238bd3dce2a" id="r_a25fc91b89b802b75087fb238bd3dce2a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fc91b89b802b75087fb238bd3dce2a">GetCharityCampaign</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;charity/campaigns&quot;</td></tr>
 <tr class="separator:a25fc91b89b802b75087fb238bd3dce2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec1b53cd401e41589dec033c639a08a" id="r_a7ec1b53cd401e41589dec033c639a08a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec1b53cd401e41589dec033c639a08a">GetCharityCampaignDonations</a> = &quot;https://api.twitch.tv/helix/charity/donations&quot;</td></tr>
+<tr class="memitem:a7ec1b53cd401e41589dec033c639a08a" id="r_a7ec1b53cd401e41589dec033c639a08a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec1b53cd401e41589dec033c639a08a">GetCharityCampaignDonations</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;charity/donations&quot;</td></tr>
 <tr class="separator:a7ec1b53cd401e41589dec033c639a08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee39d5132a2fbcf236c6a61351482dd8" id="r_aee39d5132a2fbcf236c6a61351482dd8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee39d5132a2fbcf236c6a61351482dd8">GetChatters</a> = &quot;https://api.twitch.tv/helix/chat/chatters&quot;</td></tr>
+<tr class="memitem:aee39d5132a2fbcf236c6a61351482dd8" id="r_aee39d5132a2fbcf236c6a61351482dd8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee39d5132a2fbcf236c6a61351482dd8">GetChatters</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/chatters&quot;</td></tr>
 <tr class="separator:aee39d5132a2fbcf236c6a61351482dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a241759acc7030269f273acaf809cdcd7" id="r_a241759acc7030269f273acaf809cdcd7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a241759acc7030269f273acaf809cdcd7">GetUserEmotes</a> = &quot;https://api.twitch.tv/helix/chat/emotes/user&quot;</td></tr>
+<tr class="memitem:a241759acc7030269f273acaf809cdcd7" id="r_a241759acc7030269f273acaf809cdcd7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a241759acc7030269f273acaf809cdcd7">GetUserEmotes</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes/user&quot;</td></tr>
 <tr class="separator:a241759acc7030269f273acaf809cdcd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4a85ed878bb4b025e8347858666c533" id="r_ad4a85ed878bb4b025e8347858666c533"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4a85ed878bb4b025e8347858666c533">GetChannelEmotes</a> = &quot;https://api.twitch.tv/helix/chat/emotes&quot;</td></tr>
+<tr class="memitem:ad4a85ed878bb4b025e8347858666c533" id="r_ad4a85ed878bb4b025e8347858666c533"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4a85ed878bb4b025e8347858666c533">GetChannelEmotes</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes&quot;</td></tr>
 <tr class="separator:ad4a85ed878bb4b025e8347858666c533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a255108eca239c239913e30b392125392" id="r_a255108eca239c239913e30b392125392"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255108eca239c239913e30b392125392">GetGlobalEmotes</a> = &quot;https://api.twitch.tv/helix/chat/emotes/global&quot;</td></tr>
+<tr class="memitem:a255108eca239c239913e30b392125392" id="r_a255108eca239c239913e30b392125392"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255108eca239c239913e30b392125392">GetGlobalEmotes</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes/global&quot;</td></tr>
 <tr class="separator:a255108eca239c239913e30b392125392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac44756df02ff6435009405c808261712" id="r_ac44756df02ff6435009405c808261712"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac44756df02ff6435009405c808261712">GetEmoteSets</a> = &quot;https://api.twitch.tv/helix/chat/emotes/set&quot;</td></tr>
+<tr class="memitem:ac44756df02ff6435009405c808261712" id="r_ac44756df02ff6435009405c808261712"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac44756df02ff6435009405c808261712">GetEmoteSets</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes/set&quot;</td></tr>
 <tr class="separator:ac44756df02ff6435009405c808261712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae83230b6871b7e0cd15c89a96d08b36a" id="r_ae83230b6871b7e0cd15c89a96d08b36a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae83230b6871b7e0cd15c89a96d08b36a">GetChannelChatBadges</a> = &quot;https://api.twitch.tv/helix/chat/badges&quot;</td></tr>
+<tr class="memitem:ae83230b6871b7e0cd15c89a96d08b36a" id="r_ae83230b6871b7e0cd15c89a96d08b36a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae83230b6871b7e0cd15c89a96d08b36a">GetChannelChatBadges</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/badges&quot;</td></tr>
 <tr class="separator:ae83230b6871b7e0cd15c89a96d08b36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a247940753096ba941acb14d220ecf655" id="r_a247940753096ba941acb14d220ecf655"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247940753096ba941acb14d220ecf655">GetGlobalChatBadges</a> = &quot;https://api.twitch.tv/helix/chat/badges/global&quot;</td></tr>
+<tr class="memitem:a247940753096ba941acb14d220ecf655" id="r_a247940753096ba941acb14d220ecf655"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247940753096ba941acb14d220ecf655">GetGlobalChatBadges</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/badges/global&quot;</td></tr>
 <tr class="separator:a247940753096ba941acb14d220ecf655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb91dbdc30e7182a2ec5387cc5a774e9" id="r_aeb91dbdc30e7182a2ec5387cc5a774e9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb91dbdc30e7182a2ec5387cc5a774e9">ChatSettings</a> = &quot;https://api.twitch.tv/helix/chat/settings&quot;</td></tr>
+<tr class="memitem:aeb91dbdc30e7182a2ec5387cc5a774e9" id="r_aeb91dbdc30e7182a2ec5387cc5a774e9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb91dbdc30e7182a2ec5387cc5a774e9">ChatSettings</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/settings&quot;</td></tr>
 <tr class="separator:aeb91dbdc30e7182a2ec5387cc5a774e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fb453edc1152a88f5c6f6de970ced59" id="r_a1fb453edc1152a88f5c6f6de970ced59"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb453edc1152a88f5c6f6de970ced59">SendChatAnnouncement</a> = &quot;https://api.twitch.tv/helix/chat/announcements&quot;</td></tr>
+<tr class="memitem:a1fb453edc1152a88f5c6f6de970ced59" id="r_a1fb453edc1152a88f5c6f6de970ced59"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb453edc1152a88f5c6f6de970ced59">SendChatAnnouncement</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/announcements&quot;</td></tr>
 <tr class="separator:a1fb453edc1152a88f5c6f6de970ced59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f039dd4ae0649727181f4fee6d10b2" id="r_a20f039dd4ae0649727181f4fee6d10b2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20f039dd4ae0649727181f4fee6d10b2">SendAShoutout</a> = &quot;https://api.twitch.tv/helix/chat/shoutouts&quot;</td></tr>
+<tr class="memitem:a20f039dd4ae0649727181f4fee6d10b2" id="r_a20f039dd4ae0649727181f4fee6d10b2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20f039dd4ae0649727181f4fee6d10b2">SendAShoutout</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/shoutouts&quot;</td></tr>
 <tr class="separator:a20f039dd4ae0649727181f4fee6d10b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87e8256b80863aed060e85d16f64b2c2" id="r_a87e8256b80863aed060e85d16f64b2c2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87e8256b80863aed060e85d16f64b2c2">UserChatColor</a> = &quot;https://api.twitch.tv/helix/chat/color&quot;</td></tr>
+<tr class="memitem:a87e8256b80863aed060e85d16f64b2c2" id="r_a87e8256b80863aed060e85d16f64b2c2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87e8256b80863aed060e85d16f64b2c2">UserChatColor</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/color&quot;</td></tr>
 <tr class="separator:a87e8256b80863aed060e85d16f64b2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c55233ea8a4764531ef92cf397e94ab" id="r_a8c55233ea8a4764531ef92cf397e94ab"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c55233ea8a4764531ef92cf397e94ab">Clips</a> = &quot;https://api.twitch.tv/helix/clips&quot;</td></tr>
+<tr class="memitem:a8c55233ea8a4764531ef92cf397e94ab" id="r_a8c55233ea8a4764531ef92cf397e94ab"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c55233ea8a4764531ef92cf397e94ab">Clips</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;clips&quot;</td></tr>
 <tr class="separator:a8c55233ea8a4764531ef92cf397e94ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add9ee86655bb1af513e30aabb5b0fb37" id="r_add9ee86655bb1af513e30aabb5b0fb37"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9ee86655bb1af513e30aabb5b0fb37">GetContentClassificationLabels</a> = &quot;https://api.twitch.tv/helix/content_classification_labels&quot;</td></tr>
+<tr class="memitem:add9ee86655bb1af513e30aabb5b0fb37" id="r_add9ee86655bb1af513e30aabb5b0fb37"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9ee86655bb1af513e30aabb5b0fb37">GetContentClassificationLabels</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;content_classification_labels&quot;</td></tr>
 <tr class="separator:add9ee86655bb1af513e30aabb5b0fb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f129e4bf9bc14aba3e502f6e993ee52" id="r_a9f129e4bf9bc14aba3e502f6e993ee52"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f129e4bf9bc14aba3e502f6e993ee52">DropsEntitlements</a> = &quot;https://api.twitch.tv/helix/entitlements/drops&quot;</td></tr>
+<tr class="memitem:a9f129e4bf9bc14aba3e502f6e993ee52" id="r_a9f129e4bf9bc14aba3e502f6e993ee52"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f129e4bf9bc14aba3e502f6e993ee52">DropsEntitlements</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;entitlements/drops&quot;</td></tr>
 <tr class="separator:a9f129e4bf9bc14aba3e502f6e993ee52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab4aa970feeecba5fc2e8d7ef992e473" id="r_aab4aa970feeecba5fc2e8d7ef992e473"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab4aa970feeecba5fc2e8d7ef992e473">ExtensionConfigurationSegment</a> = &quot;https://api.twitch.tv/helix/extensions/configurations&quot;</td></tr>
+<tr class="memitem:aab4aa970feeecba5fc2e8d7ef992e473" id="r_aab4aa970feeecba5fc2e8d7ef992e473"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab4aa970feeecba5fc2e8d7ef992e473">ExtensionConfigurationSegment</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/configurations&quot;</td></tr>
 <tr class="separator:aab4aa970feeecba5fc2e8d7ef992e473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4988898c21b8259c6563dbd793e8d58a" id="r_a4988898c21b8259c6563dbd793e8d58a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4988898c21b8259c6563dbd793e8d58a">SetExtensionRequiredConfiguration</a> = &quot;https://api.twitch.tv/helix/extensions/required_configuration&quot;</td></tr>
+<tr class="memitem:a4988898c21b8259c6563dbd793e8d58a" id="r_a4988898c21b8259c6563dbd793e8d58a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4988898c21b8259c6563dbd793e8d58a">SetExtensionRequiredConfiguration</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/required_configuration&quot;</td></tr>
 <tr class="separator:a4988898c21b8259c6563dbd793e8d58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95ee7aa84a1dc4e4b1edaa1b5c085617" id="r_a95ee7aa84a1dc4e4b1edaa1b5c085617"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ee7aa84a1dc4e4b1edaa1b5c085617">SendExtensionPubSubMessage</a> = &quot;https://api.twitch.tv/helix/extensions/pubsub&quot;</td></tr>
+<tr class="memitem:a95ee7aa84a1dc4e4b1edaa1b5c085617" id="r_a95ee7aa84a1dc4e4b1edaa1b5c085617"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ee7aa84a1dc4e4b1edaa1b5c085617">SendExtensionPubSubMessage</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/pubsub&quot;</td></tr>
 <tr class="separator:a95ee7aa84a1dc4e4b1edaa1b5c085617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc4d3d11e661564696342520f9414e2" id="r_afbc4d3d11e661564696342520f9414e2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc4d3d11e661564696342520f9414e2">GetExtensionLiveChannels</a> = &quot;https://api.twitch.tv/helix/extensions/live&quot;</td></tr>
+<tr class="memitem:afbc4d3d11e661564696342520f9414e2" id="r_afbc4d3d11e661564696342520f9414e2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc4d3d11e661564696342520f9414e2">GetExtensionLiveChannels</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/live&quot;</td></tr>
 <tr class="separator:afbc4d3d11e661564696342520f9414e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a126561d45284cdc3d1016df49d61ed" id="r_a1a126561d45284cdc3d1016df49d61ed"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a126561d45284cdc3d1016df49d61ed">ExtensionSecrets</a> = &quot;https://api.twitch.tv/helix/extensions/jwt/secrets&quot;</td></tr>
+<tr class="memitem:a1a126561d45284cdc3d1016df49d61ed" id="r_a1a126561d45284cdc3d1016df49d61ed"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a126561d45284cdc3d1016df49d61ed">ExtensionSecrets</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/jwt/secrets&quot;</td></tr>
 <tr class="separator:a1a126561d45284cdc3d1016df49d61ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91af38a55190efee51a1e86db20af66" id="r_ab91af38a55190efee51a1e86db20af66"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab91af38a55190efee51a1e86db20af66">SendExtensionChatMessage</a> = &quot;https://api.twitch.tv/helix/extensions/chat&quot;</td></tr>
+<tr class="memitem:ab91af38a55190efee51a1e86db20af66" id="r_ab91af38a55190efee51a1e86db20af66"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab91af38a55190efee51a1e86db20af66">SendExtensionChatMessage</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/chat&quot;</td></tr>
 <tr class="separator:ab91af38a55190efee51a1e86db20af66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95322c462f81fa1fb00f703eef8c25e" id="r_ae95322c462f81fa1fb00f703eef8c25e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95322c462f81fa1fb00f703eef8c25e">GetExtensions</a> = &quot;https://api.twitch.tv/helix/extensions&quot;</td></tr>
+<tr class="memitem:ae95322c462f81fa1fb00f703eef8c25e" id="r_ae95322c462f81fa1fb00f703eef8c25e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95322c462f81fa1fb00f703eef8c25e">GetExtensions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions&quot;</td></tr>
 <tr class="separator:ae95322c462f81fa1fb00f703eef8c25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6ca3fd943261d70ed6f64c7b4dcf7b4" id="r_af6ca3fd943261d70ed6f64c7b4dcf7b4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6ca3fd943261d70ed6f64c7b4dcf7b4">GetReleasedExtensions</a> = &quot;https://api.twitch.tv/helix/extensions/released&quot;</td></tr>
+<tr class="memitem:af6ca3fd943261d70ed6f64c7b4dcf7b4" id="r_af6ca3fd943261d70ed6f64c7b4dcf7b4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6ca3fd943261d70ed6f64c7b4dcf7b4">GetReleasedExtensions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/released&quot;</td></tr>
 <tr class="separator:af6ca3fd943261d70ed6f64c7b4dcf7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44dc011095031f1210589117456cfcd3" id="r_a44dc011095031f1210589117456cfcd3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dc011095031f1210589117456cfcd3">ExtensionBitsProducts</a> = &quot;https://api.twitch.tv/helix/bits/extensions&quot;</td></tr>
+<tr class="memitem:a44dc011095031f1210589117456cfcd3" id="r_a44dc011095031f1210589117456cfcd3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dc011095031f1210589117456cfcd3">ExtensionBitsProducts</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;bits/extensions&quot;</td></tr>
 <tr class="separator:a44dc011095031f1210589117456cfcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78aac805b7a3321a5c42f576dfff4ef5" id="r_a78aac805b7a3321a5c42f576dfff4ef5"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78aac805b7a3321a5c42f576dfff4ef5">EventSubSubscription</a> = &quot;https://api.twitch.tv/helix/eventsub/subscriptions&quot;</td></tr>
+<tr class="memitem:a78aac805b7a3321a5c42f576dfff4ef5" id="r_a78aac805b7a3321a5c42f576dfff4ef5"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78aac805b7a3321a5c42f576dfff4ef5">EventSubSubscription</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;eventsub/subscriptions&quot;</td></tr>
 <tr class="separator:a78aac805b7a3321a5c42f576dfff4ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017ea3207b1ab2edae3862548c3babfd" id="r_a017ea3207b1ab2edae3862548c3babfd"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017ea3207b1ab2edae3862548c3babfd">GetTopGames</a> = &quot;https://api.twitch.tv/helix/games/top&quot;</td></tr>
+<tr class="memitem:a017ea3207b1ab2edae3862548c3babfd" id="r_a017ea3207b1ab2edae3862548c3babfd"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017ea3207b1ab2edae3862548c3babfd">GetTopGames</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;games/top&quot;</td></tr>
 <tr class="separator:a017ea3207b1ab2edae3862548c3babfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5310318f5cb873450e448f86d6957b62" id="r_a5310318f5cb873450e448f86d6957b62"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5310318f5cb873450e448f86d6957b62">GetGames</a> = &quot;https://api.twitch.tv/helix/games&quot;</td></tr>
+<tr class="memitem:a5310318f5cb873450e448f86d6957b62" id="r_a5310318f5cb873450e448f86d6957b62"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5310318f5cb873450e448f86d6957b62">GetGames</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;games&quot;</td></tr>
 <tr class="separator:a5310318f5cb873450e448f86d6957b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745c314c95db687c814d5428b6793d34" id="r_a745c314c95db687c814d5428b6793d34"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a745c314c95db687c814d5428b6793d34">GetCreatorGoals</a> = &quot;https://api.twitch.tv/helix/goals&quot;</td></tr>
+<tr class="memitem:a745c314c95db687c814d5428b6793d34" id="r_a745c314c95db687c814d5428b6793d34"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a745c314c95db687c814d5428b6793d34">GetCreatorGoals</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;goals&quot;</td></tr>
 <tr class="separator:a745c314c95db687c814d5428b6793d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24c4f3b36258b2e04c16af110793f997" id="r_a24c4f3b36258b2e04c16af110793f997"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24c4f3b36258b2e04c16af110793f997">ChannelGuestStarSettings</a> = &quot;https://api.twitch.tv/helix/guest_star/channel_settings&quot;</td></tr>
+<tr class="memitem:a24c4f3b36258b2e04c16af110793f997" id="r_a24c4f3b36258b2e04c16af110793f997"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24c4f3b36258b2e04c16af110793f997">ChannelGuestStarSettings</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/channel_settings&quot;</td></tr>
 <tr class="separator:a24c4f3b36258b2e04c16af110793f997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bbf36f7ab4435c10c8ca6e0f030317d" id="r_a0bbf36f7ab4435c10c8ca6e0f030317d"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bbf36f7ab4435c10c8ca6e0f030317d">GuestStarSession</a> = &quot;https://api.twitch.tv/helix/guest_star/session&quot;</td></tr>
+<tr class="memitem:a0bbf36f7ab4435c10c8ca6e0f030317d" id="r_a0bbf36f7ab4435c10c8ca6e0f030317d"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bbf36f7ab4435c10c8ca6e0f030317d">GuestStarSession</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/session&quot;</td></tr>
 <tr class="separator:a0bbf36f7ab4435c10c8ca6e0f030317d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf430a9e81294d85523cb594aef0b833" id="r_aaf430a9e81294d85523cb594aef0b833"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf430a9e81294d85523cb594aef0b833">GuestStarInvites</a> = &quot;https://api.twitch.tv/helix/guest_star/invites&quot;</td></tr>
+<tr class="memitem:aaf430a9e81294d85523cb594aef0b833" id="r_aaf430a9e81294d85523cb594aef0b833"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf430a9e81294d85523cb594aef0b833">GuestStarInvites</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/invites&quot;</td></tr>
 <tr class="separator:aaf430a9e81294d85523cb594aef0b833"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bb1af3aa4ec7815c37fd737d6c3b413" id="r_a0bb1af3aa4ec7815c37fd737d6c3b413"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb1af3aa4ec7815c37fd737d6c3b413">GuestStarSlot</a> = &quot;https://api.twitch.tv/helix/guest_star/slot&quot;</td></tr>
+<tr class="memitem:a0bb1af3aa4ec7815c37fd737d6c3b413" id="r_a0bb1af3aa4ec7815c37fd737d6c3b413"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb1af3aa4ec7815c37fd737d6c3b413">GuestStarSlot</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/slot&quot;</td></tr>
 <tr class="separator:a0bb1af3aa4ec7815c37fd737d6c3b413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad05526eb85765cd5a8462553e498f0" id="r_a8ad05526eb85765cd5a8462553e498f0"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad05526eb85765cd5a8462553e498f0">UpdateGuestStarSlotSettings</a> = &quot;https://api.twitch.tv/helix/guest_star/slot_settings&quot;</td></tr>
+<tr class="memitem:a8ad05526eb85765cd5a8462553e498f0" id="r_a8ad05526eb85765cd5a8462553e498f0"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad05526eb85765cd5a8462553e498f0">UpdateGuestStarSlotSettings</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/slot_settings&quot;</td></tr>
 <tr class="separator:a8ad05526eb85765cd5a8462553e498f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c7ecdd7342b7385b397f810fc47d3a8" id="r_a8c7ecdd7342b7385b397f810fc47d3a8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7ecdd7342b7385b397f810fc47d3a8">GetHypeTrainEvents</a> = &quot;https://api.twitch.tv/helix/hypetrain/events&quot;</td></tr>
+<tr class="memitem:a8c7ecdd7342b7385b397f810fc47d3a8" id="r_a8c7ecdd7342b7385b397f810fc47d3a8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7ecdd7342b7385b397f810fc47d3a8">GetHypeTrainEvents</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;hypetrain/events&quot;</td></tr>
 <tr class="separator:a8c7ecdd7342b7385b397f810fc47d3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace602a560679ecf3de96144aa264ee1a" id="r_ace602a560679ecf3de96144aa264ee1a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace602a560679ecf3de96144aa264ee1a">CheckAutoModStatus</a> = &quot;https://api.twitch.tv/helix/moderation/enforcements/status&quot;</td></tr>
+<tr class="memitem:abd5b6f88d47e47d7237cfac01d71c353" id="r_abd5b6f88d47e47d7237cfac01d71c353"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd5b6f88d47e47d7237cfac01d71c353">GetHypeTrainStatus</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;hypetrain/status&quot;</td></tr>
+<tr class="separator:abd5b6f88d47e47d7237cfac01d71c353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace602a560679ecf3de96144aa264ee1a" id="r_ace602a560679ecf3de96144aa264ee1a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace602a560679ecf3de96144aa264ee1a">CheckAutoModStatus</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/enforcements/status&quot;</td></tr>
 <tr class="separator:ace602a560679ecf3de96144aa264ee1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9cdf2ef4a9336e2360bdb4e0de51a65" id="r_ae9cdf2ef4a9336e2360bdb4e0de51a65"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9cdf2ef4a9336e2360bdb4e0de51a65">ManageHeldAutoMessages</a> = &quot;https://api.twitch.tv/helix/moderation/automod/message&quot;</td></tr>
+<tr class="memitem:ae9cdf2ef4a9336e2360bdb4e0de51a65" id="r_ae9cdf2ef4a9336e2360bdb4e0de51a65"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9cdf2ef4a9336e2360bdb4e0de51a65">ManageHeldAutoMessages</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/automod/message&quot;</td></tr>
 <tr class="separator:ae9cdf2ef4a9336e2360bdb4e0de51a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a242b0c6d4e86f5e63a21626960eaabbc" id="r_a242b0c6d4e86f5e63a21626960eaabbc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a242b0c6d4e86f5e63a21626960eaabbc">AutoModSettings</a> = &quot;https://api.twitch.tv/helix/moderation/automod/settings&quot;</td></tr>
+<tr class="memitem:a242b0c6d4e86f5e63a21626960eaabbc" id="r_a242b0c6d4e86f5e63a21626960eaabbc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a242b0c6d4e86f5e63a21626960eaabbc">AutoModSettings</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/automod/settings&quot;</td></tr>
 <tr class="separator:a242b0c6d4e86f5e63a21626960eaabbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fd9541019c9b0f356e3b15eba6a4028" id="r_a7fd9541019c9b0f356e3b15eba6a4028"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fd9541019c9b0f356e3b15eba6a4028">GetBannedUsers</a> = &quot;https://api.twitch.tv/helix/moderation/banned&quot;</td></tr>
+<tr class="memitem:a7fd9541019c9b0f356e3b15eba6a4028" id="r_a7fd9541019c9b0f356e3b15eba6a4028"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fd9541019c9b0f356e3b15eba6a4028">GetBannedUsers</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/banned&quot;</td></tr>
 <tr class="separator:a7fd9541019c9b0f356e3b15eba6a4028"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5acd4ba225a5fc46d9ca372a33a6ca59" id="r_a5acd4ba225a5fc46d9ca372a33a6ca59"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5acd4ba225a5fc46d9ca372a33a6ca59">BanUser</a> = &quot;https://api.twitch.tv/helix/moderation/bans&quot;</td></tr>
+<tr class="memitem:a5acd4ba225a5fc46d9ca372a33a6ca59" id="r_a5acd4ba225a5fc46d9ca372a33a6ca59"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5acd4ba225a5fc46d9ca372a33a6ca59">BanUser</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/bans&quot;</td></tr>
 <tr class="separator:a5acd4ba225a5fc46d9ca372a33a6ca59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fd605ba2137d90765ff5d1bb8f99887" id="r_a7fd605ba2137d90765ff5d1bb8f99887"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fd605ba2137d90765ff5d1bb8f99887">BlockedTerms</a> = &quot;https://api.twitch.tv/helix/moderation/blocked_terms&quot;</td></tr>
+<tr class="memitem:a7fd605ba2137d90765ff5d1bb8f99887" id="r_a7fd605ba2137d90765ff5d1bb8f99887"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fd605ba2137d90765ff5d1bb8f99887">BlockedTerms</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/blocked_terms&quot;</td></tr>
 <tr class="separator:a7fd605ba2137d90765ff5d1bb8f99887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d926558e5bada778d5150d1c9bb8297" id="r_a8d926558e5bada778d5150d1c9bb8297"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d926558e5bada778d5150d1c9bb8297">DeleteChatMessages</a> = &quot;https://api.twitch.tv/helix/moderation/chat&quot;</td></tr>
+<tr class="memitem:a8d926558e5bada778d5150d1c9bb8297" id="r_a8d926558e5bada778d5150d1c9bb8297"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d926558e5bada778d5150d1c9bb8297">DeleteChatMessages</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/chat&quot;</td></tr>
 <tr class="separator:a8d926558e5bada778d5150d1c9bb8297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4469fa02a614f4c4208ef1a33debbf4" id="r_ab4469fa02a614f4c4208ef1a33debbf4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4469fa02a614f4c4208ef1a33debbf4">Moderators</a> = &quot;https://api.twitch.tv/helix/moderation/moderators&quot;</td></tr>
+<tr class="memitem:ab4469fa02a614f4c4208ef1a33debbf4" id="r_ab4469fa02a614f4c4208ef1a33debbf4"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4469fa02a614f4c4208ef1a33debbf4">Moderators</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/moderators&quot;</td></tr>
 <tr class="separator:ab4469fa02a614f4c4208ef1a33debbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1611978dd3810b72b2656faaf611d2a" id="r_ac1611978dd3810b72b2656faaf611d2a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1611978dd3810b72b2656faaf611d2a">WarnUser</a> = &quot;https://api.twitch.tv/helix/moderation/warnings&quot;</td></tr>
+<tr class="memitem:ac1611978dd3810b72b2656faaf611d2a" id="r_ac1611978dd3810b72b2656faaf611d2a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1611978dd3810b72b2656faaf611d2a">WarnUser</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/warnings&quot;</td></tr>
 <tr class="separator:ac1611978dd3810b72b2656faaf611d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4ef3527caf0c1bca1ba8f37b7f8e02b" id="r_ad4ef3527caf0c1bca1ba8f37b7f8e02b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4ef3527caf0c1bca1ba8f37b7f8e02b">VIPs</a> = &quot;https://api.twitch.tv/helix/channels/vips&quot;</td></tr>
+<tr class="memitem:ad4ef3527caf0c1bca1ba8f37b7f8e02b" id="r_ad4ef3527caf0c1bca1ba8f37b7f8e02b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4ef3527caf0c1bca1ba8f37b7f8e02b">VIPs</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/vips&quot;</td></tr>
 <tr class="separator:ad4ef3527caf0c1bca1ba8f37b7f8e02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ae0d5f04f8ea2af6f8175434ee72002" id="r_a2ae0d5f04f8ea2af6f8175434ee72002"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae0d5f04f8ea2af6f8175434ee72002">ShieldModeStatus</a> = &quot;https://api.twitch.tv/helix/moderation/shield_mode&quot;</td></tr>
+<tr class="memitem:a2ae0d5f04f8ea2af6f8175434ee72002" id="r_a2ae0d5f04f8ea2af6f8175434ee72002"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae0d5f04f8ea2af6f8175434ee72002">ShieldModeStatus</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/shield_mode&quot;</td></tr>
 <tr class="separator:a2ae0d5f04f8ea2af6f8175434ee72002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a203ff27c1a26e057fe22c6f2d219843f" id="r_a203ff27c1a26e057fe22c6f2d219843f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a203ff27c1a26e057fe22c6f2d219843f">Polls</a> = &quot;https://api.twitch.tv/helix/polls&quot;</td></tr>
+<tr class="memitem:a203ff27c1a26e057fe22c6f2d219843f" id="r_a203ff27c1a26e057fe22c6f2d219843f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a203ff27c1a26e057fe22c6f2d219843f">Polls</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;polls&quot;</td></tr>
 <tr class="separator:a203ff27c1a26e057fe22c6f2d219843f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e3ca5da4ca6b6f4f4ef750e4b4f2244" id="r_a1e3ca5da4ca6b6f4f4ef750e4b4f2244"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e3ca5da4ca6b6f4f4ef750e4b4f2244">Predictions</a> = &quot;https://api.twitch.tv/helix/predictions&quot;</td></tr>
+<tr class="memitem:a1e3ca5da4ca6b6f4f4ef750e4b4f2244" id="r_a1e3ca5da4ca6b6f4f4ef750e4b4f2244"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e3ca5da4ca6b6f4f4ef750e4b4f2244">Predictions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;predictions&quot;</td></tr>
 <tr class="separator:a1e3ca5da4ca6b6f4f4ef750e4b4f2244"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa714749703ce9c28c2f6dabb2e4bb051" id="r_aa714749703ce9c28c2f6dabb2e4bb051"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa714749703ce9c28c2f6dabb2e4bb051">Raids</a> = &quot;https://api.twitch.tv/helix/raids&quot;</td></tr>
+<tr class="memitem:aa714749703ce9c28c2f6dabb2e4bb051" id="r_aa714749703ce9c28c2f6dabb2e4bb051"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa714749703ce9c28c2f6dabb2e4bb051">Raids</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;raids&quot;</td></tr>
 <tr class="separator:aa714749703ce9c28c2f6dabb2e4bb051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7cc4b1dc623f6e6b5a53dda897803a" id="r_abc7cc4b1dc623f6e6b5a53dda897803a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7cc4b1dc623f6e6b5a53dda897803a">GetChannelStreamSchedule</a> = &quot;https://api.twitch.tv/helix/schedule&quot;</td></tr>
+<tr class="memitem:abc7cc4b1dc623f6e6b5a53dda897803a" id="r_abc7cc4b1dc623f6e6b5a53dda897803a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7cc4b1dc623f6e6b5a53dda897803a">GetChannelStreamSchedule</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule&quot;</td></tr>
 <tr class="separator:abc7cc4b1dc623f6e6b5a53dda897803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a598960239373724edd8f0876ca67ed96" id="r_a598960239373724edd8f0876ca67ed96"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a598960239373724edd8f0876ca67ed96">GetChanneliCalendar</a> = &quot;https://api.twitch.tv/helix/schedule/icalendar&quot;</td></tr>
+<tr class="memitem:a598960239373724edd8f0876ca67ed96" id="r_a598960239373724edd8f0876ca67ed96"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a598960239373724edd8f0876ca67ed96">GetChanneliCalendar</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule/icalendar&quot;</td></tr>
 <tr class="separator:a598960239373724edd8f0876ca67ed96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae19ebfd2483ce82388f4e72ecd67fa9b" id="r_ae19ebfd2483ce82388f4e72ecd67fa9b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae19ebfd2483ce82388f4e72ecd67fa9b">UpdateChannelStreamSchedule</a> = &quot;https://api.twitch.tv/helix/schedule/settings&quot;</td></tr>
+<tr class="memitem:ae19ebfd2483ce82388f4e72ecd67fa9b" id="r_ae19ebfd2483ce82388f4e72ecd67fa9b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae19ebfd2483ce82388f4e72ecd67fa9b">UpdateChannelStreamSchedule</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule/settings&quot;</td></tr>
 <tr class="separator:ae19ebfd2483ce82388f4e72ecd67fa9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4ecf517633d0cdaa7e80c44f0a1814" id="r_a2d4ecf517633d0cdaa7e80c44f0a1814"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d4ecf517633d0cdaa7e80c44f0a1814">ChannelStreamScheduleSegment</a> = &quot;https://api.twitch.tv/helix/schedule/segment&quot;</td></tr>
+<tr class="memitem:a2d4ecf517633d0cdaa7e80c44f0a1814" id="r_a2d4ecf517633d0cdaa7e80c44f0a1814"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d4ecf517633d0cdaa7e80c44f0a1814">ChannelStreamScheduleSegment</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule/segment&quot;</td></tr>
 <tr class="separator:a2d4ecf517633d0cdaa7e80c44f0a1814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a023fa6c3126d54399ea144902df990ae" id="r_a023fa6c3126d54399ea144902df990ae"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a023fa6c3126d54399ea144902df990ae">SearchCategories</a> = &quot;https://api.twitch.tv/helix/search/categories&quot;</td></tr>
+<tr class="memitem:a023fa6c3126d54399ea144902df990ae" id="r_a023fa6c3126d54399ea144902df990ae"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a023fa6c3126d54399ea144902df990ae">SearchCategories</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;search/categories&quot;</td></tr>
 <tr class="separator:a023fa6c3126d54399ea144902df990ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac0f9e4f0687b55df7623541c7685597" id="r_aac0f9e4f0687b55df7623541c7685597"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0f9e4f0687b55df7623541c7685597">SearchChannels</a> = &quot;https://api.twitch.tv/helix/search/channels&quot;</td></tr>
+<tr class="memitem:aac0f9e4f0687b55df7623541c7685597" id="r_aac0f9e4f0687b55df7623541c7685597"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0f9e4f0687b55df7623541c7685597">SearchChannels</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;search/channels&quot;</td></tr>
 <tr class="separator:aac0f9e4f0687b55df7623541c7685597"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36138c3767340b2d3f387615e6477cc" id="r_aa36138c3767340b2d3f387615e6477cc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa36138c3767340b2d3f387615e6477cc">GetStreamKey</a> = &quot;https://api.twitch.tv/helix/streams/key&quot;</td></tr>
+<tr class="memitem:aa36138c3767340b2d3f387615e6477cc" id="r_aa36138c3767340b2d3f387615e6477cc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa36138c3767340b2d3f387615e6477cc">GetStreamKey</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/key&quot;</td></tr>
 <tr class="separator:aa36138c3767340b2d3f387615e6477cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a528d424edeb09fc50f1c34de0b80c53b" id="r_a528d424edeb09fc50f1c34de0b80c53b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528d424edeb09fc50f1c34de0b80c53b">GetStreams</a> = &quot;https://api.twitch.tv/helix/streams&quot;</td></tr>
+<tr class="memitem:a528d424edeb09fc50f1c34de0b80c53b" id="r_a528d424edeb09fc50f1c34de0b80c53b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528d424edeb09fc50f1c34de0b80c53b">GetStreams</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams&quot;</td></tr>
 <tr class="separator:a528d424edeb09fc50f1c34de0b80c53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f23ddef8f810f885f6f67193cf873c3" id="r_a3f23ddef8f810f885f6f67193cf873c3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f23ddef8f810f885f6f67193cf873c3">GetFollowedStreams</a> = &quot;https://api.twitch.tv/helix/streams/followed&quot;</td></tr>
+<tr class="memitem:a3f23ddef8f810f885f6f67193cf873c3" id="r_a3f23ddef8f810f885f6f67193cf873c3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f23ddef8f810f885f6f67193cf873c3">GetFollowedStreams</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/followed&quot;</td></tr>
 <tr class="separator:a3f23ddef8f810f885f6f67193cf873c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905e31c8cb1465dea568f9e8685f803e" id="r_a905e31c8cb1465dea568f9e8685f803e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a905e31c8cb1465dea568f9e8685f803e">CreateStreamMarker</a> = &quot;https://api.twitch.tv/helix/streams/markers&quot;</td></tr>
+<tr class="memitem:a905e31c8cb1465dea568f9e8685f803e" id="r_a905e31c8cb1465dea568f9e8685f803e"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a905e31c8cb1465dea568f9e8685f803e">CreateStreamMarker</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/markers&quot;</td></tr>
 <tr class="separator:a905e31c8cb1465dea568f9e8685f803e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad38da751ac3b69950225179043651ea8" id="r_ad38da751ac3b69950225179043651ea8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38da751ac3b69950225179043651ea8">GetStreamMarkers</a> = &quot;https://api.twitch.tv/helix/streams/markers&quot;</td></tr>
+<tr class="memitem:ad38da751ac3b69950225179043651ea8" id="r_ad38da751ac3b69950225179043651ea8"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38da751ac3b69950225179043651ea8">GetStreamMarkers</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/markers&quot;</td></tr>
 <tr class="separator:ad38da751ac3b69950225179043651ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd50f509eebc3d2d279c80d1dd6eabfe" id="r_abd50f509eebc3d2d279c80d1dd6eabfe"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd50f509eebc3d2d279c80d1dd6eabfe">GetBroadcasterSubscriptions</a> = &quot;https://api.twitch.tv/helix/subscriptions&quot;</td></tr>
+<tr class="memitem:abd50f509eebc3d2d279c80d1dd6eabfe" id="r_abd50f509eebc3d2d279c80d1dd6eabfe"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd50f509eebc3d2d279c80d1dd6eabfe">GetBroadcasterSubscriptions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;subscriptions&quot;</td></tr>
 <tr class="separator:abd50f509eebc3d2d279c80d1dd6eabfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab417e2315854bbfca77e148f24ed1974" id="r_ab417e2315854bbfca77e148f24ed1974"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab417e2315854bbfca77e148f24ed1974">CheckUserSubscription</a> = &quot;https://api.twitch.tv/helix/subscriptions/user&quot;</td></tr>
+<tr class="memitem:ab417e2315854bbfca77e148f24ed1974" id="r_ab417e2315854bbfca77e148f24ed1974"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab417e2315854bbfca77e148f24ed1974">CheckUserSubscription</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;subscriptions/user&quot;</td></tr>
 <tr class="separator:ab417e2315854bbfca77e148f24ed1974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7addc2f22266cd34c421d15c638f3756" id="r_a7addc2f22266cd34c421d15c638f3756"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7addc2f22266cd34c421d15c638f3756">GetChannelTeams</a> = &quot;https://api.twitch.tv/helix/teams/channel&quot;</td></tr>
+<tr class="memitem:a7addc2f22266cd34c421d15c638f3756" id="r_a7addc2f22266cd34c421d15c638f3756"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7addc2f22266cd34c421d15c638f3756">GetChannelTeams</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;teams/channel&quot;</td></tr>
 <tr class="separator:a7addc2f22266cd34c421d15c638f3756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23440b82ce07a97c6ba1316579afc40" id="r_aa23440b82ce07a97c6ba1316579afc40"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa23440b82ce07a97c6ba1316579afc40">GetTeams</a> = &quot;https://api.twitch.tv/helix/teams&quot;</td></tr>
+<tr class="memitem:aa23440b82ce07a97c6ba1316579afc40" id="r_aa23440b82ce07a97c6ba1316579afc40"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa23440b82ce07a97c6ba1316579afc40">GetTeams</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;teams&quot;</td></tr>
 <tr class="separator:aa23440b82ce07a97c6ba1316579afc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a6b336dd06bf4b7fdf7c624c958a021" id="r_a1a6b336dd06bf4b7fdf7c624c958a021"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a6b336dd06bf4b7fdf7c624c958a021">Users</a> = &quot;https://api.twitch.tv/helix/users&quot;</td></tr>
+<tr class="memitem:a1a6b336dd06bf4b7fdf7c624c958a021" id="r_a1a6b336dd06bf4b7fdf7c624c958a021"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a6b336dd06bf4b7fdf7c624c958a021">Users</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users&quot;</td></tr>
 <tr class="separator:a1a6b336dd06bf4b7fdf7c624c958a021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91035c82cc65f2956cb236fbc0e72112" id="r_a91035c82cc65f2956cb236fbc0e72112"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91035c82cc65f2956cb236fbc0e72112">UnbanRequests</a> = &quot;https://api.twitch.tv/helix/moderation/unban_requests&quot;</td></tr>
+<tr class="memitem:a91035c82cc65f2956cb236fbc0e72112" id="r_a91035c82cc65f2956cb236fbc0e72112"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91035c82cc65f2956cb236fbc0e72112">UnbanRequests</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/unban_requests&quot;</td></tr>
 <tr class="separator:a91035c82cc65f2956cb236fbc0e72112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bf929bea5e20fdd117ad1c1cfbc8f71" id="r_a3bf929bea5e20fdd117ad1c1cfbc8f71"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bf929bea5e20fdd117ad1c1cfbc8f71">UserBlockList</a> = &quot;https://api.twitch.tv/helix/users/blocks&quot;</td></tr>
+<tr class="memitem:a3bf929bea5e20fdd117ad1c1cfbc8f71" id="r_a3bf929bea5e20fdd117ad1c1cfbc8f71"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bf929bea5e20fdd117ad1c1cfbc8f71">UserBlockList</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users/blocks&quot;</td></tr>
 <tr class="separator:a3bf929bea5e20fdd117ad1c1cfbc8f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a592d08c74f749740d6bfb4b7248ab852" id="r_a592d08c74f749740d6bfb4b7248ab852"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a592d08c74f749740d6bfb4b7248ab852">GetUserExtensions</a> = &quot;https://api.twitch.tv/helix/users/extensions/list&quot;</td></tr>
+<tr class="memitem:a592d08c74f749740d6bfb4b7248ab852" id="r_a592d08c74f749740d6bfb4b7248ab852"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a592d08c74f749740d6bfb4b7248ab852">GetUserExtensions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users/extensions/list&quot;</td></tr>
 <tr class="separator:a592d08c74f749740d6bfb4b7248ab852"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a425908cf948aada902b26d38a58f1df9" id="r_a425908cf948aada902b26d38a58f1df9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425908cf948aada902b26d38a58f1df9">UserActiveExtensions</a> = &quot;https://api.twitch.tv/helix/users/extensions&quot;</td></tr>
+<tr class="memitem:a425908cf948aada902b26d38a58f1df9" id="r_a425908cf948aada902b26d38a58f1df9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425908cf948aada902b26d38a58f1df9">UserActiveExtensions</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users/extensions&quot;</td></tr>
 <tr class="separator:a425908cf948aada902b26d38a58f1df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0245d3b770dd07c7f7de164596fe06b" id="r_aa0245d3b770dd07c7f7de164596fe06b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0245d3b770dd07c7f7de164596fe06b">Videos</a> = &quot;https://api.twitch.tv/helix/videos&quot;</td></tr>
+<tr class="memitem:aa0245d3b770dd07c7f7de164596fe06b" id="r_aa0245d3b770dd07c7f7de164596fe06b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0245d3b770dd07c7f7de164596fe06b">Videos</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;videos&quot;</td></tr>
 <tr class="separator:aa0245d3b770dd07c7f7de164596fe06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b6b1b68b337139ced4c13649f8aa441" id="r_a7b6b1b68b337139ced4c13649f8aa441"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b6b1b68b337139ced4c13649f8aa441">SendWhisper</a> = &quot;https://api.twitch.tv/helix/whispers&quot;</td></tr>
+<tr class="memitem:a7b6b1b68b337139ced4c13649f8aa441" id="r_a7b6b1b68b337139ced4c13649f8aa441"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b6b1b68b337139ced4c13649f8aa441">SendWhisper</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;whispers&quot;</td></tr>
 <tr class="separator:a7b6b1b68b337139ced4c13649f8aa441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac133b89cffb00a34516fbaba9a12b46c" id="r_ac133b89cffb00a34516fbaba9a12b46c"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac133b89cffb00a34516fbaba9a12b46c">GetModeratedChannels</a> = &quot;https://api.twitch.tv/helix/moderation/channels&quot;</td></tr>
+<tr class="memitem:ac133b89cffb00a34516fbaba9a12b46c" id="r_ac133b89cffb00a34516fbaba9a12b46c"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac133b89cffb00a34516fbaba9a12b46c">GetModeratedChannels</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/channels&quot;</td></tr>
 <tr class="separator:ac133b89cffb00a34516fbaba9a12b46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab94e3776fb233c8500924f165382b94a" id="r_ab94e3776fb233c8500924f165382b94a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94e3776fb233c8500924f165382b94a">Conduits</a> = &quot;https://api.twitch.tv/helix/eventsub/conduits&quot;</td></tr>
+<tr class="memitem:ab94e3776fb233c8500924f165382b94a" id="r_ab94e3776fb233c8500924f165382b94a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94e3776fb233c8500924f165382b94a">Conduits</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;eventsub/conduits&quot;</td></tr>
 <tr class="separator:ab94e3776fb233c8500924f165382b94a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97beb7d3d1fc07a16f2401b659d6e62a" id="r_a97beb7d3d1fc07a16f2401b659d6e62a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97beb7d3d1fc07a16f2401b659d6e62a">ConduitShards</a> = &quot;https://api.twitch.tv/helix/eventsub/conduits/shards&quot;</td></tr>
+<tr class="memitem:a97beb7d3d1fc07a16f2401b659d6e62a" id="r_a97beb7d3d1fc07a16f2401b659d6e62a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97beb7d3d1fc07a16f2401b659d6e62a">ConduitShards</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;eventsub/conduits/shards&quot;</td></tr>
 <tr class="separator:a97beb7d3d1fc07a16f2401b659d6e62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a417fb72e485d60ec8b30bc7b5176f4c2" id="r_a417fb72e485d60ec8b30bc7b5176f4c2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a417fb72e485d60ec8b30bc7b5176f4c2">SendChatMessage</a> = &quot;https://api.twitch.tv/helix/chat/messages&quot;</td></tr>
+<tr class="memitem:a417fb72e485d60ec8b30bc7b5176f4c2" id="r_a417fb72e485d60ec8b30bc7b5176f4c2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a417fb72e485d60ec8b30bc7b5176f4c2">SendChatMessage</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/messages&quot;</td></tr>
 <tr class="separator:a417fb72e485d60ec8b30bc7b5176f4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae327f0c8ae983fc24d373fd56d20c8c3" id="r_ae327f0c8ae983fc24d373fd56d20c8c3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae327f0c8ae983fc24d373fd56d20c8c3">Session</a> = &quot;https://api.twitch.tv/helix/shared_chat/session&quot;</td></tr>
+<tr class="memitem:ae327f0c8ae983fc24d373fd56d20c8c3" id="r_ae327f0c8ae983fc24d373fd56d20c8c3"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae327f0c8ae983fc24d373fd56d20c8c3">Session</a> = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;shared_chat/session&quot;</td></tr>
 <tr class="separator:ae327f0c8ae983fc24d373fd56d20c8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae638ffb0413c07918f202e04a584d9dc" id="r_ae638ffb0413c07918f202e04a584d9dc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae638ffb0413c07918f202e04a584d9dc">GetAuthToken</a> = &quot;https://id.twitch.tv/oauth2/token&quot;</td></tr>
+<tr class="memitem:a27e49a3be055a64a55fd324f72209f7b" id="r_a27e49a3be055a64a55fd324f72209f7b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> = &quot;https://id.twitch.tv/oauth2/&quot;</td></tr>
+<tr class="separator:a27e49a3be055a64a55fd324f72209f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae638ffb0413c07918f202e04a584d9dc" id="r_ae638ffb0413c07918f202e04a584d9dc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae638ffb0413c07918f202e04a584d9dc">GetAuthToken</a> = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;token&quot;</td></tr>
 <tr class="separator:ae638ffb0413c07918f202e04a584d9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96cfdca9a4cd1faaac891c7ea0664871" id="r_a96cfdca9a4cd1faaac891c7ea0664871"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96cfdca9a4cd1faaac891c7ea0664871">GetAuthData</a> = &quot;https://id.twitch.tv/oauth2/authorize&quot;</td></tr>
+<tr class="memitem:a96cfdca9a4cd1faaac891c7ea0664871" id="r_a96cfdca9a4cd1faaac891c7ea0664871"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96cfdca9a4cd1faaac891c7ea0664871">GetAuthData</a> = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;authorize&quot;</td></tr>
 <tr class="separator:a96cfdca9a4cd1faaac891c7ea0664871"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f99a01070eed9fc7dc68ff0248ddc1f" id="r_a0f99a01070eed9fc7dc68ff0248ddc1f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f99a01070eed9fc7dc68ff0248ddc1f">GetTokenValidation</a> = &quot;https://id.twitch.tv/oauth2/validate&quot;</td></tr>
+<tr class="memitem:a0f99a01070eed9fc7dc68ff0248ddc1f" id="r_a0f99a01070eed9fc7dc68ff0248ddc1f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f99a01070eed9fc7dc68ff0248ddc1f">GetTokenValidation</a> = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;validate&quot;</td></tr>
 <tr class="separator:a0f99a01070eed9fc7dc68ff0248ddc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e90e967d5cee4f226fb1913c2e7dbed" id="r_a0e90e967d5cee4f226fb1913c2e7dbed"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e90e967d5cee4f226fb1913c2e7dbed">GetDeviceToken</a> = &quot;https://id.twitch.tv/oauth2/device&quot;</td></tr>
+<tr class="memitem:a0e90e967d5cee4f226fb1913c2e7dbed" id="r_a0e90e967d5cee4f226fb1913c2e7dbed"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e90e967d5cee4f226fb1913c2e7dbed">GetDeviceToken</a> = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;device&quot;</td></tr>
 <tr class="separator:a0e90e967d5cee4f226fb1913c2e7dbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -310,7 +314,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.AutoModSettings = &quot;https://api.twitch.tv/helix/moderation/automod/settings&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.AutoModSettings = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/automod/settings&quot;</td>
         </tr>
       </table>
   </td>
@@ -332,7 +336,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.BanUser = &quot;https://api.twitch.tv/helix/moderation/bans&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.BanUser = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/bans&quot;</td>
         </tr>
       </table>
   </td>
@@ -354,7 +358,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.BlockedTerms = &quot;https://api.twitch.tv/helix/moderation/blocked_terms&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.BlockedTerms = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/blocked_terms&quot;</td>
         </tr>
       </table>
   </td>
@@ -376,7 +380,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChannelGuestStarSettings = &quot;https://api.twitch.tv/helix/guest_star/channel_settings&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChannelGuestStarSettings = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/channel_settings&quot;</td>
         </tr>
       </table>
   </td>
@@ -398,7 +402,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChannelInformation = &quot;https://api.twitch.tv/helix/channels&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChannelInformation = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels&quot;</td>
         </tr>
       </table>
   </td>
@@ -420,7 +424,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChannelStreamScheduleSegment = &quot;https://api.twitch.tv/helix/schedule/segment&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChannelStreamScheduleSegment = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule/segment&quot;</td>
         </tr>
       </table>
   </td>
@@ -442,7 +446,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChatSettings = &quot;https://api.twitch.tv/helix/chat/settings&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ChatSettings = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/settings&quot;</td>
         </tr>
       </table>
   </td>
@@ -464,7 +468,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CheckAutoModStatus = &quot;https://api.twitch.tv/helix/moderation/enforcements/status&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CheckAutoModStatus = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/enforcements/status&quot;</td>
         </tr>
       </table>
   </td>
@@ -486,7 +490,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CheckUserSubscription = &quot;https://api.twitch.tv/helix/subscriptions/user&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CheckUserSubscription = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;subscriptions/user&quot;</td>
         </tr>
       </table>
   </td>
@@ -508,7 +512,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Clips = &quot;https://api.twitch.tv/helix/clips&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Clips = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;clips&quot;</td>
         </tr>
       </table>
   </td>
@@ -530,7 +534,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Conduits = &quot;https://api.twitch.tv/helix/eventsub/conduits&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Conduits = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;eventsub/conduits&quot;</td>
         </tr>
       </table>
   </td>
@@ -552,7 +556,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ConduitShards = &quot;https://api.twitch.tv/helix/eventsub/conduits/shards&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ConduitShards = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;eventsub/conduits/shards&quot;</td>
         </tr>
       </table>
   </td>
@@ -574,7 +578,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CreateStreamMarker = &quot;https://api.twitch.tv/helix/streams/markers&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CreateStreamMarker = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/markers&quot;</td>
         </tr>
       </table>
   </td>
@@ -596,7 +600,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CustomRewardRedemption = &quot;https://api.twitch.tv/helix/channel_points/custom_rewards/redemptions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CustomRewardRedemption = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channel_points/custom_rewards/redemptions&quot;</td>
         </tr>
       </table>
   </td>
@@ -618,7 +622,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CustomRewards = &quot;https://api.twitch.tv/helix/channel_points/custom_rewards&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.CustomRewards = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channel_points/custom_rewards&quot;</td>
         </tr>
       </table>
   </td>
@@ -640,7 +644,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.DeleteChatMessages = &quot;https://api.twitch.tv/helix/moderation/chat&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.DeleteChatMessages = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/chat&quot;</td>
         </tr>
       </table>
   </td>
@@ -662,7 +666,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.DropsEntitlements = &quot;https://api.twitch.tv/helix/entitlements/drops&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.DropsEntitlements = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;entitlements/drops&quot;</td>
         </tr>
       </table>
   </td>
@@ -684,7 +688,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.EventSubSubscription = &quot;https://api.twitch.tv/helix/eventsub/subscriptions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.EventSubSubscription = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;eventsub/subscriptions&quot;</td>
         </tr>
       </table>
   </td>
@@ -706,7 +710,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ExtensionBitsProducts = &quot;https://api.twitch.tv/helix/bits/extensions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ExtensionBitsProducts = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;bits/extensions&quot;</td>
         </tr>
       </table>
   </td>
@@ -728,7 +732,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ExtensionConfigurationSegment = &quot;https://api.twitch.tv/helix/extensions/configurations&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ExtensionConfigurationSegment = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/configurations&quot;</td>
         </tr>
       </table>
   </td>
@@ -750,7 +754,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ExtensionSecrets = &quot;https://api.twitch.tv/helix/extensions/jwt/secrets&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ExtensionSecrets = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/jwt/secrets&quot;</td>
         </tr>
       </table>
   </td>
@@ -772,7 +776,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetAdSchedule = &quot;https://api.twitch.tv/helix/channels/ads&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetAdSchedule = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/ads&quot;</td>
         </tr>
       </table>
   </td>
@@ -794,7 +798,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetAuthData = &quot;https://id.twitch.tv/oauth2/authorize&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetAuthData = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;authorize&quot;</td>
         </tr>
       </table>
   </td>
@@ -816,7 +820,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetAuthToken = &quot;https://id.twitch.tv/oauth2/token&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetAuthToken = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;token&quot;</td>
         </tr>
       </table>
   </td>
@@ -838,7 +842,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetBannedUsers = &quot;https://api.twitch.tv/helix/moderation/banned&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetBannedUsers = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/banned&quot;</td>
         </tr>
       </table>
   </td>
@@ -860,7 +864,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetBitsLeaderboard = &quot;https://api.twitch.tv/helix/bits/leaderboard&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetBitsLeaderboard = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;bits/leaderboard&quot;</td>
         </tr>
       </table>
   </td>
@@ -882,7 +886,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetBroadcasterSubscriptions = &quot;https://api.twitch.tv/helix/subscriptions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetBroadcasterSubscriptions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;subscriptions&quot;</td>
         </tr>
       </table>
   </td>
@@ -904,7 +908,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelChatBadges = &quot;https://api.twitch.tv/helix/chat/badges&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelChatBadges = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/badges&quot;</td>
         </tr>
       </table>
   </td>
@@ -926,7 +930,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelEditors = &quot;https://api.twitch.tv/helix/channels/editors&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelEditors = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/editors&quot;</td>
         </tr>
       </table>
   </td>
@@ -948,7 +952,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelEmotes = &quot;https://api.twitch.tv/helix/chat/emotes&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelEmotes = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes&quot;</td>
         </tr>
       </table>
   </td>
@@ -970,7 +974,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelFollowers = &quot;https://api.twitch.tv/helix/channels/followers&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelFollowers = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/followers&quot;</td>
         </tr>
       </table>
   </td>
@@ -992,7 +996,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChanneliCalendar = &quot;https://api.twitch.tv/helix/schedule/icalendar&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChanneliCalendar = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule/icalendar&quot;</td>
         </tr>
       </table>
   </td>
@@ -1014,7 +1018,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelStreamSchedule = &quot;https://api.twitch.tv/helix/schedule&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelStreamSchedule = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule&quot;</td>
         </tr>
       </table>
   </td>
@@ -1036,7 +1040,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelTeams = &quot;https://api.twitch.tv/helix/teams/channel&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChannelTeams = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;teams/channel&quot;</td>
         </tr>
       </table>
   </td>
@@ -1058,7 +1062,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCharityCampaign = &quot;https://api.twitch.tv/helix/charity/campaigns&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCharityCampaign = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;charity/campaigns&quot;</td>
         </tr>
       </table>
   </td>
@@ -1080,7 +1084,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCharityCampaignDonations = &quot;https://api.twitch.tv/helix/charity/donations&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCharityCampaignDonations = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;charity/donations&quot;</td>
         </tr>
       </table>
   </td>
@@ -1102,7 +1106,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChatters = &quot;https://api.twitch.tv/helix/chat/chatters&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetChatters = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/chatters&quot;</td>
         </tr>
       </table>
   </td>
@@ -1124,7 +1128,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCheermotes = &quot;https://api.twitch.tv/helix/bits/cheermotes&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCheermotes = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;bits/cheermotes&quot;</td>
         </tr>
       </table>
   </td>
@@ -1146,7 +1150,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetContentClassificationLabels = &quot;https://api.twitch.tv/helix/content_classification_labels&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetContentClassificationLabels = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;content_classification_labels&quot;</td>
         </tr>
       </table>
   </td>
@@ -1168,7 +1172,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCreatorGoals = &quot;https://api.twitch.tv/helix/goals&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetCreatorGoals = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;goals&quot;</td>
         </tr>
       </table>
   </td>
@@ -1190,7 +1194,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetDeviceToken = &quot;https://id.twitch.tv/oauth2/device&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetDeviceToken = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;device&quot;</td>
         </tr>
       </table>
   </td>
@@ -1212,7 +1216,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetEmoteSets = &quot;https://api.twitch.tv/helix/chat/emotes/set&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetEmoteSets = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes/set&quot;</td>
         </tr>
       </table>
   </td>
@@ -1234,7 +1238,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensionAnalytics = &quot;https://api.twitch.tv/helix/analytics/extensions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensionAnalytics = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;analytics/extensions&quot;</td>
         </tr>
       </table>
   </td>
@@ -1256,7 +1260,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensionLiveChannels = &quot;https://api.twitch.tv/helix/extensions/live&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensionLiveChannels = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/live&quot;</td>
         </tr>
       </table>
   </td>
@@ -1278,7 +1282,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensions = &quot;https://api.twitch.tv/helix/extensions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions&quot;</td>
         </tr>
       </table>
   </td>
@@ -1300,7 +1304,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensionTransactions = &quot;https://api.twitch.tv/helix/extensions/transactions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetExtensionTransactions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/transactions&quot;</td>
         </tr>
       </table>
   </td>
@@ -1322,7 +1326,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetFollowedChannels = &quot;https://api.twitch.tv/helix/channels/followed&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetFollowedChannels = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/followed&quot;</td>
         </tr>
       </table>
   </td>
@@ -1344,7 +1348,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetFollowedStreams = &quot;https://api.twitch.tv/helix/streams/followed&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetFollowedStreams = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/followed&quot;</td>
         </tr>
       </table>
   </td>
@@ -1366,7 +1370,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGameAnalytics = &quot;https://api.twitch.tv/helix/analytics/games&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGameAnalytics = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;analytics/games&quot;</td>
         </tr>
       </table>
   </td>
@@ -1388,7 +1392,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGames = &quot;https://api.twitch.tv/helix/games&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGames = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;games&quot;</td>
         </tr>
       </table>
   </td>
@@ -1410,7 +1414,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGlobalChatBadges = &quot;https://api.twitch.tv/helix/chat/badges/global&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGlobalChatBadges = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/badges/global&quot;</td>
         </tr>
       </table>
   </td>
@@ -1432,7 +1436,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGlobalEmotes = &quot;https://api.twitch.tv/helix/chat/emotes/global&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetGlobalEmotes = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes/global&quot;</td>
         </tr>
       </table>
   </td>
@@ -1454,7 +1458,29 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetHypeTrainEvents = &quot;https://api.twitch.tv/helix/hypetrain/events&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetHypeTrainEvents = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;hypetrain/events&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd5b6f88d47e47d7237cfac01d71c353" name="abd5b6f88d47e47d7237cfac01d71c353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd5b6f88d47e47d7237cfac01d71c353">&#9670;&#160;</a></span>GetHypeTrainStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetHypeTrainStatus = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;hypetrain/status&quot;</td>
         </tr>
       </table>
   </td>
@@ -1476,7 +1502,29 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetModeratedChannels = &quot;https://api.twitch.tv/helix/moderation/channels&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetModeratedChannels = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/channels&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27e49a3be055a64a55fd324f72209f7b" name="a27e49a3be055a64a55fd324f72209f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27e49a3be055a64a55fd324f72209f7b">&#9670;&#160;</a></span>GetOAuth2Link</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetOAuth2Link = &quot;https://id.twitch.tv/oauth2/&quot;</td>
         </tr>
       </table>
   </td>
@@ -1498,7 +1546,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetReleasedExtensions = &quot;https://api.twitch.tv/helix/extensions/released&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetReleasedExtensions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/released&quot;</td>
         </tr>
       </table>
   </td>
@@ -1520,7 +1568,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetStreamKey = &quot;https://api.twitch.tv/helix/streams/key&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetStreamKey = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/key&quot;</td>
         </tr>
       </table>
   </td>
@@ -1542,7 +1590,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetStreamMarkers = &quot;https://api.twitch.tv/helix/streams/markers&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetStreamMarkers = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams/markers&quot;</td>
         </tr>
       </table>
   </td>
@@ -1564,7 +1612,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetStreams = &quot;https://api.twitch.tv/helix/streams&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetStreams = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;streams&quot;</td>
         </tr>
       </table>
   </td>
@@ -1586,7 +1634,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetTeams = &quot;https://api.twitch.tv/helix/teams&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetTeams = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;teams&quot;</td>
         </tr>
       </table>
   </td>
@@ -1608,7 +1656,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetTokenValidation = &quot;https://id.twitch.tv/oauth2/validate&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetTokenValidation = <a class="el" href="#a27e49a3be055a64a55fd324f72209f7b">GetOAuth2Link</a> + &quot;validate&quot;</td>
         </tr>
       </table>
   </td>
@@ -1630,7 +1678,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetTopGames = &quot;https://api.twitch.tv/helix/games/top&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetTopGames = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;games/top&quot;</td>
         </tr>
       </table>
   </td>
@@ -1652,7 +1700,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetUserEmotes = &quot;https://api.twitch.tv/helix/chat/emotes/user&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetUserEmotes = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/emotes/user&quot;</td>
         </tr>
       </table>
   </td>
@@ -1674,7 +1722,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetUserExtensions = &quot;https://api.twitch.tv/helix/users/extensions/list&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GetUserExtensions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users/extensions/list&quot;</td>
         </tr>
       </table>
   </td>
@@ -1696,7 +1744,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GuestStarInvites = &quot;https://api.twitch.tv/helix/guest_star/invites&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GuestStarInvites = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/invites&quot;</td>
         </tr>
       </table>
   </td>
@@ -1718,7 +1766,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GuestStarSession = &quot;https://api.twitch.tv/helix/guest_star/session&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GuestStarSession = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/session&quot;</td>
         </tr>
       </table>
   </td>
@@ -1740,7 +1788,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GuestStarSlot = &quot;https://api.twitch.tv/helix/guest_star/slot&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.GuestStarSlot = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/slot&quot;</td>
         </tr>
       </table>
   </td>
@@ -1762,7 +1810,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ManageHeldAutoMessages = &quot;https://api.twitch.tv/helix/moderation/automod/message&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ManageHeldAutoMessages = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/automod/message&quot;</td>
         </tr>
       </table>
   </td>
@@ -1784,7 +1832,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Moderators = &quot;https://api.twitch.tv/helix/moderation/moderators&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Moderators = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/moderators&quot;</td>
         </tr>
       </table>
   </td>
@@ -1806,7 +1854,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Polls = &quot;https://api.twitch.tv/helix/polls&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Polls = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;polls&quot;</td>
         </tr>
       </table>
   </td>
@@ -1828,7 +1876,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Predictions = &quot;https://api.twitch.tv/helix/predictions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Predictions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;predictions&quot;</td>
         </tr>
       </table>
   </td>
@@ -1850,7 +1898,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Raids = &quot;https://api.twitch.tv/helix/raids&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Raids = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;raids&quot;</td>
         </tr>
       </table>
   </td>
@@ -1872,7 +1920,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SearchCategories = &quot;https://api.twitch.tv/helix/search/categories&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SearchCategories = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;search/categories&quot;</td>
         </tr>
       </table>
   </td>
@@ -1894,7 +1942,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SearchChannels = &quot;https://api.twitch.tv/helix/search/channels&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SearchChannels = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;search/channels&quot;</td>
         </tr>
       </table>
   </td>
@@ -1916,7 +1964,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendAShoutout = &quot;https://api.twitch.tv/helix/chat/shoutouts&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendAShoutout = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/shoutouts&quot;</td>
         </tr>
       </table>
   </td>
@@ -1938,7 +1986,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendChatAnnouncement = &quot;https://api.twitch.tv/helix/chat/announcements&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendChatAnnouncement = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/announcements&quot;</td>
         </tr>
       </table>
   </td>
@@ -1960,7 +2008,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendChatMessage = &quot;https://api.twitch.tv/helix/chat/messages&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendChatMessage = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/messages&quot;</td>
         </tr>
       </table>
   </td>
@@ -1982,7 +2030,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendExtensionChatMessage = &quot;https://api.twitch.tv/helix/extensions/chat&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendExtensionChatMessage = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/chat&quot;</td>
         </tr>
       </table>
   </td>
@@ -2004,7 +2052,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendExtensionPubSubMessage = &quot;https://api.twitch.tv/helix/extensions/pubsub&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendExtensionPubSubMessage = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/pubsub&quot;</td>
         </tr>
       </table>
   </td>
@@ -2026,7 +2074,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendWhisper = &quot;https://api.twitch.tv/helix/whispers&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SendWhisper = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;whispers&quot;</td>
         </tr>
       </table>
   </td>
@@ -2048,7 +2096,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Session = &quot;https://api.twitch.tv/helix/shared_chat/session&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Session = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;shared_chat/session&quot;</td>
         </tr>
       </table>
   </td>
@@ -2070,7 +2118,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SetExtensionRequiredConfiguration = &quot;https://api.twitch.tv/helix/extensions/required_configuration&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SetExtensionRequiredConfiguration = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;extensions/required_configuration&quot;</td>
         </tr>
       </table>
   </td>
@@ -2092,7 +2140,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ShieldModeStatus = &quot;https://api.twitch.tv/helix/moderation/shield_mode&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.ShieldModeStatus = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/shield_mode&quot;</td>
         </tr>
       </table>
   </td>
@@ -2114,7 +2162,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SnoozeNextAd = &quot;https://api.twitch.tv/helix/channels/ads/schedule/snooze&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.SnoozeNextAd = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/ads/schedule/snooze&quot;</td>
         </tr>
       </table>
   </td>
@@ -2136,7 +2184,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.StartCommercial = &quot;https://api.twitch.tv/helix/channels/commercial&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.StartCommercial = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/commercial&quot;</td>
         </tr>
       </table>
   </td>
@@ -2158,7 +2206,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.TwitchAPIWebsite = &quot;https://api.twitch.tv/&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.TwitchAPIWebsite = &quot;https://api.twitch.tv/helix/&quot;</td>
         </tr>
       </table>
   </td>
@@ -2180,7 +2228,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UnbanRequests = &quot;https://api.twitch.tv/helix/moderation/unban_requests&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UnbanRequests = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/unban_requests&quot;</td>
         </tr>
       </table>
   </td>
@@ -2202,7 +2250,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UpdateChannelStreamSchedule = &quot;https://api.twitch.tv/helix/schedule/settings&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UpdateChannelStreamSchedule = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;schedule/settings&quot;</td>
         </tr>
       </table>
   </td>
@@ -2224,7 +2272,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UpdateGuestStarSlotSettings = &quot;https://api.twitch.tv/helix/guest_star/slot_settings&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UpdateGuestStarSlotSettings = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;guest_star/slot_settings&quot;</td>
         </tr>
       </table>
   </td>
@@ -2246,7 +2294,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UserActiveExtensions = &quot;https://api.twitch.tv/helix/users/extensions&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UserActiveExtensions = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users/extensions&quot;</td>
         </tr>
       </table>
   </td>
@@ -2268,7 +2316,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UserBlockList = &quot;https://api.twitch.tv/helix/users/blocks&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UserBlockList = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users/blocks&quot;</td>
         </tr>
       </table>
   </td>
@@ -2290,7 +2338,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UserChatColor = &quot;https://api.twitch.tv/helix/chat/color&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.UserChatColor = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;chat/color&quot;</td>
         </tr>
       </table>
   </td>
@@ -2312,7 +2360,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Users = &quot;https://api.twitch.tv/helix/users&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Users = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;users&quot;</td>
         </tr>
       </table>
   </td>
@@ -2334,7 +2382,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Videos = &quot;https://api.twitch.tv/helix/videos&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.Videos = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;videos&quot;</td>
         </tr>
       </table>
   </td>
@@ -2356,7 +2404,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.VIPs = &quot;https://api.twitch.tv/helix/channels/vips&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.VIPs = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;channels/vips&quot;</td>
         </tr>
       </table>
   </td>
@@ -2378,7 +2426,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.WarnUser = &quot;https://api.twitch.tv/helix/moderation/warnings&quot;</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.TwitchAPILinks.WarnUser = <a class="el" href="#a9b0b28da59124d4c4852401f425fad07">TwitchAPIWebsite</a> + &quot;moderation/warnings&quot;</td>
         </tr>
       </table>
   </td>

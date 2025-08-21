@@ -1,0 +1,7 @@
+var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_shared_train_participants =
+[
+    [ "SharedTrainParticipants", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_shared_train_participants.html#a84b6455e53ee86c926d6d96ec8f429db", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_shared_train_participants.html#a2475f15412a68a850ac4eebca6c1c075", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_shared_train_participants.html#a87875a26ba9a0313dc7171e0ccb6b6d9", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_shared_train_participants.html#a78a6e325c1a338957f5cdd0b872abd9a", null ]
+];

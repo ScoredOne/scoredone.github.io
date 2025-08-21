@@ -1,10 +1,13 @@
 var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message =
 [
     [ "TwitchMessage", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a010c95f1109404dfd1e8ae518d835f57", null ],
+    [ "BuildMessageAsComponents", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a7446691b38f00d031800095432ae6c83", null ],
+    [ "BuildMessageAsComponentsWithWait", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a29e21bba5ef14bf44f53c4494a3b2933", null ],
     [ "BuildMessageForTextmeshWithWait", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#aa3bc1ca169b974d4e25a12a9c0fa8fa8", null ],
     [ "CheckHasBadgesOrEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#aed925e9cd0b4658364e3f757d0d9eea3", null ],
     [ "GetBadgeNames", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a0596e7e949b0788f6265d1a832321c32", null ],
     [ "GetEmoteNames", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#ac03593ab7619104e39c4a7b46df4d9ca", null ],
+    [ "readonly", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a7c98caaa774b389f161d6356b9e62aae", null ],
     [ "readonly", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a40486df5fd35e50bfb6d56058ca2cafb", null ],
     [ "ChatMessage", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#a6e891c4552d2e112887c94fb4a203a23", null ],
     [ "Command", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html#ae69cb2f379989a54e6eba083a0ca9949", null ],

@@ -9,7 +9,12 @@ var searchData=
   ['errors_2ecs_6',['Errors.cs',['../_errors_8cs.html',1,'']]],
   ['eventdata_2ecs_7',['EventData.cs',['../_event_data_8cs.html',1,'']]],
   ['eventsubcosting_2ecs_8',['EventSubCosting.cs',['../_event_sub_costing_8cs.html',1,'']]],
-  ['eventsubinformationattribute_2ecs_9',['EventSubInformationAttribute.cs',['../_event_sub_information_attribute_8cs.html',1,'']]],
-  ['extensionbitstransactioncreate_2ecs_10',['ExtensionBitsTransactionCreate.cs',['../_extension_bits_transaction_create_8cs.html',1,'']]],
-  ['extensions_2ecs_11',['Extensions.cs',['../_extensions_8cs.html',1,'']]]
+  ['eventsubcustomrewardstartupexample_2ecs_9',['EventSubCustomRewardStartupExample.cs',['../_event_sub_custom_reward_startup_example_8cs.html',1,'']]],
+  ['eventsubcustomrewardstartupexampleeditor_2ecs_10',['EventSubCustomRewardStartupExampleEditor.cs',['../_event_sub_custom_reward_startup_example_editor_8cs.html',1,'']]],
+  ['eventsubinformationattribute_2ecs_11',['EventSubInformationAttribute.cs',['../_event_sub_information_attribute_8cs.html',1,'']]],
+  ['eventsubpollsstartupexample_2ecs_12',['EventSubPollsStartupExample.cs',['../_event_sub_polls_startup_example_8cs.html',1,'']]],
+  ['eventsubpollsstartupexampleeditor_2ecs_13',['EventSubPollsStartupExampleEditor.cs',['../_event_sub_polls_startup_example_editor_8cs.html',1,'']]],
+  ['extendedunityevent_2ecs_14',['ExtendedUnityEvent.cs',['../_extended_unity_event_8cs.html',1,'']]],
+  ['extensionbitstransactioncreate_2ecs_15',['ExtensionBitsTransactionCreate.cs',['../_extension_bits_transaction_create_8cs.html',1,'']]],
+  ['extensions_2ecs_16',['Extensions.cs',['../_extensions_8cs.html',1,'']]]
 ];

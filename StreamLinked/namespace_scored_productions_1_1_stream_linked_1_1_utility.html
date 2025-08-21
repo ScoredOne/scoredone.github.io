@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -106,6 +106,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html">DebugManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton object and static methods pertaining to storing and managing logging and debug messages.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html">ExtendedUnityEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html">Extensions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a></td></tr>
@@ -115,7 +117,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple method of credential store. PlayerPref will need populating on Install of App. PlayerPrefs are not saved/included in build.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">SingletonDispatcher</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton base class.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatcher base class.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">SingletonInstance</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton base class.  <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#details">More...</a><br /></td></tr>
@@ -123,10 +125,14 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a53bb6ea77cbd8888243fbceb287f7f61" id="r_a53bb6ea77cbd8888243fbceb287f7f61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> : byte { <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be">TwitchClientSecret</a>
+<tr class="memitem:a53bb6ea77cbd8888243fbceb287f7f61" id="r_a53bb6ea77cbd8888243fbceb287f7f61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> : byte { <br />
+&#160;&#160;<a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be">TwitchClientSecret</a>
 , <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3">TwitchClientID</a>
 , <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3">TwitchTarget</a>
 , <a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de">TwitchAuthenticationTokens</a>
+, <br />
+&#160;&#160;<a class="el" href="#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4">TwitchCustomReward</a>
+<br />
  }</td></tr>
 <tr class="separator:a53bb6ea77cbd8888243fbceb287f7f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,7 +155,9 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3" name="a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3"></a>TwitchTarget&#160;</td><td class="fielddoc"><p>Type <code>string</code> </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de" name="a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de"></a>TwitchAuthenticationTokens&#160;</td><td class="fielddoc"><p>Type <code> JsonValue { String (Used ClientID), String (Used Secret), List[IAuthFlow](JSON Array) }</code> </p>
+<tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de" name="a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de"></a>TwitchAuthenticationTokens&#160;</td><td class="fielddoc"><p>Type <code> (string) JsonValue { String (Used ClientID), String (Used Secret), List[IAuthFlow](JSON Array) }</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4" name="a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4"></a>TwitchCustomReward&#160;</td><td class="fielddoc"><p>Type <code>string</code> </p>
 </td></tr>
 </table>
 

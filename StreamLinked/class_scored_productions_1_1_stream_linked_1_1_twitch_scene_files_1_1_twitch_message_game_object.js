@@ -2,6 +2,7 @@ var class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch
 [
     [ "Awake", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html#a0d6c354292171c7a5cb02f28aa7d3e0e", null ],
     [ "BuildMessageText", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html#adeb51b4d14682c7ceb3ad1c7cb61351e", null ],
+    [ "BuildMessageText", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html#aa220238f2f1b39f317a23d5c82561385", null ],
     [ "OnAtlasRequestComplete", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html#ae336106198888cb79ebe51262e6e9779", null ],
     [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html#ac3a31ed97df02c1aae4523601189a635", null ],
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html#a21ffaa97f32a63b004c35aff187ef243", null ],

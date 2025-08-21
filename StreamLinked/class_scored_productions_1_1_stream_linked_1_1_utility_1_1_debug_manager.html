@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -96,6 +96,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_utility
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
@@ -141,6 +142,12 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:a494b2edb7d3e28d2d1f8e6f3583f9564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c368b0bde86706dc1a4a84bba5ae672" id="r_a2c368b0bde86706dc1a4a84bba5ae672"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a2c368b0bde86706dc1a4a84bba5ae672">DeleteInstance</a> ()</td></tr>
+<tr class="memdesc:a2c368b0bde86706dc1a4a84bba5ae672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete singleton from the scene.  <br /></td></tr>
+<tr class="separator:a2c368b0bde86706dc1a4a84bba5ae672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af247aa4840175581a4bbda68d3254759" id="r_af247aa4840175581a4bbda68d3254759"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af247aa4840175581a4bbda68d3254759">LogMessage</a> (string message, <a class="el" href="#aa1758f0f8f84b385cd8ddf6dfc2bd7f4">ErrorLevel</a> state=<a class="el" href="#aa1758f0f8f84b385cd8ddf6dfc2bd7f4a7a1920d61156abc05a60135aefe8bc67">ErrorLevel.Default</a>)</td></tr>
@@ -163,11 +170,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abedf84cbc948a1b9d8267c2c614e1847" id="r_abedf84cbc948a1b9d8267c2c614e1847"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#abedf84cbc948a1b9d8267c2c614e1847">CreateOrGetInstance</a> (out T instance)</td></tr>
 <tr class="memdesc:abedf84cbc948a1b9d8267c2c614e1847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current instance, if a singleton doesnt exist, it will create one.  <br /></td></tr>
 <tr class="separator:abedf84cbc948a1b9d8267c2c614e1847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b8f1a3f4152d4b80278eb16a9a1bec" id="r_a77b8f1a3f4152d4b80278eb16a9a1bec"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a77b8f1a3f4152d4b80278eb16a9a1bec">CreateOrGetInstance</a> (GameObject prefab, out T instance)</td></tr>
+<tr class="memdesc:a77b8f1a3f4152d4b80278eb16a9a1bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current instance, if a singleton doesnt exist, it will create one with the provided prefab.  <br /></td></tr>
+<tr class="separator:a77b8f1a3f4152d4b80278eb16a9a1bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8f926bc89a658baec88b465de85136e4" id="r_a8f926bc89a658baec88b465de85136e4"><td class="memItemLeft" align="right" valign="top">UnityEvent&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f926bc89a658baec88b465de85136e4">OnDebugMessageReceived</a></td></tr>
-<tr class="separator:a8f926bc89a658baec88b465de85136e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d366409f7a5845896c4e6af639a02d8" id="r_a5d366409f7a5845896c4e6af639a02d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html">ExtendedUnityEvent</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d366409f7a5845896c4e6af639a02d8">OnDebugMessageReceived</a></td></tr>
+<tr class="separator:a5d366409f7a5845896c4e6af639a02d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -353,8 +363,39 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a77b8f1a3f4152d4b80278eb16a9a1bec" name="a77b8f1a3f4152d4b80278eb16a9a1bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b8f1a3f4152d4b80278eb16a9a1bec">&#9670;&#160;</a></span>CreateOrGetInstance() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.CreateOrGetInstance </td>
+          <td>(</td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>prefab</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the current instance, if a singleton doesnt exist, it will create one with the provided prefab. </p>
+
+</div>
+</div>
 <a id="abedf84cbc948a1b9d8267c2c614e1847" name="abedf84cbc948a1b9d8267c2c614e1847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abedf84cbc948a1b9d8267c2c614e1847">&#9670;&#160;</a></span>CreateOrGetInstance()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abedf84cbc948a1b9d8267c2c614e1847">&#9670;&#160;</a></span>CreateOrGetInstance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,6 +418,33 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current instance, if a singleton doesnt exist, it will create one. </p>
+
+</div>
+</div>
+<a id="a2c368b0bde86706dc1a4a84bba5ae672" name="a2c368b0bde86706dc1a4a84bba5ae672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c368b0bde86706dc1a4a84bba5ae672">&#9670;&#160;</a></span>DeleteInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.DeleteInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete singleton from the scene. </p>
 
 </div>
 </div>
@@ -819,14 +887,14 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f926bc89a658baec88b465de85136e4" name="a8f926bc89a658baec88b465de85136e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f926bc89a658baec88b465de85136e4">&#9670;&#160;</a></span>OnDebugMessageReceived</h2>
+<a id="a5d366409f7a5845896c4e6af639a02d8" name="a5d366409f7a5845896c4e6af639a02d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d366409f7a5845896c4e6af639a02d8">&#9670;&#160;</a></span>OnDebugMessageReceived</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UnityEvent&lt;string&gt; ScoredProductions.StreamLinked.Utility.DebugManager.OnDebugMessageReceived</td>
+          <td class="memname"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html">ExtendedUnityEvent</a>&lt;string&gt; ScoredProductions.StreamLinked.Utility.DebugManager.OnDebugMessageReceived</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -3,8 +3,6 @@ var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_creat
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#aa87ecf4f27174086e8f70789715a5825", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#a0348eb381baae9ecb78e2994a29c092c", null ],
     [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#ade7d993bac7cbc89fe1faa466e5c5fd7", null ],
-    [ "string", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#a3cdb1d38471a6cb295abeb37d95d75d6", null ],
-    [ "CONTENT_TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#a91888e352a1020ccc4ae9ca22924a637", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#af43e4c0b1c0859bd81dfad8505c5a66b", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#a00383c373eb21052b24874b520985769", null ],
     [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits_1_1_create_conduits.html#a2eeaee6d9f2fd683fd42311ea14c87ab", null ],

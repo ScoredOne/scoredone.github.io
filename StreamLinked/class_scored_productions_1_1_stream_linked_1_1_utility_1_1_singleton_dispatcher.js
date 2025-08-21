@@ -1,7 +1,9 @@
 var class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher =
 [
     [ "Awake", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#a3d1fa3e0cc16aa5b0678335ba4b12216", null ],
+    [ "CreateOrGetInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#a77b8f1a3f4152d4b80278eb16a9a1bec", null ],
     [ "CreateOrGetInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#abedf84cbc948a1b9d8267c2c614e1847", null ],
+    [ "DeleteInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#a2c368b0bde86706dc1a4a84bba5ae672", null ],
     [ "EstablishSingleton", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#addd415202c1fd44c33e07ee62060c325", null ],
     [ "GetInstance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#a26987c940d842a83aa6200268a459b3b", null ],
     [ "LateUpdate", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html#a093bb29f93227e2c7a772eb3f8903aa3", null ],

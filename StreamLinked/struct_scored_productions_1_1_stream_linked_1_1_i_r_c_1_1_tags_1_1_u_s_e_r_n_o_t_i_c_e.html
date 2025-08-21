@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.0.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -116,20 +116,23 @@ Inheritance diagram for ScoredProductions.StreamLinked.IRC.Tags.USERNOTICE:</div
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab29575779574b432801a64a8bdf33a14" id="r_ab29575779574b432801a64a8bdf33a14"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab29575779574b432801a64a8bdf33a14">MsgIDEnum</a> : byte { <br />
-&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14a8a68dc3e925eacf92633be230722a140">sub</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a9d97b912469b048cdbc68c614452d69b">resub</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ad3b08955ee10b7004e8cb849d283d903">subgift</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a0f95b3d0f6e090e9c505feafd7f45d7c">submysterygift</a>
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14a8a68dc3e925eacf92633be230722a140">sub</a> = 0
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a9d97b912469b048cdbc68c614452d69b">resub</a> = 1
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ad3b08955ee10b7004e8cb849d283d903">subgift</a> = 2
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a0f95b3d0f6e090e9c505feafd7f45d7c">submysterygift</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14ac4b4290a8349e0d56d414f04ffb0abcf">giftpaidupgrade</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ac2636249a97960f8945a9f596ab3709b">rewardgift</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a65beb5b66993a3d3f6b42d70c39ec404">anongiftpaidupgrade</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a7f57eed2a8e5a2a3c7d70f2efd09bd37">raid</a>
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14ac4b4290a8349e0d56d414f04ffb0abcf">giftpaidupgrade</a> = 4
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ac2636249a97960f8945a9f596ab3709b">rewardgift</a> = 5
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a65beb5b66993a3d3f6b42d70c39ec404">anongiftpaidupgrade</a> = 6
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a7f57eed2a8e5a2a3c7d70f2efd09bd37">raid</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14aaec4575980c875fbfc049565c52344c5">unraid</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb">ritual</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1">bitsbadgetier</a>
-, <a class="el" href="#ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204">sharedchatnotice</a>
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14aaec4575980c875fbfc049565c52344c5">unraid</a> = 8
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb">ritual</a> = 9
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1">bitsbadgetier</a> = 10
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204">sharedchatnotice</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="#ab29575779574b432801a64a8bdf33a14aff5fc8239f453da67591698a40c75c27">announcment</a> = 12
+, <a class="el" href="#ab29575779574b432801a64a8bdf33a14a03570470bad94692ce93e32700d2e1cb">OTHER</a> = 13
 <br />
  }</td></tr>
 <tr class="separator:ab29575779574b432801a64a8bdf33a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +267,8 @@ Properties</h2></td></tr>
 <tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb" name="ab29575779574b432801a64a8bdf33a14ace9060fbe1c563dd84a898d8b6a37bfb"></a>ritual&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1" name="ab29575779574b432801a64a8bdf33a14add3dbb7c9b49fa460329b3c84d2e67f1"></a>bitsbadgetier&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204" name="ab29575779574b432801a64a8bdf33a14abc3dbb075fb2697c578036520fe3e204"></a>sharedchatnotice&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14aff5fc8239f453da67591698a40c75c27" name="ab29575779574b432801a64a8bdf33a14aff5fc8239f453da67591698a40c75c27"></a>announcment&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab29575779574b432801a64a8bdf33a14a03570470bad94692ce93e32700d2e1cb" name="ab29575779574b432801a64a8bdf33a14a03570470bad94692ce93e32700d2e1cb"></a>OTHER&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

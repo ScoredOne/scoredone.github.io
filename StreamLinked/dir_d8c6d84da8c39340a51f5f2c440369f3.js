@@ -42,6 +42,7 @@ var dir_d8c6d84da8c39340a51f5f2c440369f3 =
     [ "Reply.cs", "_reply_8cs.html", "_reply_8cs" ],
     [ "Resub.cs", "_resub_8cs.html", "_resub_8cs" ],
     [ "Reward.cs", "_twitch_event_sub_2_events_2_objects_2_reward_8cs.html", "_twitch_event_sub_2_events_2_objects_2_reward_8cs" ],
+    [ "SharedTrainParticipants.cs", "_shared_train_participants_8cs.html", "_shared_train_participants_8cs" ],
     [ "Slow.cs", "_slow_8cs.html", "_slow_8cs" ],
     [ "Sub.cs", "_sub_8cs.html", "_sub_8cs" ],
     [ "SubGift.cs", "_sub_gift_8cs.html", "_sub_gift_8cs" ],
