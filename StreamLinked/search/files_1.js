@@ -1,7 +1,7 @@
 var searchData=
 [
   ['badge_2ecs_0',['Badge.cs',['../_badge_8cs.html',1,'']]],
-  ['badgedata_2ecs_1',['BadgeData.cs',['../_badge_data_8cs.html',1,'']]],
+  ['badgedetails_2ecs_1',['BadgeDetails.cs',['../_badge_details_8cs.html',1,'']]],
   ['badgeversion_2ecs_2',['BadgeVersion.cs',['../_badge_version_8cs.html',1,'']]],
   ['ban_2ecs_3',['Ban.cs',['../_ban_8cs.html',1,'']]],
   ['banuser_2ecs_4',['BanUser.cs',['../_ban_user_8cs.html',1,'']]],

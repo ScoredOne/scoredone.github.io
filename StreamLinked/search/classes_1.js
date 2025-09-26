@@ -1,7 +1,7 @@
 var searchData=
 [
   ['badge_0',['Badge',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_badge.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
-  ['badgedata_1',['BadgeData',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html',1,'ScoredProductions::StreamLinked::IRC::Tags']]],
+  ['badgedetails_1',['BadgeDetails',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_details.html',1,'ScoredProductions::StreamLinked::IRC::Tags']]],
   ['badgeversion_2',['BadgeVersion',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_badge_version.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]],
   ['ban_3',['Ban',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects']]],
   ['banuser_4',['BanUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html',1,'ScoredProductions::StreamLinked::API::Moderation']]],

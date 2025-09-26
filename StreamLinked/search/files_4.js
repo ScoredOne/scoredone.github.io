@@ -2,7 +2,7 @@ var searchData=
 [
   ['editorpaged_2ecs_0',['EditorPaged.cs',['../_editor_paged_8cs.html',1,'']]],
   ['emote_2ecs_1',['Emote.cs',['../_emote_8cs.html',1,'']]],
-  ['emoteposition_2ecs_2',['EmotePosition.cs',['../_emote_position_8cs.html',1,'']]],
+  ['emotedetails_2ecs_2',['EmoteDetails.cs',['../_emote_details_8cs.html',1,'']]],
   ['endgueststarsession_2ecs_3',['EndGuestStarSession.cs',['../_end_guest_star_session_8cs.html',1,'']]],
   ['endpoll_2ecs_4',['EndPoll.cs',['../_end_poll_8cs.html',1,'']]],
   ['endprediction_2ecs_5',['EndPrediction.cs',['../_end_prediction_8cs.html',1,'']]],

@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -125,10 +125,12 @@ Inheritance diagram for ScoredProductions.StreamLinked.ManagersAndBuilders.Twitc
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a931598d71374bea551548b99cd8370f2" id="r_a931598d71374bea551548b99cd8370f2"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a931598d71374bea551548b99cd8370f2">EnqueueAtlasBuild</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html">TwitchMessage</a> message)</td></tr>
-<tr class="separator:a931598d71374bea551548b99cd8370f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6219bb3bf26d8aeeffc6b600c64fb47" id="r_ac6219bb3bf26d8aeeffc6b600c64fb47"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6219bb3bf26d8aeeffc6b600c64fb47">EnqueueAtlasBuild</a> (string[] emotes, string[] badges, long room_id)</td></tr>
-<tr class="separator:ac6219bb3bf26d8aeeffc6b600c64fb47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087f4d1236d186d7e09150610ff0a6e4" id="r_a087f4d1236d186d7e09150610ff0a6e4"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087f4d1236d186d7e09150610ff0a6e4">EnqueueAtlasBuild</a> (<a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message.html">ITagMessage</a> message)</td></tr>
+<tr class="memdesc:a087f4d1236d186d7e09150610ff0a6e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues up an Atlas to be constructed from a message.  <br /></td></tr>
+<tr class="separator:a087f4d1236d186d7e09150610ff0a6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa92dc675be3f1e4b6a6a21e1a949e7" id="r_a2aa92dc675be3f1e4b6a6a21e1a949e7"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aa92dc675be3f1e4b6a6a21e1a949e7">EnqueueAtlasBuild</a> (string[] emotes, string[] badges, string room_id)</td></tr>
+<tr class="memdesc:a2aa92dc675be3f1e4b6a6a21e1a949e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues up an Atlas to be constructed from a message.  <br /></td></tr>
+<tr class="separator:a2aa92dc675be3f1e4b6a6a21e1a949e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd5d69f29aa67abd02fbbd9229e994f" id="r_a2cd5d69f29aa67abd02fbbd9229e994f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cd5d69f29aa67abd02fbbd9229e994f">TryGetAtlas</a> (Guid id, out TMP_SpriteAsset foundAsset)</td></tr>
 <tr class="separator:a2cd5d69f29aa67abd02fbbd9229e994f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ad655f3a8f7cde6bb3779177966188" id="r_a17ad655f3a8f7cde6bb3779177966188"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ad655f3a8f7cde6bb3779177966188">AtlasProducerCoroutine</a> (<a class="el" href="class_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_coroutine_wrapper.html">CoroutineWrapper</a> self)</td></tr>
@@ -385,8 +387,34 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6219bb3bf26d8aeeffc6b600c64fb47" name="ac6219bb3bf26d8aeeffc6b600c64fb47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6219bb3bf26d8aeeffc6b600c64fb47">&#9670;&#160;</a></span>EnqueueAtlasBuild() <span class="overload">[1/2]</span></h2>
+<a id="a087f4d1236d186d7e09150610ff0a6e4" name="a087f4d1236d186d7e09150610ff0a6e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a087f4d1236d186d7e09150610ff0a6e4">&#9670;&#160;</a></span>EnqueueAtlasBuild() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Guid ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchMessageAtlasProducer.EnqueueAtlasBuild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message.html">ITagMessage</a></td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Queues up an Atlas to be constructed from a message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Guid id of build task, Guid.Empty when cancelled</dd></dl>
+
+</div>
+</div>
+<a id="a2aa92dc675be3f1e4b6a6a21e1a949e7" name="a2aa92dc675be3f1e4b6a6a21e1a949e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa92dc675be3f1e4b6a6a21e1a949e7">&#9670;&#160;</a></span>EnqueueAtlasBuild() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,27 +432,21 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>room_id</em></span>&#160;)</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>room_id</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a931598d71374bea551548b99cd8370f2" name="a931598d71374bea551548b99cd8370f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a931598d71374bea551548b99cd8370f2">&#9670;&#160;</a></span>EnqueueAtlasBuild() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Guid ScoredProductions.StreamLinked.ManagersAndBuilders.TwitchMessageAtlasProducer.EnqueueAtlasBuild </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html">TwitchMessage</a></td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Queues up an Atlas to be constructed from a message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">emotes</td><td></td></tr>
+    <tr><td class="paramname">badges</td><td></td></tr>
+    <tr><td class="paramname">room_id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Guid id of build task, Guid.Empty when nothing to process</dd></dl>
 
 </div>
 </div>

@@ -1,0 +1,25 @@
+var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e =
+[
+    [ "TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e_1_1_t_a_g_s.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e_1_1_t_a_g_s" ],
+    [ "USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a098e672b2c40978027a1bbdba949cbcb", null ],
+    [ "CheckHasBadgesOrEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a48e01b91d996b33a253e78ee9d8f6e24", null ],
+    [ "EstablishMessageType", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a5ab93599d7bfefc33356e77920d68005", null ],
+    [ "EstablishMessageType", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a219ddcea6ad0346ac3be5ea718cf9b8c", null ],
+    [ "GetBadgeData", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#af3ef60121e5adb9d0817216e2d2d203a", null ],
+    [ "GetBadgeNames", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a4dd1766d3cc43cca903d0e81931ab04e", null ],
+    [ "GetColor", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#afd4b517821bb1d996cad9db92f0447e4", null ],
+    [ "GetEmoteData", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a553f487ea8d066752653e58de25c8b17", null ],
+    [ "GetEmoteNames", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a39c78ccb7cebf593c726ddd2657b0fbc", null ],
+    [ "GetTagContainer", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a1e65bd7c9f42adf32b4ae488b430ab3d", null ],
+    [ "ToString", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#ab1c75186f07c21853348d84ee07abe19", null ],
+    [ "Channel", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a386065f950d2110d10e5438c618264bc", null ],
+    [ "message", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a1dc47504babe2b07c33d44b90504af1d", null ],
+    [ "rawMessage", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#adb8230d4db0c5ebb7a8bb53e82633d7d", null ],
+    [ "sender", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a35ca50bd27f571c5c5403bc6883d006c", null ],
+    [ "tags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a2e145392672297ba61d928d287284293", null ],
+    [ "Command", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a8c6587fc60c16d8d8cae5bfc5e33de4f", null ],
+    [ "Message", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a42945c3c95cebcf086915e07da37d3eb", null ],
+    [ "RawMessage", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a7634dd7428eefdba53de23b7d861a380", null ],
+    [ "Sender", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a5c6acb6e84126b3960e185db3a16df73", null ],
+    [ "Tags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a008dac42352e421ffc8800b3da80cc3f", null ]
+];

@@ -1,5 +1,6 @@
 var _twitch_i_r_c_command_8cs =
 [
+    [ "ScoredProductions.StreamLinked.IRC.TwitchIRCCommandExtensions", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions" ],
     [ "TwitchIRCCommand", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69", [
       [ "NONE", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69ab50339a10e1de285ac99d4c3990b8693", null ],
       [ "JOIN", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69aa6fa1cdf9c1a71978751b35b88763f8f", null ],
@@ -13,7 +14,6 @@ var _twitch_i_r_c_command_8cs =
       [ "CLEARCHAT", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a63b6f9413ab9460e74f79cea9d06ad59", null ],
       [ "CLEARMSG", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69acfe0691fb72a0aa08217a00f4b71cdc9", null ],
       [ "GLOBALUSERSTATE", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69af76c90923b90bc20e448e252e647c8fa", null ],
-      [ "HOSTTARGET", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a0ddb8c380aa5f6e7d018ffd69013c0eb", null ],
       [ "RECONNECT", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a435d743b35551ea7106af41c4a308c01", null ],
       [ "ROOMSTATE", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a17688171bada54d9aa3e3441d45c2ba3", null ],
       [ "USERNOTICE", "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69a2f68e0433d5ea792dffa3217981758f6", null ],

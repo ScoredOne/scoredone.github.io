@@ -15,7 +15,7 @@ var searchData=
   ['user_12',['User',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_user.html#a0e1ce44e8cc87c14bce9160543aea1c6',1,'ScoredProductions::StreamLinked::API::SharedContainers::User']]],
   ['userauthorizationgrant_13',['UserAuthorizationGrant',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_authorization_grant.html#a177ff5931a8031b0a2b2b2a085e8b759',1,'ScoredProductions::StreamLinked::EventSub::Events::UserAuthorizationGrant']]],
   ['userauthorizationrevoke_14',['UserAuthorizationRevoke',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_authorization_revoke.html#ac326e0137e9b8fd2d47e6fb0ccecfbaf',1,'ScoredProductions::StreamLinked::EventSub::Events::UserAuthorizationRevoke']]],
-  ['usernotice_15',['USERNOTICE',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html#adef71b8dacfca298f70b145a6b3892b3',1,'ScoredProductions::StreamLinked::IRC::Tags::USERNOTICE']]],
-  ['userstate_16',['USERSTATE',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_s_t_a_t_e.html#a8fdbcbdda5a69d7df8f8384e69b17eeb',1,'ScoredProductions::StreamLinked::IRC::Tags::USERSTATE']]],
+  ['usernotice_15',['USERNOTICE',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html#a098e672b2c40978027a1bbdba949cbcb',1,'ScoredProductions::StreamLinked::IRC::Message::USERNOTICE']]],
+  ['userstate_16',['USERSTATE',['../struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_s_t_a_t_e.html#a82a2de93170ca4733737d85dd8241404',1,'ScoredProductions::StreamLinked::IRC::Message::USERSTATE']]],
   ['userupdate_17',['UserUpdate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a91d2776956e171c10b610ee005c391e2',1,'ScoredProductions::StreamLinked::EventSub::Events::UserUpdate']]]
 ];

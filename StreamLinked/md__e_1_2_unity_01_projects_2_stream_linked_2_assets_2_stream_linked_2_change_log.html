@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,8 +97,47 @@ $(function(){initNavTree('md__e_1_2_unity_01_projects_2_stream_linked_2_assets_2
   <div class="headertitle"><div class="title">ChangeLog</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>V2.2.3</p><ul>
-<li>Update specification to 2025-08-19 (No code changes)</li>
+<div class="textblock"><p>TODO</p><ul>
+<li>* Rewritten Authorization Code Grant Flow to now work externally and be more open as a client</li>
+<li>* Add Encryption to InternalSettingsStore</li>
+<li>* Added type value parameter overload options to MakeTwitchAPIRequest methods</li>
+<li>* Added new scene to demonstrate manually adding the Client credentials (Client ID and Secret) to TwitchAPIClient</li>
+<li>* Added new scene to demonstrate manually adding the TwitchTarget to the TwitchIRCClient</li>
+</ul>
+<p>V2.3.0</p><ul>
+<li>Update specification to 2025-09-19</li>
+<li>TwitchMessage refactor and rewrite, primary differences;<ul>
+<li>TwitchMessage class has been removed</li>
+<li>Added ITwitchIRCMessage interface and corosponding interfaces and structs for each individual message</li>
+<li>Tags are now accessible as their defined type class instead of casting via ITagContainer</li>
+<li>Tag classes are now structs inside each message type called TAGS i.e PRIVMSG.TAGS</li>
+<li>TwitchIRCClient event types have been updated to their corosponding types</li>
+<li>Message and Tag structs are now readonly structs</li>
+<li>EmotePosition and BadgeData are renamed to EmoteDetails and BadgeDetails respectively and are now readonly structs</li>
+<li>Memory and Speed optimisations</li>
+<li>References to user_id, room_id and source_room_id ext fields in IRC Tags is now a string from a long, future proofing work in case of change as Twitch docs are unclear</li>
+</ul>
+</li>
+<li>Fix TwitchAPIClient not loading current Client ID and Secret into PlayerPrefs from saved Inspector values, now does this on Awake if value is present</li>
+<li>TwitchAPIClient LoadClientID and LoadClientSecret now load without influence from UsePlayerPrefsFirst, return value now indicates presence of a value in PlayerPrefs</li>
+<li>Added TwitchIRCMessageHistory prefab and said prefab object to IRC scenes</li>
+<li>InternalMakeTwitchAPIRequest when it errors will no longer try to store the Response value as a string</li>
+<li>JsonWriter.StructToJsonValue has been updated and upgraded to handle fields</li>
+<li>Changed TwitchBadgeManager GetGlobalBadges to GetGlobalBadgesAsync, added new GetGlobalBadges method that uses Coroutines</li>
+<li>Changed TwitchEmoteManager GetGlobalChatEmotes to GetGlobalChatEmotesAsync, added new GetGlobalChatEmotes method that uses Coroutines</li>
+</ul>
+<p>V2.2.4</p><ul>
+<li>Update specification to 2025-08-28 (No code changes, please make sure your using SSL for IRC, Twitch might turn off Non-SSL in the future)</li>
+<li>Change the wait condition for MakeTwitchAPIRequest on auth tokens to wait while the credentials it is going to use is in the queue instead of waiting for all tokens</li>
+<li>Add message limit to 'Chatbox Example' scene so it deletes old messages beyond the limit</li>
+<li>Removed '\r<br  />
+' from the processed chat message</li>
+<li>Removed command parameter from ITagContainer.ExtractTags (unused)</li>
+<li>TwitchIRCClient.SendToTwitch now no longer takes param string[], this has been replaced with methods to take string and ReadOnlySpan&lt;Char&gt;</li>
+<li>Consolidate IRC capabilities request into a single send request instead of individual requests</li>
+</ul>
+<p>V2.2.3</p><ul>
+<li>Update specification to 2025‑08‑19 (No code changes)</li>
 <li>emoteSets in GLOBALUSERSTATE and USERSTATE classes for the IRC have been updated from Int[] to String[]</li>
 <li>Fix USERNOTICE MessageID breaking when Twitch adds a id without notice</li>
 <li>Started reverting local function use over lambda</li>

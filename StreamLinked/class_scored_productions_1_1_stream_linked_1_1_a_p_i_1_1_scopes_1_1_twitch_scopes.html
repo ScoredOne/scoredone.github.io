@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.2.3</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -140,6 +140,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a2fe3eed14c4088ea814a54be52c7086a" id="r_a2fe3eed14c4088ea814a54be52c7086a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fe3eed14c4088ea814a54be52c7086a">channel_read_charity</a> = &quot;channel:read:charity&quot;</td></tr>
 <tr class="memdesc:a2fe3eed14c4088ea814a54be52c7086a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read charity campaign details and user donations on your channel. Get Charity Campaign| Get Charity Campaign Donations| Charity Donation| Charity Campaign Start| Charity Campaign Progress| Charity Campaign Stop <br /></td></tr>
 <tr class="separator:a2fe3eed14c4088ea814a54be52c7086a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f8db9d7f3005fa0bff9291717a01a2" id="r_a95f8db9d7f3005fa0bff9291717a01a2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f8db9d7f3005fa0bff9291717a01a2">channel_manage_clips</a> = &quot;channel:manage:clips&quot;</td></tr>
+<tr class="memdesc:a95f8db9d7f3005fa0bff9291717a01a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage Clips for a channel. Get Clips Download <br /></td></tr>
+<tr class="separator:a95f8db9d7f3005fa0bff9291717a01a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6e3b9c3cf6f83b5e2b713ab1e041d05" id="r_aa6e3b9c3cf6f83b5e2b713ab1e041d05"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6e3b9c3cf6f83b5e2b713ab1e041d05">channel_edit_commercial</a> = &quot;channel:edit:commercial&quot;</td></tr>
 <tr class="memdesc:aa6e3b9c3cf6f83b5e2b713ab1e041d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run commercials on a channel. Start Commercial <br /></td></tr>
 <tr class="separator:aa6e3b9c3cf6f83b5e2b713ab1e041d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,6 +212,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a82d029aefbe61a3e0fb0d539acd744c9" id="r_a82d029aefbe61a3e0fb0d539acd744c9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d029aefbe61a3e0fb0d539acd744c9">clips_edit</a> = &quot;clips:edit&quot;</td></tr>
 <tr class="memdesc:a82d029aefbe61a3e0fb0d539acd744c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage Clips for a channel. Create Clip <br /></td></tr>
 <tr class="separator:a82d029aefbe61a3e0fb0d539acd744c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2467d747a58c741bb754e90881743fd6" id="r_a2467d747a58c741bb754e90881743fd6"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2467d747a58c741bb754e90881743fd6">editor_manage_clips</a> = &quot;editor:manage:clips&quot;</td></tr>
+<tr class="memdesc:a2467d747a58c741bb754e90881743fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage Clips as an editor. Get Clips Download <br /></td></tr>
+<tr class="separator:a2467d747a58c741bb754e90881743fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d73be44c9082c2e74cd1c5f415159b7" id="r_a3d73be44c9082c2e74cd1c5f415159b7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d73be44c9082c2e74cd1c5f415159b7">moderation_read</a> = &quot;moderation:read&quot;</td></tr>
 <tr class="memdesc:a3d73be44c9082c2e74cd1c5f415159b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">View a channel’s moderation data including Moderators, Bans, Timeouts, and Automod settings. Check AutoMod Status| Get Banned Users| Get Moderators| Channel Moderator Add| Channel Moderator Remove <br /></td></tr>
 <tr class="separator:a3d73be44c9082c2e74cd1c5f415159b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -588,6 +594,30 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Manage a channel’s broadcast configuration, including updating channel configuration and managing stream markers and stream tags. Modify Channel Information| Create Stream Marker| Replace Stream Tags</p>
+
+</div>
+</div>
+<a id="a95f8db9d7f3005fa0bff9291717a01a2" name="a95f8db9d7f3005fa0bff9291717a01a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f8db9d7f3005fa0bff9291717a01a2">&#9670;&#160;</a></span>channel_manage_clips</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Scopes.TwitchScopes.channel_manage_clips = &quot;channel:manage:clips&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Manage Clips for a channel. Get Clips Download</p>
 
 </div>
 </div>
@@ -1212,6 +1242,30 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Manage Clips for a channel. Create Clip</p>
+
+</div>
+</div>
+<a id="a2467d747a58c741bb754e90881743fd6" name="a2467d747a58c741bb754e90881743fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2467d747a58c741bb754e90881743fd6">&#9670;&#160;</a></span>editor_manage_clips</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Scopes.TwitchScopes.editor_manage_clips = &quot;editor:manage:clips&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Manage Clips as an editor. Get Clips Download</p>
 
 </div>
 </div>

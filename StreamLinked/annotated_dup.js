@@ -95,6 +95,7 @@ var annotated_dup =
           [ "Clips", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips.html", [
             [ "CreateClip", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip" ],
             [ "GetClips", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips" ],
+            [ "GetClipsDownload", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips_download.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips_download" ],
             [ "IClips", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_i_clips.html", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_i_clips" ]
           ] ],
           [ "Conduits", "namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_conduits.html", [
@@ -512,23 +513,42 @@ var annotated_dup =
             [ "CommandTypeExtensions", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_command_type_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_command_type_extensions" ],
             [ "IRCCommandType", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_i_r_c_command_type.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_extensions_1_1_i_r_c_command_type" ]
           ] ],
+          [ "Message", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message.html", [
+            [ "Interface", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface.html", [
+              [ "IParsedMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_parsed_message.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_parsed_message" ],
+              [ "ISenderMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_sender_message.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_sender_message" ],
+              [ "ITagContainer", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_container.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_container" ],
+              [ "ITagMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message" ],
+              [ "ITwitchIRCMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message" ],
+              [ "IUserMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_user_message.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_user_message" ]
+            ] ],
+            [ "CAP", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_a_p.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_a_p" ],
+            [ "CLEARCHAT", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_c_h_a_t.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_c_h_a_t" ],
+            [ "CLEARMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_m_s_g.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_m_s_g" ],
+            [ "GLOBALUSERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e" ],
+            [ "JOIN", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_j_o_i_n.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_j_o_i_n" ],
+            [ "NICK", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_i_c_k.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_i_c_k" ],
+            [ "NOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e" ],
+            [ "OTHER", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_o_t_h_e_r.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_o_t_h_e_r" ],
+            [ "PART", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_r_t.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_r_t" ],
+            [ "PASS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_s_s.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_s_s" ],
+            [ "PING", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_i_n_g.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_i_n_g" ],
+            [ "PONG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_o_n_g.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_o_n_g" ],
+            [ "PRIVMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g" ],
+            [ "RECONNECT", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_e_c_o_n_n_e_c_t.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_e_c_o_n_n_e_c_t" ],
+            [ "ROOMSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_o_o_m_s_t_a_t_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_o_o_m_s_t_a_t_e" ],
+            [ "TwitchMessageTagHelper", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_twitch_message_tag_helper.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_twitch_message_tag_helper" ],
+            [ "USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e" ],
+            [ "USERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_s_t_a_t_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_s_t_a_t_e" ]
+          ] ],
           [ "Tags", "namespace_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags.html", [
-            [ "BadgeData", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_data" ],
-            [ "CLEARCHAT", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_c_l_e_a_r_c_h_a_t.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_c_l_e_a_r_c_h_a_t" ],
-            [ "CLEARMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_c_l_e_a_r_m_s_g.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_c_l_e_a_r_m_s_g" ],
-            [ "EmotePosition", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_position" ],
-            [ "GLOBALUSERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_g_l_o_b_a_l_u_s_e_r_s_t_a_t_e" ],
-            [ "ITagContainer", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container.html", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_i_tag_container" ],
-            [ "NOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_n_o_t_i_c_e" ],
-            [ "OTHER", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_o_t_h_e_r.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_o_t_h_e_r" ],
-            [ "PRIVMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_p_r_i_v_m_s_g" ],
-            [ "ROOMSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_r_o_o_m_s_t_a_t_e" ],
-            [ "TwitchIRCTags", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags" ],
-            [ "USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_n_o_t_i_c_e" ],
-            [ "USERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_s_t_a_t_e.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_u_s_e_r_s_t_a_t_e" ]
+            [ "BadgeDetails", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_details.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_badge_details" ],
+            [ "EmoteDetails", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_details.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_details" ],
+            [ "TwitchIRCTags", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags" ]
           ] ],
           [ "TwitchIRCClient", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client" ],
-          [ "TwitchMessage", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message.html", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_message" ]
+          [ "TwitchIRCCommandExtensions", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions" ],
+          [ "TwitchIRCMessageHistory", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history" ]
         ] ],
         [ "LightJson", "namespace_scored_productions_1_1_stream_linked_1_1_light_json.html", [
           [ "Serialization", "namespace_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization.html", [

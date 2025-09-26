@@ -46,6 +46,7 @@ var _twitch_a_p_i_class_enum_8cs =
       [ "UpdateUserChatColor", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a5fa91998bf1ae0888abf86e42ce83aba", null ],
       [ "CreateClip", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a8d4684958b17045f3e7740c008c9a74e", null ],
       [ "GetClips", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5ae95b29835de0b58d457e0cc88e93fbff", null ],
+      [ "GetClipsDownload", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a82ceecd39af558ba26dfd37c4899ca60", null ],
       [ "CreateConduits", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a232cc097fde3c1c31b93b152bc9488be", null ],
       [ "DeleteConduits", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5aa7c760d6eef999740669572a41bb1e96", null ],
       [ "GetConduits", "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a9f63ffa50df92ee4a753a4e956e29f4f", null ],

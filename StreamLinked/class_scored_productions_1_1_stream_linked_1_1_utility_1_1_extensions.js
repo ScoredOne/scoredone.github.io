@@ -12,5 +12,7 @@ var class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions =
     [ "ToHex", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#afa6303dd79577419c0701891a11e3f84", null ],
     [ "ToReadable", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#a766ec415b0d31fb79efffc153e15d68e", null ],
     [ "YieldTask", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#ae59876cb2ae4f067861fe65c8087be03", null ],
-    [ "YieldTask< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#a6c6ad86b2375654e80108c735727b0da", null ]
+    [ "YieldTask", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#aa93d5d67d12ad95d307b5da57587d597", null ],
+    [ "YieldTask< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#a6c6ad86b2375654e80108c735727b0da", null ],
+    [ "YieldTask< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html#ab2e80201a44b98ef72feda3b5b68631d", null ]
 ];

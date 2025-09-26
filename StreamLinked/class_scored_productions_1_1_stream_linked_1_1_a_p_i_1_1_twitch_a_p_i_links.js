@@ -10,6 +10,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links 
     [ "CheckAutoModStatus", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ace602a560679ecf3de96144aa264ee1a", null ],
     [ "CheckUserSubscription", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ab417e2315854bbfca77e148f24ed1974", null ],
     [ "Clips", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a8c55233ea8a4764531ef92cf397e94ab", null ],
+    [ "ClipsDownloads", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a67c2934100281379ba703ff1e2afafbf", null ],
     [ "Conduits", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#ab94e3776fb233c8500924f165382b94a", null ],
     [ "ConduitShards", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a97beb7d3d1fc07a16f2401b659d6e62a", null ],
     [ "CreateStreamMarker", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#a905e31c8cb1465dea568f9e8685f803e", null ],
