@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "ScoredProductions.StreamLinked.Utility.AesEncrypter", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_aes_encrypter.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Announcement", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_announcement.html", null ],
     [ "ScoredProductions.StreamLinked.UniGif.UniGif.ApplicationExtension.ApplicationDataBlock", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_application_extension_1_1_application_data_block.html", null ],
@@ -46,6 +47,7 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.LightJson.Serialization.JsonParseException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_parse_exception.html", null ],
       [ "ScoredProductions.StreamLinked.LightJson.Serialization.JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html", null ]
     ] ],
+    [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEventExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.Utility.Extensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Followers", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_followers.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Fragment", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_fragment.html", null ],

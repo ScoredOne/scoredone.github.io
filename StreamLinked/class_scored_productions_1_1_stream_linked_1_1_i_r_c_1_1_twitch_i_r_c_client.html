@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -138,8 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a661d407d758871c985bc9d6d09afff19" id="r_a661d407d758871c985bc9d6d09afff19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a661d407d758871c985bc9d6d09afff19">JoinChannel</a> (string room)</td></tr>
 <tr class="memdesc:a661d407d758871c985bc9d6d09afff19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leaves and joins a new room, provide blank room to not join new room.  <br /></td></tr>
 <tr class="separator:a661d407d758871c985bc9d6d09afff19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad435f458209977b843abdf6febc72676" id="r_ad435f458209977b843abdf6febc72676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad435f458209977b843abdf6febc72676">StartUpIRC</a> (string target=null)</td></tr>
+<tr class="separator:ad435f458209977b843abdf6febc72676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77590618c228270741427c886dcc18a9" id="r_a77590618c228270741427c886dcc18a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77590618c228270741427c886dcc18a9">ShutdownIRC</a> ()</td></tr>
+<tr class="separator:a77590618c228270741427c886dcc18a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7869ac084d9edfae27a37168be3b88c" id="r_af7869ac084d9edfae27a37168be3b88c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7869ac084d9edfae27a37168be3b88c">ReconnectToTwitch</a> ()</td></tr>
-<tr class="memdesc:af7869ac084d9edfae27a37168be3b88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops and starts Twitch IRC, Runs a coroutine.  <br /></td></tr>
+<tr class="memdesc:af7869ac084d9edfae27a37168be3b88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops and restarts Twitch IRC connection.  <br /></td></tr>
 <tr class="separator:af7869ac084d9edfae27a37168be3b88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad21a37a221ac5353c8a7c8066e230e44" id="r_ad21a37a221ac5353c8a7c8066e230e44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21a37a221ac5353c8a7c8066e230e44">SendMessageToChat</a> (string message)</td></tr>
 <tr class="separator:ad21a37a221ac5353c8a7c8066e230e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -859,7 +863,7 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Stops and starts Twitch IRC, Runs a coroutine. </p>
+<p>Stops and restarts Twitch IRC connection. </p>
 
 </div>
 </div>
@@ -952,6 +956,23 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a77590618c228270741427c886dcc18a9" name="a77590618c228270741427c886dcc18a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77590618c228270741427c886dcc18a9">&#9670;&#160;</a></span>ShutdownIRC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.IRC.TwitchIRCClient.ShutdownIRC </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a26d8b459022b178b42ab913ca1a421c8" name="a26d8b459022b178b42ab913ca1a421c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26d8b459022b178b42ab913ca1a421c8">&#9670;&#160;</a></span>StartTwitchReconnectionRoutine()</h2>
 
@@ -973,6 +994,23 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad435f458209977b843abdf6febc72676" name="ad435f458209977b843abdf6febc72676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad435f458209977b843abdf6febc72676">&#9670;&#160;</a></span>StartUpIRC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScoredProductions.StreamLinked.IRC.TwitchIRCClient.StartUpIRC </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>target</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

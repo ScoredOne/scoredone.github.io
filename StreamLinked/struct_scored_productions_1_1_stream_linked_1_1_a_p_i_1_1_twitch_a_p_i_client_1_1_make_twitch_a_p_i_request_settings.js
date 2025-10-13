@@ -1,5 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client_1_1_make_twitch_a_p_i_request_settings =
 [
+    [ "GetFreshTokens", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client_1_1_make_twitch_a_p_i_request_settings.html#a0a4e3416f6ba40cb37eea770839f8e9b", null ],
     [ "RetryOnUnauthorised", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client_1_1_make_twitch_a_p_i_request_settings.html#a6b85455d1aa5fb3b7a32b90b0fe93552", null ],
     [ "ScopeWarning", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client_1_1_make_twitch_a_p_i_request_settings.html#a51aa6af6519fb6be1490f00c51eccfa6", null ]
 ];

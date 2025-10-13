@@ -3,7 +3,9 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1
     [ "AddScope", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#aab0902ff8ca98b4f695694b4fec2740b", null ],
     [ "AddScope", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#ab41ca98ecf7a996c899e7dbeb5fb5f83", null ],
     [ "CheckRefreshNeeded", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a7d53893341dac1b3d5846d3752d4d957", null ],
-    [ "CheckRefreshNeededAsync", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a0b87a0f104817d025ad8d9bef4c3fb1a", null ],
+    [ "CheckRefreshNeeded", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#abdc6d734522a987b19b2a8936fb52e43", null ],
+    [ "CheckRefreshNeededAsync", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a98e4f46bb674fb8c6fabff658a2df1a8", null ],
+    [ "CheckRefreshNeededAsync", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#ad239bbfbe73f8619daade9d21ccb0c60", null ],
     [ "ClearTokenFromSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a4b91852a0b0d21ff7f0163482516e820", null ],
     [ "LoadTokenFromSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a337097800aa36790d68868105af3141c", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#afdc6881fd750f18b740e386ee749d570", null ],
@@ -25,7 +27,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1
     [ "requestScopes", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a4d16d926d165c1f6b1d860e927be6dc2", null ],
     [ "startNewOnRefreshFail", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a99dca1a53973225f2eec40a2b3352147", null ],
     [ "tokenID", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a527853919ccb0d7e76fc1daab78b0464", null ],
-    [ "TokenUpdateRequired", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a35f23700fc010887d07c341ae75f5fa2", null ],
+    [ "tokenUpdateRequired", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#aea3abe1c1a040ad419c16e1c70883bf0", null ],
     [ "userProvidedJSCode", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#aa439b881bbdd615a6705a1cc73cdd3f5", null ],
     [ "userProvidedWebResponse", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a58ac00b05e7b3746c4249368326dda26", null ],
     [ "AuthenticationType", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#adfe7d6bccf0d7b9951ac2c620798ccaa", null ],
@@ -41,6 +43,7 @@ var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1
     [ "RequestScopes", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a9e65eb2739fa337190d83d24c65f236d", null ],
     [ "StartNewOnRefreshFail", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#ae042ebacbfc684d5462405895c62735a", null ],
     [ "TokenID", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#ad1f6f2736868409cb339bdecf73a6e04", null ],
+    [ "TokenUpdateRequired", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a35f23700fc010887d07c341ae75f5fa2", null ],
     [ "UserProvidedJSCode", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#ae7a24f81a2a87e1518cf3f16da648894", null ],
     [ "UserProvidedWebResponse", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html#a25031991412ccd52534d91269a4edd97", null ]
 ];

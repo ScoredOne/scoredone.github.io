@@ -117,6 +117,7 @@ var searchData=
   ['extendedunityevent_3c_20userstate_20_3e_114',['ExtendedUnityEvent&lt; USERSTATE &gt;',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html',1,'ScoredProductions::StreamLinked::Utility']]],
   ['extendedunityevent_3c_20userupdate_20_3e_115',['ExtendedUnityEvent&lt; UserUpdate &gt;',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html',1,'ScoredProductions::StreamLinked::Utility']]],
   ['extendedunityevent_3c_20whisperreceived_20_3e_116',['ExtendedUnityEvent&lt; WhisperReceived &gt;',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html',1,'ScoredProductions::StreamLinked::Utility']]],
-  ['extensionbitstransactioncreate_117',['ExtensionBitsTransactionCreate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['extensions_118',['Extensions',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html',1,'ScoredProductions::StreamLinked::Utility']]]
+  ['extendedunityeventextensions_117',['ExtendedUnityEventExtensions',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions.html',1,'ScoredProductions::StreamLinked::Utility']]],
+  ['extensionbitstransactioncreate_118',['ExtensionBitsTransactionCreate',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['extensions_119',['Extensions',['../class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html',1,'ScoredProductions::StreamLinked::Utility']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"_get_top_games_8cs.html":[13,0,0,0,0,0,0,2,0,14,1],
 "_get_unban_requests_8cs.html":[13,0,0,0,0,0,0,2,0,18,12],
 "_get_user_active_extensions_8cs.html":[13,0,0,0,0,0,0,2,0,28,1],
 "_get_user_block_list_8cs.html":[13,0,0,0,0,0,0,2,0,28,2],
@@ -73,13 +74,14 @@ var NAVTREEINDEX1 =
 "_image_header_helpers_8cs.html":[13,0,0,0,0,0,0,6,0],
 "_images_8cs.html":[13,0,0,0,0,0,0,2,0,24,17],
 "_implicit_grant_flow_8cs.html":[13,0,0,0,0,0,0,2,1,5],
-"_internal_settings_store_8cs.html":[13,0,0,0,0,0,0,8,5],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61":[13,0,0,0,0,0,0,8,5,1],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3":[13,0,0,0,0,0,0,8,5,1,1],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be":[13,0,0,0,0,0,0,8,5,1,0],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3":[13,0,0,0,0,0,0,8,5,1,2],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4":[13,0,0,0,0,0,0,8,5,1,4],
-"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de":[13,0,0,0,0,0,0,8,5,1,3],
+"_internal_settings_store_8cs.html":[13,0,0,0,0,0,0,8,6],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61":[13,0,0,0,0,0,0,8,6,1],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3":[13,0,0,0,0,0,0,8,6,1,1],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a2d995f5d8a279f9e36d07276869cb9be":[13,0,0,0,0,0,0,8,6,1,0],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a831ee69507aa0a1494a17ba0d7f193c0":[13,0,0,0,0,0,0,8,6,1,5],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3":[13,0,0,0,0,0,0,8,6,1,2],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4":[13,0,0,0,0,0,0,8,6,1,4],
+"_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de":[13,0,0,0,0,0,0,8,6,1,3],
 "_j_o_i_n_8cs.html":[13,0,0,0,0,0,0,4,1,1,4],
 "_json_array_8cs.html":[13,0,0,0,0,0,0,0,1],
 "_json_object_8cs.html":[13,0,0,0,0,0,0,0,2],
@@ -160,8 +162,8 @@ var NAVTREEINDEX1 =
 "_shards_8cs.html":[13,0,0,0,0,0,0,2,0,24,35],
 "_shared___all___time___high_8cs.html":[13,0,0,0,0,0,0,2,0,24,36],
 "_shared_train_participants_8cs.html":[13,0,0,0,0,0,0,3,1,1,42],
-"_singleton_dispatcher_8cs.html":[13,0,0,0,0,0,0,8,6],
-"_singleton_instance_8cs.html":[13,0,0,0,0,0,0,8,7],
+"_singleton_dispatcher_8cs.html":[13,0,0,0,0,0,0,8,7],
+"_singleton_instance_8cs.html":[13,0,0,0,0,0,0,8,8],
 "_size_8cs.html":[13,0,0,0,0,0,0,2,0,24,37],
 "_slow_8cs.html":[13,0,0,0,0,0,0,3,1,1,43],
 "_snooze_next_ad_8cs.html":[13,0,0,0,0,0,0,2,0,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a5861ed3debbb22c14fc2f12bfc496711":[13,0,0,0,0,0,0,2,0,34,0,140],
 "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a59e76a6bc04284ec7363326eff051420":[13,0,0,0,0,0,0,2,0,34,0,135],
 "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a5f29ee01514fef3931d4b1099353ee04":[13,0,0,0,0,0,0,2,0,34,0,6],
-"_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a5fa91998bf1ae0888abf86e42ce83aba":[13,0,0,0,0,0,0,2,0,34,0,42],
-"_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a600fb85a974763d128b3bf7e21ff2e3f":[13,0,0,0,0,0,0,2,0,34,0,12],
-"_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a655dc35673d15171528f3c1cdf8a7e76":[13,0,0,0,0,0,0,2,0,34,0,67]
+"_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a5fa91998bf1ae0888abf86e42ce83aba":[13,0,0,0,0,0,0,2,0,34,0,42]
 };

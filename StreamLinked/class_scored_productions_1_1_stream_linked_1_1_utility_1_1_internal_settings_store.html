@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,6 +97,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_utility
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.Utility.InternalSettingsStore Class Reference</div></div>
 </div><!--header-->
@@ -107,21 +108,27 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_utility
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c03fd61f2c8b6b96b3e9b8b5503b5e5" id="r_a2c03fd61f2c8b6b96b3e9b8b5503b5e5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c03fd61f2c8b6b96b3e9b8b5503b5e5">EditSetting</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> setting, string value, byte[] encryptionKey, bool logMessage=false)</td></tr>
+<tr class="memdesc:a2c03fd61f2c8b6b96b3e9b8b5503b5e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requires main thread, provides Aes Encryption.  <br /></td></tr>
+<tr class="separator:a2c03fd61f2c8b6b96b3e9b8b5503b5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fc7db537ed633aefc5434096cb4edb9" id="r_a8fc7db537ed633aefc5434096cb4edb9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fc7db537ed633aefc5434096cb4edb9">EditSetting</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> setting, string value, bool logMessage=false)</td></tr>
 <tr class="memdesc:a8fc7db537ed633aefc5434096cb4edb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requires main thread.  <br /></td></tr>
 <tr class="separator:a8fc7db537ed633aefc5434096cb4edb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a510182522d4d232db25e48e9e10cbd7b" id="r_a510182522d4d232db25e48e9e10cbd7b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a510182522d4d232db25e48e9e10cbd7b">GroupEditSettings</a> ((<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string)[] values)</td></tr>
-<tr class="memdesc:a510182522d4d232db25e48e9e10cbd7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edit a group of settings values, Requires main thread.  <br /></td></tr>
-<tr class="separator:a510182522d4d232db25e48e9e10cbd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae42db7d6c657381f839a66850e61d0a7" id="r_ae42db7d6c657381f839a66850e61d0a7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42db7d6c657381f839a66850e61d0a7">ClearPlayerPrefs</a> ()</td></tr>
-<tr class="memdesc:ae42db7d6c657381f839a66850e61d0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will delete ALL SavedSettings, use with caution, Requires main thread.  <br /></td></tr>
+<tr class="memdesc:ae42db7d6c657381f839a66850e61d0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will delete ALL <code>SavedSettings</code>, Requires main thread, does not clear PlayerPrefs outside of <code>SavedSettings</code>  <br /></td></tr>
 <tr class="separator:ae42db7d6c657381f839a66850e61d0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab799292f62b5cce1ffb44f26fc95b4af" id="r_ab799292f62b5cce1ffb44f26fc95b4af"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab799292f62b5cce1ffb44f26fc95b4af">TryGetSetting&lt; T &gt;</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> setting, out T value, bool logMessage=false)</td></tr>
 <tr class="memdesc:ab799292f62b5cce1ffb44f26fc95b4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get value from PlayerPrefs, all values are stored as string, this will try to convert it back.  <br /></td></tr>
 <tr class="separator:ab799292f62b5cce1ffb44f26fc95b4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ecd26fbea9a25c2fcd79e81586a694d" id="r_a8ecd26fbea9a25c2fcd79e81586a694d"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ecd26fbea9a25c2fcd79e81586a694d">GetAllSettingsAsJson</a> ()</td></tr>
-<tr class="memdesc:a8ecd26fbea9a25c2fcd79e81586a694d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all stored settings in PlayerPrefs under the settings enum <code>SavedSettings</code>  <br /></td></tr>
-<tr class="separator:a8ecd26fbea9a25c2fcd79e81586a694d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48c1d18de159ecf9d37d7b81cad31ad" id="r_ad48c1d18de159ecf9d37d7b81cad31ad"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48c1d18de159ecf9d37d7b81cad31ad">TryGetSetting&lt; T &gt;</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> setting, byte[] encryptionKey, out T value, bool logMessage=false)</td></tr>
+<tr class="memdesc:ad48c1d18de159ecf9d37d7b81cad31ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get value from PlayerPrefs, all values are stored as string, this will try to convert it back. If a key is provided, it will attempt to decrypt it.  <br /></td></tr>
+<tr class="separator:ad48c1d18de159ecf9d37d7b81cad31ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510182522d4d232db25e48e9e10cbd7b" id="r_a510182522d4d232db25e48e9e10cbd7b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a510182522d4d232db25e48e9e10cbd7b">GroupEditSettings</a> ((<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string)[] values)</td></tr>
+<tr class="memdesc:a510182522d4d232db25e48e9e10cbd7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edit a group of settings values, Requires main thread.  <br /></td></tr>
+<tr class="separator:a510182522d4d232db25e48e9e10cbd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afee046bea80d42cc4bc6e5dc8e9f93" id="r_a3afee046bea80d42cc4bc6e5dc8e9f93"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3afee046bea80d42cc4bc6e5dc8e9f93">GetAllSettingsAsJson</a> (bool pretty=true)</td></tr>
+<tr class="memdesc:a3afee046bea80d42cc4bc6e5dc8e9f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all stored settings in PlayerPrefs under the settings enum <code>SavedSettings</code>.  <br /></td></tr>
+<tr class="separator:a3afee046bea80d42cc4bc6e5dc8e9f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4dc9d0891a7187fc122ed31fed5f5b0" id="r_ae4dc9d0891a7187fc122ed31fed5f5b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4dc9d0891a7187fc122ed31fed5f5b0">InputDataJSON</a> (string JSON)</td></tr>
 <tr class="memdesc:ae4dc9d0891a7187fc122ed31fed5f5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a saved instance of the settings into the store, overwrites existing values.  <br /></td></tr>
 <tr class="separator:ae4dc9d0891a7187fc122ed31fed5f5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +137,11 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a0efeb4d1efc8efb38629d9a01e51ff2a" id="r_a0efeb4d1efc8efb38629d9a01e51ff2a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0efeb4d1efc8efb38629d9a01e51ff2a">SettingsWord</a> = &quot;Settings&quot;</td></tr>
 <tr class="separator:a0efeb4d1efc8efb38629d9a01e51ff2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:af15968e2c5477b95b2a11b3c827b2cf3" id="r_af15968e2c5477b95b2a11b3c827b2cf3"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af15968e2c5477b95b2a11b3c827b2cf3">Cache</a> = new Dictionary&lt;<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string&gt;(Enum.GetValues(typeof(<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>)).Length)</td></tr>
+<tr class="separator:af15968e2c5477b95b2a11b3c827b2cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple method of credential store. PlayerPref will need populating on Install of App. PlayerPrefs are not saved/included in build. </p>
@@ -157,12 +169,12 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This will delete ALL SavedSettings, use with caution, Requires main thread. </p>
+<p>This will delete ALL <code>SavedSettings</code>, Requires main thread, does not clear PlayerPrefs outside of <code>SavedSettings</code> </p>
 
 </div>
 </div>
 <a id="a8fc7db537ed633aefc5434096cb4edb9" name="a8fc7db537ed633aefc5434096cb4edb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fc7db537ed633aefc5434096cb4edb9">&#9670;&#160;</a></span>EditSetting()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc7db537ed633aefc5434096cb4edb9">&#9670;&#160;</a></span>EditSetting() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,8 +215,55 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ecd26fbea9a25c2fcd79e81586a694d" name="a8ecd26fbea9a25c2fcd79e81586a694d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ecd26fbea9a25c2fcd79e81586a694d">&#9670;&#160;</a></span>GetAllSettingsAsJson()</h2>
+<a id="a2c03fd61f2c8b6b96b3e9b8b5503b5e5" name="a2c03fd61f2c8b6b96b3e9b8b5503b5e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c03fd61f2c8b6b96b3e9b8b5503b5e5">&#9670;&#160;</a></span>EditSetting() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ScoredProductions.StreamLinked.Utility.InternalSettingsStore.EditSetting </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a></td>          <td class="paramname"><span class="paramname"><em>setting</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]</td>          <td class="paramname"><span class="paramname"><em>encryptionKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>logMessage</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Requires main thread, provides Aes Encryption. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">editSetting</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3afee046bea80d42cc4bc6e5dc8e9f93" name="a3afee046bea80d42cc4bc6e5dc8e9f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afee046bea80d42cc4bc6e5dc8e9f93">&#9670;&#160;</a></span>GetAllSettingsAsJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +274,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static string ScoredProductions.StreamLinked.Utility.InternalSettingsStore.GetAllSettingsAsJson </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>pretty</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -226,7 +285,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get all stored settings in PlayerPrefs under the settings enum <code>SavedSettings</code> </p>
+<p>Get all stored settings in PlayerPrefs under the settings enum <code>SavedSettings</code>. </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -298,8 +357,80 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad48c1d18de159ecf9d37d7b81cad31ad" name="ad48c1d18de159ecf9d37d7b81cad31ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48c1d18de159ecf9d37d7b81cad31ad">&#9670;&#160;</a></span>TryGetSetting&lt; T &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ScoredProductions.StreamLinked.Utility.InternalSettingsStore.TryGetSetting&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a></td>          <td class="paramname"><span class="paramname"><em>setting</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]</td>          <td class="paramname"><span class="paramname"><em>encryptionKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>logMessage</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to get value from PlayerPrefs, all values are stored as string, this will try to convert it back. If a key is provided, it will attempt to decrypt it. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">setting</td><td></td></tr>
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NotSupportedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>IComparable</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>IConvertible</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>IComparable&lt;T&gt;</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>IEquatable&lt;T&gt;</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="ab799292f62b5cce1ffb44f26fc95b4af" name="ab799292f62b5cce1ffb44f26fc95b4af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab799292f62b5cce1ffb44f26fc95b4af">&#9670;&#160;</a></span>TryGetSetting&lt; T &gt;()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab799292f62b5cce1ffb44f26fc95b4af">&#9670;&#160;</a></span>TryGetSetting&lt; T &gt;() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,6 +497,28 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af15968e2c5477b95b2a11b3c827b2cf3" name="af15968e2c5477b95b2a11b3c827b2cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af15968e2c5477b95b2a11b3c827b2cf3">&#9670;&#160;</a></span>Cache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string&gt; ScoredProductions.StreamLinked.Utility.InternalSettingsStore.Cache = new Dictionary&lt;<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string&gt;(Enum.GetValues(typeof(<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>)).Length)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0efeb4d1efc8efb38629d9a01e51ff2a" name="a0efeb4d1efc8efb38629d9a01e51ff2a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0efeb4d1efc8efb38629d9a01e51ff2a">&#9670;&#160;</a></span>SettingsWord</h2>
 

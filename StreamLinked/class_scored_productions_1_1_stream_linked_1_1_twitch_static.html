@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -111,10 +111,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a978b246f5c5474d9feb3ad228ddf91cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac064244750c599750d41c703021eacb4" id="r_ac064244750c599750d41c703021eacb4"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac064244750c599750d41c703021eacb4">ConvertHexToColor</a> (string hexString)</td></tr>
 <tr class="separator:ac064244750c599750d41c703021eacb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a776953177d3302c2afc17c0166bc9fab" id="r_a776953177d3302c2afc17c0166bc9fab"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a776953177d3302c2afc17c0166bc9fab">AppendOAuthToBearer</a> (string oauth)</td></tr>
-<tr class="separator:a776953177d3302c2afc17c0166bc9fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a233bb213edf5e94749be6564b7dcc1b3" id="r_a233bb213edf5e94749be6564b7dcc1b3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a233bb213edf5e94749be6564b7dcc1b3">AppendOAuthToAuth</a> (string oauth)</td></tr>
-<tr class="separator:a233bb213edf5e94749be6564b7dcc1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf35b8a6d688fc9b53123c1c395f1418" id="r_aaf35b8a6d688fc9b53123c1c395f1418"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf35b8a6d688fc9b53123c1c395f1418">AppendBearerToOAuth</a> (string oauth)</td></tr>
+<tr class="separator:aaf35b8a6d688fc9b53123c1c395f1418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f219e04e0c94107a096725eec780547" id="r_a5f219e04e0c94107a096725eec780547"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f219e04e0c94107a096725eec780547">AppendOAuthToOAuth</a> (string oauth)</td></tr>
+<tr class="separator:a5f219e04e0c94107a096725eec780547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b369451257288751d3fd5ad80b36b8" id="r_ac2b369451257288751d3fd5ad80b36b8"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b369451257288751d3fd5ad80b36b8">FormatBytes</a> (double bytes)</td></tr>
 <tr class="separator:ac2b369451257288751d3fd5ad80b36b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a987026cf4f3c39c9fe982e9fe743aa42" id="r_a987026cf4f3c39c9fe982e9fe743aa42"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a987026cf4f3c39c9fe982e9fe743aa42">GenerateNonce</a> (int length=8)</td></tr>
@@ -144,8 +144,8 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Additional functions, methods and values. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a233bb213edf5e94749be6564b7dcc1b3" name="a233bb213edf5e94749be6564b7dcc1b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a233bb213edf5e94749be6564b7dcc1b3">&#9670;&#160;</a></span>AppendOAuthToAuth()</h2>
+<a id="aaf35b8a6d688fc9b53123c1c395f1418" name="aaf35b8a6d688fc9b53123c1c395f1418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf35b8a6d688fc9b53123c1c395f1418">&#9670;&#160;</a></span>AppendBearerToOAuth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +154,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static string ScoredProductions.StreamLinked.TwitchStatic.AppendOAuthToAuth </td>
+          <td class="memname">static string ScoredProductions.StreamLinked.TwitchStatic.AppendBearerToOAuth </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>oauth</em></span></td><td>)</td>
           <td></td>
@@ -169,8 +169,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a776953177d3302c2afc17c0166bc9fab" name="a776953177d3302c2afc17c0166bc9fab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a776953177d3302c2afc17c0166bc9fab">&#9670;&#160;</a></span>AppendOAuthToBearer()</h2>
+<a id="a5f219e04e0c94107a096725eec780547" name="a5f219e04e0c94107a096725eec780547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f219e04e0c94107a096725eec780547">&#9670;&#160;</a></span>AppendOAuthToOAuth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +179,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static string ScoredProductions.StreamLinked.TwitchStatic.AppendOAuthToBearer </td>
+          <td class="memname">static string ScoredProductions.StreamLinked.TwitchStatic.AppendOAuthToOAuth </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>oauth</em></span></td><td>)</td>
           <td></td>

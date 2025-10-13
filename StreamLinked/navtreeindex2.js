@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a600fb85a974763d128b3bf7e21ff2e3f":[13,0,0,0,0,0,0,2,0,34,0,12],
+"_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a655dc35673d15171528f3c1cdf8a7e76":[13,0,0,0,0,0,0,2,0,34,0,67],
 "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a65850334393e27b57fe0e6f74439436e":[13,0,0,0,0,0,0,2,0,34,0,69],
 "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a659980d26568ead9faf9068ff4c1b3d2":[13,0,0,0,0,0,0,2,0,34,0,79],
 "_twitch_a_p_i_class_enum_8cs.html#a522c1bfb49c096952a067859b8f9d8b5a663b11b3272767646851fd84b814b982":[13,0,0,0,0,0,0,2,0,34,0,118],
@@ -116,6 +118,10 @@ var NAVTREEINDEX2 =
 "_twitch_badge_8cs.html":[13,0,0,0,0,0,0,1,0,2],
 "_twitch_badge_manager_8cs.html":[13,0,0,0,0,0,0,1,2],
 "_twitch_badge_manager_editor_8cs.html":[13,0,0,0,0,0,0,1,1,0],
+"_twitch_client_type_8cs.html":[13,0,0,0,0,0,0,2,1,7],
+"_twitch_client_type_8cs.html#af609ec5450de955cf1bd4c9d8387af86":[13,0,0,0,0,0,0,2,1,7,0],
+"_twitch_client_type_8cs.html#af609ec5450de955cf1bd4c9d8387af86a3d067bedfe2f4677470dd6ccf64d05ed":[13,0,0,0,0,0,0,2,1,7,0,1],
+"_twitch_client_type_8cs.html#af609ec5450de955cf1bd4c9d8387af86a3e6912d9edf078375c9e015fb05851d4":[13,0,0,0,0,0,0,2,1,7,0,0],
 "_twitch_emote_8cs.html":[13,0,0,0,0,0,0,1,0,3],
 "_twitch_emote_extensions_8cs.html":[13,0,0,0,0,0,0,1,0,4],
 "_twitch_emote_manager_8cs.html":[13,0,0,0,0,0,0,1,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69aaa14599dc3fdfa9cc81a7c3c247b77b9":[13,0,0,0,0,0,0,4,4,1,3],
 "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69ab50339a10e1de285ac99d4c3990b8693":[13,0,0,0,0,0,0,4,4,1,0],
 "_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69acfe0691fb72a0aa08217a00f4b71cdc9":[13,0,0,0,0,0,0,4,4,1,10],
-"_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69adb5ce5cb1b12edacae4584e881e1451f":[13,0,0,0,0,0,0,4,4,1,16],
-"_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69ae07ff41a486c27c095a15898dcca34d1":[13,0,0,0,0,0,0,4,4,1,6],
-"_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69af0e11cfb6c5259c616a876e7c3d20a12":[13,0,0,0,0,0,0,4,4,1,8],
-"_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69af76c90923b90bc20e448e252e647c8fa":[13,0,0,0,0,0,0,4,4,1,11],
-"_twitch_i_r_c_message_history_8cs.html":[13,0,0,0,0,0,0,4,5],
-"_twitch_i_r_c_message_history_editor_8cs.html":[13,0,0,0,0,0,0,4,0,1],
-"_twitch_i_r_c_scope_attribute_8cs.html":[13,0,0,0,0,0,0,2,3,3]
+"_twitch_i_r_c_command_8cs.html#aa69b7d2d7fb13dde61a0b5a292dc4a69adb5ce5cb1b12edacae4584e881e1451f":[13,0,0,0,0,0,0,4,4,1,16]
 };

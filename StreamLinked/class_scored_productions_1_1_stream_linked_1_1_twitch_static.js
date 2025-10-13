@@ -1,7 +1,7 @@
 var class_scored_productions_1_1_stream_linked_1_1_twitch_static =
 [
-    [ "AppendOAuthToAuth", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#a233bb213edf5e94749be6564b7dcc1b3", null ],
-    [ "AppendOAuthToBearer", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#a776953177d3302c2afc17c0166bc9fab", null ],
+    [ "AppendBearerToOAuth", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#aaf35b8a6d688fc9b53123c1c395f1418", null ],
+    [ "AppendOAuthToOAuth", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#a5f219e04e0c94107a096725eec780547", null ],
     [ "ConvertHexToColor", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#ac064244750c599750d41c703021eacb4", null ],
     [ "FormatBytes", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#ac2b369451257288751d3fd5ad80b36b8", null ],
     [ "GenerateNonce", "class_scored_productions_1_1_stream_linked_1_1_twitch_static.html#a987026cf4f3c39c9fe982e9fe743aa42", null ],

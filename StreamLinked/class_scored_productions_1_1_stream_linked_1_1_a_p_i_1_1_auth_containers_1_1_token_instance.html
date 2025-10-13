@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -96,6 +96,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_a_p_i_1
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -114,9 +115,11 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.AuthContainers.TokenI
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d53893341dac1b3d5846d3752d4d957" id="r_a7d53893341dac1b3d5846d3752d4d957"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d53893341dac1b3d5846d3752d4d957">CheckRefreshNeeded</a> (bool log=false)</td></tr>
+<tr class="memdesc:a7d53893341dac1b3d5846d3752d4d957"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Requires</b> Main Thread  <br /></td></tr>
 <tr class="separator:a7d53893341dac1b3d5846d3752d4d957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b87a0f104817d025ad8d9bef4c3fb1a" id="r_a0b87a0f104817d025ad8d9bef4c3fb1a"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b87a0f104817d025ad8d9bef4c3fb1a">CheckRefreshNeededAsync</a> (bool log=false)</td></tr>
-<tr class="separator:a0b87a0f104817d025ad8d9bef4c3fb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e4f46bb674fb8c6fabff658a2df1a8" id="r_a98e4f46bb674fb8c6fabff658a2df1a8"><td class="memItemLeft" align="right" valign="top">Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98e4f46bb674fb8c6fabff658a2df1a8">CheckRefreshNeededAsync</a> (bool log=false)</td></tr>
+<tr class="memdesc:a98e4f46bb674fb8c6fabff658a2df1a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps CheckRefreshNeeded into a coroutine and sends it to the Twitch API Clients main thread it to do the check.  <br /></td></tr>
+<tr class="separator:a98e4f46bb674fb8c6fabff658a2df1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41ca98ecf7a996c899e7dbeb5fb5f83" id="r_ab41ca98ecf7a996c899e7dbeb5fb5f83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab41ca98ecf7a996c899e7dbeb5fb5f83">AddScope</a> (params <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[] scopes)</td></tr>
 <tr class="memdesc:ab41ca98ecf7a996c899e7dbeb5fb5f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to add scope, notifies to get a new token on new scope added.  <br /></td></tr>
 <tr class="separator:ab41ca98ecf7a996c899e7dbeb5fb5f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,11 +135,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a32a017107860ac7879ab019aca699b" id="r_a1a32a017107860ac7879ab019aca699b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a32a017107860ac7879ab019aca699b">RetrieveTokenAsJson</a> ()</td></tr>
 <tr class="separator:a1a32a017107860ac7879ab019aca699b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337097800aa36790d68868105af3141c" id="r_a337097800aa36790d68868105af3141c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337097800aa36790d68868105af3141c">LoadTokenFromSettings</a> (bool log=false)</td></tr>
+<tr class="memdesc:a337097800aa36790d68868105af3141c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Requires</b> Main Thread  <br /></td></tr>
 <tr class="separator:a337097800aa36790d68868105af3141c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b91852a0b0d21ff7f0163482516e820" id="r_a4b91852a0b0d21ff7f0163482516e820"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b91852a0b0d21ff7f0163482516e820">ClearTokenFromSettings</a> (bool log=false)</td></tr>
+<tr class="memdesc:a4b91852a0b0d21ff7f0163482516e820"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Requires</b> Main Thread  <br /></td></tr>
 <tr class="separator:a4b91852a0b0d21ff7f0163482516e820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a542db5c9acc73605f842719b5c854082" id="r_a542db5c9acc73605f842719b5c854082"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a542db5c9acc73605f842719b5c854082">PerformScopeCheck</a> (in <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#abc40c6155f626fab38243e5af712fd1f">APIScopeWarning</a> ScopeSettings, in <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html">IScope</a> reference)</td></tr>
 <tr class="separator:a542db5c9acc73605f842719b5c854082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:abdc6d734522a987b19b2a8936fb52e43" id="r_abdc6d734522a987b19b2a8936fb52e43"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc6d734522a987b19b2a8936fb52e43">CheckRefreshNeeded</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a> token, bool log=false)</td></tr>
+<tr class="memdesc:abdc6d734522a987b19b2a8936fb52e43"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Requires</b> Main Thread  <br /></td></tr>
+<tr class="separator:abdc6d734522a987b19b2a8936fb52e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad239bbfbe73f8619daade9d21ccb0c60" id="r_ad239bbfbe73f8619daade9d21ccb0c60"><td class="memItemLeft" align="right" valign="top">static async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad239bbfbe73f8619daade9d21ccb0c60">CheckRefreshNeededAsync</a> (<a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a> token, bool log=false)</td></tr>
+<tr class="memdesc:ad239bbfbe73f8619daade9d21ccb0c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps CheckRefreshNeeded into a coroutine and sends it to the Twitch API Clients main thread it to do the check.  <br /></td></tr>
+<tr class="separator:ad239bbfbe73f8619daade9d21ccb0c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -149,6 +163,8 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a35f23700fc010887d07c341ae75f5fa2" id="r_a35f23700fc010887d07c341ae75f5fa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35f23700fc010887d07c341ae75f5fa2">TokenUpdateRequired</a><code> [get]</code></td></tr>
+<tr class="separator:a35f23700fc010887d07c341ae75f5fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfe7d6bccf0d7b9951ac2c620798ccaa" id="r_adfe7d6bccf0d7b9951ac2c620798ccaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfe7d6bccf0d7b9951ac2c620798ccaa">AuthenticationType</a><code> [get, set]</code></td></tr>
 <tr class="separator:adfe7d6bccf0d7b9951ac2c620798ccaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e65eb2739fa337190d83d24c65f236d" id="r_a9e65eb2739fa337190d83d24c65f236d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e65eb2739fa337190d83d24c65f236d">RequestScopes</a><code> [get]</code></td></tr>
@@ -191,8 +207,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a35f23700fc010887d07c341ae75f5fa2" id="r_a35f23700fc010887d07c341ae75f5fa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35f23700fc010887d07c341ae75f5fa2">TokenUpdateRequired</a></td></tr>
-<tr class="separator:a35f23700fc010887d07c341ae75f5fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3abe1c1a040ad419c16e1c70883bf0" id="r_aea3abe1c1a040ad419c16e1c70883bf0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea3abe1c1a040ad419c16e1c70883bf0">tokenUpdateRequired</a> = false</td></tr>
+<tr class="separator:aea3abe1c1a040ad419c16e1c70883bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbdf2c0067e9e706c760db7e0932fb2d" id="r_afbdf2c0067e9e706c760db7e0932fb2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers.html#ae6687b3b8a64b90418a4770479bdbfc5">AuthRequestType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbdf2c0067e9e706c760db7e0932fb2d">authenticationType</a></td></tr>
 <tr class="separator:afbdf2c0067e9e706c760db7e0932fb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d16d926d165c1f6b1d860e927be6dc2" id="r_a4d16d926d165c1f6b1d860e927be6dc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt; <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d16d926d165c1f6b1d860e927be6dc2">requestScopes</a> = new <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html">FlaggedEnum</a>&lt;<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>&gt;()</td></tr>
@@ -260,7 +276,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7d53893341dac1b3d5846d3752d4d957" name="a7d53893341dac1b3d5846d3752d4d957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d53893341dac1b3d5846d3752d4d957">&#9670;&#160;</a></span>CheckRefreshNeeded()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d53893341dac1b3d5846d3752d4d957">&#9670;&#160;</a></span>CheckRefreshNeeded() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,22 +290,102 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><b>Requires</b> Main Thread </p>
+
 </div>
 </div>
-<a id="a0b87a0f104817d025ad8d9bef4c3fb1a" name="a0b87a0f104817d025ad8d9bef4c3fb1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b87a0f104817d025ad8d9bef4c3fb1a">&#9670;&#160;</a></span>CheckRefreshNeededAsync()</h2>
+<a id="abdc6d734522a987b19b2a8936fb52e43" name="abdc6d734522a987b19b2a8936fb52e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc6d734522a987b19b2a8936fb52e43">&#9670;&#160;</a></span>CheckRefreshNeeded() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.CheckRefreshNeeded </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a></td>          <td class="paramname"><span class="paramname"><em>token</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>log</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><b>Requires</b> Main Thread </p>
+
+</div>
+</div>
+<a id="a98e4f46bb674fb8c6fabff658a2df1a8" name="a98e4f46bb674fb8c6fabff658a2df1a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98e4f46bb674fb8c6fabff658a2df1a8">&#9670;&#160;</a></span>CheckRefreshNeededAsync() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">async Task&lt; bool &gt; ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.CheckRefreshNeededAsync </td>
+          <td class="memname">Task&lt; bool &gt; ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.CheckRefreshNeededAsync </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>log</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Wraps CheckRefreshNeeded into a coroutine and sends it to the Twitch API Clients main thread it to do the check. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">log</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="ad239bbfbe73f8619daade9d21ccb0c60" name="ad239bbfbe73f8619daade9d21ccb0c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad239bbfbe73f8619daade9d21ccb0c60">&#9670;&#160;</a></span>CheckRefreshNeededAsync() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static async Task&lt; bool &gt; ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.CheckRefreshNeededAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html">TokenInstance</a></td>          <td class="paramname"><span class="paramname"><em>token</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>log</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wraps CheckRefreshNeeded into a coroutine and sends it to the Twitch API Clients main thread it to do the check. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">log</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -308,6 +404,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><b>Requires</b> Main Thread </p>
+
 </div>
 </div>
 <a id="a337097800aa36790d68868105af3141c" name="a337097800aa36790d68868105af3141c"></a>
@@ -324,6 +422,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><b>Requires</b> Main Thread </p>
 
 </div>
 </div>
@@ -737,8 +837,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a35f23700fc010887d07c341ae75f5fa2" name="a35f23700fc010887d07c341ae75f5fa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35f23700fc010887d07c341ae75f5fa2">&#9670;&#160;</a></span>TokenUpdateRequired</h2>
+<a id="aea3abe1c1a040ad419c16e1c70883bf0" name="aea3abe1c1a040ad419c16e1c70883bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea3abe1c1a040ad419c16e1c70883bf0">&#9670;&#160;</a></span>tokenUpdateRequired</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -747,7 +847,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.TokenUpdateRequired</td>
+          <td class="memname">bool ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.tokenUpdateRequired = false</td>
         </tr>
       </table>
   </td>
@@ -1087,6 +1187,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">string ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.TokenID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35f23700fc010887d07c341ae75f5fa2" name="a35f23700fc010887d07c341ae75f5fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f23700fc010887d07c341ae75f5fa2">&#9670;&#160;</a></span>TokenUpdateRequired</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance.TokenUpdateRequired</td>
         </tr>
       </table>
   </td>

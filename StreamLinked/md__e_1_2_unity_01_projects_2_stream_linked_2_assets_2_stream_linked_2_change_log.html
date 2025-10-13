@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.3.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -98,11 +98,40 @@ $(function(){initNavTree('md__e_1_2_unity_01_projects_2_stream_linked_2_assets_2
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>TODO</p><ul>
+<li>* Open up authentication destination for OAuth tokens, all currently direct to TwitchAPILinks.GetAuthData, will need new field for TokenInstance</li>
+<li>* Try to write a catch for when a user misses the slash on the end of the Request API for tokens</li>
 <li>* Rewritten Authorization Code Grant Flow to now work externally and be more open as a client</li>
-<li>* Add Encryption to InternalSettingsStore</li>
 <li>* Added type value parameter overload options to MakeTwitchAPIRequest methods</li>
 <li>* Added new scene to demonstrate manually adding the Client credentials (Client ID and Secret) to TwitchAPIClient</li>
 <li>* Added new scene to demonstrate manually adding the TwitchTarget to the TwitchIRCClient</li>
+<li>* Ensure all Auth methods have Task and Coroutine equivolents</li>
+<li>* Make application.openurl ext links a global setting in Twitch API Client</li>
+</ul>
+<p>// Old nemessis from long ago, problems with Enter Play Mode Settings</p>
+<p>V2.4.0</p><ul>
+<li>Update Unity package version to 2021.3.45f2 in line with Unity's security update</li>
+<li>TwitchIRCClient now checks for an empty Token and attempts to get the default token from TwitchAPIClient when attempting connection, gracefully exits if neither found</li>
+<li>Added Methods StartUpIRC and ShutdownIRC to TwitchIRCClient</li>
+<li>Changed the colour of Rich text logs using "blue" to "olive" (why didnt I do this sooner, blue was so hard to read)</li>
+<li>InternalSettingsStore, deprecated group inputs and outputs (GroupEditSettings, GetAllSettingsAsJson, InputDataJSON)</li>
+<li>Added ExtendedUnityEventExtensions to ExtendedUnityEvent, To make it easier to assess if an event IsNullOrEmpty, use as @event.IsNullOrEmpty()</li>
+<li>Added Utility class AesEncrypter</li>
+<li>Adden Encryption overloads to InternalSettingsStore methods, updated concepts PDF to reflect change</li>
+<li>Removed throws for TokenInstance when setting OAuthToken and now runs CheckRefreshNeeded to establish if the token is appropriate</li>
+<li>TokenInstance now has a public get property for the private field TokenUpdateRequired</li>
+<li>Added TokenInstance CheckRefreshNeeded static method</li>
+<li>Added a check for token Authentication type against the OAuthToken for CheckRefreshNeeded</li>
+<li>Implicit operator for JsonValue to a string will now use ToString to return a value if the value is not inherently a string</li>
+<li>Added new parameter to MakeTwitchAPIRequest blockRetry, to prevent requests from triggering a retry particularly when OAuth flows contain multiple steps</li>
+<li>Added Cancellation token support to Non Aync MakeTwitchAPIRequests</li>
+<li>Added ClientType to TwitchAPIClient, added compatibility and interaction with new value</li>
+<li>Replaced UpdateClientIDAndSecret with UpdateClientDetails</li>
+<li>Add Cache to InternalSettingStore, allowing TryGetSetting to work inside Tasks if the cache is populated</li>
+<li>Added warning messages to TokenInstance for authorisation types</li>
+<li>Add GetFreshTokens value to TwitchAPIClient, when true will ignore tokens refresh token if available and proceed to get a fresh token</li>
+<li>Fix MakeTwitchAPIRequest not sending up Header values</li>
+<li>Fix Device Code Grant Flow issues, including refreshing, StartNewOnRefreshFail not working and distinction between public and confidential client types</li>
+<li>Changed Device Code Grant Flow methods to use coroutines due to an issue with Task timeouts on waiting for token validation</li>
 </ul>
 <p>V2.3.0</p><ul>
 <li>Update specification to 2025-09-19</li>

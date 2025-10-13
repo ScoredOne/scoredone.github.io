@@ -587,8 +587,10 @@ var annotated_dup =
           [ "UniGifExtension", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_extension.html", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_extension" ]
         ] ],
         [ "Utility", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html", [
+          [ "AesEncrypter", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_aes_encrypter.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_aes_encrypter" ],
           [ "DebugManager", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager" ],
           [ "ExtendedUnityEvent", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event" ],
+          [ "ExtendedUnityEventExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions" ],
           [ "Extensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions" ],
           [ "FlaggedEnum", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum" ],
           [ "InternalSettingsStore", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store" ],

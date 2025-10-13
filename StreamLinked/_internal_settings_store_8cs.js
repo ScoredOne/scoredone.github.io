@@ -6,6 +6,7 @@ var _internal_settings_store_8cs =
       [ "TwitchClientID", "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3", null ],
       [ "TwitchTarget", "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3", null ],
       [ "TwitchAuthenticationTokens", "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de", null ],
-      [ "TwitchCustomReward", "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4", null ]
+      [ "TwitchCustomReward", "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4", null ],
+      [ "TwitchClientType", "_internal_settings_store_8cs.html#a53bb6ea77cbd8888243fbceb287f7f61a831ee69507aa0a1494a17ba0d7f193c0", null ]
     ] ]
 ];

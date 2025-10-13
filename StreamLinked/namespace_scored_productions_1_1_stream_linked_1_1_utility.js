@@ -1,7 +1,9 @@
 var namespace_scored_productions_1_1_stream_linked_1_1_utility =
 [
+    [ "AesEncrypter", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_aes_encrypter.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_aes_encrypter" ],
     [ "DebugManager", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager" ],
     [ "ExtendedUnityEvent", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event" ],
+    [ "ExtendedUnityEventExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions" ],
     [ "Extensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions" ],
     [ "FlaggedEnum", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum" ],
     [ "InternalSettingsStore", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store" ],
@@ -12,6 +14,7 @@ var namespace_scored_productions_1_1_stream_linked_1_1_utility =
       [ "TwitchClientID", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61a146dac3d8240a06b33b6ba3824161df3", null ],
       [ "TwitchTarget", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61a8c6fe2334445d072ed8c8723d375e4b3", null ],
       [ "TwitchAuthenticationTokens", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61a932c03946561b5aa36e7903816e248de", null ],
-      [ "TwitchCustomReward", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4", null ]
+      [ "TwitchCustomReward", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61a8eb06d754ddba8aeda2e13a262f607a4", null ],
+      [ "TwitchClientType", "namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61a831ee69507aa0a1494a17ba0d7f193c0", null ]
     ] ]
 ];
