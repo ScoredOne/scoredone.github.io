@@ -15,6 +15,8 @@ var class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_comman
     [ "_PRIVMSG", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#a66fb5370899f6ed301cb7291b13a4617", null ],
     [ "_RECONNECT", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#a40b8b9820517ca531f259389281480a3", null ],
     [ "_ROOMSTATE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#a8cdc509d8b87a2e8e8683b81e42e38b0", null ],
+    [ "_THREEFIVETHREE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#a16ccc1985c498ef83e12a70bc093de7f", null ],
     [ "_USERNOTICE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#a291ce8b32c8c107a93c0955597fca17a", null ],
-    [ "_USERSTATE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#abdfc785d5a4bd6dac883436aa57e5b3e", null ]
+    [ "_USERSTATE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#abdfc785d5a4bd6dac883436aa57e5b3e", null ],
+    [ "THREESIXSIX", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_command_extensions.html#aeb2d349b2febafd275793ddf866a35f7", null ]
 ];

@@ -1,8 +1,8 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment =
 [
+    [ "SetExtensionConfigurationSegment", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#ae711b377f4ec0497baf098b47c5e555d", null ],
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#ad42d2207d1a34b5232c26e2e50b8114e", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a0348eb381baae9ecb78e2994a29c092c", null ],
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a49b6df56aefdf2abcc6f3989027d8b28", null ],
     [ "readonly", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a40c9350f1c9c68635bf45623cb3d589a", null ],
     [ "MethodName", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a3ccb090f22495e76cb5d94db7bcdbd4b", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_configuration_segment.html#a4076b66dcbf8d1e83c8f9eb2eafb0372", null ],

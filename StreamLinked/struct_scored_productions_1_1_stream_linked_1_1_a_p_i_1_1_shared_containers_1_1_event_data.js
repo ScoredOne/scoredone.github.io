@@ -1,14 +1,14 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data =
 [
-    [ "EventData", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#ab33c36fdc83f8e2df5dde091a84807e0", null ],
-    [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a51c76224710781343e0b3c134211a0b1", null ],
-    [ "cooldown_end_time", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a04f885266df7cdf2b3e36d9ceb9a0056", null ],
-    [ "expires_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a68715fc3066146b8742262bf9caba4bf", null ],
-    [ "goal", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#aba9e0f6c1bea09b3b547db9d364fbee3", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a76f8b9db30f2d86178872f0c36241836", null ],
-    [ "last_contribution", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#ad8c4187ed9ea2b84af1832264cb79ab3", null ],
-    [ "level", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a3ac2de2e64a29e67fa5abd023d3d88df", null ],
-    [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#af6039d16a67311644d94c1bc804d850a", null ],
-    [ "top_contributions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a9c6261c7818639c7a8467d9e1f3164e9", null ],
-    [ "total", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a461235f8c6d772269c458f66b6a3e7ae", null ]
+    [ "EventData", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#aad8be05d5dcd1b251300251c01cac8c9", null ],
+    [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#ae41fe90d541aac5393a9e8297bae79f9", null ],
+    [ "cooldown_end_time", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a9828754977b436dd20fa04db576614eb", null ],
+    [ "expires_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a16361b67ef6e0bc52e75d346b7d57b45", null ],
+    [ "goal", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#ad6eb0519fb7e53c64f2aa18c2b822a0d", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#ab5fd1031cb241c20cfe6c1bd6dd0d85b", null ],
+    [ "last_contribution", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#abfafeee48139a2514650eb84fcb68649", null ],
+    [ "level", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#aab1f7ac9bc2f8a904aa0dd3037aab527", null ],
+    [ "started_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a4920cecbdabca14918456f4889b06025", null ],
+    [ "top_contributions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a0dc9e428ee8b5a04bbb4c04da2757654", null ],
+    [ "total", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_event_data.html#a151bf5700a20419f3db8b17d5481b8e3", null ]
 ];

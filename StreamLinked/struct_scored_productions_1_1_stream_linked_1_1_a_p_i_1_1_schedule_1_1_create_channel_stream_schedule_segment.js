@@ -1,18 +1,18 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment =
 [
+    [ "CreateChannelStreamScheduleSegment", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a27ab4fbd39b21c893265cdde80487564", null ],
     [ "BuildDataJson", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a83eb9c0f0be26be53ec97e0e41256897", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a0348eb381baae9ecb78e2994a29c092c", null ],
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a5e4561f346edd3d4a3062f7c033d0d50", null ],
     [ "readonly", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a40c9350f1c9c68635bf45623cb3d589a", null ],
+    [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a3b5297b391d75101dc6d9bb32bd0605c", null ],
+    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a71d2e7806614b152df4ba6f9536d5266", null ],
+    [ "broadcaster_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a0fed73d27b7d1b57599c44fa28d9ee17", null ],
+    [ "broadcaster_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a33c616aa0305948ae8fb77b7322e9284", null ],
     [ "MethodName", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a3ccb090f22495e76cb5d94db7bcdbd4b", null ],
-    [ "broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a5dabcde9f2c1620cc4c4c2109451c6ad", null ],
-    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a7c0ff490ea36308b1e861d473f687457", null ],
-    [ "broadcaster_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a62eee4cc69b7eb774e1cd3ba63c4b6e6", null ],
-    [ "broadcaster_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a19ebfc491d92250a33335e80ae5d1b35", null ],
+    [ "segments", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#ae6fac1eb84559463b092a5718782ecae", null ],
+    [ "vacation", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#aa6378d70ad5a84d8599f2e65aff63958", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#ad157b048bbb3207338bc4b575c6a4e44", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a05905c3d91379a5c8f674ddadc54f8ff", null ],
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#ad1be883c51ae9b5e6becea41012fe957", null ],
-    [ "segments", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a9c79cc70c52f08b8edcddd70ef07f9cf", null ],
-    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a4fc20a9eac8cd2c7c5128f20edaa9cad", null ],
-    [ "vacation", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a843028ec434dcc7799c65b40ce105b38", null ]
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_schedule_1_1_create_channel_stream_schedule_segment.html#a4fc20a9eac8cd2c7c5128f20edaa9cad", null ]
 ];

@@ -9,12 +9,11 @@ var class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_messag
     [ "EstablishSingleton", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#addd415202c1fd44c33e07ee62060c325", null ],
     [ "GetInstance", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a26987c940d842a83aa6200268a459b3b", null ],
     [ "GetIRCInstance", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a36b9eb6f00b3785e33bcf0e7e8f704ac", null ],
-    [ "OnApplicationQuit", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#af703ff45f05e78bcbde2b41c6b7bc1ed", null ],
+    [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#af7fd0e4c42800cff4a869206a24f44be", null ],
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a04c59c8e006438c951ebc0015a67a5db", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a225be0d1f4a3184c23e250df4e1c5c05", null ],
     [ "ReceiveTwitchIRCMessage", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a95e2422e93b469fb86d846b5008d68cb", null ],
     [ "ReconnectToIRCInstance", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#acfddc0ba0e5c308303c32696836a45fc", null ],
-    [ "Start", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#aca30b1c77c7e18c88a05b3769f49d42e", null ],
     [ "_instance", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc", null ],
     [ "ircClient", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#ae98ea39f471d1212395de8a8d242309c", null ],
     [ "listenerLoaded", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a9f835f1bf30f8fdcb4b5467d16c955b1", null ],
@@ -22,9 +21,9 @@ var class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_messag
     [ "MessagesToStore", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#aea9a9fa0f5e58cd445ca9d39916f9f6c", null ],
     [ "Name", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a7e71aa2bf2e34309f8e44fa6863709f8", null ],
     [ "OnMessageDiscarded", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a48c81e55d53b754c8cd3ab61c869c240", null ],
-    [ "preventNewInstances", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a5f218ec3c0517254de5311e5e9db4d00", null ],
     [ "ReceivedMessages", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a74afb18094c933a285ee5b4494ffed15", null ],
     [ "InstanceIsAlive", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a48ec67fa9431ea8b9a985ee461d9deea", null ],
     [ "PersistBetweenScenes", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a643843381e278ab0ec8077c926d8d5a0", null ],
-    [ "StoredMessages", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a45f8b9cc21e268051496504f7b9ac7a7", null ]
+    [ "StoredMessages", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#a45f8b9cc21e268051496504f7b9ac7a7", null ],
+    [ "UpdateNameToTypeName", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_message_history.html#af46cd6dc7770b6beb93fc5a40e84e1c1", null ]
 ];

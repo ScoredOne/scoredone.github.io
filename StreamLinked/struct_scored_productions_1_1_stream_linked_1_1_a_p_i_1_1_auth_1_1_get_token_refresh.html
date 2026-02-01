@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,6 +97,7 @@ $(function(){initNavTree('struct_scored_productions_1_1_stream_linked_1_1_a_p_i_
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_get_token_refresh-members.html">List of all members</a>  </div>
@@ -120,54 +121,73 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh:
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f89c3fff009158f9c22e99453323469" id="r_a6f89c3fff009158f9c22e99453323469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f89c3fff009158f9c22e99453323469">Initialise</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> body)</td></tr>
-<tr class="separator:a6f89c3fff009158f9c22e99453323469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2e70a5078611a1fd9ea6d3dc8eb469" id="r_a3b2e70a5078611a1fd9ea6d3dc8eb469"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b2e70a5078611a1fd9ea6d3dc8eb469">GetTokenRefresh</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json.html">NJson</a> body)</td></tr>
+<tr class="separator:a3b2e70a5078611a1fd9ea6d3dc8eb469"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a23a7e0513d98ac895067c7920db31aa7" id="r_a23a7e0513d98ac895067c7920db31aa7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a7e0513d98ac895067c7920db31aa7">GenerateBodyString</a> (<a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> clientId, <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> <a class="el" href="#a6d052d7b25018a2f9040d3e50a4e61af">refresh_token</a>, <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> clientSecret=null)</td></tr>
+<tr class="memitem:a1476423c1cb797ec0eace399b3e5108b" id="r_a1476423c1cb797ec0eace399b3e5108b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> (string, string) GetGrantTypeTuple</td></tr>
+<tr class="separator:a1476423c1cb797ec0eace399b3e5108b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a7e0513d98ac895067c7920db31aa7" id="r_a23a7e0513d98ac895067c7920db31aa7"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a7e0513d98ac895067c7920db31aa7">GenerateBodyString</a> (string clientId, string <a class="el" href="#aea2225e5e746932050538df183fc63e9">refresh_token</a>, string clientSecret=null)</td></tr>
 <tr class="separator:a23a7e0513d98ac895067c7920db31aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24a5874130bc8ac876b4e9b28c60e20a" id="r_a24a5874130bc8ac876b4e9b28c60e20a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth.html#a24a5874130bc8ac876b4e9b28c60e20a">EndpointIsAuthRequest</a> (<a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> endpoint)</td></tr>
+<tr class="memitem:a24a5874130bc8ac876b4e9b28c60e20a" id="r_a24a5874130bc8ac876b4e9b28c60e20a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_1_1_i_auth.html#a24a5874130bc8ac876b4e9b28c60e20a">EndpointIsAuthRequest</a> (string endpoint)</td></tr>
 <tr class="separator:a24a5874130bc8ac876b4e9b28c60e20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0348eb381baae9ecb78e2994a29c092c" id="r_a0348eb381baae9ecb78e2994a29c092c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html#a0348eb381baae9ecb78e2994a29c092c">HasResponse&lt; T &gt;</a> ()</td></tr>
 <tr class="separator:a0348eb381baae9ecb78e2994a29c092c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a9e08eac69c969bab4339ddf73168a318" id="r_a9e08eac69c969bab4339ddf73168a318"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e08eac69c969bab4339ddf73168a318">access_token</a></td></tr>
+<tr class="separator:a9e08eac69c969bab4339ddf73168a318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea2225e5e746932050538df183fc63e9" id="r_aea2225e5e746932050538df183fc63e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2225e5e746932050538df183fc63e9">refresh_token</a></td></tr>
+<tr class="separator:aea2225e5e746932050538df183fc63e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41100c2b0b35102e3a58a8d4b2e7aae" id="r_ac41100c2b0b35102e3a58a8d4b2e7aae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac41100c2b0b35102e3a58a8d4b2e7aae">scope</a></td></tr>
+<tr class="separator:ac41100c2b0b35102e3a58a8d4b2e7aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebf2fdfd4a3155249be23f9da5e4e99" id="r_abebf2fdfd4a3155249be23f9da5e4e99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebf2fdfd4a3155249be23f9da5e4e99">token_type</a></td></tr>
+<tr class="separator:abebf2fdfd4a3155249be23f9da5e4e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a6fde3e6f495436c19eed04a071b6d27d" id="r_a6fde3e6f495436c19eed04a071b6d27d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a></td></tr>
-<tr class="separator:a6fde3e6f495436c19eed04a071b6d27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e866fa0691f644a00fe500f4852684" id="r_a25e866fa0691f644a00fe500f4852684"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e866fa0691f644a00fe500f4852684">CLIENT_ID</a> = TwitchWords.CLIENT_ID</td></tr>
+<tr class="separator:a25e866fa0691f644a00fe500f4852684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad13134611dabd55a07b1e37bb4019349" id="r_ad13134611dabd55a07b1e37bb4019349"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad13134611dabd55a07b1e37bb4019349">CLIENT_SECRET</a> = TwitchWords.CLIENT_SECRET</td></tr>
+<tr class="separator:ad13134611dabd55a07b1e37bb4019349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bc22df436b30a6dfc5a6d03bdc013ff" id="r_a8bc22df436b30a6dfc5a6d03bdc013ff"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bc22df436b30a6dfc5a6d03bdc013ff">GRANT_TYPE</a> = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a38380ab7cee86d9cd4f462d2aed99c13">TwitchWords.REFRESH_TOKEN</a></td></tr>
+<tr class="separator:a8bc22df436b30a6dfc5a6d03bdc013ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a53627929d8950506a0394cdfdcb459a5" id="r_a53627929d8950506a0394cdfdcb459a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53627929d8950506a0394cdfdcb459a5">access_token</a><code> [get, set]</code></td></tr>
-<tr class="separator:a53627929d8950506a0394cdfdcb459a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d052d7b25018a2f9040d3e50a4e61af" id="r_a6d052d7b25018a2f9040d3e50a4e61af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d052d7b25018a2f9040d3e50a4e61af">refresh_token</a><code> [get, set]</code></td></tr>
-<tr class="separator:a6d052d7b25018a2f9040d3e50a4e61af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d1e2175ec6eae6c2d7e8af2792ca5b0" id="r_a5d1e2175ec6eae6c2d7e8af2792ca5b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d1e2175ec6eae6c2d7e8af2792ca5b0">scope</a><code> [get, set]</code></td></tr>
-<tr class="separator:a5d1e2175ec6eae6c2d7e8af2792ca5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d02e9b9acbc3f349d7d37a89d3b344" id="r_a34d02e9b9acbc3f349d7d37a89d3b344"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34d02e9b9acbc3f349d7d37a89d3b344">token_type</a><code> [get, set]</code></td></tr>
-<tr class="separator:a34d02e9b9acbc3f349d7d37a89d3b344"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae81b68f72fc46c5f4b0988826c7563f2" id="r_ae81b68f72fc46c5f4b0988826c7563f2"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a5e7fd0dcd52a1025215773db0142fae9">TwitchAPIRequestMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81b68f72fc46c5f4b0988826c7563f2">HTTPMethod</a><code> [get]</code></td></tr>
+<tr class="memitem:ae81b68f72fc46c5f4b0988826c7563f2" id="r_ae81b68f72fc46c5f4b0988826c7563f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a5e7fd0dcd52a1025215773db0142fae9">TwitchAPIRequestMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81b68f72fc46c5f4b0988826c7563f2">HTTPMethod</a><code> [get]</code></td></tr>
 <tr class="separator:ae81b68f72fc46c5f4b0988826c7563f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb09c3332ba16cadf29622348eaad496" id="r_adb09c3332ba16cadf29622348eaad496"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb09c3332ba16cadf29622348eaad496">Endpoint</a><code> [get]</code></td></tr>
+<tr class="memitem:adb09c3332ba16cadf29622348eaad496" id="r_adb09c3332ba16cadf29622348eaad496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb09c3332ba16cadf29622348eaad496">Endpoint</a><code> [get]</code></td></tr>
 <tr class="separator:adb09c3332ba16cadf29622348eaad496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdcb0c59446b5b76ccceb99c8e654745" id="r_acdcb0c59446b5b76ccceb99c8e654745"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdcb0c59446b5b76ccceb99c8e654745">TypeEnum</a><code> [get]</code></td></tr>
+<tr class="memitem:acdcb0c59446b5b76ccceb99c8e654745" id="r_acdcb0c59446b5b76ccceb99c8e654745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdcb0c59446b5b76ccceb99c8e654745">TypeEnum</a><code> [get]</code></td></tr>
 <tr class="separator:acdcb0c59446b5b76ccceb99c8e654745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f093b5d7bcb7d87695fe1cb73d25448" id="r_a2f093b5d7bcb7d87695fe1cb73d25448"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f093b5d7bcb7d87695fe1cb73d25448">Scopes</a><code> [get]</code></td></tr>
+<tr class="memitem:a2f093b5d7bcb7d87695fe1cb73d25448" id="r_a2f093b5d7bcb7d87695fe1cb73d25448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f093b5d7bcb7d87695fe1cb73d25448">Scopes</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2f093b5d7bcb7d87695fe1cb73d25448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional and Required scopes needed by Twitch, found at  Twitch Scopes <br /></td></tr>
 <tr class="separator:a2f093b5d7bcb7d87695fe1cb73d25448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b1587d6d724413abc32ec553108a85d" id="r_a5b1587d6d724413abc32ec553108a85d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1587d6d724413abc32ec553108a85d">GRANT_TYPE</a><code> [get]</code></td></tr>
-<tr class="separator:a5b1587d6d724413abc32ec553108a85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4905deab28a99f9feb10717ac1878c47" id="r_a4905deab28a99f9feb10717ac1878c47"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4905deab28a99f9feb10717ac1878c47">CLIENT_ID</a><code> [get]</code></td></tr>
-<tr class="separator:a4905deab28a99f9feb10717ac1878c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab685a30c6275be9fb52bceeffbed001b" id="r_ab685a30c6275be9fb52bceeffbed001b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab685a30c6275be9fb52bceeffbed001b">CLIENT_SECRET</a><code> [get]</code></td></tr>
-<tr class="separator:ab685a30c6275be9fb52bceeffbed001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77c70117bd1ef3fea3df60fa1a1e16e" id="r_ad77c70117bd1ef3fea3df60fa1a1e16e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad77c70117bd1ef3fea3df60fa1a1e16e">REFRESH_TOKEN</a><code> [get]</code></td></tr>
-<tr class="separator:ad77c70117bd1ef3fea3df60fa1a1e16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch API Class</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3b2e70a5078611a1fd9ea6d3dc8eb469" name="a3b2e70a5078611a1fd9ea6d3dc8eb469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b2e70a5078611a1fd9ea6d3dc8eb469">&#9670;&#160;</a></span>GetTokenRefresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.GetTokenRefresh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json.html">NJson</a></td>          <td class="paramname"><span class="paramname"><em>body</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a24a5874130bc8ac876b4e9b28c60e20a" name="a24a5874130bc8ac876b4e9b28c60e20a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24a5874130bc8ac876b4e9b28c60e20a">&#9670;&#160;</a></span>EndpointIsAuthRequest()</h2>
 
@@ -203,19 +223,19 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.GenerateBodyString </td>
+          <td class="memname">static string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.GenerateBodyString </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a></td>          <td class="paramname"><span class="paramname"><em>clientId</em>, </span></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>clientId</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a></td>          <td class="paramname"><span class="paramname"><em>refresh_token</em>, </span></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>refresh_token</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a></td>          <td class="paramname"><span class="paramname"><em>clientSecret</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>clientSecret</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -261,28 +281,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f89c3fff009158f9c22e99453323469" name="a6f89c3fff009158f9c22e99453323469"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f89c3fff009158f9c22e99453323469">&#9670;&#160;</a></span>Initialise()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.Initialise </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a></td>          <td class="paramname"><span class="paramname"><em>body</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html#aa8a7f3cdaf9970d33a03b952eb3c4e8b">ScoredProductions.StreamLinked.API.ITwitchAPIDataObject</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6fde3e6f495436c19eed04a071b6d27d" name="a6fde3e6f495436c19eed04a071b6d27d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fde3e6f495436c19eed04a071b6d27d">&#9670;&#160;</a></span>string</h2>
+<a id="a1476423c1cb797ec0eace399b3e5108b" name="a1476423c1cb797ec0eace399b3e5108b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1476423c1cb797ec0eace399b3e5108b">&#9670;&#160;</a></span>readonly()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,14 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.string</td>
+          <td class="memname">static ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.readonly </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname">, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -303,73 +310,130 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9e08eac69c969bab4339ddf73168a318" name="a9e08eac69c969bab4339ddf73168a318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e08eac69c969bab4339ddf73168a318">&#9670;&#160;</a></span>access_token</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.access_token</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25e866fa0691f644a00fe500f4852684" name="a25e866fa0691f644a00fe500f4852684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25e866fa0691f644a00fe500f4852684">&#9670;&#160;</a></span>CLIENT_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.CLIENT_ID = TwitchWords.CLIENT_ID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad13134611dabd55a07b1e37bb4019349" name="ad13134611dabd55a07b1e37bb4019349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad13134611dabd55a07b1e37bb4019349">&#9670;&#160;</a></span>CLIENT_SECRET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.CLIENT_SECRET = TwitchWords.CLIENT_SECRET</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bc22df436b30a6dfc5a6d03bdc013ff" name="a8bc22df436b30a6dfc5a6d03bdc013ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bc22df436b30a6dfc5a6d03bdc013ff">&#9670;&#160;</a></span>GRANT_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.GRANT_TYPE = <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_twitch_words.html#a38380ab7cee86d9cd4f462d2aed99c13">TwitchWords.REFRESH_TOKEN</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea2225e5e746932050538df183fc63e9" name="aea2225e5e746932050538df183fc63e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea2225e5e746932050538df183fc63e9">&#9670;&#160;</a></span>refresh_token</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.refresh_token</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac41100c2b0b35102e3a58a8d4b2e7aae" name="ac41100c2b0b35102e3a58a8d4b2e7aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41100c2b0b35102e3a58a8d4b2e7aae">&#9670;&#160;</a></span>scope</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string [] ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.scope</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abebf2fdfd4a3155249be23f9da5e4e99" name="abebf2fdfd4a3155249be23f9da5e4e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abebf2fdfd4a3155249be23f9da5e4e99">&#9670;&#160;</a></span>token_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.token_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a53627929d8950506a0394cdfdcb459a5" name="a53627929d8950506a0394cdfdcb459a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53627929d8950506a0394cdfdcb459a5">&#9670;&#160;</a></span>access_token</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.access_token</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4905deab28a99f9feb10717ac1878c47" name="a4905deab28a99f9feb10717ac1878c47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4905deab28a99f9feb10717ac1878c47">&#9670;&#160;</a></span>CLIENT_ID</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.CLIENT_ID</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab685a30c6275be9fb52bceeffbed001b" name="ab685a30c6275be9fb52bceeffbed001b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab685a30c6275be9fb52bceeffbed001b">&#9670;&#160;</a></span>CLIENT_SECRET</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.CLIENT_SECRET</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="adb09c3332ba16cadf29622348eaad496" name="adb09c3332ba16cadf29622348eaad496"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb09c3332ba16cadf29622348eaad496">&#9670;&#160;</a></span>Endpoint</h2>
 
@@ -380,7 +444,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.Endpoint</td>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> string ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.Endpoint</td>
         </tr>
       </table>
   </td>
@@ -394,28 +458,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5b1587d6d724413abc32ec553108a85d" name="a5b1587d6d724413abc32ec553108a85d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b1587d6d724413abc32ec553108a85d">&#9670;&#160;</a></span>GRANT_TYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.GRANT_TYPE</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae81b68f72fc46c5f4b0988826c7563f2" name="ae81b68f72fc46c5f4b0988826c7563f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae81b68f72fc46c5f4b0988826c7563f2">&#9670;&#160;</a></span>HTTPMethod</h2>
 
@@ -426,7 +468,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a5e7fd0dcd52a1025215773db0142fae9">TwitchAPIRequestMethod</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.HTTPMethod</td>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a5e7fd0dcd52a1025215773db0142fae9">TwitchAPIRequestMethod</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.HTTPMethod</td>
         </tr>
       </table>
   </td>
@@ -440,72 +482,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d052d7b25018a2f9040d3e50a4e61af" name="a6d052d7b25018a2f9040d3e50a4e61af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d052d7b25018a2f9040d3e50a4e61af">&#9670;&#160;</a></span>refresh_token</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.refresh_token</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad77c70117bd1ef3fea3df60fa1a1e16e" name="ad77c70117bd1ef3fea3df60fa1a1e16e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad77c70117bd1ef3fea3df60fa1a1e16e">&#9670;&#160;</a></span>REFRESH_TOKEN</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.REFRESH_TOKEN</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d1e2175ec6eae6c2d7e8af2792ca5b0" name="a5d1e2175ec6eae6c2d7e8af2792ca5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d1e2175ec6eae6c2d7e8af2792ca5b0">&#9670;&#160;</a></span>scope</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> [] ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.scope</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2f093b5d7bcb7d87695fe1cb73d25448" name="a2f093b5d7bcb7d87695fe1cb73d25448"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f093b5d7bcb7d87695fe1cb73d25448">&#9670;&#160;</a></span>Scopes</h2>
 
@@ -516,7 +492,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> [] ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.Scopes</td>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a> [] ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.Scopes</td>
         </tr>
       </table>
   </td>
@@ -532,28 +508,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a34d02e9b9acbc3f349d7d37a89d3b344" name="a34d02e9b9acbc3f349d7d37a89d3b344"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34d02e9b9acbc3f349d7d37a89d3b344">&#9670;&#160;</a></span>token_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a6fde3e6f495436c19eed04a071b6d27d">string</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.token_type</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="acdcb0c59446b5b76ccceb99c8e654745" name="acdcb0c59446b5b76ccceb99c8e654745"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdcb0c59446b5b76ccceb99c8e654745">&#9670;&#160;</a></span>TypeEnum</h2>
 
@@ -564,7 +518,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.TypeEnum</td>
+          <td class="memname"><a class="el" href="#a1476423c1cb797ec0eace399b3e5108b">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a> ScoredProductions.StreamLinked.API.Auth.GetTokenRefresh.TypeEnum</td>
         </tr>
       </table>
   </td>

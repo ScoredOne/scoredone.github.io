@@ -19,7 +19,6 @@ var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containe
     [ "IconUrls", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_icon_urls.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_icon_urls" ],
     [ "Images", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_images.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_images" ],
     [ "IShared", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_i_shared.html", null ],
-    [ "ISharedExtensions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_i_shared_extensions.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_i_shared_extensions" ],
     [ "Label", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_label.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_label" ],
     [ "LastContribution", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_last_contribution.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_last_contribution" ],
     [ "Map", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_map" ],

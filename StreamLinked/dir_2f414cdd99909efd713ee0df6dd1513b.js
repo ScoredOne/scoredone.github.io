@@ -1,12 +1,18 @@
 var dir_2f414cdd99909efd713ee0df6dd1513b =
 [
     [ "Editor", "dir_76fb59feb45986ebbf8c0c6d94cc50a4.html", "dir_76fb59feb45986ebbf8c0c6d94cc50a4" ],
+    [ "Interface", "dir_5f7b5865edba780a600cf4ce60e495be.html", "dir_5f7b5865edba780a600cf4ce60e495be" ],
     [ "AesEncrypter.cs", "_aes_encrypter_8cs.html", "_aes_encrypter_8cs" ],
+    [ "CoroutineWrapper.cs", "_coroutine_wrapper_8cs.html", "_coroutine_wrapper_8cs" ],
     [ "DebugManager.cs", "_debug_manager_8cs.html", "_debug_manager_8cs" ],
     [ "ExtendedUnityEvent.cs", "_extended_unity_event_8cs.html", "_extended_unity_event_8cs" ],
     [ "Extensions.cs", "_extensions_8cs.html", "_extensions_8cs" ],
     [ "FlaggedEnum.cs", "_flagged_enum_8cs.html", "_flagged_enum_8cs" ],
     [ "InternalSettingsStore.cs", "_internal_settings_store_8cs.html", "_internal_settings_store_8cs" ],
+    [ "SingletonBase.cs", "_singleton_base_8cs.html", "_singleton_base_8cs" ],
     [ "SingletonDispatcher.cs", "_singleton_dispatcher_8cs.html", "_singleton_dispatcher_8cs" ],
-    [ "SingletonInstance.cs", "_singleton_instance_8cs.html", "_singleton_instance_8cs" ]
+    [ "SingletonInstance.cs", "_singleton_instance_8cs.html", "_singleton_instance_8cs" ],
+    [ "StringBuilderProvider.cs", "_string_builder_provider_8cs.html", "_string_builder_provider_8cs" ],
+    [ "TaskWrapper.cs", "_task_wrapper_8cs.html", "_task_wrapper_8cs" ],
+    [ "YieldTaskExtensions.cs", "_yield_task_extensions_8cs.html", "_yield_task_extensions_8cs" ]
 ];

@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -116,7 +116,7 @@ Inheritance diagram for ScoredProductions.StreamLinked.VisualScripting.TwitchAPI
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aca4712a6b1545abb0e7c726df3a53287" id="r_aca4712a6b1545abb0e7c726df3a53287"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4712a6b1545abb0e7c726df3a53287">ReturnValueType</a> { <a class="el" href="#aca4712a6b1545abb0e7c726df3a53287a27118326006d3829667a400ad23d5d98">String</a>
-, <a class="el" href="#aca4712a6b1545abb0e7c726df3a53287a447f44870ed8e6204417f0a4ac88e7d0">JsonValue</a>
+, <a class="el" href="#aca4712a6b1545abb0e7c726df3a53287aeed8d85b888a6c015834240885ee6333">Json</a>
 , <a class="el" href="#aca4712a6b1545abb0e7c726df3a53287a6bd2ae3b0c90c088ce7260f2957f9e35">DataContainer</a>
  }</td></tr>
 <tr class="separator:aca4712a6b1545abb0e7c726df3a53287"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,14 +132,10 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2ae07ea17e49ecb90011b4495326da67" id="r_a2ae07ea17e49ecb90011b4495326da67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae07ea17e49ecb90011b4495326da67">RawRequest</a></td></tr>
 <tr class="separator:a2ae07ea17e49ecb90011b4495326da67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac71e21123fb25d5589a7b6febe5ad6fe" id="r_ac71e21123fb25d5589a7b6febe5ad6fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac71e21123fb25d5589a7b6febe5ad6fe">Coroutine</a></td></tr>
-<tr class="separator:ac71e21123fb25d5589a7b6febe5ad6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a381d9871072d365ab8148b0d1b927417" id="r_a381d9871072d365ab8148b0d1b927417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i.html#a522c1bfb49c096952a067859b8f9d8b5">TwitchAPIClassEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a381d9871072d365ab8148b0d1b927417">RequestType</a> = TwitchAPIClassEnum.GetUsers</td></tr>
 <tr class="separator:a381d9871072d365ab8148b0d1b927417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a219c05074225f3f9a6b399936853c902" id="r_a219c05074225f3f9a6b399936853c902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aca4712a6b1545abb0e7c726df3a53287">ReturnValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a219c05074225f3f9a6b399936853c902">ReturnType</a> = <a class="el" href="#aca4712a6b1545abb0e7c726df3a53287a6bd2ae3b0c90c088ce7260f2957f9e35">ReturnValueType.DataContainer</a></td></tr>
 <tr class="separator:a219c05074225f3f9a6b399936853c902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac802312af2d33678e1d127107b045100" id="r_ac802312af2d33678e1d127107b045100"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac802312af2d33678e1d127107b045100">Timeout</a> = 10000</td></tr>
-<tr class="separator:ac802312af2d33678e1d127107b045100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2e5ce8e8f74b6464ff88ed9c211e10e" id="r_ae2e5ce8e8f74b6464ff88ed9c211e10e"><td class="memItemLeft" align="right" valign="top">ControlInput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2e5ce8e8f74b6464ff88ed9c211e10e">In</a></td></tr>
 <tr class="separator:ae2e5ce8e8f74b6464ff88ed9c211e10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21631f6f7df5acca0dfb1ffa8c6c78d5" id="r_a21631f6f7df5acca0dfb1ffa8c6c78d5"><td class="memItemLeft" align="right" valign="top">ValueInput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21631f6f7df5acca0dfb1ffa8c6c78d5">Endpoint</a></td></tr>
@@ -169,8 +165,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a581709786aa14895f1d7859c1dd28319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cefc81a80016e3f198365f66ae2cc9b" id="r_a8cefc81a80016e3f198365f66ae2cc9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cefc81a80016e3f198365f66ae2cc9b">DefineOutputControl</a> ()</td></tr>
 <tr class="separator:a8cefc81a80016e3f198365f66ae2cc9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee45a6a8eb057367cc68ace1f380361" id="r_acee45a6a8eb057367cc68ace1f380361"><td class="memItemLeft" align="right" valign="top">ControlOutput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acee45a6a8eb057367cc68ace1f380361">MakeRequestSynchronous</a> (Flow flow)</td></tr>
-<tr class="separator:acee45a6a8eb057367cc68ace1f380361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2166a63d78e84afd30a0bc2819ec13" id="r_a4e2166a63d78e84afd30a0bc2819ec13"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e2166a63d78e84afd30a0bc2819ec13">MakeRequestCoroutine</a> (Flow flow)</td></tr>
 <tr class="separator:a4e2166a63d78e84afd30a0bc2819ec13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -182,8 +176,6 @@ Properties</h2></td></tr>
 <tr class="separator:a806c762ee9fd80251f543ecf0695df87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bf5d8c24857a221d7d9387da7ce9a25" id="r_a3bf5d8c24857a221d7d9387da7ce9a25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bf5d8c24857a221d7d9387da7ce9a25">NeedsJson</a><code> [get]</code></td></tr>
 <tr class="separator:a3bf5d8c24857a221d7d9387da7ce9a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af970957fae2ac0084205f0e7b8a075a9" id="r_af970957fae2ac0084205f0e7b8a075a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af970957fae2ac0084205f0e7b8a075a9">Check</a><code> [get]</code></td></tr>
-<tr class="separator:af970957fae2ac0084205f0e7b8a075a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -209,7 +201,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aca4712a6b1545abb0e7c726df3a53287a27118326006d3829667a400ad23d5d98" name="aca4712a6b1545abb0e7c726df3a53287a27118326006d3829667a400ad23d5d98"></a>String&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aca4712a6b1545abb0e7c726df3a53287a447f44870ed8e6204417f0a4ac88e7d0" name="aca4712a6b1545abb0e7c726df3a53287a447f44870ed8e6204417f0a4ac88e7d0"></a>JsonValue&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aca4712a6b1545abb0e7c726df3a53287aeed8d85b888a6c015834240885ee6333" name="aca4712a6b1545abb0e7c726df3a53287aeed8d85b888a6c015834240885ee6333"></a>Json&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aca4712a6b1545abb0e7c726df3a53287a6bd2ae3b0c90c088ce7260f2957f9e35" name="aca4712a6b1545abb0e7c726df3a53287a6bd2ae3b0c90c088ce7260f2957f9e35"></a>DataContainer&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -383,31 +375,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acee45a6a8eb057367cc68ace1f380361" name="acee45a6a8eb057367cc68ace1f380361"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee45a6a8eb057367cc68ace1f380361">&#9670;&#160;</a></span>MakeRequestSynchronous()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ControlOutput ScoredProductions.StreamLinked.VisualScripting.TwitchAPIRequest.MakeRequestSynchronous </td>
-          <td>(</td>
-          <td class="paramtype">Flow</td>          <td class="paramname"><span class="paramname"><em>flow</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aba2d7698bf7a01a142d43652ab220766" name="aba2d7698bf7a01a142d43652ab220766"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba2d7698bf7a01a142d43652ab220766">&#9670;&#160;</a></span>ReturnResult()</h2>
 
@@ -444,20 +411,6 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac71e21123fb25d5589a7b6febe5ad6fe" name="ac71e21123fb25d5589a7b6febe5ad6fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac71e21123fb25d5589a7b6febe5ad6fe">&#9670;&#160;</a></span>Coroutine</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.VisualScripting.TwitchAPIRequest.Coroutine</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -630,43 +583,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac802312af2d33678e1d127107b045100" name="ac802312af2d33678e1d127107b045100"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac802312af2d33678e1d127107b045100">&#9670;&#160;</a></span>Timeout</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ScoredProductions.StreamLinked.VisualScripting.TwitchAPIRequest.Timeout = 10000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="af970957fae2ac0084205f0e7b8a075a9" name="af970957fae2ac0084205f0e7b8a075a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af970957fae2ac0084205f0e7b8a075a9">&#9670;&#160;</a></span>Check</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ScoredProductions.StreamLinked.VisualScripting.TwitchAPIRequest.Check</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a806c762ee9fd80251f543ecf0695df87" name="a806c762ee9fd80251f543ecf0695df87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a806c762ee9fd80251f543ecf0695df87">&#9670;&#160;</a></span>HasReturn</h2>
 

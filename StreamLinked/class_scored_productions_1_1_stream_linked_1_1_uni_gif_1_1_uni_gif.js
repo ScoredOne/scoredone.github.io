@@ -7,7 +7,7 @@ var class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif =
     [ "GraphicControlExtension", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_graphic_control_extension.html", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_graphic_control_extension" ],
     [ "ImageBlock", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_image_block.html", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_image_block" ],
     [ "PlainTextExtension", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_plain_text_extension.html", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_plain_text_extension" ],
-    [ "CreateTexture2D", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a3cce21f06ed70e9be9b8246869fe658d", null ],
+    [ "CreateTexture2D", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a6188b20432213b763ee77808c9c94fd5", null ],
     [ "DecodeGifLZW", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ad9e68988ed8fe1282f867b9177f1cd41", null ],
     [ "DecodeTexture", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ab34b9de935aab35c7bf22f5b179fd641", null ],
     [ "DecodeTextureCoroutine", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#add97ebf85a49774584cabeddf2d3bfb2", null ],
@@ -21,7 +21,6 @@ var class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif =
     [ "GetTextureListCoroutine", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#aa6d26bb7ba2db58ce9ba0862a91e299e", null ],
     [ "GetTextureListCoroutine", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a2e107b3ddc42f1c0c6b1e68670ece7be", null ],
     [ "GetTransparentIndex", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#acd972788594d858b0f5716278af98d7f", null ],
-    [ "InitDictionary", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ac46c135d86edb5f2d56376e4479cd5e1", null ],
     [ "SetApplicationExtension", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a059a4cce9fc3837b93484ece20aea9b1", null ],
     [ "SetApplicationExtension", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a7e6b11070763b3a5ca89f3d2e5cd518c", null ],
     [ "SetCommentExtension", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a1c33e89d460b4a6efe19e2bc54020de4", null ],
@@ -38,8 +37,9 @@ var class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif =
     [ "SetImageBlock", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#adb3035a90c64fce96166e8c7d2ce1bd6", null ],
     [ "SetPlainTextExtension", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#aabeb3d02f563db2c810a40e38940f47d", null ],
     [ "SetPlainTextExtension", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#a68d6c20ad9d5aee46a558d21fa1f2805", null ],
-    [ "SetTexturePixelRow", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ae5300ec4e2d7d63ad231bf0a237228fb", null ],
     [ "SortInterlaceGifData", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ae93736015c4748bbb977984e0b8d73fa", null ],
+    [ "WriteTexturePixelRow", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#acdd770faefdd91758a2448739073f10d", null ],
+    [ "ForceDisposeToTransparent", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ad37aa2574a0b254b4fd15deb2d0ba069", null ],
     [ "int", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#ad1bbb1d3af42c7a44d944e5373a0d33c", null ],
     [ "List< GifTexture >", "class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#aa7feb4bb740a1a18a420122e61d0ea2b", null ]
 ];

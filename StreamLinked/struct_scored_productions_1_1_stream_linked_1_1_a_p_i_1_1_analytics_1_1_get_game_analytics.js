@@ -1,19 +1,19 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics =
 [
+    [ "GetGameAnalytics", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ae4895f5769691821837cd46af9e7b80a", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a0348eb381baae9ecb78e2994a29c092c", null ],
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#aacfb157f60082752c00e3ea53214afc8", null ],
-    [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a7df66a2e845328c3fee7805c28d59eb3", null ],
-    [ "date_range", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a432adc085077b3660eb61290f2cfd91b", null ],
-    [ "ENDED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a78bd28a2ddb0ae1297d7e8449df00519", null ],
+    [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#afe59f8e1dab2fca87643b625ab39a44e", null ],
+    [ "date_range", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ad5124387bc1904a340e3d953c87c045d", null ],
+    [ "ENDED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ae7ce5f4684e73264aa48cac31063774b", null ],
+    [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ae741e4f99fc9285c1ee07eabcb7c8686", null ],
+    [ "game_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ad84ccf30d6589a69bbaba471a7252c9e", null ],
+    [ "GAME_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a79fcdea06a69fc51b7886a8dc21801fa", null ],
+    [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#abde12595634fa40d22410a743d894e10", null ],
+    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ac4107c8bdd578793ea1db266affd47ae", null ],
+    [ "TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#aa2aa36ef88b0409aab87940530a21388", null ],
+    [ "url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#aea07974979a7e508a7c51c3ac24d28af", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a50cf72f44eed0300e9aeafcddb6713c2", null ],
-    [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a126d26af32ffb1927865f2eff95eac3d", null ],
-    [ "game_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a086c25e97631324c2265e517076ecb52", null ],
-    [ "GAME_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a9970ee3503b3d4954bc6cbf87f4cf8a9", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ad89267209fcffb08550c709a9932cff4", null ],
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a765d9dc8820829ed60b1ca032a0d8a9f", null ],
-    [ "STARTED_AT", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a534db218be28486d3fe8a46fde3362fd", null ],
-    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a83666b9a48ce79ce1138be27f6fa8bec", null ],
-    [ "TYPE", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#acd6266ea5c499b26d2076edd4329f9b1", null ],
-    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a6b906778879cd776f948946a8de2951b", null ],
-    [ "url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#ae96e2e1d0cd00cda229e3571e49f51c3", null ]
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_analytics_1_1_get_game_analytics.html#a6b906778879cd776f948946a8de2951b", null ]
 ];

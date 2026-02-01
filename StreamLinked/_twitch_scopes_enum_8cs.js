@@ -57,6 +57,7 @@ var _twitch_scopes_enum_8cs =
       [ "moderator_read_shoutouts", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110a9cd739df631280cf3e15becef5d8957c", null ],
       [ "moderator_manage_shoutouts", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110a2d04194eaabe23ed9ed6f62c4c0b780b", null ],
       [ "moderator_read_suspicious_users", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110ae41fad42082d2810688f2a6ec96c35db", null ],
+      [ "moderator_manage_suspicious_users", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110a36a22349762fbe05f6fbd903f76c28a4", null ],
       [ "moderator_read_unban_requests", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110a741fb699429c8a16a36d935e7e7addaa", null ],
       [ "moderator_manage_unban_requests", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110a830aa99ff4f81844d0ab8696ccac5a43", null ],
       [ "moderator_read_vips", "_twitch_scopes_enum_8cs.html#a499221abd455d7fff90e78930fddc110affa868ed8b7318b09b217c8e4a770f1b", null ],

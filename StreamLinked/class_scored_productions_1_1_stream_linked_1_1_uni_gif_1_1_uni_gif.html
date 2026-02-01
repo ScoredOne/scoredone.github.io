@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -99,6 +99,7 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_uni_gif
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.UniGif.UniGif Class Reference</div></div>
 </div><!--header-->
@@ -175,18 +176,15 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a094ded3bf2a39e15105f832cd935b6be" id="r_a094ded3bf2a39e15105f832cd935b6be"><td class="memItemLeft" align="right" valign="top">static ushort&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a094ded3bf2a39e15105f832cd935b6be">GetDisposalMethod</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_graphic_control_extension.html">GraphicControlExtension</a>? graphicCtrlEx)</td></tr>
 <tr class="memdesc:a094ded3bf2a39e15105f832cd935b6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get disposal method from GraphicControlExtension.  <br /></td></tr>
 <tr class="separator:a094ded3bf2a39e15105f832cd935b6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cce21f06ed70e9be9b8246869fe658d" id="r_a3cce21f06ed70e9be9b8246869fe658d"><td class="memItemLeft" align="right" valign="top">static Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cce21f06ed70e9be9b8246869fe658d">CreateTexture2D</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html">GifData</a> gifData, List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_gif_texture.html">GifTexture</a> &gt; gifTexList, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> imgIndex, List&lt; ushort &gt; disposalMethodList, Color32 bgColor, FilterMode filterMode, TextureWrapMode wrapMode, out bool filledTexture)</td></tr>
-<tr class="memdesc:a3cce21f06ed70e9be9b8246869fe658d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create Texture2D object and initial settings.  <br /></td></tr>
-<tr class="separator:a3cce21f06ed70e9be9b8246869fe658d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5300ec4e2d7d63ad231bf0a237228fb" id="r_ae5300ec4e2d7d63ad231bf0a237228fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5300ec4e2d7d63ad231bf0a237228fb">SetTexturePixelRow</a> (Texture2D tex, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> y, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_image_block.html">ImageBlock</a> imgBlock, byte[] decodedData, ref <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> dataIndex, List&lt; byte[]&gt; colorTable, Color32 bgColor, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> transparentIndex, bool filledTexture)</td></tr>
-<tr class="memdesc:ae5300ec4e2d7d63ad231bf0a237228fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set texture pixel row.  <br /></td></tr>
-<tr class="separator:ae5300ec4e2d7d63ad231bf0a237228fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6188b20432213b763ee77808c9c94fd5" id="r_a6188b20432213b763ee77808c9c94fd5"><td class="memItemLeft" align="right" valign="top">static Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6188b20432213b763ee77808c9c94fd5">CreateTexture2D</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html">GifData</a> gifData, List&lt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_gif_texture.html">GifTexture</a> &gt; gifTexList, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> imgIndex, List&lt; ushort &gt; disposalMethodList, Color32 bgColor, FilterMode filterMode, TextureWrapMode wrapMode, out bool filledTexture, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_image_block.html">ImageBlock</a>? prevImageBlock, out Color32[] pixelBuffer)</td></tr>
+<tr class="memdesc:a6188b20432213b763ee77808c9c94fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create Texture2D object and initial pixel buffer (no GPU upload yet)  <br /></td></tr>
+<tr class="separator:a6188b20432213b763ee77808c9c94fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd770faefdd91758a2448739073f10d" id="r_acdd770faefdd91758a2448739073f10d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd770faefdd91758a2448739073f10d">WriteTexturePixelRow</a> (Color32[] pixels, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> texWidth, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> texHeight, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> y, <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_image_block.html">ImageBlock</a> imgBlock, byte[] decodedData, ref <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> dataIndex, List&lt; byte[]&gt; colorTable, Color32 bgColor, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> transparentIndex, bool filledTexture)</td></tr>
+<tr class="memdesc:acdd770faefdd91758a2448739073f10d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write one texture row into pixel buffer (no immediate GPU call)  <br /></td></tr>
+<tr class="separator:acdd770faefdd91758a2448739073f10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e68988ed8fe1282f867b9177f1cd41" id="r_ad9e68988ed8fe1282f867b9177f1cd41"><td class="memItemLeft" align="right" valign="top">static byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e68988ed8fe1282f867b9177f1cd41">DecodeGifLZW</a> (List&lt; byte &gt; compData, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> lzwMinimumCodeSize, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> needDataSize)</td></tr>
 <tr class="memdesc:ad9e68988ed8fe1282f867b9177f1cd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">GIF LZW decode.  <br /></td></tr>
 <tr class="separator:ad9e68988ed8fe1282f867b9177f1cd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac46c135d86edb5f2d56376e4479cd5e1" id="r_ac46c135d86edb5f2d56376e4479cd5e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac46c135d86edb5f2d56376e4479cd5e1">InitDictionary</a> (Dictionary&lt; <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a>, string &gt; dic, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> lzwMinimumCodeSize, out <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> lzwCodeSize, out <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> clearCode, out <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> finishCode)</td></tr>
-<tr class="memdesc:ac46c135d86edb5f2d56376e4479cd5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize dictionary.  <br /></td></tr>
-<tr class="separator:ac46c135d86edb5f2d56376e4479cd5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae93736015c4748bbb977984e0b8d73fa" id="r_ae93736015c4748bbb977984e0b8d73fa"><td class="memItemLeft" align="right" valign="top">static byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93736015c4748bbb977984e0b8d73fa">SortInterlaceGifData</a> (byte[] decodedData, <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> xNum)</td></tr>
 <tr class="memdesc:ae93736015c4748bbb977984e0b8d73fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort interlace GIF data.  <br /></td></tr>
 <tr class="separator:ae93736015c4748bbb977984e0b8d73fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,10 +222,15 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a059a4cce9fc3837b93484ece20aea9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e6b11070763b3a5ca89f3d2e5cd518c" id="r_a7e6b11070763b3a5ca89f3d2e5cd518c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e6b11070763b3a5ca89f3d2e5cd518c">SetApplicationExtension</a> (NativeArray&lt; byte &gt; gifBytes, ref <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a> byteIndex, ref <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_gif_data.html">GifData</a> gifData)</td></tr>
 <tr class="separator:a7e6b11070763b3a5ca89f3d2e5cd518c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ad37aa2574a0b254b4fd15deb2d0ba069" id="r_ad37aa2574a0b254b4fd15deb2d0ba069"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37aa2574a0b254b4fd15deb2d0ba069">ForceDisposeToTransparent</a> = true</td></tr>
+<tr class="separator:ad37aa2574a0b254b4fd15deb2d0ba069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3cce21f06ed70e9be9b8246869fe658d" name="a3cce21f06ed70e9be9b8246869fe658d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cce21f06ed70e9be9b8246869fe658d">&#9670;&#160;</a></span>CreateTexture2D()</h2>
+<a id="a6188b20432213b763ee77808c9c94fd5" name="a6188b20432213b763ee77808c9c94fd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6188b20432213b763ee77808c9c94fd5">&#9670;&#160;</a></span>CreateTexture2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +276,17 @@ Static Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">out bool</td>          <td class="paramname"><span class="paramname"><em>filledTexture</em></span>&#160;)</td>
+          <td class="paramtype">out bool</td>          <td class="paramname"><span class="paramname"><em>filledTexture</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_image_block.html">ImageBlock</a>?</td>          <td class="paramname"><span class="paramname"><em>prevImageBlock</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Color32[]</td>          <td class="paramname"><span class="paramname"><em>pixelBuffer</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -283,7 +296,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create Texture2D object and initial settings. </p>
+<p>Create Texture2D object and initial pixel buffer (no GPU upload yet) </p>
 
 </div>
 </div>
@@ -797,62 +810,6 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get transparent color index from GraphicControlExtension. </p>
-
-</div>
-</div>
-<a id="ac46c135d86edb5f2d56376e4479cd5e1" name="ac46c135d86edb5f2d56376e4479cd5e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac46c135d86edb5f2d56376e4479cd5e1">&#9670;&#160;</a></span>InitDictionary()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ScoredProductions.StreamLinked.UniGif.UniGif.InitDictionary </td>
-          <td>(</td>
-          <td class="paramtype">Dictionary&lt; <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a>, string &gt;</td>          <td class="paramname"><span class="paramname"><em>dic</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>lzwMinimumCodeSize</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>lzwCodeSize</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>clearCode</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>finishCode</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initialize dictionary. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dic</td><td>Dictionary</td></tr>
-    <tr><td class="paramname">lzwMinimumCodeSize</td><td>LZW minimum code size</td></tr>
-    <tr><td class="paramname">lzwCodeSize</td><td>out LZW code size</td></tr>
-    <tr><td class="paramname">clearCode</td><td>out Clear code</td></tr>
-    <tr><td class="paramname">finishCode</td><td>out Finish code</td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1422,8 +1379,8 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae5300ec4e2d7d63ad231bf0a237228fb" name="ae5300ec4e2d7d63ad231bf0a237228fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5300ec4e2d7d63ad231bf0a237228fb">&#9670;&#160;</a></span>SetTexturePixelRow()</h2>
+<a id="ae93736015c4748bbb977984e0b8d73fa" name="ae93736015c4748bbb977984e0b8d73fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93736015c4748bbb977984e0b8d73fa">&#9670;&#160;</a></span>SortInterlaceGifData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1432,9 +1389,58 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ScoredProductions.StreamLinked.UniGif.UniGif.SetTexturePixelRow </td>
+          <td class="memname">static byte[] ScoredProductions.StreamLinked.UniGif.UniGif.SortInterlaceGifData </td>
           <td>(</td>
-          <td class="paramtype">Texture2D</td>          <td class="paramname"><span class="paramname"><em>tex</em>, </span></td>
+          <td class="paramtype">byte[]</td>          <td class="paramname"><span class="paramname"><em>decodedData</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>xNum</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sort interlace GIF data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decodedData</td><td>Decoded GIF data</td></tr>
+    <tr><td class="paramname">xNum</td><td>Pixel number of horizontal row</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Sorted data</dd></dl>
+
+</div>
+</div>
+<a id="acdd770faefdd91758a2448739073f10d" name="acdd770faefdd91758a2448739073f10d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd770faefdd91758a2448739073f10d">&#9670;&#160;</a></span>WriteTexturePixelRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ScoredProductions.StreamLinked.UniGif.UniGif.WriteTexturePixelRow </td>
+          <td>(</td>
+          <td class="paramtype">Color32[]</td>          <td class="paramname"><span class="paramname"><em>pixels</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>texWidth</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>texHeight</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1484,12 +1490,13 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set texture pixel row. </p>
+<p>Write one texture row into pixel buffer (no immediate GPU call) </p>
 
 </div>
 </div>
-<a id="ae93736015c4748bbb977984e0b8d73fa" name="ae93736015c4748bbb977984e0b8d73fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae93736015c4748bbb977984e0b8d73fa">&#9670;&#160;</a></span>SortInterlaceGifData()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad37aa2574a0b254b4fd15deb2d0ba069" name="ad37aa2574a0b254b4fd15deb2d0ba069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37aa2574a0b254b4fd15deb2d0ba069">&#9670;&#160;</a></span>ForceDisposeToTransparent</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1498,14 +1505,7 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static byte[] ScoredProductions.StreamLinked.UniGif.UniGif.SortInterlaceGifData </td>
-          <td>(</td>
-          <td class="paramtype">byte[]</td>          <td class="paramname"><span class="paramname"><em>decodedData</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#ad1bbb1d3af42c7a44d944e5373a0d33c">int</a></td>          <td class="paramname"><span class="paramname"><em>xNum</em></span>&#160;)</td>
+          <td class="memname">const bool ScoredProductions.StreamLinked.UniGif.UniGif.ForceDisposeToTransparent = true</td>
         </tr>
       </table>
   </td>
@@ -1515,19 +1515,8 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sort interlace GIF data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">decodedData</td><td>Decoded GIF data</td></tr>
-    <tr><td class="paramname">xNum</td><td>Pixel number of horizontal row</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Sorted data</dd></dl>
-
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
 <a id="ad1bbb1d3af42c7a44d944e5373a0d33c" name="ad1bbb1d3af42c7a44d944e5373a0d33c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1bbb1d3af42c7a44d944e5373a0d33c">&#9670;&#160;</a></span>int</h2>
 

@@ -1,9 +1,9 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice =
 [
-    [ "Choice", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a70262e76b51d594b0d636021098d5f72", null ],
-    [ "bits_votes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a46c610629016f651bb6e26339a393b16", null ],
-    [ "channel_points_votes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a4ea2cc947296c2d801b890bb122ec2df", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a8814112b01b83e5c08b06fcdc9cc962c", null ],
-    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#aadeaa0f3d14751e18a9275383a311b97", null ],
-    [ "votes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a35cbbd951b02379466cd80c785e30805", null ]
+    [ "Choice", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a17ae62b911fa153d8e119d41f56463d0", null ],
+    [ "bits_votes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a111791eeb9835ec1263563cacedf3456", null ],
+    [ "channel_points_votes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a1f88520190e01142afca6e7aa9028c03", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a798ba9e3c2389975ff71e2f4e2d34805", null ],
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a36b9215e50482e5d8ff7358b96135c07", null ],
+    [ "votes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_choice.html#a6b74903bac7d5745963b82cc0baa6fb5", null ]
 ];

@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -98,7 +98,6 @@ $(function(){initNavTree('struct_scored_productions_1_1_stream_linked_1_1_i_r_c_
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g-members.html">List of all members</a>  </div>
@@ -116,10 +115,12 @@ Inheritance diagram for ScoredProductions.StreamLinked.IRC.Message.PRIVMSG:</div
   <map id="ScoredProductions.StreamLinked.IRC.Message.PRIVMSG_map" name="ScoredProductions.StreamLinked.IRC.Message.PRIVMSG_map">
 <area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_user_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.IUserMessage" shape="rect" coords="0,112,529,136"/>
 <area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_parsed_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.IParsedMessage" shape="rect" coords="539,112,1068,136"/>
-<area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ITagMessage&lt; PRIVMSG.TAGS &gt;" shape="rect" coords="1078,112,1607,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_channel_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.IChannelMessage" shape="rect" coords="1078,112,1607,136"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ITagMessage&lt; PRIVMSG.TAGS &gt;" shape="rect" coords="1617,112,2146,136"/>
 <area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_sender_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ISenderMessage" shape="rect" coords="0,56,529,80"/>
 <area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage" shape="rect" coords="539,56,1068,80"/>
 <area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage" shape="rect" coords="1078,56,1607,80"/>
+<area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage" shape="rect" coords="1617,56,2146,80"/>
 <area href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html" alt="ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage" shape="rect" coords="0,0,529,24"/>
   </map>
 </div></div>
@@ -152,21 +153,16 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a219ddcea6ad0346ac3be5ea718cf9b8c" id="r_a219ddcea6ad0346ac3be5ea718cf9b8c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html#a219ddcea6ad0346ac3be5ea718cf9b8c">EstablishMessageType</a> (string <a class="el" href="#af28a906f7a86ada17ea9c731fc099fdb">message</a>)</td></tr>
+<tr class="memitem:a219ddcea6ad0346ac3be5ea718cf9b8c" id="r_a219ddcea6ad0346ac3be5ea718cf9b8c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#acba6c096aa4a01a39a232ec0520b8771">TwitchIRCCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html#a219ddcea6ad0346ac3be5ea718cf9b8c">EstablishMessageType</a> (string <a class="el" href="#af28a906f7a86ada17ea9c731fc099fdb">message</a>)</td></tr>
 <tr class="separator:a219ddcea6ad0346ac3be5ea718cf9b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ab93599d7bfefc33356e77920d68005" id="r_a5ab93599d7bfefc33356e77920d68005"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html#a5ab93599d7bfefc33356e77920d68005">EstablishMessageType</a> (ReadOnlySpan&lt; char &gt; <a class="el" href="#af28a906f7a86ada17ea9c731fc099fdb">message</a>)</td></tr>
+<tr class="memitem:a5ab93599d7bfefc33356e77920d68005" id="r_a5ab93599d7bfefc33356e77920d68005"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#acba6c096aa4a01a39a232ec0520b8771">TwitchIRCCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_twitch_i_r_c_message.html#a5ab93599d7bfefc33356e77920d68005">EstablishMessageType</a> (ReadOnlySpan&lt; char &gt; <a class="el" href="#af28a906f7a86ada17ea9c731fc099fdb">message</a>)</td></tr>
 <tr class="separator:a5ab93599d7bfefc33356e77920d68005"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a3cb49b225250bba8f0bc716012f81b4a" id="r_a3cb49b225250bba8f0bc716012f81b4a"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cb49b225250bba8f0bc716012f81b4a">Channel</a></td></tr>
-<tr class="separator:a3cb49b225250bba8f0bc716012f81b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a4ae0a25d3bc86dee62f5f952da172e14" id="r_a4ae0a25d3bc86dee62f5f952da172e14"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae0a25d3bc86dee62f5f952da172e14">RawMessage</a><code> [get]</code></td></tr>
 <tr class="separator:a4ae0a25d3bc86dee62f5f952da172e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfc4a45a33458e4fa2f0a61d1ce3489d" id="r_abfc4a45a33458e4fa2f0a61d1ce3489d"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc4a45a33458e4fa2f0a61d1ce3489d">Command</a><code> [get]</code></td></tr>
+<tr class="memitem:abfc4a45a33458e4fa2f0a61d1ce3489d" id="r_abfc4a45a33458e4fa2f0a61d1ce3489d"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#acba6c096aa4a01a39a232ec0520b8771">TwitchIRCCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc4a45a33458e4fa2f0a61d1ce3489d">Command</a><code> [get]</code></td></tr>
 <tr class="separator:abfc4a45a33458e4fa2f0a61d1ce3489d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c9dda4744c42e9f634bea07934c44e1" id="r_a7c9dda4744c42e9f634bea07934c44e1"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9dda4744c42e9f634bea07934c44e1">Sender</a><code> [get]</code></td></tr>
 <tr class="separator:a7c9dda4744c42e9f634bea07934c44e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +170,8 @@ Properties</h2></td></tr>
 <tr class="separator:a26335846fbf56f023690f67189a0278a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09b7d5235a6ba23899cfca415eff920f" id="r_a09b7d5235a6ba23899cfca415eff920f"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09b7d5235a6ba23899cfca415eff920f">Message</a><code> [get]</code></td></tr>
 <tr class="separator:a09b7d5235a6ba23899cfca415eff920f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb49b225250bba8f0bc716012f81b4a" id="r_a3cb49b225250bba8f0bc716012f81b4a"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cb49b225250bba8f0bc716012f81b4a">Channel</a><code> [get]</code></td></tr>
+<tr class="separator:a3cb49b225250bba8f0bc716012f81b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3ccb5d819518ea70803d468ffcb0836" id="r_af3ccb5d819518ea70803d468ffcb0836"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html">TAGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3ccb5d819518ea70803d468ffcb0836">Tags</a><code> [get]</code></td></tr>
 <tr class="separator:af3ccb5d819518ea70803d468ffcb0836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -187,6 +185,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a3e6f5636580cfae91a99bcc41df9dcb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af28a906f7a86ada17ea9c731fc099fdb" id="r_af28a906f7a86ada17ea9c731fc099fdb"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28a906f7a86ada17ea9c731fc099fdb">message</a></td></tr>
 <tr class="separator:af28a906f7a86ada17ea9c731fc099fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac4d3a8b0362c6653290b9def7c8e53" id="r_afac4d3a8b0362c6653290b9def7c8e53"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac4d3a8b0362c6653290b9def7c8e53">channel</a></td></tr>
+<tr class="separator:afac4d3a8b0362c6653290b9def7c8e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc20878339ea5298dd9c2ce9d67135a0" id="r_adc20878339ea5298dd9c2ce9d67135a0"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html">TAGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc20878339ea5298dd9c2ce9d67135a0">tags</a></td></tr>
 <tr class="separator:adc20878339ea5298dd9c2ce9d67135a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -239,7 +239,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage.EstablishMessageType </td>
+          <td class="memname">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#acba6c096aa4a01a39a232ec0520b8771">TwitchIRCCommand</a> ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage.EstablishMessageType </td>
           <td>(</td>
           <td class="paramtype">ReadOnlySpan&lt; char &gt;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
           <td></td>
@@ -264,7 +264,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage.EstablishMessageType </td>
+          <td class="memname">static <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#acba6c096aa4a01a39a232ec0520b8771">TwitchIRCCommand</a> ScoredProductions.StreamLinked.IRC.Message.Interface.ITwitchIRCMessage.EstablishMessageType </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
           <td></td>
@@ -415,16 +415,24 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3cb49b225250bba8f0bc716012f81b4a" name="a3cb49b225250bba8f0bc716012f81b4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cb49b225250bba8f0bc716012f81b4a">&#9670;&#160;</a></span>Channel</h2>
+<a id="afac4d3a8b0362c6653290b9def7c8e53" name="afac4d3a8b0362c6653290b9def7c8e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac4d3a8b0362c6653290b9def7c8e53">&#9670;&#160;</a></span>channel</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly string ScoredProductions.StreamLinked.IRC.Message.PRIVMSG.Channel</td>
+          <td class="memname">readonly string ScoredProductions.StreamLinked.IRC.Message.PRIVMSG.channel</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -540,6 +548,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a3cb49b225250bba8f0bc716012f81b4a" name="a3cb49b225250bba8f0bc716012f81b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cb49b225250bba8f0bc716012f81b4a">&#9670;&#160;</a></span>Channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string ScoredProductions.StreamLinked.IRC.Message.PRIVMSG.Channel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_channel_message.html#a167c603d22be6dd38aed0bc206b3b7ba">ScoredProductions.StreamLinked.IRC.Message.Interface.IChannelMessage</a>.</p>
+
+</div>
+</div>
 <a id="abfc4a45a33458e4fa2f0a61d1ce3489d" name="abfc4a45a33458e4fa2f0a61d1ce3489d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfc4a45a33458e4fa2f0a61d1ce3489d">&#9670;&#160;</a></span>Command</h2>
 
@@ -550,7 +582,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#aa69b7d2d7fb13dde61a0b5a292dc4a69">TwitchIRCCommand</a> ScoredProductions.StreamLinked.IRC.Message.PRIVMSG.Command</td>
+          <td class="memname">readonly <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_i_r_c.html#acba6c096aa4a01a39a232ec0520b8771">TwitchIRCCommand</a> ScoredProductions.StreamLinked.IRC.Message.PRIVMSG.Command</td>
         </tr>
       </table>
   </td>

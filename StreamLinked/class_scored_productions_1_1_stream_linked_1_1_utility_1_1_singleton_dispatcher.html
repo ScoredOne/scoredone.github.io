@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -95,14 +95,13 @@ $(function(){initNavTree('class_scored_productions_1_1_stream_linked_1_1_utility
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ScoredProductions.StreamLinked.Utility.SingletonDispatcher&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -116,16 +115,11 @@ Inheritance diagram for ScoredProductions.StreamLinked.Utility.SingletonDispatch
  <div class="center">
   <img src="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.png" usemap="#ScoredProductions.StreamLinked.Utility.SingletonDispatcher_3C_20T_20_3E_map" alt=""/>
   <map id="ScoredProductions.StreamLinked.Utility.SingletonDispatcher_3C_20T_20_3E_map" name="ScoredProductions.StreamLinked.Utility.SingletonDispatcher_3C_20T_20_3E_map">
-<area href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html" title="Singleton base class." alt="ScoredProductions.StreamLinked.Utility.SingletonInstance&lt; T &gt;" shape="rect" coords="0,56,382,80"/>
+<area href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html" title="Singleton Instance base class. Contains the Instance mechanics." alt="ScoredProductions.StreamLinked.Utility.SingletonInstance&lt; T &gt;" shape="rect" coords="0,112,382,136"/>
+<area href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html" title="Singleton base class." alt="ScoredProductions.StreamLinked.Utility.SingletonBase" shape="rect" coords="0,56,382,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a2c368b0bde86706dc1a4a84bba5ae672" id="r_a2c368b0bde86706dc1a4a84bba5ae672"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a2c368b0bde86706dc1a4a84bba5ae672">DeleteInstance</a> ()</td></tr>
-<tr class="memdesc:a2c368b0bde86706dc1a4a84bba5ae672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete singleton from the scene.  <br /></td></tr>
-<tr class="separator:a2c368b0bde86706dc1a4a84bba5ae672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a26987c940d842a83aa6200268a459b3b" id="r_a26987c940d842a83aa6200268a459b3b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a26987c940d842a83aa6200268a459b3b">GetInstance</a> (out T instance)</td></tr>
@@ -152,38 +146,47 @@ Static Public Attributes</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a093bb29f93227e2c7a772eb3f8903aa3" id="r_a093bb29f93227e2c7a772eb3f8903aa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093bb29f93227e2c7a772eb3f8903aa3">LateUpdate</a> ()</td></tr>
 <tr class="separator:a093bb29f93227e2c7a772eb3f8903aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c368b0bde86706dc1a4a84bba5ae672" id="r_a2c368b0bde86706dc1a4a84bba5ae672"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a2c368b0bde86706dc1a4a84bba5ae672">DeleteInstance</a> ()</td></tr>
+<tr class="memdesc:a2c368b0bde86706dc1a4a84bba5ae672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete singleton from the scene.  <br /></td></tr>
+<tr class="separator:a2c368b0bde86706dc1a4a84bba5ae672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addd415202c1fd44c33e07ee62060c325" id="r_addd415202c1fd44c33e07ee62060c325"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#addd415202c1fd44c33e07ee62060c325">EstablishSingleton</a> (bool updateName=false)</td></tr>
 <tr class="memdesc:addd415202c1fd44c33e07ee62060c325"><td class="mdescLeft">&#160;</td><td class="mdescRight"><b>Must be called in Awake</b>, Ensures singleton is the only instance.  <br /></td></tr>
 <tr class="separator:addd415202c1fd44c33e07ee62060c325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d1fa3e0cc16aa5b0678335ba4b12216" id="r_a3d1fa3e0cc16aa5b0678335ba4b12216"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a3d1fa3e0cc16aa5b0678335ba4b12216">Awake</a> ()</td></tr>
 <tr class="separator:a3d1fa3e0cc16aa5b0678335ba4b12216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca30b1c77c7e18c88a05b3769f49d42e" id="r_aca30b1c77c7e18c88a05b3769f49d42e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#aca30b1c77c7e18c88a05b3769f49d42e">Start</a> ()</td></tr>
-<tr class="separator:aca30b1c77c7e18c88a05b3769f49d42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af703ff45f05e78bcbde2b41c6b7bc1ed" id="r_af703ff45f05e78bcbde2b41c6b7bc1ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#af703ff45f05e78bcbde2b41c6b7bc1ed">OnApplicationQuit</a> ()</td></tr>
-<tr class="separator:af703ff45f05e78bcbde2b41c6b7bc1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7fd0e4c42800cff4a869206a24f44be" id="r_af7fd0e4c42800cff4a869206a24f44be"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#af7fd0e4c42800cff4a869206a24f44be">OnDestroy</a> ()</td></tr>
+<tr class="separator:af7fd0e4c42800cff4a869206a24f44be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d2b1671533af20f59e77dc80e810ba" id="r_a56d2b1671533af20f59e77dc80e810ba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html#a56d2b1671533af20f59e77dc80e810ba">Start</a> ()</td></tr>
+<tr class="separator:a56d2b1671533af20f59e77dc80e810ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d43d07197063589f99db6c5188e52d" id="r_ac7d43d07197063589f99db6c5188e52d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html#ac7d43d07197063589f99db6c5188e52d">OnApplicationQuit</a> ()</td></tr>
+<tr class="separator:ac7d43d07197063589f99db6c5188e52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:aa7bccb5872daa897d3b003d853e852ec" id="r_aa7bccb5872daa897d3b003d853e852ec"><td class="memItemLeft" align="right" valign="top">static readonly Queue&lt; Action &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7bccb5872daa897d3b003d853e852ec">MainThreadDispatchQueue</a> = new Queue&lt;Action&gt;(0)</td></tr>
+<tr class="memitem:aa7bccb5872daa897d3b003d853e852ec" id="r_aa7bccb5872daa897d3b003d853e852ec"><td class="memItemLeft" align="right" valign="top">static readonly Queue&lt; Action &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7bccb5872daa897d3b003d853e852ec">MainThreadDispatchQueue</a> = new Queue&lt;Action&gt;(1)</td></tr>
 <tr class="memdesc:aa7bccb5872daa897d3b003d853e852ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue of Actions that will be executed on the main thread (<code>LateUpdate</code>)  <br /></td></tr>
 <tr class="separator:aa7bccb5872daa897d3b003d853e852ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94e3758cba1ec088313ee4aed244e9f" id="r_ae94e3758cba1ec088313ee4aed244e9f"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#ae94e3758cba1ec088313ee4aed244e9f">Locker</a> = new object()</td></tr>
+<tr class="separator:ae94e3758cba1ec088313ee4aed244e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c6eb564c54cdc8f1ea89bf2ff89a7fc" id="r_a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc">_instance</a></td></tr>
 <tr class="separator:a4c6eb564c54cdc8f1ea89bf2ff89a7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f218ec3c0517254de5311e5e9db4d00" id="r_a5f218ec3c0517254de5311e5e9db4d00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a5f218ec3c0517254de5311e5e9db4d00">preventNewInstances</a></td></tr>
-<tr class="separator:a5f218ec3c0517254de5311e5e9db4d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a48ec67fa9431ea8b9a985ee461d9deea" id="r_a48ec67fa9431ea8b9a985ee461d9deea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a48ec67fa9431ea8b9a985ee461d9deea">InstanceIsAlive</a><code> [get]</code></td></tr>
 <tr class="memdesc:a48ec67fa9431ea8b9a985ee461d9deea"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the Singleton is running in the scene. Good to prevent non-playtime functionality running.  <br /></td></tr>
 <tr class="separator:a48ec67fa9431ea8b9a985ee461d9deea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d8483369c26b64e144f6e9c5ff7f764" id="r_a6d8483369c26b64e144f6e9c5ff7f764"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a6d8483369c26b64e144f6e9c5ff7f764">PersistBetweenScenes</a><code> [get]</code></td></tr>
-<tr class="separator:a6d8483369c26b64e144f6e9c5ff7f764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f596120394731f9c9b51c919e8ca0ba" id="r_a2f596120394731f9c9b51c919e8ca0ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#a2f596120394731f9c9b51c919e8ca0ba">UpdateNameToTypeName</a><code> [get]</code></td></tr>
+<tr class="separator:a2f596120394731f9c9b51c919e8ca0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b5ce5fdc0552e7586e35c90195684d" id="r_a92b5ce5fdc0552e7586e35c90195684d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html#a92b5ce5fdc0552e7586e35c90195684d">PreventNewInstances</a> = false<code> [get, private set]</code></td></tr>
+<tr class="separator:a92b5ce5fdc0552e7586e35c90195684d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac8ccfce6346e2cbaa1e9ebefa5a31c" id="r_acac8ccfce6346e2cbaa1e9ebefa5a31c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html#acac8ccfce6346e2cbaa1e9ebefa5a31c">PersistBetweenScenes</a><code> [get]</code></td></tr>
+<tr class="separator:acac8ccfce6346e2cbaa1e9ebefa5a31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae94e3758cba1ec088313ee4aed244e9f" id="r_ae94e3758cba1ec088313ee4aed244e9f"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html#ae94e3758cba1ec088313ee4aed244e9f">Locker</a> = new object()</td></tr>
-<tr class="separator:ae94e3758cba1ec088313ee4aed244e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a974ba6705507d2c906b454196f1bc6dd" id="r_a974ba6705507d2c906b454196f1bc6dd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html#a974ba6705507d2c906b454196f1bc6dd">Init</a> ()</td></tr>
+<tr class="separator:a974ba6705507d2c906b454196f1bc6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Dispatcher base class. </p>
@@ -305,7 +308,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -368,6 +371,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a974ba6705507d2c906b454196f1bc6dd" name="a974ba6705507d2c906b454196f1bc6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a974ba6705507d2c906b454196f1bc6dd">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ScoredProductions.StreamLinked.Utility.SingletonBase.Init </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a093bb29f93227e2c7a772eb3f8903aa3" name="a093bb29f93227e2c7a772eb3f8903aa3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a093bb29f93227e2c7a772eb3f8903aa3">&#9670;&#160;</a></span>LateUpdate()</h2>
 
@@ -395,8 +423,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af703ff45f05e78bcbde2b41c6b7bc1ed" name="af703ff45f05e78bcbde2b41c6b7bc1ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af703ff45f05e78bcbde2b41c6b7bc1ed">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
+<a id="ac7d43d07197063589f99db6c5188e52d" name="ac7d43d07197063589f99db6c5188e52d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d43d07197063589f99db6c5188e52d">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,7 +433,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.OnApplicationQuit </td>
+          <td class="memname">virtual void ScoredProductions.StreamLinked.Utility.SingletonBase.OnApplicationQuit </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -420,8 +448,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aca30b1c77c7e18c88a05b3769f49d42e" name="aca30b1c77c7e18c88a05b3769f49d42e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca30b1c77c7e18c88a05b3769f49d42e">&#9670;&#160;</a></span>Start()</h2>
+<a id="af7fd0e4c42800cff4a869206a24f44be" name="af7fd0e4c42800cff4a869206a24f44be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7fd0e4c42800cff4a869206a24f44be">&#9670;&#160;</a></span>OnDestroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +458,32 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.Start </td>
+          <td class="memname">virtual void <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56d2b1671533af20f59e77dc80e810ba" name="a56d2b1671533af20f59e77dc80e810ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d2b1671533af20f59e77dc80e810ba">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ScoredProductions.StreamLinked.Utility.SingletonBase.Start </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -483,7 +536,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -514,7 +567,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Queue&lt;Action&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">ScoredProductions.StreamLinked.Utility.SingletonDispatcher</a>&lt; T &gt;.MainThreadDispatchQueue = new Queue&lt;Action&gt;(0)</td>
+          <td class="memname">readonly Queue&lt;Action&gt; <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html">ScoredProductions.StreamLinked.Utility.SingletonDispatcher</a>&lt; T &gt;.MainThreadDispatchQueue = new Queue&lt;Action&gt;(1)</td>
         </tr>
       </table>
   </td>
@@ -550,28 +603,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f218ec3c0517254de5311e5e9db4d00" name="a5f218ec3c0517254de5311e5e9db4d00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f218ec3c0517254de5311e5e9db4d00">&#9670;&#160;</a></span>preventNewInstances</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.preventNewInstances</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a48ec67fa9431ea8b9a985ee461d9deea" name="a48ec67fa9431ea8b9a985ee461d9deea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48ec67fa9431ea8b9a985ee461d9deea">&#9670;&#160;</a></span>InstanceIsAlive</h2>
@@ -597,8 +628,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d8483369c26b64e144f6e9c5ff7f764" name="a6d8483369c26b64e144f6e9c5ff7f764"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d8483369c26b64e144f6e9c5ff7f764">&#9670;&#160;</a></span>PersistBetweenScenes</h2>
+<a id="acac8ccfce6346e2cbaa1e9ebefa5a31c" name="acac8ccfce6346e2cbaa1e9ebefa5a31c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac8ccfce6346e2cbaa1e9ebefa5a31c">&#9670;&#160;</a></span>PersistBetweenScenes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -607,7 +638,51 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.PersistBetweenScenes</td>
+          <td class="memname">bool ScoredProductions.StreamLinked.Utility.SingletonBase.PersistBetweenScenes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">abstract</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92b5ce5fdc0552e7586e35c90195684d" name="a92b5ce5fdc0552e7586e35c90195684d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b5ce5fdc0552e7586e35c90195684d">&#9670;&#160;</a></span>PreventNewInstances</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ScoredProductions.StreamLinked.Utility.SingletonBase.PreventNewInstances = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">private set</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f596120394731f9c9b51c919e8ca0ba" name="a2f596120394731f9c9b51c919e8ca0ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f596120394731f9c9b51c919e8ca0ba">&#9670;&#160;</a></span>UpdateNameToTypeName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html">ScoredProductions.StreamLinked.Utility.SingletonInstance</a>&lt; T &gt;.UpdateNameToTypeName</td>
         </tr>
       </table>
   </td>

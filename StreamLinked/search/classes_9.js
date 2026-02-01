@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['keyvaluepair_0',['KeyValuePair',['../class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_object_1_1_json_object_debug_view_1_1_key_value_pair.html',1,'ScoredProductions::StreamLinked::LightJson::JsonObject::JsonObjectDebugView']]]
+  ['label_0',['Label',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_label.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]],
+  ['lastcontribution_1',['LastContribution',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_last_contribution.html',1,'ScoredProductions.StreamLinked.API.SharedContainers.LastContribution'],['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_last_contribution.html',1,'ScoredProductions.StreamLinked.EventSub.Events.Objects.LastContribution']]]
 ];

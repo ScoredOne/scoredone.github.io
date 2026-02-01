@@ -2,7 +2,7 @@ var class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a
 [
     [ "ReturnValueType", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#aca4712a6b1545abb0e7c726df3a53287", [
       [ "String", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#aca4712a6b1545abb0e7c726df3a53287a27118326006d3829667a400ad23d5d98", null ],
-      [ "JsonValue", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#aca4712a6b1545abb0e7c726df3a53287a447f44870ed8e6204417f0a4ac88e7d0", null ],
+      [ "Json", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#aca4712a6b1545abb0e7c726df3a53287aeed8d85b888a6c015834240885ee6333", null ],
       [ "DataContainer", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#aca4712a6b1545abb0e7c726df3a53287a6bd2ae3b0c90c088ce7260f2957f9e35", null ]
     ] ],
     [ "BuildReflectionResult", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#adfccecac198e48868b7677c1420808c1", null ],
@@ -12,10 +12,8 @@ var class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a
     [ "Definition", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a862005ddc53793ad6726abc0e4a72052", null ],
     [ "GetSuccessValue", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#af9f4693bd90d534037378c20c98b29f3", null ],
     [ "MakeRequestCoroutine", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a4e2166a63d78e84afd30a0bc2819ec13", null ],
-    [ "MakeRequestSynchronous", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#acee45a6a8eb057367cc68ace1f380361", null ],
     [ "ReturnResult", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#aba2d7698bf7a01a142d43652ab220766", null ],
     [ "_result", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a4c0fdc4be2a3199beaf18dd21b2cc844", null ],
-    [ "Coroutine", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#ac71e21123fb25d5589a7b6febe5ad6fe", null ],
     [ "Credentials", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a0017eba916bea8cd96026c60efb7918c", null ],
     [ "Endpoint", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a21631f6f7df5acca0dfb1ffa8c6c78d5", null ],
     [ "HeaderValues", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#ac521537cfa001f6b5498e3c27df3ec79", null ],
@@ -28,8 +26,6 @@ var class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a
     [ "RequestType", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a381d9871072d365ab8148b0d1b927417", null ],
     [ "Result", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a695de3f3cbf2b8a209d4b93a2d073c3e", null ],
     [ "ReturnType", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a219c05074225f3f9a6b399936853c902", null ],
-    [ "Timeout", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#ac802312af2d33678e1d127107b045100", null ],
-    [ "Check", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#af970957fae2ac0084205f0e7b8a075a9", null ],
     [ "HasReturn", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a806c762ee9fd80251f543ecf0695df87", null ],
     [ "IsNotRaw", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#ab147b240481e54598b416c5b9f4a07a5", null ],
     [ "NeedsJson", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_twitch_a_p_i_request.html#a3bf5d8c24857a221d7d9387da7ce9a25", null ]

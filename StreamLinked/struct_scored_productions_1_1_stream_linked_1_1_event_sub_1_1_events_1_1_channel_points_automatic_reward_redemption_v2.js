@@ -1,16 +1,19 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2 =
 [
-    [ "ChannelPointsAutomaticRewardRedemptionV2", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a2c4e19dacede8abaa902413e65217295", null ],
-    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a380beced2bfad2b61a0d4a655038b313", null ],
-    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#aa2ccb55b89824480ee234c2f885f459c", null ],
-    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a16be84134fd0606aaeedd07b9f514aac", null ],
+    [ "ChannelPointsAutomaticRewardRedemptionV2", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#aa1136446d1b501cc5da2877c32193ce4", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a105585d112d3d9ccec085a33a72fbd07", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a2a8207114c30bc9e03bb6439cb901722", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a65987c19f70f93d98726fc1ee436159f", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a900c11b7991905db48d28d13f00169e2", null ],
+    [ "message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a7b93e24ad581d0389f7fa5172446d117", null ],
+    [ "redeemed_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#aac8105d2f2ecf3a278cfc88de5411d35", null ],
+    [ "reward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a0347996af65b7e33ed8ad9bc1956bfbc", null ],
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#ad1a9cc9b78890e3f0a178aa932843e2c", null ],
+    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a89e54ef151410ad290ef687d250eca16", null ],
+    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#ac9cf441b45f0c70d0d8b6c98379cebd8", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a04282a28955efec8987555b641df4c36", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a3107bfe11c5897752e21c8ef04e5bbb4", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a54ed47bd248b0c48d7d0490db3c942cf", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a8b1f9c74a05e35516a8e3421f5f18a24", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a306e79027994c61388383e4185280b9c", null ],
-    [ "message", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#adbf0589ddda8051320413b5da7dd4e38", null ],
-    [ "redeemed_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a680c6366d319f7098b43c1b9bfcf8ed0", null ],
-    [ "reward", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a46fc3c39ba63184ab476ae7744401ab3", null ],
-    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#ad8c8714fa0cbf9be731b6fdfa212e8cd", null ],
-    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#ab60bc08d856ef6c9fb18d60b4cb61203", null ],
-    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#ad8ad451a49a54ffce0bd71eff7068ded", null ],
-    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#a3a16b71dc2e26a44576f0378eac877bf", null ]
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_points_automatic_reward_redemption_v2.html#ad8c8714fa0cbf9be731b6fdfa212e8cd", null ]
 ];

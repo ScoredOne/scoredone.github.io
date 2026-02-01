@@ -1,6 +1,6 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation =
 [
-    [ "CharityDonation", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation.html#ae8d9945c7dcfcd7b4ff2c76ecedd945d", null ],
-    [ "amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation.html#a4d84376485e86f1f72a9a28ae65e2f59", null ],
-    [ "charity_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation.html#a1a08a27cd819aa9867b10c88afae0708", null ]
+    [ "CharityDonation", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation.html#ab47472898af23c61429cdc9ac0e3b05d", null ],
+    [ "amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation.html#a0c9cd24c597f4756bd6a116823258aec", null ],
+    [ "charity_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_charity_donation.html#adc6edb292f4d15879255da4624ac5d4c", null ]
 ];

@@ -1,15 +1,15 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session =
 [
+    [ "GetSharedChatSession", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a6e6b5083d4c1fa19d32a8bf9e62d10d2", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a0348eb381baae9ecb78e2994a29c092c", null ],
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a935db0fcea813915498449a2a0b212f9", null ],
-    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a73a33e8974c40cf4e1b69cb4821206c6", null ],
-    [ "created_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a56e4b51c843ff85edd7d54d060b94eff", null ],
+    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a040e42ca0f37dbda98fc96838f6e3a79", null ],
+    [ "created_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ae3a87a2f623e39c434164ecba90ee834", null ],
+    [ "host_broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a589beab781c24683fc605c7e7c1d8439", null ],
+    [ "participants", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a0697b9b234630a51734f8f13940caa28", null ],
+    [ "session_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a6f972a86c06d3996895071d2cf473aa0", null ],
+    [ "updated_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a1da57fdb5dea106307397ae3504a065a", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a55c79d13c417d3c66b657ff5e0647307", null ],
-    [ "host_broadcaster_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ac781b2563e64ea4fb3530feec6062b57", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#afdf5788af7f8ae97d6813bcb476fc3e2", null ],
-    [ "participants", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a546f23f20e9bf8d71d6f72bc780c251d", null ],
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ae1ea42eea4420298eac6f0b939d316bb", null ],
-    [ "session_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a2c64ba6dd7bd9de6f8da97682fa8e7a3", null ],
-    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a2b3e72e11f4996e3e5f6ec206104c87e", null ],
-    [ "updated_at", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#ae14c3958b51f5b1708c0a91e0de4eb09", null ]
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_shared_chat_session.html#a2b3e72e11f4996e3e5f6ec206104c87e", null ]
 ];

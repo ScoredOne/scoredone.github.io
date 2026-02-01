@@ -1,7 +1,7 @@
 var dir_bcda1672c977086310482f041a9c4b27 =
 [
-    [ "LightJson", "dir_d3c2a7a1b0f55e6f2d2641a84cd1da53.html", "dir_d3c2a7a1b0f55e6f2d2641a84cd1da53" ],
     [ "ManagersAndBuilders", "dir_46c6b179911d0afdd25b121a986fe91f.html", "dir_46c6b179911d0afdd25b121a986fe91f" ],
+    [ "NanoJson", "dir_473bd917fbf7f037ab887c11269c79e1.html", "dir_473bd917fbf7f037ab887c11269c79e1" ],
     [ "TwitchAPI", "dir_20bc8fa87b51073d74ae8c79ce432e0f.html", "dir_20bc8fa87b51073d74ae8c79ce432e0f" ],
     [ "TwitchEventSub", "dir_b06908f35f3a5224acb10eeea8c4bdd2.html", "dir_b06908f35f3a5224acb10eeea8c4bdd2" ],
     [ "TwitchIRC", "dir_ca9e6cab1cf1ae9648611a7628e6cacd.html", "dir_ca9e6cab1cf1ae9648611a7628e6cacd" ],

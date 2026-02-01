@@ -1,10 +1,10 @@
 var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s =
 [
-    [ "TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#a4b605fc0d8e980a84908386f1bcf3f74", null ],
+    [ "TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#a51c4f043ee5cb107e1256d35709cf28d", null ],
     [ "ExtractBadges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#ad40f02ac472f3dfdbc983166b2b389a3", null ],
     [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#ac57d77befa0180a17a9b172500ac88e2", null ],
-    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#ac8c698b328de6c2357a2227dc532c4c0", null ],
-    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#ab2e5c0633573b198dab6d9918661d696", null ],
+    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#acb81167ddcd5d8482ff8e71971e1eb89", null ],
+    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#a459883107dc062bb2e0a7ec87c8ddb91", null ],
     [ "badge_info", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#a768b5b43aab24ccba4e22a0b36ff81d7", null ],
     [ "badges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#adbf7082c7536c883cef465232f5ef973", null ],
     [ "bits", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g_1_1_t_a_g_s.html#ae6280bc3039d4f461461dd714d34d6df", null ],

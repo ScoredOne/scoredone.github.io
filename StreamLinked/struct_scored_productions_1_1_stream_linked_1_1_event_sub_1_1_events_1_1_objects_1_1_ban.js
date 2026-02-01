@@ -1,8 +1,8 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban =
 [
-    [ "Ban", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#a1603cb73665bfde93e2485373c8fc9da", null ],
-    [ "reason", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#a7ce1813b984b202a2b8e785c201136c5", null ],
-    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#a6cfe964a0c57da17b2cbaa456ae220f1", null ],
-    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#a1b2bded75ead59a157c328f6613c9b0c", null ],
-    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#ae05b3e95951e59e0199caf6469d743ac", null ]
+    [ "Ban", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#ac2f190f6a3d54b4558dab03c69d68866", null ],
+    [ "reason", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#ae0bcc8b7b02080cd5a2c874e5157be1c", null ],
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#ad5e78d6699a6536c3f6a43ef82ce293f", null ],
+    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#aa4f94c4a196a6587b95663a2a35a4de5", null ],
+    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_ban.html#a4f1901d7b2f21b00d43b3f01faf38080", null ]
 ];

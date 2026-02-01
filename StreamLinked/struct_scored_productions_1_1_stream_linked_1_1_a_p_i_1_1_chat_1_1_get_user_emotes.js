@@ -1,20 +1,20 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes =
 [
+    [ "GetUserEmotes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a8285400613eddd95586d95cdd50a20cd", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a0348eb381baae9ecb78e2994a29c092c", null ],
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a3e5a026b5244921384816a871fa815be", null ],
-    [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a9808c0529389ddd5399649ab2686821c", null ],
-    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a26c95d6acb90d532917829335e126c14", null ],
-    [ "emote_set_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#ad10866143d072a1507846726deeb32d5", null ],
-    [ "emote_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#af9b1e0aeb96829089483591d5711b8eb", null ],
+    [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#ab43c196d7a97335ce25136432a72efae", null ],
+    [ "BROADCASTER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a5bbf9c23f388b5771d0b5079eafbf599", null ],
+    [ "emote_set_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#afbc7a78e72d11acfc6f6f442e4d2b2ae", null ],
+    [ "emote_type", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a7e7884e8346e71fa3f963a74d441e6a3", null ],
+    [ "format", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#af7972c34a0b214a4889d5a17a8ed565a", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a2b6f6159a6cdb4d1d33bac3adec666d4", null ],
+    [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#afc0ac1c7dd3b4ccbb6d67219ebce0ea8", null ],
+    [ "owner_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#ace2870554f34233707631c02156622d1", null ],
+    [ "scale", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#aa2aa87949fb7f323bbeb36927e0a4809", null ],
+    [ "theme_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a660c8c5f1fa257e9d3b19ecfc14c8208", null ],
+    [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a09a31754d23d6933afefae3914224693", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a61f3d7ab50314fe8ca219be887b6f701", null ],
-    [ "format", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a2afb27844edc7ac8577d000578321801", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#aa486a2f6f3c6a2bd9129f9dd744d984b", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a69a511b85fc527c86847da66e1a79bd6", null ],
-    [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#ab4b909771c37a1f5785b84cff02735e7", null ],
-    [ "owner_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a0fcbcd6ae87149721c65f91fe107ac6a", null ],
-    [ "scale", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a2cc5cbef9c4d60cf3afae27c70e5ebc8", null ],
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#a687f74a58acf4d019bf63ce32f94f61b", null ],
-    [ "theme_mode", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#af69e773b15440af9c81bbf17452a40f6", null ],
-    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#adf3665b2f7ab5ca239221af9b63cd7e4", null ],
-    [ "USER_ID", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#abeefcedd9fe3bcab7470c227b45de39e", null ]
+    [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_chat_1_1_get_user_emotes.html#adf3665b2f7ab5ca239221af9b63cd7e4", null ]
 ];

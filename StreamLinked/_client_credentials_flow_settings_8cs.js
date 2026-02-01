@@ -1,0 +1,4 @@
+var _client_credentials_flow_settings_8cs =
+[
+    [ "ScoredProductions.StreamLinked.API.AuthContainers.SettingContainers.ClientCredentialsFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_200f72fc4d4b5a0bcff98d30bfd4302a.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_200f72fc4d4b5a0bcff98d30bfd4302a" ]
+];

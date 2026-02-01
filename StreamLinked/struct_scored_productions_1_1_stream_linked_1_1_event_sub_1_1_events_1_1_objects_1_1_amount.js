@@ -1,7 +1,7 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount =
 [
-    [ "Amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#a4b2ebd2e07ae720a0dac6d5fcbc7e4c9", null ],
-    [ "currency", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#a991e420deaa76536f3f933219d6807b0", null ],
-    [ "decimal_places", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#a00fbd74fac65d4523d441552ee76d69b", null ],
-    [ "value", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#a4348e9f014d26bbe564add62d45b4c16", null ]
+    [ "Amount", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#aede1eea60ddb930e550928397a6c3a0f", null ],
+    [ "currency", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#af1a911a7ee2f6d7a1716459b5a55ed01", null ],
+    [ "decimal_places", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#ae3eec10ea204f1fdbe328ef7f7697927", null ],
+    [ "value", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_amount.html#ad6a04864f4eb904e9db2f685f0f37a4e", null ]
 ];

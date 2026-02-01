@@ -1,6 +1,7 @@
 var dir_98f884e6406a6363a24b78901dc5a749 =
 [
     [ "BlockUser.cs", "_block_user_8cs.html", "_block_user_8cs" ],
+    [ "GetAuthorizationByUser.cs", "_get_authorization_by_user_8cs.html", "_get_authorization_by_user_8cs" ],
     [ "GetUserActiveExtensions.cs", "_get_user_active_extensions_8cs.html", "_get_user_active_extensions_8cs" ],
     [ "GetUserBlockList.cs", "_get_user_block_list_8cs.html", "_get_user_block_list_8cs" ],
     [ "GetUserExtensions.cs", "_get_user_extensions_8cs.html", "_get_user_extensions_8cs" ],

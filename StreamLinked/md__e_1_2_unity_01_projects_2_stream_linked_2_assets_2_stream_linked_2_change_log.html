@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -97,17 +97,63 @@ $(function(){initNavTree('md__e_1_2_unity_01_projects_2_stream_linked_2_assets_2
   <div class="headertitle"><div class="title">ChangeLog</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>TODO</p><ul>
-<li>* Open up authentication destination for OAuth tokens, all currently direct to TwitchAPILinks.GetAuthData, will need new field for TokenInstance</li>
-<li>* Try to write a catch for when a user misses the slash on the end of the Request API for tokens</li>
-<li>* Rewritten Authorization Code Grant Flow to now work externally and be more open as a client</li>
-<li>* Added type value parameter overload options to MakeTwitchAPIRequest methods</li>
-<li>* Added new scene to demonstrate manually adding the Client credentials (Client ID and Secret) to TwitchAPIClient</li>
-<li>* Added new scene to demonstrate manually adding the TwitchTarget to the TwitchIRCClient</li>
-<li>* Ensure all Auth methods have Task and Coroutine equivolents</li>
-<li>* Make application.openurl ext links a global setting in Twitch API Client</li>
+<div class="textblock"><p>V3.0.0 (If upgrading from any previous versions it is recommended to do a clean install of StreamLinked)</p><ul>
+<li>Update specification to 2026-01-16</li>
+<li>Fix Local Server used for Implicit Grant Flow Requests redirecting to an empty page unintentionally breaking the auth flow</li>
+<li>MakeTwitchAPIRequest methods allowing synchronous operation have been renamed to MakeTwitchAPIRequestTest and marked deprecated to discourage use</li>
+<li>Added type value parameter overload options to MakeTwitchAPIRequest methods</li>
+<li>Upgrade MakeTwitchAPIRequestAsync to use HttpClient from WebRequest</li>
+<li>TwitchAPIDataContainer ErrorObjects has been updated from object to Error and renamed to ConduitErrors (Its only used for Conduits)</li>
+<li>ITwitchAPIDataObject class changes:<ul>
+<li>Changed classes from Struct to Readonly Struct</li>
+<li>Removed Serializable related attributes</li>
+<li>static readonly query parameters are now const</li>
+<li>Removed Initialise and converted it into the constructor</li>
 </ul>
-<p>// Old nemessis from long ago, problems with Enter Play Mode Settings</p>
+</li>
+<li>IEvent class changes:<ul>
+<li>get set interface properties from interfaces are now just gets with no setter</li>
+<li>Changed classes from Struct to Readonly Struct, values from interfaces now assign explicitly per class</li>
+</ul>
+</li>
+<li>Moved TwitchAPIClient State value into TokenInstance, providing GetNewState and CheckState Methods</li>
+<li>TwitchAPIClient OAuth flows have been divided and rewritten into a more segmented format</li>
+<li>Each OAuth Flow now possesses complete Coroutine and Async code flows</li>
+<li>Moved YieldTask extensions to its own class YieldTaskExtensions and provided more overloads</li>
+<li>Auth requests made via MakeTwitchAPIRequest will no longer wait concurrently for each request to be made and will attempt to run them simultaniously if resources are not reserved</li>
+<li>TwitchIRCClient no longer uses TwitchTarget and the value has been removed from SavedSettings enum</li>
+<li>TwitchIRCClient now supports dynamic and multiple room joining and leaving</li>
+<li>Added inspector page to TwitchIRCClient, go to page Connections to join and leave channels from inspector</li>
+<li>Added classes to identify IRC 353 and 366 messages (THREEFIVETHREE and THREESIXSIX)</li>
+<li>MakeTwitchAPIRequest SuccessCallback is now just called Callback and will always trigger with a response be it actual or error</li>
+<li>Add ImagesToInclude enum to TwitchMessageAtlasProducer to restrict the inclusion of specific images when the manager exists in the scene</li>
+<li>Added ImageTypesToProcess to TwitchMessageAtlasProducer to manually choose when to include specific manager messages instead of just removing/disabling the managers</li>
+<li>Removed LightJson Json classes</li>
+<li>Added NanoJson Json parser classes (Nuget available), produced by myself</li>
+<li>Added a warning box for when the RedirectURI is missing the '/' at the end of the URL</li>
+<li>Move all PDF files into 'Documentation and Help' folder</li>
+<li>Documentaion files are updated + new files added</li>
+<li>Visual Scripting:<ul>
+<li>Scene serialisation broke at some point so example graph in 'Twitch API Request Test' prefab has been reset</li>
+<li>Removed synchronous execution from TwitchAPIRequest node, now requiring Coroutine flow (with lable on flow of node saying Coroutine)</li>
+<li>Fixed bug requiring RawData key</li>
+</ul>
+</li>
+</ul>
+<p>V2.4.2</p><ul>
+<li>Update specification to 2025-12-19</li>
+<li>Moved preventNewInstances and PersistBetweenScenes of SingletonInstance&lt;T&gt; into new class SingletonBase and inherit. Fixes domain reload disabled related errors.</li>
+<li>GetInstance now searches scene for instance if stored singleton is null</li>
+<li>Fix pagination read for TwitchAPIDataContainer</li>
+<li>TwitchAPIClient.ExtractURIQueryValues has been upgraded to use Spans</li>
+<li>Fix Channel_Channel_Points_Automatic_Reward_Redemption after Twitch changed it without warning</li>
+<li>Fix LightJson JsonReader not working with unicode escaped characters</li>
+</ul>
+<p>V2.4.1</p><ul>
+<li>Update specification to 2025-10-18</li>
+<li>Moved APIScopeWarning enum into seperate file inside TwitchAPI/Scopes</li>
+<li>Divided TwitchAPIClient Authentication methods into partial classes and moved them into TwitchAPI/Partials including MakeTwitchAPIRequest partial</li>
+</ul>
 <p>V2.4.0</p><ul>
 <li>Update Unity package version to 2021.3.45f2 in line with Unity's security update</li>
 <li>TwitchIRCClient now checks for an empty Token and attempts to get the default token from TwitchAPIClient when attempting connection, gracefully exits if neither found</li>

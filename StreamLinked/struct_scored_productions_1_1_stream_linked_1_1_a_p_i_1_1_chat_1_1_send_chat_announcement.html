@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -122,8 +122,8 @@ Inheritance diagram for ScoredProductions.StreamLinked.API.Chat.SendChatAnnounce
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a31ba75f14a8930956dc2e12f370bf900" id="r_a31ba75f14a8930956dc2e12f370bf900"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html#a40c9350f1c9c68635bf45623cb3d589a">readonly</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31ba75f14a8930956dc2e12f370bf900">Initialise</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a> value)</td></tr>
-<tr class="separator:a31ba75f14a8930956dc2e12f370bf900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0280c444bbc49de00ff2e56c94ff3e82" id="r_a0280c444bbc49de00ff2e56c94ff3e82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0280c444bbc49de00ff2e56c94ff3e82">SendChatAnnouncement</a> (<a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json.html">NJson</a> _)</td></tr>
+<tr class="separator:a0280c444bbc49de00ff2e56c94ff3e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -136,6 +136,10 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:afaba7da1d50d4f8ad0d91e583abf3d86" id="r_afaba7da1d50d4f8ad0d91e583abf3d86"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaba7da1d50d4f8ad0d91e583abf3d86">BROADCASTER_ID</a> = TwitchWords.BROADCASTER_ID</td></tr>
+<tr class="separator:afaba7da1d50d4f8ad0d91e583abf3d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25854ba84404c1314ac43fcfb318e81a" id="r_a25854ba84404c1314ac43fcfb318e81a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25854ba84404c1314ac43fcfb318e81a">MODERATOR_ID</a> = TwitchWords.MODERATOR_ID</td></tr>
+<tr class="separator:a25854ba84404c1314ac43fcfb318e81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ccb090f22495e76cb5d94db7bcdbd4b" id="r_a3ccb090f22495e76cb5d94db7bcdbd4b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html#a3ccb090f22495e76cb5d94db7bcdbd4b">MethodName</a> = &quot;BuildDataJson&quot;</td></tr>
 <tr class="separator:a3ccb090f22495e76cb5d94db7bcdbd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -150,14 +154,28 @@ Properties</h2></td></tr>
 <tr class="memitem:a712c9658af7b03f8e6bbbe1e7109ab04" id="r_a712c9658af7b03f8e6bbbe1e7109ab04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html#a40c9350f1c9c68635bf45623cb3d589a">readonly</a> <a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes.html#a499221abd455d7fff90e78930fddc110">TwitchScopesEnum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a712c9658af7b03f8e6bbbe1e7109ab04">Scopes</a><code> [get]</code></td></tr>
 <tr class="memdesc:a712c9658af7b03f8e6bbbe1e7109ab04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional and Required scopes needed by Twitch, found at  Twitch Scopes <br /></td></tr>
 <tr class="separator:a712c9658af7b03f8e6bbbe1e7109ab04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc3a466878ecfe25d1978f750b81aadb" id="r_afc3a466878ecfe25d1978f750b81aadb"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc3a466878ecfe25d1978f750b81aadb">BROADCASTER_ID</a><code> [get]</code></td></tr>
-<tr class="separator:afc3a466878ecfe25d1978f750b81aadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a479377aadc46409fae276d0c7dc2c" id="r_a20a479377aadc46409fae276d0c7dc2c"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20a479377aadc46409fae276d0c7dc2c">MODERATOR_ID</a><code> [get]</code></td></tr>
-<tr class="separator:a20a479377aadc46409fae276d0c7dc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Twitch API Class</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0280c444bbc49de00ff2e56c94ff3e82" name="a0280c444bbc49de00ff2e56c94ff3e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0280c444bbc49de00ff2e56c94ff3e82">&#9670;&#160;</a></span>SendChatAnnouncement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ScoredProductions.StreamLinked.API.Chat.SendChatAnnouncement.SendChatAnnouncement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json.html">NJson</a></td>          <td class="paramname"><span class="paramname"><em>_</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a566a2848f63a74e350b146f82243fd8e" name="a566a2848f63a74e350b146f82243fd8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a566a2848f63a74e350b146f82243fd8e">&#9670;&#160;</a></span>BuildDataJson()</h2>
 
@@ -221,25 +239,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a31ba75f14a8930956dc2e12f370bf900" name="a31ba75f14a8930956dc2e12f370bf900"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31ba75f14a8930956dc2e12f370bf900">&#9670;&#160;</a></span>Initialise()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_json_request.html#a40c9350f1c9c68635bf45623cb3d589a">readonly</a> void ScoredProductions.StreamLinked.API.Chat.SendChatAnnouncement.Initialise </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html">JsonValue</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html#aa8a7f3cdaf9970d33a03b952eb3c4e8b">ScoredProductions.StreamLinked.API.ITwitchAPIDataObject</a>.</p>
-
-</div>
-</div>
 <a id="a40c9350f1c9c68635bf45623cb3d589a" name="a40c9350f1c9c68635bf45623cb3d589a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40c9350f1c9c68635bf45623cb3d589a">&#9670;&#160;</a></span>readonly()</h2>
 
@@ -270,6 +269,28 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afaba7da1d50d4f8ad0d91e583abf3d86" name="afaba7da1d50d4f8ad0d91e583abf3d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaba7da1d50d4f8ad0d91e583abf3d86">&#9670;&#160;</a></span>BROADCASTER_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Chat.SendChatAnnouncement.BROADCASTER_ID = TwitchWords.BROADCASTER_ID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3ccb090f22495e76cb5d94db7bcdbd4b" name="a3ccb090f22495e76cb5d94db7bcdbd4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ccb090f22495e76cb5d94db7bcdbd4b">&#9670;&#160;</a></span>MethodName</h2>
 
@@ -292,9 +313,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="afc3a466878ecfe25d1978f750b81aadb" name="afc3a466878ecfe25d1978f750b81aadb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc3a466878ecfe25d1978f750b81aadb">&#9670;&#160;</a></span>BROADCASTER_ID</h2>
+<a id="a25854ba84404c1314ac43fcfb318e81a" name="a25854ba84404c1314ac43fcfb318e81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25854ba84404c1314ac43fcfb318e81a">&#9670;&#160;</a></span>MODERATOR_ID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,18 +323,19 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string ScoredProductions.StreamLinked.API.Chat.SendChatAnnouncement.BROADCASTER_ID</td>
+          <td class="memname">const string ScoredProductions.StreamLinked.API.Chat.SendChatAnnouncement.MODERATOR_ID = TwitchWords.MODERATOR_ID</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<h2 class="groupheader">Property Documentation</h2>
 <a id="a13eb57fa0cc2bc1f9157ad75f495d1c0" name="a13eb57fa0cc2bc1f9157ad75f495d1c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a13eb57fa0cc2bc1f9157ad75f495d1c0">&#9670;&#160;</a></span>Endpoint</h2>
 
@@ -360,28 +381,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html#aeffb1258b89e9ea57101c221304491dc">ScoredProductions.StreamLinked.API.ITwitchAPIDataObject</a>.</p>
-
-</div>
-</div>
-<a id="a20a479377aadc46409fae276d0c7dc2c" name="a20a479377aadc46409fae276d0c7dc2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20a479377aadc46409fae276d0c7dc2c">&#9670;&#160;</a></span>MODERATOR_ID</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string ScoredProductions.StreamLinked.API.Chat.SendChatAnnouncement.MODERATOR_ID</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

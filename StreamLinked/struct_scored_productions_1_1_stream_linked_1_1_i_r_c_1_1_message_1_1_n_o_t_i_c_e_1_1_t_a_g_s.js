@@ -33,11 +33,11 @@ var struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_
       [ "tos_ban", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a7664d68db517c47a9c82a255fc273f61a4420ccefa50e72edc2e37e2855875de9", null ],
       [ "unrecognized_cmd", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a7664d68db517c47a9c82a255fc273f61ad7c52d7df8caecf655dd89b377780c49", null ]
     ] ],
-    [ "TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a3bccc1358adbce8207197263b0d749f0", null ],
+    [ "TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a89956cde753f087f70be18fa5e33ef83", null ],
     [ "ExtractBadges", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#ad40f02ac472f3dfdbc983166b2b389a3", null ],
     [ "ExtractEmotes", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#ac57d77befa0180a17a9b172500ac88e2", null ],
-    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#ac8c698b328de6c2357a2227dc532c4c0", null ],
-    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#ab2e5c0633573b198dab6d9918661d696", null ],
+    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#acb81167ddcd5d8482ff8e71971e1eb89", null ],
+    [ "ExtractTags", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a459883107dc062bb2e0a7ec87c8ddb91", null ],
     [ "msg_id", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a72bacce9509235eb464828233c0cb78b", null ],
     [ "target_user_id", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a464d34c09c1cf6a8630e6b383895a393", null ],
     [ "NoticeOutcome", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e_1_1_t_a_g_s.html#a49a7be6691dc778bed032e9a31dbd8bb", null ]

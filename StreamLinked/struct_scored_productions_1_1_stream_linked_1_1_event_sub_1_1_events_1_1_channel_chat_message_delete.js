@@ -1,13 +1,16 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete =
 [
-    [ "ChannelChatMessageDelete", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#ae91eec65c58425afdedb4b8e9d71f919", null ],
-    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#ab61f72b3e984255b68b90c6a57fa4879", null ],
-    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a1b249ee782628f57042c34207832cf2c", null ],
-    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a9dc1003f72737f5f4d67b59da8b20f92", null ],
+    [ "ChannelChatMessageDelete", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#aba8e387e53e816874635f0af1ac1b84e", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#ad07a44ea8c500ccdf544310cffaf2cd3", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#aa0690379859f7c9c28530a575626c34a", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#acf347f5fc2b153f62e41466c9d3e8155", null ],
+    [ "message_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a89ad3a45887c8994ce44579389ca14e0", null ],
+    [ "target_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a36b6d2d868aedc735c9de8a94f676acf", null ],
+    [ "target_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a18e4c14298cbdca214b4a58e7fe266ce", null ],
+    [ "target_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a8dedd39635afb907fb7c91028d589f37", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a81ab68747e809eea04bfc569f875b4f0", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#ac7f5cde42ac69637f086431fb135e867", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#aee8a790d6bb49ac4240d3405f84e14a6", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#ad76056476470e9632974f79bd0a37b90", null ],
-    [ "message_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#af5af12b10fbda00bf3cc0a924c98b17d", null ],
-    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a8a16d6176701e4cf5a333310d6492eb3", null ],
-    [ "target_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a97a3138db5473ca88aa23d99548a2db3", null ],
-    [ "target_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a3b19d85df8b819b899d87f72cb44c7be", null ],
-    [ "target_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a2ce3a9d351f058b0fe64b3c91bf16cd3", null ]
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_chat_message_delete.html#a8a16d6176701e4cf5a333310d6492eb3", null ]
 ];

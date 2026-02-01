@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -123,15 +123,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad48c1d18de159ecf9d37d7b81cad31ad" id="r_ad48c1d18de159ecf9d37d7b81cad31ad"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48c1d18de159ecf9d37d7b81cad31ad">TryGetSetting&lt; T &gt;</a> (<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a> setting, byte[] encryptionKey, out T value, bool logMessage=false)</td></tr>
 <tr class="memdesc:ad48c1d18de159ecf9d37d7b81cad31ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get value from PlayerPrefs, all values are stored as string, this will try to convert it back. If a key is provided, it will attempt to decrypt it.  <br /></td></tr>
 <tr class="separator:ad48c1d18de159ecf9d37d7b81cad31ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a510182522d4d232db25e48e9e10cbd7b" id="r_a510182522d4d232db25e48e9e10cbd7b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a510182522d4d232db25e48e9e10cbd7b">GroupEditSettings</a> ((<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string)[] values)</td></tr>
-<tr class="memdesc:a510182522d4d232db25e48e9e10cbd7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edit a group of settings values, Requires main thread.  <br /></td></tr>
-<tr class="separator:a510182522d4d232db25e48e9e10cbd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3afee046bea80d42cc4bc6e5dc8e9f93" id="r_a3afee046bea80d42cc4bc6e5dc8e9f93"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3afee046bea80d42cc4bc6e5dc8e9f93">GetAllSettingsAsJson</a> (bool pretty=true)</td></tr>
-<tr class="memdesc:a3afee046bea80d42cc4bc6e5dc8e9f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all stored settings in PlayerPrefs under the settings enum <code>SavedSettings</code>.  <br /></td></tr>
-<tr class="separator:a3afee046bea80d42cc4bc6e5dc8e9f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4dc9d0891a7187fc122ed31fed5f5b0" id="r_ae4dc9d0891a7187fc122ed31fed5f5b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4dc9d0891a7187fc122ed31fed5f5b0">InputDataJSON</a> (string JSON)</td></tr>
-<tr class="memdesc:ae4dc9d0891a7187fc122ed31fed5f5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a saved instance of the settings into the store, overwrites existing values.  <br /></td></tr>
-<tr class="separator:ae4dc9d0891a7187fc122ed31fed5f5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -256,101 +247,6 @@ Static Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">editSetting</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a3afee046bea80d42cc4bc6e5dc8e9f93" name="a3afee046bea80d42cc4bc6e5dc8e9f93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3afee046bea80d42cc4bc6e5dc8e9f93">&#9670;&#160;</a></span>GetAllSettingsAsJson()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string ScoredProductions.StreamLinked.Utility.InternalSettingsStore.GetAllSettingsAsJson </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>pretty</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get all stored settings in PlayerPrefs under the settings enum <code>SavedSettings</code>. </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a510182522d4d232db25e48e9e10cbd7b" name="a510182522d4d232db25e48e9e10cbd7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a510182522d4d232db25e48e9e10cbd7b">&#9670;&#160;</a></span>GroupEditSettings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ScoredProductions.StreamLinked.Utility.InternalSettingsStore.GroupEditSettings </td>
-          <td>(</td>
-          <td class="paramtype">(<a class="el" href="namespace_scored_productions_1_1_stream_linked_1_1_utility.html#a53bb6ea77cbd8888243fbceb287f7f61">SavedSettings</a>, string)[]</td>          <td class="paramname"><span class="paramname"><em>values</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Edit a group of settings values, Requires main thread. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">setting</td><td></td></tr>
-    <tr><td class="paramname">value</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ae4dc9d0891a7187fc122ed31fed5f5b0" name="ae4dc9d0891a7187fc122ed31fed5f5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4dc9d0891a7187fc122ed31fed5f5b0">&#9670;&#160;</a></span>InputDataJSON()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ScoredProductions.StreamLinked.Utility.InternalSettingsStore.InputDataJSON </td>
-          <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>JSON</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Parses a saved instance of the settings into the store, overwrites existing values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">JSON</td><td></td></tr>
   </table>
   </dd>
 </dl>

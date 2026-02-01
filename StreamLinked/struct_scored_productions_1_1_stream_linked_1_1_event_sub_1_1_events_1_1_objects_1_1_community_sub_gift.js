@@ -1,8 +1,8 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift =
 [
-    [ "CommunitySubGift", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#ac685fbfa04f6ff4a4a016ba3dd6d8e80", null ],
-    [ "cumulative_total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a8d837985bd88e6ea5c24fcf24d4f3abc", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a7530e666ed36a5450b48c790a4b3d064", null ],
-    [ "sub_tier", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a3d1bc2d81c0e15bca8736631b4b14ae9", null ],
-    [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a855d93e6f7a7c225b386e96659fe08b7", null ]
+    [ "CommunitySubGift", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#ac23f953ee4942830779782917e8521cb", null ],
+    [ "cumulative_total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#af2afa78cb6ab9ab556b0c26f6cf4d5ef", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a3d6a93c2b5cf609acfedce214310ef57", null ],
+    [ "sub_tier", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a6a8f0bcb0a440040f7bc83640e5c5c14", null ],
+    [ "total", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html#a29ccfb3bcb8637b024a0e8554eac2222", null ]
 ];

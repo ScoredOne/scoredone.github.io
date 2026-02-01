@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['vacation_0',['Vacation',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_vacation.html#a18566dd9be68bf48c08788133be62bf6',1,'ScoredProductions::StreamLinked::API::SharedContainers::Vacation']]],
-  ['validateservercertificate_1',['ValidateServerCertificate',['../class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_twitch_i_r_c_client.html#ac1a5f012d43838748ed3a31961e9f524',1,'ScoredProductions::StreamLinked::IRC::TwitchIRCClient']]],
-  ['video_2',['Video',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_video.html#af51fb87947f985e867398a32fd9ed536',1,'ScoredProductions::StreamLinked::API::SharedContainers::Video']]],
-  ['videooverlay_3',['VideoOverlay',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_video_overlay.html#a7346da232084b9f49b2c8268b159f7b0',1,'ScoredProductions::StreamLinked::API::SharedContainers::VideoOverlay']]],
-  ['videosettings_4',['VideoSettings',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_video_settings.html#a8e7c714742cad2e8c1b916d87347dfaa',1,'ScoredProductions::StreamLinked::API::SharedContainers::VideoSettings']]],
-  ['viewcomponent_5',['ViewComponent',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_view_component.html#ad1ed696fe7cc0a1ea9306431de674909',1,'ScoredProductions::StreamLinked::API::SharedContainers::ViewComponent']]],
-  ['views_6',['Views',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_views.html#a72102d086716d04fcb38df64aa13fbe3',1,'ScoredProductions::StreamLinked::API::SharedContainers::Views']]],
-  ['vip_7',['Vip',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_vip.html#a3211c7bb024e57dc58b3198891f032df',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects::Vip']]]
+  ['waitforbuilders_0',['WaitForBuilders',['../class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_message_atlas_producer.html#aba7bd192cd9b52664bb6b6d7c97b0447',1,'ScoredProductions::StreamLinked::ManagersAndBuilders::TwitchMessageAtlasProducer']]],
+  ['warn_1',['Warn',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_warn.html#a6411a86d340fb0412e73a35bb9173efe',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects::Warn']]],
+  ['warnchatuser_2',['WarnChatUser',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_warn_chat_user.html#aa4a130bc58e60e11becb9e3b69572d5a',1,'ScoredProductions::StreamLinked::API::Moderation::WarnChatUser']]],
+  ['whisper_3',['Whisper',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_whisper.html#ada08af3d11e79394ad8f8d697183aae1',1,'ScoredProductions::StreamLinked::EventSub::Events::Objects::Whisper']]],
+  ['whisperreceived_4',['WhisperReceived',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html#a65d77efc6c09d7041a5a4f69515e18f2',1,'ScoredProductions::StreamLinked::EventSub::Events::WhisperReceived']]],
+  ['writetexturepixelrow_5',['WriteTexturePixelRow',['../class_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif.html#acdd770faefdd91758a2448739073f10d',1,'ScoredProductions::StreamLinked::UniGif::UniGif']]]
 ];

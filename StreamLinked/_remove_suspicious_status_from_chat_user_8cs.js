@@ -1,0 +1,4 @@
+var _remove_suspicious_status_from_chat_user_8cs =
+[
+    [ "ScoredProductions.StreamLinked.API.Moderation.RemoveSuspiciousStatusFromChatUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_remove_suspicious_status_from_chat_user.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_remove_suspicious_status_from_chat_user" ]
+];

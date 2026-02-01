@@ -1,12 +1,15 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update =
 [
-    [ "UserUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a91d2776956e171c10b610ee005c391e2", null ],
-    [ "description", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a59d17bb4b217c6a87b0534002a12c7db", null ],
-    [ "email", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a3ed1d5a87a929b365c5979d9c152a82d", null ],
-    [ "email_verified", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a4af89350640d8aef565c3ffb795bebc9", null ],
+    [ "UserUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#ae7c73fb9c21a5a70eb60a478373f81d9", null ],
+    [ "description", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a1f329cb6bb4c7917cba95da51fc2018e", null ],
+    [ "email", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a89edcfa9da768941ba1e4d305655d5d4", null ],
+    [ "email_verified", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a947950d824a6bc1ba686f5109867264e", null ],
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a7a5978f4dcd13150073718472eb3c397", null ],
+    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#aba822a64487545d7fda30f82b28e8e62", null ],
+    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a6fa9e29e1dc86925d2511ccaff7b9dbb", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#aa56026fbe3a99fb0ee5185ce79eb80d5", null ],
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#abd4d6a077f8ff6a5a1a1de1e2bea15f7", null ],
-    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#ac8055da6238949b60d3a00fae2241c27", null ],
-    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a3b40e257e222ec5e50c6abb1c9bc8a0a", null ],
-    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#add04eb83a091a526201db6f99c2b7fb1", null ]
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#a7a6d3a6a3b9e35bab3b4c05193ebee15", null ],
+    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#ad566ff144904528c2146163e307c8cc3", null ],
+    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_user_update.html#aa652504eddf6b37e15c0dfa1a6c8f7df", null ]
 ];

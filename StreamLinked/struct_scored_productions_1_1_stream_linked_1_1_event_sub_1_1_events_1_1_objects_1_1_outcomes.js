@@ -1,10 +1,10 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes =
 [
-    [ "Outcomes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a8331ae39862afe0e58eaa8154fcc7778", null ],
-    [ "channel_points", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a7434bc11fd5603324e96b06710c79049", null ],
-    [ "color", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a7978b975b675425b5dc7d9c06385daab", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#aab2198d73bfded582f5bfe9de97f04a3", null ],
-    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a0f98e89274703521aa2af5028ec27a42", null ],
-    [ "top_predictors", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#aef83ddcd402ae768aa5d541dd9e6efcd", null ],
-    [ "users", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a413cef778a9216b38965405913ffe770", null ]
+    [ "Outcomes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a9abb192cf86845e981fba2de0abd03d7", null ],
+    [ "channel_points", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a375f93ab58c0565348796add6c89d587", null ],
+    [ "color", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a2542f886184ec5a439cb12f063f5631f", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a298cce3f530b104f374380b1ebad141c", null ],
+    [ "title", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a45a79fb5a9ac35cee6a94ba49f423b77", null ],
+    [ "top_predictors", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#ad21aa179495d0a3033dac7bde4b59ca5", null ],
+    [ "users", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html#a7f8f84f381cbab1d1e60724f1bfe0030", null ]
 ];

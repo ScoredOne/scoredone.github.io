@@ -1,9 +1,8 @@
 var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client =
 [
-    [ "Awake", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a444060e5efcb55c2b78a469dc84dcd5d", null ],
-    [ "BeginConnectionSession", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a7b6339c6124cf68b2c3d5ad025db9ebd", null ],
-    [ "BeginConnectionSessionAsync", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a0655dda2340cabee57d5e49e3b585c11", null ],
+    [ "BeginConnectionSession", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a56853305540e53de5ccc1f53f486641f", null ],
     [ "BeginConnectionSessionAsync", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#afd420283c54148c433a6081514edfd0a", null ],
+    [ "BeginConnectionSessionCoroutine", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#acab1fa77016e3973ddea8099892cdac8", null ],
     [ "BuildNewConnectionAsync", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#af3a48e802227759594949a447b2d98c2", null ],
     [ "BuildSocketAndThreadAsync", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a3cb9a1ac4400ee0f329971e9c717c5ee", null ],
     [ "CloseWebsocket", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a7b220eee1a6c5d463cddcce97fffab92", null ],
@@ -13,7 +12,7 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "GetSubscription", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#ac709f11ad794a632faf48fe888164a20", null ],
     [ "LateUpdate", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a093bb29f93227e2c7a772eb3f8903aa3", null ],
     [ "ManageResponseAsync", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a7263b47df3986abb397f1cefb24f152c", null ],
-    [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a589badf7ff7fd295fd798ba5b0de97f7", null ],
+    [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a842f00a1dda2ffae66d24b69ccdd89c2", null ],
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#afa90d0e8d33e2456bcac40a0acf6e5d4", null ],
     [ "ParseSocketMessageAsync", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#acd7fa2e3e27064068d36d0748deb0b4f", null ],
     [ "ResubscribeToSessionEvents", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a39bd122b286ffcf7474314e14c902d41", null ],
@@ -123,6 +122,7 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "reconnecting", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a1d1810e791883e379eb0dd105389294f", null ],
     [ "SessionSubscriptions", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a30a7713b7f8b66e5b327484b52d8355f", null ],
     [ "StartUpTask", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a67f7c7bcccd1ef8467c61501cdbdf0a5", null ],
+    [ "updateNameToTypeName", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#abde469b5dd6d32ca314fbc02bebaf02b", null ],
     [ "webSocket", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a5ab86a5c94c15164f107884890baaa10", null ],
     [ "WebSocketAddress", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#ae1e8391088041aa72dae20653ac962bf", null ],
     [ "webSocketReconnector", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#aa060d1473c215d86d6563684d46f5ee9", null ],
@@ -138,5 +138,6 @@ var class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_su
     [ "SessionTransport", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a8c57c22128de206fa8c22607ab12d537", null ],
     [ "SocketState", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#add10b92ea2b96009b690e9ecd5c170ec", null ],
     [ "StartingUp", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a59d2f090ee3337d4f19c1439fba29c20", null ],
+    [ "UpdateNameToTypeName", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a2542ee4a87ef969845d3017099509601", null ],
     [ "UsedCost", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_twitch_event_sub_client.html#a654227b4793c7fc6128ba5acca13540f", null ]
 ];

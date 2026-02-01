@@ -1,8 +1,8 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade =
 [
-    [ "GiftPaidUpgrade", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#aa2d5204440625e4fa18c2c565a640886", null ],
-    [ "gifter_is_anonymous", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#a9855569e9345f7eb289e324ce985e3a2", null ],
-    [ "gifter_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#a6f18451283990a5a1530ce1f56982dfb", null ],
-    [ "gifter_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#a6c79612f6355164f9cc150f20286593a", null ],
-    [ "gifter_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#a9a65e6ce3eb1eb859d6b5161f3f42f7e", null ]
+    [ "GiftPaidUpgrade", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#ad76b5839a803c82c56b6840b159fb2af", null ],
+    [ "gifter_is_anonymous", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#a813781162302993c6a848289493ead79", null ],
+    [ "gifter_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#ac475ec27f787926cfaa8b750b34596fb", null ],
+    [ "gifter_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#aa42f90a3870cae4c79a30b952a591220", null ],
+    [ "gifter_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_gift_paid_upgrade.html#aea86581ea5364c0a2e2cd6b7c403b69b", null ]
 ];

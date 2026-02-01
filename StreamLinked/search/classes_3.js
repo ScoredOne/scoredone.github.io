@@ -13,6 +13,7 @@ var searchData=
   ['deletegueststarslot_10',['DeleteGuestStarSlot',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_guest___star_1_1_delete_guest_star_slot.html',1,'ScoredProductions::StreamLinked::API::Guest_Star']]],
   ['deletevideos_11',['DeleteVideos',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_videos_1_1_delete_videos.html',1,'ScoredProductions::StreamLinked::API::Videos']]],
   ['devicecodegrantflow_12',['DeviceCodeGrantFlow',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_device_code_grant_flow.html',1,'ScoredProductions::StreamLinked::API::AuthContainers']]],
-  ['dropentitlementgrant_13',['DropEntitlementGrant',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
-  ['dropreason_14',['DropReason',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_drop_reason.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]]
+  ['devicecodegrantflowsettings_13',['DeviceCodeGrantFlowSettings',['../class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html',1,'ScoredProductions::StreamLinked::API::AuthContainers::SettingContainers']]],
+  ['dropentitlementgrant_14',['DropEntitlementGrant',['../struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant.html',1,'ScoredProductions::StreamLinked::EventSub::Events']]],
+  ['dropreason_15',['DropReason',['../struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_drop_reason.html',1,'ScoredProductions::StreamLinked::API::SharedContainers']]]
 ];

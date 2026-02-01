@@ -1,6 +1,7 @@
 var namespace_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users =
 [
     [ "BlockUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user" ],
+    [ "GetAuthorizationByUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_authorization_by_user.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_authorization_by_user" ],
     [ "GetUserActiveExtensions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_active_extensions.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_active_extensions" ],
     [ "GetUserBlockList", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list" ],
     [ "GetUserExtensions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_extensions.html", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_extensions" ],

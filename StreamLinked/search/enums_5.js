@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsonvaluetype_0',['JsonValueType',['../namespace_scored_productions_1_1_stream_linked_1_1_light_json.html#a9a7c723074c28d14f599c03fb504778c',1,'ScoredProductions::StreamLinked::LightJson']]]
+  ['imagestoinclude_0',['ImagesToInclude',['../namespace_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers.html#a610af56eaff84afe643b6f5d75d1e1cd',1,'ScoredProductions::StreamLinked::ManagersAndBuilders::Containers']]]
 ];

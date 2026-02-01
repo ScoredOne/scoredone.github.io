@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -192,6 +192,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html">TwitchAPIDataContainer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returned container from API requests.  <a href="struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_statics.html">TwitchAPIDataContainerStatics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html">TwitchAPILinks</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">All addresses used by Twitch API.  <a href="class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,127 +256,132 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a5fa91998bf1ae0888abf86e42ce83aba">UpdateUserChatColor</a> = 42
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a8d4684958b17045f3e7740c008c9a74e">CreateClip</a> = 43
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae95b29835de0b58d457e0cc88e93fbff">GetClips</a> = 44
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5acd0a9b5f6cfd9e845ed2322030a54d85">CreateClipFromVOD</a> = 146
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae95b29835de0b58d457e0cc88e93fbff">GetClips</a> = 44
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a82ceecd39af558ba26dfd37c4899ca60">GetClipsDownload</a> = 144
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a232cc097fde3c1c31b93b152bc9488be">CreateConduits</a> = 45
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aa7c760d6eef999740669572a41bb1e96">DeleteConduits</a> = 46
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a9f63ffa50df92ee4a753a4e956e29f4f">GetConduits</a> = 47
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aa7c760d6eef999740669572a41bb1e96">DeleteConduits</a> = 46
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a9f63ffa50df92ee4a753a4e956e29f4f">GetConduits</a> = 47
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a0465d4048014595fe45c9869eccbb11b">GetConduitShards</a> = 48
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ac98d706a4cd0a0a3e43cfed2ba56cbb7">UpdateConduits</a> = 49
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af9b562feecff7e3db2a9ae1170a9affa">UpdateConduitShards</a> = 50
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a1fccef1566affe9bc7bc4f545ea1a67b">GetDropsEntitlements</a> = 51
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af9b562feecff7e3db2a9ae1170a9affa">UpdateConduitShards</a> = 50
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a1fccef1566affe9bc7bc4f545ea1a67b">GetDropsEntitlements</a> = 51
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a8342725aea019459187e6240464eb0a7">UpdateDropsEntitlements</a> = 52
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5abf64e2fddfb52f06e06aeb1f3065540e">CreateEventSubSubscription</a> = 53
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7e36f0581cb025ecca9ec8b69b1df449">DeleteEventSubSubscription</a> = 54
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5adc7a5f58029b54554ece93f2b5d35acd">GetEventSubSubscriptions</a> = 55
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7e36f0581cb025ecca9ec8b69b1df449">DeleteEventSubSubscription</a> = 54
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5adc7a5f58029b54554ece93f2b5d35acd">GetEventSubSubscriptions</a> = 55
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a26f50ee06a2157ebfc14ad20c0937943">CreateExtensionSecret</a> = 56
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a8e7b3e0e100fb8cb1757038bcad0d5c5">GetExtensionBitsProducts</a> = 57
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2e8be8d49a3cfd741c20902b9d4522e5">GetExtensionConfigurationSegment</a> = 58
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5abd2e19c780bff0c51e9aeee16ccda1c5">GetExtensionLiveChannels</a> = 59
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2e8be8d49a3cfd741c20902b9d4522e5">GetExtensionConfigurationSegment</a> = 58
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5abd2e19c780bff0c51e9aeee16ccda1c5">GetExtensionLiveChannels</a> = 59
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af50031160f236a71cbb7b07ad5601728">GetExtensions</a> = 60
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7438bce902c9296e7277f6d323c90d12">GetExtensionSecrets</a> = 61
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a49d6349886e18e0a93787dff23d384af">GetReleasedExtensions</a> = 62
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af339d4de94956082953f47f26828ee9b">SendExtensionChatMessage</a> = 63
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a49d6349886e18e0a93787dff23d384af">GetReleasedExtensions</a> = 62
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af339d4de94956082953f47f26828ee9b">SendExtensionChatMessage</a> = 63
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a9363298782038fd14ca32c50a435ca23">SendExtensionPubSubMessage</a> = 64
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a202740c8f09bb911a56b00650f6bc340">SetExtensionConfigurationSegment</a> = 65
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a655dc35673d15171528f3c1cdf8a7e76">SetExtensionRequiredConfiguration</a> = 66
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2c83c1d1492c6d16156ba5e95c59d007">UpdateExtensionBitsProduct</a> = 67
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a655dc35673d15171528f3c1cdf8a7e76">SetExtensionRequiredConfiguration</a> = 66
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2c83c1d1492c6d16156ba5e95c59d007">UpdateExtensionBitsProduct</a> = 67
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a65850334393e27b57fe0e6f74439436e">GetGames</a> = 68
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a39fdada2d140af4a3ccdee1560e71796">GetTopGames</a> = 69
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5afeac900c9f7235e5d7b41290700ada08">GetCreatorGoals</a> = 70
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aea3c1e07d03ce6b8296902e895991bc1">AssignGuestStarSlot</a> = 71
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5afeac900c9f7235e5d7b41290700ada08">GetCreatorGoals</a> = 70
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aea3c1e07d03ce6b8296902e895991bc1">AssignGuestStarSlot</a> = 71
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5afe2d8f6a313cd46bbc7d11e22a1c8859">CreateGuestStarSession</a> = 72
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aecff57cb000e54ec9415b4f7191150e5">DeleteGuestStarInvite</a> = 73
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a813d6f877f9af4a43c79ee39f979c028">DeleteGuestStarSlot</a> = 74
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2e17f4f721eba794ff9e6ec4c4ff7026">EndGuestStarSession</a> = 75
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a813d6f877f9af4a43c79ee39f979c028">DeleteGuestStarSlot</a> = 74
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2e17f4f721eba794ff9e6ec4c4ff7026">EndGuestStarSession</a> = 75
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae76e8742194dc643ae5fb4da27df6686">GetChannelGuestStarSettings</a> = 76
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a08dc7f2c6cfbcf4bf03142d4573ee5ee">GetGuestStarInvites</a> = 77
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a659980d26568ead9faf9068ff4c1b3d2">GetGuestStarSession</a> = 78
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a23412f64778fcac0371c4d27c344cff2">SendGuestStarInvite</a> = 79
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a659980d26568ead9faf9068ff4c1b3d2">GetGuestStarSession</a> = 78
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a23412f64778fcac0371c4d27c344cff2">SendGuestStarInvite</a> = 79
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ace407b66dd3fb11dfc1307a0aca18830">UpdateChannelGuestStarSettings</a> = 80
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5abd3e0330a99ddeaeb76e13dad25749e1">UpdateGuestStarSlot</a> = 81
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a80142db2b61c4c160df4e701a1337fc6">UpdateGuestStarSlotSettings</a> = 82
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a001a3ad9be4ff0c20339e4f7a9ecdc77">GetHypeTrainEvents</a> = 83
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a80142db2b61c4c160df4e701a1337fc6">UpdateGuestStarSlotSettings</a> = 82
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a001a3ad9be4ff0c20339e4f7a9ecdc77">GetHypeTrainEvents</a> = 83
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a191c62dec06ec33dc562bdc8cc61e843">GetHypeTrainStatus</a> = 143
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a29b8e64ca61f6f3e0a60256da73dfb4f">AddBlockedTerm</a> = 84
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ab96de4b7c2652912a9f48822747aa16c">AddChannelModerator</a> = 85
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a71536e75e1935399fc11d1855c91545a">AddChannelVIP</a> = 86
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ab96de4b7c2652912a9f48822747aa16c">AddChannelModerator</a> = 85
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a71536e75e1935399fc11d1855c91545a">AddChannelVIP</a> = 86
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a081758b11b7eb5270bdd80e1f900a1ba">BanUser</a> = 87
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a0bbc3e4e2467dfbd2e4cec7ea8195212">CheckAutoModStatus</a> = 88
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae9770fc7646d636360925bc40db8e59f">DeleteChatMessages</a> = 89
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5acb5f3f5d319c19d3d4c0f737d97e6dcf">GetAutoModSettings</a> = 90
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae9770fc7646d636360925bc40db8e59f">DeleteChatMessages</a> = 89
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5acb5f3f5d319c19d3d4c0f737d97e6dcf">GetAutoModSettings</a> = 90
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7a8744c2e6ad7f913ffc5e6dab53bd15">GetBannedUsers</a> = 91
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af232cb5ce35a4589d59cf8b770ea17a2">GetBlockedTerms</a> = 92
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae297d80a18249f4696d9113c4bfadf53">GetModeratedChannels</a> = 93
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a66461d963834b72a717f73de130c02fd">GetModerators</a> = 94
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae297d80a18249f4696d9113c4bfadf53">GetModeratedChannels</a> = 93
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a66461d963834b72a717f73de130c02fd">GetModerators</a> = 94
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a96e6331bcabeb031d9e98fe13bf94297">GetShieldModeStatus</a> = 95
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5af02a6668a6fb6fc93590fae5eea77a93">GetUnbanRequests</a> = 96
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a3f1e16defc8bbe03ce5b729b9b96cd38">GetVIPs</a> = 97
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aeec9b9f54cbfae250ed6d8a235b772fa">ManageHeldAutoMessages</a> = 98
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a3f1e16defc8bbe03ce5b729b9b96cd38">GetVIPs</a> = 97
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aeec9b9f54cbfae250ed6d8a235b772fa">ManageHeldAutoMessages</a> = 98
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a3f8a409b12461dad2136b606346415dd">RemoveBlockedTerm</a> = 99
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a113f8697dfaf4fe76aae6ce3380e6851">RemoveChannelModerator</a> = 100
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7255743ec147975b54ea2cda8a472efc">RemoveChannelVIP</a> = 101
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a78d1a9c7843d4fc8f8c11205be45579a">ResolveUnbanRequests</a> = 102
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7255743ec147975b54ea2cda8a472efc">RemoveChannelVIP</a> = 101
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a78d1a9c7843d4fc8f8c11205be45579a">ResolveUnbanRequests</a> = 102
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aec34a20c1c5d3144e3b155b9bd58c959">UnbanUser</a> = 103
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a404ae6dad5f287da2939c87a4fed903b">UpdateAutoModSettings</a> = 104
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a12fdbb88a3b8ac0404312bfe03dfd705">UpdateShieldModeStatus</a> = 105
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a95d0092e18f39c8eae3a6cb13744e21f">WarnChatUser</a> = 106
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a449794f432be00751d7a9f780e126eaa">CreatePoll</a> = 107
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a12fdbb88a3b8ac0404312bfe03dfd705">UpdateShieldModeStatus</a> = 105
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a95d0092e18f39c8eae3a6cb13744e21f">WarnChatUser</a> = 106
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5abdc441a23e666930387c5dd843157ebf">AddSuspiciousStatusToChatUser</a> = 147
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aebf72041e0c39f582642b81c6e9de2ab">RemoveSuspiciousStatusFromChatUser</a> = 148
+, <br />
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a449794f432be00751d7a9f780e126eaa">CreatePoll</a> = 107
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a8106ad39a96d6dc065ed6ecf5a0d795f">EndPoll</a> = 108
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae6e984b002f8a1d623029ca5b3d730f3">GetPolls</a> = 109
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a52018e51c94c8633acc55a371fed24b7">CreatePrediction</a> = 110
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a52018e51c94c8633acc55a371fed24b7">CreatePrediction</a> = 110
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a4519f4ac2c5bec9857702a90d77a041b">EndPrediction</a> = 111
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a4519f4ac2c5bec9857702a90d77a041b">EndPrediction</a> = 111
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a99d7350d08581eaf573e0e09042af152">GetPredictions</a> = 112
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a26c72e01a7f843357dae21d1966c7608">CancelARaid</a> = 113
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a0b71cb54df5263da172f6b1d90ea37b1">StartARaid</a> = 114
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a0b71cb54df5263da172f6b1d90ea37b1">StartARaid</a> = 114
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a4bee4e868e473cf3ffc3f5529681b5bb">CreateChannelStreamScheduleSegment</a> = 115
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a4bee4e868e473cf3ffc3f5529681b5bb">CreateChannelStreamScheduleSegment</a> = 115
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a663b11b3272767646851fd84b814b982">DeleteChannelStreamScheduleSegment</a> = 116
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a1377933fdf5186c52a20689e8ba7b1c2">GetChanneliCalendar</a> = 117
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a8a633b43a8c7468a52e2eafb751cb9aa">GetChannelStreamSchedule</a> = 118
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a8a633b43a8c7468a52e2eafb751cb9aa">GetChannelStreamSchedule</a> = 118
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a821273afa30224c7fb5d65c1f126f1f3">UpdateChannelStreamSchedule</a> = 119
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a821273afa30224c7fb5d65c1f126f1f3">UpdateChannelStreamSchedule</a> = 119
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ab5d9d85cd8cb84147383b6df7377d24b">UpdateChannelStreamScheduleSegment</a> = 120
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a84c8b66f41f57e9ded27acc950970c98">SearchCategories</a> = 121
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aedc49adf35e4064390a6eef9cb7dadf1">SearchChannels</a> = 122
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aedc49adf35e4064390a6eef9cb7dadf1">SearchChannels</a> = 122
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ad8f0c46393382035a56ca7ce7cc6868d">CreateStreamMarker</a> = 123
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ad8f0c46393382035a56ca7ce7cc6868d">CreateStreamMarker</a> = 123
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a7798ebb3bf5f91815d2b5c04a3673516">GetFollowedStreams</a> = 124
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2416811ec04f00db2d352072cae9b6b6">GetStreamKey</a> = 125
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ac99ad74558e7b68c32cde88b5d2edd26">GetStreamMarkers</a> = 126
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ac99ad74558e7b68c32cde88b5d2edd26">GetStreamMarkers</a> = 126
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2ede22b8b05d40e0adc590bb6c453c6f">GetStreams</a> = 127
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2ede22b8b05d40e0adc590bb6c453c6f">GetStreams</a> = 127
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5aa9d776bc470c7a2c25756538c7ed4228">CheckUserSubscription</a> = 128
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a4d5fc09bb8276dbc95e177a98fb8343e">GetBroadcasterSubscriptions</a> = 129
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae2385703cdfb636496da182ce7e5c04e">GetChannelTeams</a> = 130
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ae2385703cdfb636496da182ce7e5c04e">GetChannelTeams</a> = 130
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5adb2f31f793f28517feea5de443930b59">GetTeams</a> = 131
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5adb2f31f793f28517feea5de443930b59">GetTeams</a> = 131
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a68c66226fbd5ed8a98434f9e1a646019">BlockUser</a> = 132
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a59e76a6bc04284ec7363326eff051420">GetUserActiveExtensions</a> = 133
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a6af9815c31f1b05b1220bc5d6b86dad4">GetUserBlockList</a> = 134
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a6af9815c31f1b05b1220bc5d6b86dad4">GetUserBlockList</a> = 134
-, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5afe866612edd621836e264d28c22283d6">GetUserExtensions</a> = 135
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5afe866612edd621836e264d28c22283d6">GetUserExtensions</a> = 135
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a2c222fe5e57287e1eff8254da33994e4">GetUsers</a> = 136
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a12b01bd8ba1ec0d73fdb7b97eb7d0aa1">UnblockUser</a> = 137
+, <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a5861ed3debbb22c14fc2f12bfc496711">UpdateUser</a> = 138
 , <br />
-&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a5861ed3debbb22c14fc2f12bfc496711">UpdateUser</a> = 138
+&#160;&#160;<a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a74dedec74888cba69de2ec23418db328">GetAuthorizationByUser</a> = 145
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5ac8a2e8dca58d46500c4913dd5fe27c89">UpdateUserExtensions</a> = 139
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a090c46e1b322c124672506c61899944c">DeleteVideos</a> = 140
 , <a class="el" href="#a522c1bfb49c096952a067859b8f9d8b5a85d99df01603a6433cfe5f6c62631ffa">GetVideos</a> = 141
@@ -384,12 +391,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a522c1bfb49c096952a067859b8f9d8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e7fd0dcd52a1025215773db0142fae9" id="r_a5e7fd0dcd52a1025215773db0142fae9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9">TwitchAPIRequestMethod</a> { <br />
-&#160;&#160;<a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9aa02439ec229d8be0e74b0c1602392310">POST</a>
-, <a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a7528035a93ee69cedb1dbddb2f0bfcc8">GET</a>
-, <a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a3e75383a5992a6d15fb81e872e46e256">PUT</a>
-, <a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a32f68a60cef40faedbc6af20298c1a1e">DELETE</a>
+&#160;&#160;<a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9aa02439ec229d8be0e74b0c1602392310">POST</a> = 0
+, <a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a7528035a93ee69cedb1dbddb2f0bfcc8">GET</a> = 1
+, <a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a3e75383a5992a6d15fb81e872e46e256">PUT</a> = 2
+, <a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a32f68a60cef40faedbc6af20298c1a1e">DELETE</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a63bc9a3997d66d835d9f3ec29451407d">PATCH</a>
+&#160;&#160;<a class="el" href="#a5e7fd0dcd52a1025215773db0142fae9a63bc9a3997d66d835d9f3ec29451407d">PATCH</a> = 4
 <br />
  }</td></tr>
 <tr class="separator:a5e7fd0dcd52a1025215773db0142fae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,10 +441,14 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a06a05f07c09a6bc7779a3e80b96c3d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc40c6155f626fab38243e5af712fd1f" id="r_abc40c6155f626fab38243e5af712fd1f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc40c6155f626fab38243e5af712fd1f">APIScopeWarning</a> { <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
-, <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa7ee3b512a4dc8b613863f2e993c8879c">WarnOnMissing</a> = 1
-, <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa593ae8dc6cba79c2294f8e04a03d7e2c">ThrowOnMissing</a> = 2
-, <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa677420b97ae38ec709deccfc228dc122">AddMissingScopes</a> = 4
+<tr class="memitem:abc40c6155f626fab38243e5af712fd1f" id="r_abc40c6155f626fab38243e5af712fd1f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc40c6155f626fab38243e5af712fd1f">APIScopeWarning</a> { <br />
+&#160;&#160;<a class="el" href="#abc40c6155f626fab38243e5af712fd1fa6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
+, <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa709468af25e91284821d1bdbfdded24c">Everything</a> = WarnOnMissing | ThrowOnMissing | AddMissingScopes
+, <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa7ee3b512a4dc8b613863f2e993c8879c">WarnOnMissing</a> = 0x1
+, <a class="el" href="#abc40c6155f626fab38243e5af712fd1fa593ae8dc6cba79c2294f8e04a03d7e2c">ThrowOnMissing</a> = 0x2
+, <br />
+&#160;&#160;<a class="el" href="#abc40c6155f626fab38243e5af712fd1fa677420b97ae38ec709deccfc228dc122">AddMissingScopes</a> = 0x4
+<br />
  }</td></tr>
 <tr class="separator:abc40c6155f626fab38243e5af712fd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -455,6 +466,7 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abc40c6155f626fab38243e5af712fd1fa6adf97f83acf6453d4a6a4b1070f3754" name="abc40c6155f626fab38243e5af712fd1fa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc40c6155f626fab38243e5af712fd1fa709468af25e91284821d1bdbfdded24c" name="abc40c6155f626fab38243e5af712fd1fa709468af25e91284821d1bdbfdded24c"></a>Everything&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abc40c6155f626fab38243e5af712fd1fa7ee3b512a4dc8b613863f2e993c8879c" name="abc40c6155f626fab38243e5af712fd1fa7ee3b512a4dc8b613863f2e993c8879c"></a>WarnOnMissing&#160;</td><td class="fielddoc"><p>Default. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="abc40c6155f626fab38243e5af712fd1fa593ae8dc6cba79c2294f8e04a03d7e2c" name="abc40c6155f626fab38243e5af712fd1fa593ae8dc6cba79c2294f8e04a03d7e2c"></a>ThrowOnMissing&#160;</td><td class="fielddoc"></td></tr>
@@ -519,6 +531,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5acf9c4fa30a2258dc9f446be9d532297e" name="a522c1bfb49c096952a067859b8f9d8b5acf9c4fa30a2258dc9f446be9d532297e"></a>UpdateChatSettings&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a5fa91998bf1ae0888abf86e42ce83aba" name="a522c1bfb49c096952a067859b8f9d8b5a5fa91998bf1ae0888abf86e42ce83aba"></a>UpdateUserChatColor&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a8d4684958b17045f3e7740c008c9a74e" name="a522c1bfb49c096952a067859b8f9d8b5a8d4684958b17045f3e7740c008c9a74e"></a>CreateClip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5acd0a9b5f6cfd9e845ed2322030a54d85" name="a522c1bfb49c096952a067859b8f9d8b5acd0a9b5f6cfd9e845ed2322030a54d85"></a>CreateClipFromVOD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5ae95b29835de0b58d457e0cc88e93fbff" name="a522c1bfb49c096952a067859b8f9d8b5ae95b29835de0b58d457e0cc88e93fbff"></a>GetClips&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a82ceecd39af558ba26dfd37c4899ca60" name="a522c1bfb49c096952a067859b8f9d8b5a82ceecd39af558ba26dfd37c4899ca60"></a>GetClipsDownload&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a232cc097fde3c1c31b93b152bc9488be" name="a522c1bfb49c096952a067859b8f9d8b5a232cc097fde3c1c31b93b152bc9488be"></a>CreateConduits&#160;</td><td class="fielddoc"></td></tr>
@@ -584,6 +597,8 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a404ae6dad5f287da2939c87a4fed903b" name="a522c1bfb49c096952a067859b8f9d8b5a404ae6dad5f287da2939c87a4fed903b"></a>UpdateAutoModSettings&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a12fdbb88a3b8ac0404312bfe03dfd705" name="a522c1bfb49c096952a067859b8f9d8b5a12fdbb88a3b8ac0404312bfe03dfd705"></a>UpdateShieldModeStatus&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a95d0092e18f39c8eae3a6cb13744e21f" name="a522c1bfb49c096952a067859b8f9d8b5a95d0092e18f39c8eae3a6cb13744e21f"></a>WarnChatUser&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5abdc441a23e666930387c5dd843157ebf" name="a522c1bfb49c096952a067859b8f9d8b5abdc441a23e666930387c5dd843157ebf"></a>AddSuspiciousStatusToChatUser&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5aebf72041e0c39f582642b81c6e9de2ab" name="a522c1bfb49c096952a067859b8f9d8b5aebf72041e0c39f582642b81c6e9de2ab"></a>RemoveSuspiciousStatusFromChatUser&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a449794f432be00751d7a9f780e126eaa" name="a522c1bfb49c096952a067859b8f9d8b5a449794f432be00751d7a9f780e126eaa"></a>CreatePoll&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a8106ad39a96d6dc065ed6ecf5a0d795f" name="a522c1bfb49c096952a067859b8f9d8b5a8106ad39a96d6dc065ed6ecf5a0d795f"></a>EndPoll&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5ae6e984b002f8a1d623029ca5b3d730f3" name="a522c1bfb49c096952a067859b8f9d8b5ae6e984b002f8a1d623029ca5b3d730f3"></a>GetPolls&#160;</td><td class="fielddoc"></td></tr>
@@ -616,6 +631,7 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a2c222fe5e57287e1eff8254da33994e4" name="a522c1bfb49c096952a067859b8f9d8b5a2c222fe5e57287e1eff8254da33994e4"></a>GetUsers&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a12b01bd8ba1ec0d73fdb7b97eb7d0aa1" name="a522c1bfb49c096952a067859b8f9d8b5a12b01bd8ba1ec0d73fdb7b97eb7d0aa1"></a>UnblockUser&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a5861ed3debbb22c14fc2f12bfc496711" name="a522c1bfb49c096952a067859b8f9d8b5a5861ed3debbb22c14fc2f12bfc496711"></a>UpdateUser&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a74dedec74888cba69de2ec23418db328" name="a522c1bfb49c096952a067859b8f9d8b5a74dedec74888cba69de2ec23418db328"></a>GetAuthorizationByUser&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5ac8a2e8dca58d46500c4913dd5fe27c89" name="a522c1bfb49c096952a067859b8f9d8b5ac8a2e8dca58d46500c4913dd5fe27c89"></a>UpdateUserExtensions&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a090c46e1b322c124672506c61899944c" name="a522c1bfb49c096952a067859b8f9d8b5a090c46e1b322c124672506c61899944c"></a>DeleteVideos&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a522c1bfb49c096952a067859b8f9d8b5a85d99df01603a6433cfe5f6c62631ffa" name="a522c1bfb49c096952a067859b8f9d8b5a85d99df01603a6433cfe5f6c62631ffa"></a>GetVideos&#160;</td><td class="fielddoc"></td></tr>

@@ -1,14 +1,15 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition =
 [
-    [ "Condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a7a87927af2fe0234fedb48894e8dfb19", null ],
-    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a89c2ad625a1e313411fce6cd8dc2b91a", null ],
-    [ "campaign_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a73ed57bb53f18363ba49eee496655091", null ],
-    [ "category_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#adeea21a96fd5925822d468088fb922a9", null ],
-    [ "extension_client_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a20623c6e52d889dad53ac60e3ea72623", null ],
-    [ "from_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#acef972adbc14d601f1eaccc9ae8cbb87", null ],
-    [ "moderator_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a6e0e0d76af2a48dc300ec6947d937aa1", null ],
-    [ "organization_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a533f9a34256bb66af7a8101e31da023a", null ],
-    [ "reward_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a0440a56a5b4b18ce4735d7f0b7374461", null ],
-    [ "to_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a1e8fa9be78fb558bb28b33c280e90a8d", null ],
-    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a933e81667e122cbd5148be2c660e9bd7", null ]
+    [ "Condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a21370913dbf80821c3a22d375e886ff4", null ],
+    [ "Condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a83ab81be7d5dbf142433cf81286f3b2b", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a3f4224e203bdf6b1392fea2d456d7220", null ],
+    [ "campaign_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a8f4b64280d2deeb5fa3b973afa8c2dc1", null ],
+    [ "category_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a4accb71b1ef86fcb2505f3e06dee9bf0", null ],
+    [ "extension_client_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a59be4d064d795ae2c14732f7e3024670", null ],
+    [ "from_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a8916e8ee24ca213f3cf04fdbe985d8ce", null ],
+    [ "moderator_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a5f2a62461267b94077164303eb07d6d7", null ],
+    [ "organization_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a453e669c63de6ff455d3a7883222d7eb", null ],
+    [ "reward_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#abb7f6552992d366a5de8d83fef670df3", null ],
+    [ "to_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#a16942b4cfa59457b64fd79d357c740bf", null ],
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html#adffc808a88f6a3ff6ca34ae2ad12ad11", null ]
 ];

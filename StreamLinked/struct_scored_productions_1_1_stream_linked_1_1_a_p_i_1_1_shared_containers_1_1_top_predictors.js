@@ -1,9 +1,9 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors =
 [
-    [ "TopPredictors", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#a0759f865e106dccaa313df762dd64583", null ],
-    [ "channel_points_used", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#aaed37e9d88379405cabd2199fcc386f3", null ],
-    [ "channel_points_won", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#aad5349ce0cef85bded385fe64e8278fc", null ],
-    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#a4e30acb3189ba78c634633edb2c5f47c", null ],
-    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#a1e4a7a52b167eb41be9164de68f5198c", null ],
-    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#ab8129d010fdbad702caa6bced6d6bf16", null ]
+    [ "TopPredictors", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#a433f1e82d6eb43fdcdb80b27bfd3bf8a", null ],
+    [ "channel_points_used", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#adb5e05b12e7c068f455f009d7dd01f1d", null ],
+    [ "channel_points_won", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#acab0538579e9920d30f1202a758fc37e", null ],
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#a132119953bbe24b891b422dad3c22b0f", null ],
+    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#af5d46571b1e5f1603a0df048b1553aa7", null ],
+    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_top_predictors.html#ab96bc38097e49354d293434f57b962e9", null ]
 ];

@@ -1,9 +1,9 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found =
 [
-    [ "TermsFound", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a6dfb0b1406a4b0af856579eb3a85a031", null ],
-    [ "boundary", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a22c4c52832d28c1557d4244673255867", null ],
-    [ "owner_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#aab7ad5f4ca9872cd16b392bccb14613d", null ],
-    [ "owner_broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#ad3681974b22fda91e5421c7a8be2b266", null ],
-    [ "owner_broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a06ca8b161a2089bb6c0508cc01648dd5", null ],
-    [ "term_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a8363575eaca2794d1bf8db82f3dcf35b", null ]
+    [ "TermsFound", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a637f34bb96bdeddbf8adca8071158697", null ],
+    [ "boundary", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a0f3b6f7687a4813b4302fd443dab5728", null ],
+    [ "owner_broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#aca8315e8c501f9066edb91bec1ad7546", null ],
+    [ "owner_broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a03a94773e27d9c5f8dd72a10f8bf6056", null ],
+    [ "owner_broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a5d4fce25865f41821a6098327d55b1ea", null ],
+    [ "term_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html#a91635a0c7050dde8f572c7c23c6e4435", null ]
 ];

@@ -25,8 +25,7 @@ var class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager =
     [ "GetMessage", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a76c3a17e5101f11f62d930f3de931730", null ],
     [ "LogMessage", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a2f3acfba29a4f5a8747bb6a8162df4c7", null ],
     [ "LogMessage", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#af247aa4840175581a4bbda68d3254759", null ],
-    [ "OnApplicationQuit", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#af703ff45f05e78bcbde2b41c6b7bc1ed", null ],
-    [ "Start", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#aca30b1c77c7e18c88a05b3769f49d42e", null ],
+    [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#af7fd0e4c42800cff4a869206a24f44be", null ],
     [ "UpdateMessageLimit", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a8531644758162037bbddaabb4c312780", null ],
     [ "UpdateMessageLimit", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a71beb0201f1d0a52fd600f102389c1d5", null ],
     [ "_instance", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a4c6eb564c54cdc8f1ea89bf2ff89a7fc", null ],
@@ -38,9 +37,9 @@ var class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager =
     [ "OnDebugMessagePosted", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a9fbed56e8c64b8af5f999c284b43297d", null ],
     [ "OnDebugMessageReceived", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a5d366409f7a5845896c4e6af639a02d8", null ],
     [ "PostToDebugCallsDisabled", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a33ad81ed513386f9321a5de64ce7212b", null ],
-    [ "preventNewInstances", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a5f218ec3c0517254de5311e5e9db4d00", null ],
     [ "InstanceIsAlive", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a48ec67fa9431ea8b9a985ee461d9deea", null ],
     [ "MessageLimit", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a04f70764fbca592de7b9e258cb84db1c", null ],
     [ "PersistBetweenScenes", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#aa79004b7094cff5ebbabeff63b636a76", null ],
-    [ "PostedMessages", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a63d306e55d998f4f5742bb70139c5861", null ]
+    [ "PostedMessages", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#a63d306e55d998f4f5742bb70139c5861", null ],
+    [ "UpdateNameToTypeName", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_debug_manager.html#ad6de1097fe0b9a83f62fda3e239517ec", null ]
 ];

@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo v3 small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">StreamLinked<span id="projectnumber">&#160;2.4.0</span>
+   <div id="projectname">StreamLinked<span id="projectnumber">&#160;3.0.0</span>
    </div>
    <div id="projectbrief">Twitch API, Auth, EventSub and IRC for Unity C#</div>
   </td>
@@ -99,10 +99,10 @@ $(function(){initNavTree('md__e_1_2_unity_01_projects_2_stream_linked_2_assets_2
 <div class="contents">
 <div class="textblock"><p>StreamLinked</p>
 <p>Created by Duncan 'ScoredOne' Mellor Project start date 01/03/2023</p>
-<p>This project contains modified versions of LightJson and UniGif. Licensing and links are provided in their respective folders and are covered under the MIT License. <a href="https://opensource.org/license/mit/">https://opensource.org/license/mit/</a></p>
-<p>Project developed with C#9 in Unity 2022.2.5f1 Api Compatibility Level NetStandard 2.1 Currently maintained and published under version 2021.3.33f1, Compatibility Level NetStandard 2.1 Due to inclusion of 'System.Net' this project is NOT compatible with Unity WebGL.</p>
+<p>This project contains the script for NanoJson and a modified version of UniGif. Licensing and links are provided in their respective folders and are covered under the MIT License. <a href="https://opensource.org/license/mit/">https://opensource.org/license/mit/</a></p>
+<p>Project developed with C#9 in Unity 2022.2.5f1, Compatibility Level NetStandard 2.1 Currently maintained and published under version 2021.3.45f2, Compatibility Level NetStandard 2.1 Due to inclusion of 'System.Net' this project is NOT compatible with Unity WebGL.</p>
 <p>For operation of Twitchs API and OAuth generation, please refer to the Twitch Dev console and instructions in the API [<a href="https://dev.twitch.tv/console">https://dev.twitch.tv/console</a>] All authentication methods require your applications ClientID.</p>
-<p>If you have found an aspect of this project has not been kept up to date, you can find all of the latest changes on Twitchs website [<a href="https://dev.twitch.tv/docs/change-log/">https://dev.twitch.tv/docs/change-log/</a>] References updated as of change log post 2025-09-19</p>
+<p>If you have found an aspect of this project has not been kept up to date, you can find all of the latest changes on Twitchs website [<a href="https://dev.twitch.tv/docs/change-log/">https://dev.twitch.tv/docs/change-log/</a>] References updated as of change log post 2026-01-08</p>
 <p>This project is divided into seperate sections related to their respective sections of Twitchs API and build sections. Twitch classes and references are found under the folders:</p><ul>
 <li>TwitchAPI [<a href="https://dev.twitch.tv/docs/api/">https://dev.twitch.tv/docs/api/</a>]</li>
 <li>TwitchEventSub [<a href="https://dev.twitch.tv/docs/eventsub/">https://dev.twitch.tv/docs/eventsub/</a>]</li>
@@ -116,9 +116,8 @@ $(function(){initNavTree('md__e_1_2_unity_01_projects_2_stream_linked_2_assets_2
 <li>TwitchSceneFiles [Example scene code]</li>
 <li>TwitchStatics [Static code and data]</li>
 </ul>
-<p>Archived code due for removal is found under this folder. It follows the same folder structure and namespaces as the active files for ease of access. It is not recommended to use this code as it will no longer be maintained and commented out/removed in a future update. Use of any code found in this area will prompt you a [depreciated] warning.</p>
 <p>Online documentation can be found at my Website: <a href="https://scoredone.github.io/StreamLinked/docs">https://scoredone.github.io/StreamLinked/docs</a> Unity Asset Store Page: <a href="https://assetstore.unity.com/packages/slug/273978">https://assetstore.unity.com/packages/slug/273978</a></p>
-<p>JSON This project uses JSON to process the information provided by Twitch, all objects have specifically implemented reading from LightJson.JsonValue objects. This is due to NetStandard compatibility and also due to its compact nature. Switching out LightJson should see no issues for compatbility (JSON format) However due care is needed due to its heavy inclusion.</p>
+<p>JSON This project uses JSON to process the information provided by Twitch, all objects have specifically implemented reading from NanoJson.NJson objects. This is due to NetStandard compatibility and also due to its compact nature. Switching out NanoJson should see no issues for compatibility (The JSON format itself) However due care is needed due to its heavy inclusion. Just remember Twitch is case sensitive so values such as bool.TrueString will need adjusting to be 'true' instead of the provided 'True'</p>
 <p>Contact Email: <a href="#" onclick="location.href='mai'+'lto:'+'sco'+'re'+'dpr'+'od'+'uct'+'io'+'nso'+'nl'+'ine'+'@g'+'mai'+'l.'+'com'; return false;">score<span class="obfuscator">.nosp@m.</span>dpro<span class="obfuscator">.nosp@m.</span>ducti<span class="obfuscator">.nosp@m.</span>onso<span class="obfuscator">.nosp@m.</span>nline<span class="obfuscator">.nosp@m.</span>@gma<span class="obfuscator">.nosp@m.</span>il.co<span class="obfuscator">.nosp@m.</span>m</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

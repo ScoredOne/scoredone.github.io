@@ -1,13 +1,13 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription =
 [
-    [ "Subscription", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a1f07361e3910f8cf9e1c500f2e684242", null ],
+    [ "Subscription", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ad3b46263e2fe801f591ddbfca927c770", null ],
     [ "Subscription", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a78d1622f31b0eb9255d9a858ce799abb", null ],
     [ "Subscription", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#aadd3b8512fb3d50c0e790fa9c8581b66", null ],
-    [ "condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ad1120cb5f821806fdea46b59ae70a068", null ],
-    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ac60adc09298e069693e1bd5858cab87b", null ],
-    [ "created_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#aee19f8ac9442569c58bcedbc5323822e", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ab006b06f96968fc740f81df4cedb9407", null ],
-    [ "status", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ac620e7fb08b84843e24e8b52dccc90a1", null ],
-    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a7d5f076b0b52c6e4cde1f6424ad5a168", null ],
-    [ "version", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ae4f753ef3d043ebda296d744f12e539c", null ]
+    [ "condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a3e0413d5835c92f58a273377df582cd2", null ],
+    [ "cost", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a82cda4a59f912585200c5f0bc05251ce", null ],
+    [ "created_at", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a15e1b22d683b3cde598606ca09153102", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a939e23bb84406a8543ad7835e786dc0e", null ],
+    [ "status", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a072e236dd22166d3ab0de26f39b93a46", null ],
+    [ "type", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#ad51efb646c484b60bd2d382680915872", null ],
+    [ "version", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html#a5404471ea2e9ab5686fa0c438c31bd20", null ]
 ];

@@ -37,16 +37,13 @@ var hierarchy =
     [ "ScoredProductions.StreamLinked.UniGif.UniGif.CommentExtension", "struct_scored_productions_1_1_stream_linked_1_1_uni_gif_1_1_uni_gif_1_1_comment_extension.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.CommunitySubGift", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_community_sub_gift.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Condition", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_condition.html", null ],
-    [ "ScoredProductions.Assets.StreamLinked.ManagersAndBuilders.Containers.CoroutineWrapper", "class_scored_productions_1_1_assets_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_coroutine_wrapper.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Data", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_data.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Delete", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_delete.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Emote", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_emote.html", null ],
     [ "ScoredProductions.StreamLinked.ManagersAndBuilders.Containers.EmoteExtensions", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_emote_extensions.html", null ],
+    [ "ScoredProductions.StreamLinked.NanoJson.nJson.Enumerator", "struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1n_json_1_1_enumerator.html", null ],
+    [ "ScoredProductions.StreamLinked.NanoJson.NJson.NanoArray.Enumerator", "struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json_1_1_nano_array_1_1_enumerator.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.ExtensionAttributes.EventSubInformationExtensions", "class_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_extension_attributes_1_1_event_sub_information_extensions.html", null ],
-    [ "Exception", null, [
-      [ "ScoredProductions.StreamLinked.LightJson.Serialization.JsonParseException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_parse_exception.html", null ],
-      [ "ScoredProductions.StreamLinked.LightJson.Serialization.JsonSerializationException", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_serialization_exception.html", null ]
-    ] ],
     [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEventExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.Utility.Extensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Followers", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_followers.html", null ],
@@ -70,16 +67,20 @@ var hierarchy =
     [ "IComparable", null, [
       [ "ScoredProductions.StreamLinked.IRC.Tags.EmoteDetails", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_emote_details.html", null ]
     ] ],
+    [ "IDisposable", null, [
+      [ "ScoredProductions.StreamLinked.Utility.Interface.IWrapper", "interface_scored_productions_1_1_stream_linked_1_1_utility_1_1_interface_1_1_i_wrapper.html", [
+        [ "ScoredProductions.StreamLinked.Utility.CoroutineWrapper", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_coroutine_wrapper.html", null ],
+        [ "ScoredProductions.StreamLinked.Utility.TaskWrapper", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_task_wrapper.html", null ]
+      ] ]
+    ] ],
     [ "IEnumerable", null, [
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< TwitchScopesEnum >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ],
-      [ "ScoredProductions.StreamLinked.LightJson.JsonArray", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_array.html", null ],
-      [ "ScoredProductions.StreamLinked.LightJson.JsonObject", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_object.html", null ],
-      [ "ScoredProductions.StreamLinked.LightJson.JsonObject", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_object.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ]
     ] ],
     [ "IEquatable", null, [
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< TwitchScopesEnum >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ],
+      [ "ScoredProductions.StreamLinked.NanoJson.NJson", "struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ]
     ] ],
@@ -102,6 +103,7 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.API.Extensions.SetExtensionRequiredConfiguration", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_set_extension_required_configuration.html", null ],
       [ "ScoredProductions.StreamLinked.API.Extensions.UpdateExtensionBitsProduct", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_extensions_1_1_update_extension_bits_product.html", null ],
       [ "ScoredProductions.StreamLinked.API.Moderation.AddBlockedTerm", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_blocked_term.html", null ],
+      [ "ScoredProductions.StreamLinked.API.Moderation.AddSuspiciousStatusToChatUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_suspicious_status_to_chat_user.html", null ],
       [ "ScoredProductions.StreamLinked.API.Moderation.BanUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html", null ],
       [ "ScoredProductions.StreamLinked.API.Moderation.CheckAutoModStatus", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_check_auto_mod_status.html", null ],
       [ "ScoredProductions.StreamLinked.API.Moderation.ManageHeldAutoMessages", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_manage_held_auto_messages.html", null ],
@@ -155,6 +157,9 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.API.Whispers.SendWhisper", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_whispers_1_1_send_whisper.html", null ]
     ] ],
     [ "ScoredProductions.StreamLinked.Utility.InternalSettingsStore", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_internal_settings_store.html", null ],
+    [ "ScoredProductions.StreamLinked.API.AuthContainers.IOAuthToken", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_i_o_auth_token.html", [
+      [ "ScoredProductions.StreamLinked.API.AuthContainers.TokenInstance", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_instance.html", null ]
+    ] ],
     [ "ScoredProductions.StreamLinked.API.Scopes.IScope", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_scopes_1_1_i_scope.html", [
       [ "ScoredProductions.StreamLinked.API.ITwitchAPIDataObject", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_i_twitch_a_p_i_data_object.html", [
         [ "ScoredProductions.StreamLinked.API.Ads.IAds", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_ads_1_1_i_ads.html", [
@@ -220,6 +225,7 @@ var hierarchy =
         ] ],
         [ "ScoredProductions.StreamLinked.API.Clips.IClips", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_i_clips.html", [
           [ "ScoredProductions.StreamLinked.API.Clips.CreateClip", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip.html", null ],
+          [ "ScoredProductions.StreamLinked.API.Clips.CreateClipFromVOD", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_create_clip_from_v_o_d.html", null ],
           [ "ScoredProductions.StreamLinked.API.Clips.GetClips", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips.html", null ],
           [ "ScoredProductions.StreamLinked.API.Clips.GetClipsDownload", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_clips_1_1_get_clips_download.html", null ]
         ] ],
@@ -283,6 +289,7 @@ var hierarchy =
           [ "ScoredProductions.StreamLinked.API.Moderation.AddBlockedTerm", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_blocked_term.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.AddChannelModerator", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_moderator.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.AddChannelVIP", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_channel_v_i_p.html", null ],
+          [ "ScoredProductions.StreamLinked.API.Moderation.AddSuspiciousStatusToChatUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_add_suspicious_status_to_chat_user.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.BanUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_ban_user.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.CheckAutoModStatus", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_check_auto_mod_status.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.DeleteChatMessages", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_delete_chat_messages.html", null ],
@@ -298,6 +305,7 @@ var hierarchy =
           [ "ScoredProductions.StreamLinked.API.Moderation.RemoveBlockedTerm", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_remove_blocked_term.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.RemoveChannelModerator", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_remove_channel_moderator.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.RemoveChannelVIP", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_remove_channel_v_i_p.html", null ],
+          [ "ScoredProductions.StreamLinked.API.Moderation.RemoveSuspiciousStatusFromChatUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_remove_suspicious_status_from_chat_user.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.ResolveUnbanRequests", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_resolve_unban_requests.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.UnbanUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_unban_user.html", null ],
           [ "ScoredProductions.StreamLinked.API.Moderation.UpdateAutoModSettings", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_moderation_1_1_update_auto_mod_settings.html", null ],
@@ -347,6 +355,7 @@ var hierarchy =
         ] ],
         [ "ScoredProductions.StreamLinked.API.Users.IUsers", "interface_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_i_users.html", [
           [ "ScoredProductions.StreamLinked.API.Users.BlockUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_block_user.html", null ],
+          [ "ScoredProductions.StreamLinked.API.Users.GetAuthorizationByUser", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_authorization_by_user.html", null ],
           [ "ScoredProductions.StreamLinked.API.Users.GetUserActiveExtensions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_active_extensions.html", null ],
           [ "ScoredProductions.StreamLinked.API.Users.GetUserBlockList", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_block_list.html", null ],
           [ "ScoredProductions.StreamLinked.API.Users.GetUserExtensions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_extensions.html", null ],
@@ -369,9 +378,6 @@ var hierarchy =
         [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelUpdate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_update.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.ConduitShardDisabled", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_conduit_shard_disabled.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.DropEntitlementGrant", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_drop_entitlement_grant.html", null ],
-        [ "ScoredProductions.StreamLinked.EventSub.Events.ExtensionBitsTransactionCreate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html", null ],
-        [ "ScoredProductions.StreamLinked.EventSub.Events.StreamOffline", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_offline.html", null ],
-        [ "ScoredProductions.StreamLinked.EventSub.Events.StreamOnline", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Events.WhisperReceived", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_whisper_received.html", null ],
         [ "ScoredProductions.StreamLinked.EventSub.Interfaces.IChannel", "interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_channel.html", [
           [ "ScoredProductions.StreamLinked.EventSub.Events.AutoMessageHold", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_auto_message_hold.html", null ],
@@ -417,6 +423,9 @@ var hierarchy =
           [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelVIPRemove", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_v_i_p_remove.html", null ],
           [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelWarningAcknowledge", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_warning_acknowledge.html", null ],
           [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelWarningSend", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_warning_send.html", null ],
+          [ "ScoredProductions.StreamLinked.EventSub.Events.ExtensionBitsTransactionCreate", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_extension_bits_transaction_create.html", null ],
+          [ "ScoredProductions.StreamLinked.EventSub.Events.StreamOffline", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_offline.html", null ],
+          [ "ScoredProductions.StreamLinked.EventSub.Events.StreamOnline", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_stream_online.html", null ],
           [ "ScoredProductions.StreamLinked.EventSub.Interfaces.ICharityCampaign", "interface_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_interfaces_1_1_i_charity_campaign.html", [
             [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelCharityCampaignProgress", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_progress.html", null ],
             [ "ScoredProductions.StreamLinked.EventSub.Events.ChannelCharityCampaignStart", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_charity_campaign_start.html", null ],
@@ -474,10 +483,6 @@ var hierarchy =
     ] ],
     [ "ISerializationCallbackReceiver", null, [
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< TwitchScopesEnum >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ],
-      [ "ScoredProductions.StreamLinked.API.Users.GetUserActiveExtensions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_get_user_active_extensions.html", null ],
-      [ "ScoredProductions.StreamLinked.API.Users.UpdateUserExtensions", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_users_1_1_update_user_extensions.html", null ],
-      [ "ScoredProductions.StreamLinked.LightJson.JsonArray", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_array.html", null ],
-      [ "ScoredProductions.StreamLinked.LightJson.JsonObject", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_object.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.FlaggedEnum< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_flagged_enum.html", null ]
     ] ],
@@ -531,7 +536,6 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.API.SharedContainers.ViewComponent", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_view_component.html", null ],
       [ "ScoredProductions.StreamLinked.API.SharedContainers.Views", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_views.html", null ]
     ] ],
-    [ "ScoredProductions.StreamLinked.API.SharedContainers.ISharedExtensions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_shared_containers_1_1_i_shared_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.IRC.Message.Interface.ITagContainer", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_container.html", [
       [ "ScoredProductions.StreamLinked.IRC.Message.CLEARCHAT.TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_c_h_a_t_1_1_t_a_g_s.html", null ],
       [ "ScoredProductions.StreamLinked.IRC.Message.CLEARMSG.TAGS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_m_s_g_1_1_t_a_g_s.html", null ],
@@ -571,6 +575,19 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.IRC.Message.Interface.ITagMessage< USERSTATE.TAGS >", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_tag_message.html", [
         [ "ScoredProductions.StreamLinked.IRC.Message.USERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_s_t_a_t_e.html", null ]
       ] ],
+      [ "ScoredProductions.StreamLinked.IRC.Message.Interface.IChannelMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_channel_message.html", [
+        [ "ScoredProductions.StreamLinked.IRC.Message.CLEARCHAT", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_c_h_a_t.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.CLEARMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_m_s_g.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.JOIN", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_j_o_i_n.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.NOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.PART", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_r_t.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.PRIVMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.ROOMSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_o_o_m_s_t_a_t_e.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.THREEFIVETHREE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_f_i_v_e_t_h_r_e_e.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.THREESIXSIX", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_s_i_x_s_i_x.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.USERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_s_t_a_t_e.html", null ]
+      ] ],
       [ "ScoredProductions.StreamLinked.IRC.Message.Interface.IParsedMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_parsed_message.html", [
         [ "ScoredProductions.StreamLinked.IRC.Message.CLEARCHAT", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_c_h_a_t.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.CLEARMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_c_l_e_a_r_m_s_g.html", null ],
@@ -579,6 +596,7 @@ var hierarchy =
         [ "ScoredProductions.StreamLinked.IRC.Message.PART", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_r_t.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.PASS", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_a_s_s.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.PRIVMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.THREESIXSIX", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_s_i_x_s_i_x.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html", null ]
       ] ],
       [ "ScoredProductions.StreamLinked.IRC.Message.Interface.ISenderMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_sender_message.html", [
@@ -589,12 +607,16 @@ var hierarchy =
         [ "ScoredProductions.StreamLinked.IRC.Message.Interface.IUserMessage", "interface_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_interface_1_1_i_user_message.html", [
           [ "ScoredProductions.StreamLinked.IRC.Message.JOIN", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_j_o_i_n.html", null ],
           [ "ScoredProductions.StreamLinked.IRC.Message.NOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_o_t_i_c_e.html", null ],
-          [ "ScoredProductions.StreamLinked.IRC.Message.PRIVMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g.html", null ]
+          [ "ScoredProductions.StreamLinked.IRC.Message.PRIVMSG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_r_i_v_m_s_g.html", null ],
+          [ "ScoredProductions.StreamLinked.IRC.Message.THREEFIVETHREE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_f_i_v_e_t_h_r_e_e.html", null ],
+          [ "ScoredProductions.StreamLinked.IRC.Message.THREESIXSIX", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_s_i_x_s_i_x.html", null ]
         ] ],
         [ "ScoredProductions.StreamLinked.IRC.Message.PING", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_i_n_g.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.PONG", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_p_o_n_g.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.RECONNECT", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_e_c_o_n_n_e_c_t.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.ROOMSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_r_o_o_m_s_t_a_t_e.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.THREEFIVETHREE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_f_i_v_e_t_h_r_e_e.html", null ],
+        [ "ScoredProductions.StreamLinked.IRC.Message.THREESIXSIX", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_t_h_r_e_e_s_i_x_s_i_x.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.USERNOTICE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_n_o_t_i_c_e.html", null ],
         [ "ScoredProductions.StreamLinked.IRC.Message.USERSTATE", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_u_s_e_r_s_t_a_t_e.html", null ]
       ] ],
@@ -602,13 +624,6 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.IRC.Message.NICK", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_n_i_c_k.html", null ],
       [ "ScoredProductions.StreamLinked.IRC.Message.OTHER", "struct_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_message_1_1_o_t_h_e_r.html", null ]
     ] ],
-    [ "ScoredProductions.StreamLinked.LightJson.JsonArray.JsonArrayDebugView", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_array_1_1_json_array_debug_view.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.JsonObject.JsonObjectDebugView", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_object_1_1_json_object_debug_view.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.Serialization.JsonReader", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_reader.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.JsonValue", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.JsonValue.JsonValueDebugView", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_value_1_1_json_value_debug_view.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.Serialization.JsonWriter", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_json_writer.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.JsonObject.JsonObjectDebugView.KeyValuePair", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_json_object_1_1_json_object_debug_view_1_1_key_value_pair.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.LastContribution", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_last_contribution.html", null ],
     [ "ScoredProductions.StreamLinked.API.TwitchAPIClient.MakeTwitchAPIRequestSettings", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client_1_1_make_twitch_a_p_i_request_settings.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.MaxPerStream", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_max_per_stream.html", null ],
@@ -625,10 +640,15 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.TwitchSceneFiles.TwitchMessageGameObject", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object.html", null ],
       [ "ScoredProductions.StreamLinked.TwitchSceneFiles.TwitchMessageGameObjectProvider", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_game_object_provider.html", null ],
       [ "ScoredProductions.StreamLinked.TwitchSceneFiles.TwitchMessageSingleDisplayer", "class_scored_productions_1_1_stream_linked_1_1_twitch_scene_files_1_1_twitch_message_single_displayer.html", null ],
-      [ "ScoredProductions.StreamLinked.Utility.SingletonInstance< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html", [
-        [ "ScoredProductions.StreamLinked.Utility.SingletonDispatcher< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html", null ]
+      [ "ScoredProductions.StreamLinked.Utility.SingletonBase", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_base.html", [
+        [ "ScoredProductions.StreamLinked.Utility.SingletonInstance< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_instance.html", [
+          [ "ScoredProductions.StreamLinked.Utility.SingletonDispatcher< T >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_singleton_dispatcher.html", null ]
+        ] ]
       ] ]
     ] ],
+    [ "ScoredProductions.StreamLinked.NanoJson.NJson.NanoArray", "struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json_1_1_nano_array.html", null ],
+    [ "ScoredProductions.StreamLinked.NanoJson.nJson", "struct_scored_productions_1_1_stream_linked_1_1_nano_json_1_1n_json.html", null ],
+    [ "ScoredProductions.StreamLinked.NanoJson.NJsonExtensions", "class_scored_productions_1_1_stream_linked_1_1_nano_json_1_1_n_json_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.IRC.Tags.TwitchIRCTags.NOTICE", "class_scored_productions_1_1_stream_linked_1_1_i_r_c_1_1_tags_1_1_twitch_i_r_c_tags_1_1_n_o_t_i_c_e.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Outcomes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_outcomes.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Participant", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_participant.html", null ],
@@ -674,20 +694,30 @@ var hierarchy =
     ] ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Slow", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_slow.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.WebSocketMessages.SocketResponse", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_socket_response.html", null ],
+    [ "ScoredProductions.StreamLinked.Utility.StringBuilderProvider", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_string_builder_provider.html", null ],
     [ "ScoredProductions.StreamLinked.VisualScripting.StringPair", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_string_pair.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Sub", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_sub.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.SubGift", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_sub_gift.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.WebSocketMessages.Subscription", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_subscription.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.TermsFound", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_terms_found.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.Serialization.TextPosition", "struct_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_text_position.html", null ],
-    [ "ScoredProductions.StreamLinked.LightJson.Serialization.TextScanner", "class_scored_productions_1_1_stream_linked_1_1_light_json_1_1_serialization_1_1_text_scanner.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Timeout", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_timeout.html", null ],
+    [ "ScoredProductions.StreamLinked.API.AuthContainers.TokenSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_token_settings.html", [
+      [ "ScoredProductions.StreamLinked.API.AuthContainers.ContinuationSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_continuation_settings.html", [
+        [ "ScoredProductions.StreamLinked.API.AuthContainers.SettingContainers.DeviceCodeGrantFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html", null ]
+      ] ],
+      [ "ScoredProductions.StreamLinked.API.AuthContainers.ServerSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_server_settings.html", [
+        [ "ScoredProductions.StreamLinked.API.AuthContainers.SettingContainers.AuthorizationCodeGrantFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_214ef4f7215e5555ae0228c7ccb09237.html", null ],
+        [ "ScoredProductions.StreamLinked.API.AuthContainers.SettingContainers.ImplicitGrantFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_f7cb81143b43499e7b658e50b5fc72c3.html", null ]
+      ] ],
+      [ "ScoredProductions.StreamLinked.API.AuthContainers.SettingContainers.ClientCredentialsFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_200f72fc4d4b5a0bcff98d30bfd4302a.html", null ]
+    ] ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.TopContributions", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_top_contributions.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.TopPredictors", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_top_predictors.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.WebSocketMessages.Transport", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_web_socket_messages_1_1_transport.html", null ],
     [ "ScoredProductions.StreamLinked.API.TwitchAPIClassExtensions", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_class_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.API.TwitchAPIClient", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_client.html", null ],
     [ "ScoredProductions.StreamLinked.API.TwitchAPIDataContainer< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container.html", null ],
+    [ "ScoredProductions.StreamLinked.API.TwitchAPIDataContainerStatics", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_data_container_statics.html", null ],
     [ "ScoredProductions.StreamLinked.API.TwitchAPILinks", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_twitch_a_p_i_links.html", null ],
     [ "ScoredProductions.StreamLinked.ManagersAndBuilders.Containers.TwitchBadge", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_badge.html", null ],
     [ "ScoredProductions.StreamLinked.ManagersAndBuilders.Containers.TwitchEmote", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_containers_1_1_twitch_emote.html", null ],
@@ -811,7 +841,10 @@ var hierarchy =
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< USERNOTICE >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< USERSTATE >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< CAP >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
+      [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< THREEFIVETHREE >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
+      [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< THREESIXSIX >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< OTHER >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
+      [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< string, ConnectedUserState >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< string >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< T1, T2, T3, T4 >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
       [ "ScoredProductions.StreamLinked.Utility.ExtendedUnityEvent< T1, T2, T3, T4 >", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_extended_unity_event.html", null ],
@@ -830,5 +863,6 @@ var hierarchy =
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Vip", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_vip.html", null ],
     [ "ScoredProductions.StreamLinked.VisualScripting.VisualScriptingExtensions", "class_scored_productions_1_1_stream_linked_1_1_visual_scripting_1_1_visual_scripting_extensions.html", null ],
     [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Warn", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_warn.html", null ],
-    [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Whisper", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_whisper.html", null ]
+    [ "ScoredProductions.StreamLinked.EventSub.Events.Objects.Whisper", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_objects_1_1_whisper.html", null ],
+    [ "ScoredProductions.StreamLinked.Utility.YieldTaskExtensions", "class_scored_productions_1_1_stream_linked_1_1_utility_1_1_yield_task_extensions.html", null ]
 ];

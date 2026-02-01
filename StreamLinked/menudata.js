@@ -31,7 +31,6 @@ var menudata={children:[
 {text:"Package List",url:"namespaces.html"},
 {text:"Package Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html"},
-{text:"Typedefs",url:"namespacemembers_type.html"},
 {text:"Enumerations",url:"namespacemembers_enum.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
@@ -78,7 +77,6 @@ var menudata={children:[
 {text:"h",url:"functions_func_h.html#index_h"},
 {text:"i",url:"functions_func_i.html#index_i"},
 {text:"j",url:"functions_func_j.html#index_j"},
-{text:"k",url:"functions_func_k.html#index_k"},
 {text:"l",url:"functions_func_l.html#index_l"},
 {text:"m",url:"functions_func_m.html#index_m"},
 {text:"n",url:"functions_func_n.html#index_n"},
@@ -123,8 +121,7 @@ var menudata={children:[
 {text:"z",url:"functions_vars_z.html#index_z"}]},
 {text:"Enumerations",url:"functions_enum.html"},
 {text:"Properties",url:"functions_prop.html",children:[
-{text:"_",url:"functions_prop.html#index__5F"},
-{text:"a",url:"functions_prop_a.html#index_a"},
+{text:"a",url:"functions_prop.html#index_a"},
 {text:"b",url:"functions_prop_b.html#index_b"},
 {text:"c",url:"functions_prop_c.html#index_c"},
 {text:"d",url:"functions_prop_d.html#index_d"},
@@ -140,16 +137,12 @@ var menudata={children:[
 {text:"n",url:"functions_prop_n.html#index_n"},
 {text:"o",url:"functions_prop_o.html#index_o"},
 {text:"p",url:"functions_prop_p.html#index_p"},
-{text:"q",url:"functions_prop_q.html#index_q"},
 {text:"r",url:"functions_prop_r.html#index_r"},
 {text:"s",url:"functions_prop_s.html#index_s"},
 {text:"t",url:"functions_prop_t.html#index_t"},
 {text:"u",url:"functions_prop_u.html#index_u"},
 {text:"v",url:"functions_prop_v.html#index_v"},
-{text:"w",url:"functions_prop_w.html#index_w"},
-{text:"x",url:"functions_prop_x.html#index_x"},
-{text:"y",url:"functions_prop_y.html#index_y"},
-{text:"z",url:"functions_prop_z.html#index_z"}]},
+{text:"w",url:"functions_prop_w.html#index_w"}]},
 {text:"Events",url:"functions_evnt.html"}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},

@@ -1,0 +1,4 @@
+var _device_code_grant_flow_settings_8cs =
+[
+    [ "ScoredProductions.StreamLinked.API.AuthContainers.SettingContainers.DeviceCodeGrantFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0" ]
+];

@@ -12,8 +12,6 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "GetGlobalChatEmotesAsync", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a857265f0bec56227fe7f1cc4810ef231", null ],
     [ "GetGlobalChatEmotesInternal", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#ac6e824447cb36153cd924a84a8585332", null ],
     [ "LateUpdate", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a093bb29f93227e2c7a772eb3f8903aa3", null ],
-    [ "OnApplicationQuit", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#acca76403551253275c6f38abbe04b6a0", null ],
-    [ "OnDestroy", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#addc455d877b859c2446e8de17e3f059b", null ],
     [ "OnDisable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a01aa966d113716a5298539f9b7517304", null ],
     [ "OnEnable", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a6a0308ed3a73f82eed334e7108d25d5e", null ],
     [ "QueueEmoteDownload", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#ab981d866798334f7f39355e3c63222dc", null ],
@@ -32,9 +30,11 @@ var class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twi
     [ "persistBetweenScenes", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a2cf0b871a3486f06882f352276c6fcde", null ],
     [ "RequestAPICancellationToken", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a7b06ed19889782f65dc786d4e41fe7cd", null ],
     [ "threadsWorking", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#aa39de80b49e274d7a7d7eb965b6abb7a", null ],
+    [ "updateNameToTypeName", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a4cd022ed21a8652bd8e5ef399af5f29d", null ],
     [ "Busy", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a0f3c5683d35212f4fa879fb4a4ca63dc", null ],
     [ "CurrentWaitingItems", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a9ac736b09bc64810f167df14472e6850", null ],
     [ "DownloadedEmotes", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a2268ea8efbd2ddfbcd2ea4679dec38f3", null ],
     [ "DownloaderWorking", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a1440d3f44db370b5db7a6ea7ff56573a", null ],
-    [ "PersistBetweenScenes", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a57089ee2f63d2e4361007c5a95101ff1", null ]
+    [ "PersistBetweenScenes", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a57089ee2f63d2e4361007c5a95101ff1", null ],
+    [ "UpdateNameToTypeName", "class_scored_productions_1_1_stream_linked_1_1_managers_and_builders_1_1_twitch_emote_manager.html#a96cd46a57e6ed429a2cfb9537fa2e07a", null ]
 ];

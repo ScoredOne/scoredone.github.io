@@ -13,6 +13,8 @@ var searchData=
   ['deletegueststarslot_2ecs_10',['DeleteGuestStarSlot.cs',['../_delete_guest_star_slot_8cs.html',1,'']]],
   ['deletevideos_2ecs_11',['DeleteVideos.cs',['../_delete_videos_8cs.html',1,'']]],
   ['devicecodegrantflow_2ecs_12',['DeviceCodeGrantFlow.cs',['../_device_code_grant_flow_8cs.html',1,'']]],
-  ['dropentitlementgrant_2ecs_13',['DropEntitlementGrant.cs',['../_drop_entitlement_grant_8cs.html',1,'']]],
-  ['dropreason_2ecs_14',['DropReason.cs',['../_drop_reason_8cs.html',1,'']]]
+  ['devicecodegrantflowsettings_2ecs_13',['DeviceCodeGrantFlowSettings.cs',['../_device_code_grant_flow_settings_8cs.html',1,'']]],
+  ['devicecodegrantflowsettingseditor_2ecs_14',['DeviceCodeGrantFlowSettingsEditor.cs',['../_device_code_grant_flow_settings_editor_8cs.html',1,'']]],
+  ['dropentitlementgrant_2ecs_15',['DropEntitlementGrant.cs',['../_drop_entitlement_grant_8cs.html',1,'']]],
+  ['dropreason_2ecs_16',['DropReason.cs',['../_drop_reason_8cs.html',1,'']]]
 ];

@@ -1,15 +1,15 @@
 var struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories =
 [
+    [ "SearchCategories", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a6c61f670ed36613a5625de0c47992b57", null ],
     [ "HasResponse< T >", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a0348eb381baae9ecb78e2994a29c092c", null ],
-    [ "Initialise", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#afeb9029bc1da8686148e8ed844e20921", null ],
-    [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#af6deecd8d9e22f37e41137c2c6f720f3", null ],
-    [ "box_art_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a4c3317ca0e6aa6c8b632f7fe2e3c3aef", null ],
+    [ "AFTER", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a9cf82a92f1638a5c32a012fa2e2f2207", null ],
+    [ "box_art_url", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#ac2be6ec008fd54891dc3408a53714275", null ],
+    [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a1f8302d3c7d588bcddb67bedff9a4e14", null ],
+    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a309f18545a4495df0ba1c1cb23c9125c", null ],
+    [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a59204dec246dac814bf2700f40f99fd8", null ],
+    [ "QUERY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#ab1f74e430901df814b391b40535811dd", null ],
     [ "Endpoint", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#ac8637a7e884d43edcf02c280a75ed271", null ],
-    [ "FIRST", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a1917f46db5034193f50d59607405ed6b", null ],
     [ "HTTPMethod", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a8a8ba2260d6cc031f9bc0e7f6788d62b", null ],
-    [ "id", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#abd07b1f111ff273694715ba08b427609", null ],
-    [ "name", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#a062c726313dd995c8c8ed5c5c23e9848", null ],
-    [ "QUERY", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#aa89702f1877e811deb98a63f41522053", null ],
     [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#ae68c9d765acf532f83486dcf78d0b5e6", null ],
     [ "TypeEnum", "struct_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_search_1_1_search_categories.html#ab44c9c5cdf572b77a6745096129ff7fc", null ]
 ];

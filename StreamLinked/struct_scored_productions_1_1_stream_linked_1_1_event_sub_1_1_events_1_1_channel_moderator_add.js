@@ -1,12 +1,15 @@
 var struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add =
 [
-    [ "ChannelModeratorAdd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a486f2b619c05e4d32d154b4230c4e50a", null ],
-    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a8bcd0ad6f06c10a34991369e39aa150b", null ],
-    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a66fc0e3c0fd1d1f44a1bc9fb4bcc1b2e", null ],
-    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a2035648381986ba2153fed227853bfa2", null ],
+    [ "ChannelModeratorAdd", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a0b962fa200ff43f97d3b3132fac56a11", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#afff7dbce8da495463b9a1ebf7bf632e3", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a0a00ad28df8edb84c28d8ba5cb322924", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a6cfe071ed9eed5d1a755c9be38dc5265", null ],
+    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#ac46dc038efa4f4de1ed07c034cb20ede", null ],
+    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a73369422a054acedf8dfc073483dc780", null ],
+    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a00882dbbf046ca38c67d15c2b8a17165", null ],
+    [ "broadcaster_user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a8a4f54bdd1bfc537048ddf128f101724", null ],
+    [ "broadcaster_user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a0d6e8262cef95bd9f3feb88f8f3eb269", null ],
+    [ "broadcaster_user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a19279cbf1adc827bfe5e99c97b857d32", null ],
     [ "Enum", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#a6e2b96caa0c1f1f0523b2e78676c4236", null ],
-    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#aa82432721f3c48d2128af9338e3080f6", null ],
-    [ "user_id", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#aee38b85a37c2601aff8c9bdf5842eddb", null ],
-    [ "user_login", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#ac77dd66e94205055da3e5f563cafd7a5", null ],
-    [ "user_name", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#af4b42f58f03c9f665f6e140ed6a28fc9", null ]
+    [ "Scopes", "struct_scored_productions_1_1_stream_linked_1_1_event_sub_1_1_events_1_1_channel_moderator_add.html#aa82432721f3c48d2128af9338e3080f6", null ]
 ];

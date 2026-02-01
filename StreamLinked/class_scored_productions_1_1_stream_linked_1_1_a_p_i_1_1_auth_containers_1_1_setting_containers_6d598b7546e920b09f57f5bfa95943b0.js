@@ -1,0 +1,18 @@
+var class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0 =
+[
+    [ "DeviceCodeGrantFlowSettings", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#af4555c07e821b9a496d997ee094a432e", null ],
+    [ "AuthPending", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a1109f99e7cf147d249249516ad255aeb", null ],
+    [ "customAuthorizeAddress", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#aeb997d38615b40b8ac9de478ec3ed05e", null ],
+    [ "InvalidDeviceCode", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#afabbfa600080e39b176d007660576168", null ],
+    [ "InvalidRefreshToken", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a1437c8cbf75c643015b9931c897ed7fb", null ],
+    [ "manualRetrieval", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#af6976f3d212f3e71b79b1b8a0de5a3a3", null ],
+    [ "pingInterval", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a9feb931dc3c37b9227c3d37d91b4e79d", null ],
+    [ "pingRetries", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#aa0b3db2bb411fa274c3cdbe47ad831ec", null ],
+    [ "startNewOnRefreshFail", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a27523c852713975a008659ee35cbbc96", null ],
+    [ "CustomAuthorizeAddress", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#ab67f3a3f7ae01b5eded40dba2dba6578", null ],
+    [ "ExpectedDeviceCode", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a9d28e913edd195ab7e2fbcc7987fa249", null ],
+    [ "ManualRetrieval", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a566a20c8568c6707e664678cd12ad29c", null ],
+    [ "PingInterval", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a4889cbac7701b37984f133ff89ba8aac", null ],
+    [ "PingRetries", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#ac8ea6e17f4bd6243bff3bdd2eedd05d5", null ],
+    [ "StartNewOnRefreshFail", "class_scored_productions_1_1_stream_linked_1_1_a_p_i_1_1_auth_containers_1_1_setting_containers_6d598b7546e920b09f57f5bfa95943b0.html#a2b9ed5150593662cded3874228d06ecb", null ]
+];
